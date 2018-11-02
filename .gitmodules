@@ -1,0 +1,3 @@
+[submodule "security/KCON"]
+	path = security/KCON
+	url = https://github.com/knownsec/KCon.git
