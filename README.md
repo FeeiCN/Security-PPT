@@ -35,6 +35,11 @@
 - 删除线表示还在整理中；
 ```
 
+## Download
+
+- Clone repository `git clone https://github.com/FeeiCN/Security-PPT.git` or Clone special directory
+- Or you can download zip `https://github.com/FeeiCN/Security-PPT/archive/refs/heads/master.zip`
+
 ---
 
 注：所有信息收集自互联网，如有侵权，请联系`feei@feei.cn`删除。
