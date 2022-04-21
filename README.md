@@ -2,9 +2,13 @@
 博观而约取，厚积而薄发。
 别裁伪体亲风雅，转益多师是汝师。
 
-### 大安全行业
-`#白皮书`
+### In the `Security-Report` Drectory
+安全白皮书、安全研究报告、安全免费图书、安全指南
 
+### In the `2022-Name` Directory
+`#KCON`、`#HITB`、`#MOSEC`、`#CSS`、`#SSC`、`#NSC`、`#ISC`、`#TENSEC`、`#HACKPWN`、`#UCON`、`#GEEKPWN`、`#HITCON`、`#FIT`、`#EISS`
+
+### The file name tag
 #### 安全项目
 `#SDL`、`#SOC`、`#SIEM`、`#漏洞扫描`、`#漏洞靶场`、`#WAF`、`#IDS`、`#IPS`、`#WAF`、`#代码审计`、`#RASP`、`#SRC`、`#HONEYPOT`
 
@@ -16,9 +20,6 @@
 
 #### 安全认证
 `#CISP`、`#CISSP`
-
-#### 安全会议
-`#KCON`、`#HITB`、`#MOSEC`、`#CSS`、`#SSC`、`#NSC`、`#ISC`、`#TENSEC`、`#HACKPWN`、`#UCON`、`#GEEKPWN`、`#HITCON`、`#FIT`、`#EISS`
 
 #### 甲方安全
 `#谷歌`、`#微软`、`#阿里巴巴`、`#阿里云`、`#蚂蚁金服`、`#腾讯`、`#京东`、`#唯品会`、`#美丽联合`
