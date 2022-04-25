@@ -41,6 +41,12 @@
 - Clone repository `git clone https://github.com/FeeiCN/Security-PPT.git` or Clone special directory
 - Or you can download zip `https://github.com/FeeiCN/Security-PPT/archive/refs/heads/master.zip`
 
+## TODO
+- [ ] 优化分类
+- [ ] 补齐各类会议PPT
+- [ ] 收集各类白皮书和安全研究报告
+- [ ] 为每一个PPT增加标签
+- [ ] 对各会议进行评级
 ---
 
 注：所有信息收集自互联网，如有侵权，请联系`feei@feei.cn`删除。
