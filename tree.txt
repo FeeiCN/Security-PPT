@@ -62,7 +62,7 @@
 │   ├── GDPR IBM分析.pdf
 │   ├── GDPR介绍.pdf
 │   ├── Gary-Time-Based-Security.pdf
-│   ├── Github敏感信息泄露监控.pdf
+│   ├── Github敏感信息泄露监控-止介(Feei).pdf
 │   ├── ICS&IoT安全与取证-邹锦沛.pdf
 │   ├── INDUSTRIAL CONTROL SECURITY MANAGEMENT AND OT SECURITY ANALYSIS-Aleksandar Andric.pdf
 │   ├── IPv6规模部署与网络安全论坛-张焕杰.pdf
@@ -4662,6 +4662,17 @@
 │           ├── 4.陆兴海--移动App数据分析之道.pdf
 │           ├── 5.贾俊杰--云之讯融合通信云服务之路.pdf
 │           └── 6.杨凯--崩溃管理之实践.pdf
+├── QCon-Beijing-2017
+│   ├── 360病毒样本大规模异构实时扫描平台-360-冯鑫.pdf
+│   ├── API平台的安全实践-甲骨文-张梁.pdf
+│   ├── Building Security In Maturity Model (BSIMM)-构筑坚若磐石的安全软件-Synopsys-韩葆.pdf
+│   ├── 他山之石可以攻御-宝宝树-吕伟.pdf
+│   ├── 代码未写，漏洞已出-谈谈设计不当导致的安全问题-腾讯-于旸.pdf
+│   ├── 企业级代码安全最佳实践-美丽联合集团-止介（Feei）.pdf
+│   ├── 基于社交网络的⼤规模网络攻击⾃动对抗技术-腾讯-成杰峰.pdf
+│   ├── 数据驱动安全-滴滴安全基础数据建设-滴滴-梁秦楠.pdf
+│   ├── 甲方安全从0到1-bilibili-吴文灏.pdf
+│   └── 金融行业企业安全建设-安信证券-聂君.pdf
 ├── QCon-Shanghai-2013
 │   ├── WAF的攻防实践.pdf
 │   ├── 企业安全体系建设—理论与实践.pdf
@@ -6685,7 +6696,7 @@
 │   ├── 2.代码混淆研究的新方向(4).pdf
 │   └── 4APT针对恐怖主义的间谍活动剖析.pdf
 ├── SSC-2018
-│   └── 2018SSC终端安全.pdf
+│   └── 员工侧安全-一站式解决方案最佳实践-止介（Feei）.pdf
 ├── Security-Report
 │   ├── 2017企业安全威胁统一应对指南.pdf
 │   ├── 5G安全白皮书-2019.pdf
@@ -7566,4 +7577,4 @@
     ├── 3-4-杨锦峰-等保2.0下的全场景企业安全态势感知建设.pdf
     └── 3-5-李燕宏-“切尔诺贝利”之痛-情报驱动的安全运营.pdf
 
-591 directories, 6975 files
+592 directories, 6985 files
