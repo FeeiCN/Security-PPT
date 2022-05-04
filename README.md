@@ -37,6 +37,6 @@ The tags will be added later to the file name.
 
 标签将在之后补充至文件名中。
 
-You can open the [tree.txt](https://github.com/FeeiCN/Security-PPT/blob/master/tree.txt) and search tag name, e.g. Press `Ctrl-F`, input `阿里巴巴` or `alibaba`.
+You can open the [tree.txt](https://github.com/FeeiCN/Security-PPT/blob/master/tree.txt) and search tag name, e.g. Press `Ctrl-F`, input `白皮书`（whitepaper）.
 
-你可打开[tree.txt](https://github.com/FeeiCN/Security-PPT/blob/master/tree.txt) 然后搜索标签以找到你希望浏览的内容，比如按下`Ctrl+F`后输入`阿里巴巴`或者`alibaba`
+你可打开[tree.txt](https://github.com/FeeiCN/Security-PPT/blob/master/tree.txt) 然后搜索标签以找到你希望浏览的内容，比如按下`Ctrl+F`后输入`白皮书`。
