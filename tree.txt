@@ -93,7 +93,6 @@
 │   ├── as-21-Shi-Mining-And-Exploiting-(Mobile)-Payment-Credential-Leaks-In-The-Wild(1).pdf
 │   ├── get来的漏洞-呆子不开口.pdf
 │   ├── hadoop安全架构.pdf
-│   ├── ~$4-3-3 变电站二次系统信息安全接入控制与安全综合管理技术研究分册 v2.4.doc
 │   ├── 《Make Deep Exploit RCE Attack Popular 》(2).pdf
 │   ├── 【门神】WAF应用层实现的架构漫谈.doc
 │   ├── 为什么唯品会能够100%使用安全开发流程.pdf
@@ -2792,6 +2791,24 @@
 │   ├── Smash The Ref - A Design Flaw in Windows Kernel__Gil Dabah.pdf
 │   ├── Staying Ahead of Internet Background Exploitation__Andrew Morris.pdf
 │   └── Web3 Security- The Blockchain is Your SIEM__Tal Be'ery Shalev Keren.pdf
+├── Botconf-2022
+│   ├── Botconf2022-01-Warning! Botnet is in your house-IMPERVA.pdf
+│   ├── Botconf2022-03-Identifying malware campaigns on a budget.pdf
+│   ├── Botconf2022-04-RTM-SINK-HOLING THE BOTNET.pdf
+│   ├── Botconf2022-06-Detecting and Disrupting Compromised Devices based on Their Communication Patterns to Legitimate Web Services-Akamai.pdf
+│   ├── Botconf2022-10-Yara- Down the Rabbit Hole Without Slowing Down-avast.pdf
+│   ├── Botconf2022-12-Kersten-See Ya Sharp- A Loader’s Tale.pdf
+│   ├── Botconf2022-16-Detecting emerging malware in the cloud before VirusTotal can see it-Alibaba Cloud.pdf
+│   ├── Botconf2022-17-A FRESH LOOK INTO THE UNDERGROUND CARD SHOP ECOSYSTEM.pdf
+│   ├── Botconf2022-18-Qbot Code Evolution Deep Malware Analysis and Intelligence.pdf
+│   ├── Botconf2022-23-Jumping the air gap 15 years of nation-state effort.pdf
+│   ├── Botconf2022-24-Evolution of the Sysrv mining-botnet Reversing Golang Binaries with Ghidra.pdf
+│   ├── Botconf2022-26-Private Clubs For Hackers- How Private Forums Shape The Malware Market.pdf
+│   ├── Botconf2022-31-SmokeLoader Historical Changes and Trends-CROWDSTRIKE.pdf
+│   ├── Botconf2022-37-PrivateLoader The malware behind a havoc-wreaking Pay-per-install service.pdf
+│   ├── Botconf2022-39-Insights and Experiences from Monitoring Multiple P2P Botnets.pdf
+│   ├── Botconf2022-40-Operation Gambling Puppet-TREND.pdf
+│   └── Botconf2022-42-How to Eavesdrop on Winnti in a Live Environment Using Virtual Machine Introspection (VMI).pdf
 ├── CIS-2019
 │   ├── CIS2019-CSO高峰论坛PPT
 │   │   ├── CIS2019-CSO论坛-企业数据防泄密实践分享-程龙.pdf
@@ -7577,4 +7594,4 @@
     ├── 3-4-杨锦峰-等保2.0下的全场景企业安全态势感知建设.pdf
     └── 3-5-李燕宏-“切尔诺贝利”之痛-情报驱动的安全运营.pdf
 
-592 directories, 6985 files
+593 directories, 7001 files
