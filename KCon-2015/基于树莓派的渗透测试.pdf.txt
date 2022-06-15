@@ -1,105 +1,0 @@
-
-
- 
-()  ----MXi4oyu
-
-
-Raspberry Pi("",RPiRasPi/RPi)  
-·Eben Epton 
-
-
-
-(1)GPIO (2) (3) (4)25
-
-
-
-B
-
-B+
-
-
-
--
-(1)B+ (2)HDMI1 (3)SD(4G) (4) (5) (6) Mini usb (5V)
-
--
-(1) http://www.raspberrypi.org/downloads (2)Win32Disk Imager  http://sourceforge.net/projects/win32diskimager/ (3)
-
--
-
--
-
--
-
--Pwn Pi
-http://www.pwnpi.com/
-
-Kali----
-(1)B+ () (2)Micro SD 4G,) (3)Mini usb  (5V,) (4)HDMI (5)9Mini (6)+ (7)3G/4G (8)) (9)
-
-kali----
-
-Kali----
-https://www.offensive-security.com/kali-linux-vmware-arm- image-download/
-
-
- 
- "" 
-
-
-1. 2. 3.APPC 4.
-
-
-
-
-
-SSH Tunnel-SSH
-Awww.91duofanli.comsshd22 Bsshd22
-
-SSH Tunnel----
-
-SSH Tunnel-AutoSSH
-
-SSH Tunnel-AutoSSH
-
-
-3G/4G
-
-----
-
-----
-
-
-
-----
-
-
-
-
-ESSID:BSSIDkey
-keyvaluepassword 
-key
-
-
-
-wps
-airmon-ng start wlan0
-wash -i mon0 ­C
-nohup sudo reaver -i mon0 -b 00:00:00:00:00:00 -a -S ­N -v -d2 -t 5 -c 11 - o fbi &
-
-wpa/wpa2 
-
-
-
-wifi
-(1) (2)
-
-
-
-
-
-PythonGPIO
-
-GPIO
-
-

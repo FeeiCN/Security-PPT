@@ -1,53 +1,0 @@
-BUGSCAN
-
-
-CONTENTS
-Never put off what you can do today until tomorrow
-
-
-
-
-
-
-
-
-Service
-
-Service=`www'
-
-1 
-
-You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-
-
-
-    python
- # -*- coding: utf-8 -*sublime text
-
-
-
-1. Tab 2. 
-
-Python 4
-
-2 
-
-You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-
-
-
-
- 
-
-
-
-sqluernamepassword
-
-3 Service
-Service=`www'
-You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-
-Service=`www'
-www  service=www service=www 
-
-

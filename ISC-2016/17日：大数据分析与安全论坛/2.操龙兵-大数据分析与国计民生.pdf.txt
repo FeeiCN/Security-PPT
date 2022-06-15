@@ -1,226 +1,0 @@
-  
-
-
-
-
-
-/
- 
-
-
- Variety:   Relation/Coupling:   Value: 
- Volume:   Velocity: /  Veracity: /
-
-
-  Variety:   Relation/Coupling: 
-
-
-· 2007 
-·  ·  · 
-
-1998
-·  · 
-
-2007
-·  · Lehman Brothers,
-AIG ·  ·  · Dow Jones50%
-
-
-·  · 
-
-
-
-· 
-­ 
-· 
-­ 
-
-
-· 
-­  
-· 
-­ 
-· 
-­  ­ 
-
-
-·  · 
-­  ­ 
-·  ·  · 
-
-
-· 
-­  C(E,C) ­  C(E,I) ­  C(C,I)
-· 
-
-
-·  CHMM = l(A,B,R,p )
-­ 3
-­ A ­  B ­  R ­  
-
-
-· 
-­ // 
-­  ­  ­ 
-mi: i/
-
-
-· 
-­  ­  ­ 
-mi: i/ mj: j/
-
-
-
-· 
-
-­ 3 ­  ­ 
-
--  -  - 
-
-Time: t-n Stock Market
-
-Time: t Stock Market
-
-Intra-market Coupling
-
-US
-
-UK
-
-CN
-
-US
-
-UK
-
-CN
-
-Inter-market Coupling
-
-Currency Market
-
-US
-
-UK
-
-CN
-
-Currency Market
-
-US
-
-UK
-
-CN
-
-Temporal Coupling
-
-
-· t
-x: 
-· T
-
-
-· 
-­ 
-· 
-­ /
-· 
-
-
-
-·  · 
-
-
-
-
-
-
-
-
-
-
-
-
-
-· /1...t/ t+1
-
-
-
-i 
-
-j 
-
-/
-
-
-
-
-
-· :  · 19901201012
-
- C(E,C)
-C(C,I)
-C(E,I)
-
-
-E:  (DJIA) C:  (WTI Oil)
-C:  I (TED Spread)
-E: (DJIA); IBAA Spread
-
-
-
-7/90-3/91 
-
-3/01-11/01
-
-
-12/07-6/09
-
-
-
-· 
-­ LR-(E,C) ­ LR-(C,I) ­ LR-(E,I)
-· 
-­ LR-C(E,C) ­ LR-C(C,I) ­ LR-C(E,I)
-
-
-
-
-·   
-­  ­  ­  ­ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2008
-· 2007/82007/12/
-­ 
-· 2007/122008/9
-­ /
-· 2008/92009/4
-­ 
-· 2009/42009/11
-­ 
-· 2009/11
-­ 
-
-
-·  ·  · IPOIPO
- · 
- · / ·  ·...
-
-
- Longbing.Cao@gmail.com
-
-

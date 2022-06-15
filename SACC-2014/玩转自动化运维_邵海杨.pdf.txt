@@ -1,139 +1,0 @@
-""
-Shared from UPYUN Inc.
-
- ... 
-
-  
-
-
-
-
-
-Pupplet Chef Ansible Saltstack
-
-agent 
-  vs 
-
-bash sed awk
-
- vs 
-
-awk '{ split($7,a,"/"); b[a[3]]+=$10}
-END { for(i in b) print
-i,b[i] }' \ /var/logs/upyun.access.lo g \ |sort -k2nr \ |head -30
-
-/
-
-
-
-shell
-
-
-
-
-
-  
-
- 
-
-· (ELF) · (.so) · (.h) <-  
-
-·
-
- 
-
-
-
-
-
-/etc/upyun.cfg
-
-/opt/nginx/conf/upstream.co
-
-nf
-
-NGINX_UPSTREAM="
-
-192.168.251.163#1 192.168.251.164#2 192.168.251.165#3 192.168.251.166#4 192.168.251.167#5"
-
-upstream hot.yupoo.com { server 192.168.251.163:8100
-weight=1; server 192.168.251.164:8100 weight=2; server 192.168.251.165:8100 weight=3;
-
-/etc/init.d/nginx
-
-config
-
-server server
-
-192.168.251.166:8100 192.168.251.167:8100
-
-weight=4; weight=5;
-
-consistent_hash $uri 2; }
-
-/etc/init.d/nginx config
-
-
-
-config() {
-
-> $NGINX_DIR/conf/upstream.confif [ ! -z "$NGINX_UPSTREAM" ];then xx=$IFS
-
-for up in $NGINX_UPSTREAM;do
-
-IFS=#;read -r ip weight <<< "$up"
-
-STRING=$STRING"\tserver $ip:8100 weight=$weight fail_timeout=3s;\n"
-
-STRING2=$STRING2"\tserver $ip:8200 weight=$weight fail_timeout=3s;\n" done
-
-IFS=$xx echo -en "\n$STRING\n\tconsistent_hash \$uri 2;\n\t}\n" >>
-
-$NGINX_DIR/conf/upstream.conf echo -en "\n$STRING2\n\tconsistent_hash \$uri
-
-2;\n\t}\n" >> $NGINX_DIR/conf/upstream.conffi}
-
-./gen_ansible.sh CUN-HL-SWI lists_cdn_new 255.255.255.224
-ansible -i lists_cdn_new CUN-HL-SWI -m shell -a " sed -r -i -e '/NGINX_UPSTREAM=/s:.*:NGINX_UPSTREAM=\"192.168. 251.163#1 192.168.251.164#2 192.168.251.165#3 192.168.251.166#4 192.168.251.167#5\":g' /etc/upyun.cfg" f10
-
-
-  
-
- 
-  
-BI/ 
-
- 
-
-
-
-
- CDN 
-
-
- redmine+gitlab/wiki
-web
-
-
- 
-   
-
-
-
-   
-
-
-
-
-·  ·  ·  · 
-
-·  (1,1) ·  (+) ·  (hack,)
-
-
-·   ·   ·  
-bug 
-
-· · ·
-
-
-

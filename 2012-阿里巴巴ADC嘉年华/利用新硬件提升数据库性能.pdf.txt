@@ -1,239 +1,0 @@
-
-  http://yufeng.info
-@ 2012-07-07
-
-Agenda
-·  · CPU ·  ·  · 
-2
-
-TPS
-3
-
-MemSQL MemSQL 1.2 million inserts/second on a 64core, 1/2 TB of RAM machine
-4
-
-MySQL Cluster
-MySQL Cluster 7.2 achieves 4.3BN reads per minute with 30 data nodes
-2-socket servers using X5670 with Infiniband interconnect and 48GB of memory per machine
-5
-
-
-
-· 8 Xeon 7540 CPU96CPU
-
-· 512 GB DDR3
-
-· 600G SSD *12
-
-
-
-· 
-
-· 2 E5-2420 CPU24CPU
-
-· 96GB DDR3
-
-· 600G SSD *8
-
-
-
-·  6
-
-
-
-
-
-
-
-7
-
-/
-CPU 
-Flash  SSD
- 
-8
-
-/
-
-
-
-L1 cache reference Branch mispredict L2 cache reference Mutex lock/unlock Main memory reference Compress 1K bytes with Zippy Send 2K bytes over 1 Gbps network Read 1 MB sequentially from memory Round trip within same datacenter Disk seek Read 1 MB sequentially from disk Send packet CA->Netherlands->CA
-
-0.5 ns 5 ns 7 ns
-25 ns 100 ns 3,000 ns 20,000 ns 250,000 ns 500,000 ns 10,000,000 ns 20,000,000 ns 150,000,000 ns
-
-9
-
-Agenda
-·  · CPU ·  ·  · 
-10
-
-CPU Scalability
-
-1
-
-4
-
-8
-
-16
-
-32
-
-64
-
-11
-
-CPU Scalability
-
-1
-
-4
-
-8
-
-16
-
-32
-
-64
-
-12
-
-CPU Scalability
-
-1
-
-4
-
-8
-
-16
-
-32
-
-64
-
-13
-
-Cache
-
-120000 100000 80000 60000 40000 20000
-0
-
-L1 Cache
-
-L2 Cache
-
-L3 Cache
-
-Memory
-
-read write copy
-14
-
-Cache
-
-45 40 35 30 25 20 15 10 5 0
-L1 Cache
-
-latency
-
-L2 Cache
-
-L3 Cache
-
-Memory
-
-latency
-15
-
-
-16
-
-Sandy Bridge-E
-17
-
-SB-E
-· 6CORE · 4DDR2QPI · PCI-E IO · L3Cache
-18
-
-Agenda
-·  · CPU ·  ·  · 
-19
-
-
-
-
-
-
-20
-
-
-1 2 3 4 5 6 7 8 9 10 11 12 13
-21
-
-
-·  ·  · G
-22
-
-Agenda
-·  · CPU ·  ·  · 
-23
-
-IO
-· IO · IO
-­ 
-· IO IO
-24
-
-
-
-Flash 
-25
-
-Raid
-·PCIe 2.0x8 ·Support Up to 128 SATA Devices ·Dual Core ROC ·1GB cache
-26
-
-SSD
-27
-
-Flash
-PCIe 2.0x4 ioDrive IOPS: with Flash 140,000 Read IOPS, 135,000 Write IOPS
-
-PCIe 2.0x8
-
-850 MB/s (4KB)
-
-220,000 IOPS (4KB)
-
-28
-
-
-PCIe 1.1x4 4K Block Writes: 165,000 IOPS 4K Block Reads: 185,000 IOPS
-DDR3 Non-Volatile DIMM 8G
-29
-
-Agenda
-·  · CPU ·  ·  · 
-30
-
-
-bw lat
-31
-
-· Bonding
-­
-· 
-­PPS ­CPU ­
-
-
-
-32
-
-
-
-33
-
-

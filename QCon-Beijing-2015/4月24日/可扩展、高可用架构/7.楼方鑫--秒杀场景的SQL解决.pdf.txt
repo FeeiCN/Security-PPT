@@ -1,426 +1,0 @@
-SQL
-
-
-www.dnt.com.cn  
-
-V2013.1  
-
-www.dnt.com.cn  
-
- · 
-­ NoSQL? ­ SQL? ­ Why?
-www.dnt.com.cn  
-
-
-·  ·  ·  ·  · 
-www.dnt.com.cn  
-
-
-
-
-
-
-
-
-
-
-
-www.dnt.com.cn  
-
-
-www.dnt.com.cn  
-
-
-
-   
-
-   
-
-   
-
-www.dnt.com.cn  
-
-
-·  ·  ·  ·  · 
-www.dnt.com.cn  
-
-
-·  ·  ·  ·  ·  · 
-www.dnt.com.cn  
-
-
-·  ·  ·  ·  ·  · 
-www.dnt.com.cn  
-
- ·  ·  ·  · 
-www.dnt.com.cn  
-
- ·  ·  · 
-www.dnt.com.cn  
-
-
-     
-
-     
-
-     
-
-     
-
-     
-www.dnt.com.cn  
-
-
-
-
-
- 
-
-
-
- 
-
-
-
-www.dnt.com.cn  
-
-
-
-  
-
-   
-
-www.dnt.com.cn  
-
- ·  ·  ·  · 
-www.dnt.com.cn  
-
-
-· pthread_mutex_t · pthread_spinlock_t · CAS
-­ __sync_fetch_and_add ­ __sync_fetch_and_sub ­ __sync_add_and_fetch ­ __sync_sub_and_fetch
-www.dnt.com.cn  
-
- ·  ·  ·  · 
-www.dnt.com.cn  
-
- ·  · 
-www.dnt.com.cn  
-
- ·  ·  · 
-www.dnt.com.cn  
-
-
-· MySQL · MySQL + Read Cache · MySQL + Read/Write Cache · MySQL + NoSQL + Cache · NoSQL + Cache · OneSQL + Read Cache
-www.dnt.com.cn  
-
-MySQL ·  ·  · 
-www.dnt.com.cn  
-
-MySQL + Read Cache ·  · 
-­ Delay
-· 
-www.dnt.com.cn  
-
-MySQL + Read/Write Cache
-·  · 
-­ Delay ­  ­  ­ 
-· 
-www.dnt.com.cn  
-
-Write Cache(
-
-App1
-
-App2
-
-Cache   (item1)
-
-Cache   (item2)
-
-Cache   (item3)
-
-MySQL
-www.dnt.com.cn  
-
-Write Cache()
-
-App1
-
-App2
-
-Cache   (item1,   item2)
-
-Cache   (item2,   item3)
-
-Cache   (item3,   item1)
-
-MySQL
-
-www.dnt.com.cn  
-
-Write Cache()
-
-App1
-
-App2
-
-Cache   (item1,   item2)
-
-Cache   (item2,   item3)
-
-Cache   (item3,   item1)
-
-MySQL
-
-www.dnt.com.cn  
-
-Write Cache()
-· 
-­  ­ 
-· 
-­  ­ 
-www.dnt.com.cn  
-
-MySQL + NoSQL + Cache
-· 
-­ 
-· 
-­ 
-· 
-­  ­ 
-www.dnt.com.cn  
-
-MySQL + NoSQL + Cache()
-
-App1
-
-App2
-
-NoSQL   (item1,   item2)
-
-NoSQL   (item2,   item3)
-
-NoSQL   (item3,   item1)
-
-MySQL
-
-www.dnt.com.cn  
-
-MySQL + NoSQL + Cache()
-· 
-­  ­ 
-· 
-­  ­ 
-www.dnt.com.cn  
-
-NoSQL + Cache
-· 
-­ 
-· NoSQL
-­  ­ 
-www.dnt.com.cn  
-
-MySQL
-
-· MySQL
-­  ­ 
-· 
-­ 
-· 
-­ 
-· 
-­ 
-
-www.dnt.com.cn  
-
-OneSQL + Read Cache
-·  · 
-­ Delay ­ 
-· 
-www.dnt.com.cn  
-
- ·  ·  · 
-www.dnt.com.cn  
-
-
-· 
-­  ­ 
-· 
-­  ­ 
-www.dnt.com.cn  
-
-
-· 
-­  ­ 
-· 
-­  ­ 
-· SLA
-­ 500
-www.dnt.com.cn  
-
-OneSQL 
-www.dnt.com.cn  
-
- · Start transaction · Insert · Update · Commit
-www.dnt.com.cn  
-
-
-
-n
-
-1   
-
-
-www.dnt.com.cn  
-
-
-· Commit · 
-­ SocketCPU ­ Auto CommitCPU ­ 0.2 ms ­ 0.4 ms ­ 2.0 ms
-· 
-­  ­ UpdateJVM GC
-www.dnt.com.cn  
-
-
-· Update · 
-­ Update ­ Update
-· 
-­ Update ­  ·  ­ Update
-www.dnt.com.cn  
-
-
-· 
-­ Start transaction ­ Insert  ­ Update /*+ [auto_commit affect_rows 1] *
-/ ... ­ Commit
-· 
-­  ­ NoSQL
-www.dnt.com.cn  
-
-
-· 
-­ Start transaction ­ Select /*+ [auto_rollback] */ ... for
-update
-· 
-­  ­ NoSQL
-www.dnt.com.cn  
-
-JVM
-· Start transaction · Insert · Update · JVM gc100ms) · Commit
-www.dnt.com.cn  
-
-
-· 
-­ Create table t_item (col1 int not null primary key, col2 int);
-­ Insert into t_item values (1, 100000000);
-· 
-­ Start transaction ­ Update /*+ [auto_commit] */ t_item set
-col2=col2-1 where col1 = 1; ­ Commit;
-· 
-www.dnt.com.cn  
-
-
-· 
-­  ­ 
-· 
-­ SQL ­ SQL
-· NoSQL vs SQL?
-­ SQL
-www.dnt.com.cn  
-
-
-· 
-­ MySQL?
-· MySQL Server
-­ InnoDB
-· MySQL InnoDB
-­ 
-www.dnt.com.cn  
-
-
-
-App Item?
-
-App Item?
-
-Q1 Q2 Q3 Q4 Q5
-
-Q1 Q2 Q3 Q4 Q5
-
-MySQL
-www.dnt.com.cn  
-
- · 
-­ 
-· 
-­ 
-www.dnt.com.cn  
-
-MySQL
-
-App
-
-App
-
-App
-
-Item?
-
-Q1
-
-Q2
-
-Q3
-
-Q4
-
-Q5
-
-InnoDB
-www.dnt.com.cn  
-
-MySQL
-· 
-­  ­ SQL
-· 
-­ InnoDB
-www.dnt.com.cn  
-
- ·  ·  · 
-www.dnt.com.cn  
-
-
-
-1
-   
-
-MySQL   Server1
-
- ~  
-
-MySQL   Server2
-
-   
-1/1/1/10/100
-
-www.dnt.com.cn  
-
-
-
-
-   
-
- 
-
-MySQL   MySQL   MySQL   MySQL   MySQL   MySQL  
-
-Move
-
-Normal
-
-www.dnt.com.cn  
-
-MySQL   MySQL   Hot  Spare
-
-Q  &  A
-OneSQL  +  OneProxy  =  Data  Arch  on  Cloud
-
-

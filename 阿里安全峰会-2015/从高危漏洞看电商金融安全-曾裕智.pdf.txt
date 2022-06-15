@@ -1,121 +1,0 @@
-
-
-
-1  2  3  4  5 
-
-
-·  · Freebuf& · WebAPP
-
-
- · Freebuf.com ·  · 
- · <=>  · <=>  <=> 
- ·  · CNCERTCNVDSERCIS
-
-
-
- 20156 
-
-
-
-
-
-
-
-
-
-
-
-
-Freebuf.com 2015
-
-
-· ---> 
-· Web--->APP/API/ · --->APT
-
-
-
-· 
-· 
-· 
-·  
-
-
- · Struts,Spring
- · SQLHQL ·   ·  
- · MongoDB · JBoss jmx-consoleInvoker war · Websphere/ WebLogic/ WebLogic/ Tomcat war · OracleWeb · Resin · WEB-INF/web.xml
-
-Web2.0
-XMLWeb · XXE · XML · XPATHXQUERY · XML DoS · SSRF
-RESTWeb · SSL · SESSION · HTTP
- · OAuth · HASH · CBC · SAML
-
-
-
-
-
-
-ID
-
-
-· IT
-javascript
-
-
-·  ·  · response ·  ·  · js ·  · ......
-
-· 
-
-· APP
-
-
-
-· 
-
-
-· 
-
-
-·  
-
-
-·  
-
-
-
-XXE
-<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE UserInfo [ <!ENTITY name SYSTEM"file:///etc/passwd"> ]> <UserInfo>
-<name>&name;</name> </UserInfo>
-
-· P2P
-
-APP//API
-
-API
-
-
-
-API
-
-API
- API
-
-github
-·  · 
-
-waf
-· SQL
-
-
-·  
-· SQL 120
-·  · 
-
-
-· "" 
-· APP/API/ 
-·  
-·  
-
-
-
-

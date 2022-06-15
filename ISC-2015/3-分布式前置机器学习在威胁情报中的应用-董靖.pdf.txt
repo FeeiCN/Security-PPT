@@ -1,138 +1,0 @@
- 
-Application of Distributed Front-end Machine Learning in Threat Intelligence
-
-
-Moving Big-Data Analysis from a `Forensic Sport' to a `Contact Sport' Using Machine Learning and Thought Diversity
-AJ Ferguson, NM Evans Harris Information Assurance Directorate
-National Security Agency Journal of Information Warfare (2015) Volume 14
-IAD is responsible for NSA's defensive mission and is widely acknowledged for leading innovative security solutions.
-
-: ?
-
- 
-
-""
-
- 
-
-
-icloud-ios-appeid.us iCloud  2015-09-26 2015-09-29 3  + 
-
-
-
-Kill Chain
-
-·  · 1 · 2 ·  ·  ·  · 
-
- =   = 
-
-?
-
-
-
-
-
-
-
-
-
-
-
-Too much data?
-
-
-
-
-
-
-
-: SIEM
-Situation Awareness
-· It's not a matter of simply aggregating all the tactical-level information available. Instead, status information must be correlated to the context of the mission or business, thus exposing the real impact to its operations.
-· At the strategic level, it's important to be able to look well beyond simple incident data to identify threat actors, recognize trends in their activities, and expose their malicious objectives.
-
-          
-- Too much data? - Data is useless unless it drives decisions.
-
-
-
-
-
-
-
-
-                        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-·  ·  ·  ·  ·  ·  · 
-
-
-·  · API ·  ·  ·  ·  · //
-
-
-
-
-· A 220 
-·           
-·  
-
-
-· 5 ·       RAR     ·  USB          ·  ·  ·       DNS     
-
-
-
-·  · Web drive-by ·  ·  · Tor / P2P · 
-
-
-
-
-· C&C ·  ·  · TTP
-
-
-· DGA ·  ·  · 
-
-
-
-
-·  ·  ·  ·  · 
-
-
-·  ·  ·  · bug  · 
-
-STIX - B6
-
-
-
-

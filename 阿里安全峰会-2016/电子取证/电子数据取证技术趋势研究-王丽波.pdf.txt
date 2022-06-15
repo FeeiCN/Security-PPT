@@ -1,258 +1,0 @@
-
-
-2016-7-8
-
-0 1 
-
-
-   
-·  ·  ·  · 
-
-
-
-GB/T 29360-2012  GB/T 29361-2012  GB/T 29362-2012  GA/T 754-2008  GA/T 755-2008  GA/T 756-2008  GA/T 757-2008  GA/T 825-2009  GA/T 826-2009  GA/T 827-2009  GA/T 828-2009  GA/T 829-2009  GA/T 976-2012  GA/T 977-2012 
-
-GA/T 978-2012  GA/T 1069-2013 GA/T 1070-2013 GA/T 1071-2013Windows  GA/T 1770-2014  GA/T 1771-2014  GA/T 1772-2014  GA/T 1773-2014  GA/T 1774-2014  GA/T 1775-2014  GA/T 1776-2014   2005161 2005281
-
-
-
-     
-
-     
-
-
- 
-IPMAC
- 
-  
-
-
-   IDSVPN      
-
-
-
-
-
-
-
-
-
-TcpDump&Windump Unix & Windows
-
-
-
-Wireshark Sleuth Kit
-Argus SNORT
-
-Unix & Windows
-
-
-
-Unix
-
-
-
-Unix
-
-
-
-Windows /Unix
-
-
-
-
-
-(UbiquitousNetwork)
-
-PSTN
-
-PLMN (GSM/CDMA/3G/4G
-
-NB-IoT
-
-Internet ISDN/xDSL/FTTx)
-
-WSN RFID
-
-Zigbee
-
-WLAN 
-
-BT
-
-WPAN
-
-
-
-0 2 
-
-
- 
-H2H
- (Internet of ThingsIoT)
-H2MM2M/ V2R
-
-
-
-Edge Server
-
-HMI or AI
-
-Blue tooth
-
-WiFi
-  
-  
-
-RFID
-
-NB-IoT
-
-WSN
-Zigbe e
-
-
-
-01
-
-
-
-/
-
-02
-
-
-
-
-
-
-
-03 
-
-04
-
-
-
-
-
-
-
-HackRF
-
-SkyJack/ Raspberry PI
-SSRP
-
-ProxMark3
-
-Ubertooth one
-
-
-
- 2007· 
-
- 2008 
-
- 2008, 
-
- 2011RQ-170""
-
-
-
-2013·SkyJack 
-
- 2014Tesla Model S
-
- 2015
-
- 2015
-
-""
-
-"" IDS 
-
-""
-
-
-
-IDS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Who
-
-Where
-
-When
-
-0 3 
-
-
- 
-
-
-
-01
-
-02
-
-03
-
-
-DDOS 
-
-04
-
-
-API 
-
-
- 
-
-
-05
-
-06
-
-07
-
-
- 
-
-
- 
-
-
-   
-
-
- 
-
-
-
-Ceph
- 
-
-Ceph
- vm pool # rbd ls vms
- volume pool # rbd ls volumes
- vm # rbd export -p vms <vmuuid> <>
- volume # rbd export -p volumes <volumeuuid> <>
-
-virt-managerVM
-
-Thanks
-
-

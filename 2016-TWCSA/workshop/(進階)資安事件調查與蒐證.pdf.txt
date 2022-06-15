@@ -1,850 +1,0 @@
-()
-2016  
-Service@iforensics.com.tw
-
-
-
-Ø  Ø 
-
-Ø:  / /LiveCD LiveUSB/ Ø
-
-Ø / /
-
-/ /LiveCD LiveUSB/
-
-Ø
-
-Ø
-
-/
-
-/Rootkit /
-
-// /
-
-Ø: Ø
-
-
-
-/
-
-// (volatile)/( LiveSearch)/
-
-Page 2
-
-
-
-
-
-35%
-86%
-40%
-55% 
-38% 41%
-86%
-59%e-discovery 54%
-
-Page 4
-
-Accedata 2014
-
-
-
-Page 5
-
-Accedata 2014
-
- ­ 
- 35%  
-
-Page 6
-
-Accedata 2014
-
-
-
-   
-
- 
-
- 
-
-
-
-
-
-         
-
-
-
-  
-
-    
-
- 
-
-
-
- 
-
- 
-
-
-
-
-
-
-
-1
-
-Page 7
-
-4
-
-2
-
-3 
-
-:  (
-
-a.:
-Email URL Link(sky/ftp/ ...)
-   
-Page 8
-8
-
-:  (
-
-a.USB ... b.:
-  
-
-Page 9
-9
-
-:  (
-
-a. (Ftp,Http,Dns,Mail /...) b.: 
-
-Page 10
-10
-
-: 
-
-- APT...
-
--  Kernel/Driver RootKit...
-
-- ...
-Page 11
-11
-
- APT  ?
-   ""  ...
-...
-Page 12
-
-
-
- 
-
-!!
-
-
- ·EndPoint Agent · IDS/IPS/Firewall/NAC  · ·EnCrypt  ·CCTV  · · ·SOC  ·EndPoint Monitoring (EnCase ,FTK .. Agents) ·IDS/IPS/DLP/NAS ·Content Filter ·Encrypt and Authentication ·Access Control · CCTV Monitoring P·aSgecu1ri4ty Auditing
-
-
- ·   · · ·Log ·   · · ·CCTV  · · · Log  
-
-/
-
- 
- ·/ SOP · ·Email · · ·Cloud Collection · ·  · SOP ·SmartPhone Extraction module · Memory Dump Tool ·FTK Imager · ·LiveSearch Tool ·Data Recovery Tool
-
-
- ·Memory Analysis ·Process Analysis ·Registry Analysis ·HD Data Analysis ·Log Analysis ·Handset device Analysis ·Cloud Analysis  · ·LogIndexing(Splunk) ·EnCase/FTK ·AccessData Insight ·VFC3/HBGary ·Netwitness ·Log Analysis
-
-
- ·SOC  · ·(SLA)  · · ·
-
-
-     
-:
-·  · 
-Page 15
-
-
-
- 
-
-
-   
-
- 
-
-
- 
-
-
-   
-
-   
-
-
-· · ·
-Page 16
-16
-
-
- (  
-:
-·  · 
-
-Page 17
-
-
-      
-:
-· 
-Page 18
-
-
-      
-:
-·  · 
-Page 19
-
-
-
-1 //
-
-2 
-
-3 
-
-4 
-
- 
-
- 
-
- 
-
- 
-
-Page20/
-
-
-
-Logicube Forensic Dossier
-
-/ (//
-)
-
-
-Association of Chief Police OfficersACPO
-·   
-·   
-·   
-·   
-Page 21
-21
-
-?
- :
-  ?
-!
-Page 22
-22
-
-
-/ (Authorization paper)  (Chain of custody Form) (Evidence Worksheet)  (Agent Notes Worksheet)
-
-Page 23
-
- 
-
-
-Page 24
-24
-
-
-
-·  or  () · Memory DumpNetworking Capture
-
-
-·  · VS.
-Page 25
-
-
-:  : (Bit-
-stream) :  :  : 
-Page 26
-
- ()
-1. : :/// /... () ·: ·ID · · ·
-Page 27
-
- ()
-1. : :/// /... () ·: ·ID · · · ()
-2. 
-Page 28
-
- ()
-1. : ·
-·  ·   Lost · Pin Code/
-·Pin Code/ · ·/
-Page 29
-29
-
-  · · ·(5)
-Page 30
-30
-
-() 
-·   ?  ?
-Page 31
-
-: 
-1.  Memory dump 
-2. (MD5 or SHA )
-Page 32
-
-
- () ·  ·  
- ·  · 
- ·  · 
-Page 33
-
-
-
-·  ·  ·  ·  · 
-
-· ......
-Page 34
-
-
-
-: 
-? !!
-
-Page 36
-
--
-  Log   /  IP Time Line   
-Page 37
-
-  
-1.
-( + ) ( + )
-2. 
-Page 38
-
-
-
- 
-:
-·  ·  ·  · 
-Page 39
-
-- 
-:
-: ·  / 
-(TrenMicro/Macfee/Symantec...) : ·  System Internal "Sigverify" NSRL,  (Bit9 ??)
-Page 40
-
-
-· · · + () · ·Log
-SOP ?
-...
-Page 41
-
-
-Page 42
-
-
- v.s.    (,,...)
-Page 43
-
-
-, ,, FTK Imager Litememory dump
-Page 44
-
-
-FTK Imager[File]->[Capture Memory]
-Page 45
-
-  [Create AD1 file][Capture Memory]
-Page 46
-
-1memory dump  1 1
-Page 47
-
-memcapture.ad1.txt (MD5SHA1 HASH
-Page 48
-
-Page 49
-
-Hash Value
-Page 50
-
-
-USB 
-FTK Imager[File]->[Create Disk Image]
-Page 51
-
-[Physical Drive] []
-Page 52
-
-USB[Finish]
-Page 53
-
-[Add]
-Page 54
-
-[E01] []
-Page 55
-
-[]
-Page 56
-
-[Browse]
-Page 57
-
-[]
-Page 58
-
-() [Finish]
-Page 59
-
-2 [Start]
-Page 60
-
-MD5SHA1HASH
-Page 61
-
-
-[File]->[Image Mounting],, Image File
-Page 62
-
-1.E01,FTK Imager Lite 
-Page 63
-
-,
-Page 64
-
-FTK Imager Lite[Add Evidence Item]
-Page 65
-
-
-Page 66
-
-
-SAM,System  , , 
-Page 67
-
-
-Page 68
-
-FTK Registry Viewer
-
-Page 69
-
-
-Page 70
-
-Live View
-Q:,"" ,??? A: Live View
- VMWare Workstation 5+ VDDK JRE(Live View)
-Page 71
-
-How Live View works?
-FTK Imager Lite  Mount Image Pro  Live Viewsnapshot VMWare Workstation
-Page 72
-
-
-,Live Viewsnapshot, VMWare Workstation," " - http://liveview.sourceforge.net/
-Page 73
-
-Practice
-Live View "" 
-Page 74
-
-Active Directory Agent
-
-
-Rick,[]->[ ],
-Page 76
-
-
-Page 77
-
-,
-Page 78
-
-
-
-Page 79
-
-exe,bat
-Page 80
-
-
-Page 81
-
-
-
-Pstools 
-Page 83
-
-
-Page 84
-
-
-
-· Agent · (Memory Dump) · Triage  (LiveDetector) · // · )
-
-·  · ()
-Page 85
-
-
-
-False Positive
-
-, Hash set Hash set Hash Library
-Page 88
-
-VirusTotal
-Page 89
-
-
-
-
-Page 91
-
-
-Page 92
-
-
-
-[Severity], 
-Page 94
-
-Injection
-
-RedLineInjection
-Page 96
-
-
-
-
-Pagefile.sys Prefetch/Userassist Evt Log/IIS log/NTFS Journal/Other log files MRU (IE/FireFox browser and open log) Software Install log/tmp files Delete Files Timeline analysis Registry analysis (Shimcache,Autoruns...) Memory analysis
-Page 98
-
-Windows
-WebMail
-­Outlook/Outlook Express/Notes/Exchange EDB ­Web cookie/Cache/History/Favorite/Registry Keyin
-Windows
-­Event/Application/Security/Web log ­(Access/Modification/Create) ­Registry Dump ­System Patches Version detailed/Install
-Software/Recent Open files ­Auditing Policy ­Temp/My document/Swap ­All True types
-Page 99
-
- ()
-Delete 
-­FAT12/FAT16/FAT32/NTFS  ­Recycle Bin
-
-­(////) ­RTF/PDF/Office (2007)... ­(zip, rar, gzip, bzip, gz...) ­html/xhtml/htm/txt...Web ­Source codejava, perl, c, c++, php...
- ­HelpWindows chm, Unix man, info... ­...
-Page 100
-
- ()
-Unallocated 
-­ file system ­ DiskSlack  ­ FileSlack  ­ Partition Disk Unallocated Cluster ­ 
-Page 101
-
- IP
- 
-Page 102
-
-
- 1. 2. 
-­ Browser Cache, History ­ FaceBook, Personal Webmail, Skype,
-MSN, Googletalk, Youtube, , ...
-3. 4.USB
-Page 103
-
- ?
-MACE (Modified/Access/Creation/Entry modify)  , 
-Page 104
-
- Prefetch
- ?
-Page 105
-
-Prefetch 
-Windows , C:\windows\prefetch  xxx.pf  ,, Windows   xxx.pf DLL, CFG    xxx.pf  Free Nirsoft WinPrefetchView
-Page 106
-
-Prefetch 
-Step 1: FTK Imager(mount) Step 2: C:\windows\prefetch  Step 3:WinPrefetchView ,  "options" =>"Advanced options" ( )
-Page 107
-
-WinPrefetchView 
-Page 108
-
-Recent Open View IE History Viewer
- Nirsoft
-· RecentOpenView · IE History/Firefox/Chrome Viewer · Lastactivity Viewer · Userassist ...
-Page 109
-
-Last Activity
- 
-Page 110
-
-Shellbag
-, 
-Page 111
-
-
-
- (Live Search)
-(Best Practice) 
-·  · 
-
-· File Access Time/Search Temp files · LiveSearch Tool (Example: Livesearch)
-(,)
-Page 113
-
-Mac / Linux / Unix (Unix Like OS)
-
-(Log) Logon Logs
-Log
-/etc/utmp /var/log/utmp
-/etc/wtmp /var/log/wtmp /usr/adm/wtmp
-/usr/etc/lastlog /var/log/lastlog
-
-Format Binary Binary
-ASCII
-
-/var/adm/loginlog ASCII
-
-/var/log/secure /var/log/httpd*
-Page 114
-
-User and Characteristics
-Tracks current logons. Used by w/who/users/finger
-Records all logons, tty, source hosts, reboots, and date changes Used by last
-Contains a list of logon times and sources. Used by lastlog
-Contains list of failed logons. Not enable by default. System V only
-
-Mac / Linux / Unix (Unix Like OS)
-
-· mount / umount · ls · fdisk · find / grep · ps · tar · dd · stat · chksum · diff · head / tail / more · history
-Page 115
-
-Mac / Linux / Unix (Unix Like OS)
-Examine Account Information Trust Relationship Configuation Files
-(/etc/hosts.equiv /etc/hosts.lpd .rhosts and .shosts) Invisible Files and Directories · find . ­type d ­name ".*" -print0 | cat -a Search SUID root excutables · find / -user root ­perm -4000 ­print0 | xargs -0 ls -l Search SGID programs · find / -perm -2000 ­print0 | xargs -0 ls ­l Verifying crontab and at jobs Shell and Application History
-(sh / csh / ksh / bash / tcsh ) Miscellaneous
-(ltrace / strace / sysctl / lsof (list open files) / netstat )
-Page 116
-
-
-
-
-Page 117
-
-Linux  Window Admin/Root 
-, Non-forensics 
-·Windows Administrator? ·Linux root? ·Vmware ? (Free:Chntpw,:Elcomsoft) windows,linux mount /etc/shadow
-Page 118
-
- ATA  () 
-Hardware: Atola Insight / Ninja Software: HDD Unlock Wizard / ATA Security lock removal
-Page 119
-
-
-
-· 
-
-· / · , · 
-Log
-Page 120
-
-
-
-­
- ·    ·   Live CD or Live USB
-Page 122
-
-()
-:
-Page 123
-
-
-
-1. Capture
-· 
-2. DD
-· 
-3. E01
-· 
-
- & Verify
-Page 124
-
-
-
-Imaging  MD5/SHA
-
-Page 125
-
-LiveCD
-· Free Live CD : Helix 3 , LinEN  · USB · LiveCD 
-
-Live CD Boot  Ramdisk Boottouch (mount read-only)
-· Digest MD5  SHA
-dd like(ddfldd,dd_rescue,dccidd) Md5/sha1
-Md5sum Shasum
-Page 126
-
-
-1. LiveUSB (LiveCD) 2. Memory Dump Tool 3. LiveDD FTK Imager) 4. LiveSearch 5. Triage like
-LiveDetector)
-6.  7. Data Recovery tool
-Page 127
-
-Demo LiveCD / LiveUSB
-1. Mac (MacBook Pro / Mac Air) 2. Windows LiveCD
-­ Imaging ­ Virus Scan (Write Block) ­ Data Recovery (Write Block) ­ Password Recovery (Write Block)
-Page 128
-
-
-  Encase, FTK, X-ways... FTK Imager
-Page 129
-
-
-Page 130
-
-
-Page 131
-
-
-
-(Sniffer)
-
-Clients
-
-Sniffer   Sniffer
-Machine
-Switch
-
-Internet
-
-Application Servers
-
-Firewalls
-Firewall
-
-Page 133
-
-Clients
-
- ­Sniffer
-
- 
-
-DB
-
-  index
-
- 
-
-Page 134
-
- ­Sniffer 
-:
-­ Switch Port Mirroring () ­ Pure HUB  ­ Tap Switch ­ Arp  (Hacker ) ­ Mac Flood (Hacker )
-Page 135
-
- ­ 
-NetWitness ,,Email Address Wireshark,Pcap DriverYes Google Earth Netwitness  
-Page 136
-
-- ()
-Page 137
-
-- 
-Page 138
-
-
-
-
- 
-­ San Storage ­ Disk Array ­ Boot Disk only have 1 singe HD ()
-(Time/content)
-· ExportData
- Content
-­  ­ MD5 or Sha1
-Page 140
-
-
-Unix-Like 
-DNS/Web/Email/Ftp/Proxy... ­  ­ System Log ­ Application Log ­ Memory Dump (DD)
-Log Log Content
-­ Vi Log () ­ Data ExportMD5, 
-Page 141
-
-
-Mainframe DB 
-IBM/Solaris/...,Console ­ , ­ System Log ­ Application Log ­ DB Log
-,TableLog export
-Log Content
-­ Vi Log () ­ Data ExportMD5, 
-Page 142
-
-
- Raid Type: JBOD / Raid 0 (+) Raid 1 (Mirror) Raid 5 Raid 6 Raid 10 Raid + Hot Spare
- Size ???  ­ image(dd)  image file  ­ 
-Page 143
-
-
-1. LiveUSB (LiveCD)
-­ Forensics ­ Raid Driver
-2. Image
-­  ­ Raid ? (0,1,3,5,6,10) ­ Stripe  Raid Reconstructor
-3. (,)
-Page 144
-
-
-  
-99.9%  (
-)
-Page 145
-
-
-
-
- Memory dump()   
-Page 147
-
-
-
- Footprint
-
- WordPDFImageVideo...... E-mailWebMailMSNGoogle search......   
-Page 148
-
-
-Page 149
-
-
- 
-Page 150
-
- - 
-   ()   / ( )
-Page 151
-
-Q & A
-
-

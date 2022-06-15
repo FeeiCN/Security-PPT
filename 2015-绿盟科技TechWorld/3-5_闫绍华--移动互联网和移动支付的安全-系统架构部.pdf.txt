@@ -1,248 +1,0 @@
-
- 
-
-wnswfocwu.sn.csofmocus.com
-
-
-
-© 2011 
-
-1  2  3 
-
-
-
-
-
-Convenient Portability Efficiency Usability Security
-
-
-
-1. Mobile Payment   
-2.     
-3.  " " 
-4.    
-
-
-
-
-
-
- Remote Payment
-1. SMS(Short Message Service) 2. WAP(Wireless Application Protocol) 3. IVR(Interactive Voice Response) 4. USSD(Unstructured Supplementary Service Data)
- Local Payment
-1. SIMSIM-Pass 2. RFID-SIM2.4G Hz
-3. NFCNear Field Communication13.56M Hz
-
-RFID 
-
-10 CM 
-
- 
-
-Kbit/s 
-
-
-
-SMSUSSD
-
-
-
-WAP
-
-SMS USSD WAP
-
-GSMSMS GSMSMS GSMGPRS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-APP
-    
-
-
-OS
-
-NFC
-
-Token
-
-Touch ID
-
-Apple
-
-Pay
-
-Passbook
-
-SE/Enclave
-
-Apple Pay
-
-NFC
-
-· SIM ·  · Only Apply Pay
-
-Touch ID
-
-·  · 
-
-Passbook
-
-·  · 
-
-SE
-
-· 
-
-· Token
-
-Token
-
-· ·
-
-Apple Pay
-
-
-
-
-
-
-
- 
-1. : Sniff 2. Collection 3. Interception
- 
-1. Masquerading 2. Replay Attacks 3. Modification 4. Denial of Service 5. Fabrication 6. Repudiation
-
-
-
-
-
-
-
- 
-
-
-
-WiFi
-DNS
-
-
-
-
-APP 
-
-OS 
-
-
-
-
-
-
-
-
-
-
-APP
-
-
-      
-
-
-      
-
-
-
-· Authentication
-
-· Confidentiality
-
- 
-
-
-
-
-
-· NoneRepudiation
-
- 
-
- 
-
-· Integrity
-
-
-
-
-
-
-
-·USIM  ·ECC ·CKIK · · ·NFCSIM ·Android ·IOS
-
-
-
-
-
-· · ·HTTPS/SSL · · ·VPN
-
-
-·  · · · · ·
-
-APP
-
-·APP · ·APP · ·SDK · ·
-
-
-
-
-
- 
-
-
-
- 
- 
-
-
-
-
-
-/ 
-
-
-ID Token
-
-
-
- 
-
-  
-
-
-
-CA PKI/WPKI
-
-
-
-
-
-
-APP
-      
-
-
-      
-
-
-
-

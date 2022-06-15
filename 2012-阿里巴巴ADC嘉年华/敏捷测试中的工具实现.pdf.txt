@@ -1,168 +1,0 @@
-
-­ 
-
-
-·   · 
-http://testing.etao.com http://weibo.com/etaotesting
-· 
-http://weibo.com/huangmeili
-
- & 
-
- Chapel Hill 
-
-
-
-Facebook
-
-1946
-
-Lloyd Frink
-
-
-
-"ENIAC"
-
-1947-1956 Debugging oriented period
-
- = 
-
-1946 1956 1972 1978 1979 1982
-1957-1978 Demonstration oriented period
-
-1987 1992
-
-
-1995 1999
-
-2004
-
-1979-1982
-
-
-
-Destruction
-
-oriented
-
-period
-
-
-1983-1987
-
- & 
-
-Evaluation oriented period
-
-
-
-1988­now Prevention
-
-orientedperiod
-
- & 
-
- = 
-
- & 
-
-
-
-"
-
-
-
-"
-
--- . 1996
-
-  Bug  Bug
--- 
-
-
-
-
-·  VS  ·  VS 
-
-
-
- Example
-
-""
-·  vs  · 
-­  ­  ­ 
-
--
-     
-
-·  Check In  ·  · sprint ·  ·  · 
-
- -  + 
-·  (  ->  ­> )
-·   1.  Check In 2.  3.  (+  + BVT) 4.  ( +) 5.  ()
-
-
-·  ·  · SVNBuild ·  · 
-
- - TOAST
-· Toast = Toast Open Automation System Test · 
-­  ­ 
-·  HUDSON/ Jenkins Plugin · 
-­  ­  ­  ­ Open API
-
-TOAST  Check In 
-
-TOAST CI  ABS ()
-
-TOAST CI  ABS ()
-
-AUTOMATION TEST
-
-TOAST DEMO
-
-
-· API  (Xunit )
-­ Gtest/Cppunit/CpptestFramework ­ JUnit/MRUnit/PHPUnit
-·  ()
-­ MMT/STFP (php script test framework) ­ Selenium/Ruby Watir ­ Custom Framework(Search Perl/CDN Java/Banner... etc)
-
- --  ­ 
-ABS -- Build  -- ""  --  API  -- http curl
-
-
-Test Code SVN
-
-Test Case Bugfree
-
-Test Runner Toast
-
- --  ­ 
-
- (Inside Toast)
-·  Web php
-­ YII  ­ Highchart  Jquery, twitter bootstrap
-· php web FE
-·     · http post  soap web service
-· Controller Test Agent (socket)
-·  Syncall ·  Asyncall
-·  test framework/code 
-· Executable binary (python/mmt) · C++ test library
-· Common 
-· Python deploy/start services/run test binary/log
-
- (Inside Toast) -- 
-
- (Inside Toast) -- 
-
-TOAST 
-·  ·  · API · 
-
-
-·   · NIH (Not Invented Here) ·  ·  · 
-
-
-· http://en.wikiversity.org/wiki/Software_testing/history_of_testing · http://blog.jobbole.com/20107/ · http://www.aptest.com/resources.html#app-func · http://testing.etao.com/ · http://toast.taobao.org/ · http://sdet.org · "An Introduce to Test Automation"
-
-­ gongzhi#taobao.com ­ _
-
-

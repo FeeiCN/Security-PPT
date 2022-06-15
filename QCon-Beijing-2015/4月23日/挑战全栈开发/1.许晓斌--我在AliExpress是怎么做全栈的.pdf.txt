@@ -1,104 +1,0 @@
-
-
-
-
- AliExpress 
-
-· Juven Xu
-­ AliExpress  ­ MavenMaven ­ 
-
-
-· "" · "30kg" · "" · "CPU......"
-
-·  CPUJS...... java 
-· 
-
-
-
-·
-
-B2C
-
-
-
-­ Alexa  40  ­ 300% ­ 220
-
-· 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
-
-
-
-"It means a person who can work with databases, servers, systems
-engineering, and client work. Depending on what kind of client is needed that can mean a mobile stack, web stack, or native applications. Basically when people are asking for a full--stack programmer they're looking for the all--singing, all--dancing technical wizard. Or at least someone who won't complain too much when asked to do some work outside their normal
-" comfort zone. ---- Ian Peters--Campbell
-
-e.g. ZooKeeper
-· 
-­ API ­  ­  ­ 
-· 
-­ 
-
-e.g. 
-· 
-­ Java ­ JavaScript ­  ­ 
-
-e.g. 
-· 
-­ Java ­ CDN  ­  ­ 
-
-e.g. 
-
-e.g. 
-
-e.g. 
-
-e.g. 
-· 
-­ Java ­  ­  ­  ­ 
-
-e.g. Cache
-· Cache Tair  · 
-­  Java Cache  ­  Tair  ­  Tair  ­  ­ 
-
-
-·    
-
- Bounded Context 
-http://martinfowler.com/bliki/BoundedContext.html
-
-DevOps
-· DevOps   
-
-
-
-
-
- or ?
-·  ·  · 
-­  Bounded Context
-· 
-
-Q & A
-
-@InfoQ
-
-infoqchina
-
-

@@ -1,75 +1,0 @@
-
-
- 
- 360
-http://yajin.org
-
-
-§  §  §  § 360
-http://yajin.org
-
-
-
-
-§  §  §  §  § 
-?
-
-JDWPExposed
-§  § USB
-
-JDWPExposed
-§ 2015/08/08:  § 2015/08/13: 
-CVE (CVE-2015-3865) § 2015/08/20: $1500 § 2015/09/15: 
-AOSP
-
-JDWP
-§ Java Debug Wire Protocol §  § 
-
-
-
-
-
-JDWP
-
-X
-
-DVM
-
-
-
-
-
-
-
-JDWPExposed
-§ JDWP 
-§  § ,  ,  ...
-
-
-§  §  § 
-
-1:  
-
-2:  
-
-
-§ sqlite3 § : md5(IMEI|UIN)[0:7] § UIN
-<?xml  version='1.0'  encoding='utf-8'  standalone='yes'   ?><map> <string  name="last_login_uin">106836xxxx</string>
-</map>
-
-
-§ OTA § 
-(attach) § 
-adb
-
-...
-
-
-§ Google §  §  § 
-
-http://jiagu.360.cn
-http://yajin.org
-
-Q&A
-
-

@@ -1,175 +1,0 @@
-
-from a code auditing perspective
-
- Table Of Content
-·  ·  ·  · ""
-
-
-· 1 & · 2 & · 3  · 4 & · 5  · 6  · 7  · 8 &
-
-https://en.wikipedia.org/wiki/Communication_protocol
-
-Comms. protocol essentials
-· 1 & Data/Address format · 2 & Detection of TX errors · 3  Acknowledgements · 4 & Timeouts & retries · 5  Direction of information flow · 6  Flow control · 7  Sequence control · 8 & Address mapping & Routing
-
-
-· 1 & · 2 & · 3  · 4 & · 5  · 6  · 7  · 8 &
-
-MySQL over TCP
- Flow control
-
-
-
-
-
-
-
-Response OK 
-
-select @@version
-
-5.6.28
-
-LOAD DATA LOCAL INFILE `/etc/passwd' INTO TABLE test FIELDS TERMINATED BY `\n'
-
-test /etc/passwd
-
- nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false root:*:0:0:System Administrator:/var/root:/bin/sh ...
-
-MySQL over TCP
-
-
-
-
-
-
-
-Response OK 
-
-select @@version
-
-5.6.28
-
-LOAD DATA LOCAL INFILE `/etc/passwd' INTO TABLE test FIELDS TERMINATED BY `\n'
-
-test /etc/passwd
-
- nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false root:*:0:0:System Administrator:/var/root:/bin/sh ...
-
- Into the traffic...
-
-Patch the client 
-A solid advice, or is it?
-https://dev.mysql.com/doc/refman/8.0/en/load-data-local.html
-
-MySQL over TCP
-
-
-
-
-
-
-
-Response OK 
-
-LOAD DATA LOCAL INFILE `/etc/passwd' INTO TABLE test FIELDS TERMINATED BY `\n'
-
-test /etc/passwd
-
-test 
- nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false root:*:0:0:System Administrator:/var/root:/bin/sh ...
-
-Server hangs, does it?
-
-
-
-
-
-
-
-Response OK 
-
-LOAD DATA LOCAL INFILE `/etc/passwd' INTO TABLE test FIELDS TERMINATED BY `\n'
-
-test /etc/passwd
-
-test 
- nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false root:*:0:0:System Administrator:/var/root:/bin/sh ...
-
-
-· 1 & · 2 & · 3  · 4 & · 5  · 6  · 7  · 8 &
-
-TCP ForTheWin?
-DOS
-https://en.wikipedia. org/wiki/SYN_flood
-
-
-· 1 & · 2 & · 3  · 4 & · 5  · 6  · 7  · 8 &
-
-What about UDP
-Seems a bit worse
-https://ddosmon.net/insight/?last=7
-https://www.a10networks.com/resources/articles/howdefend-against-amplified-reflection-ddos-attacks
-
-
-· 1 & · 2 & · 3  · 4 & · 5  · 6  · 7  · 8 &
-
-Heartbleed ?
-
-One important part of the TLS/SSL protocols is what's called a heartbeat.
-So if a request said it was 40 KB long but was actually only 20 KB, the receiving computer would set aside 40 KB of memory buffer, then store the 20 KB it actually received, then send back that 20 KB plus whatever happened to be in the next 20 KB of memory. That extra 20 KB of data is information that the attacker has now extracted from the web server.
-
-memcpy(bp, pl, payload); memcpy(bp, pl, sizeof(pl)/sizeof(pl[0]));
-
-https://www.csoonline.com/article/3223203/vulne rabilities/what-is-the-heartbleed-bug-howdoes-it-work-and-how-was-it-fixed.html
-
-Comms. in blockchain ETH)
-·  · "" ·  · * · We are talking about writing the MySQL itself rather writing the SQL
-query.
-
- Reentrancy
- Flow control
-
-vulContract 
-
-maliciousContract 
-
-Real-world event
-· Ref, https://medium.com/swlh/the-story-of-the-dao-itshistory-and-consequences-71e6a8a551ee
-
-Literally blocks the chain
-& Timeouts & retries
-
-Fomo3D 
-
-getCurrentRoundInfo()
-
-https://medium.com/coinmonks/how-the-winner-gotfomo3d-prize-a-detailed-explanation-b30a69b7813f
-
-  Address mapping
-vulContract.call(bytes4(sha3("withdrawAll()")));
-
-Call HelloWorld() Found HW() on C, calling
-
-HelloWorld() gets called
-
-Call HelloMoon()
-
-Found XX, calling
-
-HelloMoon() never gets called
-
-XX gets called
-
-https://www.reddit.com/r/ethdev/comment s/6n6t9w/function_hash_collision_potential_ misuse/
-
-withdraw(uint256) OwnerTransferV7b711143(uint256)
-
-
-· 1 & SafeMath / Complier level protection · 2 & Pseudo level active check · 3  eg. "Unchecked CALL Return Values" · 4 & · 5  · 6  Modifiers / External calls · 7  Racing · 8 & Function hash collisions
-https://blog.sigmaprime.io/solidity-security.html
-
-
-https://chaitin.cn
-
-

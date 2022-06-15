@@ -1,343 +1,0 @@
-4.0
----- by Kimon
-
-
-·  · ADF · 
- Kimon qmwang@vip.126.com
-13758178689
-
-
-·  ·  ·  · 
-
-4.0
-
-
-· ICS  · SCADA  · DCS 
-
-SCADA
-
-SCADA
-
-
-· PLC · RTU · HMI · 
-
-PLC
-
-· PLC 
-/
-
-· CPU
-
-(
-
-
-
-
-
-·  
-
-· LAD SFC IL
-
-
-
-2010
-~2010
-
-~2014 ICS-CERT
-2013 "Dragonfly 2012 Flame 2011 Duqu
-
-
-
-
-
-
-
-
-
-
-
-
-· Modbus · S3/S5/S7 · DNP3 · Profinet · Ethernet/IP ·...
-
-Modbus
-·  
-· Schneider Electric1979
-·  · 
-
-
-Modbus
-
-· Master/Slave
-
-master
-
-Initiate request
-
-· 8Master
-
-247Slave
-
-func code data req
-
-·  · 
-
-Receive response
-
-slave
-Perform action Initiate response
-func code data resp
-
-Modbus
-
-Additional address
-
-Function code
-PDU
-ADU
-
-Data
-
-Error check
-
-Modbus Frame
-
-Modbus
-
-IP Packet
-
-TCP TransactionID ProtocolID Length
-
-Packet
-
-2 Byte
-
-2 Byte 2 Byte
-
-Unit ID 1 Byte
-
-Function Code 1 Byte
-
-Data 256 or ..
-
-ADU
-
-PDU
-
-Modbus TCP Frame
-
-Modbus
-
-Function Name Read Coils
-Write Single Coil Write Multiple Coils Read Input Register Write Single Register Read/Write Multiple Register
-
-Function Code
-0x01 0x05
-0x15
-0x04 0x06 0x23
-
-Modbus
-----Modbus http://en.wikipedia.org/wiki/Modbus
-
-Modbus
-
-TransactionID ProtocolID Length
-
-UnitID
-
-FunctionCode
-
-Data
-
-Modbus
-RS-232/RS-485 Network
-Modbus TCP
-
-
-
- 
- 
-
-
-
- 
-
- 
-  / 
-
-
-[ModbusPal]
-Slave http://modbuspal.sourceforge.net/
-
-
-[Wireshark]
-https://www.wireshark.org/ Modbus/S7/DNP3
-
-
-[mbtget]
-PerlModbus https://github.com/sourceperl/mbtget
-
-
-[Metasploit Framework] auxiliary/scanner/scada/modbus_findunitid
-auxiliary/scanner/scada/modbusclient auxiliary/scanner/scada/modbusdetected
-
-
-PLCRTU.. 
- 
-"Google"
-
-
-[Nmap]
-modbus-discover.nse modbus-enum.nse
- NIST SP800-82 1.--scan-delay=1 2.TCPUDP 3.nmap -sC 4.nmap 5.
-
-
-[plcscan]
-TCP/502 TCP/102PLC code.google.com/p/plcscan
-
-
-[ModTest]
-ModbusFuzzing https://github.com/ameng929/ModTest
-
-
-[ModTest]
-Modbus https://github.com/ameng929/ModTest
-
-
-[ModTest]
-Modbus Fuzzing https://github.com/ameng929/ModTest
-: Function Code Diagnostics Code
- 90/91/99  
-
-
-[ModTest]
-Modbus  https://github.com/ameng929/ModTest
-plc  ...
-
-
-[Unity Pro XL]
-PLC http://www.schneider-electric.com/
-
-
-[Unity Pro XL]
-PLC http://www.schneider-electric.com/
-    Unity Pro XL 
-
-
-Unity Pro XL
-Modbus90 
-
-
-Unity Pro XL 90
-ModTest90
-
-
-Unity Pro XL
-
-PLC
-
-0x00, 0x0f, 0x00, 0x00, 0x00, 0x0d, 0x00, 0x5a, 0x00, 0x20,
-
-0x00, 0x14, 0x00, 0x64, 0x00, 0x00, 0x00, 0xf6, 0x03
-
-PLC
-
-Unity Pro XL
-
-V5.0
-
-Unity Pro XL 5.0
-
-
-Unity Pro XLPLC
-PLCPLC!!!
-
-
-Shodan
-PLCDork port:502 V5.0 .stu
-V5.0---- .stu----PLC
-
-
-[]
-scapypymodbus https://github.com/tecpal/PyModbus
-· PLC CoilRegister
-· 43PLC
-· 17
-· 90Modicon PLC
-
-
-[]
-Web
-
-
-[]
-
-· FTP · SNMP · TELNET · 
-
-
-[]
-conpot https://github.com/mushorg/conpot
-
-
-[]
-SCADA Honeynet http://www.digitalbond.com/tools/scada-honeynet/
-
- [] Modhoney
-PyModbusZ-one https://github.com/ameng929/Modhoney
-TransactionID 90 conpot
-
- [] Modhoney
-PyModbusZ-one https://github.com/ameng929/Modhoney
-TransactionID 90 conpot
-
-198. 20. 70.114 71. 6.216. 34
-169. 54.233.119 185. 35. 62. 11
-85. 25.185.112 62. 75.207.109 178. 19.104.138 141.212.122. xxx
-
-
-[]
-
-Shodan Rapid7 Credit Suisse Group / CANA Switzerland Group BSB-Service GmbH Germany Intergenia AG Germany Livenet sp. z o.o. University of Michigan College of Engineering
-
- 
-
-
-Shodan
-
-
-
-Real
-Honey 43(0x2B)
-
-
-
-Real
-Honey 01(0x01)
-
-
-
-· IP ·  ·  · 0-Day · 
-
-
-[Snort for ICS]
-
-https://www.snort.org
-http://www.digitalbond.com/tools/quickdraw/
-
-
-[ModbusSec]
- http://www.digitalbond.com/tools/basecamp/
-{Ethernet | TCP | Modbus}
-{Ethernet | TCP | Tunnel | Modbus}
-{Ethernet | TCP | Modbus | Tunnel | Modbus}
-
-
-[]
-
-·  ·  · VPN ·  ·...
-
-
-
-
-
-
-

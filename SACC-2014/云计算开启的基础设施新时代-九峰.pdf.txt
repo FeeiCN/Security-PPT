@@ -1,71 +1,0 @@
- 
- jiufeng@taobao.com
-
-Agenda
-· "" · "" ·  · 
-
-""
-/ 
-
-3
-
-
-
- "" ­  ­  ­  ­  ­ MySQL Tuning ­ CDN ­  ­ os ­ ...
-
- site        
-4
-
-
- 5+
-­ ""
- 
-­ 
- 
-­ ""
-5
-
-""
-
-·  
-·  ·  · 
-
-
-
-6
-
-
-#ENUM GlobalRegion {US, CHN, EU, AFR,...};
-setRegion(Brazil, Russia,India,China);
-foreach $Item in (ECS, SLB, RDS, OSS,CDN) { $Resources[] = init(REGION, $Item, SPEC_1,
-NUM_N); }
-While (validate(bind($Resources))) { HANDLER=agileDeployment($Binary, $Target); bringTheRain(HANDLER, $Resources, MODE_AVG);
-}
-7
-
-
-
-
-
-
-
-
-
-
-
-
-8
-
-
-· ...
-­ DT
-· Power vs Responsibility
-­ Fun Hm... not really.
-9
-
-
-Q&A
-
-Q&A
-
-

@@ -1,91 +1,0 @@
- User Profile 
-
-
-
-· 
-
-
-·  · 
-etc. · 
-·  · 
-
-
-· etc. · category, topic, keyword, entity, etc.
-·  &  ·  &  ·  · e.g. 
-
-My Profile
-
-
-·  &  ·  ·  · spam · 
-
-System Overview
-
-Our Challenges
-·  ·  · Online serving storage: 
-
-
-
-·  · 500TB+  · 1TB+  · 400K msg/s Overall
-· Profile Server · feature 200+ ·  12TB · 1.2M qps
-
-Batch Approach
-· Batch MySQL  · Daily Mapreduce Workflow
-·  0 user profile
-
-
-· CPU  · MySQL  ·  user profile 
-
-
-Streaming Approach
-· A Storm Topology · mini-batch processing
-·  10 min  ·  profile  base ·  ·  profile
-
-Pros.
-· 2 -> 10 · 
-
-Cons.
-·    ·  ·   · spam 
-·  user profile · batch  · streaming  replay 
-
-Hybrid Approach
-·  Streaming  Batch 
-·  Batch  user profile  basereplay  user profile
-
-Data pipeline
-
-
-· Storm & Mapreduce  
-·   Code
-· update_profile(base_profile, impressions, actions) => new_profile
-· Re-thinking: Spark & Spark Streaming
-
-UserActionStore
-·  HBase  
-·  (hash, user_id, timestamp)  RowKey · 
-· UAStore.get_impressions(uid, start_time, end_time) · UAStore.get_actions(uid, start_time, end_time)
-
-ProfileStore
-·  · serve  · batch/ ·  · 
-
-Springdb
-· twemproxy + rocksdb ·   · twemproxy reload  ·  compaction  · latency 
-
-LSM-Tree Compaction
-http://www.benstopford.com/2015/02/14/log-structured-merge-trees/
-
-Fight with Write-Amp
-· rocksdb: LSM-Tree, compaction, 10x~, SSD  · Our Solution:
-·  L0~L1 compaction  · Customized Level Style Compaction
-· L0  compaction => L0 · L0  full compaction => L1 ·  10x~ => 2~3x · https://github.com/facebook/rocksdb/issues/210
-
-Performance
-·  12TB  x 2 · QPSread 140Kwrite 55K (cache ) · avg 500us, pct99 5ms · 16SSD
-
-Lessons we learned
-· Batch + Streaming  · 
-·  workload · Rocksdb on SSD rocks!
-
-Thanks for listening. Joint work with many others.
-Q&A Time
-
-

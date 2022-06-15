@@ -1,410 +1,0 @@
-There will be glitches
-Extracting and analyzing automotive firmware efficiently
-
-Who am I?
-
-What do they have in common?
-
-What do they have in common?
-Retrieving the firmware was the first step!
-
-Hacking embedded systems
-
-Understand the target
-
-Identify Vulnerabilities
-
-Exploit vulnerabilities
-
-What is an ECU?
-Electronic Control Unit
-
-Typical ECUs found in a car
-
-How do we extract the firmware?
-
-Leaks
-
-Firmware upgrade
-
-Reading Chips
-
-Known SW vulnerabilities
-
-Interfaces
-
-Unified Diagnostic Services
-Unified Diagnostic Services
-
-Security relevant services
-
-# Service 10 Diagnostic Session Control 11 ECU Reset 14 Clear DTCs 19 Read DTCs 22 Read Data by ID 23 Read Memory by Address 24 Read Scaling by ID 27 Security Access 28 Communication Control 2A Read Data by DID
-
-# Service 2C Dynamically Controlled ID 2E Write Data by ID 2F Input Output Control 31 Routine Control 34 Request Download 35 Request Upload 36 Transfer Data 37 Request Transfer Exit 3D Write Memory By Address 3E Tester Present
-
-UDS authentication
-
-The BIG problem
-The ISO14229 does not give implementation details
-or recommendations
-Manufacturers might implement it insecurely
-
-Classic UDS attacks
-No try limit
-
-And... what if nothing works?
-
-Leaks
-
-Firmware upgrade
-
-Reading Chips
-
-Known SW vulnerabilities
-
-Interfaces
-
-Fault Injection
-
-Where is the problem?
-
-const char *PIN = "19379148"
-// Compare the PIN with the correct one // Return true if different
-bool comparePIN(char *pin) {
-for (int i=0; i<strlen(pin); i++) { if (pin[i]!=PIN[i]) return true;
-} return false; }
-
-// Authenticate PIN. // Return true if incorrect
-bool pinAuthentication() {
-char pin[80]; char tmp[80]; bool result=false;
-printf("Please, introduce PIN\r\n"); gets(pin);
-result = comparePIN(pin);
-if (result == false) { sprintf(tmp,"PIN correct\r\n");
-} else { sprintf(tmp,"PIN %s is incorrect\r\n",pin);
-}
-printf(tmp); return result; }
-
-Where is the problem?
-
-const char *PIN = "19379148"
-// Compare the PIN with the correct one // Return true if different
-bool comparePIN(char *pin) {
-for (int i=0; i<strlen(pin); i++) { if (pin[i]!=PIN[i]) return true;
-} return false; }
-
-// Authenticate PIN. // Return true if incorrect
-bool pinAuthentication() {
-char pin[80]; char tmp[80]; bool result=false;
-printf("Please, introduce PIN\r\n"); gets(pin);
-result = comparePIN(pin);
-if (result == false) { sprintf(tmp,"PIN correct\r\n");
-} else { sprintf(tmp,"PIN %s is incorrect\r\n",pin);
-}
-printf(tmp); return result; }
-
-Where is the problem?
-
-const char *PIN = "19379148"
-// Compare the PIN with the correct one // Return true if different
-bool comparePIN(char *pin) {
-for (int i=0; i<strlen(PIN); i++) { if (pin[i]!=PIN[i]) return true;
-} return false; }
-
-// Authenticate PIN. // Return true if incorrect
-bool pinAuthentication() {
-char pin[80]; char tmp[80]; bool result=false;
-printf("Please, introduce PIN\r\n"); fgets(pin,sizeof(pin),stdin);
-result = comparePIN(pin);
-if (result == false) { sprintf(tmp,"PIN correct\r\n");
-} else { sprintf(tmp,"PIN %s is incorrect\r\n",pin);
-}
-printf("%s",tmp); return result; }
-
-Where is the problem?
-
-const char *PIN = "19379148"
-// Compare the PIN with the correct one // Return true if different
-bool comparePIN(char *pin) {
-for (int i=0; i<strlen(PIN); i++) { if (pin[i]!=PIN[i]) return true;
-} return false; }
-
-// Authenticate PIN. // Return true if incorrect
-bool pinAuthentication() {
-char pin[80]; char tmp[80]; bool result=false;
-printf("Please, introduce PIN\r\n"); fgets(pin,sizeof(pin),stdin);
-result = comparePIN(pin);
-if (result == false) { sprintf(tmp,"PIN correct\r\n");
-} else { sprintf(tmp,"PIN %s is incorrect\r\n",pin);
-}
-printf("%s",tmp); return result; }
-
-Fault Injection attacks
-
-Voltage glitching
-5.5V 1.8V
-5.5V 1.8V
-
-100 ms 100 ms
-
-Voltage glitching
-5.5V 1.8V
-5.5V 1.8V
-
-100 ms 100 ms
-
-Flipping bits with glitches
-10
-0 01
-10
-
-01
-
-10
-
-0
-
-Flipping bits with glitches
-01
-0 01
-10
-
-01
-
-10
-
-0
-
-Skipping/corrupting instructions
-
-const char *PIN = "19379148"
-// Compare the PIN with the correct one // Return true if different
-bool comparePIN(char *pin) {
-for (int i=0; i<strlen(PIN); i++) { if (pin[i]!=PIN[i]) return true;
-} return false; }
-
-// Authenticate PIN. // Return true if incorrect
-bool pinAuthentication() {
-char pin[80]; char tmp[80]; bool result=false;
-printf("Please, introduce PIN\r\n"); fgets(pin,sizeof(pin),stdin);
-result = comparePIN(pin);
-if (result == false) { sprintf(tmp,"PIN correct\r\n");
-} else { sprintf(tmp,"PIN %s is incorrect\r\n",pin);
-}
-printf("%s",tmp); return result; }
-
-Skipping/corrupting instructions
-result = comparePIN(pin);
-ldr r0, [sp, #pin] bl comparePIN str r0, [sp, #result]
-
-1 1 1 1 0 00000011010
-
-Opcode
-
-Address
-
-Skipping/corrupting instructions
-result = pcionmp;arePIN(pin);
-ldr r0, [sp, #pin] bsltrbcorm2p,ar[erP3I,N #0] str r0, [sp, #result]
-
-10 1 1 1 0 0 0 0 0 0 0 1 1 0 1 0
-
-Opcode
-
-Address
-
-Skipping/corrupting instructions
-result = comparePIN(pin);
-ldr r0, [sp, #pin] bl comparePIN str r0, [sp, #result]
-
-1 0 0 1 0 00000010001
-
-Opcode
-
-Address
-
-Skipping/corrupting instructions
-rceosmuplatre=PIcNo(mppianr)e;PIN(pin);
-ldr r0, [sp, #pin] bl comparePIN sastrsr0r,1,[srp2,, ##r3e2sult]
-
-10 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1
-
-Opcode
-
-Address
-
-We can modify instructions and data!
-Yes, this also means we can skip instructions!
-You cannot trust your software anymore...
-This works on all standard architectures: ARM, MIPS, PowerPC, SH4, V850, Intel, etc.
-
-FI is trendy!
-
-But it has been there for years...
-
-Age test!
-What is the relation between these two?
-
-Don't do this at home!
-
-UDS authentication
-
-Bypassing UDS auth with FI
-
-The target
-
-Why?
-It has blinky lights!
-
-...and because it stores the KMs
-
-Setup
-
-The setup
-
-Glitching
-
-VCC
-
-Glitch
-
-CMD
-
-RSP
-
-CAN
-
-Trigger
-
-Glitch Parameters · Glitch Delay · Glitch Duration · Glitch Voltage
-
-Glitch (zoomed)
-
-Tested commercial targets
-Instrument cluster from a B-segment 2010-2017 car
-512KB flash code dumped in ~3 days
-Instrument cluster from a C-segment 2013-present car 3MB flash code dumped in ~2 days
-
-The Plan
-
-Getting Firmware
-
-Reverse Engineering
-
-Understanding
-
-Tuning Secrets! Hacking
-
-Static analysis?
-
-Models Configuration
-
-Custom code
-Generated code
-
-Firmware
-OS code
-
-Static analysis?
-
-Tools?
-Automotive ECUs use "exotic" CPUs. Only recently they started to use ARM.
-$ARCH is supported by IDA Pro and radare2 $ARCH is not supported by qemu
-
-No tools? Let's make some tools!
-
-What do we need?
-CAN port
-
-I/O
-
-ports
-
-MCU I2C
-
-· Instruction set emulator · Timers, interrupts, ...
-
-EEPROM Display
-
-Emulating the CPU architecture
-
-"Implementing" peripherals
-
-How difficult was it?
-~ 1 (sleepless) week of work (for a hacker experienced in writing emulators)
-~ 3000 lines of (terrible) code (excluding support tooling)
-
-Why write an emulator?
-· Debugging (e.g. GDB stub) · SocketCAN · Execution tracing · Taint tracking
-
-Execution tracing
-
-Taint tracking
-
-Data
-1 CAN ?m?essage 2 ?? 3 ?? 4 ?? 5 CAN ?m?essage 6 ?? 7 ?? 8 ??
-
-Data[2] = CAN.read() Data[7] = Data[2]
-
-CAN message
-
-Taint tracking UDS security access
-
-Data
-1 Res?p?onse 2 ?? 3 ?? 4 ?? 5 Res?p?onse 6 ?? 7 ?? 8 ??
-
-Data[2] = CAN.read()
-
-Response
-
-Data[7] = Data[2]
-Data[7] == Yca?lculateKey()?
-
-Preventing FI
-
-Hardening ECU hardware
-
-1.8V
-Glitch Sensors
-
-Redundancy
-
-Hardening ECU software
-· Add redundancy: · Duplicate code/checks · SW-lockstep
-
-Hardening ECU software
-
-SW countermeasure #1
-
-Hardening ECU software
-· Add redundancy: · Duplicate code/checks · SW-lockstep
-· Be paranoid: · Control flow integrity · Random delays
-
-SW countermeasure #2
-
-Hardening ECU design
-· Don't expose keys to software: use Hardware Secure Modules (HSMs) or Secure Elements (SE)
-· Avoid having anything to hide: use asymmetric cryptography
-
-Thanks to...
-
-Alyssa Milburn
-
-Niek Timmers
-
-Santiago Cordoba
-
-Eloi Sanfelix
-
-Nils Wiersma
-
-Contact: Ramiro Pareja pareja@riscure.com
-
-Riscure China 2081, No.989, Changle Road 200031 Shanghai China Phone: +86 21 5117 5440 Wechat: RiscureChina
-
-Riscure B.V. Frontier Building, Delftechpark 49 2628 XJ Delft The Netherlands Phone: +31 15 251 40 90
-www.riscure.com
-
-Riscure North America 550 Kearny St. Suite 330 San Francisco, CA 94108 +1 (650) 646 9979
-inforequest@riscure.com
-
-

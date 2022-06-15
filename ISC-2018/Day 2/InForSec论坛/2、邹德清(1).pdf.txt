@@ -1,189 +1,0 @@
-
-  
-
-
-
-     
-
-
-  
-
-
-
-Ø 
-
-CVE20104,639201714,650
-
-Ø 
-
- 
-
-Flawfinder, RATS, Checkmarx, Coverity, Fortify
-
- 
-
- 
-
- 
-
-features 
-
-
-
-
-VUDDY Chucky
-...
-
- feature
-
- 
-
-
- 
-
-
-feature 
-
-
-
-Ø  Ø 
-
-
-
-
-
-API
-
-URL 
-
- 
-
-
-
-...
-
-Ø  
-
-CCS 2017- POSTER: vulnerability discovery with function representation learning from unlabeled projects arXiv 2018- Automated vulnerability detection in source code using deep representation learning arXiv 2018- Automated software vulnerability detection with machine learning
-
-
-
-SySeVR VulDeePecker feature 
-
-
- SYVCSEVC SYSEVR VULDEEPECKER
-
-
-Ø  1:  
-Ø  2: 
-Ø  3:  
-
-SyVCSeVC
-
-Ø SyVC (Syntax-based Vulnerability Candidates)
-SyVCtoken 
-
-
-
-/API
-
-
-
-
-
-
-
-Ø SeVC (Semantics-based Vulnerability Candidates)
-
-SeVCSyVCSyVC
-
-SyVCSeVC
-
-
-
-SyVC
-
-25SyVC "data" SeVC
-
-SySeVR
-
-VulDeePecker
-Ø /APISyVC
-
-VulDeePecker
-Ø Step ISeVC
-
-A SeVC corresponding to strcpy()
-
-Program source code
-
-(1) Extract library/API function calls
-
-(2) Generate slices for arguments of library/API
-function calls
-
-(3) Assemble slices into SeVCs
-
-VulDeePecker
-Ø Step II SeVCground truth SeVC"1""0"
-
-VulDeePecker
-
-Ø Step IIISeVC
-u SeVC
-
-u 
-
-7 tokens
-
-VulDeePecker
-Ø Step IVBLSTM
-
-VulDeePecker
-Ø Step V-VII
-
-
-  
-
-
-Ø NVD19 C/C++  SARDC/C++ test cases
-u CWE-119520 8,122 test cases u CWE-399320 1,729 test cases u 80% 20%
-Ø 61,638SeVC https://github.com/CGCL-codes/VulDeePecker
-
-
-Ø RQ1VulDeePecker
-Insight: VulDeePecker/API 
-
-
-Ø RQ2VulDeePecker
-Insight:                 /API        VulDeePecker
-
-
-Ø RQ3VulDeePecker 
-Insight: VulDeePecker    
-
-
-Ø RQ3VulDeePecker 
-Insight: VulDeePecker  
-
-
-Ø 4Libav, Seamonkey, Thunderbird, and Xen Ø VulDeePecker 4NVD
-Ø SySeVR4SyVC 15NVD78 
-
-
-
-
-Ø C/C++ Ø SyVCSeVC Ø SeVC Ø  Ø 
-
-
-
-
-Ø SySeVR VulDeePeckerfeature 
-Ø 
-Ø  https://github.com/CGCL-codes/VulDeePecker
-Ø VulDeePecker
-
- 
-
-
-

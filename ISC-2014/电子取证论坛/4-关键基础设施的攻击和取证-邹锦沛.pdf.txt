@@ -1,204 +1,0 @@
-Critical Infrastructure:
-Hacking and Forensics 
-K P Chow and Frankie Li1
-Center for Information Security and Cryptography University of Hong Kong
- 1Aka Ran2
-The project is partially supported by the HKU Knowledge Exchange Funding (Impact Project).
-
-
-· Ran2 APT SANS 2014Blackhat USA 20142014HITCON 2014Ran2 ECom/IComp
-·     
-· Other contributors: Ken Yau, Raymond Chan, Xiaoxi Fan, Yanbin Tang
-
-
-·ICS (SCADA) 
-·(Proprietary) · SCADASCADA
-POC · StuxnetHavex · SCADA
-
-ICS
-·
-­SCADA ­DCS ­
-Programmable Logic Controller PLC
-NIST SP 800-82: Guide to Industrial Control System (ICS) Security, May 2013
-
-SCADA
-
-
-The SCADA Components
-· Control Server · SCADA Server or Master Terminal Unit
-(MTU) · Remote Terminal Unit (RTU) · Programmable Logic Controller (PLC) · Intelligent Electronic Devices (IED) · Human-Machine Interface (HMI) · Data Historian · Input/Output (I/O) Devices
-
-SCADA
-
-
-
-Industrial Firewalls and IDS/IPS
-
-SCADA
-· ICS (SCADA)   
-·ICS  / 
-
-
-
-· · · · · · · · · · ·
-
-·  · 
- ·  ·  ·  ·  · 
-
-Homeland Security Presidential Directive 7 (HSPD-7) categorized U.S. critical infrastructure into the above sectors. Many of the processes controlled by computerized control systems that they can no longer be operated without the control system.
-
-
-Proprietary is Security?
-
- Security Through Obscurity
-· SCADA · SCADAW ANLAN
- · ""ICS
-  (APT) ·  
-SCADA
-
-SCADA
-·SCADAIT ·SCADA
-­  
-· "SCADA "
-
-SCADA
-
-DaimlerChrysler (2005)
-20058 DaimlerChrysler Windows   DaimlerChrysler13 
-
-Browns Ferry  (2006)
-20068 3       
-
- (2009)
-20092   1400 >25   
-
-SCADA Shodanhq.com
-
-SCADA
-
-SCADA
-· Slammer1/2003 · NachiCSX8/2003 ·1/2003 · SQL Slammer
-$1.2MM4/2004 · StuxnetS7 PLC
-6/2010 · Havex RATOPC ServerList6/2014
-http://www.f-secure.com/weblog/archives/00002718.html
-
-Stuxnet
-· 20106ICS/
-· Myrtus + mrxnet.sys = Stuxnet
-­ Myrtus: Stuxnet Esther
-­ Mrxnet.sys: Stuxnet
-·U0-day ·
-PLC root kitPCS 7 PLC, STEP7WinCC
-­PLC
-
-Stuxnet's 
-Windows
-
-SCADA
-S7-315-2 CPU
-STEP 7  
-
-22
-
-Havex
-· 
-· Remote Access Trojan RATPHP
-· 
-· : ICS/SCADA
-
-Havex  ()
-ICS/SCADA IID_IOPCServerList2 
-http://www.f-secure.com/weblog/archives/00002718.html
-
-Metasploit 
-· Metasploit 17 · Canvas 53
-­ Gleg Agora SCADA+ Immunity CANVAS 
-­ 2ICSCANVAS ­ CanvasUS$8,930
-
-SCADA - POC Modules
-
-SCADA
-· SCADA · PLC
- StuxnetPLC rootkit ­ PLC,
- ·  · HMIWindows
-Windows
-SCADA 
-
-SCADA
-· PLC24 
-· ·
- ·/ · ·...
-
-(2014)
-
-· Programmable Logic Controller Modification Attacks, Air Force Institute of Technology, IFIP WG 11.10 Conference on CIP, Mar 2014
-· Green Lights Forever: Analyzing the Security of Traffic Infrastructure, USENIX, Aug 2014
-· Blackhat Aug 2014: demo units available
-· Accurate Modeling of the Siemens S7 SCADA Protocol for Intrusion Detection and Digital Forensics, Tel Aviv University, ICDF2C, Sep 2014
-· The SCADA That Didn't Cry Wolf, Who's Really Attacking Your ICS Equipment? TrendMicro, 2014
-
-· PLC
-
-CISC
-
-
-
-29
-
-
-· CRISIS ­ Critical Infrastructure Incident Simulator
-­ 
-­  PLC 
-
-Simatic PLC S7-1200
-
-CISC
-
-30
-
-
-
-PLC- ICS
-
-
-
-
-
-
-S7-1200
-
- (Totally Integrated Automation TIA ) V11 SP2
-
-
-
-
-
-TIA
-
-
-
-PLC S7-1200
-
-6
-
-6
-
-24V
-
-
-·ICS ·4
-­JTAG ­ PLC ­SCADA ­ SCADA 
-
-CISC
-
-34
-
-
-·ICS/SCADA ·
- ·
- 
-  US ICS-CERT
-
- Thank You
-
-

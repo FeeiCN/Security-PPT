@@ -1,189 +1,0 @@
-¾  9  9  9 
-¾  9  9  9 
-¾ 
-
- 
-
-
-Client
-
-Client
-
-Client
-
-a
-
-b
-
-c
-
-  
-
-
-Client
-
-Client
-
-Client
-
-a
-
-b
-
-c
-
- 
-
-
-Client
-
-Client
-
-Client
-
-A_a
-
-A_b
-
-Aab
-
-¾  ; :Java(JDBC)
-¾  DBMS; :xsqldbshellmysqlpoolmyclient QUERY
-
-
-¾  ----  ¾  ----  ¾  ----  ¾  ---- 
-
-
-¾ 2005 ~ 2008 ¾  ¾ Replication
-
- 
-
-Client WR
-Master/ Slave
-
-
-Client
-
-W
-
-R
-
-R
-
-Master
-
-W
-
-W
-
-Slave
-
-Slave
-
-
-¾  ¾ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-¾  2008 ~ 2010
-¾ 
-¾ 
- Scale outScale up 
-
-
-
-
-
-
-¾  
- ¾ 
-binfindpos ¾ 
- ¾ 
-monkeyauzk
-
-
-¾  DB
-¾  DB
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-¾ 2010 ~
-
-
-
-¾ 
-
-¾    
-
-
-¾ : ¾  ¾ 
-CAP
-
-
-
-
-
-
- 
-   
-
-
- 
-   
-
-
- 
-   
-
-
- 
-   
-
-¾  ¾  ¾  ¾  ¾ 
-
-¾  ¾ 
-
-

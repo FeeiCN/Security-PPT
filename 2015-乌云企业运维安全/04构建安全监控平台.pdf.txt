@@ -1,77 +1,0 @@
-
-
-:
-lion_00 CCIE 201111 CISSP 20134 
-
-
-/  
-
-  
-
-  : IDS:suricata :BASE SNORBY
-IDS  IDSSQLMAP AWVS
-
-  : HTTP/HTTPS
-
- (HTTP/HTTPS)&WEB  : :E.L.K
-
-  :IDS-OSSEC 
-  SYSLOG
-
-  NMAP /  
-
-
- 
- BASH  
-
-
-
-   
-
-
-
-  
-
-SURICATA ossec
-
-
-
-
-  
-
-
-
-
-: 
-  :
-: :SURICATA  OSSEC 
-3SSH 30SSH  SURICATA SQLCODE 200
-
-
-· IP · URL
-
-
-· / ·  · 
-
-E.L.K
-
-SURICATA
- 
-
-WEB 
-
-OSSEC
- 
-
-SURICATA
-
-WEB
-
-Elasticsearch
-
-
-OSSEC
-
-
-
-

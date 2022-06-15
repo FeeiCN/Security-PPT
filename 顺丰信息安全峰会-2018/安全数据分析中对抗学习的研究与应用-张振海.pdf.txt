@@ -1,151 +1,0 @@
-"O"Objective 
-"M"Machine learning
-"I"Intelligent
-
-OMIGA
-
-"G"Gain "A"Active
-
-1 
-
- 
- 
-
-
-
-
-
-2
-
-2014Goodfellow
-DCGANAC-GANGAN-CLS MalGAN()
-
-0.5
-
-
-
-
-
-
-
-
-
-
-
-
-/
-
- () ()  () ()
-
-   , 
-
- min max(   ,   )
-
-= ~ log () + ~ log(1 -   )
-
-
-
- = 
-
-3DGA
-
-DGA(Domain generation algorithms) 
-1pcx96minkw591r8z9uo1jm1u7m.org auwsleasuredehydratorysagp.com kwmzazgwfqfpbhkprc.com flswardenslavetusul.com 1hgv0n3qzeqpn1lrfgbmgz6i6d.biz 1i7yafmy0uqh0id43ipnlnzx1.net dkm6lo2jzpkgeg6cwv8jdlu.org 1jkki72ti7gb51rx7u4xx9dsow.net gkygvinskycattederifg.com ......
-
-· Highway Network
-, Highway Network  =    W +  + (1 - )     [0,1]
-
-Domain name
-Embedding Layer CNN Layer
-Highway Layer
-Highway Layer CNN Layer
-Domain name
-
-Encoder Decoder
-
-Random seed
-Generator Layer CNN Layer
-
-Generative Model
-
-Embedding Layer
-
-CNN Layer
-
-Discriminative Model
-
-Logistic Regression Layer
-
-Probability
-
-· Generator Layer
-Dense
-· Embedding Layer
-AutoEncoder
-· Logistic Regression Layer
-Densesoftmax)
-
-Random seed Generator
-Adversarial sample Label as benign
-Discriminator Probability
-
-Benign sample
-Training sample Discriminator Probability
-
-Random seed
-
-Generator
-
-Adversarial sample
-
-Label as DGA
-
-
-0123moviescom m73lae5cpmgrv38com w3schoolcomcn p30downloadcom static1squarespacecom v2profitcom piratebay247net
-
-
-0224Qoviescom m83lae5cpmgrv38com w3svhoolcomcn a40downloadcom static2squarespacecom b2profitcom piratebay248net
-
-fhmgnzfpksffsphgkggdksdfudeeloddvQusdhglzcgn fhmgnzfpksffsphgkgWgdksdfudeelodchdvQushglzcgn fhmgfpksffsphgkgWgdksdfudeelodcmvQusdhglzcgn fhmgnzfpksffsphgkgWgdksvdfudeelodchdvQusdhglzcrn fhmgfpksffsphgkgWgdksvdfudeelodchdvQusdhglzcon ......
-
-Random seed
-Generator Layer CNN Layer
-
-Generative Model
-
-Embedding Layer
-
-CNN Layer
-
-Discriminative Model
-
-Logistic Regression Layer
-
-Probability
-
-
- 
-
-
-DGA 
-
-5rpkvlgaakaceredawamookuelasmrcuc9oi bdukly0dfuttrfefsv.ebmeoswvgrlpcsrome csdmelv0eftfeptasoreu4asagnliesppee5uee kta2zytq8l5ousammoponebetudsdmpmneca ita6mbnsa4upkr2yocimaegauiybse6trttle asnc9ipernuki.ar5eea20oaceulfemdtelrn cor2sy8edli.0td2.xlinbobok4rguaxl7ie1tce C3obtimiibtuzdsesp0atrlrj8hiqsakpao Swh6fwt828aeesyfcxjgpudu6cppat1gan ......
-
-·  · 10DGA100 · N-Gram3
- 10DGA100 10DGA9100 10DGA90100
-
-· 10DGA · 10 10-4 · DNS50%
- 0.8851 0.8928 0.9137
-
-·  · 1DGA100 · N-Gram3
- 1DGA100 1DGA99100 1DGA99100
-
-· 10DGA
- 0.6942 0.7531 0.7685
-
-4
-
-· 2
-·  · 
-
-

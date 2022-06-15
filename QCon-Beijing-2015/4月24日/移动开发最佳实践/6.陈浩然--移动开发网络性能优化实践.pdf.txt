@@ -1,151 +1,0 @@
-
- 
-
-
-· App ·  ·  · App
-
-App
-
-App - Native
-· Native
-­ TCP ­ Restful HTTP
-· TCP+
-­ 
-· 
-
-App - Hybrid
-· Hybrid
-­ Restful HTTP ­ TCPHybrid
-
-App
-
-
-· App ·  ·  · App
-
-
-· DNS Lookup · TCP Handshake · TLS Handshake · TCP/HTTP Request/Response
-
-
-· DNS
-­ DNS ­ DNS
-
-
-· TCP Connection
-­  ­ 
-
-
-· Write/Read
-­  ­ ProxyRequestResponse
-
-
-
-· Payload
-­ 
-
-
-· 
-­  ­ 
-
- ­ 
-
-
-
-
-
- 4G 3G 2G
-
-
-
-
-
-
-
-400-600KB/S 200-500KB/S 80-200ms
-
-100-200KB/S 10-100KB/S 100-400ms
-
-10KB/S
-
-1KB/S
-
->400ms
-
- - Bandwidth
-
- - Latency
-
-
-· 
-­  ­  ­ 
-
-
-· DNS
-­ Server IP ­ DNS ­ Server IP
-
-
-· 
-­ TCP ­ TCP ­ 
-
-
-· 
-­  ­ 
-
-
-· 
-­  ­  ­  ­ 
-
-
-· 
-­ ->Protocol Buffer ­  ­ 
-
-
-· 
-­ CDN ­  ­ 
-
-
-
- 
-
-99%+ 150-200ms
-
-
-
- 
-
-15-45% 80-90%
-
-
-· App ·  ·  · App
-
-
-· Logging
-­  ­ T+0 ­  ­ Portal ­ 
-
- ­ 
-
- ­ 
-
-
-· KPI
-­  ­  ­  ­ 
-· 
-­ App 
-
- ­ Portal
-
-
-· App ·  ·  · App
-
-
-· SPDY & HTTP/2.0
-­  ­  ­  ­ HTTP Header ­  ­ Twitter30%
-
-
-· QUIC
-­ TCP+TLS+SPDY on UDP ­  ­ TCP Head-of-Line Blocking ­  ­ Connection Migration
-
-
-
-Thanks Q&A
-
-

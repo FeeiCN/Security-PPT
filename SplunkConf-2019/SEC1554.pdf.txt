@@ -1,217 +1,0 @@
-© 2019 SPLUNK INC.
-ES @ 100TB
-Jesse Chen
-Principal Performance Engineer | Splunk
-Devendra Badhani
-Sr Engineering Manager | Splunk
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information.We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information aboutour roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries.All other brand names,productnames, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-ES @ 100TB
-Jesse Chen
-
-© 2019 SPLUNK INC.
-
-Jesse Chen
-Principal Performance Engineer | Splunk
-
-Devendra Badhani
-Senior Engineering Manager | Splunk
-
-© 2019 SPLUNK INC.
-
-What this talk is about
-
-1. Scale tests in lab environment 2. Simulated workload 3. Confidence vote
-
-© 2019 SPLUNK INC.
-
-What this talk is "NOT" about
-
-1. Deployment architecture guidance 2. Sizing guide 3. Use case optimization
-
-In This Session
-
-1. Why the 100TB test? 2. Workload considerations 3. Tests and results 4. Best practices for scaling
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Why the 100TB Test?
-
-Incidents and Asks
-
-© 2019 SPLUNK INC.
-
-Doing great at 15TB, can we get to 30?
-Expanding a 35TB to 60TB, getting ready to buy hardware (millions$), will it work?
-Can Enterprise Security use search-head clustering?
-Cluster peer status is flapping Up and Down.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Workload Considerations
-Key test parameters
-
-Representative Workload
-
-Search Head Cluster - Multi-Site Indexer Cluster ­ Multi-Site SmartStore Top Technology Add-Ons (TAs)
-Top source types
-Scheduled searches Data Model Acceleration ES UI pages Ad-hoc searches in Splunk Web Many buckets Knowledge Bundles Notable events per day Splunk version Enterprise Security
-
-20-node search head cluster with ES 3 sites; replication factor: 2; search factor: 2 Enabled, with AWS S3 object store TAs in ES, F5 bigip, palo-alto, checkpoint-opseclea, bluecoat-proxysg,akamai
-Pan:traffic, wineventlog, syslog, f5:bigip:apm:syslog, akamai:cm:json, opsec, bro_dns, and more
-Correlation, tracker, generating All built-in CIM data models accelerated
-Top 10 pages: security_posture, incident_review, etc. 160K searches per day, e.g., "search index=_internal INFO sourcetype=splunkd" 13M 1.4M assets, 300K identities; total 1.2GB in size 2000+ 7.3.0 5.3.0
-
-© 2019 SPLUNK INC.
-   
-         
-
-By the Numbers
-
-© 2019 SPLUNK INC.
-
-100TB 1000
-
-Daily ingestion
-
-Indexers
-
-500
-Indexes
-
-500
-Saved searches
-
-1GB
-Knowledge bundle
-
-Default Topology
-Search Head Cluster + 1 large indexer cluster
-
-10-node Search Head Cluster
-
-Site A
-
-Site B
-
-Site C
-
-500-node Multisite Indexer Cluster
-Signs of stress Search head captain: Knowledge bundle replication times increase; CPU 100% Cluster Master: SmartStore bootstrap, rolling restart, fixup times increase
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Better: Distributed Clustered Deployment
-Stretched Search Head Cluster + Indexer Clusters
-
-20-node Search Head Cluster (stretched across 10 clusters )
-
-Site A
-
-Site B
-
-Site C
-
-Indexer Cluster 1 Indexer Cluster 1 Indexer Cluster 1 Indexer Cluster 1 100-node Multisite Indexer Cluster 1
-
-Site A
-
-Site B
-
-Site C
-
-Indexer Cluster 1 Indexer Cluster 1 Indexer Cluster 1 Indexer Cluster 1 100-node Multisite Indexer Cluster 10
-
-Size: This environment has 16,688 CPU cores, 262 TB of RAM (~20 full data center racks!) AWS Instance types: c5.9xlarge (search head), i3.8xlarge (indexer), x1.16xlarge (cluster master), 10 Gigabit network, 4X1.9 NVMe SSD as local storage How to: Google "Splunk configure multi cluster search"
-
-© 2019 SPLUNK INC.
-Tests & Results
-How does ES perform on SHC at 100TB?
-
-ES Results
-Per day
-Ingestion: 100GB / indexer / day Searches: 160,000 / day Concurrency: 70 at peak
-Search performance
- DMA <= 300 seconds  Correlation < 100 seconds  Ad-hoc 8~50 seconds  ES UI page load times: avg. 50 seconds  Skip rates < 1%  Rolling restart time: a few minutes
-
-© 2019 SPLUNK INC.
-Tip: You can find cluster ingestion rate in the Monitor Console. Example shows one of our clusters during level load.
-Resource utilization
- Both search head & indexer
-· CPU% < 15% · Memory < 20GB · IOPS < 74K · Network < 40 MB/s
- Low resource usage
-· 300~400TB/day possible on this stack · Over-provisioned
-
-ES UI Performance
-
-© 2019 SPLUNK INC.
-
-Big impact: Bundle replication slows down UI. Ex. Content Management page.
-
-Bundle Replication
-Linear and predictable
-
-© 2019 SPLUNK INC.
-Measured: Bundle replication time of 1GB assets and identities onto 1000 nodes is close to predicted.
-
-© 2019 SPLUNK INC.
-Scaling Recommendations
-
-© 2019 SPLUNK INC.
-
-Splunk/ES Tuning
-
-Category Indexing Data Model Acceleration
-Search Scheduling
-Bundle Replication
-
-Tune this parallelIngestionPipelines=2 [cim_Web_indexes] definition = (index=web OR index=bluct001) allow_skew = 50%
-max_searches_per_cpu = 5 acceleration.max_concurrent = 5
-replication_period_sec = 3600
-
-Outcome
-Can leverage addition CPU cores for higher indexing throughput
-Data model acceleration does not have to look at index=*, reducing lag
-Distribute your saved searches more evenly; avoid search "waves" Help reduce "Max concurrent searches reached" errors; experiment with your load
-For data models that are slower to accelerate
-Time between two successive bundle replications. If the default 1 minute is too frequent, increase to a longer period to reduce stress on search head
-
-Search Head Cluster Settings
-
-© 2019 SPLUNK INC.
-
-election_timeout_ms: The amount of time, in milliseconds, that a member waits before trying to become the captain. Make them wait longer with more members.
-
-Cluster Settings
-
-© 2019 SPLUNK INC.
-
-Increase timeouts for large Splunk deployments
-Improve Cluster Master response times
-Improve remote bucket bootstrapping (SmartStore)
-More in depth ­ Attend session FN1635 "What's On Your Bucket List?" Thursday, October 24, 11:45 AM - 12:30 PM
-
-In Conclusion
-Yes, 100TB ES is doable! Yes, you can run ES on SHC! Proven topology for large scale Tuning to help improve response times
-
-© 2019 SPLUNK INC.
-
-Email us: Jesse Chen jessec@splunk.com Devendra Badhani dbadhani@splunk.com
-
-M ore from the real world!
-
-© 2019 SPLUNK INC.
-Thank You!
-Go to the .conf19 mobile app to
-RATE THIS SESSION
-
-

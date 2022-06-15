@@ -1,242 +1,0 @@
-
- 
-
-
-·  ­ 
-·  ­ Smart Your Hotel Reservation
-·  ­ 210 ­ 22699 ­ 368892
-
-
-·  ·  ·  · 
-
-Overview
-
-Overview
-
-Overview
-
-
-· 
-­  ­  ­  ­ 
-
-
-· 
-­  ­
-­  ­ ­
-­  ­ ­
-
-
-· 
-­ HotelSearch Render Service
-· 
-­ HotelSearch Service
-· 
-­ HotelSearch Rank Service
-· rank
-­ HotelSearch Price Service
-· 
-­ HotelSearch Price Crawl Service
-· 
-
-
-
-
-· 
-­ 
-· 
-­  ­ 
-·  · 
-
-
-· 
-­ http
-· nginx + QunarClient
-­ rpc
-· dubbo
-· 
-­ rpc
-· zookeeper
-­ http
-· ngx-healthcheck · 
-­ roundrobin ­ ipcookie ­ 
-
-
-· Why
-­  ­ 
-
-· Challenges
-­  ­  ­ 
-
-
-· 
-­  ­  ­  ­ 
-
-
-· 
-­ 1600qps 1
-­ 4ms ­ 4000
-2.5
-
-
-· 
-­  ­  ­  ­ 
-
-
-· 
-­ 
-­ HotelSearch Price Service ­ HotelSearch Price Crawl Service
-· 
-­  ­  ­ + ­  ­  ­  ­ 
-· 
-­  ­ 
-
-
-· 
-­  ­  ­ 
-
-
-· 
-­  ­ 
-· activemq
-­ 
-·  · 
-­  » <sharedDeadLetterStrategy processExpired="false" />
-· 
-­ async send & async ack ­ 
-· 
-­ clientfailover
-
-
-· 
-
-
-· 
-­ 
-· 
-­ 
-· 
-­  ­ 
-· 
-­ 
-·  ·  · 
-
-
-· 
-
-
-· 
-­ 
-·   
-·  
-·  
-
-
-· 
-­ 
-·  · 
-
-­ 
-·  · 
-­ *10
-· 
-­  ­  ­ 
-­ 
-
-
-· 
-­ 
-· corePoolSize
-­ qps*1.5* s
-· queue
-­ LinkedBlockingQueue ­ ArrayBlockingQueue
- ­ SynchronousQueueDirect handoff
-
-· maxPoolSize
-­ max(qps*, corePoolSize)
-· rejection policy
-­ 
-­ 
-
-
-· js
-­ 
-·  · 
-­ 
-· poll · poll
-­  ­  ­ 
-
-
-· 
-­ 
-·  · 
-
-
-· 
-­  ·  ­  ­  »  ­  ·  ­  » LRU »  »  »  ­  » memcached
-
-
-· 
-­  ­  ­ 
-· String.intern() · String Pool
-­  ­  ­  ­ LRULRU
-
-
-
-· 
-­ 
-·  ·  · memcached · 
-
-
-· 
-
-
-· 
-
-
-· memcached 
-
-
-· memcached 
-
-
-· Memcached
-­ Slab Allocation Mechanism
-· slabeviction
-­ 
-· memcached ·  ·  · eviction
-­ qmemcached-patch
-­ 
-· kryo ­ 
-·  · daemontools
-
-
-· kryojava/
-
-
-· 
-­ 
-·  · 
-­ 
-· cachetime
-­  ­  ­ +
-·  · 
-
-
-· 
-­  ­  ­  ­  ­ 
-· 
-­  ­ 
-
-
-· 
-
-
-· 
-
-
-· 
-
-Thank you for coming
-mail: yue.liu@qunar.com gtalk: the.6th.month@gmail.com
-
-

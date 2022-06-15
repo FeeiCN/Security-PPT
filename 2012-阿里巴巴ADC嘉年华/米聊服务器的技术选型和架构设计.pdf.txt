@@ -1,86 +1,0 @@
-
-·  · 2010/7
-­ 201010 ­  ­ 
-· Microsoft3Bing windows phone 7
-· LucentNortel
-
-
-
-
-
-
-
-
-
-
--
-·  
-·  
-·   
-
- 38
-
-3
-  
-
-1SOA
-·  · 
-­ naming/register&discovery/ 
-­ ip+port
-·  
-· 
-­ Zookeeper ­  ­ zookeeper
-
-2/
-· 
-­ compact ­ multi-version ­ 
-· 
-­ DAL+DAO
-·  · 
-­ thrift HsHa ­ rabbitmq
-· rabbitmqactor ·  ·  · Traffic shaping, 
-­ DALdata source
-
-3/ 
-· 
-­ http api ­ Rpc ­ Data ­ XMPP
-·  · 
-­ http api: url ­ Rpc/data: thrift ­ Xmpp
-
-4
-· Measure 
-­ (KPI) ­ throughputlatency
-· :
-­ scribe log+hadoop+hive ­ Counter ­ Metrics (Codahale)
-
-5 partition 
-·  · 
-scale join · :
-­ uid DAL
-­ uid range ­ Memcachedhash
-
-6 
-· "kill -9" · 
-­  ­ 
-
-· :
-­ cache ­ zookeeper
-fallback
-
-7 
-·  · 
-­  ­ dogfood ­ dark launch
-· :
-­ / ­ ip//uid/cookie
-partition ­ uidpreview partition ­ uid rangepartition
-
-
-8 
-· /// · 
-­ 
-
-Q&A
-
-
-
-

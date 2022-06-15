@@ -1,528 +1,0 @@
-  ·    ·    
-TalkingData  
-
-LOOKALIKE OVER
-MOBILE
-@TalkingData   2015-09-11
-
-What  is  Lookalike?
-
-Basic  Idea  --  Nearest  Neighbors  Method
-
-Source  Audiences
-
-Average   Audience
-
-Candidate  Audiences
-
-Device/App  Lookalike
-
-Dev   Dev   Dev  
-Dev   Dev  
-Users  
-
-Adver?ser  
-
-App  
-Product  
-
-Dev  
-
-Dev  
-
-Dev  
-
-Dev  
-
-Dev  
-
-Dev  
-
-Dev  
-
-Dev  
-
-Dev  
-
-Device  Pool  
-
-App   App   App  
-
-App   App   App  
-
-App   App   App  
-
-App  Pool  
-
-Dev   Dev  
-App   App  
-
-Data  of  TalkingData
-
-Device   Information  
-
-App   Information  
-
-Location   Information  
-
-Outdoor   Location  
-
-Indoor   Location  
-
-Long--tail  Distribu?on  of  Apps
-
-Averaged  Audience  (Device)  via  Confidence
-
-App  
-
-App
-         QQ2013                    
-
-Confidence
-0.965531504   0.949098864   0.809838313   0.793635454   0.739541015   0.713632198   0.686042695   0.651657576   0.614649669   0.598250511  
-
-App  
-
-App
-
-Confidence
-
-  
-
-0.954065  
-
-  
-
-0.929158  
-
-QQ2013  
-
-0.836412  
-
-  
-
-0.734161  
-
-  
-
-0.727032  
-
-  
-
-0.723763  
-
-  
-
-0.660662  
-
-  
-
-0.629119  
-
-  
-
-0.622546  
-
-  
-
-0.559942  
-
-Averaged  Audience  (Device)  via  LiG
-
-App  
-
-App
-
-LiC Count
-
-   136.875  
-
-1  
-
-Referey   136.875  
-
-1  
-
-MySQL  Pro  Quick  Guide  Free   136.875  
-
-1  
-
-sex   136.875  
-
-1  
-
-   136.875  
-
-1  
-
-   136.875  
-
-1  
-
-   136.875  
-
-1  
-
-   136.875  
-
-2  
-
-Ridiculous  Fishing   136.875  
-
-1  
-
-Lovely  Mai  Flower  Live  Wallpaper   136.875  
-
-1  
-
-App  
-
-App
-
-LiC Count
-
-Sketch  
-
-31.57792  
-
-1  
-
-  
-
-31.57792  
-
-1  
-
-   31.57792  
-
-1  
-
-148   31.57792  
-
-1  
-
-  
-
-31.57792  
-
-1  
-
-   31.57792  
-
-1  
-
-466   31.57792  
-
-2  
-
-SNG  
-
-31.57792  
-
-4  
-
-   31.57792  
-
-1  
-
-iVideo  
-
-31.57792  
-
-1  
-
-Supervised  Learning  Method
-Learn  the  rela?onships  between  source  audiences  and  apps  without   the  impact  of  popularity  and  randomiza?on.    
-App   App   App   App   App   App   App   App  
-1 2 3 4 5 6 7 8
-
-Device  Lookalike
-App   App   App   App   App   App  
-
-0 Dev   1 Dev   1 Dev   0 Dev   0 Dev   0 Dev   0 Dev   0 Dev  
-
-Learner   Model  
-
-Dev   0.4   Dev   0.9   Dev   0.8   Dev   0.3   Dev   0.7   Dev   0.2   Dev   0.1   Dev   0.6  
-
-App  Lookalike
-
-0.6   App  
-
-App  
-
-0.7   App  
-
-App  
-
-0.5   App  
-
-App  
-
-Learner  
-
-0.3   App  
-
-App  
-
-App  
-
-App  
-
-0.8   App  
-
-App  
-
-0 Dev   1 Dev   1 Dev   0 Dev   0 Dev   0 Dev   0 Dev   1 Dev  
-
-Challenges
-Billion  Devices     Millions  Apps  
-
-Sparsity  
-
-Class  Imbalance  
-
-Large  Scale  Distributed  Logis?c  Regression
-
-Support   Sparsity   Support  High   Dimension   Imbalance   Resistance  
-Train  in  10  m  
-One  IteraSon  
-
-Batch  LR   LogisSc  Regression  
-Spark  
-
-Train  500  LRs   in  1  hour  
-Speed   Ease  of  Use  
-
-Examples
-Lookalike  Apps  
-
-           
-
-           
-
-     
-
-  
-
-  
-
-           
-
-Lookalike  Apps  
-
- e     
-
-     
-
-  
-
-e        
-
-     
-
-e  
-
-  
-
-51     
-
-  
-
-  
-
-Examples
-Lookalike  Apps  
-
-         
-
-  
-
-     
-
-  
-
-  
-
-  
-
-   9     
-
-     
-
-     
-
-  Lookalike  Apps  
-
-           
-
-   1        
-
-  
-
-     
-
-  
-
-   
-
-     
-
-  
-
-Examples
-Lookalike  Apps
-
-Lookalike  Apps
-
-  
-
-Uber  
-
-     
-
-   -   e  
-
-  
-
-     
-
-     
-
--           
-
-     
-
-     
-
-           
-
-  
-
-        
-
-19  
-
-  
-
-     
-
-Examples
-Lookalike  Apps
-
-         QQ  
-
-         Superuser  
-
-      2     
-
-3D     
-
-      
-
-Lookalike  Apps  
-
-  
-
-  O  L        
-
-           
-
-           
-
-         3D  
-
-Examples
-CBD  Lookalike  Apps    
-
-Lookalike  Apps  
-
-  
-
-  
-
-     
-
-KK           
-
-  
-
-        
-
-E           
-
-At  Tsinghua   T  U  Net     
-
-  
-
-     
-
-  
-
-  
-
-           
-
-           
-
-An  Interes?ng  Case  ­  Auto  Ad  Click  Audiences  Lookalike
-
-We  think  
-
-In  Fact  
-
-  
-
-  
-
-      
-
-   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-     
-
-           
-
-E  
-
-     
-
-  
-
-           
-
-  
-
-        
-
-   
-
-Q  
-
-  
-
-  
-
-The  Future  of  Lookalike  in  TalkingData
-
-1.18  B  Bililliloionn Dev  Coverage  
-
-Device  Info  
-
-App  Info   App  Ads Mobile  Ads
-
-Location  Info  
-
-Online  and  Offline  LBS  Ads
-
-

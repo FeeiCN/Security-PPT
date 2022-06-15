@@ -1,71 +1,0 @@
-
- 
-Glow Inc www.glowing.com
-
-
-· Glow ·  Glow App iOS  · peng@glowing.com · no_computer · gupeng.me
-
-
-·   ·   ·  
-
-
-· UI · 10 ·  · 
-
-
-·  
-·  · Design of Everyday Thing - Donald Norman
-
-
-· Python/Flask · MySQL  · Celery  · Redis broker
-
-
-· iOS · Objective - C · Swift
-
-
-· AWS : EC2, ELB, R53, S3 · Sendgrid  · Twilio  · Parse  Notification
-
-Web 
-· HTML, Css/Less, jQuery/Javascript · Grunt · Sketch
-
-
-· www + rpc · Sharding · uWSGI  + uwsgi  · Nginx  
-
-
-· Hadoop · Scikit-learn · Scipy,NumpyMatplotlib
-iPython
-
-
-· GitRollbarBugSense ·  Vagrant ·  Fabric ·  Appium
-
-Android
-
-Python Flask
-
-ObjC
-
-Javascript NodeJS
-
-Nginx
-
-iOS
-Swift
-
-Less Css
-
-Vagrant uwsgi
-
-Git AWS
-Grunt
-jQuery
-
-
-·  ·  · 
-
-Glow
-·  ·  · 
-
- glowing.com/jobs
-
-
-
-

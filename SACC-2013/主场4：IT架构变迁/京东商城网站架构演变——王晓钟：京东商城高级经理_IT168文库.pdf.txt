@@ -1,117 +1,0 @@
-
-
-
-
-V1 ASP 
-Web SQLServer
-2
-
-V2 .Net
-
-CDN
-
-
-
-
-
-SQLServer
-
-Memcache
-
-· CDN · + · Memcache
-
-V2 .Net--
-· 
-­  IIS 
-­ 
-
-V2 .Net--
-· 
-­  ­  ­ 
-
-V2 .Net--
-· 
-­  ­ 
- ­ DB
-
-V2 .Net--
-· 
-­  ­ DB
- ­ 
-
-V3  
-
-CDN APP    
-
-  
-
-
-
-
-
-  
-
-DAL 
-
-
-
- 
-
- 
-
- SQLSer ver
-
-Mysql
-
-Mongo
-
-Oracle
-
-V3 -
-
- Nginx Web
- 
-
-CDN
-
-LB
-
- Nginx Web
-
- Nginx NodeJS
-
- Nginx
-
-Web
- 
-
- 
-  
-
-V3 -
-
- Web 
-
-LB
-Nginx  Web
-
-
- 
-
- 
-
-V3 --
-· 
-­ .Net->Java ­ 
- ­ DAL
- ­ Key-Value ­ 
-
-V3 --
-· 
-­  
-
-Thanks
- 
-xiaohuook@gmail.com
-
-

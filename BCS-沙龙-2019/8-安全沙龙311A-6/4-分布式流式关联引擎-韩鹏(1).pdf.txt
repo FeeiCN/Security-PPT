@@ -1,272 +1,0 @@
- SabreNGSOC 
- 
-
-
-
-01CEP
-
-02 CEP 03 -Sabre
-
-"Sabre" 
- CEP()
-- 
-
-01 CEP
-
-{
-
- 
-}
-
-"src_user": "fangwen", "dport": 80, "log_type": "fw", "msgid": "d00de753f73a4583a5197d34d8a30b25", "collect_ip": "10.95.36.14", "dip": "110.12.12.15", "protocol": "TCP", "event_name": "Match url profile", "dev_type": "//", "occur_time": 1564453383000, "sip": "110.12.12.13", "severity": "6_", "serial_num": "1896129436", "systype": "log", "dev_ip": "10.91.130.216", "sport": 7704
-
-
- 
-
-
- 
- 
- 
-
-CEP
-CEPComplex Event Processing 
-
-
-CEP
-CEPCOMPLEX EVENT PROCESSING CEP SIEM(SOC)
-
-
-
-
- 
-
-
-ComplexEventProcessing
-
-
-
-
-
-
- Messaging&RoutingSystems
-
-
-
-
-CEP
-
-vs 
-
-
-
-CEP SQL on stream
-
-02 CEP
-
-
-
-
-
-
-
-
-
-
-
-APT
-
-
-
-1
-
-
-
-2
-
-
-
-3
-
- VS 
-
-CEP
-
-1
-
-()
-
-2
-
-
-
-3
-
- 
-
-03 -SABRE
-
-SABRE
-
-
-(EPL) 
-
-
-
- 
-
-
- 
-
-
-
-
-   
-
-
-Visio 150+ 100+
-
-
- 
-
-
-10WEPS 
-
-
-
-
-  
-VISIO 
-
-
-
-
-
-
-
-
-Sabre 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-Sabre 
-old
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
--
-Use Case-IP
-,1TCP TCP40% ,,
- 1(TCP),,   ()  1  11IPTCP.  2  2IP TCP.  12 1  40%  2
-
-
-
--
-Use Case-
-WAFIPS   
- 1WAFWAF.IP==.IP  2IPSIPS.IP==.IP  1.P==2.IP  5IPIP  >=1
-
- 
-
-
--
-Use Case- ""
-MS17-010
-
- 1DNS.==.host  2Windows"" "mssecsvc2"  3TCPport==445135137138139  123  5IP123
-
-
-
-
-
-XML
-Sabre 
-  
-
-JAR
-
-kafka Flink Kafka
-
-XML
-
-
-
-   
-  
-
-
-
-  
-   
-
-
-  
-   CPU 
-
-
-·  DAG
-
- 
-
-dataSource kafkadatabase
-
-filter
-
-
-
-window 
-
-aggregation countmax minaveragesum
-sequence 
-
-join
-
-
-
-operator 
-
-action
-
- 
-
-
-· SabreApache Flink
-· Apache Flink  Flink   
-
--
- Flink 
-Flink Library  Flink 1.4/1.7.2
-
-Sabre
-
-
-
-THANKS
-
-

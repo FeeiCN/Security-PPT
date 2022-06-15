@@ -1,90 +1,0 @@
-
-@
-
-
-  user_timeline
- 
-SELECT id FROM following WHERE follower_id=$UID
- 
-SELECT * FROM weibo WHERE user_id IN $FOLLOWING_LIST ORDER BY created_at LIMIT 0, 20;
-
-
- 
-   
-
-
-  user_timeline
- 
-SELECT id FROM following WHERE follower_id=$UID
- 
-INSERT INTO liestening (user_id, follower_id, weibo_id, created_at) VALUE($UID, $FOLLOWER_ID, $WEIBO_ID, $CREATED_AT)
-
-
- V
-   
-
-
- 
-    user_timeline 
-
-
- 
-   
-
-
-       IO
-
-
- 
- uid -> [weibo, weibo, ....]
- 
-   uid -> [$NEW_WEIBO, weibo, weibo, ...]
-
-
-      RDBMS  IO
-
-
-
- 
-
-CPU
-
-1
-
-
-
-10
-
-
-
-1,000
-
-
-     
-
-
- 
- 
-   
-
-
- 
- 
- 
- 
-
-
-     
-
-
- 
-   
- 
- 
-
-
- memcached  redis
-
-Thanks!
-
-

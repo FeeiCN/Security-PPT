@@ -1,74 +1,0 @@
-2018 State of DevOps
-An expert panel
-Hal Rottenberg Staff Sales Engineer / DevOps Practitioner / Developer Evangelist / Solution Architect
-October 2018
-
-© 2018 SPLUNK INC.
-
-Forward-Looking Statements
-
-© 2018 SPLUNK INC.
-
-During the course of this presentation, we may make forward-looking statements regarding future events or the expected performance of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results could differ materially. For important factors that may cause actual results to differ from those contained in our forward-looking statements, please review our filings with the SEC.
-The forward-looking statements made in this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, this presentation may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements we may make. In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionality described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Listen to Your Data, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2018 Splunk Inc. All rights reserved.
-
-© 2018 SPLUNK INC.
-Meet the Panel!
-
-2018 State of DevOps ­ Expert Panel
-
-© 2018 SPLUNK INC.
-
-Andi Mann, Chief
-Technology Advocate,
-Splunk
-
-Cesar Barria Director
-Architecture, Cox Auto Inc
-
-Todd Vernon VP of Product,
-Splunk
-
-Bryan Beyer Co-Founder &
-CEO, Red Canary
-
-Deepak Giridharagopal CTO, Puppet Inc
-
-The State of DevOps Report
-puppet.com/devops-report
-
-© 2018 SPLUNK INC.
-
- Yearly survey  Now in 7th year  30,000 respondents
-
-2018 State of DevOps Report
-
-© 2018 SPLUNK INC.
-
-puppet.com/devops-report
-
-Key Findings - 2017
-
-© 2018 SPLUNK INC.
-
- High-performing teams continue to achieve both faster throughput and better stability
- Automation is a huge boon
- DevOps applies to all organizations
- Loosely coupled architectures and teams are the strongest predictor of continuous delivery
-
-Key Findings - 2018
-
-© 2018 SPLUNK INC.
-
- DevOps evolution is nonlinea.
- Culture, automation, measurement and sharing practices expand as organizations evolve
- Executives have a rosier view of DevOps progress than the teams below them
- Automating security policy configurations is a critical practice to get to the highest levels of DevOps evolution
-
-Thank You
-Don't forget to rate this session in the .conf18 mobile app
-
-© 2018 SPLUNK INC.
-
-

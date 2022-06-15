@@ -1,131 +1,0 @@
-Supercharging Network Security w/ SIGMA
-Nate Guagenti (@neu5ron), SOC Prime
-
-> (^W^h^Oa^mi /^A^L^l)
- @neu5ron (New-Tron)  Father  Employee at SOC Prime  Author of None, Contributor of Some
- https://github.com/Neo23x0/sigma  https://github.com/Cyb3rWard0g/HELK  https://github.com/hunters-forge/OSSEM
- Lego Builder
-
-Nate Guagenti @neu5ron
-
-
-SIGMA Quick Recap
-
-Agenda
-
- Why Zeek or network for that matter
-
- Use Cases
-
- Screen sharing
-
-Nate Guagenti @neu5ron
-
-Nate Guagenti @neu5ron
-Nate Guagenti @neu5ron
-
-Nate Guagenti @neu5ron
-
-SIGMA
-
-Nate Guagenti @neu5ron
-
-Nate Guagenti @neu5ron
-
-Nate Guagenti @neu5ron
-
-NSM Is Dead....
-
-Nate Guagenti @neu5ron
-
-Nate Guagenti @neu5ron
-
-Endpoint is unable to cover:
-
-Routers, Switches, Firewalls..
-
-Virtualization (ie: ESXi) servers.
-
-Bios/chip level.
-
-SCADA/ICS. etc...
-
-Nate Guagenti @neu5ron
-
-Nate Guagenti @neu5ron
-
-The Goldilogs
-
-Nate Guagenti @neu5ron
-
-Nate Guagenti @neu5ron
-
- conn.log  dce_rpc.log  dhcp.log  dnp3.log  dns.log  dpd.log  files.log  ftp.log  http.log  irc.log  kerberos.log  known_certs.log  known_devices.log  known_hosts.log  known_modbus.log  known_services.log  modbus_register_change.log  modbus.log  mysql.log  notice.log
-Nate Guagenti @neu5ron
-
- ntlm.log  pe.log  radius.log  rdp.log  rfb.log  sip.log  smb_cmd.log  smb_files.log  smb_mapping.log  smtp.log  snmp.log  socks.log  software.log  ssh.log  ssl.log  syslog.log  traceroute.log  tunnel.log  weird.log  x509.log
-
- ntp.log  Lots of community ones  Scada/ICS from  MQTT  Lots of community ones
-Nate Guagenti @neu5ron
-
-Zeek Syslog: Logs in Logs
-Nate Guagenti nate@neu5ron.com
-Nate Guagenti nate@neu5ron.com
-
-Nate Guagenti nate@neu5ron.com
-
-SIGMA: Cisco AAA Crypto to Zeek syslog.log
-https://github.com/Neo23x0/sigma/blob/master/rules/network/cisco/aaa/cisco_cli_crypto_actions.yml
-# CLI command to try yourself in splunk:
-python3 tools/sigmac -t splunk -c tools/config/splunk-zeek.yml rules/network/cisco/aaa/cisco_cli_crypto_actions.yml
-# CLI command to try yourself in es-qs (lucene):
-python3 tools/sigmac -t es-qs -c tools/config/logstash-zeek-default-json.yml rules/network/cisco/aaa/cisco_cli_crypto_actions.yml
-
-MITRE BZAR Execution SIGMA Rule View
-
-Uncoder: MITRE BZAR Execution to Splunk
-
-Uncoder: MITRE BZAR Execution to Elastic Query (Lucene)
-
-Uncoder: Web Server Multiple Error Caused by Single IP
-Zeek http.log covers all same scenarios as existing Proxy and Web Server rules \o/
-
-SIGMA: DCE RPC Enumeration (Elastalert)
-https://github.com/Neo23x0/sigma/blob/master/rules/network/zeek/zeek-dce_rpc_domain_user_enumeration.yml
-# CLI command to try yourself:
-python3 tools/sigmac -t elastalert -c tools/config/ecs-zeek-corelight.yml rules/network/zeek/zeek-dce_rpc_domain_user_enumeration.yml
-
-SIGMA: Windows Event ID 5145 Rule Converted to Zeek SMB (Elastalert)
-https://github.com/Neo23x0/sigma/blob/master/rules/network/zeek/zeek-dce_rpc_domain_user_enumeration.yml
-# CLI command to try yourself:
-python3 tools/sigmac -t elastalert -c tools/config/ecs-zeek-corelight.yml rules/network/zeek/zeek_smb_converted_win_lm_namedpipe.yml
-
-SIGMAC (SIGMA Config aka Field Mapping)
-
-https://github.com/Neo23x0/sigma/tree/master/tools/config
-
-# Arcsight
-tools/config/arcsight-zeek.yml
-
-Nate Guagenti nate@neu5ron.com
-
-# Elasticsearch: Lucene, Kibana, Elastalert, Watcher
-tools/config/logstash-zeek-default-json.yml (No field rename ECS) tools/config/ecs-zeek-corelight.yml (Corelight ECS) tools/config/ecs-zeek-elastic-beats-implementation.yml (Filebeat ECS)
-
-# Splunk
-tools/config/splunk-zeek.yml
-
-# If your database does not rename fields, it will work as is Thus no need to write a SIGMAC
-
-# More on the way
-
-Nate Guagenti nate@neu5ron.com
-
-Nate Guagenti nate@neu5ron.com
-
-Coming soon for test/use APT 29 Hackathon dataset:
-https://zeek.neu5ron.com
-Github, Twitter, & Interwebs: @neu5ron
-Linkedin https://linkedin.com/in/NathanGuagenti
-
-

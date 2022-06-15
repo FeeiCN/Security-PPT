@@ -1,207 +1,0 @@
-
-! !
-! 2015-07!
-
- 
-­ by 
-
-
-· ! · 100%!
-
-
-
-
-· !
-
-
-Attack Surface!
-
-WA F!
-
-IPS!
-
-NGF W!
-
-...!
-
-
-
-!
-
-!
-
-
-!
-! !
-! !
-! !
-! !
-! !
-....!
-
-
-
-
-
-
-!
-
-!
-
-!
-
-!
-
-!
-
- 
-
-
-
-! S0/S1!
-! !
-
-! !
-
-! !
-
-
-! S0/S1!
-! !
-
-! !
-
-! !
-
-
-3%! Top!
-
-!
-
-97%!
-
-· Fireeye!
-
- 
-
-
-
-Attack Surface!
-
-WA F!
-
-IPS!
-
-NGF W!
-
-...!
-
-
-
-!
-
-! ?!
-
-
-· !
-
-
-
-20153
-
-
-
-
-
-
-· ! · !
-
-
-·  !
-Attack Surface!
-
-WA F!
-
-IPS!
-
-NGF W!
-
-...!
-
-
-
-!
-
-! !
-
-
-· ! · ! · !
-
-SIEMSOC
-· ! · ! · !
-
-SIEMSOC
-· ! · IT! · ! · !
-
-SIEMSOC
-· ! · Agent!
-· IT! · IPSIEM!
-· ! · !
-
-
-· ! · WAFNGFW
-99.99%! · !
-
-
-
- !
-
-· !
-
-· !
-
-IaaS!
-
-· !
-
-ODPS 5k+! !
-
-
-· ! · ! · !
-
-
-· ! · ECSRDSSLBDNSOSSCDN!
-· ! · ! · Agent! · !
-
- 
-
-·  !
-· 6P2P CC 100200w QPSCC G!
-
-!
-
-
-· 5000P ?!
-·  !
-· 3-4!
-
-
-!
-
-! !
-1! 2! 3! !
-
- !
-! ! !
-
-30
-· ! · Python! · Python!
-
-
-· ! · ! · ! · ! · !
-
- 
-
-The Future of Cyber Security
-
-

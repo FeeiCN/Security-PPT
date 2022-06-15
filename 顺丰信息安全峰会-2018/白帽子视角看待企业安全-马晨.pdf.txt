@@ -1,86 +1,0 @@
-
- id:mmmark 
-
- 
- 
-
-
-1
-23 4
-
-
-
-IP
-
- 
-
-
- 
-
-
-
-
- 
-
-
-  
-
-
- , 
- SDLWAF
- SDL WAFDOMXSSWAF
-WAF
- SDL
-
-XFF
-HTTPX-Forward-For
-sqlXsslog
-XSSwaf
-
-
-1 2 3
-
-
- Struts2,imagemagic,VueCORS.........
-
- 
-
- 
-
-   
-
-imagemagic
-
-
-CORS
- AjaxCSRF
-
-
-1"" 2""""
-3"""" 
-
-
- .........
- ,
- key
- 
- key in URL 
-
-
-
-or=========
-
-
-===id===
-
-
-1
-2  312
-
- 1"" 2"" 3 4
-17
-
- 1 2
-18
-
-

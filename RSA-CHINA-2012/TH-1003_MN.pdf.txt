@@ -1,636 +1,0 @@
-
-
- 
-
-
-
-
-
-
-
-1
-
-
-
-2 
-
-3 
-
-
-
-
-
-
-
-§ (Domain Name System,DNS) IP
-
-
-
-§  
-§ 
-§  
-§  
-
-
-§ ; § "", § 
-
-
-
- 
-
-
-u  (Sponsored)1 4
-u (Generic) 4
-u  (Genericrestricted)3
-
- 
-u  291
-u 11
-5
-
-
-u .Arpa;
-
-
-
-
-
-
-
-95.43%   1  
-
-0.9  
-
-0.8  
-
-0.7  
-
-0.6  
-
-0.5  
-
-0.4  
-
-0.3  
-
-0.2  
-
-0.1  
-
-1.99%   1.52%   0.47%   0.23%   0.23%   0.12%   0.01%  
-
-0  
-
-Series1   Series2  
-
-u2011v 6
-
-
-
-TOP 10
-
-
-
-
-
-
-
-   JHSOFT  simple  DNS+  
-Runtop  dsl/cable   PowerDNS    
-Yutaka  Sato  DeleGate  DNS   bboy  MyDNS  
-Microso;  Windows  DNS  
-
-0.48%   0.16%   0.18%   0.41%   0.47%   0.67%   2.44%  
-
-ISC  BIND  
-
-0  
-
-0.2  
-
-95.19%  
-
- 
-
-0.4   0.6   0.8  
-
-1  
-
-b
-
-u2011v
-
-7
-
-
-
-TOP 10
-
-
-
-
-
-
-
-   robtexViking  DNS  module  
-vermicelli  totd   Runtop  dsl/cable  
-bboy  MyDNS   Nominum  CNS   MikroTk  dsl/cable   Microso;  Windows  DNS  
-ISC  BIND  
-
-0.54%   0.11%   0.17%   0.24%   0.45%   0.48%   1.73%   2.25%  
-
-94.03%  
-
-0   0.1   0.2   0.3   0.4   0.5   0.6   0.7   0.8   0.9   1  
-u2011v 8
-
-
-u  u 4%0.98%
-9
-
-
-§ 20095195.19DNSPoD""6 
-§ 20096DNS20 § 20098Google, Microsoft,
-Yahoo, Coca-Cola § 200910.se
- § 200912twitter § 200912UltraDNSDDoS  § 20101
- § 20105dede § 20112DNSDNS § 20114DNSPowerDNSDDoS § 20115MicrosoftBPOSDNS
-10
-
-
- DNSDDoS
-DNSDDoS 
-
-
-
-
-
-
-
-
-
-DNS DNSec
-
-
-
-
-
-
-
-
-
-
-DNS 
-
-
- 
-
-    
-
- /
-
-
-
- NSEC  DDoS   
- 
- ID
- 
-  DDoS
-
-DNS
-§ DNS Cache Poisoning(DNS)  DNS
-       
-
-Spoof
-§  
-2005DNS DNS60 512 8.5DNS EDNSEDNSDNS 512 DNSDNS 512UDP  60 4000 66DNS AmplificationIP spoof TCP/IP DNS  
-
-"5·19" ---- 
-
-
-
-ISP
- 
-.org .verycd.com
-
-
-
-5 18  DNSPOD  
-
-
-root 
-
-.com
-
-.net
-
-.baofeng.com
-
-DNSPOD
-
-
-
-10G
-
-.4399.com
-
-
-
-active.baofeng.com
-
-live.baofeng.com
-
-download.baofeng.com
-
-"5·19" ---- 
-
- DNS 
-
-ISP
- 
-
-baofeng. com
-
-
-
-
-.org
-
-.verycd.com
-
-
-
-5 19   bop 
-
-root 
-
-.com
-
-.net
-
-.baofeng.com
-
-DNSPOD
-
-
-
-10G
-
-.4399.com
-
-
-
-active.baofeng.com
-
-live.baofeng.com
-
-download.baofeng.com
-
-"5·19" ---- 
-
-  DNS 
-
-ISP
-ADS
- 
-
-baofeng. com
-
-
-
-
-.org
-
-.verycd.com
-
-50DNS 
-.baofeng.com 
-
-root 
-
-.com
-
-.net
-
-.baofeng.com
-
-DNSPOD
-
-
-
-10G
-
-.4399.com
-
-
-
-active.baofeng.com
-
-live.baofeng.com
-
-download.baofeng.com
-
-
-
-
-DNS
-DNS 
-· %/4 · $16%/4 ·  · %/4
-
-
-DNS
-
-DNSSEC
-
-DNSSEC 
-
-
-u 
-l  l  l SSL
-u 
-l l
-
-
-u 
-l  l  l 
-
-u 
-lUDP   l
-u DDoS
-
-
- 
-
-
-u  u 
-
-
-
-u  u  u 
-
-
-u  u  u  u DNSSec
-
-
- 
-""
-""
- 
-  
-23
-
-
-
-1
-
-
-
-2 
-
-3 
-
-
-
-
-
-1cbc.comicbc.com.
-
-
-
-Fast-fluxDomain-flux
-
-
-
-DDoS.
-
-
-
-DDNS(Dynamic Domain Name System)
-
-25
-
-
-
-u  u 
-
-u DNS u URL u  u  u ......
-
-u  u  u QQ u  u ......
-26
-
-
-2011 Zeus, 3-12 3841
-27
-
-
-28
-
-
-DNS IP
-
- IP
-
-
-
-
-   
-
-
-
-
- 
-
-
-IRC HTTP  P2P P2P 
-
-
-Sdbot,Agobot,GT--Bot,Rbot Rustock,Clickbot,  Naz,  Zeus,  Conficker,Torpig MegaD,  Mariposa Phatbot Sinit,  Nugache Koobface,  Storm,  Waledac
-29
-
-
-
- -  - 
- -  - 
-
-
-
-3
-
-2
-
-4
-
-
-
-
-
-1
-
-5
-
- -  - 
- -  - 
-
-30
-
-
-
-20114.7IP 2010
-
- 5008909528
-
-201022.1
-
-IP885
-
-
-
-31
-
-
-
-1
-
-
-
-2 
-
-3 
-
-
-
-
-
-
- a
-
-"
-DNS
-
-§  
-
-
-DNS
-
-§    
-§ DNS    
-
-DNS DNS
-
-
- 
- 
- 
- 
-
-
- 
-DNS 
-
-
-
-
-
-
-§ Dynamic DNS DDNSfast fluxdomain flux 
-§ domain-fluxbotnet  botnet
-
-Botnet
-
-Botnet
-
-Botnetmaster
-
-1) initial infection
-
-2) Secondary Injection
-
-4) Malicious Command & Control 5) Maintenance & Update
-
-Vulnerable Host
-
-3) Connection 4) Malicious Command & Control
-5) Maintenance & Update
-
-C&C Servers
-
-
-§   Domain Flux
-§ ipip 
-
-Ip
-202.xx.xx.2 67.xx.xx.3
-. . .
-67.xx.xx.8
-
-
-
-* * . . .
-*
-
-
-Ip
-
-220.xxx.xxx.86 220.xxx.xxx.85
-
-* ** *
-
-*
-
-* * ** *
-
-* ** * * * ** *
-
-Time
-
-
-
-Time
-
-
-§  
-§ domain-flux botnet
-§ ipip ip 
-
-Sub domain
-7axik9bu9vqh5leqr6qajk7ui5ovrp8rqlsha9n6qpxr5gx3.44.*****.com 6kj5i8c8fv949gqnn77imp7vh9wu357bfm6nob5uak6e4e8n.44.*****.com p63mqvj3tsba3kagxv9vt8rikepmknuo3ngwfpnc4wm52jn6.44.*****.com
-79por344x7nouwdn6rv9jcxso4ad7h8jim7gp4tfrv3dhek9.44.*****.com qcqs6dbpalim35asivcdki5o562ee4gdlwjihtf97tmcja38.44.*****.com
-l6bv4suaxuwmbvnkco23ocnasaqk239hugsd3qgfk3mmqdbe.44.*****.com
-
-* * * * * *
-
-Time
-
-
-§ 5/ § Domain Flux1000
-
-§ 20 u 50% u 10% u 20~30%
-
-
-
-
-
-
-
-
-
-u URL u URL u  u  u DNS
-
-    
-
- 
-
-39
-
-
-§  
-§  
-
-
-u  Domain Flux
-u  
-u   
-41
-
-
-
-

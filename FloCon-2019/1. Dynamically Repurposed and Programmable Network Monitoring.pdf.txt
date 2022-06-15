@@ -1,81 +1,0 @@
-NetOps and SecOps in the Dataplane
-(extreme flexibility at very interesting speeds and quantities)
-Michael Reed
-Vice President, Engineering reed@mantisnet.com
-© Copyright 2018 MantisNet
-
-The Problems
-· 100G is the new 10G (and 400G is right around the corner) · Network standards are evolving faster than ever (overlays,
-underlays, new protocols) · Traditional switch/router vendors are designing gear for efficient
-transport, not intelligent analysis · Custom silicon solutions take years to develop and fixed-function
-devices are obsolete almost as fast as they come on the market
-
-MantisNet RFP-NG
-
-P4 ­ "Hello Packet"
-
-P4 ­ Resource Utilization ("Hello Packet")
-
-P4 ­ MAU Stage 0 ("Hello Packet")
-
-P4 ­ Add MAC-swap
-
-P4 ­ Resource Utilization (MAC-swap)
-
-P4 ­ MAU Stage 0 (MAC-swap)
-
-MantisNet RFP-NG
-· Rules match:
-· L2/2.5 Match (SMAC, DMAC, EtherType, 802.1Q, MPLS) · L3 IPv4, IPv6 · L4 TCP, UDP, SCTP, ICMP, IGMP · L4+ GTP, DPI*
-· Actions:
-· Permit, Deny, Push/Pop/Replace 802.1Q, NetFlow
-· Flow-aware load balancing, round-robin distribution, replication · Counters galore!
-
-MantisNet RFP-NG Resource Utilization
-
-MantisNet RFP-NG MAU Stage 0
-
-So What Can Your IDS/Firewall Handle?
-
-CASE STUDY: Load Balancing From Hell
-· 2x100G inputs · 32x10G outputs · Frame From Hell:
-· Flow-aware load balance on the inner 5-tuple · P4 Development time: 1 day
-
-CASE STUDY: MAC-in-MAC
-
-802.1aq
-
-802.1aq
-
-P4 Development time: 3 days
-
-CASE STUDY: Intelligent Patch Panel/SDN
-· Mix and match: 32x100G, 32x40G, or 128x10G · Point-to-Point traffic direction · "Monitor" (replicate to read-only port(s)) · P4 Development time: 1 day
-
-CASE STUDY: NetFlow
-· 128k flowlet hash-based cache · Selection criteria based on Packet Broker rule match · Recorded Data:
-· Ingress port · IPv4 SIP/DIP/protocol · TCP/UDP/SCTP SPORT/DPORT · TCP flags · Start time/Update time · Packet count/Octet count
-· 3 Different ways to egress flowlets
-· DMA rings, P4 generate_digest() primitive, Packet cloning/repurposing
-· P4 Development time: 1 month
-
-CASE STUDY: HTTP Attack
-· 32k IPv4 CIDR SIP suppression table · ~ Dozen throttle-attack detection signatures · 8k URI signatures · Clone key packets out of band to customer's follow on processor
-· Follow on processor populates IPv4 CIDR SIP rules to suppress/honeypot hosts based on key frame analysis
-· P4 Development time: 2 days
-
-CASE STUDY: In-Band Telemetry
-· Injected a customer header after Ethernet (custom etherType) containing:
-· Offset to start of inner-most IPv4/IPv6 header · Offset to start of payload · Original next etherType
-· P4 Development Time: 2 days
-
-CASE STUDY: Out-of-Band Telemetry
-· Used existing Packet Broker functionality to build an L4 portbased categorizer
-· 8k ports matched · 15 second update time · Raw and delta stats on a packet and octet basis · Output in JSON to a kafka queue
-· P4 Development Time: 0 days! 
-
-Thank you! Questions?
-Contact:
-Michael Reed Vice President, Engineering reed@mantisnet.com
-
-

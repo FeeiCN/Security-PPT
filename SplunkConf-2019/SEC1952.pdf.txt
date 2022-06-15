@@ -1,493 +1,0 @@
-© 2019 SPLUNK INC.
-Hunting In BOTS: Finding Evil Is Never An Accident
-Michael Haag
-Director of Applied Research | Red Canary
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information.We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information aboutour roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries.All other brand names,productnames, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-BOTS Primer
-Before we go any further...
-BOTS/BOTN is a competitive event for security and network operations teams.
-Splunk your way through the data to find answers to more than one hundred questions in this jeopardy-style capture-the-flag event.
-
-© 2019 SPLUNK INC.
-
-Other BOTS Presentations
-Get Some Learning on
-
-© 2019 SPLUNK INC.
-
-Agenda
-What we're going to cover in 45 Minutes
-
-© 2019 SPLUNK INC.
-1. Why Red Teaming is important 2. Attack Lifecycle of Shadow in BOTSv4 3. Splunk Hunting 4. Adversary Simulation with Atomic Red
-Team
-
-© 2019 SPLUNK INC.
-How do you know that all of these components are working properly?
-
-© 2019 SPLUNK INC.
-How do you know you have sufficient data to detect a threat?
-
-© 2019 SPLUNK INC.
-What happened during BOTSv4?
-
-© 2019 SPLUNK INC.
-Attack Lifecycle
-
-Attack Lifecycle
-
-© 2019 SPLUNK INC.
-
-Initial Recon
-
-Initial Compromise
-
-Establish Foothold
-
-Escalate Privileges
-
-Complete Mission
-
-Source: Mandiant Consulting, see https://www.fireeye.com/services.html
-
-BOTSv4 ­ Red Team Attack Lifecycle
-
-© 2019 SPLUNK INC.
-
-APT32: Attack Lifecycle
-
-Maintain Presence Scheduled Tasks
-Cobalt Strike BEACON
-
-Initial Compromise Establish Foothold Escalate Privileges
-
-Internal Recon
-
-Move Laterally Local Admin
-Account Usage
-Complete Mission
-
-ActiveMime Phish
-
-WINDSHIELD KOMPROGO SOUNDBITE
-PHOREAL
-
-CVE-2016-7255 MIMIKATZ
-
-SysAdmin Utilities
-PowerShell Commands
-
-Access to VPN, Email, Files, Web
-Browsing Data
-
-https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html
-
-© 2019 SPLUNK INC.
-
-Attack Lifecycle
-
-Shadow: Attack Lifecycle
-
-Maintain Presence Create Account
-Local Job Scheduling
-
-Initial Compromise Establish Foothold Escalate Privileges
-
-Internal Recon
-
-Move Laterally Credentials in Files
-Remote Desktop Protocol
-Complete Mission
-
-Spearfishing Link
-Valid Accounts
-Two-Factor Authentication
-Interception
-
-MSHTA
-Disable Security Tools
-
-Credential Dumping
-Bypass User Account Control
-
-Network Service Scanning
-System Owner / User Discovery
-Account Discovery
-
-Why Red Team?
-The Best Defense is a Good Offense
-Goal: Red Team Tests Blue Team Detects
-Red+Blue = Unstoppable
-
-© 2019 SPLUNK INC.
-
-Atomic Red Team
-Small and highly portable detection tests based on MITRE's ATT&CK.
-Use Atomic Red Team to simulate behaviors for continuous development. Are your defenses ready to withstand an actual intrusion? We will leverage BOTSv4 to help you test and validate Splunk use cases.
-AtomicRedTeam.com
-
-© 2019 SPLUNK INC.
-
-Hunting Methodology
-Scientific Model
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-The HaagTM Splunk Hunting 101
-Basics of Hunting Be Efficient
-· Use Macros
-­ /en-US/manager/search/admin/macros
-Analyze quickly
-· Stats are your friend
-­ | stats values(<field>)by <field>
-· Cast that net wide!
-­ | stats values(dest) by dest_port
-Be specific
-· Zone in on critical processes or eventIDs
-Review: https://www.splunk.com/blog/2017/07/06/hunting-with-splunk-the-basics.html
-Don't be afraid to be greedy*
-
-The HaagTM Splunk Hunting 101
-Macro Examples
-Sysmon
-· index=sysmon sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"
-Powershell
-· index=powershell OR (index=wineventlog source="WinEventLog:Windows PowerShell" OR source="WinEventLog:Microsoft-Windows-PowerShell/Operational")
-windows-security
-· index=wineventlog source="WinEventLog:Security"
-cb
-· Index=carbonblack sourcetype=bit9:carbonblack:json
-https://github.com/clong/DetectionLab/blob/master/Vagrant/resources/splunk_server/macros.conf
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Spearfishing Link Valid Accounts Two-Factor Authentication Interception
-Initial Compromise
-
-© 2019 SPLUNK INC.
-Phish First, Steal Second Factor... Second
-Spearphishing Link - T1192
-· Data Sources: Packet capture, Web proxy, Email gateway, Detonation chamber, SSL/TLS inspection, DNS records, Mail server
-Valid accounts - T1078
-· Data Sources: Authentication logs, Process monitoring
-Two-Factor Authentication Interception - T1111
-· Data Sources: API monitoring, Process monitoring, Kernel drivers
-
-Email - Attempt 1
-
-© 2019 SPLUNK INC.
-
-sourcetype=stoq "results{}.workers{}.smtp.subject"="Frothly IT Browser Check"
-"results{}.workers{}.smtp.from"="*bstoll*" | table "results{}.workers{}.smtp.from" "results{}.workers{}.smtp.to" "results{}.workers{}.smtp.subject" "results{}.workers{}.smtp.received-spf" "results{}.workers{}.smtp.body"
-
-Email - Attempt 1
-
-© 2019 SPLUNK INC.
-
-Email - Attempt 2
-
-© 2019 SPLUNK INC.
-
-Email - Attempt 2
-https://github.com/drk1wi/Modlishka
-
-sourcetype=stream:http
-
-© 2019 SPLUNK INC.
-
-Network
-
-© 2019 SPLUNK INC.
-https://github.com/drk1wi/Modlishka
-
-Network
-
-© 2019 SPLUNK INC.
-
-Network
-sourcetype=stream:http | stats values(uri_path) by host http_method site
-
-© 2019 SPLUNK INC.
-
-Network
-sourcetype=stream:http | stats values(uri_path) by http_method site
-
-© 2019 SPLUNK INC.
-
-Network
-sourcetype=stream:http http_method=POST | stats values(site) count by host
-
-© 2019 SPLUNK INC.
-
-Network
-sourcetype=stream:http http_method=POST | stats values(site) count by host | where count > 10
-
-© 2019 SPLUNK INC.
-
-Network
-sourcetype=stream:http http_method=POST | stats values(host) count by site | where count < 10
-YMMV
-
-© 2019 SPLUNK INC.
-
-Network
-On the VPN portal, Shadow finds RDP link:
-sourcetype=fgt_event | stats values(reason)
-
-© 2019 SPLUNK INC.
-sourcetype=fgt_event *rdp* *gravity*
-
-Endpoint
-source="WinEventLog:Microsoft-Windows-Windows Defender/Operational" | stats values(EventDescription) by host EventCode
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Endpoint
-source="WinEventLog:Microsoft-Windows-Windows Defender/Operational" detect* | stats values(EventDescription) by host EventCode Path
-
-Endpoint
-source="WinEventLog:Microsoft-Windows-Windows Defender/Operational" browsercheck* | stats values(EventDescription) by host EventCode Path
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-The HaagTM Splunk Hunting 101
-Basics of Hunting
-Be Efficient
-· Use Macros
-­ /en-US/manager/search/admin/macros
-Analyze quickly
-· Stats are your friend
-­ | stats values(<field>)by <field>
-· Cast that net wide!
-­ | stats values(dest) by dest_port
-Be specific
-· Zone in on critical processes or eventIDs
-Review: https://www.splunk.com/blog/2017/07/06/hunting-with-splunk-the-basics.html
-Don't be afraid to be greedy*
-
-© 2019 SPLUNK INC.
-MSHTA Disable Security Tools
-Establish Foothold
-
-I Just Need to get rid of These Pesky Security Tools
-
-© 2019 SPLUNK INC.
-
-Disable Security Tools - T1089
-Data Sources: API monitoring, File monitoring, Services, Windows Registry, Process command-line parameters, Anti-virus
-MSHTA - T1170
-Data Sources: Process monitoring, Process command-line parameters
-
-Endpoint
-Shadow rollbacks Defender Signatures MpCMDRun.exe -RemoveDefinitions -All
-
-© 2019 SPLUNK INC.
-
-Endpoint
-`sysmon` (process=mshta.exe OR parent_process=*\mshta.exe) | stats values(process) by _time parent_process CommandLine
-
-© 2019 SPLUNK INC.
-
-Sidebar
-
-© 2019 SPLUNK INC.
-
-Good time to realize, if you have identified a compromised host, queries like the following will provide MOST of the answers you need
-`sysmon` host=gravity | stats values(CommandLine) by Image
-
-© 2019 SPLUNK INC.
-Credential Dumping Bypass User Account Control
-Escalate Privileges
-
-Gimme all the Creds!
-
-© 2019 SPLUNK INC.
-
-Credential Dumping - T1003
-Data Sources: API monitoring, Process monitoring, PowerShell logs, Process command-line parameters
-Bypass User Account Control - T1088
-Data Sources: System calls, Process monitoring,Authentication logs, Process command-line parameters
-
-Endpoint
-process=whoami.exe | stats values(CommandLine)
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Endpoint
-process=whoami.exe | stats values(ParentCommandLine) as "Parent Process CommandLine" by host CommandLine
-
-Endpoint
-`sysmon` host=GRAVITY notepad.exe EventID=13 SysWOW64 | stats values(object_path) by host process
-
-© 2019 SPLUNK INC.
-
-https://github.com/rapid7/metasploit-framework/blob/76954957c740525cff2db5a60bcf936b4ee06c42/documentation/modules/exploit/windo ws/local/bypassuac_comhijack.md
-
-Endpoint
-Meterpreter > getsystem
-
-© 2019 SPLUNK INC.
-
-Reference: https://blog.cobaltstrike.com/2014/04/02/what-happens-when-i-type-getsystem/
-
-© 2019 SPLUNK INC.
-Internal Recon
-Network Service Scanning
-System Owner / User Discovery Account Discovery
-
-Just Doing Some Light Recon
-
-© 2019 SPLUNK INC.
-
-Network Service Scanning - T1046
-Data Sources: Netflow/Enclave netflow, Network protocol analysis, Packet capture, Process command-line parameters, Process use of network
-System Owner / User Discovery - T1033
-Data Sources: File monitoring, Process monitoring, Process command-line parameters
-Account Discovery - T1087
-Data Sources: API monitoring, Process monitoring, Process command-line parameters
-
-Do you even ARP?
-What is ARP? W ho has this IP Address?
-sourcetype=stream:arp | timechart count by src_ip useother=false
-
-© 2019 SPLUNK INC.
-
-Network
-index=botsv4 (sourcetype=stream:tcp OR sourcetype=stream:udp) | timechart count by src useother=false
-
-© 2019 SPLUNK INC.
-
-Endpoint
-`sysmon` host=gravity | stats values(CommandLine) by _time, Image
-
-© 2019 SPLUNK INC.
-
-Windows EventID 4688
-index=bots* net.exe source="WinEventLog:Security" | stats values(Creator_Process_Name) by Process_Command_Line
-
-© 2019 SPLUNK INC.
-
-Move Laterally
-Credentials in Files
-Remote Desktop Protocol
-Move Laterally
-
-© 2019 SPLUNK INC.
-
-Gimme all The Access!
-
-© 2019 SPLUNK INC.
-
-Credentials in Files - T1081
-Data Sources: File monitoring, Process command-line parameters
-Remote Desktop Protocol - T1076
-Data Sources: Authentication logs, Netflow/Enclave netflow, Process monitoring
-
-Endpoint
-File Audit logging ­ EventCode=4663
-
-© 2019 SPLUNK INC.
-
-EventCode=4663 | stats values(host) count by Object_Name
-
-© 2019 SPLUNK INC.
-
-EventCode=4663 \\desktop\\ | stats values(Object_Name) by host
-
-© 2019 SPLUNK INC.
-
-Endpoint
-`cb` [ inputlookup sensitivefiles ] | stats values(process) count
-
-© 2019 SPLUNK INC.
-
-https://github.com/carbonblack/cb-response-splunk-app https://github.com/redcanaryco/cb-response-surveyor
-
-Maintain Presence Create Account
-Local Job Scheduling
-
-© 2019 SPLUNK INC.
-
-Maintain Presence
-
-© 2019 SPLUNK INC.
-Don't Mind Me, I'm Supposed to be Here
-Create Account - T1136
-· Data Sources: Process monitoring, Process command-line parameters, Authentication logs, Windows event logs
-Local Job Scheduling - T1168
-· Data Sources: File monitoring, Process monitoring
-
-Endpoint
-process=net.exe | stats values(host) count by CommandLine
-
-© 2019 SPLUNK INC.
-
-Endpoint
-host=GRAVITY process=schtasks.exe | stats values(CommandLine) by host
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Sidebar Two At this point ­ Shadow's Red Team
-work is mostly complete.
-
-© 2019 SPLUNK INC.
-Simulate BOTSv4
-Generate Atomic Tests to Test Your Defenses
-
-Atomic Tests
-
-© 2019 SPLUNK INC.
-
-Atomic Tests
-
-© 2019 SPLUNK INC.
-
-https://github.com/redcanaryco/atomic-red-team/tree/master/ARTifacts/Chain_Reactions
-
-MITRE ATT&CK
-
-© 2019 SPLUNK INC.
-
-https://github.com/Cyb3rWard0g/ThreatHunter-Playbook/blob/master/resources/metrics/HuntTeam_HeatMap.xlsx
-
-Want to Play BOTS at home?
-
-© 2019 SPLUNK INC.
-
-https://github.com/clong/DetectionLab
-
-https://github.com/splunk/botsv2
-
-Apps of Interest
-
-© 2019 SPLUNK INC.
-
-Key Takeaways
-
-© 2019 SPLUNK INC.
-1. Hunting can be hard or easy ­ It's what
-you make it
-2. Know your data ­ If you want to hunt
-endpoints, you'll need the right sources
-3. Test yourself ­ Know what you can detect
-before you miss it
-
-© 2019 SPLUNK INC.
-Thank You!
-Go to the .conf19 mobile app to
-RATE THIS SESSION
-
-

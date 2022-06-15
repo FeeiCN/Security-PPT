@@ -1,95 +1,0 @@
-
-VPC  AWS  
-2015-12-17
-
-EC2 
-
-172.31.0.128 172.31.0.129
-
-54.4.5.6 172.31.1.24 54.2.3.4 172.31.1.27
-
-VPC
-
-
-· VPC · VPC
-
-:VPC
-
-VPC : 
-
-
-
-  VPC
-
-
-
-CIDR 
-· CIDR :
-· 172.31.0.0/16 · 1010 1100 0001 1111 0000 0000 0000 0000
-
-VPCIP
-
-172.31.0.0/16
-
-: RFC1918 range
-
-: /16 (64K addresses)
-
-
-
-IP
-
-eu-west-1a
-172.31.0.0/24
-VPC subnet Availability Zone
-
-172.31.0.0/16 eu-west-1b
-172.31.1.0/24
-VPC subnet Availability Zone
-
-eu-west-1c
-172.31.2.0/24
-VPC subnet Availability Zone
-
-: 
-
-
-· :
-· /16 VPC (64K addresses) · /24 subnets (251 addresses) · 
-· 
-
-
-
-VPC
-·  · VPC · ... 
-
-
-VPC
-
-Internet gateway
- 
-
-VPC
-
-:  
-
- = 
-
-
-
-
-"MyWebServers" Security Group
-MyWebServer
-"MyBackends" Security Group
-
-= 
-80HTTP)
-
-= 
-MyWebServers  
-
-VPC
-· VPC ·  · IAM 
-11
-
-

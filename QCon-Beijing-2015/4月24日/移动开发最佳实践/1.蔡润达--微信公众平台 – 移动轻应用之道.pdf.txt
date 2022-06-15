@@ -1,170 +1,0 @@
-     
-  ·    ­         
-
-
-
-Dirk  Cai()          
-/,  
-  
-     QQMail  (2009.07~2011)     2011~2012.08       /2012.08~     
-
-
-·    ·    ·    · H5Native  
-
-
-
-/APP
-
-
-
-
-
-  
-
-
-
-   H5  
-
-
-·    ·    ·    · H5Native  
-
-
-
- 
-
-openid
-
-
-
-
-
-website
-app h5
-(oauth  2.0)   
-
-
-
-·   1000w+   · :     · H5  OAuth:     · APP  OAuth:    
-
-·    ·   
-
-
-
-
-·    ·    ·   
-
-
-·    ·    ·   
-
-
-
-
-
-· db:table   · router:    · router:
-  
-
-
-·    ·    ·    · H5Native  
-
-
-
-
-
- 
-
-
- 
- 
-
- 
- 
-
-
-
-
-
- 
-
-
- 
- 
-
- 
- 
-
-
-
-
-
-·   1000w+   · :     · :    
-
-·    · ,     ·   
-
-
-· ;     
-· ;     
-· ;     
-
-
-·    ·   
-
-
-?  
-·  auto  Mark  fail    ·   
-
-
-·    ·    ·    · H5Native  
-
-H5Native
-
-H5Native
-· Html5     ·    ·      ·   
-  
-
-JSSDK
-
-·    ·    ·   
-
-
-
-
-
-
-· :  
-
-
-
-
-1.  wx.chooseImage({
-success: function (res) { var localIds = res.localIds; // IdlocalId
-imgsrc<img src="wxLocalResource://4513739204314197"> } }); 2.  wx.uploadImage({ localId: '', // IdchooseImage success: function (res) {
-var serverId = res.serverId; // Id } }); 3.  wx.downloadImage({ serverId: '', // IduploadImage success: function (res) {
-var localId = res.localId; // Id } });
-
-
-
-·   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-· http://open.weixin.qq.com   · http://mp.weixin.qq.com/wiki   · http://mp.weixin.qq.com/debug   · http://demo.open.weixin.qq.com/jssdk  
-
-Q&A
-  
-
-@InfoQ  
-
-infoqchina  
-
-

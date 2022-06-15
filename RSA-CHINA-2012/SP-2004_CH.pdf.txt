@@ -1,468 +1,0 @@
-Session ID: Session Classification:
-
- 
-Fu Lizheng
-Wind River China
-Session ID: Session Classification:
-
-
-3  
-
-
-
-·
-
-·
-
-·/
-
-  
-
-·CPU 
-
-  
-
-·
-
-·
-
-·
-
-4  
-
-
-
-
- 
-
-
- 
-
-
-5  
-
-ADAcDMacctAMaAueacDtAplluceaMteaPppcillrtpAtePlusepaiarlpplllestnaatePelpietenrpdlesaaeldetneed 
-
-
-
- ­  ­ 
-
- 
-
-Control   Plane   App  
-
-Data  plane  apps  
-Accelerated  Network  Stack  
-HW  op8mized  data  plane  libraries  
-
-Op8mized  Linux  Run8me  
-
-
-CPUs
- 
-
-
-
-· 
-·  -
-·  - -
-· 
--IPS/IDS, FW, AV, UTM     
-· 
-
-Control   Plane   App  
-
-Data  plane  apps  
-Accelerated  Network  Stack  
-HW  op8mized  data  plane  libraries  
-
-Op8mized  Linux  Run8me  
-
-7  
-
-
-
-Native Linux Apps
-
-Accelerated Accelerated Accelerated Accelerated
-
-Apps
-
-Apps
-
-Apps
-
-Apps
-
-Management Plane (Linux Userland)
-
-Network Accel
-Engine
-
-Engine
-
-Engine
-
-Engine
-
-DPLib
-
-DPLib
-
-DPLib
-
-DPLib
-
-Linux Kernel
-
-eth0
-
-affinity
-
-affinity
-
-eth1
-
-affinity
-
-affinity
-
-Core
-
-Core
-
-... Core
-
-Core
-
-Core
-
-Core
-
-Real-time and virtualization ready runtime
-
-UDP TCP IPsec SCTP
-
-SSL
-
-ICMP ARP
-
-Full IPv4 IPv6
-
-VLAN 802.1q LACP
-
-Data Plane Libraries
-
-10 GigE
-
-1 GigE
-
-
-
-Control-Plane
-
-Memory Protection
-
-Interactive Config/Monitoring Proxy Interfaces
-IKE Strongswan
-Logging Test
-
-Screen, nc, telnet
-Netlink
-- routes ­ -SA Sync ­ - interface -
-PROCFS
-Exception Path
-ICMP, ARP, IKE,etc.
-
-· ·
-Data-Plane
-
-Adds spt for multiple contexts within the same thread/process/core
-enables implementing a multi-tasking environment and the BSD socket API
-with blocking calls
-
-Applications
-
-shell
-
-C
-
-Sockets
-
-O
-
-pktgen
-
-TCP
-
-UDP
-
--
-
-O
-
-Examples
-
-Libraries
-
-P
-
-Exception Path L3FWD / VF
-
-Multi-Process Timer
-
-EAL Ether
-
-Mbuf
-S Mempool C
-
-L2FWD / VF DPDK QAT
-
-VMDQ_DCP Load Balancer
-
-Hash LPM
-
-Net
-
-H
-
-Ring
-
-E
-
-Q
-
-Link Status IRQ
-
-Input Frag
-
-Malloc
-
-D
-
-Timer
-
-U
-
-E
-
-Flow Classification
-
-DPI
-
-Pattern Matching
-
-L
-
-E
-
-M
-
-IPsec
-
-QAT
-
-R
-
-U
-
-ARP ICMP LAG VLAN IGMP VRF
-
-proxy0
-
-User-Mode Drivers
-
-User IO Module
-
-Linux OS
-
-... proxy1
-
-proxyN
-
-Qemu port
-
-Enables Development w/out Requiring Supported
-NICs
-
-
-§ *1 § *1W*1W §  § 
-§ "31*$.144)
-§ 6%15$14$51 § *1TFD*,&
-
-
-§ $16
-§ 5$1*1 § 
-§ 
-§  § -JOVY § -JOVY
-§ 
-§  _.QQTDPSF
- § 
-
-Linux(3)
-
-up to 10 -11X forwarding
-throughput vs. stock Linux.
-Typical Customer Application Range
-This benchmark is comparing L3 forwarding throughput performance of Linux native vs. optimized software system. The setup is using 2X10G Ethernet ports and 4 hyperthreads on 4 separate cores on a Sandy Bridge based platform.
-
-Op8mized  soEware  system  
-16 Mfps/core On a 3.1 GHz SB crown pass board
-
-Linux(UDP)
-
-up to 5X UDP throughput
-vs. stock Linux.
-
-Op8mized  soEware  system  
-
-This benchmark is comparing L3 forwarding throughput performance of Linux native vs.
-optimized software system. The setup is using 2X10G Ethernet ports and 4 hyperthreads on 4
-separate cores on a Sandy Bridge based platform.
-
-Typical Customer Application Range
-
-Why this approach is faster? 1. Software system requires fewer cycles than native Linux 2. Faster context switching 3. No interrupts) 4. Much fewer misses in L1 cache than Linux
-
-Linux(TCP)
-up to 3-to-5X TCP throughput vs. stock Linux.
-Op$mized  so,ware  system  
-This benchmark is comparing L3 forwarding throughput performance of Linux native vs. optimized software system. The setup is using 2X10G Ethernet ports and 4 hyperthreads on 4 separate cores on a Sandy Bridge based platform.
-14  
-
-cNAE
-§ /"&-JOVY § 
-§  
-­/"& § ­/"&Y § ­B/"&
-§  § 
-
-
-
-§ 
-
-§ &EJUFUDVOBQVOBQDPOG­TFU6/"1@*/45"/$&4 § FOHJOFQFSQPSUFYBNQMF
-§ VOBQOBF­DYGQY­GY­B
-§ FOHJOFTQFSQPSUFYBNQMF
-§ FOHJOF­DYGQY­GY­B
-
-Core Port Mask Mask
-
-RSS
-
-NAE
-
-Core
-
-Assignments
-
-· a 2/3 means "assign the core 2 to NAE 1 and core 3 to NAE 2".
-· a 1,2/3,4 means "assign core 1 and 2 to NAE1, core 3 and 4 to NAE 2".
-
-§ *1
-§ JGDPOGJHQSPYZ­JOFUVQ § JGDPOGJHQSPYZ­JOFUVQ
-
-
-
-­ 100Gbps
-
-­  ­ DPI
-
-­ CPU: 
-
-­  ­ a
-
-  
-§ DPI /
-§ , HW §  §  § (--)
-§ 
-§ 
-§ 
-§ L7 DPI; CPU
-§ 
-§ 
-§ 
-§ / ( )
-§ (IPS/IDS, FW, AV, UTM)
-
-
-
-I
-
-N
-
-Accelerated
-
-Configure/
-
-S
-
-Monitor
-
-P
-
-Applications
-
-D P
-
-E
-
-C
-
-UDP or TCP
-
-T
-
-L
-
-I
-
-i
-
-O
-
-b
-
-N
-
-IPv4 / IPv6
-
-s
-
-L
-
-        
-
-i b
-
-Pattern Matching
-
-database
-
-s
-DPLib User-Mode Drivers
-
-proxy0
-
-proxy1
-
-compiler
-
-Signatures
-
-Wire
-
-Logs
-
-· Pattern Matching (PM) is a CPU intensive operation · High-speed Pattern matching is achieved using the compiler and optimized libraries
-
-Pattern Matching Software
-
-
-1. 2.
- 3.
-
-20  
-
-Thank You
-
-

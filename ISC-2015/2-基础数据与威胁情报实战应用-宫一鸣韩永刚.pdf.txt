@@ -1,309 +1,0 @@
- 
-
-
-· .....PM,  · fancy...
-
-· ? ·  (, ids, fw, scanner, , )
-· about "" ·  · ?  online
- ,fireeye, twitter,facebook,facebook,dod  ,
-
-· ,, · Splunk: the threat intelligence company · IBM: intelligence is the new defense · Norse: Norse maintains the world's largest dedicated threat intelligence network
-
-·  · one of them: "" (Security Visibility) · 
-
-· "" · (visibility)(visualization)
-
-2 
-
-2 ,
-
-·  ·  · 
-·  · , · ? · ? · ?
-
-· ,
-
-· "",
-· Gartner 2013
-· Evidence-based knowledgeincluding contextmechanismsindicatorsimplications and actionable advice about an existing emerging menace or hazard to assets that can be used to inform decisions regarding the subject's response to that menace or hazard.
-· actionable info
-· "actionable"
-
-·  ·  · unknown unknown · known unknown · known known
-
-· actionable  · 
-· foundation ·   
-· ,
-
-· 
-· low hanging fruit
-·  
-·   
-
-· ? · Facebook Feb-2013 APT
-
-· we flagged a suspicious domain in our corporate DNS logs and tracked it back to an employee laptop. Upon conducting a forensic examination of that laptop, we identified a malicious file, and then searched company-wide and flagged several other compromised employee laptops. After analyzing the compromised website where the attack originated, we found it was using a "zeroday" (previously unseen) exploit to bypass the Java sandbox (built-in protections) to install the malware
-· (https://www.facebook.com/notes/facebook-security/protecting-people-onfacebook/10151249208250766)
-
-· dns · dns
-
-·  665110.ga
-
-XCODE
-
-·  · *.baidu.com? · a.b.c.d/24? · a1pay,cmbc,l00086 · Fastflux · ? CNAME, NS  · ,,ddos? · ,caname, · :127.0.0.x
-
-· DWA · ,,  · 
-
-·  · Geo, IP, whois, ttl
-
-
-XXXXXXXXX
-
-360
-
-
-
- 
-
- DNSURL
-IP...
-
- 
-
- APT
-
-
-
-
-, 
-
- Crawling 
-
-MRTI
-
-
-
-    
-
-    
-
-
- 
-
-
-
-
-
-
-IOC
-APT 
-
-
-
-
-
-
- 
-
-
-
-
-
-
- SOC
-
-
-
- ...
-
-  
-
- 
-
-
-
-
- 
-
- 
-
- 
-
-  ...
-
-
- 
-
- 
- 
- 
-  ...
-
- 
-(MD5)
-
- 
- 
-/ 
-  ...
-
-1APT
-
- IP
-
- 
-
- ()
- 
-URL 
-
-
-
-
- 
-
-
-
-
- ()
-
-DNS 
-
-
-
-
-
-   
-
-
-URL
- 
-
-
-URL
-
-
-
- ()
-
-
-2XCODEGHOST
-
-
-
-
-360 
-
-
-
-360 
-
-
-  
-
-+  
-
-
-  
-MRTI 
-
-
-  
- 
-  
-
-
- - 
-
- · 5 · 50000 · 100
- · 95 · 900
-
- · 50DNS · 100
-
-
- 
-
-
-
- · 300 · 100 · 96%
-
-
- 
-
- ­ 
-
-URL 
-
-IP 
-
-
-MD5 
-
-
-
- 
-
-Web......
-
-
-
-
-
-
-
-
-
-·  ­   TCP/Web////SQL//...
-· +
-
-
-
-
-
-
-·  · MRTI
- 
-
-
-
- 
-
- DNSURL
-IP...
-
- APT
-
-
-, 
-
-MRTI ...
-
-100+  
-
-360  
-
-   
-IOC
-
-NGFW IASC ()
-WIFI 
-WebAntiDDoSWAF
-
-
-
-
-"ThemeGallery is a Design Digital Content & Contents
-maWll edbevelop­edbyGuild DesignInc."
-
-
-
-APT ­   ­ 
-
-
-
-
- - SOCNGSOC
-
- 
-
-

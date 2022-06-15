@@ -1,214 +1,0 @@
- 
-2
-
-
-
-01
-
-03
-
-05
-
-
-
-02
-
-
-
-
-04
-
-
-
-iCloud 3
-
- JTAG
- JTAG  JTAG
- 
-     
- 
-     Root
-4
-
-                   
-
-   Token      
-5
-
-iCloud
-() iCloud
-Google Cloud
-Android... 
-6
-
-·  · (iMessage) ·  ·  ·  ·  - iCloud
- ·  ·  · Wi-FiVPN ·  · Web/ · SafariCookie ·  · iCloud Keychain · iCloud · 
-iCloud(PC / Mac) 7
-
-·  ·  · Wi-FiiBooks ·  · iOS 11.3:iMessage/ · iCloudEXIF · iCloud Keychain ·  · Safari
-8
-
- 
-
- 
-
-
-
- 
-
-
-
- 
-
- iPhone,iPad
-
-macOS X
-
-9
-
- Wi-Fi  Google Play    
-Android ...
-10
-
-   /  YouTube  Location    Android  //    WiFi
-50
-11
-
- Google Cloud
-
-
-
-
- Google
-
-YouTube
-
-
-
-12
-
- Keychain
-   
-                 P C M a c      To ke n
-13
-
-               To ke n  macOS keychain    P C / m a c O S        To ke n  iTunes
-14
-
-,
-
-     P C     To ke n   m a c O S   keychain
-   
-
- iCloudGoolge Cloud
-  
-15
-
-
-   To ke n                   Wi-Fi    (EXIF)  iCloud Keychain  iOS 11.3:iMessage/     SafariChrome 
-16
-
-1. (PCMac)
-%WINDIR%SYSTEM SAM (Mackeychain)hashcat, ,hashcat
-
-0 0
-17
-
-
-
-2. mmeAuthToken
-App
-mmeAuthToken%appdata%\Apple Computer\Preferences\ com.apple.AOSKit.plist , WinCryptUnprotectData mmeAuthToken
-0 18
-
-3 mmeAuthTokenToken,iCloudToken, 0
-19
-
-4iCloudToken
-
-iCloud   Curve25519   Diffie­Hellman 
-
-keybag secret
-keybag wpky
-
-chunk 1 chunk 2 chunk n
-
-aes_128_cbc Chunk key
-
-encrypted file
-
-file encryption
-key
-
-aes unwrap
-
-class key
-
-curve25519
-
-file key
-
-aes_128_cbc aes_128_xts
-
-decrypted file
-
-20
-
-5 
-
-File
-
-chunk (1,1)
-
-chunk (2,1)
-
-chunk (3,1)
-
-chunk (1,2)
-
-chunk (2,2)
-
-chunk (3,2)
-
-chunk (1,3)
-
-chunk (2,3)
-
-chunk (3,3)
-
-Container 1
-
-chunk 1
-
-chunk 2
-
-chunk 3
-
-Container 2
-
-chunk 1
-
-chunk 2
-
-chunk 3
-
-Container 3
-
-chunk 1
-
-chunk 2
-
-chunk 3
-
-Reference {(1,1),(2,1),(3,1),(1,2),(2,2),(3,2),(1,3),(2,3),(3,3)}
-21
-
-6  22
-
-  
-23
-
-
-24
-
-

@@ -1,226 +1,0 @@
-
-SOHU 
-1/35
-
-Agenda
-SOHU SOHU SOHU SOHU SOHUITIL SOHU
-2/35
-
-SOHU
-·  ·  ·  ·  ·  ·  ·  ·  IT
-3/35
-
-SOHU
-1IDC 1.1 1.2
-2 2.1 2.2 2.3 2.4
-3 4
-4/35
-
-(1.1)
-· 4.2 · 31.8% · IP2.5 · 279  · 1000G
-5/35
-
-
-·  ·  · 
-6/35
-
-(1.2)
-·  ·  ·  ·  ·  
-7/35
-
-(2.1)
-·  ·  ·  ·  ·  · 
-8/35
-
-(2.2)
-·  ·  ·  ·  ·  · 10G100G
-9/35
-
-(2.3)SOHU
-·  ·  · A · AS
-10/35
-
-(2.4)SOHU
-·  ·  ·  ·  ·  · 
-11/35
-
-3
-·  ·  · 
-12/35
-
-4
-·  ·  ·  ·  · 
-13/35
-
-
-14/35
-
-
-·  ·  ·  ·  ·  ·  · DNS · CDN · 
-15/35
-
-
-·  ·  ·  · 
-16/35
-
-·  ·  · 
-
-
-
-17/35
-
-
-·  ·  ·  ·  ·  · 
-18/35
-
-·  ·  ·  · 
-
-
-
-19/35
-
-
-·  ·  · 
-20/35
-
-
-· GSLB · SLB
-1.1 LVS 1.2 nginx 1.3 
-21/35
-
-22/35
-
-23/35
-
-·  ·  · 
-
-
-
-24/35
-
-· DNS · DNS · DNS · DNS
-
-DNS
-
-25/35
-
-·  ·  ·  · CDN · CDN
-
-CDN
-
-26/35
-
-
-­   
- confidentiality
-
- integrity
-
-
-
- availability
-
-27/35
-
-OWASP TOP 10
- A1: Injection  A2: Cross-Site Scripting (XSS)  A3: Broken Authentication and Session Management  A4: Insecure Direct Object References  A5: Cross-Site Request Forgery (CSRF)  A6: Security Misconfiguration  A7: Insecure Cryptographic Storage  A8: Failure to Restrict URL Access  A9: Insufficient Transport Layer Protection  A10: Unvalidated Redirects and Forwards
-28/35
-
-Web
-
-IBMIBM X-Force 2009 Trend and Risk Report
-
-29/35
-
-
-­  ­  ­  ­  ­ 
-30/35
-
-
-·  ·  ·  ·  ·  · 
-31/35
-
-SOHU
-·  ·  ·  ·  · 
-32/35
-
-
-33/35
-
-SOHUITIL
-1ITIL 2ITIL 3ITIL V2V3 4ITIL
-34/35
-
-(1)ITIL
-
-35/35
-
-(2)ITIL
-· ITIL (IT Infrastructure Library)CCTA( )2080IT 
-· ITIL IT IT  IT IT
-· ITITILITILIT """ """ ITIL 
-36/35
-
-(3)ITIL V2V3
-37/35
-
-
-·  ·  · 
-38/35
-
-
-· ITIT  IT IT   
-· ITIL    
-39/35
-
-
-· ITIL   
-·   
-40/35
-
-
-· IT  
-·   
-41/35
-
-
-·     
-42/35
-
-
-·  ITIL    (CMDB)
-· CMDB CMDB  CMDB 
-43/35
-
-
-·  
-·   
-·  
-44/35
-
-·  · 
-
-
-
-45/35
-
-IT
-46/35
-
-(4)ITIL
-·  ·  ·  · 
- ITIL
-47/35
-
-
-·  ·  ·  · 
-48/35
-
-
-·  · 
-49/35
-
-Q & A 
-50/35
-
-

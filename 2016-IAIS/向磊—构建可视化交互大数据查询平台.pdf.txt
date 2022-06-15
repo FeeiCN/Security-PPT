@@ -1,200 +1,0 @@
-
-Admaster 
-
-
-1.  Linux  
-2.  HUE, Qubole, phpHiveAdmin, Shib...
-3.     HDFS
-
-
-Linux shell shellHadoop, Hive, Spark... SQL    
-
-
-
-HUE
-
-
-
-Yes
-
-
-
-Python/Django
-
-
-
-Easy
-
-
-
-/
-
-
-
-Python+Java
-
-Spark Y
-
- Y
-
-HDFS Y
-
-
-
-
-
-
-
-B/S+C/S
-
-phpHiveAdmin Yes php/CodeIgniter Medium Hive  N N Half  B/S
-
-Qubole No Python/java SDK AWS Hive Only SDK N ? ? Qubole Unknown
-
-
-NphpHiveAdmin 
- 1. Hive 2.  3. Npatch 4.  5. HadoopSpark 6. Spark/Hadoop/HBase/Hive
- 7. 
-
-
-N
-
-
-
-
-
-Restful Thrift CLI
-
-HDFS Y N Y
-
-YARN/MR Y N Y
-
-Hive Pig
-
-N
-
-N
-
-Y
-
-N
-
-Y
-
-Y
-
-HBase Y Y Y
-
-Spark 1.4 later SparkSQL Y
-
-HDFS
-HadoopHTTP/HTTPSHDFS - HDFS -  - curlwget
- - webhdfshttpfs - webHDFSHA - httpfstomcatHA - webhdfs
-REST = REpresentational State Transfer
-
-Restful HDFS
-CURLHDFS curl -i -L "http://x.x.x.x:50070/webhdfs/v1/?OP=LISTSTATUS&user.name=hdfs" HTTP GETOP...... HTTP PUTOP...... HTTP POSTOPAPPEND, CONCAT, TRUNCATE HTTP DELETEOP......
-curl -i -X PUT "http://x.x.x.x:50070/webhdfs/v1/TokyoHot?op=MKDIRS&user.name=xianglei"
-Doc: http://hadoop.apache.org/docs/r2.7.1/hadoop-project-dist/hadoop-hdfs/WebHDFS.html
-
-RESTful YARN/MR
-curlYARN/MapReduce curl -i -L "http://x.x.x.x:8088/ws/v1/cluster/info"
- jarHDFSjson
-Doc: http://hadoop.apache.org/docs/r2.7.1/hadoop-yarn/hadoop-yarn-site/ResourceManagerRest.html
-
-HiveHBaseThrift
-Hive, HBase, SparkSQLthrift / thrift2 - SparkSQLHive - thrift2thrift(cyrus-sasl
-authentication)(Zookeeper Quorum)...
-HiveHiveMetastore908310000 HiveServer / HiveServer2
-
-Hive thrift/2
- SQL   
-
-Hivethrift/2
-SQL thriftHQL
-Why Not?
-Thrift/2MR SparkHive   thriftthrift2Zookeeper
-How to do
-ThriftHive/SparkSQL 
-
-CLI
-https://github.com/xianglei/phpHiveAdmin/blob/master/application/models/hive_m odel.php 774 - 880
-phpSQL CLIstdout stderrJSON 
-WebSocket 
-One Notice webserver HADOOP  HADOOP_HOME,JAVA_HOME HIVE_HOMEexport
-
-MR/Pig/Mahout/Spark
-1. CLIRestfulstdout stderrHTTP GET
-2. HDFS  
-
-
-RESTful - HTTP/HTTPSjson/xml
-Thrift - thriftHiveJDBC/ODBC thrift
- CLI
-- 
-
-Python
-Otherside: Java 1. JavaPython 2. Java 3. RESTfulJSONPythondict, dictJSON
-
-
-1. ThriftHive/SparkSQLJSON
-
-
-2. SQL 3. HQLpig 4. stdoutstderr
-
-
-5. stdoutstderr
-
-
-6. mr
-
-
-7. JSstdoutstderr
-
-MR/Pig/Mahout/Spark/HBase
-HDFSYARN/MR RESTful APIHDFS  RESTThriftCLI
-HCatalogPigHive
-
-MR
-YARNRESTful 1. HDFS RESTfuljarHDFS 2. HTTP POSTapp-id curl -v -X POST 'http://localhost:8088/ws/v1/cluster/apps/new-application'
-3. IDJSONPOSTRESTful curl -v -X POST -d @example-submit-app.json -H "Content-type: application/json" 'http://x.x.x.x:8088/ws/v1/cluster/apps'
-
-MR
-ID curl 'http://localhost:8088/ws/v1/cluster/apps/application_1409421698529_0012/state'
-
-curl -v -X PUT -d '{"state": "KILLED"} ''http://x.x.x.x:8088/ws/v1/cluster/apps/application_1409421698529_0012'
-
-SparkRESTful
- curl -i -L "http://x.x.x.x:4040/api/v1/applications/[app-id]/storage/rdd"
- curl -i -L "http://x.x.x.x:18080/api/v1/applications"
- on YARN curl -i -L "http://x.x.x.x:4040/api/v1/applications/[app-id]/[attempt-id]"
-Doc: http://spark.apache.org/docs/latest/monitoring.html
-Spark ooyalaspark-jobserver
-sbtupload spark curl --data-binary @job-server-tests/target/scala-2.10/job-server-tests-$VER.jar localhost:8090/jars/test
- curl -d "input.string = a b c a b see" 'localhost:8090/jobs?appName=test&classPath=spark.jobserver.WordCountExample'
-Spark: {
-"status": "STARTED", "result": {
-"jobId": "5453779a-f004-45fc-a11d-a39dae0f9bf4", "context": "b7ea0eb5-spark.jobserver.WordCountExample" } }
-Doc: https://github.com/spark-jobserver/spark-jobserver
-
-HBase
-HBaserestful thriftcli
-
-
-HDFS/YARN/HBase/Sparkjmxqry
-Doc: http://slaytanic.blog.51cto.com/2057708/1179108
-
-
-
-
-     SparkHadoop 
-
-Conclusion & Thanks a lot
-It's very simple to build an AD-HOC query/management system on Hadoop & Spark.
-My recently opensource project plan: pyHUI - Hadoop User Interface based on python-tornado
-Contact me @: https://github.com/xianglei or mailto:horseman@163.com
-
-C' ya
-ADMaster
-
-

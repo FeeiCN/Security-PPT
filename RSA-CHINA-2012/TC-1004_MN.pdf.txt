@@ -1,257 +1,0 @@
-
-
-
-
- 
-
-
-
- 
-    
-
-
-
-1
-n TCG 
-n  
-
-
-
-2
-  n TCG n OpenTC n CTCU n 
-
-
-
-2
- TCG
-PC  TPM TSS TNC
-
-
-
-2
- 
-  PC  
-
-
-
-2
-
-TPM PC  PDA
-
-
-
-
-lTPM 
-
-
-
-lPCPC
-
-
-
-
-lPC
-
-lPDA
-
-
-
-
-3
-20072 5
-         
-
-
-
-3
-
-n 
- TPM  
-    ""
-
-
-TPM
-1TPM
-n TPMTPM 1.0  TPM 1.1  TPM 1.1b  TPM 1.2  TPM2.0
-n 2009TPM 1.2 ISO
-u ISO/IEC 11889-1 u ISO/IEC 11889-2 u ISO/IEC 11889-3 u ISO/IEC 11889-4
-
-
-TPM
-2TPM 1.2 
-n PC n 
-u  u HASH u  u 
-
-
-TPM
-3TCGTPM2.0
-n TPM 2.0 
-u 
-l RSAECC  l AES  l SHA-384  l 128
-u 
-l SMS4 SM2 SM3 l 
-
-
-TPM
-3TCGTPM2.0
-n TPM 2.0 
-u 
-l  l TPM l 
-l  l PSRK
-
-
-TPM
-3TCGTPM2.0
-n TPM 2.0  u 
-l TPM1.2 l TPM1.2TPM
- l  l HMAC
-
-
-
-TPM
-3TCGTPM2.0
-n TPM 2.0 
-u BIOS l  
-u  l TPM TPM 
-
-
-TPM
-3TCGTPM2.0
-n TPM 2.0 
-u 
-l TPM1.2 
-l HMAC
-l HMAC l HMAC
-
-
-TPM
-3TCGTPM2.0
-n TPM 2.0 
-u 
-l TPMTPM enableactive l  l PCR
-l / l SRKEK
-
-
-
-TPM
-3TCGTPM2.0
-n TPM 2.0 
-u
-l TPM1.2/TCM l TPM1.2TCM l SHA-1TPM1.2 l TPM
-
-
-
-TPM
-4TPM2.0
-n 6
-1. Hash l PCR l  Hash l SHA384ECC384 192b
-
-
-TPM
-4TPM2.0
-n 6
-2.  l  l TPM2.0TCG RSAECC
-
-
-TPM
-4TPM2.0
-n 6
-3.  l   l 
-
-
-TPM
-4TPM2.0
-n 6
-4. HMAC l HashHMAC TPM2.0 l HMAC FIPS 198a HMAC(K, text) = H((K0  opad) || H((K0  ipad) || text))
-
-
-TPM
-4TPM2.0
-n 6
-5. 
-l TPM2.0 l TPMTPM
- l CFB l Hash
-
-
-TPM
-4TPM2.0
-n 6
-6. 
-l  l RNG l RNGTPM
-KDF l TPM2.0KDFECDH SP800-56A
-HMACKDF SP800-108
-
-
-TPM
-5TPM2.0
-n TPM2.0
-l TPM2.0
-n TPM2.0TPM1.2
-l TPM1.2TPM2.0
-n 
-l TPM2.0 l 
-
-
-
-1
-n 
-l TSS l 
-n 
-l  l VISTAWINGOWS 8 
-
-
-
-1
-n Windows 8
-l NEAT
-u Necessary u Explainable u Actionable u Testable
-l 
-u UEFI BIOS u TPM 2.0
-
-
-
-1
-n Windows 8
-l TBoot u u uTPM2.0 uUEFI BIOS 
-
-
-
-1
-n Windows 8
-l Bitlock
-u TPM2.0
-l 
-u 
-l AppLocker
-u 
-
-
-
-2
-n 
-l 
-u 1.5RMB u 5 u  u  u 
-
-
-
-1TPM
-lTPM3 lTPM lPCTPM
-2
-l l l
-
-
-
-3
-l  l  l 
-
-
-
-1. SHEN Changxiang, Zhang Huanguo, Feng Dengguo, et,al. Survey of Information Security, Science in Chian Series F,Vol.50,No.3,Jun.2007, pp273-298.
-2. SHEN Changxiang, ZHANG Huanguo, WANG Huaimin,wang et,al.,Researches on trusted computing and its developments, SCIENCE CHINA :Information Sciences,Vol.53,No.3, March 2010,pp: 405-433.
-3.  2010.
-
-
-
-
-
-

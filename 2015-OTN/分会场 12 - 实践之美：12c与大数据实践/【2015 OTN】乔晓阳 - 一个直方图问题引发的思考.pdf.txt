@@ -1,94 +1,0 @@
- 
-
-
-·  ·  ·  ·  ·  ·  · 
-
-·  ·  ·  · xuyucomet · Oracle 1  0g OCM · Oracle 1  1g OCM ·  · 11g OCM
-
-
-
-
-· 
-­ 10 ­ Oracle 1  1.2.0.4SQL
-· 
-­ SQL ­  ­ 
-
-
-· 
-­ VMWare 11.1, O  EL5.4 ­ Oracle 1  1.2.0.4
-· SQL var x  varchar2(20); var k  number; exec :  x :  = '  VIEW'; exec :  k :  =  223000; select *    from h  r.test_obj where o  bject_type=:x a  nd o  bject_id=:k;
-· SQL exec :  x :  = '  TABLE'; exec :  k :  =  223000; select *    from h  r.test_obj where o  bject_type=:x a  nd o  bject_id=:k;
-
-
-· oracleSPID
-­ AIXtopas ­ Linuxtop
-· spidSQL PRINTSQL
-­ PRINTSQLspid5203
-set s  erveroutput on  size  unlimited exec p  rintsql(5203,'SPID');
-
-printsql
-·
-
-·
-
-()
-· 
-­ SQL ­ SQLTEST_OBJ_IDX2 ­ 
-· 
-­ HR.TEST_OBJ
-· 130 · TEST_OBJ_IDX1TEST_OBJ_IDX2
-­ 
-· OBJECT_ID69TEST_OBJ_IDX1 · OBJECT_TYPETEST_OBJ_IDX2Hash   Buckets18
-
-OBJECT_TYPE COUNT(1) -------------------------------------- -------------------- INDEX P  ARTITION                            2 JAVA  DATA                                        2 JAVA  RESOURCE                              30 TRIGGER                                          35 TABLE                                    1380033 JAVA  CLASS                                  950 SYNONYM                                        907 VIEW                                                  1 INDEX                                              69 ......
-­ 
-· TEST_OBJ_IDX2'TABLE' · 
-
-
-· 
-­ SQL ­ where ­ 
-· 
-­ OLTP ­ 
- ­ 11g
-
-()
-· ?
-­  ­ version_count
-· 11g
-­ _optimizer_adaptive_cursor_sharingfalse ­ _optimizer_extended_cursor_sharing_relnone
-
-()
-· Oracle11g
-­ 
-· 104 · 620
-­ 
-· truncate · 10% · 
-
-
-· HR.TEST_OBJobject_type exec d  bms_stats.delete_column_stats(ownname=> '  HR', t  abname => '  TEST_OBJ',   colname =>  `OBJECT_TYPE', c  ol_stat_type => '  HISTOGRAM') · TEST_OBJ_IDX2 drop  index  hr.test_obj_idx2;
-
-
-· 
-­  ­  ­ DBA+ ­ size r  epeat
-· 
-­  
-­ AWR ­ SQL
-
- 
-
-
-ORA
-
-
-
-Oracle
-
-z3 ­ SQL
-
-zData ­ 
-
-BayMax
-
- 
-
-

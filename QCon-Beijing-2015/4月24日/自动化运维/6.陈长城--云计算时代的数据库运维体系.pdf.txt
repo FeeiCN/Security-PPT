@@ -1,186 +1,0 @@
-  
-() QCon / 2015-04
-
-
-· Join  in  TaobaoDBA  Team  @2008   · DE  --  IOE   · Auto  OPS  --  DBFree   · Infrastructure  Tech   · Aliyun  RDS  
-
-Agenda
-·    ·    · RDS   ·    · DBACloudDBA
-
-
-·   
-·    ·    ·    ·   
-· Plus  
-·    ·   
-
-
-·   
-· DBFree90+   ·    ·   
-·   
-·   
-·   
-·    ·   
-
-
-·   
-·    ·   
-   ·   
-·  à    ·   à    
-·   
-· SLA   · 1v1  
-
-
-
-RDS
-
-
-RDS
-
-
-  
-
-   99.95%     
-
-        
-
-           
-
--
-·   
-· RPMOS  
-·   
-·   
-·   
-·    ·   
-·   
-·    · IDC   · 3()  
-
- DMS
-DTS
-
-Portal
-OpenAPI
-RDS  API
-SLB
-  
-DBNode  
-BAK
-
-RDS
-
-Cloud DBA
-
-
-    
-
-
-
-Robot
-
-
-
- 
-
-
-·   
-·  3  
-·   
-·    ·    ·      
-
--
-
--
-
-·   
-·    ·    · DBA  
-
-·   
-· 100%   · 78%   ·   
-
-   1(AWR)                    2                  SQLCommandShellCommand   4        
-
--
-· Robot   · Brain   · 
-
-   Brain DRDS
-
-  
-
-  
-
-SQLServer  
-
-   
-
-MySQL  
-
-  
-
-92%  
-
-Task
-
-  
-
- Robot 
-
- 
-
-
-·   
-·    ·    ·   
-·   
-· CloudDBA   · DMS   · 
-
-CloudDBA
-
-CloudDBA   
-
-RDS: Cloud DBA
-RDS   DBA    
-1.     2.     3.  order  by   4.     5.   where  a  =  `1';   6.     7.     8.  SQL
-
-1
-1.     2.  IN   3.  IN   4.     5.     6.    
-
-
-  77%      80%  
-
-DMS-
-
- DMS
-DTS
-
-Portal
-OpenAPI
-RDS  API
-SLB
-  
-DBNode  
-BAK
-
-RDS
-
-Cloud DBA
-
-
-    
-
-
-
-Robot
-
-
-
- 
-
-
-
-
-
-Tips
-·    ·    ·   
-
-Thank  You
-
-

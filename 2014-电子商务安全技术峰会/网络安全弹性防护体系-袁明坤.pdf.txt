@@ -1,1725 +1,0 @@
- 
-
-
-  
-Ø   Ø  Ø  Ø  Ø 
-
-
-
-
-  
-
-SDL    SAMM    
-·    ·    ·    ·   
-
-OSSTMM
-·    ·    ·   
-
-CREF  
-·    ·    ·    ·    ·   
-
-
-· Cyber  Resiliency  Engineering  Framework   · IBM   · SDL   · So?ware  Assurance  Maturity  Model  (SAMM)   · OSSTMM   · OWASP  TESTING  GUIDE   · Huawei  IPD  
-
-  
-Ø   Ø  Ø  Ø  Ø 
-
-        OWASP Top 10
-
-
-SAMM
-
-
-·    ·    ·   
-
-
-
-
-
-
-· STRIDE   ·    ·    · Mobile  Threat  Model      ·    ·    ·    · .......  
-
-·  ·  · 
-
-
-   · Owasp  tesOng  
-guide   · 
-    
-
-CWASP  CSSLP 
-
-
-·    ·    ·    ·    ·    ·   
-
-
-
-
-
-
-
-
-
-
-
-SDL
-
-SAMM
-·   
-­  ­  ­  ­ 
-
-SAMM
-· <  
-­   
-· <  
-­   
-· <
-­   
-
-  
-Ø   Ø  Ø  Ø  Ø 
-
-
-Ø    Ø      Ø
-Ø   Ø    Ø
-6124          
-
-
-· 
-· wireshark
-· 
-· Cain&abel · SSLStrip
-
-
-
-DNS
-Ø30%     Ø   
-
-WIFI  
-
-
-
-
-
-
-
-  
-
-
-Windows     lWindows       lIE   lWindows     loffice       lWindows         
-   l   l   lWeb   l   l   lDNS     l   l   l  firefox     l  
-
-                                                    TCP/IP  
-
-    Web  AWack     Denial  of  Service   InformaOon    
-Privacy  Virus
-
-SNIFF
-
-                         EMAIL  AWack                 Denial  of  Service  
-                  InformaOon                 Privacy  Virus/Trojan
-
-                         DHCP  Starva\on                 Denial  of  Service  
-                  Re--Direct  Traffic               IformaOon    Privacy
-      SPAM  
-
-TCP  Services
-
-Phishing   Spyware
-
-PORN                         
-                                        DHCP  
-                          Dynanic  Host  
-
-                          HTTP                     HyperText               Transfer  Protocol
-
-          IRC  
-
-                              POP3  
-
-                      SMTP  
-
-                    IMAP  
-
-    Internet                         Post  Office             Simple  Mail   Internet  Message  
-
-Relay  Chat                         Protocol Transfer  Protocol Access  Protocol
-
-                          Conifgura\on                                       Protocol  
-                                             LDAP             Lightweight  
-
-            Gopher   TELNET   VIRTUAL   Terminal
-
-Finger
-
-                     Telnet                   AWack  
-
-                      NNTP  
-
-                    FTP  
-
-      Network  News             File  Transfer  
-
-Transfer  Protocol                 Protocol
-
-                              DCAP         Data  Link  Switching   Client  Access  Protocol
-
-                       FTP                   AWack  
-
-          Directory     Access    Protocol  
-                         LDAP  AWacks               Directory  Spoofing             IformaOon    Privacy             IformaOon    integrity
-
-                                            
-
-                  DNS  Posisoning                   Re--Direct  Traffic  
-
-          X  Window  System                         X  Protocol                             (x10  x11)
-
-          X  Window  System                         X  Protocol                             (x10  x11)
-
-      IformaOon    Privacy                    
-
-                         BOOTP  AWack                 Denial  of  Service  
-
-                  Re--Direct  Traffic             IformaOon    Privacy
-
-  
-
-  
-
-                    
-
-UDP    Services                     
-
-                               BOOTP  
-
-                               NTP  
-
-                               TFTP  
-
-                  TFTP  AWack           IformaOon    Privacy
-
-Bootstrap                N    Pertowtoocrokl     Trivial  File     
-
-    Time  
-
-    Transfer                   
-
-Protocol   Protocol  
-
-                        
-
-                        
-
-                  C  LDAP  
-
-                  ICP  
-
-Connec\onless               Internet  
-
-                    LDAP  
-
-Cache  Protocol  
-
-                                            
-
-                  NFS  AWack           IformaOon    Privacy
-
-                   
-
-                        
-
-                        
-
-                        
-
-                          PMAP                       NIS/YP                       NFS  
-
-                            Port                       Network                      Network  
-
-                        Mapper                    Informa\ o     n                File                       System                       System  
-
-CORBA   IIOP     GIOP
-SLP   Service   Loca\on   Protocol
-
-                            DNS                         Domian             Name  System
-
-                            SNMP                         Simple  Network               Mgnt.Protocol  v1&v2
-
-                                            
-                  SNMP  AWack           IformaOon    Privacy
-                   
-
-XDP   External  
-Data   Represenl
-a\on
-RPC   Remote   ProcedureCALL
-
-                                                               RPC  AWack               Password    And                   ID    Privacy                    
-                      Windows
-
-
-
-&
-
-      An\--virus
-
-      Signature  scan   Heuris\cs  Analysis
-
-Scan,block,quaran\ne   And  clean  virus/trojan/worm   infected  contents
-
-
-
-         An\--Spam/Phishing
-
-Words  filtering   URL  filtering   Domain  blacklist  
-Spoof  detec\on   Bayesian  filtering
-
-Scan,block,quaran\ne   And  delete  spam/phishing  messages   Deny  access  to  a  phishing  URLS
-
-AAA   Authen\ca\on  
-Authoriza\on   Audi\ng
-
-   Kerberos   Network  
-Authen\ca\on   Protocol                             SSH  
-Secure  Shell       Protocol  
-
-Biometric   Access  Control
-                             Radius                         Remote  
-          Authen\ca\on   Dial--In  User  Service  
-
-       TACACS/TACACS+     Terminal  Access  
-  Controller  Access     Control  System  
-
-Secure  Session   And  File  Transfer
-
-         An\--Spyware/Adware
-
-Signature  filtering   URL  blocking   Behavior  inspec\on
-
-Scan,block,And  remove  spyware  /adware   Deny  access  to  a  spyware/adware  URLs   Deny  installa\on/ac\va\on  of  spyware  /adware
-
-LPP   Lightweight   PresentaOon  
-Protocol
-
-TCP UDP
-
-                             NetBIOS  Name  Spoofing                           Virus/Trojan/Spyware  
-                          IformaOon    Privacy                   Password    And    ID    Privacy
-NetBIOS   Name  Service   Session  Service  
-Datagam  Service
-
-Intrusion  Detec\on   Content  Inspec\on  
-Heuris\c  Scanning   Signature  Scanning   Anomaly  Detec\on  
-Behavior  Analysis   Stateful  Analysis     
-   Threat  Preven\on  
-Threat  blocking   Threat  no\fica\on  
-
-
-
-VPN
-
-Applica\on  Proxy  Server Content  Filtering  
-Applica\on  Filtering  
-
-Telnet:  Authen\ca\on  and  authoriza\on  checks   FTP:  Authen\ca\on  and  authoriza\on  checks   SMTP:Separate  internal  and  external  mail  ststems  
-HTTP:Filter  commands  and  URLs   Block  access  to  pre--defined  URLs  
-   Inspect  the  data  and  dispose  harmful  content   Allow  only  good  part  of  content  to  pass  
-   Filter  data  by  matching  signatures  or  keywords   Block  harmful  messages  
-
-Deteck/Block  Suspicious  Ac\vitles   Deteck/Block  Suspicious  Traffic   Deteck/Block  Suspicious  Users/Sessions  
-Deteck/Block  Known  AWacks     
-   Notlfy  Upstream/downstream   Devices  about  threats  
-   Log  all  Suspicious  Ac\vi\es  
-
-     
-Encryp\on  Authen\ca\on  
-
-                     AES         Advanced  
-    Encryp\on           Standard  
-
-             Des/3DES                 Data  
-    Encryp\on           Standard  
-
-                       MD5   Message  Digest                              RC4       
-
-Unix     lUnix     lMac    
-   lCisco     lHuawei     l   l  
-   lAirSnort:   lCain&Abel:ARP   lEtheral:   lGooscan:google  hacking   lMetasploit:    lNemesis&Hping2:   lNmap:   lParos  proxy:   lPsTools:,12 ,   lTHC--Hydra:   lWellenreiter:GTK/Perl      lYersinia:      
-
-                                            
-              TCP  SYN  AWack               Denial  of    Service
-                   
-
-                                                               Connec\on                         Hijacking           Man--In--The--Middle                    
-                                  TCP  
-                  Transmission  Control  Protocol  
-                                            
-
-                                            
-                              Port  Scan                   To  see  vulmerability  
-                      and  Launch  aaacks                    
-
-                                           UDP    Flood                                 WINS  Aaack  
-                              Fraggle  Aaack                         Denial    of      Service
-
-                                                                                                     UDP                     User  Datagram  Protocol
-
-                                  TCP
-
-     IDS:Intrusion  Detec\on  System
-
-Anomaly  Detec\on  
-Signature  Inspec\on   Header  Signature   String  Signature   Port  Signature
-
-Detect  abnormal  ac\vi\es   Based  on  the  normal  network  behavior  
-Detect  all  known  aWacks   In  the  signature  database
-
-From   TCP
-
-Rou\ng  Protoco--TCP  based
-
-BGP   Border  Gateway   Protocol
-Cisco  STUN   Serial  Tunneling   Of  SDLC  Header
-
-Cisco  RSRB   Remote  Source   Route  Bridging   Protocol
-Cisco  XOT   X.25  Over  TCP  
-
-                Land    AWack                   Smurf    Aaack           Denial    of    Service                     From   TCP
-Mul\cast  Rou\ng   Protocol--TCP  Based
-                    MSDP   Mul\cast  Source   Discovery  Protocol
-                    MBGP   Mul\--Protocol  BGP
-
-    RUDP   Reliable         UDP
-                 GDP   GateWay  
-Discovery       Protocol
-
-Cisco  HSRP   Hot    Standby   Router  Protocol
-
-  
-
-RIP  
-
-  
-
-Rou\ng                       
-
-Informa\on                       
-
-Protocol                                   RIP  AWack  
-
-                        Re--route  Packets  
-
-                  InformaOon  Privacy                                     vulnerable   
-
-                
-
-                                            
-                                IP  Spoofing                                     To  launch      
-
-IRDP   ICMP  Router   Discovery  Protocol
-
-Session  Gateway   PaWern  Match
-Socks  Server   SSL  Tunneling  
-Stateful  Inspec\on   Deep  Inspec\on  
-
-Block  TCP  Syn  AWack   Block  UDP  Flood   Block  Port  Scanning  
-Block  Smurf  AWack     
-Authen\cate  Sessions   Data  encryp\on     
-Filter  traffic  based  on   The  communica\on  log   Or  matching  signature
-
-     Rou\ng  Protocol--IP  Based
-
-                        EGP             Exterior  Gateway                     Protocol  
-
-                        NHRP                       Next  Hop         Resolu\on      Protocol  
-
-                        GGP   Gateway--to--Gateway                     Protocol  
-
-Mul\cast  Rou\ng  Protocol--IP  Based
-                                  MOSPF                                               PIM--SM                         Mulitcast  OSPF                        Protocol  Independent  
-                      Mulitcast--Sparse  Mode  
-
-                            various    aaacks                    
-IP/IPv6   Internet  Protocol  
-
-ICMP   Internet  control   Message  Protocol
-
-                                            
-                ICMP  AWacks                   PING  Flood  
-                  Smurl    AWack                       Denial  of  Service                           DOS&DDOS
-
-                                  OSPF                       Open  Shortest                                 Path  First  
-
-                                          RSVP  
-
-                                          VRRP  
-
-                    Resoruce  Reserva\on                             Virtual  Router    
-
-                                      Protocol  
-
-                    Redundancy  Protocol  
-
-   Cisco  Protocol
-
-                                          IGRP   Interior  Gateway  Rou\ng    Protocol  
-
-                        E--IGRP             Enhanced  IGRP  
-
-                                          SLE                                           CDP                                           XTP                                 Serial  Like                           Cisco  Discover y                       Xpress  Transfer                           Encapsula\on                                Protocol                                   Protocol  
-
-                                          ESRP  
-
-                                          CGMP  
-
-                              Extreme  Standby                                     Cisco  Group  
-
-                                Router  Protocol                           Mangement  Protocol  
-
-                                  DVMRP                                               PIM--DM                     Distance  Vector                        Protocol  Independent                               Mulitcast                       Mul\cast--Dense  Mode  
-                  Rou\ng  Protocol  
-                                                                         PGM                                               IGMP                               Pragma\c                               Internet    Group                     General  Mulitca  s   t                   Management  Protocol                               Protocol  
-
-    SLARP   Serial  Link         ARP                  IARP   Inverse  
-      ARP
-
-                           ARP   Address  Resolu\on  
-
-                    Protocol                                              RARP  
-            Reverse  ARP  
-
-                                            
-
-Mobile  IP  Mobile   IPv6
-
-                   
-IP  Filter  /Packet  Filter   Source  IP  address   Des\na\on  IP  address  
-TCP/UDP  source  port   TCP/UDP  des\na\on  port  
-                      Stateful  Inspec\on  
-                  Deep  Inspec\on     
-
-Block  connec\ons  to/from  specific  hosts  or  networks   Block  connec\ons  to/from  specific  port     
-   Block  ICMP  Flood  
-Detect  IP  Spoofing        
-Filter  traffic  based  on  the  communica\on  log   Filter  traffic  by  matching  signature     
-
-  
-
-  
-
-Ethernet
-
-  
-
-  
-
-  
-
-  
-
-                         Internetwork
-
-  
-
-  
-
-Virtual  LAN
-
-      
-
-      
-
-    IEEE  
-
-      802.1P  
-
-             802.1D  
-
-                                         
-          VTP  manipula\on                     InformaOon    
-
-  802.1Q   GARP  AWribute   Spanning           Privacy  Vulnerable
-
-Ethernet     Registra\on  
-
-      VLAN
-
-  Protocol
-
-          Tree        Protocol                 
-
-                 GVRP     GARP  VLAN  
-Registra\on         Protocol   
-
-      
-
-          GMRP  
-
-  GARP  Mul\cast  
-
-Registra\on         Protocol
-
-                              
-
-                                         
-                VLAN  Hopping  
-
-  
-Ethe     rnet
-
-                    InformaOon  
-
-  
-
-        Privacy  Vulnerable                    
-
-                S1tBaarsLeA5N      1          0     BROAD--36  
-
-         10BaseT  
-
-T   wisted  Pair                    1   0Base5    Thick                 1   0Base2    Thin  
-
-         10BaseF    Fiber  
-
-IEEE  802.3   CSMA/CD   Media  Access  Control
-
-                                            
-                Mac  Address                             Spoofing  
-          To  Launch  various                               aaacks   
-                
-
-                  IEEE802.3U             100BaseT             100BaseX
-                  IEEE802.3z   Gigabit  Ethernet  
-                  1000BaseT(GBIC)             1000BaseSX             1000BaseLX             1000BaseCX   (Copper,Fiber,DWDM)
-
-                ARP  Spoofing         Man--In--The--Middle  
-
-                              
-  
-
-                          Aaack                    
-
-LAN
-                                                    WLAN   Direct  Sequence             CDMA/CA  
-
-              
-
-              
-
-              
-
-                                                SNMP  
-
-                                                PPP  
-
-                  ATM  
-
-          Sub      Network  Access  Protocol                     Point--to--Point    Protocol  
-
-Asynchronous  
-
-                                            
-                    
-
-              
-
-              
-
-              
-
-              
-
-                                                LC   P                                             N      C     P                                                                                                                          Frame  Relay  
-
-Transfer  Mode  
-
-              
-
-                Type1  
-
-Connec\onless    
-
-              Service  
-
-     
-
-                                                   Lin      k                                    Ne     t   w      o     r   k                                                      PSTN                  Type    2                                      Con   t   r   o     l                            Control  
-                                          Pro  t  o     c    o     l  s                      Protocols   Connec\onl           Service  
-              
-
-                                            
-          Session    Hijacking         Man--in--the--Minddle  
-
-                                                                                                                                       Type3  
-                     ACK  w/Connec\onless    Service  
-
-                                                                                                                                                     DOCSIS                                                                            ATM     Data  
-
-                            Aaack                    
-
-Logical  Link  Control   
-                                    T        o    M       l SaApuCon  oAcfihdnd  vgrae  rsiosu     s                              
-
-  Over     Cable     Systems  
-Interface  
-
-                          aWacks                   
-
-Specifica\on  
-
-                                            
-                            VC  Hijacking                 ATM  Signaling  AWacks  
-                    Qos  Compromise                         Denial  of  Service                         Switch    Aaacks
-                   
-
-Wireless  LAN                                                       
-                                                              IEEE  802.11  
-
-                                            
-
-               
-
-    S    O      NET/    S    D      H  
-
-               
-
-                                            
-
-                                                                                                                     IEEE  802.11a                                                                       54  Mbps  
-
-                    
-
-                                                      
-
-  
-
-                                                              IEEE  802.11b  
-
-                                                          1,25.5,11  Mbps  
-
-                  Access  Po    i  n    t                                            
-
-                          AWack                                                               IEEE  802.11g  
-
-            To  launch  v    a    r   i  o     u    s                                                54    Mbps  
-
-                          aWacks                                                                                                                                    IEEE  802.11n  
-
-                                                  100    Mbps  --  200    Mbps  
-
-                        Sta\c  IP              
-
-              Host  Hacki  n    g                                                                    DSL  
-
-  
-
-                                                                      Digital  
-
-                
-
-                                                                  Subscriber    
-
-                                                                          Line  
-
-  
-
-                                                                                                            
-
-                                                                                                                       A      D      S    L                ADSL  
-
-                    
-
-                                                                  G.lite  
-
-                                                                                                            
-
-                        S   t   a    \      c       I   P                                                                            I   D     S     L                   SDSL  
-
-              Host  Hacking
-
-                   
-
-                                                                                                                                                                                            H            D            S        L                  SHDSL  
-
-               OC--3   155.52    
-Mbps  
-               STM--1   155.52    
-Mbps  
-
-  
-  OC--12   622.08  
-Mbps  
-               STM--3   622.08        Mbps                           
-  
-
-  
-  OC--48   2.488       G      b     ps     
-  STM--16   2.488  
-Gbps  
-
-  
-  OC--192   9.953     G      b     ps        
-  STM--64   9.953  
-Gbps  
-
-                                                                                                                                                                                                      VDSL  
-
-WAN
-
-Network  Address  Transla\on(NAT)   Translate  public  to  private  IP  addresses  
-                    Map  IP  address  to  MAC  address        
-   Network  Address  Port  Transla\on(NAPT)  
-          Translate  public  to  private  IP  address                               Map  IP  address  to  MAC  address                                                                       Allow  port  mapping  
-
-           WLAN    Encryp\on  
-
-WEP   Wired   Equivalent  
-Privacy  
-
-     IEEE80.11i  
-WPA2:AES--CCMP/PSK   WPA:TKIP/MIC/PSK  
-
-     WLAN    Authen\ca\on                                                       Radius  
-Remote  Authen\ca\on   Dial--In  User  Service  
-                             IEEE  802.1x  /  EAP   Extensible  Authen\ca\on  Protocol  
-
-                          
-SSL  VPN  
-
-                                            SSL    
-                Secure           Socket  Layer  
-
-                                      
-                    RSA             Handshake  
-
-                                            TLS  
-    Transport  Layer               Security  
-
-                                AES  
-Advanced   Encryp\on  
-Standard  
-
-                                DES/30ES  
-          Data       Encryp\on  
-        Standard  
-
-                                MD5  
-Message       Digest  
-             RC4  
-
-                          
-Ipsec    VPN  
-
-                                            AH  
-
-  
-
-                                                    IPSEC  
-
-              Internet  Protocol  Security  
-
-  
-
-  
-
-                    
-
-                    
-
-                    ESP  
-
-      IP  Comp  
-
-Authen\ca\on   Encapsula\on       IP  Paylod  
-
-            Header  
-
-Security  Payload   Compression  
-
-                                    IKE  
-Internet  Key         Exchange  
-
-      Hide  Private  IP  and  addresses  from  being  spoofed  
-   Reduce  aWacks  on  internal  hosts  
-   Reduce  aWacks  through  specific  ports  
-
-      Port  Based  Lan  Authen\ca\on  
-Smart  cards,Password   Public  key,Kerberos,etc.  
-Policy  Management   RADIUS  for  Back--end  
-
-                                                   IEEE    802.1x  /EAP   Extensible  Authen\ca\on  Protocol  
-
-WEP   Wired   Equivalent  
-Privacy  
-
-   EAP--MD5                    EAP--TLS  
-   PEAP                              MS--CHAP  
-
-      Tunneling   Ip  Class  of  Service   Scalable  and  connec\onless  
-                                  BGP   Border  Gateway  Protocol         BGP  --    VPN  Extension  
-
-                        MPLS  VPN  &BGP/
-MPLS  VPN  
-
-                     TDP                     TAG  
-
-                     LDP                     Label  
-
-           CR--LDP   Constraint  
-
-        Distribu\on                 Protocol  
-
-        Distribu\on                 Protocol  
-
-        Based               LDP  
-
-  
-
-  
-
-                                                    MPLS  
-
-Mul\--Protocol    Label    Switching  
-
-           RSVP--TE           PSVP  
-      Traffic   Extension  
-  
-
-                     CHAP   Authen\ca\on  
-
-                     MPPC         Compression  
-
-                     MPPE             Encryp\on  
-
-     LANMAN    HASH     Authen\ca\on  
-
-                          
-            L2TP/PPTP  VPN  
-
-                                                GRE  
-Generic  Rou\ng           Encapsula\on  
-
-                                                        PPTP  
-
-                                            L2TP  
-
-                                                      L2F  
-
-                  Point--to--Point  
-
-Layer  2  Tunneling  
-
-            Tunneling  Protocol                   Protocol  
-
-  
-
-  
-
-Encryp\on  Authen\ca\on  
-
-        Layer  2  Forwarding                           Protocol  
-
-Encapsula\on  
-
-
-   l   l   l   l   l   l   l  
-  
-7  
-
-   l   l/   lVPNVirtual  Private  Networks(   l   l  
-  
-6  
-
-   l/   l   l   l  
-  
-
-  
-5  
-
-   l   l   l   l   l   l/   l  
-
-  
-4
-
-   l  IDS/IPS   l   l   l/   l  
-
-  
-3  
-
-   l   l   lVPN   l   l  
-  
-2  
-  
-
-   l   l   l  
-
-  
-1
-
-:      ISO27001   IATF        
-
-:  
-  
-     
-  
-  
-     
-
-:   www.cert.org.cn   www.wooyun.org   www.cnvd.org.cn
-
- 
-
-
-
-  
-
-  
-
-
-
-
-
-CIS  
-
-
-
-OSSTMM       ISSAFF  
-
-     
-
-  
-
- OCTAVE   Securitymap  
-
-
-
-PTES  
-
-
-
-STRIDE     X.805    
-
-        
-
-  
-
-   
-
-
-
-DREAD    
-
-
-
-CVSS     OWASP  
-
-     
-
-WCeblick  to  add     Text     
-
-  
-
-  
-
-  
-
-  
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-              
-
-   ·    · 
-(strid,sdl,secmap)   ·    · ()    
-   ·    ·    ·   
-   ·    · DREAD   ·    ·   
-
-     
-     
-     
-
-() . 
-
-·  ,   
-·   
-·   
-·    ·   
-· WIKI   · 
-   · OWASP   · PTES  
-
-PDCA  
-
---   --     --     --  
-
-Plan  
-
-Act  
-
-         IATF    /  
-
-     WBS         
-Do  
-
-  
-
-Check  
-
---   --   --   --     --,,  
-
- ,
- ,  
-
-Plan  --  
-·    ·    ·    ·    · ......  
-
-Plan
-Ø
-Ø   Ø   Ø   Ø   Ø
-  
-
-P.
-Ø Ø Ø Ø Ø, Ø  Ø  Ø Ø Ø  Ø
-
-P.  
-
-D.
-
-D.
-
-X. 805
-
-TRVA 
-
-
-
-
-s t r i de 
-
-1 
-
-   
-
-
-
-Authentication
-
-
-
-Spoofing
-
-
-
-
-
-2 
-
-Tampering
-
- 3 webtelnet 
-
-4 TR069
-
-Repudiation
-
-
-
-Access  
-
-1
-
-vpn
-
-,IPsec
-
-
-
-2 
-
-IncfoonrtrmoaltionDisclosure  3 USB 
-
-
-
-Non-
-DreepnuidiaalntioofnService
-
-1
-2 
-
-Elevat(iDaotna
-
-of
-
-Privilege  
-
-
-1. 
-
-
-
-confidentiality)
-
-2.  ssl key
-
- Communication
-security dimension
-Date integrity 
-
-1 
-
-IPSec ESPXXX
-
-
-
-2 IP/TCP/UDP/ICMP fuzz 3 !802.1x UPnP IGMP 
-
-  XXX 1
-
-
-
-
-XXX
-
-
-
-1IP DoSIPDos
-
-Availability
-
-DOSXXX DOS
-
-
-
- Privacy
-
-WEB 1 
-
-
-
-2 
-
-D.
-
-D.
-
-D.
-Page 33
-
-D.
-Ø 1.  2.  3.  4.  5. 
-Ø
-
-D.
-Ø Ø Ø Ø Ø Ø Ø Ø
-
-C.
-
-Ø Ø    Ø
-
- 
-
-
-
-
-
-C.
-
-
-
-  
-
-
-  
-
-                WIFI USB ADSL 3G&4G  DoS IP (tcp,udp)       web  os  fuzz
-
- Yes Yes No No Yes No No Yes No No No No Yes Yes Yes No Yes No No No No No Yes Yes Yes No Yes Yes No Yes Yes Yes Yes
-
-
-
-
-  , .
-
-C.
-
- 
-Damage Potential  Reproducibility  Exploitability  Affected users 
-Discoverability 
-
-DREAD 
-
-3
-
-2
-
-1
-
-   
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
- 
-
-
-DREAD 
-
-
-
-Damage Potential  Reproducibility
-
-Ex pl oi t abi l i t y
-
-Affected users
-
-D i s cover abi l i t y
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3
-
-3
-
-1
-
-2
-
-3
-
-12
-
-3
-
-3
-
-1
-
-2
-
-3
-
-12
-
-1
-
-3
-
-3
-
-1
-
-8
-
-3
-
-2
-
-3
-
-2
-
-2
-
-12
-
-2
-
-3
-
-3
-
-1
-
-1
-
-10
-
-2
-
-2
-
-3
-
-1
-
-1
-
-9
-
-3
-
-2
-
-2
-
-2
-
-2
-
-11
-
-2
-
-2
-
-2
-
-2
-
-2
-
-10
-
-3
-
-3
-
-2
-
-2
-
-3
-
-13
-
-C.
-
-
-  
-
-
-
-         
-
-
-
-
-
-
-
-                
-
-  
-Ø   Ø  Ø  Ø  Ø 
-
-Recon       
-
-Deliver   /
-
-control     
-
-Maintain   
-
-Weaponize   
-
-Exploit   /
-
-Execute   
-
-ProacOve    detecOon  miOgaOon   /
-
-Incident  response  &  cyber  resiliency           
-
- AnOcipate     Withstand     Recover           Evolve              
-
- Understand     Prepare                   Prevent                   ConOnue               Constrain             ReconsOtute   Transform           Re--architect    
-
- AdapOve  response           AnalyOc  monitoring     Coordinated  defense   DecepOon                                           Diversity                                                / Dynamic  posiOoning     Dynamic  representaOon   Non--persistence                       Privilege  restricOon           Realignment                                   Redundancy                                     SegmentaOon                             SubstanOated  integrity   Unpredictability                      
-
-AnOcipate     Withstand     Recover           Evolve              
-
- ·Understand
-
-   ·Prepare  
-
-   ·Prevent  
-
- ·ConOnue
-
- ·Constrain      
-
- ·ReconsOtute  
-
-     ·Transform
-
-     ·Re--architect
-
- 
-
-  
-
-
-
-
-
-   
-
-
-
-X
-
-X
-
-X
-
-X
-
-
-
-X
-
-X
-
-X
-
-X
-
-
-
-X
-
-X
-
-X
-
-X
-
-X
-
-
-
-X
-
-X
-
-X
-
-/
-
-X
-
-X
-
-X
-
-
-
-X
-
-X
-
-X
-
-X
-
-
-
-X
-
-X
-
-X
-
-
-
-X
-
-X
-
-X
-
-X
-
-
-
-X
-
-X
-
-
-
-X
-
-X
-
-
-
-X
-
-X
-
-
-
-X
-
-X
-
-X
-
-X
-
-
-
-X
-
-X
-
-X
-
-X
-
-
-
-X
-
-X
-
-X
-
-SSH
-· 22 ssh        
-46  
-
-
-47  
-
-
-48  
-
-         
-49  
-
-
-
-web  
-
-other
-
-mob
-
-DOC
-
-
-
-CCTV
-
-
-
-USER   DATE
-NVM
-
-  DB
- 
-
-   
-
-
-  
-
- 
-
-
-
-   
-
-    
-
-
-CERT
-
-CNVD
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
- 
-
- 
-
-
-
-
-
-
- IDS  Waf  
-
-
-                 5%  off
-
-  
-
-RISK  40%  off  
-·    ·    ·    ·   
-
-RISK  20%  off  
-·    ·    ·   
-
-RISK  35%  off  
-·    ·    ·    ·    ·   
-
- 5%  off
-
-·    ·    ·    · 
-
-

@@ -1,266 +1,0 @@
-
-
-
-
-
-
-460
-
-
-90%
-460
-
-
-
-90%
-
-1400
-
-460
-
-
-
-90%
-
-1400
-
-185
-
-460
-
-
-
-90%
-
-1400
-
-185
-
-460
-
-1/2
-
-
-
-
-
-
-
- 
-
-
- 
-
-+->
-      
-
-+->
- 
-
-+->
-
-Scale Up
-
-
-
-
-
-Scale Out
-
-Scale Out
-
-
-iMeituan
-
-
-
-
-
-
-
-1
-
-1
-
-Portal
-
-1
-registerPortalWithBlock:
-
-2 teleportToURL
-
-3 URL
-
-4 showViewController
-
-Portal
-5
-viewController
-
-Portal
-
-1
-registerPortalWithBlock:
-
-2 teleportToURL
-
-3 URL
-
-4 showViewController
-
-Portal
-5
-viewController
-
-2
-
-2
-
- 
-
-
-
-
-
-
-
-
-1 registerFactoryBlock:
-1
-
-
-
-2 
-
-2
-
-3 
-
-3
-
-
-
-
-
-
-
-     
-
- 
-
- 
-/  
-
-
- Subtree
-CocoaPods
-
-
- Subtree
-CocoaPods
-
-
- Subtree
-CocoaPods
-
-
- Subtree
-CocoaPods
-
-
-   CocoaPods
-
-
-   CocoaPods
-
-
-   CocoaPods
-
-
-   CocoaPods
-
-
-   CocoaPods
-
-
-iMeituan
-
-
-
-CocoaPods
-
-
-
-    SankuaiKit 
-
-
-iMeituan
-
-
-iMeituan Jenkins
-
-
-iMeituan Jenkins
-
-
-Scale Up
-
-MVC
-
-
-
-
-
-
-
-
-
-MVVM
-
-
-
-View
-/
-
-ViewModel
-/
-
-Model
-
-
-
-
-
-
-
-      
-
- 
-
-UI 
-
- orderdealPOI
-
-Service
-
-
-
-ModelDAODomain
-
-
-
- 
-
-
-
-SankuaiKit 
-
-Scale Up
-
-
-Thrift  
-Scale Out
-
-Q&A
-
-

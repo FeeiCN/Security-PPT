@@ -1,96 +1,0 @@
-
-
-
-
-qin.cui@chaitin.com 
-
-
-
-
-
-
-
-
-
-
-
-
-Prevention
-
-Detection
-
-Response
-
-...
-
-......
-
-
-SourceMomentum Partners
-
-
-
-
-
-
-
-     
-       
-   
-
-
-Deception technologies are defined by the use of deceits and/or tricks designed to thwart, or throw off, an attacker's cognitive processes, disrupt an attacker's automation tools, delay an attacker's activities or disrupt breach progression. For example, deception capabilities create fake vulnerabilities, systems, shares and cookies. If an attacker tries to attack these fake resources, it is a strong indicator that an attack is in progress, as a legitimate user should not see or try to access these resources. Deception technologies are emerging for network, application, endpoint and data, with the best systems combing multiple techniques. By 2018, Gartner predicts that 10 percent of enterprises will use deception tools and tactics, and actively participate in deception operations against attackers.
-Source: Gartner Identifies the Top 10 Technologies for Information Security in 2016
-
-
-
-
-
-
-       
-
-
-   
-
-
-
-......
-      
-
-
-        
-
-
-   patch   
-
-
-
-
- Web
-
-
-
-
-
-
- 
-
-
- 
-
-
-   
-
-
-   
-
-
-
-
-
-
-        
-
-
-
-

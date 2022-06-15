@@ -1,234 +1,0 @@
-!
-Stuart McClure
-Cylance, Inc. www.cylance.com
-
- (1977)!
-
-2001 (1968)!
-
-...!
-
- 2011!
-
-RSA 2012 !
-
-RSA !
-
-!
-§  100 ! § ! § GPSWifi
-! § !
-
-/!
-
-BlackBerry OS
-
-Allied Telesis  AlliedWare!
-
- Linux
-
-Ubiquiti Networks  AirOS
-
-Access Linux !
-
-Cisco Systems  CatOS
-
-Android
-
-Cisco Systems  Cisco IOS
-
-bada!
-
-NewMedia-NET  DD-WRT
-
-Boot to Gecko
-
-Inferno
-
-Openmoko Linux
-
-!
-
-OPhone!
-
-Cisco Systems  IOS-XR
-
-MeeGo Maemo  Moblin  Foundry Networks  IronWare
-
-!
-
-Juniper Networks  JunOS
-
-Mobilinux!
-
-RuggedCom  RuggedCom
-
-MotoMagx!
-
-OS!
-
-Qt Extended
-
-Mikrotik  RouterOS!
-
-LiMo !
-
-Juniper Networks  ScreenOS!
-
-webOS!
-
-Alcatel-Lucent  Timos
-
-PEN/GEOSGEOS-SCGEOS-SE! RoweBots  Unison !
-
-iOSMac OS X !
-
-Force10 Networks  FTOS
-
-Palm OS
-
-Force10 Networks  RTOS
-
-Symbian Symbian OS ! Wind River Systems 
-
-Windows Mobile Windows Phone VxWorks!
-
-!
-
-Wind River Systems 
-
-Linux!
-
-Green Hills !
-
-! Contiki! eCos! FreeBSD! uClinux! MINIX! NCOS freeRTOSopenRTOS  safeRTOS! polyBSD NetBSD! REX OS! ROM-DOS! TinyOS! µTasker! ThreadX! DSPnano RTOS Windows Embedded
-Windows CE Windows Embedded Standard
-Windows Embedded Enterprise Windows Embedded POSReady! Wombat ! brickOS! leJOS!
-
-ExpressLogic  ThreadX!
-
-ARM Atmel ARM Atmel AVR32 BlackFin CEVA-TeakLite-III ColdFire/68K Energy Micro EFM32 Freescale ARM Fujitsu FM3 G-Series Hitachi H8/300H Infineon XMC-4000 Leon3 M-CORE MicroBlaze Microchip PIC24/dsPIC Microchip PIC32 MIPS Nios II NXP!
-
-Power  Architecture   Renesas  RX   Renesas  SH   Renesas  V8xx   SHARC   ST  Microelectronics  STM32   StarCore   StrongARM   Synopsys  ARC   TI  ARM   TI  MSP430   TMS320C54x   TMS320C6x   Univers  A2P   Win32   x86/x386   Xilinx  ARM   Xscale   Xtensa/Diamond  
-
-VxWorks  Embedded Linux
- Wind River Systems !
-§  20 !
-
-!
-2010  8  !
-UDP  17185 -  2.5 !
-! · Redline  RedCONNEX  AN80     ·  StorageWorks  MSA2012i   ·  e--Studio  ! · IBM  TotalStorage  SAN   ! ·  ImageRunner  /! · Cisco  MGX  ! · Sonicwall  ! · Xerox  Phaser  5400   · Cisco  MGX   IOS  12.X  ! · Cisco   IP  ! ! !
-
-Shodan
-
-!
-§  390 ! § 54 "root"
- 13%!
-
- SSL!
-
- 1!
-
- 2!
-
- 3 Crypto Goldmine!
-1. !
-
- 3 Crypto Goldmine!
-1. ! 2.  OpenSSL
-!
-
- 3 Crypto Goldmine!
-1. ! 2.  OpenSSL
-! 3. !
-
- 3 Crypto Goldmine!
-1. ! 2.  OpenSSL
-! 3. ! 4. 
-!
-
- 4!
-1.  RSA  PQNE ddPdQqInv
-http://mobilefish.com/services/rsa_key_generation/ rsa_key_generation.php!
-2.  PEM  RSA  ASN.1  http://lipingshare.com/Asn1Editor!
-
- 4!
- RuggedCom !
- -----BEGIN RSA PRIVATE KEY----MIICWAIBAAKBgEBdBnFfd2mu9V7Sk9dUyuGZgXklqzQfNwcflQmjvp/EHm+Y/50m iudCIUFfrqlt/yAS5QSGsiEks6kjsmKxNGBhcFHiNuvXWOqGDIT5ihgH+HQpImVn J1tC2ZYl5qb/hoIVKHx4DVjVtd1EaAXCoftbh+SlTRquMvcPdbdyCVMFAgMBAAEC gYAt0kxg8EcyLQWwsRfhiBM70y4y0ld1LvfdEWXoS/PNCDFm37Sy65qeEx1bzkOp iY7FBc6Xj1FHeTqSosA/tMqFUHP+ysoBcHDGoovN/eFqT008PBqlmGxXYxYq42am CUpLJ50VyDbzOPd3j7xYwpC5SMB8WDsW0Wcm5DT0XnnyDQJAgHgJHdxrU3vNY6o3 O1ZIZ5kUUiPTEVJunWAGGp8R6iW1ZsIcBkgTW5gZSX6yIAE3HmCsbjJyiH0xMpw3 UpU8PwJAgEHGFn4ngURreUsV+1niHPs/VA/2Cr0x3yN8Lxx94USHYgFSv2IxY95p VhNyUA8oRyxndWZChzNZTapkiFlvuwJAYDkIIwyYesQs12yDx/bdbnMS7F8W1U+X uFpW2BOy+FzcHSZglTfg/+bRceHqitw+K4ufOz6f2KlkcxLcwQc0QwJAeGFD04jE +4eEeGwJTcmneRw47GWuwZWiYZWk0XMkk3MGvu4PBKLdSKdQpwHJoWsYmvUKhh5d AxknEMaFZZTMUQJAE7t5oIJXL/FSf01kQKMpOoooHhwyT/oVWTtIji0tcfd8DfD9 N2t//6LChzOdCEtdszLXjeaODIMCZiuuEscc9w== -----END RSA PRIVATE KEY----
-
- 5!
-
-Stuxnet
-
-!
-25  
-
-!
-26  
-
-!
-27  
-
-!
-· ! · ROM   ! · ! · RF   ! · !
-
-!
-· ! · ! ! · 300  ! · ! · !
-
-!
-§ 2008  2003  (IMD)  -- !
-§ ! § ! § ""! § ""! § ""!
-30  
-
-!
-
-RFID
-32  
-
-!
-§  ! §  !
-§ ! §  GPS 
-!
-33  
-
-!
-§ 
-34  
-
-!
-
-ATM
-36  
-
-Man-in-the-Phone (MiTP)
-1)  iPhone  root /dev/dlci.spi-baseband  *! 2) Motorola C118  Calypso  OsmocomBB layer1.bin  SIM  ! 3) Motorola <-> UART  <-> Linux PC <-> SSH   <-> iPhone <-> /dev/dlci.spi-basband <-> SIM ! 4) Motorola  GSM  iPhone IMSI!
-5)  RAND challenge  IMSI   Ki
-6) Motorola  iPhone  RAND !
-7) Motorola  KcSRES! 8)  Motorola  iPhone
-
-GSM !
-!
-4) !
-5)  Ki ! SRES!
-
-
-$$ 
-
-2) C&C  !
-!
-
-6) SRES
-
-1) ! 7) SRES
-
- --  Smart Sand !
-
-""!
-
-Silliman !  Mt. Hermon 1965  11  20 !
-
-!
-
-!
-
-

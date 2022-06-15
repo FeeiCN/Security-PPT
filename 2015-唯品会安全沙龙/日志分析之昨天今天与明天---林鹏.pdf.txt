@@ -1,149 +1,0 @@
-
-
-
-·  ·  · 2012-2015   · 2015- 
-
-
-
-
-
-·  ·  · 
-
-
-
-
-· iis · 0day? ·  ?
-
-
-
-· awk · grep · wc · uniq · sort
-
-· top n · 
-
-
-
- 
-IP
-
-
-
-IP  
-
-
-­Johnny Appleseed
-
-·  ·  · LFI ·  · Nday
-
-
-
-E.L.K FLUME FLUTEND
-
-
-
-·  · 
-
-
-
-
-
-· IP  · url 
-
-url
-
-
-
-
-
-url 
-
-
-
-IDS
-
-FW
-
-
-
-
-
-
-
-IP 
-· Event E1 · Event E2
-· E2.Srcip==E1.Dstip NIDS webshellHIDS 
-
-
-· Event E1 · Event E2
-· E2.somestatus is success (or something)
-
-·  ·  · 
-
-
-·  ·  ·  ·  ·  ·    
-
-
-
-
-·  ·  · 
-
-
-· APT · 0Day · 
-
-
-·  · 
-
-
-
-
-
-
-
-
-
-·  ·  · 
-
-  
- 
-
-
-URL GEOIP/ PROXY 
-.....
-
-
-
-
-
-
-
-
-
-
-
-
-
-· 
-
-  
-
-
-· sql
-
-
-· 
-
-· SVM · K-means · HMM · 
-
-
-
-
-
-
-
- 
-
-
-
-Thank you !
-lion_00@163.com
-
-

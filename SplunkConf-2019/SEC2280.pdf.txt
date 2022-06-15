@@ -1,217 +1,0 @@
-Break Down Silos
-Ingesting Multi Purpose Data in Splunk
-10-24-2019 Ben Marcus | Sr. Staff Engineer | Qualcomm
-
-© 2019 SPLUNK INC. © 2019 SPLUNK INC.
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-Introduction
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-BEN MARCUS
-Software Engineer Large Scale System Administrator 10+ years using Splunk
-https://www.linkedin.com/in/heybigben
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Engineering Design Center Infrastructure Overview
-Large and Complex
-Large numbers of just about everything · Compute servers globally connected · Storage (thousands of mount points/volumes) · Directory Services (LDAP and AD) · Job Scheduling Software · Revision Control Systems · Tool License Servers · Virtual Desktop Infrastructure
-· Remote © 2019 SPLUNK INC. Display Software
-
-Visibility
-Logs + Metrics + Services = Answers
-
-Linux Syslogs
-Sudo Syslog Auditd
-
-Applicato n Logs
-Webserver Revision Control
-J ob Scheduler Database
-LDAP DNS Build System Config
-
-Appliance Logs
-Storage VMware
-Load Balancer Firewall
-VPN Router
-NTP Web Proxy
-
-Server Management
-Logs
-HP ILO HP VC HP OA Dell IDrac
-
-© 2019 SPLUNK INC.
-Linux Server Metrics
-Memory CPU
-Network Collectd Telegraf OSQuery
-
-© 2019 SPLUNK INC.
-Multi Purpose Data Sources
-Examples that span multiple use cases and business units
-
-HP ILO Syslogs
-Server Administrators & Data Center Team
-Use Cases: Server Administrators
-· Monitoring servers for hardware issues (broken fans, disk drives, memory)
-Use Cases: Data Center Team
-· Overheating servers in datacenters · Impacted hosts
-
-© 2019 SPLUNK INC.
-
-Firewall Logs
-Multi Purpose Benefits
-Security
-
-Operations
-
-© 2019 SPLUNK INC.
-Network
-
-Original Use Case Traffic Policies
-
-Use Case: Bringing up a new site Servers would not image Firewall logs showed DNS
-blocked
-
-Use Case: Traffic Patterns
-
-Netstat
-Use Cases: System Operations
-Use Cases: System Operations
-· Debug programs and associated sockets
-Use Cases: Security
-· What hosts are connecting to other hosts?
-Use Cases: Finance
-· Long running jobs to license servers · Save $$$
-
-© 2019 SPLUNK INC.
-
-DNS
-Security & IT Operations
-Use Cases: Security
-· Improve command and control · Track DNS client requests & zone transfers
-Use Cases: IT Operations
-· Avoided outages by finding misconfigured hosts
-· Decommissioning DNS servers without client downtime
-· Improved incident resolution with job scheduler
-
-© 2019 SPLUNK INC.
-
-NFSMountStat
-Use Cases: IT Operations (Storage)
-Use Cases: IT Operations (Storage)
-· Identify hosts affected by storage outages
-Use Cases: Security
-· Anomaly Dashboard · User mounting many paths · Cross site/region mounting
-
-© 2019 SPLUNK INC.
-
-NFS Mount Screen Shot
-Anomaly Dashboard for Security & Operations
-
-© 2019 SPLUNK INC.
-
-NFS: Cross site example Security
-
-© 2019 SPLUNK INC.
-
-Netflow
-
-Networking
-Use Case: User Activity Insight
-
-Grid
-Use Case: User Activity Insight
-
-© 2019 SPLUNK INC.
-Security
-Use Case: Data Protection
-
-Filer audit data
-Storage Admins & Security & Grid Admins
-Use Cases: Storage Admins
-· Determining who deleted files
-Use Cases: Security
-· Who is accessing files?
-Use Cases: Grid Admins
-· Tool information ­ running IO intensive workloads in home directories
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Remote Display Software
-Operations & Finance & Security
-
-Use Cases: IT Operations (Remote Display)
-· Track remote users login in
-
-Use Cases: Security
-· Who was accessing the system and how
-
-Use Cases: Finance
-· Tie license usage to department · License renewal
-
-Integrations and Enrichment
-Integrating with people data to understand departmental use cases
-People directory (LDAP, AD) Server directory (CMDB) Network inventory
-
-© 2019 SPLUNK INC.
-
-Documenting Data Sources
-· Data source catalog ­ document as part of onboarding
-· Periodic Splunk meetings with representatives from different teams/groups
-· Splunk app · Blog
-
-© 2019 SPLUNK INC.
-
-"The alchemists in their search for gold found many other things of greater value"
-Arthur Schopenhauer, German Philosopher
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Q&A
-Ben Marcus | Sr. Staff Engineer Qualcomm
-
-© 2019 SPLUNK INC.
-
-Thank
-
-You
-
-!
-
-Go to the .conf19 mobile app to
-
-RATE THIS SESSION
-
-Visability
-Metrics...More sourcetypes = > Visibility
-Linux Server metrics
-· Custom *nix Technology Add On
-­ Memory, load, uptime, cpu, network, interfaces, disk, etc. ­ System command data - process (extended), netstat (extended), top ­ Custom command output ­ nfsmountstat, linux file handles (/proc), lscpu, etc.
-· Collectd/Telegraf · Osquery
-
-© 2019 SPLUNK INC.
-
-Visability
-Lots of Sourcetypes
-· Linux syslogs, sudo logs, audit logs, etc. · Application logs
-­ Webserver (apache, nginx) ­ Revision control (Perforce, ClearCase) ­ Job scheduling (LSF, UGE) ­ Database ­ LDAP (access/error/replication) ­ DNS ­ Build and automation logs ­ System configuration logs.
-· Appliance syslogs
-­ Netapp logs, VMware ESX logs, LoadBalancer logs, Firewall logs, VPN logs, Router logs, NTP logs, Webproxy logs
-· "Lights Out" management server logs (HP ILO, HP Virtual Connect, HP OA Dell iDRAC, etc)
-
-© 2019 SPLUNK INC.
-
-

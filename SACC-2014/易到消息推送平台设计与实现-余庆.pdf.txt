@@ -1,68 +1,0 @@
- 
- 2014-09-15
-
-
-·  · APP · 
-
-
-·  · 
-
-
-
-·  ·  · 
-·  ·  · 
-
-
-·  ·  · 
-
-
-· ejabberd · mongodb ·  · 99%
-
-
-·  ·  · 
-·  ·  ·  · 10w+
-
-
-· ----MC ·  · APP
-
-MC
-
-
-· APPwoker · APP
-worker
-
-----manager
-· managerworker · workerAPP · server · masterslave ·  · 
-
-----worker
-·  · manager · 
-
-APPMC
-· APPmanagerworker · APPworkerping
-
-
-· managerworker · worker
-
-MC RPC
-
-MC RPC
-· service ·  · session
- · serviceCPHP
-
-MC
-· C ·  · libfastcommon
-· epollkqueueport ·  ·  + 
-
-
-·  · ---- · 
- · epoll
-
-
-manager fail over
-·  · manager server · server · APPmaster
-slave · slavemastermasterslave
-
-
-Q&A
-
-

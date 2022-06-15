@@ -1,67 +1,0 @@
-
-
-
-
-AI 
-
- 
-
-· AIDeepFake ·  ·  · 
-
-· AIDeepFake
-
-· 
-
-· 
-
-· 
-
-· 
-
-
-
-·  ·  · 
-
-· VR ·  · 
-
-· 
-
-· 
-
-· 
-
-· 
-
-· GAN :Generative Adversarial Networks ·  ·  Generator ·  Discriminator
-
-·  · 
-
-Inception-v3
-
-·  ·  · -> · -> ·  · / · // · /
-
-FGM/FGSM(Fast Gradient Sign Method
-
- 
-
-GAN(Generative Adversarial Networks)
-·D(Detector):() ·G(Generator):(D) · ·GD
-
-GAN
-· ·G/ ·
-
-·   speech can be embedded in music without the dataset the article is useless okay google browse to evil.dot.com
-
-· AI ·  · 
-
-THANK YOU
-
-
-
-
-
-
-
-
-
-

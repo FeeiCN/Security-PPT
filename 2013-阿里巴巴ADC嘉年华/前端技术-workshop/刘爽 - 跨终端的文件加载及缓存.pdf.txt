@@ -1,67 +1,0 @@
-
----- 
-http://goo.gl/Hlspr
-
-aliexpress.com  about.me/andrelion
-
-
-
- 
-
-
-""
-
-
-""  Mobile Site
-
-
-
-
-
-
-
- HTML
-JavaScript CSS
-
-
- 
-
-
-Tengine
-
- T
-
-CDN
-
-Web Static
-
-
-UA HTTP headUser-Agent 
-1UAUA 100%99% 2UAUA UA0.5%0.5% 
-
-
- 
-
-
-
-App Cache +
-Local Storage
-
-
-Demo Sea.js + 
-
-
- 
-
-
-App Cahce  
-
-
- App Cache Local Storage
-
-
- mobile site    SEO
-
-
-
-

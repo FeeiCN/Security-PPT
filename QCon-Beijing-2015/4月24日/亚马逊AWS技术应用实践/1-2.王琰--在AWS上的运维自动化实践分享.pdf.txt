@@ -1,149 +1,0 @@
-AWS 
--  wangyan@cmcm.com
-
-
-1. aws  2. AWS 3.  4. 
-
-01
-aws  
-
-aws 
- aws
-   storage  cache  DB  CDN  
- :     : 
-
-02
-AWS
-
-
-
-
-model provision monitor
-
-model
-cmdb   
-
-IDC
-
-AWS
-
-agent
-
-api
-
-dns
-
-route 53
-
-->-> API
-
-->
-
-web console
-
-ldap oauth
-
-iam
-
-provision
-
-IDC
-
-AWS
-
-os boot / install   
-
-1. cobbler api 2. kickstart
-
-ansible
-
-ansible puppet salt
-
-ansible
-
-ansible puppet salt
-
-ansible
-
-lvs,,cache ansible 
-
-monitor
- http  cache
-
-IDC
-nagios zabbix
-statsd nginx_statsd  nagios 
-nagios 
-
-AWS nagios,zabbix cloudwatch cloudwatch cloudwatch
-
-03
-
-
-
-
- web
-
-
-
-
-
-   
-
- 
-
-
-
-
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-jenkins
-
-SVN
-
- ansible
-region1 region2 region3
-
-04
-
-
-What is ansible
-
-Ansible
-
-: ·AWS ·Azure ·Google ·DigitalOcean ·Rackspace ·Linode
-
-&: ·Openstack ·docker ·Vagrant ·Vmware
-
-ansible 
-· NO agant · NO Server · Modules in any language · Yaml · SSH by default · Strong multi-tier solution
-
-ansible  site.yml
-· hostsgame01 EC2
-· rolestags  
-
-ansible 
-·  · item · 
-
-ansible AWS 
-· AWS · EC2-EBS · ansible-doc
-
-
-QQ:230635800
-
-

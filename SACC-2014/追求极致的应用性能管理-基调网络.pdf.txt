@@ -1,325 +1,0 @@
-
-
-Sep.18th,2014
-
- 
-Catalogue
-
-Define
-APM
-Client
-APM
-Server
-APM
-Solution
-APM
-
-Define
-APM
-
-APM
-APM
-Application Performance Management
- 
-
-APM
-
-Client
-APM
-
-APM
-
-APM 
-
-
- 
-
-
-App 
-
-
-·  · ping,
-traceroute
-
-
-· JavaScript · Navigation Timing
-(https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationTiming/Overview.html)
-
-
-
-Web App:
-·  · 
-
-Native App:
-·  ·  ·  · Crash
-
-Hybrid App:
-·  + H5  + jsBirdge
-
-APM
-
-----
-·  ·  ·  ·  · 
- 
-----
-·  · 
-
-----
-·  · 
-
-----
-·  ·  · 
-
-APM ----Network
-
-APM
-
- 
-·  ·  ·  ·  ·  · ...
-
- 
-· PC,  · 10+ · 300+
-70+ · 
-100+ · IDCLastMile
-Wifi2G/3G/4G
-
-APM ----App
-
-APM
-· App
-­  ­  ­  ­  ­ Crash Log 
-
-App--
-
-App----
-
-App----
-
-App----
-
-App----Crash log
-
-
-
-App----
-
-APM
-· App
-­ iOS, Android ­ 2 ­ App 70 ­ 120KB ­  (< 5ms) ­  (550 Bytes) ­  (< 0.3%)
-
-Server-Side
-APM
-
-APM
-·  · 
-
-APM
-· APM ·  · 
-
-APM
-·  · 
-
-APM
-SPAN, TAPSniffer
-
- 
-
-Sniffer
-
- 
-
-NPM
-
-TCPNPM
-
-APM
-· 
-­ 
-· 
-­  ­  ­ 
-
-APM
-
- 
-
- 
-
- 
-
- BCI
-ByteCode Instrumentation)
-
-
-APM
-· 
-­  ­ 
-· 
-­ 
-
-Solution
-APM
-
-APM
-
-Server
-
- 
-
-API 
-
-
-
- 
-
- 
-SQL
-
-
-
-Server----
-
-Server----
-
-Server----Web
-
-Server----
-
-Server----
-
-Server
-
-SQL
-
-Server
-
-Server----
-
-Server----
-
-Server----
-
-Server
-
-· PHP, Java, .NET 
-
-Environment
-
-
-Server
-
-Database
-
-· MySQL, Oracle, · SQL Server, PostgreSQL
-
-
-· Memcached, MongoDB, Redis 
-
-NoSQL
-
-Framework
-
-·  Spring, Yii
-
-
-
-App
-
- Network
-
-Server
-
-     10015
-
-APM
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-  --
-
-O
-
-O
-
---
-
---
-
---
-
-
-
-
-
- App
-
-O
-
---
-
---
-
-O
-
---
-
---
-
-O
-
---
-
-O
-
-O
-
-O
-
---
-
- 
-
- 
-
---
-
---
-
-O
-
-O
-
---
-
-O
-
-O
-
---
-
---
-
-O
-
-O
-
-O
-
-www.tingyun.com
-
-

@@ -1,257 +1,0 @@
-
-(sery@163.com)
-
-
-   Ping      
-
-
-  
- Ping  
-  
-  
-
-
-
-  
- 
-
-
-     
-
-
-  1 2   1 2 3 4
- n
-
-
-  1 2
- 3
-   1() 2
-
-
-
-3client 
-4 
-5agent
-
-
-  1 2 3 4 5   1 2
-
-
-   NagioszenossGanglia zabbix   nagios
-
-nagios
- Facebook  www.sogou.com  www.163.com  www.kong.net  www.sina.com    www.wikipedia.org  www.hudong.com  Sohu  .......
-
-nagios
- Nagios 
-   /
-
-Nagios
-    15 258 38  logins.sh
-
-
-
- #!/bin/sh  logins=`who |wc -l`  if [ $logins -le $1 ]  then  echo "OK!-login count is $logins"  exit 0  fi
-
- if [ $logins -gt $1 -a $logins -le $2 ]  then  echo "Warnning!-login count is $logins"  exit 1  fi
-
- if [ $logins -gt $2 ]
-
-
-
-then
-
- echo "Critical!-login count is $logins"
-
-
-
-exit 2
-
- fi
-
-
- ./usercon.sh 5 8   12:OK!-login count is 2
-26Warnning!-login count is 6
-39Critical!-login count is 9
-
-
-   Nrpe:
-  
-crond
-
-
- 0  1warning  2Critical  3
-
-
- Web 
-   
-
-Nagios
- 3 1core 2 3web
-
-nagios-core
- Useradd nagios ­s /sbin/nologin  Tar zxvf nagios-3.x.tar.gz  Cd nagios-3.x  ./configure ­prefix=/usr/local/nagios  Make all  Make install make install-config install-
-commandmode   
-
-
- Tar zxvf nagios-plugin-x.tar.gz  Cd nagios-plugin-x  ./configure ­prefix=/usr/local/nagios  Make all  Make install
-
-nrpe
- Useradd nagios ­s /sbin/nologin  Tar zxvf nrpe-x.tar.gz  Cd nrpe.x  ./configure ­prefix=/usr/local/nrpe  Make;make install  nagios-core
-
-nagios
-  
-   cgi.cfg
-
-
-  ""
-
-
-         
-
-
-
-     
-
-
- tcp 
- 
-
-
-   
-/varweb 
-
-
-  
- 1mysql  2web
-
-
-     nagios core
-    linux
-
-
-     
-
-
-  
- nmap 
-  
-
-nagios
-  
-  
-
-
-
- 
-
- 
-
- define service {
-
-
-
-name
-
-commonserv
-
-
-
-check_period
-
-24x7
-
-
-
-max_check_attempts 4
-
-
-
-normal_check_interval 3
-
-
-
-retry_check_interval 2
-
-
-
-notification_interval 10
-
-
-
-notification_period 24x7
-
-
-
-notification_options w,u,c,r
-
-
-
-register
-
-0
-
-
-
-}
-
-
-
- 
-
- define service {
-
-
-
-host_name nagios-server
-
-
-
-service_description check-host-alive
-
-
-
-contact_groups sagroup
-
-
-
-check_command
-
-check-host-alive
-
-
-
-use
-
-commonserv
-
-
-
-}
-
-
- 3000 3000*7=21000
-    
-
-
-   
-
-
-
- 
-
- 
-
- Email: sery@163.com
-
- Qq:447877614
-
- msn:sery@sohu.com
-
- 
-
-
-
-2010/8/5
-
-

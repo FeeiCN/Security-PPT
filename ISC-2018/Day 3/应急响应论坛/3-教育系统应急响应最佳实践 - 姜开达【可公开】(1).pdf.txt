@@ -1,195 +1,0 @@
-
- 
-
-
-
-     
-
-
-
- 1  2 / 3  4  5 
-
-
-25  + 27  + 7 + 2800 + 8000 +
-
-60   
-
- 20  + IPV4 1300  +  3.1  +  1500  +
-
-2018 
-      
-    
-      
-
- 
-      
-  
-  
- 
-
- 
-         
-    
-
-
-
-           
-
-
- /  24    
-1. 2.
-
-
-
-2017   62 
-     
-
-             
-
- 90
-
-
-
-2018 
-
-
-
-     
-
- + 
-
-         
-
-         
-
- / 
-
-
- 
-  
- 
- WEB  
- 
- NDA/  
-
-
-
-CERNET2
-
-CERNET
-
-
-
-
-
-
-
-+  + WAF
-
-100G 10G
-
-
-/ SDN
-TAP  ////
-1N N1 NM
-
-
-Interface IP/Mask Port VLAN Layer3/4 MPLS 
-
-                
-
-
-     //  HTTP/DNS/SSL/FLOW   /IP     
-  VS  
-
-
-
-1 
-· 10 · 1T
- 1 · 
-
-2 
-·  ·  · / · IP
-
-3 
-
-4 
-
-· Web/API/CLI · 
- · (VDC)
-
-
-·  ·  · Agent VM ·  · WAF
-
-
-   
-
-97% 
-
-
-   
-
-
- LDAP  IP User-Agent : /  / 
-
-IPDB
-25/ 100%  2421
- 
-
-
-  2108 
-https://src.edu-info.edu.cn/
-
-
-
-     
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
- 
-
-API  
-
- 
-
-
- 
-
-  
-
-IP/ 
-
-
-API 
-
-
-
-       
-
- 
-
-   ·  · 
-
- 
-
-

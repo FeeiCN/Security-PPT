@@ -1,257 +1,0 @@
-KCon
-8 4.0 BLE
-
-  ThreatBook
- MicrosoftCOMODOQihoo360
-yangjin@threatbook.cn LinkedinJin Yang
-
-PART 01 BLE PART 02  PART 03  PART 04 BLE PART 05 
-
-
-CONTENTS
-
-01 BLE
-
-BLE
-- Bluetooth 4.0  2012 -  Classic Bluetooth -  -  Bluetooth Low Energy
-
-BLE
-
-- BLE VS 
-
-      
-
-BLE 2.4GHz 100m 1-3ms 128-bit AES 1-50% 1Mb/s
-
- 2.4GHz 10m 100ms 64/128-bit 100% 1-3Mb/s
-
-BLE
-- BLE - / -  - 
-
-02 
-
-
-
-BLE APP HOST CONTROLLER
-
-
-
- Controller
- Physical Layer
- Link Layer
- Host Controller Interface
-
- Host
-GATT  Generic Attribute Profile
-GAP  Generic Access Profile
-L2CAP  Logical Link Control and Adaptation Protocol
-Security Manager
-ATT Attribute Protocol
-
-
--  - ISM2.400 - 2.4835 GHz - 400 ­ 39 2MHz -  Hopping
-
-
--  - 3 channels37 38 39 - 37 channels0 ­ 36 - 
-
- 2402MHz 2404MHz ... 2424MHz 2426MHz 2428MHz ... 2478MHz 2480MHz
-
-
-
- 
-  
-   
-
-
-
-0 ... 10
-11 ... 36
-
- 37
-38
-39
-
-
-ADV_CONNECT_REQ Hop Increment = 0x0C Data Channel 12 Data Channel 24 Data Channel 36 Data Channel 11 Data Channel 23 Data Channel 35 Data Channel 10
-
-03
-
-
-
-
--  iPhone LightBlueBLE Finder ...
-
-
--  nRF51822 
-
-
-- 
-
-04 BLE
-
-BLE
--   -   -  - 4BLE
-
-BLE
-- Ubertooth One 2011
-- Ubertooth  Michael Ossmann  2.4GHz  Ubrtooth-One  Ubertooth-Zero  Zero   Zero
-- Ubertooth + Wireshark + Kismet + Crackle
-
-BLE
-- Ubertooth BLE
-- Wireshark + Kismet BLE
-- Crackle BLE  STK/LTK https://github.com/mikeryan/crackle
-
-BLE
-Ubertooth One
-
-BLE
-- HackRF SDR8 bit
-- Michael Ossmann  Jared Boone  SDR
-- GNURadioSDR 10MHz - 6GHz - USB 2.0 - btle_rx btle_tx (https://github.com/JiaoXianjun/BTLE)
-
-BLE
-
-BLE
-- BladeRF SDR12 bit - 300 MHz ­ 3.8 GHz -  - USB 3.0 - btle_rx btle_tx (https://github.com/JiaoXianjun/BTLE)
-
-BLE
-
-BLE
-- nRF51822 CC2540
--  BLE Sniffer
-- BLE - 
-
-BLE
-
-BLE
-
- 
-  
-
-
-Ubertooth 2.4G 
-USB 2.0   1000
-
-HackRF
-10 MHz 6GHz 
-USB 2.0
-SDR
-
-2000
-
-BladeRF
-
-nRF51822
-
-300 MHz 3.8GHz
-
-
-BLE 2.4G 
-
-USB 3.0
-
-USB 2.0
-
-SDR
-
-BLE
-
-
-
-
-
-2800
-
-100
-
-05 
-
-- BLE
-
-BLE
-
--  - 
-
-BLE
-- 4bit2bit1bit 1bit
-
-BLE
-- BLE7
-- ADV_IND - SCAN_REQ - SCAN_RSP - CONNECT_REQ
-
-BLE
-- BLECRC
-- Access Address 0x8E89BED6
-
-BLE/
-- Slave 37>38>39> ADV_IND - Master > SCAN_REQ - Slave > SCAN_RSP - Master > CONNECT_REQ - Master >data> Slave (Hopping 0-36) - Slave >data> Master (Hopping 0-36) - Master >LL_Terminate_Ind or 
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
- ADV_IND 38
- Access Address 0x8e89bed6
- 71:1a:32:a3:90:90
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
- SCAN_REQ
- 71:1a:32:a3:90:90  d0:5f:45:68:ef:bd  12
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
- SCAN_RSP
- 71:1a:32:a3:90:90
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
-
-XXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXX
-
-CONNECT_REQ
-Hopping Interval InitAddress AdvAddress
-
-BLE
--  Data Type: Empty PDU
-CRC
-
-BLE
--  Data Type: L2CAP
-Logical Link Control and Adaptation Protocol 
-
-
-- BLE -  - BLE
-
-
-Phone M<----->S BleCar Phone M<--->S1  M1<--->S BleCar 
-
- - 8
-
-Thank you!
-
-

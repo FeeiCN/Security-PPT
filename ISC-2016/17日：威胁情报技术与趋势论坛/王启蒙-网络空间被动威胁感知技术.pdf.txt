@@ -1,273 +1,0 @@
- · 
-
-
- Kimon 18500851413 kimon@plcscan.org ameng929
-
-
- VS.   VS.   
-
- VS. 
-
- 
-
- VS. 
-· 
-· //IP/ · Whois/Passive DNS/
-· &
-· IoC/TTP · 
-· &
-·  · 
-
- VS. 
-· ""
-· C&C · 
-· VPSVPNTOR
-· 
-
- VS. 
-
-· 
-· Shodan
-
-2016-4-26 Linux
-
-· DNS  · DNSIp  · Host ×
-
-2016-3-27 Linux 2016-3-3 Windows
-
-
- VS. 
-· 
-·  ·  · 
-
- VS. 
-· 
-· SHINE----Project Shodan Intelligence Extraction · X-PlaneTreasure MapNCR
-
- VS. 
-
-· 
-·  · 
-· Stuxnet/DUQU/Havex · Black Energy · PLC Blaster
-· 
-· SCADAPLC ·  · 
-· 
-·  ·  · ""
-
-https://apt.securelist.com
-
- VS. 
-· ""
-· Kill Chain · 
-·  ·  · 
-· 40IPv4 · 
-· PLC Blaster · ShodanCensys
-·  · ""
-
- VS. 
-· 
-
- VS. 
-· 
-
- VS. 
-· 
-
- VS. 
-· 
-
- VS. 
-· 
-·  · 
-· Digitalbond ·  · Conpot
-
- VS. 
-· 
-·  ·  ·  · 
-·  ·  · 
-·  ·  ·  · 
-
- VS. 
-· 
-
- VS. 
-
-· Shodan
-
-Shodan API
-
- VS. 
-· 
- Conpot + Glastopfweb
-
-
-· 
-IP
-
-
-· 
-· PLC · S7-comm
-· Module: 6ES7 151-8AB01-0AB0 · Basic Hardware: 6ES7 151-8AB01-0AB0 · Version: 3.2.3 · System Name: SIMATIC 300(1) · Module Type: AN12CPU · Serial Number: S C-B8TH91812011 · Copyright: Original Siemens Equipment
-
-
-· 
-· S7comm · TCPTCP · ISO_TP · S7 · S7
-
-· 
-
-
-
-
-· 
-· modbus · Redpointdebug
-· 
-
-
-· 
-
-
-· 
-·  · Nmap ScriptRedpoint · Msf module · Git
-·  · Shodan · Censys · Rapid7
-
-
-Shodan
-
-
-Shodan
-
-
-Shodan
-
-
-Shodan
-
-
-Shodan
-
-
-Shodan
-http://plcscan.org/blog/2016/06/ics-security-research-report-2016-05/ 
-
-
-
-Shodan
-
-IP
-
-RDNS
-
-     S7    Modbus     Ethenet/IP 
-
- 102
-
-502
-
-44818
-
-82.221.105.6
-
-census10
-
-169
-
-71.6.167.142
-
-census9
-
-232
-
-71.6.135.131
-
-census7
-
-234
-
-66.240.236.119 census6
-
-233
-
-71.6.158.166
-
-ninja. census
-
-111
-
-82.221.105.7
-
-census11
-
-167
-
-85.25.43.94
-
-rim.census
-
-192
-
-71.6.165.200
-
-census12
-
-236
-
-198.20.99.130
-
-census4
-
-92
-
-66.240.192.138 census8
-
-237
-
-71.6.146.185
-
-Inspire.census
-
-67
-
-66.240.219.146 burger.census
-
-107
-
-198.20.69.98
-
-border.census
-
-215
-
-198.20.70.114
-
-census3
-
-224
-
-188.138.1.218
-
-unknown
-
-93
-
-20130821 20140720 20140508 20140602
-----
-20140206 20150122 20140222 20140516 20140226
----- ----
-20141007 20140512 20150811
-
-20130827 20140526 20140509 20140706
-----
-20140206
-----
-20140227 20140630 20140225
----- ----
-20141104 20140518 20150627
-
-20141025 20140504 20140510 20140430 20160520 20140207 20141016 20140212
-20140226 20160414 20160520 20140604 20140603 20160524
-
-20126SHINE 2013Dork 20141SHINE 20142S7 20142Modbus 20142Ethernet/IP 20153ICS Radar 20156ICS Honeypot Score 20166modbusbrute unitID
-
-Thank You!
-
-

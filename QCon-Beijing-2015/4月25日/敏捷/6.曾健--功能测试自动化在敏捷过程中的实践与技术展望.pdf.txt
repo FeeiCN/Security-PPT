@@ -1,203 +1,0 @@
- 
-@ neil.zeng@hotmail.com
-
-
-
- 
-
-
- 
-
- 
-
-
-  
- - QA 
-
-
-  
-(N) · 
-· Robotframework
-
-N
-
-83 94
-
-03 08
-
-
-
-
-· 
-­ () / () ­ <> ­ <> ­ <>
-·  =  + 
-­  ­  ·  =+  +
-
-
-
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-  `'  `1234'
-
-
-
-
-
- 
- 
-
-
-
-case
-
-
-
-
-
-
-
-
-
- `'
-
- `1234'
-
- 
-
-script
-gotoLogin() username(`') password(`1234')
-execLogin() assertLoginError()
-
-aUpsassegseesrorxnwtteaLocomLrLgdooei(ngg(``i1Einnr2(r(3)o)4r'(')))
-
-apusasegsesrorxnwteaLocmoLrgdoei(gn(``1iEn2r((r3))o4r''())
-
-
-
-Directory Structure
-
-Dev 
-QA
-
-# def dts_tool_name(self, tool_name=None): if tool_name != None: self.sl.input_text('name=projectName', tool_name) else : return self.sl.get_value('name=projectName')
-
-*** Settings *** Library ../Script/webdriver.py
-
-*** Keywords ***
-
-|  | [Arguments] | ${tool_name} |
-
-|
-
-| dts_tool_name | ${tool_name} |
-
-
-
-*** Keywords ***
-
-|  | [Arguments]
-
-| ${tool_name} |
-
-|
-
-|  |
-
-|
-
-|
-
-| . | ${tool_name} |
-
-|
-
-| .
-
-|
-
-|
-
-
-
-Pycharm + Robot Framework Support Plugin
-
-
-
- backlog
-
-Story Bugs
-
-Keyword cases
-
-
-
-
-s
-· RF 
-·  · 
-
-1 - ,
-
-2­
-
-3 - ?
-
-
-· 
-ATaaS ­ Acceptance Test as a Service
-· 
-PaaS ­ Acceptance Testing Platform as a Service
-· 
-
-
-
-JSON
-Keyword
-
-KW Management UI HTML
-RoRbEoStfTrfauml eAwPoIrk
-
-TSV
-Test Cases
-
-Selenium Adapter
-
-Appium Adapter
-
-Calabash Adapter
-
-Customerized Adapter
-
-Resource Manager
-
-Docker & Jenkins
-Selenium Grid
-Appium Remote Control
-Selenium Remote Control
-
-Real device Android Native
-Real device iOS Native
-Web Browser
-
-
-
-Q&A
-
-neil.zeng@hotmail.com
-
-@InfoQ
-
-infoqchina
-
-

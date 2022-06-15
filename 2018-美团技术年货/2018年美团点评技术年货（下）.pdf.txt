@@ -1,2816 +1,0 @@
-
-   200 2800   2200  3600  2017  10 300     7000  WebiOS  Android     ---- ...... 
-
-iv>2017 
-" " 2013  12  200 
- 2014  9 "" 8  
-" " 2015  33   15   1 
-  
- ""
-  58  759 
-   AI 8  
-
-<v
- bug 
- 
-    
- 2018 
-
-
-
-
- MGW  Docker   HULK    Leaf ID     0  1
-
-  DBProxy   SQL  SQLAdvisor  MyFlash MySQL  Sysbench 
-
-1
-1 27 43 59 70 79 95 110 123 132
-150
-150 161 167 178 192
-
-<vii
-
-
-  SRE  Mt-FalconOpen-Falcon 
-
- Android Binder  Android  Code Arbiter
-
-
-
-202
-202 217 229
-244
-244 253 269
-284
-284
-
-
-
-
-
- 30  Eric Evans Domain-Driven Design  DDD""DDD  ""   DDD 
-
-
- CRUD    
-
-
-2>2017 
-    
-   ----        idea   
-
-<3
- ......
- DDD  
- 
-
- Anemic Domain Object 
- J2EE Action/Service/DAO   OO   ER  
-
-   
-  
-
-4>2017 
-  AwardPool  Award  get  set 
-class AwardPool { int awardPoolId; List<Award> awards; public List<Award> getAwards() { return awards; }
-public void setAwards(List<Award> awards) { this.awards = awards;
-} ...... }
-class Award { int awardId; int probability;// 
-...... }
- Service   LotteryService drawLottery() 
-AwardPool awardPool = awardPoolDao.getAwardPool(poolId);//sql   AwardPool  for (Award award : awardPool.getAwards()) {
-//  award.getProbability()  award }
-   Service Award    
-   AwardPool 
-
-<5
- DDD 
-
-        DDD  DDD  
-
-  DDD  
-   MVC   DDD     
-
-6>2017   ----  ----  ---- 
- PHP 
- 
-DDD    
-
- DDD
- DDD  
-
-
-<7
----- 
- -  
-1.  2.  3.  4.  5. 
-
-
- DDD  
-
-  DDD  
-
-  
-  
-
-8>2017 
- 
-
- Eric Evans  Vaughn Vernon 
- 
-    
-   C  M  
-
-<9  M  C   C  
-1.  2.  3.  4.  5. 
-
- 
-    
-
-10>2017 
- /  
-  
- C  
- 
- DDD  
-
-
-·  
-  
-
-1.  
-2.  
-
-
-<11
-1.  
-2.  
-  Partnership  Shared Kernel   - Customer-Supplier Development
-  Conformist  Anticorruption Layer
-  Open Host Service
-  Published Language OHS 
-  Big Ball of Mud  SeparateWay
- 
-
-12>2017 
- ""PartnerShip PS
-                             Anticorruption LayerACL Open Host Service Published Language
-  Data Coupling
-----
-  DDD 
-
-<13
- Entity  
-
- Value Object  {"name":"  ""css":"#000000"}  
- 
-    
- Aggregate(  Aggregate Root
- 
- 
-
-14>2017 
-   
-  
-    
-  List<  > 1:N   id  id 
-  
- 
- 
-
-
-<15
- (DrawLottery)   IDLotteryIdAwardPool UserGroupAward
-SendResult UserLotteryLog
-    
-DDD 
- DDD
-
-Module DDD  
-
-16>2017 
- {com.  .  .   .  .*}
-import com.company.team.bussiness.lottery.*;//  import com.company.team.bussiness.riskcontrol.*;//  import com.company.team.bussiness.counter.*;//  import com.company.team.bussiness.condition.*;//  import com.company.team.bussiness.stock.*;// 
- 1
- 
-import com.company.team.bussiness.lottery.domain.valobj.*;//  -  import com.company.team.bussiness.lottery.domain.entity.*;//  -  import com.company.team.bussiness.lottery.domain.aggregate.*;//   import com.company.team.bussiness.lottery.service.*;//  import com.company.team.bussiness.lottery.repo.*;//  import com.company.team.bussiness.lottery.facade.*;// 
- 2
-
-
- DrawLotteryAwardPool 
- id  DrawLotteryContext  chooseAwardPool 
-chooseAwardPool DrawLotteryContext  DrawLottery   AwardPool
-
-<17
-package com.company.team.bussiness.lottery.domain.aggregate; import ...;
-public class DrawLottery { private int lotteryId; //  id private List<AwardPool> awardPools; // 
-//getter & setter public void setLotteryId(int lotteryId) {
-if(id<=0){ throw new IllegalArgumentException("  id");
-} this.lotteryId = lotteryId; }
-//  context  public AwardPool chooseAwardPool(DrawLotteryContext context) {
-if(context.getMtCityInfo()!=null) { return chooseAwardPoolByCityInfo(awardPools, context.getMtCityInfo());
-} else { return chooseAwardPoolByScore(awardPools, context.getGameScore());
-} }
-//  private AwardPool chooseAwardPoolByCityInfo(List<AwardPool> awardPools, MtCifyInfo cityInfo) {
-for(AwardPool awardPool: awardPools) { if(awardPool.matchedCity(cityInfo.getCityId())) { return awardPool; }
-} return null; }
-//  private AwardPool chooseAwardPoolByScore(List<AwardPool> awardPools, int gameScore) {...} }
- 3DrawLottery
-
- AwardPool 
-package com.company.team.bussiness.lottery.domain.valobj; import ...;
-
-18>2017 
-public class AwardPool { private String cityIds;//  private String scores;//  private int userGroupType;//  private List<Awrad> awards;// 
-//  public boolean matchedCity(int cityId) {...}
-//  public boolean matchedScore(int score) {...}
-//  public Award randomGetAward() {
-int sumOfProbablity = 0; for(Award award: awards) {
-sumOfProbability += award.getAwardProbablity(); } int randomNumber = ThreadLocalRandom.current().nextInt(sumOfProbablity); range = 0; for(Award award: awards) {
-range += award.getProbablity(); if(randomNumber<range) {
-return award; } } return null; } }
- 4AwardPool
- gettersetter 
- **Service
-
-
-
-Repository
-
-
-<19
-//  import com.company.team.bussiness.lottery.repo.dao.AwardPoolDao;//   -  import com.company.team.bussiness.lottery.repo.dao.AwardDao;//   -  import com.company.team.bussiness.lottery.repo.dao.po.AwardPO;//   -  import com.company.team.bussiness.lottery.repo.dao.po.AwardPoolPO;//   - 
-import com.company.team.bussiness.lottery.repo.cache.DrawLotteryCacheAccessObj; //  -  import com.company.team.bussiness.lottery.repo.repository.DrawLotteryRepository; //  - 
- 5Repository 
- Repository 
-
-
- Cache Aside
-Pattern
-
-
-package com.company.team.bussiness.lottery.repo; import ...;
-@Repository public class DrawLotteryRepository {
-@Autowired private AwardDao awardDao; @Autowired private AwardPoolDao awardPoolDao; @AutoWired private DrawLotteryCacheAccessObj drawLotteryCacheAccessObj;
-public DrawLottery getDrawLotteryById(int lotteryId) { DrawLottery drawLottery = drawLotteryCacheAccessObj.get(lotteryId); if(drawLottery!=null){ return drawLottery; }
-
-20>2017 
-drawLottery = getDrawLotteyFromDB(lotteryId); drawLotteryCacheAccessObj.add(lotteryId, drawLottery); return drawLottery; }
-private DrawLottery getDrawLotteryFromDB(int lotteryId) {...} }
- 6DrawLotteryRepository
-
- 
-
-   
-  
-  (UserCityInfoFacade)   (LotteryContext)   (MtCityInfo) 
-package com.company.team.bussiness.lottery.facade; import ...;
-@Component public class UserCityInfoFacade {
-@Autowired private LbsService lbsService;//  RPC 
-public MtCityInfo getMtCityInfo(LotteryContext context) { LbsReq lbsReq = new LbsReq(); lbsReq.setLat(context.getLat()); lbsReq.setLng(context.getLng());
-
-<21
-LbsResponse resp = lbsService.getLbsCityInfo(lbsReq); return buildMtCifyInfo(resp); }
-private MtCityInfo buildMtCityInfo(LbsResponse resp) {...} }
- 7UserCityInfoFacade
-
-
-
-
-
-issueLottery
-
-package com.company.team.bussiness.lottery.service.impl import ...;
-@Service public class LotteryServiceImpl implements LotteryService {
-@Autowired private DrawLotteryRepository drawLotteryRepo; @Autowired private UserCityInfoFacade UserCityInfoFacade; @Autowired private AwardSendService awardSendService; @Autowired private AwardCounterFacade awardCounterFacade;
-@Override public IssueResponse issueLottery(LotteryContext lotteryContext) {
-DrawLottery drawLottery = drawLotteryRepo.getDrawLotteryById (lotteryContext.getLotteryId());// 
-awardCounterFacade.incrTryCount(lotteryContext);//  AwardPool awardPool = lotteryConfig.chooseAwardPool(bulidDrawLotteryContext (drawLottery, lotteryContext));//  Award award = awardPool.randomChooseAward();//  return buildIssueResponse(awardSendService.sendAward(award, lotteryContext));//  }
-
-22>2017 
-private IssueResponse buildIssueResponse(AwardSendResponse awardSendResponse) {...} }
- 8LotteryService
-
- DTO DO
-
-<23
-PODTO  DO DO  PO 
- 
-
- HTTP  - 
- 
- 
-
-  Vernon      Vernon         
-
-24>2017 
- 
-  CQRS 
-
-<25
-
-
-
-package ...;
-import ...;
-@Service public class LotteryApplicationService {
-@Autowired private LotteryRiskService riskService; @Autowired private LotteryConditionService conditionService; @Autowired private LotteryService lotteryService;
-//  public Response<PrizeInfo, ErrorData> participateLottery(LotteryContext lotteryContext) {
-//  validateLoginInfo(lotteryContext); //  RiskAccessToken riskToken = riskService.accquire(buildRiskReq (lotteryContext)); ... //  LotteryConditionResult conditionResult = conditionService. checkLotteryCondition(otteryContext.getLotteryId(),lotteryContext. getUserId()); ... //  IssueResponse issueResponse = lotteryService.issurLottery (lotteryContext); if(issueResponse!=null && issueResponse.getCode()==IssueResponse. OK) {
-return buildSuccessResponse(issueResponse.getPrizeInfo()); } else {
-return buildErrorResponse(ResponseCode.ISSUE_LOTTERY_FAIL, ResponseMsg.ISSUE_LOTTERY_FAIL)
-} }
-private void validateLoginInfo(LotteryContext lotteryContext){...} private Response<PrizeInfo, ErrorData> buildErrorResponse (int code, String msg){...}
-
-26>2017 
-private Response<PrizeInfo, ErrorData> buildSuccessResponse (PrizeInfo prizeInfo){...} }
- 9LotteryApplicationService
-
- DDD  
- SmartUI   DDD  
- DDD   DDD 
- DDD  
- 
-
-1. Eric Evans.  .    . 2016. 2. Vaughn Vernon.  .  . 2014.
-
-   wenbin.lu@dianping.com
-
-<27
-MGW
-
-
-  MGW   LVS Gbps   MGW 
-
-   
-
-28>2017   DNS  IP 
-  DNS  DNS 
-   
-
-<29  OSI     OSI   TCP/IP      DR NAT TUNNEL FULLNAT 
-DR  MAC     VIP
-NAT  IP   IP  IP VIP  IP   IP  IP
-
-30>2017   IP  VIP   NAT  
-TUNNEL  DR  TUNNEL   TUNNEL 
-FULLNAT     NAT               SNAT  SNAT   SNAT IP 
- FULLNAT  localip   SNAT  IP  localip    IP  IP localip  localip   IP  localip IP  localip localip 
-
-<31
- IP   FULLNAT  NAT  SNAT SNAT   NAT  FULLNAT  MGW 
-
- LVS  
-
-1.  
-2.  
-3.  bug   
-LVS 
- LVS+Nginx LVS  Nginx  LVS   MGW  LVS
-MGW 
- LVS  MGW 
-
-32>2017 
-
- LVS  600   6  100   cache miss
- LVS  netfilter  netfilter   LVS   LVS  
- kernel bypass DPDK  PMD DPDK   numamemory channelDDIO   DPDK  MGW 
-
-<33
-
-  MGW 
- RSSReceive Side ScalingRSS   CPU   CPU  MGW  FULLNAT FULLNAT   RSS   CPU  session  
- SNAT   lport0  RSS(cip0, cport0, vip0, vport0) = RSS(dip0, dport0, lip0, lport0)  CPU  localip SNAT 
-
-34>2017  IP  CPU  localip lip  CPU  IP 
- flow director   session 
-flow director   RSS  CPU  localip cpu0  lip0 cpu1  lip1 cpu2  lip2 cpu3   lip3 cip0, cport0, vip0, vport0 RSS   0  cpu0 cpu0  fullnat  cpu0   localip lip0lip0, lport0, dip0, dport0 dip0, dport0, lip0,
-lport0 flow director   IP  lip0  0  0  cpu0  CPU   session 
-
-
-
-<35
-
-  CPU   CPU  CPU   CPU  CPU   CPU  Linux kernelSSH   CPU 
-MGW 
- MGW MGW  MGW  
-
-36>2017 
-
-MGW  OSPF+ECMP  ECMP   OSPF   ecmp  failover
- ecmp   MGW   session   
-
-<37  hash    session  
- session   session   session  
- 
-
-
-38>2017  
-   100ms   0 
-   
-   
-MGW  0  0   500ms   500ms
-
- 
-
-<39
- session   session  MGW  MGW   MGW   session  session  
-  request  session   session  session   session   finish finish  session   finish  session  finish         session 
-
-40>2017 
-
-MGW    
-  
-RS  
-
-<41  RS MGW   RS  RS  RS   MGW MGW   RS  MGW  RS   RS     IP Hash   IP Hash   IP Hash    IP Hash  
- hash  
-1.   Hash 
-
-42>2017 
-2.  MGW   MGW   MGW   MGW   IP Hash 
-Google Maglev  Hash   paper 
-
-MGW  overlay   Web  MGW   MGW  
-
-1. DPDK. 2. LVS. 3. Eisenbud D E, Yi C, Contavalli C, et al. Maglev: A Fast and Reliable Software
-Network Load Balancer.
-
- Docker 
-
-
-<43
-
-
- Docker ""  2015  Docker    45  Web 
-
- O2O        
-   " " 
-IT 
-
-44>2017 
-   IT  
- 2015  Docker  Docker   KubernetesDocker Swarm   Docker  
-
-  Web  master  CPU SSH    ""
- Docker  
- SLA   99.99%  3 1.  2.  3.   
-
-<45
-
-   
-
-  
- 1
-PaaS IaaS  
- PaaS  HTTP API
-
-46>2017 
- HTTP API  Web  IaaS  API 
- PaaS  HTTP API  Docker 
- HostServerDockerVolume OVS  Cgroup 
- API HostServer
-API
-API PaaS  API   API   set1.   2.  API   API 
-  Host-SRV   API    3  Docker 
-Host-SRV
-Host-SRV  
-Host-SRV   Docker Load  Docker 
-Host-SRV  Unix Socker  Docker Daemon
-
-<47
- Logsexec   Rootfs  Volume 
- Host-SRV  Docker Daemon  Unix Socket  Dock-
-er-Containerd  Host-SRV 
-
-
- Docker Registry:  Docker Hub  Mirror  
- Glance:  Openstack  Glance  Docker   Docker 
-  Glance Glance   UUID Glance API  UUID Docker  ID Parent ID  Glance Glance   Parent ID  Glance   Docker  Glance  Docker 
-  Docker  
- Glance  Glance    Glance  Docker ""
- API Docker    Glance UUID  Docker Image ID   Docker 
-
-48>2017   Glance "" Glance
- 200 Glance   16,000  Docker  
-
-  Docker  NoneBridgeContainer  Host  2015  Docker  1.9  Libnetwork   Docker 
- Docker   Docker  
- 2
-
-<49
- OVS-DPDK   CPU  OVS-DPDK  OVS-DPDK  CPU  
- OVS  Controller OVS  
-MosBridge
- MosBridge  None  None  
-1. --net=None 2.  eth-pair 3.  eth-pair  OVS Bridge  4.   nsenter   Namespace    eth-pair          
-Namespace  IP 
- None 
-    Docker    Host-SRV  Host-SRV 
- VPC  Host-SRV 
- Docker LibnetworkLibnetwork   Docker  Libnetwork   Docker   IP Libnetwork MosBridge ­
-
-50>2017   Docker  --net=mosbridge IP OVS Bridge  Docker MosBridge  MosBridge  MosBridge  MosBridge  Host-SRV  Docker  
- Docker 
- Docker  Docker   Volume mount bind  "" Volume   Volume 
- 3LVM-Volume 
- LVM Volume  LVM VG  Volume  VG  LV   Volume  LVM  LVM 
-
-<51  Volume   LVM  Volume  Volume   LVM  Volume  LVM  Linux  Devicemapper  Devicemapper  Linux   2.6  IO 
-
-   ZabbixFalcon  CAT   Agent
-1.  2. 
-
- 4
-
-52>2017 
- Libcontainer  Mos-DockerAgent  procCGroup   driver  GO   Libcontainer Docker Daemon Daemon 
- 
-
-  
-  Agent Agent   Docker  
-1.   Docker   Docker 
-2. Docker     
-Kubernetes  Pod Pod  Pod 
-
-<53 VolumeIPC  Pod  
- Pod   set set 
- 5Set 
-set  /  set  BusyBox BusyBox  set  Volume  IPC 
-set Volume  IPCset  JSON  (  6  ) set  Container ListContainer  
- Index  ImageDocker  Glance  name  ID  Options CPU  MEM 
- set  CPU  4  set  CPU:80 3.2 
-
-54>2017 
- 6set  json
- set  set  set set
- set   Busybox  Privileged  sysctl 
-   SSH  Busybox   Volume  set  Volume Busybox
- Volume  set  set   set   API set  
-
-<55
-Docker MosDocker
-Docker  2  4  Docker   LTS  Bug  Bug  1.11  Bug 1.12  1.12  Bug 1.13  Docker   Bug BugFix 
-   
- Docker 1.11   MosDocker 1.11 Docker  
-Docker Daemon    DaemonContainerd  runC  3  Binary   Daemon 
-  OCI  rootfs  spec    Libnetwork    Docker  ID 
- Hash Docker 
-MosDocker 
-1. MosBridge ,  IP VPC 
-
-56>2017 
-2. Cgroup  Docker Update  CGroup   CGroup 
-3.  Docker Save Docker 
- MosDocker  Docker  
-
-  Docker  
-  Docker  
-  IT Docker    32  8  8G   3  +  32  QPS  85% 44-56%(  78  )
- Docker   CPU  Docker  CPU Linux  CGroup   CGroup 
-
-<57
- 7 QPS  8
-
-58>2017 
-
- Docker    Docker  IT 
- Docker  Docker Docker  IO   Buffered IO  Docker Daemon   OOM  OOM_kill_disabled   Docker   Docker  Docker  
-
-<59
- HULK 
-
-
- O2O   
-  JDK   
-    
- 1-2 
- Docker  
-Docker   
-HULK 
- 2015  ----HULK  Docker   IT 
-
-60>2017  HULK ""    HULK  HULK   
-HULK 
- HULK  
-
-<61 1.  2. 
- 3.  IaaS   HULK  
-HULK 
-
- HULK  
-
-   30%~70% 10% 
-  
-
-62>2017 
- /      
-
- CAP 
- CAP   Consistency  Availability   Partition Tolerance  
- " "
-   
- Mesos
-Mesos  Framework   Mesos  Kubernetes Mesos   Mesos  Framework  Offer  Framework
-
-<63
- Framework Offer  Mesos     FrameworkMesos                     Offer  Framework Framework 
- Mesos   Mesos  Framework  Framework  
-Omega Omega  Mesos  Omega MVCC  Omega  Omega   Omega 
-1.  2. Namespace
- 3. 
-Borg  Kubernetes Borg  Omega   Kubernetes  plugin   Kubernetes 
-HULK 
-  CAP AP  C
-
-64>2017    CA  P
- 
-HULK 
-HULK 
-HULK  
-1.  HULK  ID  2. HULK  ID 
-
-
-<65 3. 
- Omega  Actor 
-
-HULK  +  ""
-HULK 
- Host pool   /   cgroups 
- FilterPredicates 
- RankPriorities  rank  rank 
-  
-
-66>2017 
-  
-HULK  IaaS   CPUI/O  MemoryDisk 
-  +  IaaS   HULK  
-1.  Load  2. 
-     HULK    /  Redis  Redis  25% 
-   /   Borg  prod  non-prod  
-
-<67 Borg  non-prod 
- Google  C/C++  Java   OOM
- HULK 
-
- HULK HULK  HULK   
-  HULK                       CPULoad MemoryIO     rank   n  Actor 
-
-68>2017  Actor  n  
-  Actor  mailbox   Actor 
-
-  n 
- n  n  1   n  1 n 
-
-<69
-  n  n  n 
-
-HULK  Omega   Omega  MVCC  HULK  Actor HULK  n  
-
- HULK  IaaS    
- Kubernetes  Kubernetes  
-
-2015  
-
-70>2017 
-
-
-
-   "" 
-    6 400 
-  
-
- ""    
-
-  
-
-  
-
-<71
-   
-
-
-
-
-  "" 
-""  
-""  
-     
-  100 iPhone, AndroidH5PC  
- 
-
-72>2017 
-    ----
-  
-   ""        "" 
-  
-   
-
-<73
-  
-  
-         
-  
-  ""     " "
-
- "" ""  ---- ----
-
-74>2017 
- ""      
-  "" 
-  
-     
-      
-
-
-<75
-  
- """ "
- 
- 
- """ "   
-   
-----
- ---- " """
- 
-
-
-
-76>2017 
-   ---- 
-
-  
-  
-   
-
-  ""  
-   
-  
-  
- 
-
-<77
-
-  
-   
-   
-   
-
-
-
-78>2017 
-
-  
-  
-  ""----
-                             ·" " 
-         
-
-
-1. Samet O. Introduction to Online Payments Risk Management. O'Reilly. 2013. 2.  . ArchSummit.  . 2014.
-
-
-
-
-<79
-
-
-  MTTRSLA  2016   C   
-
-"""" 45%
- case
-
-80>2017 
-2016  3  10 Tair  ID   ID  ID   
-  
-
-""  
-
-   
- 
- switch "Faultdrill" 
-
-""
-
-
-
-<81
- 11 618   6 
-
-     
-
-       
- /   /   N  
- 
- Thrift 
- JMeter  HTTP   Thrift 
- TCPCopy ""  loading_test 
-
-82>2017 
-method  
- :) AppKey AppKey   AppKey  xx.xx.xx.order.search              
-
-  Netflix  SimianAmy MonkeyKing 
-casekiller  SimianAmy  casekiller           Linux   "tc"
-
-<83
-"iptables" root   root  
- root  Hystrix   Redis 
- :) """"  AppKey  "" root   method 
-
-
-1.  2.  3.  /DB/Cache/MQ 
-
-
-84>2017 
-
-        DubboCopy           SDK     TCPCopy 
-   SDK  @Copy simplingRate 100%
-
-<85
-@Copy(attribute = CopyMethodAttribute.READ_METHOD, simplingRate = 1.0f) public Result toCopiedMethod() { }
-  copy-server  copy-server interfacemethodserverAppKey  AppKey    Thrift  IDL  IDL   ThriftCopy  :)  RPC  HTTP  RPC   Thrift ""
-total length  2B  header length+   +  +  4B header length  
-header  TraceInfo  RequestInfo  clientAppKey interfaceNamemethodName 
-
-86>2017  client 
- 1.  copyServer  IP list
- IP  2.  3.  @Copy  AOP 
-RPC  1.  2.    copyServer       JoinPoint   method  args    method     
-Thrift  send_xx  TSocket 
-
-<87 Client    Client Thrift                      clientAppKey  request-
-MethodName ""  "${rawMethodName}_copy"  ""   attribute       / 
-server 
- 1. fromAppKeytargetAppKey 2.  targetAppKeys  IP list IP
- 3. 
-
-88>2017 
-
- 1.  "      "     fromAppKeyinterfaceName
-methodName  2. 
- interfacemethodserverAppKey  AppKey     n n  ByteBuf
-
-
-AppKey  
-
- Thrift RPC mybatis mapper  method Redis/Tair  method Kafka  ES
-
-  xxx ms  Exception  xxx ms  Exception  xxx ms  exception  /   xxx ms  exception
-
-<89
-
-
-
-  Linux   /IO/Load  HystrixCommand  AOP 
-
-
-  root  
- Hystrix 
-
-  classloader  /Spring LTW/javaagent
-
- javaagent  
-
-90>2017 
-client  
-        JVM   -javaagent:WEB-INF/lib/hotel-switchfaultdrill-agent-1.0.2.jar
-1.   client   RedisDefaultClientMapperRegistryDefaultConsumerProcessorDefaultProducerProcessorMTThriftMethodInterceptorThriftClientProxy 
-2.  script"java.lang.Thread.sleep(2000L);" "throw new org.apache.thrift.TException("rpc error")"  script 
-3.  script  AppKey  faultType md  key 4.  script  method
- invoke script  insertBefore   value 5.  key  value  Map 6.  RedisDefaultClient method  map  object  invoke   1. map  object 2.  object  invoke "java.lang.Thread.sleep(2000L);" "throw new org.apache.thrift.TException("rpc error");"
-
-<91
-server 
-server  
-
-
-
-
- hotel-swtich-api
-
-sourceAppKey targetAppKey
-
- 
-
-com.sankuai.hotel. com.sankuai.hotel.sw.api.
-
-5
-
-1.0
-
-sw.api.beta03
-
-beta04
-
- beta03  distributeGoodsService.queryPrepayList 5000 
-
- beta04  25000 
-
- CAT  Receive Dispatch 
-
-92>2017  Redis MTThrift   filter   1s
-
-<93   Thrift        com.meituan.hotel.goods.service. IGoodsService.queryGoodsStrategyModel 3s 6s
-
-  
-
-""  
-""  response  request  response  daily build 
-
-94>2017 
- 
-
-1.  . 2.  TCPCopy  Dubbo  -DubboCopy. 3.  0  1  . 4. javassit.
-
-2013   2015  2015  2014 
-
-<95
-Leaf ID 
-
-
-   ID  ID   ID   ID  ID 
-1.  ID  2.      MySQL InnoDB               
-RDBMS  B-tree   3.  ID  IDIM   4.  ID   URL   ID 
- 123 3  4  
- ID  ID   ID  
- ID 
-
-96>2017 
-1.  TP999  2.  5  9 3.  QPS
-
-UUID
-UUID(Universally Unique Identifier)  32  16            8-4-4-4-12  36     550e8400-e29b41d4-a716-446655440000 5  UUID IETF  UUID  A Universally Unique IDentifier (UUID) URN Namespace
-
- 
-
- UUID 16  128  36  
-  MAC  UUID  MAC  
- ID                      DB       UUID 
- MySQL  [4]36  UUID 
-All indexes other than the clustered index are known as secondary indexes. In InnoDB, each record in a secondary index contains the primary key columns for the row, as well as the columns specified for the
-
-<97
-secondary index. InnoDB uses this primary key value to search for the row in the clustered index. If the primary key is long, the secondary indexes use more space, so it is advantageous to have a short primary key.   MySQL  InnoDB UUID  
- snowflake 
-UUID   ID  64-bit   snowflake  64-bit 
-41-bit       1L<<41/(1000L*3600*24*365)=69     10-bit  1024  IDC  10-bit  5-bit  IDC 5-bit  32  IDC IDC  32 12  2^12  ID snowflake  QPS  409.6w/s  IDC  ID 
-    ID    ID 
-
-
-98>2017 
-  bit 
-  
-
- Mongdb objectID MongoDB  ObjectID  snowflake " +  +pid+inc" 12  4+3+2+3  24  
-
- MySQL  auto_increment_increment  auto_ increment_offset  ID  SQL  MySQL  ID 
-begin; REPLACE INTO Tickets64 (stub) VALUES ('a'); SELECT LAST_INSERT_ID(); commit;
-
-<99
-
-   DBA   ID  ID 
-   DB DB 
-   ID  MySQL 
- MySQL                                       step  2TicketServer1      11357911... TicketServer2  2246810... Flickr  2010  Ticket Servers: Distributed Unique Primary Keys on the Cheap                          TicketServer1  1 TicketServer2  2   2
-TicketServer1: auto-increment-increment = 2 auto-increment-offset = 1 TicketServer2: auto-increment-increment = 2 auto-increment-offset = 2
- N  N 0,1,2...N-1 
-
-100>2017 
-  
- 1,2,3,4,5 1   14 14 2 14  ID   7 2   100    ID     ID  
-Leaf 
-Leaf 
-
-<101
-
-There are no two identical leaves in the world "  "
-
- Leaf                          Leaf-segment  Leaf-snowflake 
-Leaf-segment 
- Leaf-segment 
-        ID                      proxy server  segment(step  )  
-  biz_tag  biz-tag  ID    biz_tag 
-
-
-+-------------+--------------+------+-----+-------------------+-----------------------------+
-
-| Field
-
-| Type
-
-| Null | Key | Default
-
-| Extra
-
-|
-
-+-------------+--------------+------+-----+-------------------+-----------------------------+
-
-| biz_tag | varchar(128) | NO | PRI |
-
-|
-
-|
-
-| max_id | bigint(20) | NO | | 1
-
-|
-
-|
-
-| step
-
-| int(11) | NO | | NULL
-
-|
-
-|
-
-| desc
-
-| varchar(256) | YES | | NULL
-
-|
-
-|
-
-| update_time | timestamp | NO | | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
-
-+-------------+--------------+------+-----+-------------------+-----------------------------+
-
-biz_tag max_id  biz_tag   ID step  ID   step  1000 1000   1  1/step 
-
-102>2017 
-test_tag  Leaf  1~1000   step=1000   3001~4000 biz_tag  max_id  3000  4000 SQL 
-Begin UPDATE table SET max_id=max_id+step WHERE biz_tag=xxx SELECT tag, max_id, step FROM table WHERE biz_tag=xxx Commit
-   Leaf   ID  8byte  64   Leaf  DB  Leaf 
-
-
-<103
-  max_id  ID 
-  ID   TP999  hang  I/O 
-tg999   DB 
- buffer 
-Leaf-segment  Leaf  ID  DB  DB  DB  DB   DB  DB    DB  DB    TP999 
-
-104>2017 
- buffer Leaf  segment  10%   segment  
-  biz-tag  segment   QPS  600 10  DB Leaf  10-20 
-  
-Leaf 
-"DB " Master  Slave  [5]  Atlas   (  DBProxy)    100% " Paxos "  MySQL  MySQL 5.7  GA  MySQL Group Replication
-
-<105  Leaf  IDC "MTthrift RPC"  Leaf  IDC  Leaf   Leaf  OCTO  
-Leaf-snowflake 
-Leaf-segment  ID ID   ID  12  id   Leaf-snowflake 
-Leaf-snowflake       snowflake    bit      "1+41+10+12"      ID    workerID                        Leaf                   Zookeeper             snowflake     wokerID Leaf-snowflake 
-1.   Leaf-snowflake     Zookeeper  leaf_forever     
-2.  workerIDzk  int  ID  
-3.   workerID 
-
-106>2017 
- ZooKeeper
- ZK  workerID   ZooKeeper   SLA
-
-  ID 
-
-<107
-                          ZooKeeper leaf_forever 
-1.  leaf_forever/${self}   leaf_forever/${self}  
-
-108>2017 
-
-2.  leaf_forever/${self}   Leaf   leaf_temporary  (   Leaf-snowflake  )  IPPort RPC   sum(time)/nodeSize
-3.  abs(  -sum(time)/nodeSize ) <   leaf_temporary/${self} 
-4.  5.  (3s)  leaf_forever/${self}
-
- NTP   NTP   ERROR_CODE 
-
-//  if (timestamp < lastTimestamp) {
-
-} //  ID
-
-long offset = lastTimestamp - timestamp; if (offset <= 5) {
-try { //  5ms wait(offset << 1);//wait timestamp = timeGen(); if (timestamp < lastTimestamp) { //  throwClockBackwardsEx(timestamp); }
-} catch (InterruptedException e) { throw e;
-} } else {
-//throw throwClockBackwardsEx(timestamp); }
-
-<109
-        2017                    Leaf-snowflake 
-Leaf 
-Leaf   Leaf  4C8G  QPS  5w/ sTP999 1ms  SLA  
-
- Mtrace   ID  Leaf 2016  7   zhangjinlu#meituan.com
-
-1.  .  MySQL[M].  , 2010:162-171. 2. UUID. 3. snowflake. 4. MySQL: Clustered and Secondary Indexes. 5.  Semisynchronous Replication.
-
-110>2017 
-
-
-     
-
-
-
-
-
-<111
-
- 2014.06~2015.09 
-(1)  (2) 
- (3)  (4) 
-
-
-112>2017 
-(5)  
-(6)  (7) 
- 
-
-
-  
-(1)  (2) 
- (3) 
- (4) 
-
- 
-(1)  95% 
-(2)   
-
-
-
-<113
-
-      App    (1)  (2) 
- (3) 
-
-114>2017  
- 2015.10~2016.10 
-(1)  
-(2)  (3) 
- (4) 
-
-
-<115
-(5)  (6) 
- (7) 
-
-
-(1)  
-(2)  (3) 
-
-
-
-(1)  (2) 
- 
- 
-   
-
-116>2017 
-   
-(1) 
-
-(2) 
-
-<117
-
-118>2017  (3) 
-
-  
- 
-"" "" "" " API """"" 
-(1) "" """"  ""---- "" "" "" ""
-
-<119
-(2) 
- (1)     ----Java  PHP ----   RPC  (2)        ""    (3)   ----""  
-
-120>2017  ----
- a.   b. 
-
- 2016.11  
-
-<121
-(1)  
-(2)  
-(3)  
-(4)  2  
-(5)  
-(6)  
- 
-
-(1)  
-(2)   
-(3)  (4) 
-
-
-
-122>2017 
-
-   
-
- 20min 60min 180min
-
- 1min 43min 180min
-
- 1min 2min 20min
-
-  
-
-
-   
-
-  
-
- 
-
-(1)  95%  99%  (2)  (3)  (4) 
-
-
-<123
-
-
-
-   
-       Debug  
-
- 
-  QPS  8000 1   IO  CPU 
-
-
-124>2017 
- Log4j   Buffer  
-      
-  INFO     
-
-1.   Log4jLog4j2  Logback    RD  
-2.     
-
-<125
-
-
-1.    JAR  XML  
-2.       
-3.     
-
-126>2017 
- 
- 
- SLF4J  SLF4J  Log4jLogback  Log4j2  (slf4j-api-1.7.7)
-private final static void bind() { try { //  classpath  StaticLoggerBinder  Set<URL> staticLoggerBinderPathSet =
-findPossibleStaticLoggerBinderPathSet(); reportMultipleBindingAmbiguity(staticLoggerBinderPathSet); //  slf4j  org.slf4j.impl.StaticLoggerBinder 
- LoggerFactoryBinder  // the next line does the binding StaticLoggerBinder.getSingleton(); INITIALIZATION_STATE = SUCCESSFUL_INITIALIZATION; reportActualBinding(staticLoggerBinderPathSet); fixSubstitutedLoggers(); ...
-}
-
-<127
-findPossibleStaticLoggerBinderPathSet         classpath 
-   org.slf4j.impl.StaticLoggerBinder     slf4j        
-StaticLoggerBinder  LoggerFactoryBinder 
-
- ChangeLogLevelProcessUnit 
-1.  Logger 
- Map 
-String type = StaticLoggerBinder.getSingleton(). getLoggerFactoryClassStr(); if (LogConstant.LOG4J_LOGGER_FACTORY.equals(type)) { logFrameworkType = LogFrameworkType.LOG4J; Enumeration enumeration = org.apache.log4j.LogManager. getCurrentLoggers(); while (enumeration.hasMoreElements()) {
-org.apache.log4j.Logger logger = (org.apache.log4j.Logger) enumeration.nextElement();
-if (logger.getLevel() != null) { loggerMap.put(logger.getName(), logger);
-} } org.apache.log4j.Logger rootLogger = org.apache.log4j.LogManager. getRootLogger(); loggerMap.put(rootLogger.getName(), rootLogger); } else if (LogConstant.LOGBACK_LOGGER_FACTORY.equals(type)) { logFrameworkType = LogFrameworkType.LOGBACK; ch.qos.logback.classic.LoggerContext loggerContext = (ch.qos.logback. classic.LoggerContext) LoggerFactory.getILoggerFactory(); for (ch.qos.logback.classic.Logger logger : loggerContext. getLoggerList()) {
-if (logger.getLevel() != null) { loggerMap.put(logger.getName(), logger);
-} } ch.qos.logback.classic.Logger rootLogger = (ch.qos.logback.classic. Logger) LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME); loggerMap.put(rootLogger.getName(), rootLogger); } else if (LogConstant.LOG4J2_LOGGER_FACTORY.equals(type)) { logFrameworkType = LogFrameworkType.LOG4J2; org.apache.logging.log4j.core.LoggerContext loggerContext = (org.apache. logging.log4j.core.LoggerContext) org.apache.logging.log4j.LogManager. getContext(false);
-
-128>2017 
-Map<String, org.apache.logging.log4j.core.config.LoggerConfig> map = loggerContext.getConfiguration().getLoggers();
-for (org.apache.logging.log4j.core.config.LoggerConfig loggerConfig : map.values()) {
-String key = loggerConfig.getName(); if (StringUtils.isBlank(key)) {
-key ="root"; } loggerMap.put(key, loggerConfig); } } else { logFrameworkType = LogFrameworkType.UNKNOWN; LOG.error("Log  : type={}", type); }
-2.  Logger  Map 
-private String getLoggerList() { JSONObject result = new JSONObject(); result.put("logFramework", logFrameworkType); JSONArray loggerList = new JSONArray(); for (ConcurrentMap.Entry<String, Object> entry : loggerMap.entrySet()) { JSONObject loggerJSON = new JSONObject(); loggerJSON.put("loggerName", entry.getKey()); if (logFrameworkType == LogFrameworkType.LOG4J) { org.apache.log4j.Logger targetLogger = (org.apache.log4j.Logger)
-entry.getValue(); loggerJSON.put("logLevel", targetLogger.getLevel().toString());
-} else if (logFrameworkType == LogFrameworkType.LOGBACK) { ch.qos.logback.classic.Logger targetLogger = (ch.qos.logback.
-classic.Logger) entry.getValue(); loggerJSON.put("logLevel", targetLogger.getLevel().toString());
-} else if (logFrameworkType == LogFrameworkType.LOG4J2) { org.apache.logging.log4j.core.config.LoggerConfig targetLogger =
-(org.apache.logging.log4j.core.config.LoggerConfig) entry.getValue(); loggerJSON.put("logLevel", targetLogger.getLevel().toString());
-} else { loggerJSON.put("logLevel","Logger  ,  !");
-} loggerList.add(loggerJSON); } result.put("loggerList", loggerList); LOG.info("getLoggerList: result={}", result.toString()); return result.toString(); }
-
-<129
-3.  Logger 
-private String setLogLevel(JSONArray data) { LOG.info("setLogLevel: data={}", data); List<LoggerBean> loggerList = parseJsonData(data); if (CollectionUtils.isEmpty(loggerList)) { return ""; } for (LoggerBean loggerbean : loggerList) { Object logger = loggerMap.get(loggerbean.getName()); if (logger == null) { throw new RuntimeException(" Logger  "); } if (logFrameworkType == LogFrameworkType.LOG4J) { org.apache.log4j.Logger targetLogger = (org.apache.log4j.Logger)
-logger; org.apache.log4j.Level targetLevel = org.apache.log4j.Level.
-toLevel(loggerbean.getLevel()); targetLogger.setLevel(targetLevel);
-} else if (logFrameworkType == LogFrameworkType.LOGBACK) { ch.qos.logback.classic.Logger targetLogger = (ch.qos.logback.
-classic.Logger) logger; ch.qos.logback.classic.Level targetLevel = ch.qos.logback.
-classic.Level.toLevel(loggerbean.getLevel()); targetLogger.setLevel(targetLevel);
-} else if (logFrameworkType == LogFrameworkType.LOG4J2) { org.apache.logging.log4j.core.config.LoggerConfig loggerConfig =
-(org.apache.logging.log4j.core.config.LoggerConfig) logger; org.apache.logging.log4j.Level targetLevel = org.apache.logging.
-log4j.Level.toLevel(loggerbean.getLevel()); loggerConfig.setLevel(targetLevel); org.apache.logging.log4j.core.LoggerContext ctx = (org.apache.
-logging.log4j.core.LoggerContext) org.apache.logging.log4j.LogManager. getContext(false);
-ctx.updateLoggers(); // This causes all Loggers to refetch information from their LoggerConfig.
-} else { throw new RuntimeException("Logger  ,  !");
-} } return " success"; }
- Logger Logger 
-
-130>2017 
-
- Web  RPC  HTTP  Thrift 
-Thrift 
- JSON String  
-       dynamic-invoker.xml                Thrift  ZooKeeper  
-HTTP 
-    Web       RPC               HTTP  
-
- 2016  9  V1.0  20  
-
-  Logback  SLF4J  Logback   Log4j Logback.xml SLF4J   Debug  ROOT  1130  Load   
-
-<131
-   ERROR  
-  
- 
-
-1. Simple Logging Facade for Java (SLF4J) 2. Log4j 2 Architecture - Apache Log4j 2 3. Hash-based message authentication code - Wikipedia
-
-132>2017 
- 0  1
-
-
-2016  07 ""  
- CRM  """"   KPI
-  
-
-
-  
- 
-  
-
-<133
- 
- 3 
- "==""<"    
-----
-
-if (StringUtil.isBlank(fieldA) || StringUtil.isBlank(fieldB) || StringUtil.isBlank(fieldC) || StringUtil.isBlank(fieldD)) { return ResultDOFactory.createResultDO(Code.PARAM_ERROR, "
-"); } if (fieldA.length() < 10) {
-return ResultDOFactory.createResultDO(Code.PARAM_ERROR, "  10 "); } if (!isConsistent(fieldB, fieldC, fieldD)) {
-return ResultDOFactory.createResultDO(Code.PARAM_ERROR," xxx  "); }
-    
-
-134>2017         
- 
-  
-  "=="
-
-
-<135
----- Drools 
- Drools   Drools 
- DSL 
-rule "1.1" when poi : POI( source == 1 && brandType == 1 ) then System.out.println( "1.1 matched" ); poi.setPassedNodes(1);
-end rule "1.2"
-when poi : POI( source == 1 && brandType == 2 )
-then System.out.println( "1.2 matched" );
-end rule "2.1"
-when poi : POI( source == 2 && brandType == 1 )
-then System.out.println( "2.1 matched" ); poi.setPassedNodes(2);
-end
-
-136>2017 
-
-rule "2.2"
-
-when
-
-poi : POI( source == 2 && brandType == 2 )
-
-then
-
-System.out.println( "2.2 matched" );
-
-poi.setPassedNodes(3);
-
-end
-
- Drools 
-
-  
-
-   DSL 
-Java, Groovy, Python    then  when...then
-
-
- Drools 
- 
-  
-2016  10   70% 
-
-
-<137
-  
- SQL  + 
-----
- 
-  Spark 
-
-138>2017 
-  
-     
-
-
-""
-
-<139
-   Drools 
-  
-"" 2017  02  "" "" 3  """" "Maze " "Maze " Maze  
-
-""  "Maze "
-
- n 1  3 
-y = fx1, x2, ..., xn
-""
-
-140>2017 
-  FACT    LHSLeft Hand Side        RHSRight Hand
-SideLHS  RHS   FACT   [  1] && [  2]  1   3   FACT                                    IntegerLongFloatDoubleShortStringBoolean 
-
- "" 3 
-
-<141
- 3   ""
-    $  1 > $   2   
-            ""  $  1 + $  2 > $  3 "" 
-
-142>2017 
-
-
-
-/**  */
-
-|
-
-|  > $  3 /**  */
-
-|
-
-|
-
-$  1 + $  2
-
-/**  */
-
-        DroolsAviator  ANTLR 
-
-Maze 
- "  "  Maze Maze  
-Maze MazeGO MazeQL  MazeGO  SQLC  MazeQL   BD  30  A  B MazeQL   VectorC  MazeGO   ID  *  
-
-<143   VectorC 
-1.  2.  3. GroupBy  SQLC  SQL 
-MazeGO
-MazeGO  3  MazeGO  
-3 """ """
-
-144>2017 
-1. MazeGO         ZooKeeper    
-2.  
-3.                             hbase 
-MazeQL
-MazeQL  3 MazeQL 
-
-<145
-1. MazeQL         ZooKeeper       QL     SQLC  VectorC                SQLC " "  QL  "" QL 
-2.    Spark   QL  QL   SQL  QL    Mysql  Derby    Spark  Spark SQL 
-3.   ""   SQL  
-
-146>2017    SQL    VectorC VectorC "Maze " 
-Maze 
-Maze 
-
-
-
- Maze 
-//  N  FACT  function(Fact[] facts) {
-//  FACT  String xx= facts[0].xx; // SQLC  sql SQLC  +SQL 
-
-<147
-List<Fact> moreFacts = connection.executeQuery("select * from xxx where xx like`%"+ xx +"%');
-//  FACT  UserDefinedClass userDefinedObj = userDefinedFuntion(facts, moreFacts); //  int compareResult = userDefinedObj.getFieldXX().compare(XX); //  UserDefinedResultClass userDefinedResultObj = new UserDefinedResultClass(); //  if (compareResult == 0) {
-userDefinedResultObj.setCompareResult(Boolean.FALSE); } else if (compareResult > 0) {
-userDefinedResultObj.setCompareResult(Boolean.FALSE); } else {
-userDefinedResultObj.setCompareResult(Boolean.TRUE); } //  return userDefinedResultObj; }
-
-
-1. 
-
-2. 
-3. 
-
- 1.  MazeGO jar 
-2.  MazeGO client
-
-//  MazeGO client MazeGOReactor reactor = new MazeGOReactor(); reactor.setMazeIds(Arrays.asList(<mazeId>));
-
-148>2017 
-reactor.init(); //  MazeGO client  reactor.go(<mazeId>, <fact>); //  MazeGO client reactor.destroy();
- 
- MazeGO 
-
-<149
-
-  Maze 
-
-2015  CRM   CRM  
-
-
-
-
- MySQL   
-MMM
- 2015  MMMMaster-Master replication manager for MySQL  MMM 
-MMM 
-
-<151
-      MySQL     1   VIPVirtual IP NN>=1  VIP         MySQL         Agentmmm-agent mmm-agent  mmm-manager  mmm-manager   MySQL  mmm-manager   mmm-agent 
-mmm-manager 
-1.   mmm-manager  VIP VIP  
-2.    Dead Master  flush tables with read lock     Dead Master  VIP  
-
-
-152>2017 
-mmm-manager    master1                 VIP  master2 
-MMM   VIP  1  6  7  VIP
- VIP  VIP  mmm-agent  VIP  mmm-agent 
- mmm-manager  MySQL   mmm-manager 
-  VIP  ARP  MMM  Google  Google  MMM   Bug Bug  
-
-<153
-MHA
- 2015  MySQL   MHA MMM 
-MHAMySQL Master High Availability  Facebook    Yoshinori Matsunobu  MySQL MHA  MySQL MHA    Dead Master  Binlog VIP 
- MHA 
- MHA 
-
-154>2017   DB 
- MHA VIP   VIP  2  VIP  MHA Manager  
-MHA+Zebra (DAL)
-Zebra Java   c3p0  SQL  MHA  MySQL   MHA+Zebra 
-   MHA  Zebra monitorZebra monitor 
- ZooKeeper 
-
-<155  Zebra monitor 10s ~ 40s
- ZooKeeper    Zebra monitor  MHA  ^_^
- VIP   MHA   MHA  VIP  Zebra monitor   Write  new master  IP Dead Master  VIP  
-
-156>2017 
-
-<157
- MHA   Master-Slave  Binlog  MHA 
- Master-Slave  
-Proxy
- Zebra  Proxy  MHA      MHA  Proxy Proxy  Zebra  Java   Response Time  GitHub 
-
- MHA 
-   MySQL 
- Semi-Sync 95%    Agent Master MHA Manager 
-
-
- Binlog Server Server   Slave  Binlog  Binlog Server  ACK Binlog Server 
-
-158>2017 
- Binlog Server Binlog Server 
- Agent 
- MHA  MySQL   Agent Agent  Slave   Manager  MHA 
-
-<159
-MGR 
- Agent  Binlog Server   Binlog Server   Binlog Server  Agent 
-MySQL  Raft  Paxos   Paxos  MGR  MySQL Paxos   MGR  single-primary 
-
-160>2017 
-MySQL  topo   Zebra monitorZebra monitor   Binlog Server   ACK MGR  1 MGR  MySQL 
-
- MySQL  MMM  MHA+Zebra  MHA+Proxy   
-
-14 
-
-<161
- DBProxy 
-DBA  (  )
-
-       DBA  DBA 
- 360  Atlas  DBA    DBProxy  DBProxy 
- DBProxy   Github  https://github. com/Meituan-Dianping/DBProxy
-DBProxy 
-1.  MySQL  2.  3.  4.Slave Master  MHA  5.  6.  SQL  7. 
-
-162>2017 
-8.  9.  10.Client IP 
-DBProxy  Atlas 
-       (  show proxy status/variables)  save config   percentile   DBProxy   kill session  DBProxy  admin  kill session   backend   backend   DBProxy  root   root   admin  admin  host       DBProxy  1. normal  KILL -SIGTERM `pid of mysql-proxy`;  admin  : shutdown [normal] 2. immediate
-
-<163
- KILL -SIGINT `pid of mysql-proxy`;  admin   : shutdown immediate 3.    shutdown_timeout:  normal      shutdown_ timeout  s,  600   SQL   SQL   SQL   query-filter-time-threshold  SQL    SQL   query-filter-frequent-threshold  SQL     60s  60s  access-num-per-time-window   SQL      auto-filter-flag OFF: ON:         Load    SQL   manual-filter-flag  OFF: ON:   
-
-164>2017 
- admin  /    MySQL  thread running   DBProxy  MySQL  MySQL  thread running   MySQL       backend-max-thread-running       MySQL      thread running   thread-running-sleep-delay      thread running    backend-max-thread-running   set backend offline    set transaction isolation level   use db   set option    set session       db-connection-idle-timeout    keepalive      SQL  DBProxy   SQL  SQL  database    SQL  rotate 
-
-<165
-        SQL        sql-log-file-size  sqllog-file-num       MySQL          MySQL       server             server              mysql-version    SQL   SQL    database          COM_INIT_DB    sysbench  QPS  7  22   QPS  sql log    autocommit  false   Bugs   DBProxy  MySQL  socket  keepalive    rpm  conf   rpm  mysql-proxyd  proxy-dir,   rpm      KILL  MySQL  KILL   DBProxy  rollback       NULL   DBProxy  merge  NULL   JDBC    IN  int32 int64 
-
-166>2017 
-  lock   24 
-  admin    admin  "[admin] we only handle text-based queries
-(COM_QUERY)"    set backend offline/online   DBProxy 
-   SQL_CALC_FOUND_ROWS  SQL    SQL    DBProxy 
- Bug  release notes
-
- 
-
-<167
- SQL  SQLAdvisor 
-DBA 
-
- SQL  DBA  SQL  
- SQL SQL   SQL    DBA 
-SQLAdvisor  DBA  SQL   SQL  MySQL  SQL  where  Join   SQLAdvisor 
- SQLAdvisor  GitHub https://github. com/Meituan-Dianping/SQLAdvisor GitHub   SQL 
-SQLAdvisor 
-
-168>2017 
-SQLAdvisor 
-sql: SELECT id FROM crm_loan WHERE id_card = '1234567` cmd: ./sqladvisor -h xx -P xx -u xx -pxx -d xx -q"SELECT id FROM crm_ loan WHERE id_card = `1234567'" SQLAdvisor  : alter table crm_loan add index idx_id_card(id_card)
-
-SQLAdvisor 
-
-<169
-
-SQLAdvisor 
-  MySQL    SQL(Insert/Delete/Update/Select)   Join    Order by  Group by  
-
-SQLAdvisor 
-Join 
-1. Join      Join on  Join using   Join on      where 
-2.  Join  nested_join  table list join_using_fields  Join on  Join using
-3.  table list  
-4. right Join  left Join 5.Join 
- 6.  Join 
-          mysql_sql_parse_join(TABLE_LIST join_ table) mysql_sql_parse_join(Item join_condition) 
-
-170>2017 
-where 
-1.  SQL  where where  AND  OR   OR  AND 
-2.  where  Join  3.  where  like
- 4.  30 
- where 
-
-1. "show table status like" table_count 2.  best_index Primary
-key > Unique key >  3.  offset  rand_rows
-
-<171
-offset = (table_count / 2) > 10W ? 10W : (table_count / 2) rand_rows =(table_count / 2) > 1W ? 1W : (table_count / 2)   select count(1) from (select field from table force index(best_index) order by cl.. desc limit rand_rows) where field_print  rows cardinality = rows == 0 ? rand_rows : rand_rows / rows; 
-mysql_sql_parse_field_cardinality_new() 
-
-172>2017 
-
-1. mysql_sql_parse_index()  2. 
-Group  Order 
-1. Group  Order   Group by  Order by Order by  Order by   Order by  Order by   Order by 
-
-<173
-2.  >(group by | order by )>  3. 
-mysql_sql_parse_group()  Group  mysql_sql_parse_order()  Order  mysql_sql_parse_group_order_add()  
-
-174>2017 
-
-1.  where Join  SQL  
-2.  
-
-<175
-3.  explain select * from table where field  4.  5. final_table_drived() get_
-join_table_result_set() 
-
-1.  2.  Join  3. mysql_index_add_condition_field()
-
-176>2017 
-
-1.   
-2. print_index() 
-
-<177
-SQLAdvisor 
- Functionality Added or Changed   SQLParser  SQLAdvisor    Join  find_join_elements()      where  like    Order by  Order by primary key   
- Bugs Fixed   SQL    where    find_best_index()  MySQL API  result  free
-
- SQL   Bug  Github  issue SQLAdvisor   SQLAdvisor QQ: 231434335 
-SQLAdvisor 
-1. SQLAdvisor  . 2. SQLAdvisor  . 3. SQLAdvisor release notes. 4. SQLAdvisor  . 5. FAQ.
-
-178>2017 
-MyFlash MySQL 
-
-DBA  bug   DBA  binlog   MySQL  mysqlbinlog 
- 2 DBA  binlog2sql  binlog2sql  ----MyFlash 
-             https://github.com/Meituan-Dianping/ MyFlash
-
-
- mysqlbinlog  sedawk binlog  SQL   sedawk  SQL  SQL
-  SQL  SQL 
-  SQL  HTML   awksed 
-  patch mysqlbinlog  Flashback 
-
-<179
-  MySQL Server  binlog  
-  MySQL   MySQL 5.6  patch MySQL 5.7   patch  MySQL  MySQL 
-  binlog  SQL  binlog2sql
-    binlog 
- SQL   delete  awksed  
-
-a.  binlog  b. SQL  c.  MySQL  d.  e.  binlog 
-binlog  binlog  
-binlog 
-binlog 
- binlog  format description event  rotate
-
-180>2017  event  event 
-binlog 
-
-<181  event  event header  event data   binlog event  formart description event
-
-170905 01:59:33 server id 10 end_log_pos 123 CRC32 0xed1ec563 Start: binlog v 4, server v 5.7.18-log created 170905 01:59:33
-
-182>2017   table map event
-
-<183 
-170905 01:59:33 server id 10 end_log_pos 339 CRC32 0x3de40c0d Table_map: `test`.`test4` mapped to number 238
- update row event
-
-184>2017  
-170905 01:59:33 server id 10 end_log_pos 385 CRC32 0x179ef6dd Update_rows: table id 238 flags: STMT_END_F UPDATE `test`.`test4` WHERE @1=3 SET @1=13;
-binlog event 
-     binlog         binlog event  event header   type_code insert  30update  31delete  32 insert  delete  type_code  binlog event 
- update 
-BI  before imageAI  after image   update  update 
-
-AIBI 
-
-<185
-
-
- 
-  int  4 bingint  8   table map event 
-  decimal189 9   table map event 
-  varchar10 1   varchar280 2  
-
- binlog 
- length encoded integer binlog timestamp  4 event  64  3  192<255   1 2 3  8   8  length encoded integer 
-
-186>2017 
- varchar  251 varchar  0xFC varchar 
- decimal  decimal  9   4  9   Fnum
- decimal18,10 1.  8 int 4  2.  (10 /9)*4+Fnum(10%9)=5 3.  4+5=9 
-
- binlog event   binlog binlog
-
-<187 MyFlash 
- binlog
- binlog  event  binlog   binlog event  event
-  binlog  binlog 
- event
- binlog event             binlog event  table_map event  row_event(  write_event delete_eventupdate_event)   least execution event unit
-
-188>2017   table_map event  row_event
-   binlog           table_map_event  update_row_ event update_row_event event   table_map_event  write_row_eventupdate_row_evendelete_row_event 
- event  event  table_map event  row event  binlog 
- a.  row event b. 
-
-<189
- SQL 
- binlog 
-                                 binlog event  next_position binlog 
-
-
- testFlashback2 100 
-CREATE TABLE `testFlashback2` ( `id` int(11) NOT NULL AUTO_INCREMENT, `nameShort` varchar(20) DEFAULT NULL, `nameLong` varchar(260) DEFAULT NULL, `amount` decimal(19,9) DEFAULT NULL, `amountFloat` float DEFAULT NULL, `amountDouble` double DEFAULT NULL, `createDatetime6` datetime(6) DEFAULT NULL, `createDatetime` datetime DEFAULT NULL, `createTimestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON
-UPDATE CURRENT_TIMESTAMP, `nameText` text, `nameBlob` blob, `nameMedium` mediumtext, PRIMARY KEY (`id`)
-) ENGINE=InnoDB mysql> select count(*) from testFlashback2; +----------+ | count(*) |
-
-190>2017 
-+----------+ | 1048576 | +----------+ 1 row in set (0.16 sec) delete from testFlashback2;
-
-MyFlash 
-
-
-1. MySQL  1,2,3. 2. binlog2sql. 3. mysqlbinlog Flashback for 5.6. 4. MySQL  .
-
-<191
-
-192>2017 
-Sysbench 
-
-   sysbench
-      sysbench  JSON 
-   sysbench 
-
-  I/O  CPU   DBA  DBA  MySQL 
- sysbench
- sysbenchTPCC-MySQL  
-
-<193
-
-sysbench 
-
-1. sysbench  DBA  2. MySQL       OraclePercona            
-sysbench  3. sysbench  MySQL 8.0 
- 4. sysbench  Lua  C 
- Lua  DBA   sysbench 
-
-
-sysbench   sysbench                                  MySQL             sync_binlog=1innodb_flush_log_at_ trx_commit=2innodb_io_capacity=2000 
- sysbecnh 
-
- tables table_size threads time warmup_time
-rate
-histogram percentile
-
- 16 25,000,000 16 3600 600
-0
-on 99
-
-  sbtest1... sbtest16      0  MySQL   OLTP    99 
-
-194>2017 
-sysbench 
- MySQL   SATASSDPCIe  IO CPU   GB  MySQL 5.7 
- DBA   DBA   MySQL 5.7  slave_ parallel_workers  sysbench 
- sysbench  oltp_write_only.lua TPS:33,336 TPS
- 8  TPS     TPS  binlog_group_commit_ sync_delay  binlog_group_commit_sync_no_delay_count 
-
-<195
-sysbench 
-
-sysbench   Lua   sysbench  10  sysbench  
- sysbench   prepare warmup  Lua sysbench   Lua  
- MySQL 5.7 JSON  MongoDB   MongoDB  JS map/ reduce  TPS  MySQL 5.7+JSON  MongoDB   MySQL JSON   sysbench  Lua 
-
-196>2017 
-
-sysbench    
-
- TPS  QPS   QPS 
-
-<197  TPS 10000   TPS   sysbench 
-
- TPS  QPS   SQL   SQL 
- SQL   sysbench  
-  MySQL  buffer pool instance
-
-198>2017  sysbench      sb_counter.c 
-SQL 
- 90 95  99  90%95%  99%   SQL  DBA 
-  0.01ms   0.01ms   ""
-
-<199
-
-sysbench  sysbench   k=floor((log(response_time) +6.908) * 55.35 + 0.5)  k    response_time=0.001 k  0response_time=0.01 k=128;  response_time=10 k=509 response_time=100 k=1023 k  k ms
-         k           respone_time = exp((k/55.535)-6.908) 
-
- MySQL  QPS    50%   
-
-200>2017 
-  response[1024] sysbench   response[1024]  128 
-
-
-<201
-
- sysbench  MySQL  sysbench  JSON   sysbench   sysbench  
-
- MySQL DBA2012 2017  MySQL  2014  "" 
-
-
-
-
-
-----   2013  11  1600  4   
-
-
-
- 1
-
-<203 " O2O " 1  App  -->   -->  -->    
-
- 2
-  2~3  2 
-
-204>2017 
-
- 3
- 2013  2017  10  4   2000  1600  3   120  + QPS  40  
-
-
- 4
-
-<205
- 4  
-  IM    
-   
-    
-   TP99   
-
- 
- 5 
-    
-
-206>2017 
- 5
-  
- -->  -->   
-  ->  
-
-  
-
-<207
-
- 6        
- 6
-
-  
-
-208>2017 
- 7
- 7  
-   
-  
- 
-  Holt-Winters  
- 
-
-<209  
-
-  8 
-   TP99 
-    SOP  CPU 
- 8
-
-210>2017  
-   
- & 
- 9 & 
- &   9  
-  
-   DB
-
-<211
- Cache    Hystrix  
-   
-    
-    
-
-  10    
-
-212>2017 
- 10
-
- 
-
- 11
-
-<213   SLA      11     N 
-
- 12
- Hystrix      12 
-
-214>2017 
-
- 13
-  13   
-  
-  Tair 
-
-<215  
-  
-  
-    
-
- 14
-  14 
-
-216>2017 
- 
-
-2016  
-
-MCC  CAT  CAT DIGGER DIGGER  FALCON MtFalcon----Open-Falcon  
-
- SRE 
-
-
-<217
-
-
-SRESite Reliability Engineering Google  2003  
- + "" SRE 
-1.   SLA  
-2.  SRE 
-
-1.  SRE  2.  3. 
- SRE 
-SRE 
-
- 4  Varnish/Squid   LAMP 
-
-218>2017    
-
-  Web  API   PHP JavaPython C++  2014  
-  SRE   SRE  
-
-<219
-
-
-  VM  CPU   VM   VM  VM 
- VM   CPU   
- VM    VM  VM  
-
-220>2017    10  VM  5   SRE  VM   90%  VM
- SRE   3  9 
-
-  BGP  
-   MGW"MGW----"NAT 
- API 
-
-<221
-
- 
- 1. 
- Web  2. 
-    SOP 
-   
- 
-
-222>2017 
-      
-
-
-
-<223    SRE      TODO       
-
-
-
-224>2017   
-  
-
-
- & 
-   300 
-  Nginx 
- rewrite  set   rewrite break  rewrite  set  Nginx 
-
-<225  SOP 
-     5 DAU  
-        
-
-226>2017        session   session  IMGW1  TCP   
- 
-  
- SLA  HTTP  accesslog    
-
-<227
- TODO 
-
-
-1.  SOP 2. 
-       3.  TODO  
-
-  Server  Server   HTTP 1.0/1.1 HTTP  
-
-1.  BGP BGP   BGP  
-2.  HTTP DNS  Shark
-
-228>2017 
- Server App   SDK App  DNS  Shark "" Shark   3.  SPDY   HTTP 2.0Server  HTTP 2.0   bug
-
-    AI  
-  
-  
- 
-
-2014  SRE  
-
-<229
-Mt-FalconOpen-Falcon  
-
-
- 
- Zabbix  2W+ 450W+ Zabbix   Zabbix 
-  
-      API 
-  Open-Falcon 
- Mt-Falcon  Open-Falcon  
-
-230>2017 
-Open-Falcon 
- Open-Falcon 
-Mt-Falcon 
-
-<231
-Mt-Falcon  Open-Falcon  ACK OpenTSDB  
-
-Agent  1.  Agent 
- Agent  Transfer                                    Agent  0.5  Transfer   1W  60s <100W 
-2.     Agent  Tag 4  
-3.  coredump   core  
-4.   Agent   Falcon-Agent  100  G   Go-LoggerGo-Logger  Golang  Log 
-
-232>2017 
- Go-Logger  Log  Go-Logger
-Go-Logger https://github.com/donnie4w/go-logger
-5.  hostname   hostname  Endpoint  host  hostname hostname  hostname   hostname         Falcon-Agent   hostname       /etc/ sysconfig/network   hostname   IP 
-6.  Falcon-Agent  Falcon-Agent   HBS                  Falcon-Agent  Redis  Falcon-Agent              Redis     Falcon-Agent                                     Falcon-Agent  5  Falcon-Agent  
-HBS  1. 
- 
-HBSHeartBeat Server Judge  JSON-RPC  JSON-RPC  RPCRPC 
-
-<233
-TCP Go  encoding/json  encoding/json 
- HBS  50  G RPC+MessagePack  JSON-RPC encoding/json  MessagePack
-MessagePack  encoding/json   HBS  6G
- RPC  MessagePack https://github.com/ugorji/ go/tree/master/codec#readme
-2.   Group Group   HBS   HostID 
-3.  
-  HBS  ID   
- HBS  ID+ActionID  
-4.     5 
-
-234>2017 
-     
-  
-  
-
- 
- 10 30 1 3 6  1 3 
-Transfer  1. Endpoint 
-Falcon    Transfer   Endpoint  Endpoint  
- Transfer  Endpoint   Endpoint  Endpoint  xxx   Endpoint  
-2.  OpenTSDB   OpenTSDB Transfer 
-
-<235
- Redis  Transfer  Redis  Transfer   Transfer 
-Judge  1. 
- 80%  Judge   Judge  11 
- Judge  Judge  
-2.  Judge   Judge  Judge   Judge   K  M  Load  Judge    Alarm  
-3.   Action   20  
-4.  ACK ACK  Zabbix  ACK   ACK 
-
-236>2017 
-ACK 
- Alarm  Endpoint+Metric+Tags  ACK  
-            ACK               Transfer  ACK 
- Transfer  ACK  Endpoint+Metric+Tags   Judge  Judge  ACK 
- Judge  ACK  EventID  ACK
-5. Tag   Tag Metric  df.bytes.free.percent  Tags  mount=/dev/shm   Tag Metric  df.bytes.free.percentTags  ^mount=/dev/shm Judge  
-6.  plus_judge Judge    plus_judge plus_judge
-Graph  1. 
- MySQL  Redis+Tair 
-
-<237  Redis Cluster Redis Cluster  Go client  https://github.com/chasex/redis-go-cluster  BoltDB   Git https://github.com/laiwei/falcon-index  RedisTairBoltDB   2.   1  Graph   Tair  indexcache  
- Graph  6  unindexcache 
-3.  
-
-238>2017 
-  12  RRD   RRD   12 
-  12  RRD   12 
-
-  12    12  RRD 
- RRD  RRD   RRD  RRD 
- 12   RRD  
-Alarm  1. 
- Alarm 
-    Metric    3    5 
-2.    
-
- net.if.in.Mbps   net.if.out.Mbps   icmp.ping.alive   cpu.steal CPU 
-
- prod  SRE  +RD   staging  RD   test 
-
-<239
-
-3.   Metric  Metric 
-4.   Alarm  Redis   Alarm  Redis Redis                         Alarm      sender 
-5.    IM   
- p0:   p1:   p2: 
-
-240>2017 
- p3:   p9:  +  +  + 
-6.   InfluxDB InfluxDB   MySQL    Top10  7  BG   Top20 
-7.   Top10   >=90 50~90  
-8.   Action  Action   
-9.  base    
-"  net.if.in.Mbps", "  net.if.out.Mbps", "  cpu.idle", "  df.bytes.free.percent",
-
-<241
-"  df.inodes.free.percent", "  disk.io.util", "  icmp.ping.alive", "  icmp.ping.msec", "  load.1minPerCPU", "  mem.swapused.percent", "  cpu.steal", "  kernel.files.percent",  "kernel.coredump", "  df.mounts.ro", "  net.if.change",
-Portal/Dashboard  1. 
-
-2.   API 
-3.  
-4. shift   Dashboard  shift 
-5.  
-6.   Dashboard 
-
-242>2017 
-7. Dashboard   Endpoint  Metric    
-8. screen  screen   
-9.    prod  prod staging  test 
- 1. Ping 
- Fping  Ping  Ping   Ping Ping 
-2.   Portal  HBS   string_judge 
-3.   nodata     diff  pdiff  10 
-
-<243
- OpenTSDB   OpenTSDB 
-4.    Judge  Judge  plus_judge  
-  ID   3  
- Judge   plus_judge
- plus_judge  
-
-Mt-Falcon  Zabbix   QPS  100W+ 
- Open-Falcon  Feature  Merge  PR 
-
- SRE 2015   
-
-
-
-
-
- 
-  Python+Nmap    
-
- Wikipedia 
-  
-  
-
-<245  
-  
-
-
-     
- 1
- 
-
- Nmap 
-  3 
-
-246>2017 
- filtered 
- TCP SYN 
- TCP SYN 
-  
-  TCP    Fin/Null/Xmas/Maimon  Idle 
- TCP    openclosed filtered
-
-
-TCP/IP  3  
-
-<247  TCP SYN  SYN   TCP   3 
-
- 2
-      
-
-248>2017 
- Nmap
- Python  Nmap  Nmap ----  2   Masscan
-Masscan 
-Masscan   Masscan  Zmap Nmap   TCP SYN  IP Masscan  
- 1.  2. 
-
-<249
-3.  4. 
-100% 100% 5.  IP  IP 
- IP  6. 
-Masscan+Nmap  Masscan   Banner   Masscan  Nmap    Masscan   Nmap  
-
-250>2017  Masscan+Nmap & DPDK+Storm+Nmap           ----                    
-Masscan      /  Nmap  
- 1.  IP
- 2.  API 
- 3. 
- Masscan  Nmap 
-
-<251
-4.  
-
- 
-1. 
-  
-  
-
-2. Web 
- Web   Web  Zabbix  Web   Web  Web  
-3. 
-
-   
-
-252>2017 
-
-UDP 
- TCP   UDP ----  2016  8  The Shadow Brokers   Adaptive Security ApplianceASA PIX  ExtraBacon  SSH  telnet  ASA
-
-  UDP    /    IP 
-
-   
-
-2015  
-
-<253
-Android Binder 
-
- Android  Android  2016  10  Android 6.0 6.0.17.0  
-Android 
-Android 
- https://v.qq.com/x/page/u0543o9s9fk.html  6.06.0.17.0  Android  expexp  APK bin   Android pin  password   CVECommon Vulnerabilities and Exposures CVE-2016-3749  CVE-2016-3908  2016  5  Google6  1 Google   4  13  duplicate
-
-254>2017 
- Android 6.0.1  Android    Google Google  patch
-Google  7 CVE  CVE-2016-3749 patch                   setLockPassword()  setLockPattern()
-
-<255
- Google
-Google  2016  7  20             8  31     CVE-2016-3908 10 
-
-256>2017 
-
- https://v.qq.com/x/page/o0543t0uwkw.html  CVE-2016-9567   setmDNIeScreenCurtain()  
-
-
-
-<257
- https://v.qq.com/x/page/y0543skh3t7.html
-
- https://v.qq.com/x/page/a0543ilaytw.html  NFC tag  Android   NFC   Android Binder  Android Binder 
-Android Binder 
-"In the Android platform, the binder is used for nearly everything that happens across processes in the core platform."
-­Dianne Hackborn,Google https://lkml.org/lkml/2009/6/25/3 Android Binder  Dianne Hackborn  OpenBinder  Android IPC  Android  Linux socket   Client-Server Android Binder  /dev/binder   Binder Token  Binder Proxy PatternMediator Pattern Bridge Pattern Binder        BinderBinder ObjectBinder ProtocolIBinder interface Binder TokenAIDLAndroid interface definition languageServiceManager  Binder  kernel  
-
-258>2017 
- BinderAndroid Binder Android Interprocess Communication
-drozer 
-drozer  MWR  Android   Metasploitdrozer ConsoleAgentServer  Agent  Console  PC 
-
-<259 Agent  internet  App ServerSocket  31415 Console  Server  Agent  Dalvik  App  IPC intent  Agent  Dalvik  drozer  drozer  demo new  Java   Java  drozer   .java  APK drozer   APK  Agent   Java  
-
-drozer Android   Agent  USB Console   Agent  Embedded Server Agent  
-
-260>2017 
- Server  host  port SSL
-
-<261  launcher  Agent
- Agent  server IP port  Agent  session Android  drozer Server
-Agent   Console  Server  Agent  Sdcard  drozer-modules  curesecmetall0id Android 4.3  
-
-262>2017 
- drozer  
-
-<263 drozer  drozer    1.  2.execute() 
- drozer 
-fuzzing  fuzzer    drozer  fuzzing  drozer  Android Binder  fuzzing 
-fuzzing intentfuzzing   fuzzing intent  15  360 
-
-264>2017   Android    crash Android   Android    Google 
- fuzzing  Android  adb shell service list  shell   Nexus 5X 7.12  126 [ ]  
- lock_settings   int  fuzzingfuzzing 
-
-<265
- shell  fuzzingadb shell service call lock_settings CODE i32 -1  CODE  i32  32 
- drozer  apk  Java   Ramada 
-           drozer        execute()      fuzzing            drozer              
-
-266>2017 
-module install MODULE_NAME  drozer  Python  Java  Python   fuzzing  fuzzing  logcat   Crash   Crash  lock_settings   fuzzer 
-
-
- AIDL 
- Android        Android SDK tools   AIDL       Java  AIDL   Bound Services 
-
-
- Java 
-
-<267
-
- AIDL  Java  
-
- Android 
- Android  BinderDemo 
-
-268>2017 
- Java  shell 
-
-Runtime runtime = Runtime.getRuntime(); Process proc = runtime.exec(command);
-shell 
-service call lock_settings 10 i32 0
-
-2017  Android  4   Android   
-
-<269
-Android  Code Arbiter
-
- Android       Code Arbiter  Android Studio  
-1. 
- Android Studio   IDE  Android Studio 
-1.  IDE  API  UI  
-2.  
-  PMD  FindBugs PMD  Java   FindBugs  Java  class   FindBugsFindBugs   JAR   JAR 
-
-270>2017 
-
- FindBugs  FindBugs   JAR  FindBugs   JAR 
- JAR  FindBugs   Find Security Bugs Web   Android  
-1.  Android                  Webview Broadcast 
-2.  3. 
-
-
-<271
- Find Security Bugs     
-2. 
-FindBugs     class                    FindBugs          .class        class       FindBugs  class    
-2.1
-  sawOpcode()  Android  
-Android 
-getExternalCacheDir() getExternalCacheDirs() getExternalFilesDir() getExternalFilesDirs() getExternalMediaDirs() Environment.getExternalStorageDirectory() Environment.getExternalStoragePublicDirectory()
- 
-public class ExternalFileAccessDetector extends OpcodeStackDetector {
-private static final String ANDROID_EXTERNAL_FILE_ACCESS_TYPE = "ANDROID_EXTERNAL_FILE_ACCESS";
-private BugReporter bugReporter;
-
-272>2017 
-public ExternalFileAccessDetector(BugReporter bugReporter) { this.bugReporter = bugReporter;
-}
-@Override public void sawOpcode(int seen) {
-//printOpCode(seen); if (seen == Constants.INVOKEVIRTUAL && (
-getNameConstantOperand().equals("getExternalCacheDir") || getNameConstantOperand().equals("getExternalCacheDirs") || getNameConstantOperand().equals("getExternalFilesDir") || getNameConstantOperand().equals("getExternalFilesDirs") || getNameConstantOperand().equals("getExternalMediaDirs")
-)) { // System.out.println(getSigConstantOperand());
-bugReporter.reportBug(new BugInstance(this, ANDROID_EXTERNAL_FILE_ ACCESS_TYPE, Priorities.NORMAL_PRIORITY).addClass(this).addMethod(this). addSourceLine(this));
-} else if(seen == Constants.INVOKESTATIC && getClassConstantOperand().equals("android/os/Environment") && (getNameConstantOperand().equals("getExternalStorageDirectory") || getNameConstantOperand().equals("getExternalStoragePublicDirectory"))) {
-bugReporter.reportBug(new BugInstance(this, ANDROID_ EXTERNAL_FILE_ACCESS_TYPE, Priorities.NORMAL_PRIORITY).addClass(this). addMethod(this).addSourceLine(this));
-} } }
-        OpcodeStackDetector   FindBugs      
- sawOpcode 
-            printOpCode(seen)            
- Constants.INVOKEVIRTUAL            Constants.
-INVOKESTATIC  getNameConstantOperand 
-getClassConstantOperand  
-getSigConstantOperand bugReporter.reportBug
-  BugInstance 
-
-
-<273
-
- HIGH_PRIORITY NORMAL_PRIORITY LOW_PRIORITY EXP_PRIORITY IGNORE_PRIORITY
-
- 1 2 3 4 5
-
-     
-
-addClassaddMethodaddSourceLine  
-
-2.2
-                                visitClassContext       Android TrustManager              TrustManager             Server           checkServerTrusted  HTTPS 
-
-@Override public void checkServerTrusted(X509Certificate[] x509Certificates, String s) throws CertificateException {
-}
-
- checkServerTrusted  
-
-public class WeakTrustManagerDetector implements Detector { ... public WeakTrustManagerDetector(BugReporter bugReporter) {
-this.bugReporter = bugReporter; }
-@Override public void visitClassContext(ClassContext classContext) {
-
-274>2017 
-JavaClass javaClass = classContext.getJavaClass();
-//The class extends X509TrustManager boolean isTrustManager = InterfaceUtils.isSubtype(javaClass,"javax.net. ssl.X509TrustManager");
-boolean isHostnameVerifier = InterfaceUtils. isSubtype(javaClass,"javax.net.ssl.HostnameVerifier");
-// if (!isTrustManager && !isHostnameVerifier) return; if (!isTrustManager && !isHostnameVerifier){ for (Method m : javaClass.getMethods()) { allow_All_Hostname_Verify(classContext, javaClass, m); } }
-Method[] methodList = javaClass.getMethods();
-for (Method m : methodList) { MethodGen methodGen = classContext.getMethodGen(m);
-if (DEBUG) System.out.println(">>> Method:" + m.getName());
-if (isTrustManager && (m.getName().equals("checkClientTrusted") || m.getName().equals("checkServerTrusted") || m.getName().equals("getAcceptedIssuers"))) {
-if(isEmptyImplementation(methodGen)) { bugReporter.reportBug(new BugInstance(this,
-WEAK_TRUST_MANAGER_TYPE, Priorities.NORMAL_PRIORITY). addClassAndMethod(javaClass, m));
-} ......
-classContext.getJavaClass            javaClass.get-
-Methods  classContext.
-getMethodGen isEmptyImplementation 
-
-private boolean isEmptyImplementation(MethodGen methodGen){ boolean invokeInst = false; boolean loadField = false;
-for (Iterator itIns = methodGen.getInstructionList(). iterator();itIns.hasNext();) {
-Instruction inst = ((InstructionHandle) itIns.next()). getInstruction();
-
-<275
-if (DEBUG) System.out.println(inst.toString(true));
-if (inst instanceof InvokeInstruction) { invokeInst = true;
-} if (inst instanceof GETFIELD) {
-loadField = true; } } return !invokeInst && !loadField; }
-  return true/false  
-2.3
- source    Android Intent  source 
-- EditText android/widget/EditText.getText()Landroid/text/Editable;:TAINTED - Intent android/content/Intent.getAction()Ljava/lang/String;:TAINTED android/content/Intent.getStringExtra(Ljava/lang/String;)Ljava/lang/ String;:TAINTED ...... - Bundle android/os/Bundle.get(Ljava/lang/String;)Ljava/lang/Object;:TAINTED android/os/Bundle.getString(Ljava/lang/String;)Ljava/lang/String;:TAINTED ......
-sink   sink  
-
-276>2017 
-public class CommandInjectionDetector extends BasicInjectionDetector {
-public CommandInjectionDetector(BugReporter bugReporter) { super(bugReporter); loadConfiguredSinks("command.txt", "COMMAND_INJECTION");
-}
- BasicInjectionDetector 
- loadConfiguredSinks  sink 
-
-java/lang/Runtime.exec(Ljava/lang/String;)Ljava/lang/Process;:0 java/lang/Runtime.exec([Ljava/lang/String;)Ljava/lang/Process;:0 java/lang/Runtime.exec(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/ Process;:0,1 java/lang/Runtime.exec([Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/ Process;:0,1 java/lang/Runtime.exec(Ljava/lang/String;[Ljava/lang/String;Ljava/io/ File;)Ljava/lang/Process;:1,2 java/lang/Runtime.exec([Ljava/lang/String;[Ljava/lang/String;Ljava/io/ File;)Ljava/lang/Process;:1,2 java/lang/ProcessBuilder.<init>([Ljava/lang/String;)V:0 java/lang/ProcessBuilder.<init>(Ljava/util/List;)V:0 java/lang/ProcessBuilder.command([Ljava/lang/String;)Ljava/lang/ ProcessBuilder;:0 java/lang/ProcessBuilder.command(Ljava/util/List;)Ljava/lang/ ProcessBuilder;:0 dalvik/system/DexClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/ Class;:0
-                 BasicInjectionDetector   
-getInjectionPoint  WebView.loadurl 
-@Override protected InjectionPoint getInjectionPoint(InvokeInstruction invoke,
-ConstantPoolGen cpg, InstructionHandle handle) { assert invoke != null && cpg != null; String method = invoke.getMethodName(cpg); String sig = invoke.getSignature(cpg);
-// System.out.println(invoke.getClassName(cpg)); if(sig.contains("Ljava/lang/String;")) { if("loadUrl".equals(method)){ if(sig.contains("Ljava/util/Map;")){
-
-<277
-return new InjectionPoint(new int[]{1}, WEBVIEW_LOAD_ DATA_URL_TYPE);
-}else{ return new InjectionPoint(new int[]{0}, WEBVIEW_LOAD_
-DATA_URL_TYPE); }
-}else if("loadData".equals(method)){ return new InjectionPoint(new int[]{2}, WEBVIEW_LOAD_
-DATA_URL_TYPE); }else if("loadDataWithBaseURL".equals(method)){ //BUG
-return new InjectionPoint(new int[]{4}, WEBVIEW_LOAD_DATA_URL_TYPE); }
-} return InjectionPoint.NONE; }
- InjectionPoint  sink 
- webView.loadUrl(url)
- new int[]{0}
- getPriorityFromTaintFrame 
-
-@Override protected int getPriorityFromTaintFrame(TaintFrame fact, int offset) throws DataflowAnalysisException { Taint stringValue = fact.getStackValue(offset);
-// System.out.println(stringValue.getConstantValue()); if (stringValue.isTainted() || stringValue.isUnknown()) { return Priorities.NORMAL_PRIORITY; } else { return Priorities.IGNORE_PRIORITY; } }
- fact.getStackValue isTainted
- Priorities.
-NORMAL_PRIORITY Priorities.
-IGNORE_PRIORITY
-
-278>2017 
-2.4
- 2.2     Android   Intent    try catch   FindBugs  class  class  javap  
- class    Intent  Map   Key   Value  Map 
-
-<279
-private Map<String, List<Location>> get_line_location(Method m, ClassContext classContext){
-HashMap<String, List<Location>> all_line_location = new HashMap<>();
-ConstantPoolGen cpg = classContext.getConstantPoolGen(); CFG cfg = null; try {
-cfg = classContext.getCFG(m); } catch (CFGBuilderException e) {
-e.printStackTrace(); return all_line_location; } for (Iterator<Location> i = cfg.locationIterator(); i.hasNext(); ) { Location loc = i.next(); Instruction inst = loc.getHandle().getInstruction(); if(inst instanceof INVOKEVIRTUAL) {
-INVOKEVIRTUAL invoke = (INVOKEVIRTUAL) inst; if(all_line_location.containsKey(invoke.getMethodName(cpg))){
-all_line_location.get(invoke.getMethodName(cpg)). add(loc);
-}else { LinkedList<Location> loc_list = new
-LinkedList<>(); loc_list.add(loc); all_line_location.put(invoke.getMethodName(cpg),
-loc_list); }
-// } } } return all_line_location; }
- Exception FindBugs  Exception 
- 
- exceptionTable[i].getStartPC     try catch      excep-
-tionTable[i].getEndPC  try catch 
-public int[] getExceptionScope(){ try { CodeException[] exceptionTable = this.code.
-getExceptionTable(); int[] exception_scop = new int[exceptionTable.length * 2]; for (int i = 0; i < exceptionTable.length; i++) {
-
-280>2017 
-
-} }
-
-exception_scop[i * 2] = exceptionTable[i].getStartPC(); exception_scop[i * 2 + 1] = exceptionTable[i].getEndPC(); } return exception_scop; }catch (Exception e){
-return new int[0];
-
- class     FindBugs   code-length  
-
-public int get_Code_Length(String firstLineCode){ try{ String[] split1 = firstLineCode.split("code_length");
-// System.out.println(split1[split1.length-1]); byte[] code_length_bytes = split1[split1.length-1].getBytes(); byte[] new_code_bytes = new byte[code_length_bytes.length]; for(int i=0; i<code_length_bytes.length; i++){
-// System.out.println(); if(code_length_bytes[i]<48 || code_length_bytes[i]>57){ new_code_bytes[i] = 32; }else{ new_code_bytes[i] = code_length_bytes[i]; } } return Integer.parseInt(new String(new_code_bytes).trim()); }catch(Exception e){ e.printStackTrace(); } return 0; }
-
- try catch   Intent  try catch   get_code_line_index   
-
-<281
-private void analyzeMethod(JavaClass javaClass, Method m, ClassContext classContext) throws CFGBuilderException {
-HashMap<String, List<Location>> all_line_location = (HashMap<String, List<Location>>) get_line_location(m, classContext);
-Code code = m.getCode(); StringCodeAnalysis sca = new StringCodeAnalysis(code); String[] codes = sca.codes_String_Array(); int code_length = sca.get_Code_Length(sca.get_First_Code(codes)); int[] exception_scop = sca.getExceptionScope(); for(int i=1; i<codes.length; i++){
-int line_index = sca.get_code_line_index(codes[i]); if (line_index < code_length){
-if(codes[i].toLowerCase().contains("invokevirtual") && (codes[i].contains("android.content.Intent.get")
-|| codes[i].contains("android.os.Bundle.get"))){ if(exception_scop.length == 0){ ...... }else{ boolean is_scope = false; for(int j=0; j<exception_scop.length; j+=2){ int start = exception_scop[j]; int end = exception_scop[j+1]; if(line_index >= start && line_index <= end){ is_scope = true; } if(is_scope){ break; } } if(!is_scope){ String method_name = get_method_
-name(codes[i]); if(all_line_location.containsKey(method_
-name)){ for(Location loc : all_line_location.
-get(method_name)){ bugReporter.reportBug(new
-BugInstance(this, LOCAL_DENIAL_SERVICE_TYPE, Priorities.NORMAL_PRIORITY). addClass(javaClass).addMethod(javaClass, m).addSourceLine(classContext, m, loc));
-} }else {
-bugReporter.reportBug(new BugInstance(this, LOCAL_DENIAL_SERVICE_TYPE, Priorities.NORMAL_PRIORITY). addClass(javaClass).addMethod(javaClass, m));
-} }
-} }
-
-282>2017 
-} } }
-
-3. 
- 
- findbugs.xml
-
-<Detector class="com.h3xstream.findsecbugs.android. LocalDenialOfServiceDetector" reports="LOCAL_DENIAL_SERVICE"/> <BugPattern type="LOCAL_DENIAL_SERVICE" abbrev="SECLDOS" category="Android "cweid="276"/>
-
- Detector BugPattern  "Android " "Android "
- messages.xml  
-
-<Detector class="com.h3xstream.findsecbugs.android.
-
-LocalDenialOfServiceDetector"> <Details>Local Denial of Service.
-
-</Details> </Detector> <BugPattern type="LOCAL_DENIAL_SERVICE">
-
-<ShortDescription>  </ShortDescription> <LongDescription> 
-
-Intent  </LongDescription>
-
-<Details> <![CDATA[
-
-<p>
-
-<b>  :</b><br/>
-
-<pre>
-
-
-
-
-
-</pre>
-
-</p>
-
-<p>
-
-<b>  :</b><br/>
-
-<pre>
-
-bundle.getString(""); //  try/catch
-
-intent.
-
-getStringExtra(""); //  try/catch
-
-</pre>
-
-</p>
-
-<p>
-
-<b>  :</b><br/>
-
-<pre>
-
- Intent 
-
-
-
-try {
-
-bundle.getString("");
-
-intent.getStringExtra("");
-
-}catch (Exception e){}
-
-</
-
-pre>
-
-</p> ]]> </Details> </BugPattern> <BugCode abbrev="SECLDOS"> 
-
- </BugCode>
-
- Maven  FindBugs   JAR 
-
-
-
-<283
-
-4. 
- Android  Android Studio  Code Arbiter  Code Arbiter    Code Arbiter  
-1.  Code Arbiter  Android  2. 
-5. 
-2016  /   Freebuf 
-
-
-
-
-
-O2O     PV  
-
- 4  1. 
-
-<285 2.  3.  4. 
-
-1. 
-   10 
- 0  H5 ""  Native   33    10  0     
-
-286>2017 
-2. ----
-  
-
-<287 """" Push  Push   PV  UV   
-3. 
-  Web  Service Web   MAPI  /   200 Service  
- 
-
-288>2017 
- ----  
- 
-
-<289  " "   Web  MAPI  
- 
-  
-
-290>2017 
-
- 
-  
-
-<291  H5 "" "" 
-  Web  API  API    
-
-292>2017    App Native 
-"" 6  API  3 ---- ---- 
- 3     
- Web    5 
-
-<293
- CAT  Web  CAT   GitHub
- PV  1 3  API  API   API  API  1   5  7 
-
-294>2017  
- PV   17 
- 1 
- DB 
-
-<295
- Web 
-  *   
-
-296>2017 
-
-   PTP 
-
-   
-
-<297
-   30+   
-
-298>2017 
-
- PTP  BETA PPE  BETA  PPE  
-BETA  QA   BETA 
-      JMeter   
-PPE 
-      JMeter    
-       
-
-<299
- PTP  PTP  +  
-PTP  Docker 
-
-300>2017   
-PTP  
-
-<301
- PTP  CPU  
-PTP  BETA PPE 
-
-302>2017 
- 
- ----
-
-
-<303
-         
----- TCPCopy  AB A B   A  TCPCopy  B   A          TCPCopy  40 
- QPS
-
- PTP     JMeter      
-
-304>2017 
- 
-      JMeter 
-     id   ""     A B   
-
-
-
-<305
-
-
- Web   TCPDump      dump 
-
- Web  +   Nginx Access Log    App  Nginx Access Log    token 
-
-306>2017 
-   csv         
-
-<307
-
- ----  ---- 
-
-

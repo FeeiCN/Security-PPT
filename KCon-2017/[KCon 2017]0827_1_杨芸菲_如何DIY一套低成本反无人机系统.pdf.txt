@@ -1,219 +1,0 @@
-qingxp9
-
-whoami
- @qingxp9 360 PegasusTeam 
-WLANWIPS
-
-C-SEC  CCF YOCSEF
-
-""WiFi
-
-
-
-Outline
-   802.11    802.11
-
-
- 
-  
-
-
-
-
-
-
-
-ISIS
-
-
-
-:
-4144278 114 4041  
-
-(AUDS)
-
-AUDS system combines electronic-scanning radar target detection, electrooptical (EO) tracking/classification and directional RF inhibition capability.
-
-
-//
-
- 1.Ku12GHz18GHz
-a. 10KM b. 0.01 c. 
-2. a.  b. 
-3. a.  b. GNSS c. 
-15
-
-         Wi-Fi  RF ...
-
-DroneTracker
-DroneTracker identification and counter-measures platform to defeat drone http://www.dedrone.com/en/dronetracker/drone-protection-software
-
-
-
- 
-
-
-
-GPS
-
-
- 
- 
- 
-288 "   "
-
-802.11
-
-
-
- Wi-Fi 
-
-802.11 Beacon Frame
-Wi-Fi 
-
-802.11 Probe Response Frame
-Wi-Fi 
-
-
-
-OUI 60:60:1f
-60:60:1f e4:12:18
-
-SSID
-
-Drone Model
-
-PHANTOM3_xxxxx x
-
-PHANTOM3
-
-Mavic-xxxxxx
-
-MAVIC
-
-XPLORER_xxxxxx
-
-XPLORER
-
-KONGYING-xxxxxx KONGYING
-
-MiRC-xxxxxx
-
-XiaoMi
-
-OUISSID
-
-
-
-
-
-
-Deauthentication Attack
-
- Dji PHANTOM3
-Dji MAVIC(Wi-Fi)
-XPLORER
-
- 
-
-
-
- Yes
-Yes
-Yes
-
-
-WiFi senior 
-
-
-
-·  · / ·  ·  · 
-
-
-
-
-
-Requiremnts
-Hardware
- Linux host  5G&2.4G Dual Band WiFi module  GPS module
-Software:
- Kismet  Analysis scripts
-Test UAV:
- DJI Phantom 3
-
-Kismet Drone
-#kismet_drone.conf
-servername=Kismet-Drone dronelisten=tcp://<LocalIP>:2502 droneallowedhosts=<ServerIP> ncsource=<Interface>:channellist:IEEE80211b
-
-Kismet Server
-#kismet.conf
-ncsource=drone:host=<DroneIP>,port=2502 #() filter_tracker=BSSID(60:60:1F:00:00:00/FF:FF:FF:00:00:00) ... filter_tracker=BSSID(e4:12:18:00:00:00/FF:FF:FF:00:00:00) logtypes=netxml,pcapdump
-
-Monitoring
-
-Log Analysis
-
-
- ESSID  BSSID      
-
-Log Analysis
-
-
- MAC  OUI
-
-
-
-
-
-
-DEAUTH ATTACKING
-
-DISCONNECTING
-
-Demo
-
-
-·  ·  ·  · WIPSWi-Fi
-
-
-
-·  · Wi-Fi
-  
-
-802.11
-
-
- 802.11
- 
- 
-
- 
-
-
-
-
-802.11Type-Length-Value
-Type0~255
-tag= 0 SSID tag= 1
-
-tag
-
-ECC :Elliptic Curve Cipher ECC RSA
-
-Framebody2312ECC 384*3bit
-
-
-
-
-
-
- ......
-  
-  
-  
-
-
-
-Thank you!
-
-

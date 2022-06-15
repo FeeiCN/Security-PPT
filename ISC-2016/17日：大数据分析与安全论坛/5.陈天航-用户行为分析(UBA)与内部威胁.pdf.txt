@@ -1,109 +1,0 @@
-(UBA)  
-
-VS
-
-
-53%
-:2013 US CERT
-
-
-75%
-:2014 SpectorSoft
-
-
-85%
-:2015 FortScale
-
-
-·  ·  ·  ·  ·  · / · 
-
-UBA
-
- 
-UBA
- 
-
- 
-
-
- UBA
-
-  UBA
-
-  UBA
-
-
- ETL
-
-
- 
-
-:2015 Gartner
-
-UBA VS SOC/SIEM&DLP
-· "" VS  "" ·  VS  ·  VS  · Context VS Content
-
-UBA->-
- Risk Engine
- Abnormal Detection
-
- 
-
- 
-
- Correlation Grouping
-
- Behavior Analysis
-
- Data Enrich
-
- Data Integration
-
-  User Context
-
-UBA->-
-·  · 
- · 
-
-UBA->-Context
-·  ·  ·  ·  · 
-
-UBA->-
-
-UBA->-
-  Rule Filtering 
-
-  Machine Learning 
-
- 
-Statistical Module 
-
-UBA->-
-
-P1
-
-P2 
-
-P3 
-
- Context  
-
-UBA->-
-·  ·  · 
-
-
-
-· DPIIDSDLP · 
-(Signature) · 
-(Snapshot)
-
-Context
-Awareness · UBANBATI  · 
-(Correlations) · 
-(Learning)
-Content
-Awareness ()
-
-
-
-

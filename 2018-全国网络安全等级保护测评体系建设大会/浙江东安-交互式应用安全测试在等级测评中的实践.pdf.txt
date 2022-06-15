@@ -1,244 +1,0 @@
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-  
-
- 
-
-
- IASTInteractive Application Security Testing)-    2012Gartner14  DAST+ (SAST)  agent  
-
-1 
-
-
-
-2 
-
-3 
-
-4 PHP IAST 5  6 
-
-
-  
-
-01
-
- 
-
- 
-
-
-/
-Struts2 Fastjson Thinkphp Discuz Dedecms SQL
- 8.1.4  8.1.4.4  b)  
-
- 
-
-
-
-JAVA order by SQL XXE upload getshell backdoor .....
- 8.1.7  8.1.7.4  e)   8.1.7.5  a)  c)  
-
-
-
-OWASP 2017
-A1 A2
-A3
-A4XML  A5 A6 A7 A8 A9 A10
-
-
-8.1.4.4 8.1.4.1 8.1.4.5 
-8.1.4.7 8.1.4.9 8.1.4.10
-8.1.4.2
-8.1.4.8  8.1.4.4 8.1.4.6 8.1.4.4  8.1.4.3 
-
-02
-
- 
-
-
-DAST Dynamic Application Security Testing
-
-
-
-
-
-
-
-
-
-/
-
-
-
-
-
-
-
-    
-
-    
-
-
-
-
-SAST Static Application Security Testing
-
-
- 
-
- 
- /
-
-
-
-
-
-03
-
-Active IAST Passive IAST
-
-
-
-WEB
-agent
-
-
- Active IAST
-
- Passive IAST
-
-  
-
- agent
-
-
-
-
-
-
-
-
-
-IAST
-
-
-
-  0day
-
- 
-
-  
-
-04
-PHP IAST 
-acusensor Zendtaint
-
- acusensor
-agent php.ini->auto_prepend_file=agent.php
-
- acusensor
-
- Step 01
-
-agent Step 02
-
- Step 03
-
-Hook Step 04
-
-tmpfile Step 05
-
-Step 12 
-
-Step 11 
-
-Step 10 eval
-
-Step 09
-
-Step 08
-
- 
-
- acusensor
-
-Zend taint
-
- hook
-
-
-
-
-
-
-
-
-
-Zend taint
-php.iniextentiontaint.so
-
-05
-
-0day 
-
-
-0day
-
-
-
-01  03 
-
-02 
-IAST 
-
-
- EVAL()    
-
-
-
-01  02 
-
-03  04 
-
-06
-
-SUMMARY
-
-
-
-      
-
- 
-     
-
- 
-     
-
-    
-  
-
-
-        
-
-
- 
- 
- 
-
-
-THANKS
-
-
-
-

@@ -1,252 +1,0 @@
-2 0 1 8
-
-
-
-About Me
-·  · :@_ ·  · Tencent Blade Team
-
-·  · AIIoT · 70+
-
-01
-PART 01
-
-
-
-CONTENTS
-
-02
-PART 02
-
-
-03
-
-04
-
-05
-
-PART 03
-
-
-PART 04
-
-
-PART 05
-
-
-PART 01 
-
-......
-
-
-http://xx.com/t/vWiN39 ----> http://xx.com/t/vWiN40
-
-http://xx.cn/t/vWiN39 http://xx.to/t/vWiN39
-......
-
-
-
-
-
-
-
-
-
-PART 02 
-
-URLURL URLURLURL 
-http://t.cn/h5BBi
- 
-
- 
-
-
-
- URL
-
-URL
-
-URL 
-
- 
-
-
-
-request URL  
-response
-
-
-
- URL
-
-302(1)
-
-request response
-
-URL  
-
-
-
-
-
-
-
-GITHUBstar10 HASH
-  HASH
-
-
-62
-IDID233
- "0123456789abcdefghijklmnopqrstuvwxyz"  233/36=6  233%36= 17  6176h
-xx.xx/6h
-
-
-
-2
- "0123456789abcdefghijklmnopqrstuvwxyz"  35026,17  6176h
-xx.xx/6h
-
-HASH
-idhash 
-IDID=233
-   233sha1 aaccb8bb2b4c442a7c16a9b209c9ff448c6c5f35:2  77aaccb8
-xx.xx/2e8c027
-
-PART 03 
-
-   
-
-request
-
-
-
-
-response
-
-  IP   
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Tipsid87BNwj 87BO8287BOqw87BOGz87BPpD
-
-
- xx.xx/1xx.xx/2   
-http://xx.xx/Abzc4 Abzc4{0-Z}62 ace
-
-HASH&
-HASH&
-
-HASH&
- xx.xxx/1xx.xxx/22  
-http://xxx.xx/Abzc4 Abzc4{0-Z}62 HASH&
-
-TIPS:
-  URL http://xxx.xx/sorry  URL http://xxx.xx/{} URL
-
-:
-
-1 http://xx.xx/auth?contractId=d57f17139247036b72******b5554a830305ec139d
-2 https://xx.xx/get.action?transaction_id=290414****03784&msg_digest=RUQ2MUQ5NjcxQzc5MjcxQ*******4QTExNTZFNjgzQTJENEExQjc5Nw==
-3 https://xx.xx/resetPassword?emailType=RESET_PASSWORD&encryptionEmail=***GHOsR%2FMfiNEv8xOC29.&countersign=eyJhbGciOiJIUzUxMiJ9.eyJBQ lNPTFVURV9FWFBJUkVfVElNRV9NSUxMUyI6IjE1M******zA1OTMxNjU4OTQiLCJORVdfRU1BSUwiOiJ5YW54aXUwNjE0QGdtYWlsLmNvbSIsIlRPS0VOX1RZUEUiOiJSRVN FVF9QQVNTV09SRCIsIkVNQUlMIjoieWFueGl1MDYxNEBnbWFpbC5jb20ifQ
-
-:
-
-1 2 3
-
-PART 04 
-
-   
-
-
-
-
-URL
-
-URL
-
-URL 
-
- 
-
-
-
-request URL  
-response
-
-1SSRF
-
-
-
- URL
-
-URL TITLE
-
-URL 
-
- 
-
-
-
-request URL  
-response
-
-2TITLE XSS
-<img src=x onerror=prompt(1)>* <title><script>alert(1)</script> </title>
-
-
-
- URL
-
-302(1)
-
-request response
-
-URL  
-
-
-
-Rewrite
-
-
-
-
-
-1SQL
-
-PART 05 
-
-
-1IPIP 2 3
-
- 1 2token
-
-
-@Wester
-
-@Mart1n_ZHOU
-
-
-
-
-

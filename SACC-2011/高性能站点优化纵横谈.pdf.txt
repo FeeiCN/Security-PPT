@@ -1,440 +1,0 @@
-  Leader
-SACC2011
-
-
-       Q&A
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-
- 
-       
- 
-     
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-       Q&A
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-       
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
- 
- XYZ  X10ms
-2ms15ms600ms
- 
- Perfmon9:00-10:005  X
-
-   
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-   
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
- 
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-       Q&A
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-     CPU        HTTP
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
- 
-   
- 
- 
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-     
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-SACC2011
-
-
- System Counter  CLR Profiler  ANTS Memory Profiler(Red Gate)
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-System Counter
-SACC2011
-
-CLR Profiler
-SACC2011
-
-ANTS Memory Profiler
-SACC2011
-
-
-   Session    
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-     
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-SACC2011
-
-System Counter
-SACC2011
-
-CPU
- CPU    
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-CPU
-         
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
- System Counter  Visual Studio Performance Profiling  ANTS Performance Profiler  Eqatec Profiler
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-  vs    vs     
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-       IIS  
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-
-Cache Proxy
-
-Cache
-
-Cache
-
-...
-
-Browser
-
-Browser
-
-Server
-ASP.NET
-Data cache Output cache User mode cache Kernel cache
-SACC2011
-
-
-   
-
-SACC2011
-
-
-     
-
-SACC2011
-
-IIS
-
-http.sys
-
-IIS
-
-
-
-IIS ASP.NET
-
- 
-
-
-
-SACC2011
-
-
- 
- 
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-     
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
- DMV+
-SACC2011
-
-
-SACC2011
-
-
-SACC2011
-
-
-
-               CPU
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
- SQL Server Profiler  Database Engine Tuning Advisor  DMV  System Counter
-SACC2011
-
-
-SACC2011
-
-
-SACC2011
-
-
-SACC2011
-
-
-SACC2011
-
-
-SACC2011
-
-HTTP
-     
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
- ViewState    ID  URL  Css,JS
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-   Ajax  
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-   
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
-       Q&A
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-Q&A
-
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-
- www.agilesharp.com  /MSNyangyang4502@yahoo.com.cn
-
-.NET
-
-
-
-SACC2011
-
-www.agilesharp.com
-
-

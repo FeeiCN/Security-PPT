@@ -1,522 +1,0 @@
-2 0 1 8
-360 
-Attacking Kerberos
-n1nty @ 360 A-TEAM
-
-n1nty @ 360 A-TEAM
-
-
-
-
-
-360 A-TEAM
-· 360  ·  Web APT  · 
-
-""
-
-USERNAME/PASSWORD
-
-
-
-
- 
-
-
-
-USER01
-
- 
-kjdfADSF435@#$ASDfd)(  USER01.......
- 
-
-·  · 
-
- 
-
- 
-
-MIT  
-
-·  · ""
-·  · ""
-· Kerberos  · ""
-
-Kerberos Ticket
-
-USER01xxx
-
-Session key
-
- Kerberos 
-
-SMB/SERVER1
-
-
-
-2018-08-24 23:00:00
-
-KDC 
-
-KDC
-
-·  · 
-
-TGT ­  TGS   ­ 
-
-KDC
-
-·  · 
-
-  Kerberos 
- TGT  KDC  
-
-TGT 
-
-KDC
-
-KDC
-
- 
-
-usmsebr0\s1erver1
-
-
-
-user01
-
- user01 smb  
-
-server1
-
-3412, , , , TTAAGGSSSS----RRRREEEEQPQP
-5, AP-REQ 6, AP-REP user01
-
-KDC server1
-
-AS-REQ AS-REP
-user01
-
-KDC
-
-· AS-REQ · " user01 "
-· AS-REP · " user01 TGT Session Key"
-
-authenticator  AS-REQ
-
-AS-REQ AS-REP
-user01
-
-KDC
-
-· AS-REQ · " user01 "
-· AS-REP · " user01 TGT Session Key"
-
- TGT
-
-AS-REP
-
- Session Key
-
-AS-REQ AS-REP
-user01
-
-KDC
-
-· AS-REQ  · " user01 authenticator  TGT"
-· AS-REP · " user01 "
-· KRB-ERROR · PREAUTH-REQUIRED · UNKNOWN-PRINCIPLE
-
-
- AS-REQ  
-AS-REQ
-
- AS-REP 
-KRB-ERRORPREAUTH-REQUIRED
-KRB-ERRORCLIENT-REVOKED KRB-ERRORUNKNOWN-PRINCIPLE
-
-   " Kerberos "
-  " Kerberos "
-  
-
-· AS-REQ KDC · " user01  TGT"
-· AS-REP KDC  · " user01  
-AS-REP TGT  TGT  session key"
-enc-part(session key)  RC4  user01  NT HASH  enc-part  user01 
-
-AS-REQ  
-LDAP 
-
-
-USER01 USER02 USER03
-
-AS-REQ
-
- NT HASH Session Key
-USER01 Session Key
-USER02 Session Key
-USER03 Session Key
-
-·  · 
-
-
-P@ssword 1qazXSW@
-111222
-
- Session Key
-
- NT HASH Session Key
-USER01 Session Key
-USER02 Session Key
-USER03 Session Key
-
-NTLM
-Pass the Hash
-
-KERBEROS Pass the Key
-
-Overpass the Hash  NTLM/Kerberos 
-
-AS-REQ AS-REP
-user01
-
-KDC
-
-· AS-REQ · " user01"
-· AS-REP · " user01 TGT Session Key"
-
-  Key 
-
-AS-REQ AS-REP
-user01
-
-KDC
-
-· AS-REQ · " user01"
-· AS-REP · " user01 TGT Session Key"
-
-
-AES 256 AES 128 RC4 
-
-KEY  AES 256 KEY  AES 128 KEY  NT HASH 
-
-
-
-AS-REQ AS-REP
-user01
-
-KDC
-
-· AS-REQ · " user01"
-· AS-REP · " user01 TGT  Session Key"
-
-· AS-REQ · " user01 RC4  NT HASH  KEYauthenticator"
-· AS-REP · "  RC4  authenticator   RC4  authenticator   user01  NT HASH   Key" · "
-5  user01 TGT Session Key"
-
- Kerberos 
-
-TGS-REQ TGS-REP
-user01
-
-KDC
-
-·  AS-REQ  AS-REP  TGT
-
-· TGS-REQ · " user01 server1  smb   TGT  TGT  Session key"
-· TGS-REP · KDC" TGT   server1  smb service ticket Session Key"
-
- AS-REQ  TGT authenticator
-TGS-REQ
-
-TGS-REQ TGS-REP
-user01
-
-KDC
-
-·  AS-REQ  AS-REP  TGT
-
-· TGS-REQ · " user01 server1  smb   TGT  TGT  Session key"
-· TGS-REP · KDC" TGT   server1  smb service ticket Session Key"
-
-TGS-REP
-
-SPN  https://adsecurity.org/?p=3466
-
- TGT
-
-TGS-REQ TGS-REP
-user01
-·  AS-REQ  AS-REP  TGT
-
-KDC
-
-· TGS-REQ · " user01 server1  smb   TGT  TGT  Session key"
-· TGS-REP · KDC" TGT   server1  smb service ticket Session Key"
-
-KDC  TGT 
-
-TGT
-
- USER01
-
-KRBTGT/EAST 2018-08-
-24 23:00:00
-
-TGT Session key  KDC 
-
-auAthuetnthiceantotr icator
-
- TGS-REQ  KDC  Server1 SMB 
-
-KDC
-
-
-SMB/Server1  Session
-key
-
-TGT
-
- USER01
-
-KRBTGT/EAST 2018-08-
-24 23:00:00
-
-TGT Session key  KDC 
-
-auAthuetnthiceantotr icator
-
- KRBTGT Key
- TGT
-
-KDC
-
-·  TGT  KDC   KRBTGT  Key   TGT 
-·  KRBTGT  Key  TGT
-
-
-SMB/Server1  Session
-key
-
-Service Ticket
-
-USER0S1MB/ServeSre1ssion key
-
- NT HASH
-
-SMB/SERVER1
-2018-0824 23:00:00
-
-KDC 
-
-Session Key
-
-KDC
-
-KERBEROAST - Kerberos 
-
-USER01 TGT
-
-MSSQL/SERVER 1 TICKET
-
-HTTP/SERVER2 TICKET
-
-KMC/SERVER3 TICKET
-
-SPN   Kerberos 
-MSSQL/SERVER1
-HTTP/SERVER2
-KMC/SERVER3
-
-USER01 TGT
-
-MSSQL/SERVER 1 TICKET
-
-HTTP/SERVER2 TICKET
-
-KMC/SERVER3 TICKET
-
-
-
- 
- 
-
-
-
-AP-REQ
-
-user01
-
-CIFS/SERVER1
-
-·  AS-REQ & AS-REP  TGT ·  TGS-REQ & TGS-REP  Service ticket
-1. AP-REQ · " user01 smb  service ticket Session Key"
-2. AP-REP · SMB "  user01 "
-
-SMB 
-
-SERVICE TICKET
-
- SERVICE USER01
-
-Session key
-
-TICKET 
-CIFS/SERVER1
-2018-0824 23:00:00
-
-
-KDC 
-
-auAthuetnthiceantotr icator
-
- AP-REQ  Server1 SMB 
-
-Server1
-
-
-
-SERVICE TICKET
-
- SERVICE USER01
-
-Session key
-
-TICKET 
-CIFS/SERVER1
-2018-0824 23:00:00
-
-
-KDC 
-
-auAthuetnthiceantotr icator
-
-
-Key  Service
-Ticket
-
-Server1
-
-·  Service ticket   Key  Service ticket 
-·  " Key"  Service ticket
-
- KRBTGT KEY    Kerberos 
-GOLDEN TICKET
-
-  KEY 
-""
-SILVER TICKET
-
-GET /A.TXT
-USER01
-
-Delegation/ 
-IIS
-
-DATABASE
-
-USER01IIS
-
-GET /A.TXT
-USER01
-
-Delegation/ 
-IIS
-
-DATABASE
-
-
-
-SERVER03
-
-SERVER02
-
-GET /A.TXT
-USER01
-
-
-IIS
-
-HTTP GET /A.TXT
-USER01 TGT
-USER02 TGT AP-REQ
-
-USER03 TGT
-
-IIS Service Ticket
-
-Administrator TGT
-USER01 TGT.
-
- TGT
-
-GET /A.TXT
-USER01
-
-Delegation/ 
-IIS
-
-
-
-SERVER03
-
-DATABASE SERVER02
-
- KRBTGT KEY 
-
-
-
-  Kerberos 
-
- GOLDEN TICKET
-
-S4U2Self S4U2Proxy
-
-
-·  Administrator 
-
-TGS   "TGT"
-
-AASd-mREinQistrator
-
-ATEAM/TESTSERVICE
-
-AS-REP
-
-·  UStiEckRe0t 10 
-
- 
-
-Administrator
- USTEGRT01 S4U2Self
-
-TTGGTSStG-i-cSRRk-EeERtQEPTQ1GSti-cRkeEtP2
-
-KDC
-
- TGS  S4U2Proxy
-
- USER01   TGTticket 0
- USER01  TGT TGS-REQ S4U2Self   Administrator   ATEAM/TESTSERVICE 
-ticket 1
- USER01  TGT TGS-REQ  S4U2Proxy 
- ticket 1 Administrator 
- TGS ticket 2
-
- 
- Kerberos   KRBTGT KEY
- TGT 
-GOLDEN TICKET
-
- 
- Kerberos   S4U2SELF + S4U2PROXY  TGT
-GOLDEN TICKET
-
-
-
-n1nty
-
-@
-
-360 A-TEAM
-
-

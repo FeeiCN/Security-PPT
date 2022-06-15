@@ -1,175 +1,0 @@
-
-
-
-
- 
-
-
-/32% | 31% | 28% | 27% | 26% | 24% | 23% | 19% | 18% | /25%
-Linkedin2016
-
-
-Linkedin2016
-
-
-23% | 20% | 18% | 18% | 17% | 15% | 14% | /13% | 13% | 12% | 10% | 9% | //7% | 7% | 6% | 5% | /10%
-Linkedin2016
-
-
-· 
-­  ­ 
-· 
-­  ­ 
-· 
-­  
-·  ·  · 
-
-
-/
-­  
-­  
-­  
-· / 
-­  
-­ 
-
-
-/
-­  
-­  
-­  
-­  ­ 
-
-
-·  
-·   
-·  ­  ­ 
-· Hypervisor  ­ Hypervisor ­ Hypervisor
-
- ­ IaaS
-Infrastructure as a Service
-
-  
- 
-
- 
-
-
-· Virtual · 
-
-
- ­ SaaSPaaS
-
- 
- 
-   Software As A Service Platform As A Service 
-
-
-· 
-­ Web ­  ­  ­ IT ­  ­ / ­ & ­ HR ­ / ­ // ­  ­  ­  ­...
-
-
-
-
-
-Linkedin2016
-
- ­ TestCloud
-
- ­ TestCloud
-·  
-·  ·  ·  ·  ·  ·  ·  · 
-
-
-
-
-
-
-
-/API
-
-
-
-33% | 32% | 31% 30% | 25% | 24% | 18% | -16% | 15% | 12% | 5% | /9%
-Linkedin2016
-
-
-· DDoS
-­ Volumetric DDoSDDoS DDoSDDoS...
-­ ARPFlood, TearDrop, SYN Flood, UDP Flood, XmasTree, R.U.D.Y., HTTP GET Floods...
-·  SQL
-·   · APT · Fuzzing ·  ·  · HTTPs · 
-
-
-
-· PASS
-
-­ Performance
-
-­ Availability
-
-­ Security
-
-­ Scalability
-
-­ Hypervisor
-
-· 
-
-­ /
-
-­ /
-
-­ 
-
-­ 
-
-­ 
-
-Avalanche CyberFlood 
-
-Virtual
-
-Virtual CyberFlood
-
-
-· Virtual
-­ VMware ESXi
-· Virtual Anywhere
-­ Linux ­ Red Hat Linux
-· Red Hat ESFedoraCentOS
-­ LinuxHypervisor
-· VMware ESXi · KVM · QEMU · Xen · HyperV
-· CyberFlood
-­ Amazon AWSMicrosoft Azure...
-
- ­ SecurityLabs
-·   
-·  · 
-  
-
-
- (60)
- ()
-
-
-
-
-
-
-
-
-
-
-
-
-· 
-­  ­  ­ IaaSPaaSSaaS
-· 
-­  ­  ­ 
-· 
-­ DDoS... ­ 
-
-
-
-

@@ -1,95 +1,0 @@
-
- -- 
-
-
-·  · 
-
-
-·  · 
-
-
-·  ·  · puppetsalt · 
-
-
-·  ·  · 
-
-
-· xenkvm ...... · openstackXenServer ...... · lxc · AWSAzure ......
-
-PaaS
-·  ·  ...... ·  ......
-
-PaaS
-· google GFS chunk server · hadoop map-reduce · redis · GAESAE
-
-
-· Docker · CoreOS · Kubernetes · fleet · etcd · Rudder · mesos · ............
-
-Micro-Services
-·  ·  ·  ·  · 
-
-CoreOS
-
-CoreOS
-· linux ·  ·  · Docker · 
-
-Docker
-
-Docker
-· CPU ·  ·  · 
-
-etcd
-· key-value ·  · 
-
-etcd
-
-fleet
-
-fleet
-· docker ·  · 
-
-fleet
-
-fleet
-· MachineID · MachineOf · MachineMetadata · Conflicts
-
-Kubernetes
-
-· 
-
-[koo-ber-nay'-tace]
-
-· 
-
-· 
-
-· 
-
-· 
-
-· 
-
-· ............
-
-Kubernetes
-
-service
-
-pod
-
-replication
-
-
-DEVCIQABI ......
-
-
-
-
-
-  
-
-Q & A
-!
-http://qiniu.com hantuo@qiniu.com
-
-

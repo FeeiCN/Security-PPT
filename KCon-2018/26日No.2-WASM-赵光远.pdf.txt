@@ -1,116 +1,0 @@
-2 0 1 8
- NSFOCUS
-WASM--
-
-
-01
-PART 01
-WASM
-
-
-CONTENTS
-
-02
-PART 02
-Compile
-
-03
-PART 03
-
-
-04
-PART 04
-
-
-PART 01
-WASM
-
-· 
-· js · () · CPUGPU
-· 
-· 3D ·  · // · () · ....
-
-· 
-
-· WebAssembly(WASM)
-· 
-· C/C++/Rust · C/C++ · Write Once,Run anywhere · JVM · DomI/O · WebSocket · binaryen-shellJavaScript · JavaScript
-
-·  int add(int num) {
-return num+10; } 00 61 73 6D 0D 00 00 00 01 86 80 80 80 00 01 60 01 7F 01 7F 03 82 80 80 80 00 01 00 04 84 80 80 80 00 01 70 00 00 05 83 80 80 80 00 01 00 01 06 81 80 80 80 00 00 07 96 80 80 80 00 02 06 6D 65 6D 6F 72 79 02 00 09 5F 5A 35 61 64 64 34 32 69 00 00 0A 8D 80 80 80 00 01 87 80 80 80 00 00 20 00 41 0A 6A 0B
-
-get_local 0 i32.const 10 i32.add
-
-PART 02
-
-
-C/C++
-Emscripten
-
-LLVM IR
-
-asm2wasm
-
-ASM.js
-
-TextFormat .wat
-
-Emscripten
-
-BinaryFormat .wasm
-
-
-BinaryFormat .wasm
-
-WASM2C
-
-C/C++
-
-· ()
-· type · function · code
-· Type()
-· int
-· i32 · i64
-· float
-· f32 · F64
-· functype
-
-· wasm
-
-· 0x0 flag · 0x4 magic · 0x8 section_id · 0x9 length · 0xA type · 0xB function type start · 0xC val:type · 0xE val:type · ......
-
-PART 03
-
-
-· JavaScriptcoinhiveAPI
-· JavaScriptwasmwasm JavaScript
-· 
-
-PART 04
-
-
-· wasmJavaScriptwasm wasm
-· wasmJVMJavaScriptJavaScriptWASM 
-· wasmJavaScript · WAFwasm · wasmJVMC/C++wasmwasm
-
-
-
- 
-
- webbytecode
-
-
- WAF  
-
-
-WASM 
-
-wasm  
-
-
-· https://github.com/WebAssembly · https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/ · https://webassembly.github.io/spec/core/
-
-
-
-
-

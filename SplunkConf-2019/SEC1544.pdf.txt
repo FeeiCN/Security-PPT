@@ -1,473 +1,0 @@
-Enterprise Security Biology III:
-Incident Review Framework
-John Stoner | Principal Security Strategist
-October 2019
-
-© 2019 SPLUNK INC. © 2019 SPLUNK INC.
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information.We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information aboutour roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries.All other brand names,productnames, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-© 2019 SPLUNK INC.
-John Stoner
-Principal Security Strategist @stonerpsu
-20+ years kicking around databases, ISPs and cyber 4.5 years at Splunk Creator of SA-Investigator Co-editor and author Hunting with Splunk: The Basics blogs Assist in steering the BOTS ship Developed APT Scenario for BOTS IV Develop workshops on hunting and investigating with Splunk
-
-Agenda
-Incident Management Framework
-Enterprise Security Frameworks Correlation Searches Notables Incident Review Event Sequencing & Audit
-
-© 2019 SPLUNK INC.
-
-Enterprise Security Frameworks
-
-© 2019 SPLUNK INC.
-
-Threat Intelligence
-
-Incident Management
-
-Asset & Identity
-
-Risk
-
-Adaptive
-
-Response
-
-Incident Management aka Notable Event Framework
-
-© 2019 SPLUNK INC.
-
-Central to Enterprise Security
-Threat Intelligence
-
-Adaptive Response
-
-Incident Management
-
-Asset & Identity
-
-Risk
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Why Should I Care About IM Framework?
-Practical Application of Context
-
-Our Goal Today?
-
-© 2019 SPLUNK INC.
-
-Better understand how Splunk processes notable events in Enterprise Security
-
-Insert Woman's World Cup Highlight Reel Goal
-
-Better Insight = Better Understanding = Better Troubleshooting = More Effective Use
-
-Notable Event Framework
-http://dev.splunk.com/view/enterprise-security/SP-CAAAFA9
-
-© 2019 SPLUNK INC.
-
-Notable Event Framework //....//ssaavveeddsseeaarrcchheess..ccoonnff
-
-DA-ESS-AccessProtection
-
-SA-AccessProtection
-
-DA-ESS-EndpointProtection
-
-SA-AuditAndDataProtection
-
-Enterprise Security
-
-DA-ESS-IdentityManagement
-DA-ESS-NetworkProtection
-DA-ESS-ThreatIntelligence DA-ESS-ContentUpdate (ES Content Updates) Other Apps
-
-SA-EndpointProtection SA-IdentityManagement SA-NetworkProtection SA-ThreatIntelligence
-SA-UEBA
-
-correlationsearches_lookup
-reviewstatuses_lookup
-notable_owners_lookup user_realnames_lookup incident_review_lookup incident_review_comment_lo
-okup
-
-Incident Management Data
-Model
-
-index=Notable
-
-log_review.conf
-
-Incident Review
-
-© 2019 SPLUNK INC.
-Adaptive Response Action
-Other Actions (Risk, Phantom,
-Cisco)
-
-Why This Presentation...
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Correlation Searches
-
-Notable Event Framework
-
-Enterprise Security
-
-/../savedsearches.conf
-
-DA-ESS-AccessProtection
-DA-ESS-EndpointProtection DA-ESS-IdentityManagement DA-ESS-NetworkProtection
-DA-ESS-ThreatIntelligence DA-ESS-ContentUpdate (ES Content Updates) Other Apps
-
-SA-AccessProtection SA-AuditAndDataProtection
-SA-EndpointProtection SA-IdentityManagement SA-NetworkProtection SA-ThreatIntelligence
-SA-UEBA
-
-correlationsearches_lookup
-reviewstatuses_lookup
-notable_owners_lookup user_realnames_lookup incident_review_lookup incident_review_comment_lo
-okup
-
-Incident Management Data
-Model
-
-index=Notable
-
-© 2019 SPLUNK INC.
-Adaptive Response Action
-Other Actions (Risk, Phantom,
-Cisco)
-
-© 2019 SPLUNK INC.
-savedsearches.conf v. correlationsearches.conf
-correlationsearches.conf was deprecated in ES4.6 confcheck_es_correlationmigration.py
-Threat - Correlation Searches - Lookup Gen
-All searches including correlation are found in savedsearches.conf
-· action.correlationsearch.enabled=1
-
-© 2019 SPLUNK INC.
-disabled = 0 realtime_schedule = 0
-
-Guided Search Briefly
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Content Management
-Statistics
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Responses ­ Notables
-
-Notable Event Framework
-
-Enterprise Security
-
-correlationsearches_lookup
-reviewstatuses_lookup
-notable_owners_lookup user_realnames_lookup incident_review_lookup incident_review_comment_lo
-okup
-
-Incident Management Data
-Model
-
-index=Notable
-
-© 2019 SPLUNK INC.
-
-Incident Management Data Model
-Events
-· Notable Events (Metadata Only) Searches · Notable Events · Suppressed Notable Events · Incident Review · Correlation Search Lookups
-­ Correlation Searches ­ Notable Owners ­ Review Statuses ­ Security Domains ­ Urgencies
-· Notable Event Suppressions
-­ Suppression Audit ­ Expired Suppressions ­ Suppression Eventtypes
-
-© 2019 SPLUNK INC.
-
-index=notable
-| from datamodel:"Incident_Management.Notable_Events"
-`notable`
-
-© 2019 SPLUNK INC.
-
-Incident Review
-| from datamodel:"Incident_Management.Incident_Review"
-| `incident_review`
-
-Incident Review
-`notable`
-
-© 2019 SPLUNK INC.
-|`incident_review`
-
-Another Example
-Detect New Local Admin Account - Notable
-<snip>
-
-© 2019 SPLUNK INC.
-
-`notable`
-
-© 2019 SPLUNK INC.
-|`incident_review`
-
-© 2019 SPLUNK INC.
-Incident Review
-
-Notable Event Framework
-/../savedsearches.conf
-Enterprise Security
-
-correlationsearches_lookup
-reviewstatuses_lookup
-notable_owners_lookup user_realnames_lookup incident_review_lookup incident_review_comment_lo
-okup
-
-Incident Management Data
-Model
-log_review.conf
-
-Incident Review
-
-© 2019 SPLUNK INC.
-
-Urgency Calculation
-
-© 2019 SPLUNK INC.
-
-Customizing Incident Review - log_review.conf © 2019 SPLUNK INC.
-
-Customizing Incident Review
-Config -> Incident Management -> Incident Review Settings
-
-© 2019 SPLUNK INC.
-
-Adding Fields to Incident Review
-
-© 2019 SPLUNK INC.
-
-Correlation Search Example
-Process Execution via WMI
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Notable Event Suppression
-Incident Review & Configure -> Notable Event Suppressions
-
-© 2019 SPLUNK INC.
-
-Notable Event Suppression
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Event Sequencing and Audit
-
-© 2019 SPLUNK INC.
-Event Sequencing
-Group correlation searches into batches of events, either in a specific sequence, by specific attributes, or both The Event Sequencing Engine runs as a indexed real-time search and listens for incoming notable events and risk modifiers that are triggered by correlation searches Stored in the sequence_templates.conf file
-
-Initial Configuration
-Requires the edit_sequence_template capability
-· ES assigns the capability to the ess_admin role
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Testing Your Event Templates
-`execute_sequence_template(template_name, false)`
-
-© 2019 SPLUNK INC.
-
-Incident Review Audit
-
-© 2019 SPLUNK INC.
-
-Suppression Audit
-
-© 2019 SPLUNK INC.
-
-Notable Event Framework
-/../savedsearches.conf
-
-Enterprise Security
-
-DA-ESS-AccessProtection
-DA-ESS-EndpointProtection DA-ESS-IdentityManagement DA-ESS-NetworkProtection
-DA-ESS-ThreatIntelligence DA-ESS-ContentUpdate (ES Content Updates) Other Apps
-
-SA-AccessProtection SA-AuditAndDataProtection
-SA-EndpointProtection SA-IdentityManagement SA-NetworkProtection SA-ThreatIntelligence
-SA-UEBA
-
-correlationsearches_lookup
-reviewstatuses_lookup
-notable_owners_lookup user_realnames_lookup incident_review_lookup incident_review_comment_lo
-okup
-
-Incident Management Data
-Model
-
-index=Notable
-
-log_review.conf
-
-Incident Review
-
-© 2019 SPLUNK INC.
-Adaptive Response Action
-Other Actions (Risk, Phantom,
-Cisco)
-
-Helpful Links
-Splunk Security Essentials ­ More Ideas for Correlation Searches
-· https://splunkbase.splunk.com/app/3435/
-ES Content Update
-· https://splunkbase.splunk.com/app/3449/
-Tutorial ­ Create a Correlation Search
-· https://docs.splunk.com/Documentation/ES/5.3.1/Tutorials/CorrelationSearch
-Incident Management/Notable Event Framework
-· http://dev.splunk.com/view/enterprise-security/SP-CAAAFA9
-Enhancing Incident Review
-· http://www.georgestarcher.com/splunk-enterprise-security-enhancing-incident-review/
-Upgrades after 4.5 ­ Saved Search v Correlation Search
-· https://docs.splunk.com/Documentation/ES/5.3.1/Admin/Upgradecorrelationsearches
-Modifying the Incident Review Page
-· https://www.splunk.com/blog/2019/02/15/modifying-the-incident-review-page.html
-
-© 2019 SPLUNK INC.
-
-Closing Thoughts
-
-© 2019 SPLUNK INC.
-1. Incident Management Framework drives
-Notable Events
-2. Good Deal of Flexibility to Handle How
-You Deal with Different Notables and What The Analyst Sees
-3. Ensure your notables are high fidelity
-before leveraging event sequencing
-4. Suppression provides a trackable method
-to handle noisy notables but action is required!
-
-© 2019 SPLUNK INC.
-Thank You!
-Go to the .conf19 mobile app to
-RATE THIS SESSION
-
-© 2019 SPLUNK INC.
-Appendix
-Correlation Search Mapping to .conf file
-
-action.correlationsearch.label request.ui_dispatch_app description
-search
-
-© 2019 SPLUNK INC.
-
-action.escu = 0
-
-© 2019 SPLUNK INC.
-
-action.escu.enabled = 1
-
-action.escu.creation_date = 2018-03-26
-
-action.escu.modification_date = 2018-03-26
-
-action.escu.asset_at_risk = Windows
-
-action.escu.channel = ESCU
-
-action.escu.confidence = medium
-
-action.escu.eli5 = This search looks for Windows Event Code 4720 (account
-
-creation) and 4732 (account added to a security-enabled <snip>
-
-action.escu.how_to_implement = You must be ingesting Windows Security logs.
-
-You must also enable the account change auditing <snip>
-
-action.escu.full_search_name = ESCU - Detect New Local Admin account
-
-action.escu.mappings = {"mitre_attack": ["Valid Accounts", "Defense Evasion",
-
-"Persistence"], "kill_chain_phases": ["Actions on Object
-
-ives", "Command and Control"], "cis20": ["CIS 16"], "nist": ["PR.AC", "DE.CM"]}
-
-action.escu.known_false_positives = The activity may be legitimate. <snip>
-
-action.escu.search_type = detection
-
-action.escu.providing_technologies = ["Microsoft Windows"]
-
-action.escu.analytic_story = ["DHS Report TA18 -074A"]
-
-dispatch.earliest_time = -1440m@m dispatch.latest_time = -5m@m cron_schedule = 0 9 * * *
-schedule_window = auto schedule_priority = higher
-
-© 2019 SPLUNK INC.
-
-counttype = number of events relation = greater than quantity = 0
-alert.suppress = 1 alert.suppress.period = 86400s
-alert.suppress.fields = user
-action.notable = 1 action.makestreams.param.verbose = 0 action.nbtstat.param.verbose = 0 action.notable.param.verbose = 0 action.nslookup.param.verbose = 0 action.ping.param.verbose = 0 action.send2uba.param.verbose = 0 action.threat_add.param.verbose = 0
-
-© 2019 SPLUNK INC.
-
-action.risk = 1 action.risk.param._risk_score = 40 action.risk.param._risk_object = user action.risk.param._risk_object_type = system action.risk.param.verbose = 0
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-action.notable.param.rule_title = New local admin account $user$ created by $src_user$. action.notable.param.rule_description = The new user account $user$ was created on $dest$ by $src_user$. action.notable.param.security_domain = access action.notable.param.severity = medium action.notable.param.default_owner = abluebird action.notable.param.default_status = 2
-
-action.notable.param.drilldown_name = View All Loc©a2l0 Admin 19 SPLU N K I N C . Accounts
-action.notable.param.drilldown_search = sourcetype=wineventlog:security (EventCode=4732 Group_Name= Administrators) | table _time user dest EventCode Security_ID Group_Name src_user Message
-action.notable.param.drilldown_earliest_offset = 86400 action.notable.param.drilldown_latest_offset = 21600
-action.notable.param.investigation_profiles = {"profile://Admin Issues":{}}
-action.notable.param.extract_assets = ["src","dest","dvc","orig_host"]
-action.notable.param.extract_identities = ["src_user","user"]
-
-© 2019 SPLUNK INC.
-action.notable.param.next_steps = {"version":1,"data":"Recommended following steps:\n\n1. [[action|escu_contextualize]]: Based on ESCU context gathering recommendationsect:\n ESCU - Get Authentication Logs For Endpoint\n <snip>
-action.notable.param.recommended_actions = escu_contextualize,escu_investigate,runphantompla ybook
-
-action.notable.param.next_steps = {"version":1,"data":"Recommended following steps:\n\n1. [[action|escu_contextualize]]: Based on ESCU context gathering recommendationsect:\n <snip> - ESCU - Get Risk Modifiers For User\n - ESCU - Get User Information from Identity Table\n\n2. [[action|escu_investigate]]: Based on ESCU investigate recommendations:\n - ESCU Get Parent Process Info\n - ESCU - Get Process Info\n"}
-
-© 2019 SPLUNK INC.
-
-

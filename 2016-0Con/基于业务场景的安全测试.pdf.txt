@@ -1,87 +1,0 @@
-
-
-
-
-
-About me
- ID      
-
- SQL  SQL    
-
-
-
-1.0
-
- 
-
-2.0
-
- 
-
-3.0
-
- 
-
-1.0 
-       
-
-2.0 
-   WAFIPS  
-      
-
-3.0 
-      
-
-3.0 
-     
-
- 
-
-vs
-
-
-
-
-
- 
-
-
-
-1.  2.  3.  4. 
-
-
-
- 
-
-
-
- 
-
-
-......
-
-
-
-
-
-O2O 
-session 
- 
-2016/4/24
-
-
-APP/ HMAC  APP 1.IDIDID 2.IDIDID
-
-
-
- ID
-ID   ID
-
-
-
-
- 
-
-Thank You
-
-

@@ -1,177 +1,0 @@
-360 
-360 
-
-
-""
- 
- 
-
-
-
-
-
-IDC  
-
-
-  
-
-
-OS    
-
-
-
-
-+
-
-Nagios Puppet Zookeeper
-
-Cacti Salt Kafka
-
-Zabbix QYUM Scribe
-
-
-  IO  ?
-
- 
-
-
- 
-
-
- ~~~
-         
-
--""
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  IP
- WEB RDB NoSQL
-&&
-
- 
-""   
-
-
-
-IP
-
-
-
-
-
-
-
-
-
-
-
-UA 
-
-
-WEB 
-NoSQL 
- 
-
-RDB 
- 
- 
-
-ID 
-
-
-
-  
-
-
-
-
-
-
-
-PK
-
-
-
-G
- 
-
-
- 
- 
- 
-
-
-
-
-  
-
-
-
-
-
-
-
- DBA 
-
-
- 
- "" 
-
-WEB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-"" 
-
-
-
-Thanks!
-
-

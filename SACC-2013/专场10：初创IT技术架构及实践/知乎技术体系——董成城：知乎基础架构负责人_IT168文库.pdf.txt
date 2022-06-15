@@ -1,144 +1,0 @@
-SACC2013
-
- dcc@zhihu.com
-
-?
-
-SACC2013
-
-   
-
-?
-
-SACC2013
-
-  
-
-SACC2013
-RPCwish
-what? protobufthrift
-why? thrift protobufrpc
- how?
-
-package calc;
-message CalcRequest { required int32 a = 1; required int32 b = 2;
-}
-message CalcResponse { required int32 c = 1;
-}
-service Simple { rpc Plus (CalcRequest) returns (CalcResponse) { option (cache) = false; } rpc Minus (CalcRequest) returns (CalcResponse);
-}
-service Advanced { rpc Multiply (CalcRequest) returns (CalcResponse) { option (cache) = true; option (expire) = 3600; option (compress) = true; option (timestamped) = true; option (timestamped_fields) = "a:b"; } rpc Divide (CalcRequest) returns (CalcResponse);
-}
-
-SACC2013
-
-SACC2013
-RPCwishsnow
- > wish a python client of calc python setup.py sdist upload
- > wish a python server of calc python bootstrap.py && ./bin/buildout  ./bin/calc-server
-
-SACC2013
-kids
-what? pub/sub
-why? scribe java redis
-how? c++ redis scribe
-
-agent
-log { level info; file /data/log/kids/kids.log;
-}
-# for agent listen {
-host 127.0.0.1; port 3388; }
-store buffer { store network primary { host kids; port 3388; } store file secondary { path /data/data/kidsbuf; rotate 5min; }
-}
-
-server SACC2013
-nlimit pubsub 32MB 16MB 10min;
-log { level info; file /data/log/kids.log;
-}
-listen { port 3388; socket /var/run/kids.sock;
-}
-# for server store file {
-path /data/logs/[topic]/[date]; name [time].log; rotate 1hour; }
-
-SACC2013
-kids explorer
-
-SACC2013
-sink
-what? pub/sub
-why? amqp
- kids how? c sqlitesession redis
-
-SACC2013
-beanstalk
-why? celerygearman
-how? miller sinkkids
-
-
-#!/usr/bin/env python # -*- coding: utf-8 -*-
-@on('activity.INVITE', 'zhihu') def send_invitation_mail(event, data):
-data = json.loads(data) member_id = int(data['MemberId']) ....
-
-SACC2013
-
-bin/miller_master -c production.ini bin/bin/miller_slave -c production.ini --miller-beanstalk-tubes zhihu
-
-
-
-SACC2013
-
-  
-
-
-
-SACC2013
-
-git + marvinfabric  
-Heroin  
-
-SACC2013
-
-SACC2013
-
-pypideb fpm puppet
-
-?
-
-SACC2013
-
-  
-
-
-statsd(statsite) 
-collectd 
-kids 
- 
-
-SACC2013
-
-
-
-SACC2013
-
-graphite
- Descartes
-graphite
-
-
-
-SACC2013
-
-nagios  supervisor graphite
- 
-
-SACC2013
-
-
-     
-
-SACC2013
-
-SACC2013
-Thanks! & QA
-
-

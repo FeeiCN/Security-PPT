@@ -1,149 +1,0 @@
-
-
-About me
-  ISMS,  ERP SAP netweaverORACLE PeoplesoftERP   SDLCSSECMMOWASP   QQ:441303228 Mail:cnbird1999@163.com
-
-    
-
-
-
-
-  542 : 1. XSS 2.  3.  4. SQL 5. 
-
-
- Django  Cacti 0day  Freenas   Hudson  Squid   Beanshell  Exchange  
-
-
- Struts   XSS   SQL       Thinkphp,zend framework
-   Web services  XML  
-
-    
-
-struts
-JAVASSH Struts?
-
-Struts
- struts??  DEMO Struts
-
-thinkphp,zend framework
- 
-
-thinkphp,zend framework
- Zend framework 
- :   1.  2.  3. HTTP 4. 
-
-squid
- SquidACL?
-
-squid
- DEMO SQUID ACLF5
-
-cacti 0day
- cacti? 1. ARP 2.  3. 
-
-cacti 0day DEMO
- DEMO Cacti 0day
-
-nagios
-
-nagios
- ,!
-
-ganglia
-
-zabbix
-
-hudson
-1. Build a maven2 project 2.buildexecute windows shellexecute shell 3.build now 4.http://ip:8080/builds console
-
-jboss
- Jboss  Jboss  Jboss /invoker/JMXInvokerServlet
-
-websphere
-
-glassfish
-
-weblogic
- Weblogic console  Weblogic node manager 1.5556SSL ncat --ssl ip 5556 HELLO +OK Node manager v10.3 started 2.domain DOMAIN my_domain \\ip\c$ +OK Current domain set to 'my_domain' 3. USER weblogic PASS weblogic 4. EXECSCRIPT 1.sh
-
-jetty
-
-
- IIS 6.0   Nginx
-
-IIS 
- IIS :6
-
-rsync,nfs
- CMS CMShtmlRSYNCNAS
- NFSERP NFS DEMO
-
-puppet
- Puppet node manager
-
-iis
-
-F5
- 
-
-vmware vcenter
-
-memcached
- Memcached
-
-oracle
- 2012ORACLESOX : http://down.51cto.com/data/391505
-
-
- OWASP TOP10 1. sql 2. XSS 3.  4.  5. CSRF 6.  7.  8. URL 9.  10. 
-
-    
-
-
-        
-
--
-  1.  2. ITIL 3.  4. 
-  1. ITIL 2. ISO 27002 3. CCE  4. CVE 5. CEE
-
--
-  1.  2.  3. QOSDDOS 4. OSPF,DHCP,STP,VTP,BGP 5. IDSIPS
-  1. CISCO SAFE
-
--
-  1.  2.  3. 
-  1. OWASP CLASP 2. SDLC 3. OWASP 4. OPENSAMM 5. BSIMM
-
--
-   WEB  
-  1. ISSAF 2. OSSTMM 3. OWASP TESTING GUIDE
-
-    
-
-Web services
- SOAP web services  XML XXE
-
-SSRF
-ERPXXE web servicesERP
-
-ERP
- ORACLE peoplesoft 1.  2. ORACLE ERP 3. ORACLE ERP 4. ORACLE ERP iscript 5. ORACLE ERP  6. ORACLE ERP
-
-ERP
- SAP
-
-
- Hadoop  openstack
-
-
- Spring  Struts  Zend framework  Hibernate  Ibatis
-
-NOSQL
- Mongodb  Cassandra  Redis  CouchDB  HBASE
-
-
- NIST 800-53   18336 CC
-
-Q&A
-
-

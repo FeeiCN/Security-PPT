@@ -1,203 +1,0 @@
-How to create a successful open source project.
-Hangzhou, China, 2013
-
- 
-
-Erich S. Raymond & Linus Torvalds
-"  "
-Linus Thorvalds 
-" "
-
-
-     
-
-   MySQL  MariaDB .
-
-
- / >  (MySQL/PHP) > (LINUX)
-   (Netscape)
- .  .
-
-
-  .
-    .  .
-  .
-
-
- . >  !
-  . > Sourceforge, Github  Launchpad  .
-  . > !
-
-  !  ():
->  () > , , bug .
->  & 
-> , , ()
->   github  launchpad    Open Build Service  ,  
-
-
-  (Linux)   (MariaDB / PostgreSQL) .
- .
- "" .
-  .
- .  .
-
-
-
-  (, ,  ).
-  .  .  .  .  / review .  .   bug .
-!
-
-
- .  
-.  !  .  ''  .
-,  
-
-
-  -    (bug 
-, , )  (, 
-)  .  .
-> .
- , .
- - 
-
-!
-  - ,  + .  , ,  bug 
-. > 
- .
-  .
- (Sourceforge, Launchpad )  .
-
-
-.
- .
-
-
- . >  .
-­ Linux, PHP, Apache, MariaDB  .   .
-> ( ). ­ MySQL, JBoss, Wordpress, 
-
-
-  ("")?  ? 
- ()?  ?
-> ?  
-?  ?
-> ,  '' .
-
-?
- 
->  () >  2 x 
- 
-> ,  (SAAS), 
->  10 x + X * 
-
-
- 
-> / > 
- 
->  >  ( 6 
-)
-  ()
->  > , 
- 
-
-?
-  ()  ()   bug ()  ''  (
-)  , 
- .
-   bug , 
-.
-
-
-   .  :
->  >  >  
-    
-
-
-   
-bug .     (, ) 
-.
-
-/
-
-  (, )
-> Facebook, Google
-
-> , 
-
-
-
-
-
-  ().
-
-
-
-; !
-
- It's in your interest to collaborate with the original community for long term sustainability
-> !
-
-?
- 
-,.
-,  , 
-   
-
-?
- :
- ? > ,   ?
- ?
- ?
-
- ()
- Public domain > ,  .
- BSD/Apache > , .
- LGPL > ,   LGP 
- GPL > , ,   GPL 
- AGPL (Optional addition to GPL V3) > ,  (  web server).
-
-
- Open-Core  -   ( SugarCRM)
- Dual Licensing Model()- / GPL  ( MySQL) >  "" 
- Services Models() -  . 
-  ( )
- (FSF, MariaDB )
-
-Open Core
- .   Oracle  MySQL  EnterpriseDB 
-PostgreSQL   , 
-: > , , port 
-> 
- ,  .
-"" 
-
-
-Ghostscript . MySQL .  . ,  GPL 
-.  GPL (
-) . , , 
-.
-
-
- , .  , , &, 
-  X /. 
-    Open Core ""  .
-
-
-  http://timreview.ca/article/691   http://monty-says.blogspot.com/  Slashdot 
-http://developers.slashdot.org/story/13/06/26 /1552215/monty-suggests-a-business-friendlylicense-that-trends-open
- Unfortunately the second link is blocked in China, so you have to access it by a VPN.
-
-
- MySQL .  
->  >   ,    "free money" >  SAAS
-(Software as a service) >  > .
-
-MySQL  MariaDB 
-MySQL Ab  (, , )  . .
-MySQL . MariaDB  SkySQL 
-.MariaDB .  MariaDB  SkySQL 
-.
-
-The end
-
-

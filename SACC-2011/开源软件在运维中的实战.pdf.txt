@@ -1,139 +1,0 @@
-
-@
-SACC2011
-
-About me: http://about.me/fire9 Sys Architect@yeepay Twitter & Wei bo & Github:
-@fire9
-SACC2011
-
-
-SACC2011
-
-
-     
-
-SACC2011
-
-long long a go...
-
-     
-
-SACC2011
-
-What is Puppet?
- Linux,BSD,Solaris,HP-UX,AIX C/S ruby  
-SACC2011
-
-1VQQFU
- c   
-SACC2011
-
-1VQQFU
-SACC2011
-
-1VQQFU
-SACC2011
-
-Puppet Syntax
-file { '/etc/ssh/sshd_config': source => 'puppet:///configs/system/sshd_config', mode => 0600, notify => Service['sshd'], require => Package['openssh-server'], }
-SACC2011
-
-Puppet Syntax
-package { openssh-server: ensure => present, }
-SACC2011
-
-Puppet Syntax
-class ssh-server { file { '/etc/ssh/sshd_config': source => 'puppet:///configs/system/ sshd_config', mode => 0600, notify => Service['sshd'], require => Package['openssh-server'], } package { openssh-server: ensure => present, } service { sshd: ensure => running, enable => true, require => Package['openssh-server'] } }
-
-SACC2011
-
-Puppet Syntax
-node { DevOpsApp01: include ssh-server
-}
-SACC2011
-
-
-
-    
-
-SACC2011
-
-
-  b
- 
-SACC2011
-
-Capistrano
- SBJMTTDN HJU
- 44)  / 
-SACC2011
-
-
-SACC2011
-
-
-SACC2011
-
-Cap
-cap -vT cap <some task> cap invoke COMMAND="uptime" cap invoke COMMAND= "uptime" ROLES=sa cap invoke COMMAND= "uptime" HOSTS=www.it168.com cap shell
-SACC2011
-
-Cap
-
-cap deploy:setup cap deploy:check cap deploy:cold cap deploy:update cap deploy:migrate cap deploy:start
-
-cap deploy cap deploy:rollback cap deploy:migrations cap deploy:web:disable cap deploy:web:enable cap deploy:cleanup
-SACC2011
-
-How to do
-
-yum install ruby gem install capistrano capify . cap -vT vi config/deploy.rb
-
-SACC2011
-
-Variables
-
-:ssh_options :application :repository :scm :deploy_to :revision
-
-:use_sudo :group_writable :rake :current_path :release_path :shared_path
-SACC2011
-
-deploy.rb
-set:application, "yourappname" set :repository, "your git url" set :scm, "git" role :web, "your site address" role :app, " your site address " role :db, " your site address " set :deploy_to, "path to deploy" set :user, "username" set :git_username, "git username" set :git_password, "git password"
-desc "Restart the webserver/fcgi procs, however you do it" task :restart, :roles => :app do
-# I'm not going to restart anything for this example end task :after_deploy, :roles => :app do 
- # Set my new dispatch.fcgi to be executable 
- run "chmod 755 #{deploy_to}/current/public/dispatch.fcgi" end
-
-SACC2011
-
-deploy.rb
-namespace :migrations do desc "Run the Migrations" task :up, :roles => :app do
-
- run "cd #{current_path}; rake db:auto:migrate;"
-end task :down, :roles => :app do
-
- run "cd #{current_path}; rake db:drop; rake db:create"
-end end
-SACC2011
-
-Capistrano-extra
-
-capistrano_colors capistrano_ext Webistrano etc......
-
-SACC2011
-
-
-  
-
-SACC2011
-
-
-http://www.puppetlabs.com http://puppet.wikidot.com http://www.capify.org
-
-SACC2011
-
-Thank You!
-SACC2011
-
-

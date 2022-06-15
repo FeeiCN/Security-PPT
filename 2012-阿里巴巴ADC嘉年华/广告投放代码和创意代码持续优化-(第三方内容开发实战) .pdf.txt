@@ -1,223 +1,0 @@
-
-UX - 
-2012-7-7
-
-
-
-
-   limu@taobao.com  http://limu.iteye.com  @lenel
-
-
-
-2007.01  2007.05  2008.09  2011.06 
-
-   UX
-
-Velocity2010
-
-
-
- 
-
- 
-
-
-   
-   
-
-
-
-
-<script> alimama_pid="mm_1_2_3"; alimama_width=270;alimama_height=390;
-</script> <script src="http://a.alimama.cn/inf.js"></script>
-inf.js
-document.write:
-<iframe(script) src="http://t.alimama.com/a?i=mm_1_2_3 &fv=10.1&rd=xyz&u=a.com%2Fa.html"></iframe(script)>
-
-WPO
-
-
-
-
-3PO
-
-document.write
-
-
-
-doc.write, JS,
-.
-
-:Single Point of Failure(SPoF)  
-
-Souders :Frontend SPoF
-
-Steve
-
-3PO@Velocity
-Social Button BFFs by Stoyan Stefanov @ Velocity 2012
-
-
-     
-
-
-
- -- 2010
-
-Tanx
-1.
-<script src="http://{host}/{path}?i={pid}"></script>
-2.
-<script> document.write('<a style="display:none !important" id="t-a-{id}"></a>'); t_h = document.getElementsByTagName('head')[0]; t_s = document.createElement('script'); t_s.async = true; t_s.src = 'http://{host}/{path}?i={pid}'; if(t_h)t_h.insertBefore(t_s,t_h.firstChild);
-</script>
-
-2010Velocity
-: << : : defer domScriptElement iframedJS :   :,dom,html,css
-, http://www.slideshare.net/leneli/ss-6084804
-
-
-Tanx Tanx Google AdSense
-
-
-function iframedJS(s){ document.write("<iframe id= 'i'></iframe>"); var d = document.getElementById("i").contentWindow.document; d.write(`<!doctype html><html><body></body></html>'); window.setTimeout((function(){d.close();}),0);
-}
-srciframelocation,. iframe.
-
-
-
--- Adsense 
-
-
-
-
- TenginePhpC++
-
-
-inf.jsAPI. , ,in-line.
-, CDN, SPoF(), .
-
-
-<script> alimama_pid="mm_1_2_3"; alimama_width=270; alimama_height=390;
-</script> <script src="http://anydomain/inf.js"></script>
-
-
-// inf.js <script>
-alimama_pid="mm_1_2_3"; alimama_width=270; alimama_height=390; window.alimama_show && alimama_show(); </script>
-
-
-
-: ........ : · JSDOM(oo,modules,domready,jsonload...) · (lang,selector...) :
-
-KISSY
-
-OOP
-
-
-
-core
-
-Modules 
-
-mini loader
-
-1.5K
-
-Loader
-KsLite
-// function add/define/declare(modname,factory,requires)
-// function use/provide(modnames,callback)
-
-KsLite
- => ,,.. {packagename} - [ {path_0} - ... - {path_n} - ] {filename}
-S.Config.lt_pkgs={ inf:"http://a.alimama.cn/kslite/", test:"http://demo.taobao.com/tbad/kslite/"
-}
-"inf-a": http://a.alimama.cn/kslite/inf/a.js "test-t-1": http://demo.taobao.com/tbad/kslite/test/t/1.js
-
-KsLite
- => package root router class root.
-S.Config.lt_pkgrouter = http://a.alimama.cn/kslite/router.js S.mix(S.Config.lt_pkgs,{
-pkg1:"http://a.alimama.cn/pkg1/", pkg2:"http://demo.taobao.com/tbad/pkg2/" });
-S.Config.lt_pkgspkgrouter.
-
-Loader
- Loader  Loader
-  Loader
-  Loaderonload  Loader
-KsLite@Github: https://github.com/etaoux/kslite SeaJS SeaJS@Github:https://github.com/seajs/seajs
-
-KsLite
-,JavaScript. JS .? JSCover?
-      
-JS,.
-
-
-       Loader:KsLite
-
-
-
-
-
-
-TB-AD-WidgetPlatform --200810
-       
-
- Widget      
-     
-
-Widget PlatformBannerMaker
-BannerMakerFlash
-
-BannerMaker
-BannerMakerswf() bannerxmlHTML  FlashswfCDN\
-
-BannerMaker
- BM60k  Flash  BMFlash
-
-JavaScriptWidgetPlatform
-
-
- JavaScript HTML CSS        
-
-
-
-
-
-
-
-
-
-
-"JavaScript's new life is as a compilation target.JavaScript "--JavaScript 
-
-
-  LoaderSeaJS  Mustache
-:    
-  http
-  <10k,
-  CDN
-
-
- ­ 
- 
-  1%
- 
-
-PV -- 
-
-
-
-
-   
-  
-
-
-       
-
-
-Q&A
-
-
-
-Thank You
-
-

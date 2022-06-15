@@ -1,175 +1,0 @@
- 
-   
-
-1.  2.  3. 
-
- 
-
-
-App
-INTERNET OF THINGS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
- 
-
- 
-......
-  
-
-
-
-CPU 
-
-
-
-Hello
-
-DASSA
-
-
-
-
-
-
-
-
-RSA K=(Kn-1, Kn-2,..., K1) R<-- 1 for i=n-1 downto 0 do
-R<-- R2 mod n if Ki=1 then R<-- Rm mod n
-
-
-
-
-
-
-
-
-
-AES
-
-
-   T[i]=S[i KEY]      X=F-1(F(X))
- T[i]=S[F-1(i) KEY]
-
-
-
-AES
-
- Make Table() Key
-
-
-
- 
-
- Encryptdata
-Encrypted data data
-
-
-
-AES
-Make Table()
-
-
- key
- 
-
- Encryptdata
-
-data
-
-Encrypted data
-
-
-
-
-
-
-
-
- APP
-
-
-
- 
-
-
-  
-
- 
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
-
-
-
-
-
-
-1. 2.
-
-
-
-
-
-
-
-
-
- 
-
-
-  
-
-
- 
-ECDSA
-
-
-· 
-­  ­ 
-· 
-
-
-
-

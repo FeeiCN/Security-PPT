@@ -1,508 +1,0 @@
- 
-
- @otakustay  @_Franky
-
-2012.6
-
-
-
-2.5 2.0
-XP+SP1 XP+SP2
-
-3.0
-
-3.5 4.0
-5.0
-
-nightly dev beta
-6.0
-
-KB2497640
-
-<img>
-
-Flash
-
-<iframe>
-
-Quirks
-!important
-iframe > iframe > ...
-
-
-
-<head> <meta> <title> <script> // 
-
-<body> <header> <div id=,page> <p> <script> // API
-
-<ins> <!--
-<footer> </body>
-
- -->
-
-  
-
-
- ­ document.write
-var protocol = ('https:' == document.location.protocol) ? 'https://' : 'http://'; document.write('<script src="protocol + 'www.tt.com/extern.js" charset="utf-8"><\/script>');
-· //www.tt.com/extern.jshttp https · file://
-· charset · 
-· </script><\/script> · '</scr' + 'ipt>'
-
-
- ­ <script>
-var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true; script.src = src; // <script>
-·  · type
-· text/javascript · async
-· <script>
-
-
-<script> ­ 
-document.body.appendChild(script);
-· <head><body> · IE6""
-document.head.appendChild(script);
-· IE6<base>BUG
-
-
-<script> ­ <script>
-var firstScript = document.getElementsByTagName('script'); firstScript.parentNode.insertBefore(script, firstScript);
-·  · if · 
-·  · <script> ·  · parentNode<html>
-
-
-<script> ­ <head>
-var container = document.getElementsByTagName('haed')[0]; if (!head) // ; else container.insertBefore(script, container.firstChild);
-·  · 
-·  · if<head>
-· <head> · Firefox 4.0b1 / iPhone 3.0 / Chrome 5.0
-
-
-<script> ­ 
-setTimeout(function() { if (!document.body) setTimeout(arguments.callee, 0); else document.body.insertBefore(script, document.body.firstChild);
-}, 1);
-·  · 
-·  · <body>
-
-
-<script> · <script>IE · <script>
-· JSONP · setTimeout
-var scripts = document.getElementsByTagName('script'); var currentScript = scripts[scripts.length - 1]; setTimeout(function() {
-currentScript.parentNode.removeChild(currentScript); }, 1);
-· setTimeout......
-
-
-<iframe> · 
-·  ·  ·  ·  · IE · 
-· width / height / vspace / hspace / scrolling / frameborder / allowtransparency / display / border / vertical-align / margin
-
-
-
-· <ins> · "" · <ins> · IE<p><div>
-·  !important · .style.cssText!important · float · margin / padding / border · overflow / position / display / visibility · text-align
-
-
- · <ins> | <del>
-· text-decoration · <a>
-· color / decoration · <img>
-· display / border · <li>
-· list-style
-
-http://www.iecss.com/
-
-
-
-· insertBeforeappendChild
-· IE"" · z-index
-· 2147483647 · DOM
-· DOM · DOMContentLoadedonload
-·  · <script><body> 
-
-
-Quirks · 
-· document.compatMode · 
-· border-box VS content-box · 
-· margin: 0 autotext-align: center · 
-· body VS documentElement
-
-document.write
-
-It's evil ·  · HTML
-
-Script
-
-Tokenizer
-Tree Construct
-
-It's inevitable · 
-· API<script> · 
-· Google Adsense / Baidu Cpro ... · <iframe>
-
-DOM Tree
-
-document.write
-IE ­  VS  document.write<script>
-· 
-// hello.jshelloIEhelloReferenceError document.write('<script src="hello.js"><\/script>' + '<script>hello();<\/script>')
-· 
-// jshello document.write('<script src="hello.js"></script>'); // IEhello.jshelloReferenceError hello();
-
-document.write
-
-IE ­ 
-
-<script> document.write('<script src="ex.js"><\/script>');
-
-ex.js
-document.write('<script src="define.js"><\/script>');
-
-// ReferenceError try {
-alert(hello); } catch (ex) {
-// 2read.js // 2document.write // hello
-
-define.js
-var hello = 'world';
-read.js
-if (window['hello']) { alert(hello);
-} else {
-document.write('<script src="read.js"><\/script>'); }
-
-document.write('<script src="read.js"><\/script>');
-
-} </script>
-
-ex.js
-
-define.js
-
-hello
-
-read.js
-
-read.js
-
-hello
-
-document.write
-<iframe>IE6
-<script> function destroyIE(iframe) { var doc = iframe.contentWindow.document; doc.write('<script src="http://www.tt.com/example.js"><\/script>'); doc.write('<script>alert("hello");<\/script>'); }
-</script> <iframe src="about:blank" onload="destroyIE(this);"></iframe>
-· document.write · +
-
-<iframe>
-IE<iframe>
-document.domain = 'tt.com'; var iframe = document.createElement('iframe'); iframe.src = 'about:blank'; document.body.appendChild(iframe); iframe.contentWindow.document.write('test'); // IE
-
-<!DOCTYPE html> <meta http-equiv="Cache-Control" content="max-age=8640000" /> <script> document.domain = 'tt.com'; </script>
-iframe.src = '/domain-policy.htm';
-
-<iframe>
-DOM1onload
-function loadFrame(iframe) { var doc = iframe.contentWindow.document; doc.open('text/html', 'replace'); doc.write(html); // loadFrame doc.close();
-} <iframe src="about:blank" onload="loadFrame(this);"></iframe>
-· DOM1onload · DOM1onload · 
-if (this.getAttribute('data-rendered')) { return; } this.setAttribute('data-rendered', 'rendered');
-
-<iframe>
-IE6 · www.tt.com/xxxiframe/frame
-[DOC_baidu_clb_slot_iframe_1234567] BASEURL=http://www.tt.com/xxx ORIGURL=/frame
-· BASEURLORIGURL · <iframe>src
-function renderThirdPartyFrame(iframe, content) { if (iframe.getAttribute(`src', 2) !== getFrameUrl()) { // IEsrc iframe.src = getFrameUrl(); return; }
-// renderThirdPartyFrame }
-
-<iframe>
-
-
-· <iframe>DOM ·  · 
-
- IE6-8 IE9 Firefox Chrome Opera
-
-     
-
-<iframe>
-
-BUG
-
-var list = [ 'http://www.163.com', 'http://www.baidu.com' ];
-
-var src = list[Math.random()*2 | 0]; document.write('<iframe src=' + src + '></iframe>'); document.write('iframesrc:' + src);
-· src
-
-<iframe src="//www.google.com" id="ifm"></iframe> <script>
-var ifm = document.getElementById('ifm'); window.onload = function () {
-// Firefox4-10baidu.com2 ifm.src = '//www.baidu.com'; }; </script>
-
-· createElement<iframe>DOMsrc · src^#+$ · 
-
-· <iframe> · Firefox4
-
-<iframe>
-javascript:IE
-var text = 'abc'; var script = 'var d = document; d.open(\'text/html\', \'replace\'); d.write(parent.text); d.close();'; var html = '<iframe id="abc" name="abc" src="javascript:void((function() {' + script + '})())"></iframe>'; document.write(html);
-·  · abc · DevTooliframeTextNode · iframe-about:blank
-· paint / UI Update Queue · scriptd.offsetWidth;
-
-FLASH
-Flash · 
-· 
-var useObjectForFlash = ('classid' in document.createElement('object'))
-· <object><embed /></object>ChromeBUG · IE8<object>setAttribute
-· IE8-attributepropertyproperty
-· innerHTML · <object>appendChildIE
-· FlashDOM · FlashDOMIE6-8
-· allowScriptAccess="never"
-
-FLASH
-Flash · setTimeout
-· Opera
-var element = document.getEleemntById('someFlash'); element.style.display = 'none'; //  // setTimeoutDOM setTimeout(function() { element.parentNode.removeChild(element); }, 1);
-Flash · left / top
-· DOMdisplay / visibilityFlash 
-
-FLASH
-Flash · wmode
-· window / opaque / transparent · opaquez-index · windowiframe · 
-http://www.w3help.org/zh-cn/causes/RX8012 http://www.cnblogs.com/_franky/archive/2010/11/19/1882055.html
-
-
-
-var log = (function() {
-
-var fix = []; return function(url) {
-
-GC
-
-var image = new Image(); fix.push(image);
-
-src
-
-image.onload = image.onerror = image.onabort = function() {
-
-image = image.onload = image.onerror = image.onabort = null;
-
-for (var i = 0; i < fix.length; i++) {
-
-if (fix[i] === image)
-
-fix.splice(i, 1); }
-
-
-
-}
-
-image.src = url;
-
-}
-
-}());
-
-
-<img> · <img>GC
-· <img>DOM ­ reflow · imagewindow ­ for..in · 
-IE · srconload
-· onload · onloadsrc
-
-
- · url
-· IEOperaHTTP Cache
-mimeType · image/gif1x1
-· Chrome · <img>onload
-
-
-URL · 
-· IE6-72065 · IE84083 · IE9>65536 · Opera4050-190,000 · Chrome8182-20,000,000 · 
-· nginxlarge_client_header_buffers 8K · ApacheLimitRequestLine 8190 · 
-
-
-PVID · Math.random
-· ((Math.random() * 2147483648) | 0).toString(36)
-·  · location.href / cookie / userAgent / language ·  · history.length / plugins.length / mimeTypes.length / flashVersion · mouse x / y
-
-
-
-· ajax · 
-· <img> · while1/4s ·  · TCPHTTP
-· 85% · localStoragePV
-· 
-
-
- · <img> · mimeType · <img>2
-
-<script> doc.write('<img src = "xxx?start" />') </script> <script src = ""></script> <script> doc.write('<img src = "xxx?end" />') </script>
-
-COOKIE
-P3P - Platform for Privacy Preferences Project · Cookie · 
-· CP=. · javascriptCookie
-· IE6BUG · CookieSafari
-· Safari3 · Safari4+POSTCookie
-
-GZIP
-IE6gzip · gzipmax-age=0no-cache · gzip<iframe>
-<iframe> · IE6gzipETagLast-Modified · IE6gzipModified-Since;length=xxx
-Web Server · IE6gzip
-· Nginxgzip_disable "MSIE [1-6]\. ";
-http://www.cnblogs.com/_franky/archive/2012/04/28/2475223.html
-
-
- · <a>
-Flash · <a>Flash
-· transparent · 0opacity + filter · overflow:hidden
-position: absolute; top: 0; left: 0; width: 100%; height: 9999px; background-color: #fff; opacity: 0; filter: alpha(opacity=0);
-· clickTAGFlash
-
-
-UA · 
-·  ·  · 
-·  · position: fixed · iframe · Flash<object><embed> · border-radius
-
-
-
-position: fixed
-var outer = doc.createElement('div');
-
-inner (support)
-
-var inner = doc.createElement('div'); var result = false; outer.style.position = 'absolute';
-
-
-
-inner (not support)
-
-outer.style.top = '200px';
-
-inner.style.position = 'fixed';
-
-inner.style.top = '100px'; outer.appendChild(inner); document.body.insertBefore(outer, document.body.firstChild); if (inner.getBoundingClientRect &&
-
-outer document
-
-inner.getBoundingClientRect().top !== outer.getBoundingClientRect().top) {
-
-result = true;
-
-}
-
-doc.body.removeChild(outer);
-
-return result;
-
-
-window.open · 
-· http://www.cnblogs.com/_franky/archive/2011/04/06/2006857.html
-· ChromescreenXscreenYleft top
-· <body> · <iframe><script> <head><body> · <body><body>
-document.write('<body>'); document.write(content);
-
-
-
-· var · 
-·  !== IE+Firefox+Chrome+Opera+Safari · try / catch
-· catchErrorReferrer
-·  · prototype · 
-· Cookie · userData + localStorage
-
-
-IIFE · Imediately Invoked Function Expression · (function() {}())void / ! / ~
- ·  · 
-· AST
-
-if (condition) { var x = 3; console.log(x);
-}
-
-node fix.js in.js > out.js
-
-if (condition) { (function() { var x = 3; console.log(x); }());
-}
-
-
-
-· 
-· 
-· /* #DEBUG# {code} #DEBUG# */ · #DEBUG#
-console
-· 
-· enableDebug(someFunction, [options]); · options: enter / leave / time / count...
-· enableDebug · 
- ­ 
-
-
- ·  ·  · 
- · javascriptASCII · IIFEtry / catch · 
-
-
-
-
-· alert VS window.alert · alert
-· window.alert · alertalert
-
-alert; // IE6-8 var hijack = window.alert; window.alert = function(){
-hijack('hijack'); }; alert('origin');
-
-window copy on read global code
-
-
-
-
- 
-
-   
-
-
-
- 
-
-
-
-· location.reload(true)
-var re = true; var ifm = document.createElement('iframe'); ifm.src='about:blank'; document.body.appendChild(ifm); var doc = ifm.contentWindow.document; doc.open(); doc.write('<script>if(parent.re){parent.re = false; location.reload(true /* false */);} else{document.write("<script type=text/c src=http://www.a.com/js/a.js><\\\/script>");}<\/script>'); doc.close();
-· <iframe> · 
-· 
-
-
-location.reload(true) · CTRL+F5
-· ChromeExpiresLast-ModifiedETag · Cache-
-Control:no-cache
-location.reload(false) · F5
-· ExpiresLast-ModifiedETag
-
-
-location.reload · Safari4-Opera12-Cache-Control: no-cache · Chrome6-Cache-Control: no-cache, max-age=0 · Safari5falseCache-Control: max-age=0
-Pragma: no-cache304 · CDN
-· CDNHTTP/1.1
-· Cache-Control · Cache-ControlPragma
-· true
-
-
-
-· 
-· cbjs.baidu.comm.js / s.js / o.js · addSlot / enableAllSlots · singleFillSlot / fillSlot · .js · .js · 
-·  ­  ­ 
-· 
-
-
- · 
-· Quirks · 
-· URL · 
-· API · DOM ·  · 
-
-
- · 
-· Fiddler Windows · Charles MAC / Linux · WireShark 
- · dynaTrace
-· IEFirefox · Firebug(Console-Profile) / Developer Tool(Profiles)
-
-
- - dynaTrace
-
-
- - dynaTrace
-
-
-
-· phantomjs ·  · xvfbFlash
-· berserkJS ·  · 
-· Selenium ·  · GUI
-
-DONE
-THANKS
-
-

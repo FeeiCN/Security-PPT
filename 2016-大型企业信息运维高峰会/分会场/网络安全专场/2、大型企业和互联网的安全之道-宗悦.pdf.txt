@@ -1,203 +1,0 @@
-
-
-
-·  ·  · 5 · 
-
-
-
-redis Java
-
-
-
-
-
-
-
- ? 
-
-
-
-
-
-redis
-
-Java
-Java    
-http://blog.chaitin.com/2015-11-11_java_unserialize_rce/
-· Jboss · Jenkins · Weblogic · WebSphere · OpenNMS
-
-
-· 201110
-
-
-· 
-­ 
-· 
-­ top500 username +  OWA/SMTP/POP3
-· VPN
-­ 
-
-
-· 
-­ VLAN ­ ACL ­  ­ /Exchange/SMTP ­ VPN
-· 
-­ VLAN ­ WEBnginx,nginx ­ Exchange ­ VPN/
-
-
-· 
-­ WEB ­ JBOSS ­ / ­ Zabbix/Jenkins ­ 
-· 
-­  ­  ­ 
-
-
-· 
-­ / ­ / ­ /
-· 
-­ Google Authenticator ­ pam.d ­ SSH ­  ­ HASH
-
-
-· :github
-
-
-· :github7vcenter
-
-
-· :gitshell
-
-
-· tomcat
-
-
- 
-
- 
-
-V1
-
-suricata
-
-barnyard2
-
-PF_RING
-
-MySQL
-
-snorby
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-V2
-
-  
-
-storm  
-
-ES 
-
-
-
-
-
-
-
-
-
- agent
- agent
-
-redis broke broke
-
-Spout Spout
-
-map
-Bolt Bolt Bolt
-
-reduce
-Bolt
-DB
-Bolt
-
-storm
-
-
-
-alarm
-
-
-
-
-1. httpjsonredis 2. stormredis 3. stormElasticsearch
-20
-
-
-1. webrewrite 2. httprequestresponse
-21
-
-
-
-1.
-
-PD
-
-2.
-
-QA
-
-3.
-
-
-
-4.
-
-
-
-22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
-
- 
-
- 
-
-
-· 
-­  ­  ­ 
-· 
-­  ­  ­ 
-·  & 
-26
-
-Thank You 
-
-

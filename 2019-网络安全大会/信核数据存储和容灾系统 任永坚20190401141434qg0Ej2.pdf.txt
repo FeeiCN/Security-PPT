@@ -1,241 +1,0 @@
-             
- PB=1024TB, 1EB=1024PB, 1ZB=1024EB
-
-PB
-TB
-GB
-
-EB ZB
-
-DAS Direct Attached Storage SAN Storage Area Network NAS: Network Attached Storage Distributed Storage / Hyper-converged Storage SDS: Software-defined Storage
-
-Oracle CEO Mark Hurd    
-
-
-
-
-
- 
-
-
-
-
-
-
-
- 
-
-
- 
-
- 3%
-
-  
-
-  39%  
-
-  58% 
-
- IT  60% 60%  
--- IDC, 201311
-4   15,000/TB
--- HDS &TechValidate
-
-Cost of Migration17% of Array & Maintenance Cost $77,00011%
-
-Cost of Buying Array 5months early $516,000x5/48,$54,0008%
-
-3 month loss on 4-year Cost of Old Array,
-$32,0005%
-
-4-year Cost of Maintenance18%/year
-$216,00032%
-
-New Array Cost $300,00044%
-
-   
-
-  /  2-5
-
-
-
-
-
-
-
-
-DR /
-
-2~5
-
-
-
-P2V 
-
- CDP
-
- 
-
-
-
-...
-
-
-
-
-
-FC/IP
-
-...
-FC/IP
-
-...
-FC/IP
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-IP
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
- 
-
- 
-
-  
-
-
-
-//...
-
- 
-
-
-
-
-
-
-
-
-5 10
-
- 
-
-P2V  
-
-2006  24   7x24
- 
-
- 1  18+  1000+  100,000K+ 
-
-2014 Gartner 2014 Cool Vender
-
-2016 
-
-2017 
-
-2015 
-
-2008 2008
-2006 
-
-2012
-
-2013
-
-· 
-
-2011
-
-· CDP · 
-
-2010
-
-· IBMISV
-
-"" 
-
-2009
-
-""
-
-2007
-
-OSNSolution3.0
-
-
-
-   
-
-
-
-
-
-  
-
-  
-
-
-
-   
-
-
-
-
-
- 
-
-
-
- 
-
-
-
-
-
-THANKS
-
-
-

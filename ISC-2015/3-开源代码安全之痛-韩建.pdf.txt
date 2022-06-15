@@ -1,127 +1,0 @@
-
-
-     
-
-1   2  
-
-3  
-
-  
-OpenSSL2014 Heartbleed  
-ElasticSearch20142015   
-Struts2Apache   
-TomcatSerlvet2014 DoS  
-
-  
-
-     
-
-  
-
-2010Gartner11547
-
-IT  
-
-     
-
-  
-
-2012Aspect SecuritySonatype31
-
-4,600  
-
-   
-
-     
-
-1   2  
-
-3  
-
-  
-www.codesafe.cn360     
-  
-360 ""  
-
---  
-1010Java65,800,663 1,646,03525.02/
-
---JAVA  
-
---20  
-
---20  
-
---20JAVA   
-
---TOP  10  
-
---TOP  10  
-
-1--XSS  
-
-2--SQL  
-
-3--     
-n RTMPRTMPRTMPT/RTMPS  
-/RTMPE   n 
-FFmpeg()  SMPlayer(ubuntu14.x) Mplayer   n uniondouble   
-  
-
-WindowsFfmpeg   FFmpeg0x41711115  
-
-WindowsSMPlayer  
-
-UbuntuSMPlayer  
-
-4--  
-
-MORE......  
-OFBiz___  
-solo___HTTP  
-openmrs___  
-
-OpenCms  ___   PushTalk___SQL   Cynthia___XSS  
-
-Oozie___LDAP   infoglue___XPath   Hazelcast___  
-
-     
-
-1   2  
-
-3  
-
-  
-
- 
-
- 
-
-
-
- 
-
-  
-
-   
-  
-
-   
-  
-
-   
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-Thanks!    
-
-

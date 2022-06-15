@@ -1,233 +1,0 @@
-DeTT&CT: Mapping your blue team to ATT&CK®
-
-Whoarewe
-Ruben Bouman
-· Freelance Cyber Defense Expert · Co-owner Sirius Security · Roots in development · Nine years of experience in Info Security · Co-developer of the DeTT&CT framework
-@RubenB_2
-
-Marcus Bakker
-· Freelance Cyber Defense Expert · Nine years of experience in Info Security · Co-developer of the DeTT&CT framework · Co-author of the TaHiTI Threat Hunting
-Methodology @Bakk3rM
-
-Agenda
-· Introduction on DeTT&CT · New features · Roadmap
-
-MAPPING YOUR BLUE TEAM
-
-Challenge: where do we start our cyber defense efforts
-· Intelligence-driven approach with a focus on TTPs
-
-Result in
-
-Data sources
-
-Visibility
-
-Detections
-
-Cyber defense efforts
-
-TTPs
-
-Detect Tactics, Techniques & Combat Threats
-
-· Framework to administrate, score and compare:
-· Data source quality · Visibility · Detections · Threat actor behaviours
-
-· Result: where do you focus on
-· Which techniques? · Where to improve visibility?
-
-· Scoring tables to guide you
-
-· Administration = YAML files
-
-github.com/rabobank-cdc/DeTTECT
-
-disclaimer
-All shown data and visualisation regarding data quality, visibility, detection and
-threat actor groups are based on sample data.
-
-MAPPING YOUR BLUE TEAM
-
-Data sources: what do we log
-· Identify data sources
-Process injection
-· Score data quality (DQ) · Visualise in the ATT&CK Navigator · Export to Excel
-
-Visibility: What can we see?
-
-· Manual score visibility
-· Allows you to be exact · One source is more important
-than the other · Minimal set of data sources
-to have useful visibility
-· Administrate in YAML file · Visualise in the ATT&CK Navigator · Export to Excel
-
-957396
-
-Detection: What is our detection coverage?
-· Manual score detection · Administrated in the
-same YAML file as visibility · Visualise in the ATT&CK Navigator · Export to Excel
-
-GROupS: What are attackers doing?
-· Generate heat maps
-· Threat actor group data from ATT&CK
-· Own intel stored in a group YAML file
-· Threat actor data from third parties *1
-· Compare threat actors
-10
-*1 https://github.com/rabobank-cdc/DeTTECT/tree/master/threat-actor-data
-
-GROupS: What are attackers doing?
-· Generate heat maps
-· Threat actor group data from ATT&CK
-· Own intel stored in a group YAML file
-· Threat actor data from third parties *1
-· Compare threat actors
-11
-*1 https://github.com/rabobank-cdc/DeTTECT/tree/master/threat-actor-data
-
-GROupS: What are attackers doing?
-· Generate heat maps
-· Threat actor group data from ATT&CK
-· Own intel stored in a group YAML file
-· Threat actor data from third parties *1
-· Compare threat actors
-12
-*1 https://github.com/rabobank-cdc/DeTTECT/tree/master/threat-actor-data
-
-Prioritise your Cyber defense efforts
-
-· Intelligence-driven approach with a focus on TTPs
-
-Legend The technique only present in the group We have some level of detection We have detection and used by the group
-
-New features
-· DeTT&CT Editor · Group YAML files with a count per technique · Added support for cloud platforms · EQL integration · Score logbook for keeping track of historic data · Updating visibility scores based on a updated data source admin. file
-
-MAPPING YOUR BLUE TEAM
-
-DeTT&CT Editor
-· Editing big YAML files by hand is cumbersome and introduces errors
-· Use it online: https://rabobank-cdc.github.io/dettect-editor
-· Its fully client side and developed in Vue JS
-· Run it locally:
-python dettect.py editor
-
-Group yaml files with a count
-
-Group yaml files with a count
-
-Group yaml files with a count
-
-Cloud platforms
-· Allow the use of cloud platforms
-· Mapping data sources to platforms
-· https://github.com/rabobank-cdc/DeTTECT/wiki/Data-sources-per-platform
-
-Endgame's EQL integration in DeTT&CT
-· Use EQL to filter your YAML data in DeTT&CT
-· Example use case: how did our detection coverage look like X time ago?
-python dettect.py d -ft sample-data/techniques-admin.yaml --layer --search-detection "techniques where detection.score_logbook.date < '2017-11-01'" --all-scores
-· Only include data sources which can be used in data analytics:
-python dettect.py ds -fd sample-data/data-sources-endpoints.yaml -l --search "data_sources where available_for_data_analytics = true"
-
-EQL
-· Detection coverage over time
-21
-
-EQL
-· Detection coverage over time
-22
-
-Score logbook
-
-Updating visibility scores
-· Update visibility scores (automatically) based on changes in your data sources file · Update when MITRE released a new ATT&CK version
-
-Updating visibility scores
-python dettect.py ds -fd ~/Downloads/data-sources-new.yaml -u -ft output/techniques-administrationmyexample-windows.yaml Do you want to fill in the visibility comment for the updated scores?
->> y(yes) / n(no): y >> Visibility comment for in the new 'score' object: Update Q2
-
-Updating visibility scores
-The following new technique IDs are added to the technique administration file with a visibility score derived from the nr. of data sources:
-- T1192 - T1194 - T1195 - T1534
-A total of 1 visibility scores are eligible for an update.
-For all most recent visibility score objects that are eligible for an update, the key-value pair 'autogenerated' is set to 'true'. This implies that these scores are auto-generated. How do you want to proceed?:
-1) Update all visibility scores that have changed. 2) Decide per visibility score, that has changed if you want to update or not.
-Both the current and new visibility score will be printed. 3) Cancel.
->> 2
-
-Updating visibility scores
-
---------------------------------------------------------------------------------
-
-[updates remaining: 1]
-
-Visibility object:
-
-- ATT&CK ID/name
-
-T1189 / Credential Dumping
-
-- Applicable to:
-
-all
-
-- Technique comment:
-
-OLD score object:
-
-- Date:
-
-2020-05-15
-
-- Score:
-
-0
-
-- Visibility comment:
-
-- Auto generated:
-
-True
-
-NEW score object:
-
-- Date:
-
-2020-05-15
-
-- Score:
-
-1
-
-- Visibility comment: Update Q2
-
-- Auto generated:
-
-True
-
-Update the score? >> y(yes) / n(no): yes
-
-Updating visibility scores
-- Updated a score in technique ID: T1189 (applicable to: all) Written backup file: output/techniques-administration-myexample-windows_backup_3.yaml File written: output/techniques-administration-myexample-windows.yaml
-
-Future plans
-· Support for sub-techniques
-· Including conversion function
-· DeTT&CT:
-· Score logbook for data sources · Applicable to field for data sources
-· DeTT&CT Editor improvements:
-· Better searching · Edit YAML comment and exeptions section · Better navigation through data sources / techniques · Multiple UX improvements
-The complete list: https://github.com/rabobank-cdc/DeTTECT/wiki/Future-dev
-
-MAPPING YOUR BLUE TEAM
-
-end
-
-github.com/rabobank-cdc/DeTTECT
-
-Questions?
-@Bakk3rM @RubenB_2
-
-

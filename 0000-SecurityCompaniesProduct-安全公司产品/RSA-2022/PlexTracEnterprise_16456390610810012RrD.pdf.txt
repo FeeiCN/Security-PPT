@@ -1,12 +1,0 @@
-TheMust-HavePlatformforYourSecurityEnterprise
-EmployaLivingRisk Register
-Aggregateandprioritizeriskfromallsources throughout the entirety of the risk lifecycle, fromdiscoverytoremediation.
-Aggregate Findings from allAssessments
-PlexTracletsyouimport ndingsfrom penetrationtests,vulnerabilityscanners, bugbountytools,andmore.
-MonitorSecurityPosture inReal-Time
-UsingPlexTracasanauthoritativetracker gives you a single-source location to instantly gain visibility on your security posture.
-UpgradeYourTeam's Capabilities
-Facilitateyourtabletopexercises,redteam engagements,breachandattacksimulations, andpentestautomationtoolswithPlexTrac.
-Wanttolearnmore?Visitplextrac.com
-
-

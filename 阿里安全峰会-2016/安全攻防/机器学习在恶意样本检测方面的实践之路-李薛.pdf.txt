@@ -1,255 +1,0 @@
- 
- www.dongxuntech.com
-
-
-
-|2
-
-
-
-|3
-
-
-   
-1:4(17288 320814080)  APIs  RandomForest  15  98.84%
-|4
-
-CONTENTS
-
- 
-
- 
-
- 
-
-
-Technology Way Tools
-|6
-
-
-
-·  ·  · 
-
-
-
-
-
-|7
-
-
-|8
-
-
-
-
-
-  
-
-      
-
-  ?  
-
-    
-
-   
-
-|9
-
-CONTENTS PAGE
-02 
-
- 
-
- 
-IDA ProOllyDbgLordPEOllyDump
- 
-PE ProcessMonitorWiresharkCWSandbox Cuckoo
-|11
-
-
-
- 
-
-
-
-   API
-
- 
-
- 
-
-
-
- 
-
-PE
-
-
-
-   ......
-
-  ......
-|12
-
-
- or 
- 
-|13
-
-WEKA
-WEKA        
-PS:WEKAARFFWEKAjson csv
-|14
-
-
-  accuracy = TP+TN/(P+N)
- error rate = (FP+FN)/(P+N)=1- accuracy
-   precision=TP/TP+FP
-   recall=TP/(TP+FN)=TP/P
-|15
-
-
-  709932PE 40003099
- \analysis-datas\datamining\000001      100%   92.6328 % 7.3672 %
-  100032PE 
- 88.1 % 11.9 %
-|16
-
-CONTENTS PAGE
-03 
-
-
-
-  
-
-
- SVM 
-
-
-24% 22% 12.8%
-
-
-20% 43% 10%
-
-  SVM
-
- 
-|18
-
-
-
-·  ·  · 
-
-
-|19
-
-
-
- 
-
-
-
-
-
-K(KNN)
-
-    underfitting 
-
-    overfitting 
-
-k=99 (),k=1  
-
-Natasha Latysheva;Charles Ravarani
-|20
-
-
-
-  K 
-
- k=5 or k=10
-
- K K1 K K   
-|21
-
-
-
-
-
-
-    
-
-
-,  2 
-· 
-  
-· 
- 
-|22
-
-
-...... ...
-|23
-
-SciKit-Learn
-
-Scikit-learn python numpy scipymatplotlib    
-
-
-
-
-|24
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
- ......
-
- 
-
-
-
-
-
-
-
-Trojan.Win32.Zegost
-
-Win32.Conficker
-
-Trojan.Win32.Nitol
-
-Win32.Virut
-
-
-|25
-
-
-
-
-
-1
-& × i
-
-
-|26
-
-
-
-|27
-
-THANKS
-
-

@@ -1,240 +1,0 @@
- IDTC-2001 !
-
- !
-Joerg Borchert
-Infineon Technologies
- IDTC-2001 !
-
-!
-§ !
-§ ! § !
-§ !
-§ ! § !
-§ !
-3  
-
- !
-4  
-
-  !
-
-Utility Communications
-
-Efficient Building Systems
-
-Internet
-
-Renewables
-
-PV Consumer Portal & Building EMS
-
-Dynamic Systems Control
-
-Distribution Operations
-
-Advanced Metering
-
-Plug-In Hybrids
-
-Data Management
-
-Distributed Generation & Storage
-
-Control Interface
-Smart End-Use Devices
-
-§ ! § ! §  !
-
-5  
-
- PC !
-§ ! §  !
-§ ! § !
-§ "" !
-§  TPM!
-6  
-
-!
-§ !
-§ ! § !
-§ !
-§ ! § !
-§ !
-7  
-
- 3 !
-
-!
-
-!
-
-!
-
- 
-  > 100.000 
- ! !
-
- 
-  > 10.000 
- !
-
- 
-  > 100 
- !
-
-  !
-
-8
-
-!
-
-§   !
-§  !
-
-9  
-
- !
-! !
-10  
-
-! !
-!
- !
-
-!
-
- 
-11  
-
- 
-
- 
-
-!
-§    !
-§  !
-§  IC  !
-§ ! § !
-!
-12  
-
-!
-§ ! § 
-! § ! § ! § ! § !
-13  
-
-!
-§ !
-§ ! § !
-§ !
-§ ! § !
-§ !
-14
-
-!
-§ ! § ! § !
-15  
-
-!
-! !
-
-! =
-
-
-
-()
-
-X
-
-
-() X
-
-!!
-
-! 
-($)
-
->
-
-=!
-
-! ($)!
-
-X
-
-!
-
-<!
-
-!
-
-16  
-
- (%)
-
- ()
-
-!
-§ !
-§ ! § !
-§ !
-§ ! §  IC !
-17  
-
- !
-
-!
-
-!
-
-!
-
-!
-
-!
-
- 3 !
-
-!
-
-!
-
-!
-
- !  !  !
- !
-
-! !  !
-IC!
-
-! ! !
- 2 !
-
-18  
-
-!
-
-!
-§  IC
-§ ! §  !
-§  !
-§ ! § !
-§  IC !
-19  
-
-!
-§ ! § !
-! § !
-§  PC TPM  !
-20  
-
-!
-§ ! § ! § ! § 
-! § 
-! § 
-!
-21  
-
-!
-
-

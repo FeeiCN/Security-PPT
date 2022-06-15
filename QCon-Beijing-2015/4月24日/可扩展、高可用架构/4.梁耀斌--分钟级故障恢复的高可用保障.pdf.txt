@@ -1,244 +1,0 @@
-  
-       QCon/2015-04    
-
-  
-  
-   2011Gmail99.99%      2013   <100ms99.991%        
-
-  
-uMTBF   uMTTR  
-u=(MTBF/(MTBF+MTTR))*100%        
-
-  
-  
-                 
-
-  
-  
-                 
-
-  
-  
-           
-
-  
-u     ----  
-u     ----  
-  
-
-    
-u   u  
-     
-
-  
-   u   u   u   u  
-     
-
-  
-u   u   u   u   u   u  
-A1  
-
-item.taobao.com  
-
-VIP1  
-
-VIP2  
-
-A2  
-
-A3  
-
-A4  
-
-A5  
-
-  
-
-  
-
-B1  
-
-B2  
-
-...  
-
-B3  
-
-  
-
-  
-
-DNS  
-A6   B4  
-
-  
-uHA   u  
-u   uPaxos   uRaft  
-  
-  
-
-HA  
-
-Master  
-
-Slave  
-
-  
-   u   u   u   ubug             
-              
-
-  
-   u----  
-u   u   u----   u   u  
-  
-  
-
-  
-   u  
-u   u   u   u   u  
-  
-  
-  
-
-  
-u   u   u   u     ----IDC  
-           
-
-  
-u   uDNS  
-           
-
-DNS
-50%
-1
-  
-
-50%
-2
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-  
-
-  
-
-u  
-
-u  
-
-  
-
-  
-
-
-
-  
-
-cdn1     
-
-cdn2    cdnN  
-
-   
-
-  
-
-     
-
-
-
-  
-
-     
-
-
-   u     
-
-  
-u  
-
-  
-u  
-  
-
-  
-u   u   u   u  
-u   u  
-        
-
-  
-u  
-u   u   u  
-u  
-u   u  
-u  
-u   u  
-u  
-udns   u  
-  
-
-  
-u  
-uSHARE78  
-u  
-uGB/T  20988  -  2007  
-           
-
-  
-
-  
-1   2   3   4   5   6  
-
-  
-     
-     
-     
-     
-     
-     
-
-           
-
-  
-     
-     
-     
-     
-     
-
-  
-  
-                 
-     
-
-  
-
-  
-
-  
-
-  
-
-  
-     
-     
-     
-
-  
-  
-     
-     
-
-Thank  You
-
-

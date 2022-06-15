@@ -1,511 +1,0 @@
-  
-----IT          
-
-  
-
-  
-
-9  
-§    §    §   
-
-  
-§ 1   § 3000   § 1000  
-
-1  
-§ 3   § 8000   § 6000  
-
-  
-
-  
-§    § 10   §   
-
-  
-§    §      
-
-1  
-§ 2   § 1.82   § 80  
-
-  
-     
-
-  
-·    ·    · TPS   ·    ·    ·    ·   
-
-  
-
-  
-
-  
-
-
-
-§   
-
-
-
-Master1   Master2   Master3   §   
-
- 
-
-NC11  
-
-NC12  
-
-NC13  
-
-§   
-
-
-
-NC21  
-
-NC22  
-
-NC23  
-
-§   
-
-
-
-NC31  
-
-NC32  
-
-NC33  
-
-§   
-
-
-
-§   
-
-
-
-§   
-
-
-
-
-
-  
-
-  
-
-/  
-
-DMZ  
-
-  
-
-  
-
-  
-
-  
-
-Ali  Stack  
-
-Ali  Stack    
-
-·     
-·     
-·      
-· "Full  Stack"    
-
-  
-
-DaaS   /     
-
-  
-
-PaaS  
-
-   
-
-  
-
-  
-
-     
-
-     
-
-RPC  
-     
-
-  
-
-IaaS  
-
-    
-
-ECS  
-
-OSS  
-
-OTS  
-
-ODPS  
-
-RDS  
-
-Cloud  DC  
-
-           
-
-  
-
-  
-  
-· 2--3   ·   
-  
-·    · O   ·    ·    ·   
-
-  
-·    
-·  spring  batch   
-· CPU   
-·    · ......  
-
-  
-·    · 2000--3000   ·    ·    · 
-  
-
-  
-
-        
-        
-
-           
-     
-
-  
-
-§    §    §    §    §    §   
-
-         T  
-
-  
-
-  
-
-  
-
-  
-
-§ Sharding   § TDDL   §    § /   §   
-
-     
-
-1.  tryX   tryX    
-confirmX     
-cancelX  
-
-A     
-  
-     
-
-2.  tryY  
-
-  
-
-     
-/  
-
-3.  confirmX  
-
-     
-  
-
-tryY  
-
-B     
-  
-     
-
-
-
-
-
-confirmY   
-
-4.  confirmY  
-
- 
-
-cancelY  
-
-  
-
-  
-·    ·    ·   
-­    ­    ­   
-·   
-
-  
-
-GSLBDNS  
-
-LVS  +  Spanner(ssl)  
-
-1  
-confre g  
-
-2  
-confre g  
-
-    
-  
-
-    
-  
-
-    
-  
-
-    
-  
-
-     
-  
-
-     
-  
-
-     
-  
-
-     
-  
-
-LVS  +  Spanner(ssl)  
-
-3  
-confre g  
-
-4  
-confre g  
-
-    
-  
-
-    
-  
-
-    
-  
-
-    
-  
-
-     
-  
-
-     
-  
-
-     
-  
-
-     
-  
-
-  
-
-               
-
-  
-
-  
-
-  
-
-ECS
-
-SLB
-
-OSS
-
-OTS
-
-OCS
-
-CDN
-
-RDS
-
-ODPS  
-
-  
-
-  
-
-ACE  
-
-ECS   SLB   VPC   ESS        
-
-OSS   OCS   KV-Store   OAS   CDN     
-
-RDS   DRDS:     OTS   ODPS   BASE/DPC   CDP   SLS   ADS  
-
-  DDos   8 14      
-
-ONS   MQS   Opensearch    PTS   MTS      
-
-------------------------------------------------  ------------------------------------------------   §   
-20  
-
-  
-
-  
-
-            
-
-
-
-   
-
-   
-
-   
-
-
-
-   
-
-   
-
-   
-
-  
-
-   
-
- 
-
- ETL
-
- 
-
-  
-
- ODPS
-
-ADS
-
-OSPS
-
-
-
- 
- xlib
-
-PaaS  
-
-configserver  
-
-
-
-        : x f l u s
-
-cloudengine  
-
-Websofamvc  
-
- routerclient  
-
-session  
-
-sofacore  
-
-zdal  
-
- msgbroker  
-
- schedule  
-
-     : z p a a s  
-
-h  
-
-drm  
-
-  
-
-/  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-     
-
-  
-
-  
-
-  
-
-  
-
-  
-
-BI     
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-  
-
-  
-         Architect    =    Business    Technology  Strategist  
-
--    
-
-  
-
-
-
-
-
-
-
-
-
-TEST
-
-SIT
-
-LnP
-
-PRE--PROD
-
-PROD
-
--  
-
-18611883536      liugang@gmail.com     
-
-@InfoQ  
-
-infoqchina  
-
-

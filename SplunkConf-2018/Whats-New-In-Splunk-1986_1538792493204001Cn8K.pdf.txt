@@ -1,264 +1,0 @@
-WHAT'S NEW IN
-Splunk for Security
-EXPRESS EDITION
-
-© 2018 SPLUNK INC.
-
-Forward-Looking Statements
-
-© 2018 SPLUNK INC.
-
-During the course of this presentation, we may make forward-looking statements regarding future events or the expected performance of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results could differ materially. For important factors that may cause actual results to differ from those contained in our forward-looking statements, please review our filings with the SEC.
-The forward-looking statements made in this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, this presentation may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements we may make. In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionality described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Listen to Your Data, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2018 Splunk Inc. All rights reserved.
-
-Hello!
-Meet your Splunkers
-
-© 2018 SPLUNK INC.
-
-Bob Pratt
-Sr. Director, Product Management - Security
-
-Ale Espinosa
-Sr. Director, Product Marketing - Security
-
-Splunk for Security
-Portfolio
-
-© 2018 SPLUNK INC.
-
-ANALYTICS
-
-4.2
-
-4.1
-
-OPERATIONS
-
-DATA PLATFORM
-
-5.2
-Platform for Machine Data
-01010010101010101011010101101010101010110101011011010101010110101001010010 10101010101101010110101010101011010101101101010101011010100101001010101010 10110101011010101010101101010110110101010101101010111010110100100100001010 011
-
-© 2018 SPLUNK INC.
-What's New
-Splunk Enterprise Security
-
-Analytics-Driven SIEM
-Splunk Enterprise Security
-
-© 2018 SPLUNK INC.
-
-DETECT Use to detect advanced threats
-INVESTIGATE Tailored to analyze
-& investigate incidents
-
-ENRICH INFORMATION Unlimited context enrichment to qualify incidents fast
-RESPOND Enterprise-wide coordination & response
-
-Splunk Enterprise Security 5.2
-New and Updated Features
-
-© 2018 SPLUNK INC.
-
-Event Sequencing
-
-Use Case Library
-
-Investigation Workbench
-
-Event Sequencing
-Optimize Threat Detection and Accelerate Investigation
- Helps identify actionable threats  Improves fidelity of threat
-detection  Sequence notable events and
-risk modifiers  Use with existing Incident
-Review
-
-© 2018 SPLUNK INC.
-
-Use Case Library
-Faster Detection and Incident Response
-
-© 2018 SPLUNK INC.
-
-Discover new use cases and determine which ones can be used within your environment right away
-
-Create, curate, install, and manage content, Analytic Stories and third-party created content
-
-Investigation Workbench
-Reduce Time to Contain and Remediate
- Supports new artifacts for use during incident investigation
- New artifact types (file and URL)
- Use artifacts when creating a panel or while exploring
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-What's New
-Splunk User Behavior Analytics
-
-© 2018 SPLUNK INC.
-Splunk User Behavior Analytics (UBA)
-Detect Unknown Threats and Anomalous User Behavior using Machine Learning
-
-Container-based Architecture
-
-Advanced Investigation
-
-Data Availability
-
-Enhanced Data Ingestion User Feedback Learning
-
-© 2018 SPLUNK INC.
-Greater Scalability for Insider Threat Detection
-Container-based Architecture
-
-20
-Cluster Nodes
-
-80K
-Events per Second
-
-750K
-Accounts Monitored
-
-1M
-Devices Monitored
-
-Enhanced Investigation with Splunk
-Drill Down into Raw Events
-Drill down into triggering events
-Investigation starts in UBA and continues in core
-Targeted hunting using automated SPL
-Leverages anomaly data from users and assets
-Collect more supporting evidence
-Further your investigation with focused timestamps
-
-© 2018 SPLUNK INC.
-
-Data Availability Validation
-Quickly Validate Your Data Ingestion
-View relationships across data sources
-Map models and anomalies to generated threat
-Identify missing data sources
-Gain additional scope and context of threats
-
-© 2018 SPLUNK INC.
-
-Splunk-to-UBA Kafka Connector
-Data Ingestion Performance Doubled
-Ingest data directly from Splunk indexers to Kafka messaging queue
-Strengthen data quality and efficacy
-For all machine learning and rule-based detection models
-
-© 2018 SPLUNK INC.
-
-User Feedback Learning
-Increase Threat Detection Accuracy and Anomaly Customization
-
-© 2018 SPLUNK INC.
-
-Provide granular feedback to anomaly models
-Anomaly scoring rules per anomaly type
-Control overall threat detection severity and confidence
-Tune scoring weights up/down for each model feature
-Customize anomaly models
-Based on your enterprise policies
-
-Splunk UBA Content Updates
-Stay Ahead of Advanced and Insider Threats
-
-© 2018 SPLUNK INC.
-
-Account Takeover
-Disabled account activity Terminated user activity Interactive logins by svc accounts VPN logins by svc accounts
-
-Suspicious Behavior
-Suspicious badge activity Account recovery detection
-
-Data Exfiltration
-Unusual USB device High USB attachments
-
-Lateral Movement
-Suspicious account lockout Privilege escalation after PowerShell
-activity Local account creation Password policy circumvention Multiple auths and failures
-
-Cloud Security
-High downloads High deletions Unusual file access
-File relay Data destruction Data collection
-Watering hole Suspicious new access
-
-External Alarm
-Aggregation of external alarms with security analytics
-Security Context
-Behavior-based fingerprinting of user roles and assets
-
-© 2018 SPLUNK INC.
-What's New
-Splunk Phantom
-
-Splunk Phantom
-Security Orchestration, Automation, and Response
-
-© 2018 SPLUNK INC.
-
-Splunk Phantom 4.0
-New and Updated Features
-
-© 2018 SPLUNK INC.
-
-Clustering Support
-
-Indicator View
-
-Splunk Search & Storage
-
-Clustering
- Scale performance as needs grow
- Add redundancy for greater availability
-
-© 2018 SPLUNK INC.
-
-Indicator View
- Gain deeper insights into your data
- Approach incidents from an indicator perspective
- Drill Down to see indicator details
-
-© 2018 SPLUNK INC.
-
-Splunk Search and Storage
- Only SOAR platform with integrated Splunk search support
- Supports existing Splunk datastores for single source of truth
-
-© 2018 SPLUNK INC.
-
-Additional Features
-visit the Phantom Community to learn more about the Splunk Phantom 4.0 release
-
-· User Management UI · New Onboarding Tour · Concurrent Viewing of Multiple Artifacts · Revamped Notifications View · Filtering of Custom Fields in Analyst Queue · Playbook Import Wizard · Artifact Search in Mission Control · Requiring Notes on Task Completion · ROI Summary Changes · Support for Thycotic Secret Server · Debug log for entry and exit out of Python · Dashboard Permissions · Case Template Descriptions · Indicator Info in Contextual Menu · Searchable Notes
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Get More with Splunk
-Splunk for Security
-
-Advancing Your Security Journey
-
-© 2018 SPLUNK INC.
-
-Download Upgrades
-
-+ Phantom Community
-
-© 2018 SPLUNK INC.
-Questions?
-
-Thank You!
-Don't forget to rate this session in the .conf18 mobile app
-
-© 2018 SPLUNK INC.
-
-

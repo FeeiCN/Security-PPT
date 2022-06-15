@@ -1,113 +1,0 @@
-· Twitter: @Kevin2600
-· Github: https://github.com/kevin2600
-· : -; -I2C ; -WINKHUB ;
--GPS Hacking; - RFID  ...
-
-:
-
-·  ·  ·  · 
-
-
-
-
-·  (DJI; Parrot; Xiaomi; DIYer...) ·  (; ; ; ...) ·  (RF; WIFI; XBEE;  & ...)
-
- ?
-
- ?
-
- ?
-· DARPA  (GPS- · : ; ; WIFI; ;  ... · : ; WI-FI ; ;  ...
-
- !
-· GPS  (DJI 3S  &  · ,  ( 1 6922 $) · ,  (; ; 
-
-
-
-
-·  (; AR-Drone 2.0; 3S ...) ·  (WIFI; GPS ; ; ; APP; ;  ...) ·  (WIFI ; GOT ROOT; ;  ...)
-
-: Parrot AR Drone 2.0 · AR Drone 2.0 WIFI  ()
-·  Linux on ARM (SkyJack ; Maldrone .. ·  Telnet Root .  Pairing  (MAC )
-· kill ­KILL "pidof program.elf"
-
-DEMO
-
-: DBPOWER U818A-WIFI
-· U818A WIFI  () · U818A  BusyBox 1.20.2 ( BusyBox ? · CVE-2017-3209 ( FTP server ,  · "curl -T shadow ftp://192.168.0.1:21/etc/jffs2/shadow"
-
-: Parrot Bebop2
-· Bebop2  Android . TELNET, FTP, UART Root  · Bebop2 WIFI,  · Bebop2 , Buffer
-
-: Mavlink 
-· ; GPS;  (AR.Drone; ArduPilot ..) · (GCS)  255  (Intel  500  Show, ? 
-· Fuzzing : SCAPY or KITTY + Test cases (ERROR : Floating point exception · Fuzzing :  (SITL Simulator; MAVProxy; Wireshark)
-
-: DJI 
-· 3  GPS  (flyforbid.json) · 3  &  WIFI Probing (MAC: 60:60:1F) · 3 Sniffer: github.com/a232319779/PHANTOM-3-STANDARD · 3 RF  Geekpwn 2015 (315?)
-
-: DJI 
-
-DEMO
-
-
-
-: CX-10WD
-·  CX-10  (WIFI; RF;  ·  4 ,  2.4Ghz  ·  WIFI  40 , RF  15  (
-
-CX-10WD 
-·  (900mhz ? 2.4ghz ? 5.8ghz ?) ·  (? GFSK ?  ?) ·  ( ?  ?  ?)
-
-CX-10WD 
-· FCCID  ·  · SDR 
-
-CX-10WD 
-
-
-
-
-CX-10WD ­ 
-· : WIFI Deauth  (AirCrack-ng  · :  + 2.4ghz  (SDR  Hacking 
-
-CX-10WD ­ 
-
-CX-10WD ­ 
-
-CX-10WD ­ 
-
-CX-10WD  
-
-
-
-CX-10WD 
-NRF 24L01  Arduino UNO  SPI   + 
-
-DEMO
-
-CX-10WD ­ 
-·  Arduino + NRF24  ·  DeviationTX  · ,  ( DEVO 7E
-
-CX-10WD ­ 
-
-DEMO
-
-
-· : MicroBIT; Devo7E; ;  ... · ?
-
-
-
- VS 
-· ,  ? · & · Skyjack  (AR.Drone + ) && Hack5  (DJI3S + WIFI)
-
- VS 
-·  () ·  ( · AI  ()
-
- Skynet  ?
-· AR.Drone  (ardronelabviewtoolkit.wordpress.com) · NVIDIA Jetson TX :  · :  +  + 
-
-DEMO
-
-:
-· Kein System Ist Sicher: 100%  ·  ·  (?)
-
-

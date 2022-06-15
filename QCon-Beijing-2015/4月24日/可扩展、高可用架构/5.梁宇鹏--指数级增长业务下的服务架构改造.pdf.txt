@@ -1,107 +1,0 @@
- 
-  @
-
-
-
-
-  2x 
-
-
- APPIM
-IM  XMPPJabberd2EjabberdOpenfire
-
-
-  
-
-
-
-
-IDC 3 Cluster Cell 4 Machine 500+ Erlang 120+
-
-
-100K -> 1M -> 10M -> more  
-
-
- ->  ->  MySQL Cassandra Mnesiafragment
- ->  Redis
-
-
- 
-  -> Token  -> IMREST
-
-
- Kafka/Redis
-   
-
-
- HOL blocking ->  or 
-  -> DB  -> 
-
-
-  
-
-
-  e.g. 
-  e.g. 
-  e.g. VM
-
-
-   e.g.   e.g. 
-
-
-    INTFboys
-
-
- Noisy Neighbors 
- rds
-
-
- SLB SLB
-  
-
-Dev & Ops
-Ops can dev  Nginx 
-Dev for ops  
-
-
-
-
-  
-
-
-
-Erlang
- 
- Fail Fast 
- 
-
-
-
-Erlang
-Lager high_water_mark flume backend + no thrift compact protocol support
-VM port_get_data in ERTS6.3 http://t.cn/RAOhWji dist_buf_busy_limit: +zdbbl 2048000
-
-Erlang
- 
-Mnesia   /=  new hash module for fragment
-
-Java
-  
-  
-
-
-TSung TCPCopy
-65535 problem ReuseAddr and Port Client 200+
-
-
- 
- 
-  + Slack Skype
-
-
-  Docker 2+3+4 Erlang Java Go
-
-
-@ @
-
-

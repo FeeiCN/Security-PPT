@@ -1,351 +1,0 @@
-© 2018 SPLUNK INC.
-Jira Powered By Splunk
-Bringing Operational Transparency to Agile Teams
-Arzu Gosney, Digital Transformation Lead Justin Brown, Splunk Technical Lead
-October 3, 2018
-
-Forward-Looking Statements
-
-© 2018 SPLUNK INC.
-
-During the course of this presentation, we may make forward-looking statements regarding future events or the expected performance of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results could differ materially. For important factors that may cause actual results to differ from those contained in our forward-looking statements, please review our filings with the SEC.
-The forward-looking statements made in this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, this presentation may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements we may make. In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionality described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Listen to Your Data, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2018 Splunk Inc. All rights reserved.
-
-Arzu Gosney, PhD.
-Arzu.Gosney@pnnl.gov @ArzuGosney
-Digital Transformation Lead IT Infrastructure & Operations
-Joined PNNL in 2000
-
-© 2018 SPLUNK INC.
-
-Agenda
-
-© 2018 SPLUNK INC.
-1. About Pacific Northwest National Laboratory
-(PNNL)
-2. Digital Transformation Journey 3. Goals 4. Current Landscape 5. Transformation in Action
-· Goals & Platform Selection · Development & Implementation
-6. Conclusion 7. Questions & Answers
-
-© 2018 SPLUNK INC.
-About Pacific Northwest National Laboratory
-Pacific Northwest National Laboratory is the nation's premier laboratory for scientific discovery in chemistry, earth sciences, and data analytics and for solutions to the nation's toughest challenges in energy resiliency and national security. Founded in 1965, PNNL is operated by Battelle for the U.S. Department of Energy's Office of Science.
-
-College Park, MD Washington, DC
-
-4,400+ STAFF
-
-http://energy.gov/about-national-labs
-
-Digital Transformation Journey
-
-© 2018 SPLUNK INC.
-
-From
-Business-aligned
-Efficiency
-I&O-centric silos, internal customer focus
-Plan-driven, approval-based Long-term technology
-supplier deals Risk-averse, conventional
-project focus IT-centric, removed
-from customer
-Slow, months
-
-Goal/Vision Value Culture
-Governance Sourcing Talent Metrics
-Team Velocity
-
-To
-Business-embedded, transaction-oriented
-Agility and innovation
-Business-centric, collaborative, external customer focus Enablement-based, automated, embracing shadow IT Multisourcing brokerage of technology and services Risk-embracing, product focus versatalist Business-centric, close to customer
-Continuous (days, weeks)
-
-© 2016 Gartner, Inc. and/or its affiliates. All Rights Reserved
-
-Current Landscape
-
-© 2018 SPLUNK INC.
-
-Custom Change Request
-Database
-
-Goals
-
-© 2018 SPLUNK INC.
-1. One Place to
-· Track I&O Projects · See Maximo IRs, SRs, Change Requests and
-Project Tasks
-· Enter Tasks · Manage Work with Agile Methodologies
-2. "Standardize" how we use Jira within
-Infrastructure & Operations team
-3. Maximize Jira Capabilities
-
-Platform Selection
-
-© 2018 SPLUNK INC.
-
-WHY
-
-1
-Industry Standard Agile Development Environment
-
-2
-Better UI Comparing to
-Maximo
-
-3
-Maximo Tickets Are Being Synced
-
-4
-Has Dashboard Capabilities
-
-5
-Can Utilize Confluence
-For Documentation
-
-© 2018 SPLUNK INC.
-Transformation in Action
-Jira Setup
-
-Reporting Requirement
-
-© 2018 SPLUNK INC.
-
-Infrastructure & Operations
-
-Jira Setup
-
-© 2018 SPLUNK INC.
-
-Epic #1
-
-Epic #2, etc...
-
-Enterprise Platform Services
-
-Infrastructure Applications
-
-Network & Communications
-
-Epic #1
-
-Epic #1
-
-Epic #1
-
- Projects with Category "Infrastructure and Operations" are I&O SPACES
- Epic = Project
-
-Epic #2
-
-Epic #2
-
-Epic #2
-
-...
-
-...
-
-...
-
-© 2018 SPLUNK INC.
-Custom Fields, Issue Types, Custom Screens
-
-Now What?
-
-© 2018 SPLUNK INC.
-
-Existing Projects in Jira
-· Include them in the I&O reports/dashboards as is (custom fields will be missing)
-· Move them into one of the I&O projects that the project belongs to.
-
-New Pilot Projects
-· Work with team leads to identify pilot projects.
-· If you have a project that you are about to take on, use the new I&O projects we already setup.
-
-Feedback
-· Report Back (Existing/New Project). What is working, what is NOT working.
-· Let's collaborate and improve what we have so far
-
-© 2018 SPLUNK INC.
-Infrastructure & Operations Team
-Dashboards
-The Transformation
-
-Jira Dashboards
-
-© 2018 SPLUNK INC.
-
-Limitations with Jira
-Dashboards
-
-© 2018 SPLUNK INC.
-1. Field Captions 2. Out of the box Jira gadgets are pay to
-play solutions
-3. Filtering and interacting with the
-dashboard data is limited
-4. Can't open links on new tabs 5. All data was not in Jira
-
-Justin Brown
-justin@pnnl.gov @TheOtherJustinB
-Splunk Technical Lead Joined PNNL in 2000
-
-© 2018 SPLUNK INC.
-
-The Goal
-Use Splunk to create better dashboards in Jira
-
-© 2018 SPLUNK INC.
-
-Tasks
-
-© 2018 SPLUNK INC.
-
- Get data from Jira into Splunk  Allow Splunk dashboards to be embedded  Hide Splunk navigation and other default content  Pass data from Jira to the embedded Splunk dashboard  Allow dashboard to be narrower than default of 960px
-
-Getting the data from Jira
- Option 1: There's an app for that Add-on for Jira https://splunkbase.splunk.com/app/1438/#/overview
-
-© 2018 SPLUNK INC.
-
- Option 2: Custom commands!
-· Custom "generating" command using the Jira API
-
-· Resources · Extending SPL with Custom Search Commands and the Splunk SDK for
-Python
-- http://conf.splunk.com/sessions/2017-sessions.html#search=custom%20search%20commands
-· Splunk SDK for Python docs
-- http://dev.splunk.com/view/python-sdk/SP-CAAAEU2
-
-Allow Dashboard Embedding
-
-© 2018 SPLUNK INC.
-
- Edit web.conf · https://docs.splunk.com/Documentation/Splunk/latest/Admin/Webconf
-x_frame_options_sameorigin = FALSE
-· Defaults to TRUE
-
-Add Splunk to Jira
-
-© 2018 SPLUNK INC.
-
-<iframe width="100%" height="1500" scrolling="no" style="overflow:hidden;" src="your_dashboard_url? hideChrome& hideEdit& hideTitle& form.source=*"
-/>
-
-1. Add a "Text" gadget 2. Use Link Attributes
-· HideChrome · HideEdit · HideTitle · Tokens
-
-Override Body Width
-Using Custom CSS
- Default body min-width setting is 960px  Added "jelly.css" to the app
-· $splunk_home/etc/apps/<your app>/appserver/static/jelly.css  Reference it in the dashboard's opening tag:
-· <dashboard stylesheet="jelly.css">
-body { min-width: 500px !important;
-}
-
-© 2018 SPLUNK INC.
-
-Passing tokens to Splunk
-
-© 2018 SPLUNK INC.
-
-https://your_dashboard_url?form.source=Red&made_up=Blue
- Form tokens · form.<token_name>=value
- Custom tokens · <made_up_name>=value
-
-Using tokens in your dashboards http://docs.splunk.com/Documentation/Splunk/7.1.2/Viz/tokens
-
-Jira Dashboards Powered by Splunk
-
-Typical Splunk Dashboard
-
-Hiding Splunk Dashboard in Jira
-
-© 2018 SPLUNK INC.
-
-Before
-
-Jira Dashboards Powered by Splunk
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Jira Dashboards Powered by Splunk
-After
-
-Jira My Workload Dashboard
-
-© 2018 SPLUNK INC.
-
-Jira My Team Dashboard
-
-© 2018 SPLUNK INC.
-
-Jira My Division Dashboard
-
-© 2018 SPLUNK INC.
-
-Jira My Directorate Dashboard
-
-© 2018 SPLUNK INC.
-
-Jira: Empowered
-
-© 2018 SPLUNK INC.
-
- One place to track work
-· No need to switch tools
- Jira now has filtering capability
-· Team selections
- Links open details in a new tab
- Full control over the look and feel
- Agile development capabilities are available
-
-Manage Work with Agile Methodologies
-
-© 2018 SPLUNK INC.
-
-Current State Showing Improvement
-
-© 2018 SPLUNK INC.
-
-What Staff Thinks?
-
-© 2018 SPLUNK INC.
-
-Conclusion
-
-© 2018 SPLUNK INC.
-1. Bringing Transparency to IT Operations
-is a Worthwhile Endeavor
-2. Integrate data analytics with Jira for
-additional flexibility
-3. Innovate Openly 4. Use Agile Methodologies
-
-Links and Info
-Add-on for Jira https://splunkbase.splunk.com/app/1438/#/overview
-
-© 2018 SPLUNK INC.
-
-Extending SPL with Custom Search Commands and the Splunk SDK for Python http://conf.splunk.com/sessions/2017-sessions.html#search=custom%20search%20commands
-
-Splunk SDK for Python docs http://dev.splunk.com/view/python-sdk/SP-CAAAEU2
-
-Using tokens in your dashboards http://docs.splunk.com/Documentation/Splunk/7.1.2/Viz/tokens
-
-Arzu Gosney, PhD.
-Arzu.Gosney@pnnl.gov
-@ArzuGosney
-
-Justin Brown
-justin@pnnl.gov
-@TheOtherJustinB
-
-Thank You
-Don't forget to rate this session in the .conf18 mobile app
-
-© 2018 SPLUNK INC.
-
-

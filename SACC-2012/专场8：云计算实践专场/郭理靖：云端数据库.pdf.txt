@@ -1,193 +1,0 @@
-
-
- 
-MYSQLMONGODB
-
-Agenda
- Database As A Service ()    MySQL  MongoDB  
-
-
- 
-­ , · "" ·  · 
-­ , ·  ·  ·  ·  · 
-­ 
-
-
-Setup without hardware
-· 
-Operator without DBA
-· 
-Start Business with a little money
-· 
-
-
- Google CloudSQL (MySQL)  Amazon RDS (MySQL/MS SQL Service/Orcale)  Microsoft Azure SQL (MS SQL Service)  Enterprisedb (postersql)   (MySQL/MongoDB)   RDS (MySQL/MS SQL Server)  SAE Mysql  MongoHQ/MongoLab (MongoDB)  Garantia/Redis To Go/Redis4you (Redis)
-
-What's Database As A Service
-
-Agenda
- Database As A Service ()    MySQL  MongoDB  
-
-
-VIP
-
-MySQL MySQL MySQL
-MySQL MySQL MySQL
-
-
-
-
-
-·  ·  · 
-
-
-
-· CPU ·  · IO
-
-
-
-
-
-
-
- 
-­ 1G1T T
- 
-­ 
- 
-­  
-
-/
-
-
-
-VM
-
-VM Manager OPLogManage SnapshotMange
-
-r
-
-r
-
-DB API Service
-
-Puppet HealthManager
-
-MQ
-
-Web
-
-Zabbix
-
-DB service
-
-OPLog
-
-VM
-
-VM
-
-VM
-
-Snapshot
-
-Init
-
-Heartbeat
-
-Zabbix
-
-Supervisor
-
-MySQL Proxy
-
-Client
-
-Client
-
-Client
-
-VM Client
-
-Agenda
- Database As A Service ()    MySQL  MongoDB  
-
-MySQL Snapshot
- EBS()+LVM  Mylvmbackup  Snapshot  gotar
-­ tar ­  ­ 
-
-MySQL Binlog
- 5flush logs  Binlog  binlog    /kill  
-
-
-
-
- snapshot  Replayoplog    
-
-
-
-VM1 MySQL Instance
-1
-EBS 1
-
-Host1
-VM2 MySQL Instance
-1 EBS 1
-
-Host2
-
--DRBD
-
-HA Solution
-
-Primary fs .
-drbd lv
-
-Inte.rnal API
-
-Secondary fs
-drbd lv
-
-HA Solution
-
-Secondary
-
-Internal API
-
-
-Primary
-
-  drbd 
-
-
- drbd db 
-
-Agenda
- Database As A Service ()    MySQL  MongoDB  
-
-MongoDB
- Master/Slave ­ MySQLAPI ­  ­ 
- Replica Set ­ 3 (21) ­ 
-
-MongoDB Snapshot
- EBS()+LVM  1
-­ fsync mongodb -> lock mongodb -> fsync mongodb -> lvm snapshot -> unlock mongodb
-­ :lockmongodbunlock
- 2
-­ journal ­ lvm snapshot ­ : , snapshotjournal,
-
-MongoDB Oplog
- localOplog  510M  Oplog()  Oplog    /kill  
-
-Agenda
- Database As A Service ()    MySQL  MongoDB  
-
-
- SSD    
-­ Amazon DynamoDB/Simple DB
- Scale up 
-­ Xeround MySQL
-
-Q&A
-
-

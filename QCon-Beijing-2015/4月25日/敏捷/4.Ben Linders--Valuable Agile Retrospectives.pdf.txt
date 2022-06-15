@@ -1,233 +1,0 @@
-Ben Linders Consulting
-Valuable Agile Retrospectives
-QCon Beijing, April 25, 2015
-Ben Linders Consulting
-1
-
-Ben Linders Consulting
-On the agenda today ...
-· "What" and "why" of Retrospectives · Business Value and Benefits · Environment for Retrospectives · Retrospective Exercises
-With agile retrospectives teams drive their own actions! Ben Linders
-2
-
-Ben Linders Consulting
-Ben Linders
-
-Agile, Lean, Quality & Continuous Improvement
-Retrospectives Facilitator Agile Coach/Mentor/Trainer CMMI & People-CMM Assessor
-Freelance Editor for InfoQ.com
-Co-Author Getting Value out of Agile Retrospectives English Dutch French Japanese Spanish Italian Chinese
-Russian Polish German
-
-Author: What Drives Quality
-
-eBook: Download from Amazon, InfoQ or Leanpub
-
-Print: Buy on Amazon or Lulu
-
-3
-
-Ben Linders Consulting
-State of Practice
-Agile Retrospectives Doing them? Like doing them? Valuable?
-4
-
-Ben Linders Consulting
-Agile Retrospectives
-Practice for teams to reflect on their way of working and to continuously become better in what they do.
-Focus upon
-· Team
-· Self organizing
-What is an Agile Retrospectives
-5
-
-Ben Linders Consulting
-Prime Directive
-"Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand."
-Norm Kerth http://www.retrospectives.com/ Create an Open Culture where team member Speak Up with Respect for each other to Learn and Improve
-Soft Skills Matter
-6
-
-Ben Linders Consulting
-Why Retrospectives?
-To help teams to solve problems and improve themselves! · Becoming Agile and Lean · Make existing processes more Agile · Increase Value of Agile · Less resistance to Change
-7
-
-Ben Linders Consulting
-8
-
-Ben Linders Consulting
-Environment for Retrospectives
-Adopting retrospectives is an organizational change where professionals adapt their way of working, their behavior - It won't just happen, and if not properly supported it may take much time, or even fail.
-· Purpose · Facilitation · Do and Evaluate
-Adopting Agile Retrospectives
-9
-
-Ben Linders Consulting
-Purpose of Retrospectives
-· Team's authority and responsibility on how they do their work
-· No "first time right" · Ok to fail, if you learn from it · Continuous improvement
-Sustainable Improvement through Agile Retrospectives
-10
-
-Ben Linders Consulting
-Capable Retrospective Facilitators
-
-Facilitated by capable professionals: · Qualified facilitators · Train: Purpose, techniques, skills · Mentoring & coaching · Share & discuss experiences
-Effective and Efficient Retrospectives: · Vital few improvement actions · Keep invested time low
-
-Agile Improvement
-
-11
-
-Ben Linders Consulting
-Do and Evaluate Retrospectives
-· Start with retrospectives in your first iteration · Simple technique: asking questions or boat exercise
-Evaluate the Retrospective: · Is this useful? · Helps to get a shared understanding? · Do the actions make sense? · Does meeting as a team to reflect feel good?
-12
-
-Ben Linders Consulting
-Leading Retrospectives
-Roles · Facilitator ­ Servant Leader · Coach ­ Support Change · Manager ­ Arrange for Change
-All roles are needed Play the game together Action is in the interaction
-13
-
-Ben Linders Consulting
-Business Value
-Agile retrospectives help teams learn and improve, and increase their business value to their customers and the company
-Getting more Business Value: · Expectations · Limit Actions · Follow up on Actions
-Getting Business Value out of Agile Retrospectives
-14
-
-Ben Linders Consulting
-Vital Few Actions
-· Small Actions · Frequent Change · Focus on Value · Stop Starting,
-Start Stopping · Kanban
-Short Cycled Improvement
-15
-
-Ben Linders Consulting
-Follow up on Actions
-· Visibility · Check status
-Mentoring & Coaching on Continuous Improvement
-Making Quality & Process Improvement Visisble Uncovering Better Ways to do Process Improvement Golden Rules for Agile Process Improvement
-16
-
-Ben Linders Consulting
-Toolbox of Retrospective Exercises
-· Teams differ · Needs vary · More value
-You can plan a retrospective meeting, and think about the exercise you want to use, but be open to change it on the spot whenever needed.
-Toolbox of Retrospective Techniques
-17
-
-Ben Linders Consulting
-Retrospective Exercises
-· Asking questions · One-word retrospective · Root Cause Analysis · Timeline · Flow and Energy · Asking Why? · Strenghts (Solution Focused) · Perfection game · Action priorities · Retrospective of Retrospectives · Teams with multiple customers · Remote Teams · Futurespectives
-Book with Agile Retrospective Exercises
-18
-
-Ben Linders Consulting
-Examples
-
-The Sprint that failed
-
-The team that wasn't a team yet
-
-· Trust and Empowerment · Deal with Feelings
-
-· Getting to know each other · Skills & Open Culture
-19
-
-Ben Linders Consulting
-Designing your Retrospective
-
-amazon.com/dp/B00SWJO1DI
-
-benlinders.com/exercises/
-
-20
-
-Ben Linders Consulting
-Take Away
-Retrospectives: · Frequent, Fast Feedback · Well Facilitated · Effective Exercises · Take Actions
-21
-
-Ben Linders Consulting
-Chinese Edition
- 
-By Luis Gonçalves & Ben Linders
-   
-Download from InfoQ or Leanpub
-22
-
-Ben Linders Consulting
-Questions?
-Ben Linders
-Independent Consultant Agile, Lean, Quality & Continuous Improvement
-info@BenLinders.com @BenLinders www.linkedin.com/in/benlinders www.facebook.com/BenLindersAdvies www.benlinders.com
-23
-
-Ben Linders Consulting
-Retrospectives Book
-Getting Value out of Agile Retrospectives By Luis Gonçalves & Ben Linders
-Download from InfoQ or Leanpub Buy on Amazon or Lulu
-amazon.com/dp/B00SWJO1DI
-leanpub.com/gettingvalueoutofagileretrospectives
-Mailinglist: eepurl.com/Mem7H
-The suggested price is $9,99 (excl. VAT); this is what we think is the real value of this book. We leave it up to our readers to decide what they would like to pay for the book.
-24
-
-Ben Linders Consulting
-Spicing up Retrospectives
-Workshop  Why and How  Business Benefits  Facilitation Skills  Exercises
-Workshop Agile Retrospectives Spice up your Agile Retrospectives
-25
-
-Ben Linders Consulting
-Background Information
-26
-
-Ben Linders Consulting
-Retrospective Benefits
-· Actions done by the Team · Power to the Team · Changes that Stick
-27
-
-Ben Linders Consulting
-Assessing yourself
-· Readiness · Agile / Scrum Practices · Culture & Mindset · Agile Fluency · Roadmaps for Adoption · Maturity
-Agile Self-Assessment
-28
-
-Ben Linders Consulting
-Book Facts Agile Retrospectives
-
-Leanpub subscribers: 500 in 3 months, 1000 in 5 months, now 2177
-
-InfoQ downloads:
-
-> 6500++
-
-Reviews:
-
-Goodreads 4,02 Amazon 4.6
-
-Bestseller:
-
-#7 on Agile #2 on Business & Economics
-
-Languages:
-
-English Nederlands Español Francais Japanese Italiano Chinese Russian
-
-Interviews:
-
-SPaMCAST Collaboration Superpowers
-
-29
-
-Ben Linders Consulting
-Articles on Effective Agile
-· Self-assessing how Agile you are · Sustainable Improvement through Agile Retrospectives · Working in a Sustainable Pace · Becoming Agile and Lean · Succes Factors for Using Scrum and Getting Benefits · Process Improvement: The Agile Way · Golden Rules for Agile Process Improvement · How to deal with Resistance when Implementing Agile · Managing Projects with Agile Teams · Agile Project Management · Establishing and Maintaining Stable Teams · Getting Business Value out of Agile Retrospectives · Sharing Knowledge is Power · Are your Professionals Empowered?
-30
-
-

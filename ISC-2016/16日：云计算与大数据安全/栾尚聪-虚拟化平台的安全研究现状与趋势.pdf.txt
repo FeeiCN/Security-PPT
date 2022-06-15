@@ -1,183 +1,0 @@
-  
-
-PIO.
- 
-· XSA-148XSA-182 ... · HITB AMS 2016 "Xen" · Blackhat USA 2016 "XSA-182"
-
-
-
-· · · ·Q&A
-
- 
-
-
- 
-
-
- 
-VMM Hypervisor VM Domain
-
-
-
-Xen Architecture
-
-KVM Architecture
-
-
- Hypervisor  Qemu  Services  Tool Stack
-
-
-
-
-
-
-
-
-
-
-
-
-  >90%   
-   
-
-Xen/KVM
-60 50 40 30 20 10
-0
- 1. CVEXSA 2. Qemu
-
-Xen KVM
-
- 
-
-Escape Researches
-
-VMware CloudBurst
-2009
-
-2010
-
-KVM-qemu
-
-Xen
-
-Unplug Devices Bad SYSRET
-
-2011
-
-2012
-
-2016
-Xen XSA-182
-
-2015
-Xen Qemu XSA-148 VENOM
-
-2014
-
-2013
-
-1VMware CloudBurst - 2009
-SVGA 2D
-· SVGA_CMD_RECT_COPY · SVGA_CMD_DRAW_GLYPH
-SVGA 3D
-· SETRENDERSTATE · SETLIGHTENABLED · SETRENDERTARGET · SETCLIPPLANE · SETTRANSFORM
-
-VMware SVGA Guest <-> Host
-
-2) Bad SYSRET - 2012
-CVE-2012-0217
-The x86-64 kernel system-call functionality in Xen 4.1.2 and earlier, ...Solaris...illumos...SmartOS ...FreeBSD... NetBSD...Microsoft Windows...and possibly other operating systems, when running on an Intel processor, incorrectly uses the sysret path in cases where a certain address is not a canonical address, which allows local users to gain privileges via a crafted application.
-
-Bad SYSRET - 2012
-SYSRET--Return From Fast System Call IF (CS.L  1 ) or (IA32_EFER.LMA  1) or (IA32_EFER.SCE  1) (* Not in 64-Bit Mode or SYSCALL/SYSRET not enabled in IA32_EFER *) THEN #UD; FI; IF (CPL  0) OR (RCX is not canonical) THEN #GP(0); FI; IF (operand size is 64-bit) THEN (* Return to 64-Bit Mode *) RIP  RCX; ELSE (* Return to Compatibility Mode *) RIP  ECX; FI; RFLAGS  (R11 & 3C7FD7H) | 2; (* Clear RF, VM, reserved bits; set bit 2 *) ... (* deal with CS) ... (* desl with SS)
-
-VUPEN Team Exploitation Tech.
-#GP(0) do_general_protection() emulate_privileged_op()
-
-3.3QEMU 
-· KVM-Qemu Unplug Device, 2012 · Qemu VENOM, 2015 ·...
-
-3.4Xen XSA-148 - 2015
-
-XSA-148
-
-XSA-148
-
-XSA-148
-
-XSA-148
-
-· VDSO/vsyscall Page (Linux) · SharedUserData Page (Windows) · Hypercall Page ·...
-
-3.5Xen XSA-182 - 2015
-
-XSA-1822
-
-XSA-182
-
-XSA-182
-
-XSA-148/XSA-182 White Paper
-
- 
-
-
- 
- By hikerell
-
-
- 
- By hikerell
-
-
- 
- By hikerell
-       
-
-----Side Channel
- CPU/GPU    Cache/TLB     ...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Practical Timing Side Channel Attacks Against Kernel Space ASLR
-Ralf Hund, Carsten Willems, Thorsten Holz 2013 IEEE Symposium on Security and Privacy
- Prime + Probe  Double Page Fault  Address Translation Cache Preloading
-
-
-Practical Timing Side Channel Attacks Against Kernel Space ASLR
-Ralf Hund, Carsten Willems, Thorsten Holz 2013 IEEE Symposium on Security and Privacy
- Prime + Probe  Double Page Fault  Address Translation Cache Preloading
-
-
-
-
-
-
-Cache 
-· Evict + Time · Prime + Probe · Flush + Reload · Flush + Flush
-
-
-
-
-
-Cache 
-· Evict + Time · Prime + Probe · Flush + Reload · Flush + Flush
-
-
-
-
-Exploiting Processor Side Channels To Enable Cross VM Malicious Code Executation
-Sophia M. D'Antoine, RPI April 2015, Thesis for the Degree of MASTER OF SCIENCE
-
-

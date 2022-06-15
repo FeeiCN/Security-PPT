@@ -1,124 +1,0 @@
-
-
- 
-
- 
-
-·  ·  · 
-
-
-·  · AndroidiOS
- · iOS 789
- · MOSEC
-
-
-· iOSiOS 
-·  
-·  
-
-
-·  ·  · 
-
-
-
-XPC
-· Mac OSiOSMach  
-· 2011iOS 5
-
-XPC 
-
-XPC 
-
-Assetsd
-· Assetsd  com.apple.PersistentURLTranslator.Gatekeeper  
-· Assetsd  /System/Library/Frameworks/AssetsLibrary.framewo rk/Support/
-· 
-
-
-· Assetsd   /var/mobile/Media/DCIM/ 
-· Assetsd xpcsrcPath  destSubdir  
-
-
- srcPath/destSubdir  "../" 
-
-
-·  · AppApp
-
-·  MalwAirDrop: Compromising iDevices via AirDrop, Mark Dowd, Ruxcon 2015
-
-
-·  
-· 1iOS 8TEAM ID    com.apple.private.skip-library-validation entitlement
-· 2iOS 8.3dyldDYLD_*    get-task-allow entitlement
-
-get-task-allow
-· iOS 9  get-taskallow entitlement
-· DDIDeveloper Disk Image vpnagent
-
-vpnagent
-· DDI · iOS 9 DDI · 
-
-vpnagent
-· DDI · iOS 9 DDI
-·  · MobileStorageMounterDDItrustcache
-DDItrustcacheCDHASH 
-· vpnagentiOS
-
-vpnagent
-· DDIiOSdebugserver · XPCvpnagent
-debugserver · debugserver vpnagent
-DYLD_INSERT_LIBRARIESvpnagent 
-
-TEAM ID
-· dylib · vpnagentdylib
-Team ID  · dylib
-
-get-task-allow
-· iOSget-task-allow entitlement
-·  
-· 
-· vpnagentdylib vpnagent
-
-·  ·  · 
-
-iOS 9.0
-· CVE-2015-6974 · IOHID UAF ·  · 
-http://blog.pangu.io/poc2015-ruxcon2015/
-
-iOS 9.1
-· CVE-2015-7084 · IORegistryIteratorRace Condition ·  · Ian Beer Apple · @Lokihardt ·  · 
-http://blog.pangu.io/race_condition_bug_92/
-
-iOS 9.3.3
-· CVE-2016-4054 · IOMobileFrameBufferHeap Overflow ·  ·  · 
-
-KPP
-· iOS64Kernel Patching Protection 
-· KPP ­ r-x/r­ kernelcache
-· const
-­  · KPP
-­  ­ rwkernelcache
-
-
-· com.apple.security.sandboxmach-o ­ __TEXTKPP ­ __DATAKPP
-· __gotsub 
-
-KPP
-·  MAC  · mac_policy_register  · mac_policy_conf.mpc_ops
-­ iOS 9.2 __DATA.__bss rwKPP
-­ NULL · iOS 9.2mac_policy_conf.mpc_ops
-__TEXT.__const
-
-KPP
-·  ·  PE_i_can_has_debugger
-debug · PE_i_can_has_debugger __DATA.__got
-KPP · PE_i_can_has_debugger
-
-
-
-· iOS · iOS
-
-
-
-
-

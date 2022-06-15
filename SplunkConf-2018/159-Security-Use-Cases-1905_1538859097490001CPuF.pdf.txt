@@ -1,217 +1,0 @@
-© 2018 SPLUNK INC.
-SEC1905 - 159 Security Use Cases in Record Time With Splunk and Kafka
-Lock Landgon - Global Director - Security Analytics at McKesson Nik Macroglou ­ Sales Engineer at Splunk
-May 2018 | Version 1.0
-
-Forward-Looking Statements
-
-© 2018 SPLUNK INC.
-
-During the course of this presentation, we may make forward-looking statements regarding future events or the expected performance of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results could differ materially. For important factors that may cause actual results to differ from those contained in our forward-looking statements, please review our filings with the SEC.
-The forward-looking statements made in this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, this presentation may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements we may make. In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionality described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Listen to Your Data, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2018 Splunk Inc. All rights reserved.
-
-Agenda
- Who is McKesson?  Kafka Overview
-· What is Kafka · Why did we choose Kafka · Trouble Shooting · Splunk Cloud overview  How they work together · Use Case Process · Examples of the some of the 159 use cases · Connectors  Share the love
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Who are we?
-
-Who is Nik Macroglou
-
-© 2018 SPLUNK INC.
-
-Born/Raised in Pittsburgh, PA Da Burgh Love to play Golf
-Networking/Telcom Background
-Music Producer/DJ (love dirty bass music)
-
-Started using Splunk 4.x in 2012 @ Echostar Primary Admin supporting 1TB on prem install for CAS and surrounding groups
-Joined Splunk in 2017 as a SE
-
-Live in Phoenix since 2004 Married with 4 kiddos (9/10/11/20)
-
-Senior Engineer I @ AMEX 2014 - 2017 designing/supporting/growing the AMEX Splunk CoE to 6TB on prem Cross Site Replicated instance supporting 43 internal departmental use cases across the stack
-
-Who is Lock Langdon
-
-© 2018 SPLUNK INC.
-
-· Born/Raised in Cottonwood, CA
-· Love to read and play video games.
-· Systems, Storage, Medical Imaging, and evil pointy haired manager background
-
-First used Splunk in 2009 @ Mayo Clinic to track storage array logging issues. Also used it in Medical imaging to track DICOM Tagging Issues
-
-Moved to AZ in 1993
-
-Really started using Splunk at Stanford in Palo Alto, and at a small VAR named cStor in Arizona to develop provide application performance dashboards, and help customers solve security issues.
-
-Joined McKesson in 2018 as The Global Director of Security Analytics to Deploy Splunk and deliver a SIEM for the Global iSOC
-
-Who is
-The biggest company you probably haven't heard of
-
-© 2018 SPLUNK INC.
-
-Who is
-The biggest company you probably haven't heard of
-
-© 2018 SPLUNK INC.
-
-Poll
-
-© 2018 SPLUNK INC.
-
-What is Kafka
-
-© 2018 SPLUNK INC.
-
-Apache Kafka was originally developed by LinkedIn, and was subsequently open sourced in early 2011.
-
- Kafka is used for building real-time data pipelines and streaming apps. It is horizontally scalable, faulttolerant, wicked fast, and runs in production in thousands of companies.
-https://kafka.apache.org/
-
- Kafka Connect is a framework included in Apache Kafka that integrates Kafka with other systems. Its purpose is to make it easy to add new systems to your scalable and secure stream data pipelines.
-https://www.confluent.io/product/connectors/
-
-Kafka Data Flow
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-" Press Release
-Confluent Grows Subscriptions By Over 700 Percent in 2016 as Businesses Seize the Power of Real-Time Data
-Company growth in 2016 driven by strong demand for streaming platforms and Apache Kafka® as enterprises go real time
-https://www.confluent.io/press-release/confluent-grows-subscriptions-700-percent-2016-businesses-seize-power-real-time-data/
-
-Why did we choose Kafka
-
-© 2018 SPLUNK INC.
-
-1
-
-2
-
-3
-
-4
-
-5
-
-No existing solution
-
-Supports other areas
-
-Decades of legacy
-
-Looking to the future
-
-The Team
-
-© 2018 SPLUNK INC.
-" Splunk Connect for Kafka introduces a scalable approach to
-tap into the growing volume of data flowing into Kafka. With the largest Kafka clusters processing over one trillion messages per day and Splunk deployments reaching
-petabytes ingested per day, this scalability is critical.
-https://www.splunk.com/blog/2018/04/25/unleashing-data-ingestion-fromapache-kafka.html
-
-Kafka Connector Co-Engineering Efforts
-
-© 2018 SPLUNK INC.
-
- Splunk Product Manager and Lead Kafka Engineer validated McKesson's approach aligns to Splunk's vision with Kafka
- Monthly joint sessions scheduled at Splunk Corp HQ (270 Brannan St) in San Francisco
- Specific feature requests (i.e. Kafka Headers) have been prioritized by Splunk Engineering
-
-© 2018 SPLUNK INC.
-How is McKesson Using Kafka?
-
-Our Hardware Config
-if wanting a cluster locally
- Full HA Kafka Cluster · All servers Linux · 3 x Zookeeper: 8G RAM, 2 CPU, 150G HDD · 3 x Kafka Broker: 32G RAM, 8 CPU, 1T HDD · 3 x Connect/Schema registry: 16G RAM, 4 CPU, 100G HDD · 1 x Rep/CC/Mgmt: 16G RAM, 4 CPU, 1T HDD · 2 x Load Balancer Servers HAProxy · 1 Virtual IP for the load balancers
-
-© 2018 SPLUNK INC.
-
-Troubleshooting and Other tidbits
-Methods to confirm Kafka services running and listening:
-# List active connectors curl http://localhost:8083/connectors
-# Get kafka-connect-splunk connector info curl http://localhost:8083/connectors/kafka-connect-splunk
-# Get kafka-connect-splunk connector config info curl http://localhost:8083/connectors/kafka-connect-splunk/config
-# Delete kafka-connect-splunk connector curl http://localhost:8083/connectors/kafka-connect-splunk -X DELETE
-# Get kafka-connect-splunk connector task info curl http://localhost:8083/connectors/kafka-connect-splunk/tasks
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Sending test syslog data to test source and sink
- Send sample log using logger command:  logger --udp --server 10.10.10.4 --port 5521 "Test message from
-logger" (sometimes it is useful to add more info in the message to specify more detail)  logger --tcp --server 10.10.10.5 --port 6514 "Test message from logger"  "server" can be load balancer VIP or the active source connector, depending on what you are trying to test
-
-Splunk Connector
-
-© 2018 SPLUNK INC.
-
-Normal Pan* Data MCK Kakfa Pan* Data
-
-What is the value?
-
-© 2018 SPLUNK INC.
-
-Kafka Connectors in Prod
-
-Pipeline / Type of data Avro Logs Azure Blob Storage Azure Logs Cisco ASA F5 Load Balancers IAM IBM enforcive (iSeries) IMPERVA_DAM ImpervaWAF JUNIPER_SSLVPN JUNOS_FW Lancope Syslog Feed ­ Network Level3 Threat Logs LOGINSIGHT
-
-LTS_ALL McAfee ESM Receiver MCAFEE_ESM O365 Activity Data O365 Blob O365 DLP Data Proofpoint Proofpoint TAP RSA_SECURID Tanium Trend Micro ZSCALER
-
-© 2018 SPLUNK INC.
-
-US Architecture Overview
-
-© 2018 SPLUNK INC.
-
-US
-
-EU Architecture Overview
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Putting It All Together!
-
-What we did in 3 months
-
-© 2018 SPLUNK INC.
-
- Onboarded 27 new indexes,  74 new Data Source types  Over 200 new devices and systems (not servers and workstations)  Connected 5 new Business Units to our SOC  3 new acquisitions are providing data to the SIEM that aren't even
-connected to the McKesson Network.  We have North American visibility into Azure, O365, and Core Active
-Directory Services  Global deployment of O365, Proofpoint, ZScaler, and Tanium.
-
-Getting the Use Cases Done!
-
-© 2018 SPLUNK INC.
-
-Use Case Process
-
-© 2018 SPLUNK INC.
-
-Customer Showcase McKesson
-
-© 2018 SPLUNK INC.
-
- McKesson is leveraging a forked version of the Splunk Kafka Connector with leveraging:
-· Kafka Transforms
-· Kafka Headers
-· Kafka Streams (in POC)
-· Kafka SQL (in POC)
-· https://github.com/vrudenskyi/kafka-
-connect-splunk
-
- Custom connectors that McKesson has built and integrated currently: · Any layer4 TCP or UDP / network-based · HTTPs · ICAP · Office365 · AzureMS · MSFT IoT HUB · SentinelOne
-
-Open Source Repo for Kafka Tools (URL)
-
-© 2018 SPLUNK INC.
-
-

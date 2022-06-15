@@ -1,128 +1,0 @@
- ?
-
-
- 2010IBM EMC 
-   
-
-
-
-
-
-
-
-
-
-
-­ VolumePB ­ Variety ­ Velocity
-
-
-
- More Findings  Deep Insights  Priceless Results
-
-
-
-
-   
- 
- MySQLOracleHBaseRedis MongoDB
-
-/
-   
-     
- InfoBrightHadoopPigHiveYunTable SAP HanaOracle ExadataHadoop 
-
-
-
-  
-
-  
-
-
-
-
-
- RHadoop Mahout
-
-
-   
-
- YunTableNoSQL
-DB
-  YunTable 
-
-
-
-   x86    GBPB  SQL92  
-
-
-
-Oracle Exadata SAP Hana
-1
-
-YunTable
-100
-
-Google Dremel
-10000
-
-
-
- I/O
-
-
-
-
-
-
-
-Case
-
-5X86
-
- 
-
-
-
- 
-
-Infobright 2 15
-
-YunTable 30 20
-
-
-  ;
-  
-
-YunTable
-
-SQL  1. 2012.6-2012.10
-
-
-
-
-
-2. 2012.6-2012.10Hadoop
-
-3. 2012.10 
-
-BI  4. 2012.11-  
-
-
-
-R
-
-Why choose backend?
-
-  
-
- 
-
-  
-
-
-
- 
-
-Q&A
-
-

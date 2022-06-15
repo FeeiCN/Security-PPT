@@ -1,190 +1,0 @@
-
-----
-       
-
-
-
-http://tweetping.net/#
-
-Twitter
-
-
-
-
-
-TED 
-
- 
-
-
-
- 
-
-
-
-
-
-
-
-
-
-Infographic/Motion Graphic)
-
-
-
-
-
-Xcelsius 
-
-Tableau 
-
-RoamBI 
-
-
-
-
-  
-
-
-  
-
-
-  
-
-----Chord graph
-
-Visualization: Family Tree of Internet Study
-
-http://www.s-v.de/archiv/2007/tccc/dataviz/
-
-
-
-----Topic Packing
-""    
-Demo: http://terry2tan.github.io/topicpacking/
-
-SUV
-
-----
-
-
-
-----
-
-Web D3.js, DataV.js, Segma.js, Protovis
-
-Webhtml, css, Javascript
-
-
-Worldwide remittance flows
-
-twitter
-
-----
- Demohttp://terry2tan.github.io/dataminer/
-
-Excel BI
-ExcelExcel 
-
-
----- --
-
-Excel
-
-Dashboard-Insight
-
-
-
-
-
-
-
-----Dashboard
-
-RPython
-Webhtml, css, Javascript 
-stocks
-
-----Social Survey
-
-Tableau 
-
-
-Tableau----
-
-        
-
-        
-
-         
-
-----BI
-
-
-    
-
-----
-
-----
-Demo http://dataart.oss.aliyuncs.com/network_zqc/index.html
-
-
-
- 
-
-K=8 
-
------Matrix
-
-
-K=8 
-
-SNA
-
-K=8 
-
-----DNA----
-
-K=8 
-
-----Cytoscape
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-NLP
-
- 
-
-   
-
-
-
- XML
-
-
-
-
-
- 
-
-TableauRoamBIKnime RPythonPHP
-
-Thanks!
-
-

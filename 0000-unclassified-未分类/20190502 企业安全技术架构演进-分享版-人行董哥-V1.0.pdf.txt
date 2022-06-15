@@ -1,274 +1,0 @@
- 
-
-/3.29
-
-
-
-
-
-
-· 
-
-
-· DDOSAPT ·  · 
-
-  IPS   
-2003
-
-2010
-
-  SIEMAPTSOAR
-2016
-
-2018 
-
-
-NGFWEDRWAF DAMDLP
-
- 
- 
-SDL/DevSecOps
-
-https://www.sec-un.org/15/ by ChrisChen
-
-
-· 20 ·  · "10"(ren)(rou)(yun)(ying) ·  (mei)(you)(qi)(shi)(he)(guang)(gao) · 
-
-·  ·  · 
-
-  
-
-
-· 
-
-
-·  · 
-
-
-· 
-
-
-·  · WebIDS
-
-
-·  · 
-
-
-· 
-
-  
-
-     
-
- 
-
-   
- 
-
-   
-
-   
-  
-
- 
-
-
-
-
-
-
-
-
-  
- 
-
-"""""" 
-             0day  
-
-MTTD  MTTR
-  
-
- 
-
-
-  
-
- 
- 
-
-
-
- 
-
-
-
- 
-
-
-
- 
-
-
-
- 
-
- 
-· 10 · 
-                                                                                       
-                            
-· 
-
-
-
-
-
- 
-
-
-
-
-DDOS/CC 
-
-   shell Webshell 
-
-  
-
-   
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-"$ 
-
-#
-
- <==>
-
-!
-
-- - -&
-
-
-
-
-#
-
- 
-
-
-
- 
-
-
- 
-IACD  https://mp.weixin.qq.com/s/KeDMlMIBA-ojKf_67KD6kg
-
-
- 
-IACD  https://mp.weixin.qq.com/s/KeDMlMIBA-ojKf_67KD6kg
-
-,
-
-A
-
-D
-
-IACD  https://mp.weixin.qq.com/s/KeDMlMIBA-ojKf_67KD6kg
-
-
- 
-IACD  https://mp.weixin.qq.com/s/KeDMlMIBA-ojKf_67KD6kg
-
-
-
-
- 
- 
-
-    100,000  Agent
-Agent Agent  
-
-
-
-
- 
-
- 
-
-
-
-
- 
-
- 
-
- 
-
-
-
-10W+ 
-
-  
-
-
- 
-
-
-
- Anti-DOS
-IPS
-
- 
-
-
-
-
-WAF
-
-Anti-DOS IPS
-
-WAF
-
-DLP
-
-
-
-RASP
-
-HIDS
-
-DLP
-
-
-
-
-
-
-
-.- -
-
--
-
--
-
-. ..
-
-
-
-

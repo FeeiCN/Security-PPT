@@ -1,119 +1,0 @@
- 
-pLL(at)mobeisecurity.com
-
-
-
- Activity Activity      Content-provider  ...
-
-         ...
-
-
-Ref: Android 
-
-
-· 
-­  ­  ­ 
-· 
-­  ­ 
-
-
-· 
-­ (AndroidManifest.XML hash)
-­  ­  ­ 
-· 
-
-
-· Intent-fuzzer · Content-fuzzer · Drozer
-
-
-
-· 
-
-Anubis B-chao Fireeye
-
-SMS_send _onCreate Y Y Y
-
-SMS_send_o SMS_send_but nDestroy ton_onClick
-
-Y
-
-Y
-
-N
-
-N
-
-N
-
-N
-
-SMS_send_vi ew_onTouch Y N N
-
-SMS_send_wit SMS_sen h_conditions _receive
-
-N
-
-N
-
-N
-
-N
-
-N
-
-N
-
-
-· 
-­ b-chao(https://b-chao.com/) ­ DEVICEID:000000000000000;TEL:15555215554;IMSI:310260000000000 ­ fireeye(https://fireeye.ijinshan.com/) ­ name:TaintDroid Notification Service;packageName:org.appanalysis ­ anubis(https://anubis.iseclab.org/) ­ TEL:15555215554;IMEI:89014103211118510720 ­ foresafe(http://www.foresafe.com/) ­ DEVICEID:000000000000000;TEL:15555215554;IMEI:89014103211118510720;IMS
-I:310260000000000
-REF: DISSECTING THE ANDROID BOUNCER
-
-
-·  ·  · 
-
-
-· 
-
-
-
-Dexapk 
- 
- 
-
-
-
-
-·  · """"
-­  ­ 
-
-
-orjni
-
-
-
-
-
-
-
-|
-· faketaobao · 
-Ref:VisualThreat
-
-
-· 
-­ 1000a.1000b = 1000c ­ 1000.1000 = 1000
-· reflection ·  ·  ·...
-
-
-Smalijava identifiernumber
-
-
-
-...
-
-...
-
-App
-
-

@@ -1,194 +1,0 @@
-
- zolker
-
-
-Ø 2011 Ø  Ø  Ø 2015 Ø 
-
-
-
-
-Ø Ø Ø Ø Ø
-
-
-
-
-
-
-
-
-
-
-
-My SQL MongoDB
-
- SQL
-
- s chema
-
-
- 
-
-Schemafree s hardi ng
-
- 
-
-LBS
-
-HB as e
-
-BigtableHadoop 
-
-
-
-
-
-
-Redis
-
- 
-
-
-
-
-
-
-
-
-Øshared noting Øshared everything Ømodule
-
-MySQL
-ØSQL ØSQL Ø Ø ØOnline DDL ØHA Ø Ø Ø
-
-PostgreSQL VS MySQL?
-
-MySQL
-Ø  Ø  Ø  Ø 
-
-DBA Life
-Ø ØSchema ØSQL Ø :"" Ø Ø
-
-DBA
-Ø Ø Ø
-
-
-Ø Ø Ø Ø
-
-
-Ø ØMySQL Ø
- MySQL>Percona Server >MariaDB>MySQL 
-
-
-Ø  DBADBA   Ø
-schema   
-
-
-ØUTF8 emoj UTF8mb4(MySQL 5.5.3)
-ØInnoDB Øvarchar varbinary Ø Ø1
-
-
-ØDDL Ø Ø
-
-DDL
-Ø Ø Ø
-
-Online DDL
-ØMySQLDDL Ø ØMySQLDBA
- ØOnline DDL
-
-DDL
-
-Online Schema Change
-
-Online DDL 
-
-OSC
-Ø Ø ØOSC
-
-
-Ø Ø  Ø Ø Ø
-
-
-Ø VS  Ø VS  Ø VS  Ø Øbinlog Ø Ø 
-
-
-
-
-ØMyISAMflush tables with read lock 
-ØBinlog
-
-
-Ø  NFS   Ø Pbzip erasure code
-
-
-ØMySQLSQL Ø ØSQL
-
-
-Øpt-query-digest ØLogstash ØAnemometer
-
-
-
-
-ØAnemometer Ø Ø
-
-
-ØMySQL Ø Ø
-
-MySQL
-Øredo Øbufferpool dump ØQuery Cache ØInnoDB Øjemalloc Øgroup commit Øtransportable tablespace
-
-sharding
-Ø Sharding is very complex, so its best not to shard until its obvious that you will actually need to!
-Ø  Ø 
-
-60
-Ø 60 Ø 1.2TB Ø  Ø  Ø  Ø TB Ø Online DDL
-
-MySQL 5.6 VS 5.7
-
-MySQL
-ØGTID Øloss-less semi-replication Øgroup replication
-
-
-
-
-ØNUMA Øswappiness ØIOnoop/deadline ØXFS/Ext4 Ølimits Ø
-
-
-Ø ØSSDSATA PCIe ØCPU Ø Øblk-mq Øscsi-mq
-
-block-mq
-
-
-Ø
-
-
-
-
-Ø Ø
-
-
-ØAmazon Aurora ØCompatible with the open source MySQL ØMost of the smarts are in the storage ØA data insert in MySQL requires six writes 
-Aurora requires only two Ø Ø
-
-Amazon Aurora
-
-
-Ø  Ø  Ø 
-Ø Sheepdog Ø GlusterFS Ø Ceph Ø  Ø  Ø  Ø 
-
-
-Ø Ø Ø
-
-RocksDB
-Ø LSM Tree Ø LevelDB Ø SSD Ø MyRocks: MySQL + RocksDB Ø MongoRocks : MongoDB+RocksDB
-
-MyRocks
-
-
-Ø Ø Ø ØOne Size Doesn`t Fit All
-
-Q&A
-
-
-
-

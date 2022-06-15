@@ -1,621 +1,0 @@
-
-
-
-
-
-
-
- 
-
-
- 
- $$
-
-
-
- 
- $$
-
-
- 
- 
- $$
-
-
-
- 
-
-
- 
-
- $$
-
-
-
- 
-
-
- 
-
- $$
-
-: 
-
-
-
- 
-
-
- 
-
- $$
-
-: 
-
-
-
-
-
- 
-
-
- 
-
- $$
-
-: 
-
- 
-AWS: 
-
-
-11 53 
-
-
-11 53 
-
-
-
-
-API
-
-
-API HTTP + JSON
-
-
-API HTTP + JSON 
-
-
-API HTTP + JSON  
-
-
-API HTTP + JSON   
-
-
-API HTTP + JSON    
-
-
-API HTTP + JSON     
-
-
-
-
-· 
-Region
-
-
-·  · >=2 
-Region
-
-
-·  · >=2  · AppEC2
-Region
-
-
-·  · >=2  · AppEC2
-ELB
-· 
-Region
-
-
-·  · >=2  · AppEC2
-ELB
-·  · RDS
-Region
-
-
-·  · >=2  · AppEC2
-ELB
-·  · RDS
-· 
-Region
-
-
-· S3 ·  ·  · 
-
-ELB Region
-
-
-· S3 ·  ·  ·  · ...CloudFront
-
-CloudFront CDN ELB
-Region
-
-
-· S3 ·  ·  ·  · ...CloudFront
-· Auto Scaling Group ·  ·  · 
-
-CloudFront CDN ELB
-Region
-
-
-· S3 ·  ·  ·  · ...CloudFront
-· Auto Scaling Group ·  ·  · 
-
-CloudFront CDN ELB
-Region
-
-
-· S3 ·  ·  ·  · ...CloudFront
-· Auto Scaling Group ·  ·  · 
-· ElastiCache · Memcached · Redis
-
-CloudFront CDN ELB
-Region
-
-
-
-CloudFront CDN ELB
-Region
-
-
-· 
-
-CloudFront CDN
-ELB
-
-Region
-
-
-·  · 
-
-CloudFront CDN
-ELB
-
-Region
-
-
-·  ·  · Key Value
-
-CloudFront CDN
-ELB
-
-Region
-
-
-·  ·  · Key Value · 
-
-CloudFront CDN
-ELB
-
-Region
-
-
-·  ·  · Key Value ·  ·  = 
-
-CloudFront CDN ELB
-Region
-
-
-·  ·  · Key Value ·  ·  = 
-
-CloudFront CDN ELB
-Region
-
- A-Z
-
-
-A-M N-Z
-
-
-A-H I-P Q-Z
-
-
-
-Amazon DynamoDB
-
-CloudFront CDN
-ELB
-
-Region
-
-Amazon DynamoDB
-· 
-
-CloudFront CDN
-ELB
-
-Region
-
-Amazon DynamoDB
-·  · NoSQL
-
-CloudFront CDN
-ELB
-
-Region
-
-Amazon DynamoDB
-·  · NoSQL · 
-
-CloudFront CDN
-ELB
-
-Region
-
-Amazon DynamoDB
-·  · NoSQL ·  · Secondary Indexes
-
-CloudFront CDN
-ELB
-
-Region
-
-Amazon DynamoDB
-·  · NoSQL ·  · Secondary Indexes · PUT/GET Keys
-
-CloudFront CDN
-ELB
-
-Region
-
-Amazon DynamoDB
-·  · NoSQL ·  · Secondary Indexes · PUT/GET Keys · 
-
-CloudFront CDN ELB
-Region
-
-Amazon DynamoDB
-
-UserID (hash key) "101" "101" "101" "102" "102" "103" "103" "103" "103"
-
-BoardName (range key) "Galaxy Invaders" "Meteor Blasters" "Starship X" "Alien Adventure" "Galaxy Invaders" "Attack Ships" "Galaxy Invaders" "Meteor Blasters" "Starship X"
-
-TopScore TopScoreDate
-
-5842 1000
-24 192
-0 3 2317 723 42
-
-"2014-09-15T17:24:31" "2014-10-22T23:18:01" "2014-08-31T13:14:21" "2014-07-12T11:07:56" "2014-09-18T07:33:42" "2014-10-19T01:13:24" "2014-09-11T06:53:00" "2014-10-19T01:14:24" "2014-07-11T06:53:03"
-
-Amazon DynamoDB
-
-UserID (hash key) "101" "101" "101" "102" "102" "103" "103" "103" "103"
-
-BoardName (range key) "Galaxy Invaders" "Meteor Blasters" "Starship X" "Alien Adventure" "Galaxy Invaders" "Attack Ships" "Galaxy Invaders" "Meteor Blasters" "Starship X"
-
-TopScore TopScoreDate
-
-· Hash Key = Primary Key
-
-5842 1000
-24 192
-0 3 2317 723 42
-
-"2014-09-15T17:24:31" "2014-10-22T23:18:01" "2014-08-31T13:14:21" "2014-07-12T11:07:56" "2014-09-18T07:33:42" "2014-10-19T01:13:24" "2014-09-11T06:53:00" "2014-10-19T01:14:24" "2014-07-11T06:53:03"
-
-Amazon DynamoDB
-
-UserID (hash key) "101" "101" "101" "102" "102" "103" "103" "103" "103"
-
-BoardName (range key) "Galaxy Invaders" "Meteor Blasters" "Starship X" "Alien Adventure" "Galaxy Invaders" "Attack Ships" "Galaxy Invaders" "Meteor Blasters" "Starship X"
-
-TopScore TopScoreDate
-
-5842 1000
-24 192
-0 3 2317 723 42
-
-"2014-09-15T17:24:31" "2014-10-22T23:18:01" "2014-08-31T13:14:21" "2014-07-12T11:07:56" "2014-09-18T07:33:42" "2014-10-19T01:13:24" "2014-09-11T06:53:00" "2014-10-19T01:14:24" "2014-07-11T06:53:03"
-
-· Hash Key = Primary Key · Range Key = Sub Key · Range Key = Sort Key
-
-Amazon DynamoDB
-
-UserID (hash key) "101" "101" "101" "102" "102" "103" "103" "103" "103"
-
-BoardName (range key) "Galaxy Invaders" "Meteor Blasters" "Starship X" "Alien Adventure" "Galaxy Invaders" "Attack Ships" "Galaxy Invaders" "Meteor Blasters" "Starship X"
-
-TopScore TopScoreDate
-
-5842 1000
-24 192
-0 3 2317 723 42
-
-"2014-09-15T17:24:31" "2014-10-22T23:18:01" "2014-08-31T13:14:21" "2014-07-12T11:07:56" "2014-09-18T07:33:42" "2014-10-19T01:13:24" "2014-09-11T06:53:00" "2014-10-19T01:14:24" "2014-07-11T06:53:03"
-
-· Hash Key = Primary Key · Range Key = Sub Key · Range Key = Sort Key · 
-
-Amazon DynamoDB
-
-UserID (hash key) "101" "101" "101" "102" "102" "103" "103" "103" "103"
-
-BoardName (range key) "Galaxy Invaders" "Meteor Blasters" "Starship X" "Alien Adventure" "Galaxy Invaders" "Attack Ships" "Galaxy Invaders" "Meteor Blasters" "Starship X"
-
-TopScore TopScoreDate
-
-5842 1000
-24 192
-0 3 2317 723 42
-
-"2014-09-15T17:24:31" "2014-10-22T23:18:01" "2014-08-31T13:14:21" "2014-07-12T11:07:56" "2014-09-18T07:33:42" "2014-10-19T01:13:24" "2014-09-11T06:53:00" "2014-10-19T01:14:24" "2014-07-11T06:53:03"
-
-· Hash Key = Primary Key · Range Key = Sub Key · Range Key = Sort Key · 
-
-Amazon DynamoDB
-
-UserID (hash key) "101" "101" "101" "102" "102" "103" "103" "103" "103"
-
-BoardName (range key) "Galaxy Invaders" "Meteor Blasters" "Starship X" "Alien Adventure" "Galaxy Invaders" "Attack Ships" "Galaxy Invaders" "Meteor Blasters" "Starship X"
-
-TopScore TopScoreDate
-
-5842 1000
-24 192
-0 3 2317 723 42
-
-"2014-09-15T17:24:31" "2014-10-22T23:18:01" "2014-08-31T13:14:21" "2014-07-12T11:07:56" "2014-09-18T07:33:42" "2014-10-19T01:13:24" "2014-09-11T06:53:00" "2014-10-19T01:14:24" "2014-07-11T06:53:03"
-
-· Hash Key = Primary Key · Range Key = Sub Key · Range Key = Sort Key ·  · 
-
-
-
-
-UserID (hash key)
-"101"
-
-BoardName (range key)
-"Galaxy Invaders"
-
-TopS core
-5842
-
-TopScoreDate "2014-09-15T17:24:31"
-
-
-
-UserID (hash key)
-"101"
-
-BoardName (range key)
-"Galaxy Invaders"
-
-TopS core
-5842
-
-TopScoreDate "2014-09-15T17:24:31"
-
-BoardName (hash key) "Alien Adventure" "Attack Ships" "Galaxy Invaders" "Galaxy Invaders" "Galaxy Invaders" "Meteor Blasters" "Meteor Blasters" "Starship X" "Starship X"
-
-TopScore (range key)
-192 3 0
-2317 5842
-723 1000
-24 42
-
-UserID
-"101" "103" "102" "103" "101" "103" "101" "101" "103"
-
-· 
-
-
-
-UserID (hash key)
-"101"
-
-BoardName (range key)
-"Galaxy Invaders"
-
-TopS core
-5842
-
-TopScoreDate "2014-09-15T17:24:31"
-
-BoardName (hash key) "Alien Adventure" "Attack Ships" "Galaxy Invaders" "Galaxy Invaders" "Galaxy Invaders" "Meteor Blasters" "Meteor Blasters" "Starship X" "Starship X"
-
-TopScore (range key)
-192 3 0
-2317 5842
-723 1000
-24 42
-
-UserID
-"101" "103" "102" "103" "101" "103" "101" "101" "103"
-
-·  · BoardNameHash Key
-
-
-
-UserID (hash key)
-"101"
-
-BoardName (range key)
-"Galaxy Invaders"
-
-TopS core
-5842
-
-TopScoreDate "2014-09-15T17:24:31"
-
-BoardName (hash key) "Alien Adventure" "Attack Ships" "Galaxy Invaders" "Galaxy Invaders" "Galaxy Invaders" "Meteor Blasters" "Meteor Blasters" "Starship X" "Starship X"
-
-TopScore (range key)
-192 3 0
-2317 5842
-723 1000
-24 42
-
-UserID
-"101" "103" "102" "103" "101" "103" "101" "101" "103"
-
-·  · BoardNameHash Key · TopScoreRange Key
-
-
-
-UserID (hash key)
-"101"
-
-BoardName (range key)
-"Galaxy Invaders"
-
-TopS core
-5842
-
-TopScoreDate "2014-09-15T17:24:31"
-
-BoardName (hash key) "Alien Adventure" "Attack Ships" "Galaxy Invaders" "Galaxy Invaders" "Galaxy Invaders" "Meteor Blasters" "Meteor Blasters" "Starship X" "Starship X"
-
-TopScore (range key)
-192 3 0
-2317 5842
-723 1000
-24 42
-
-UserID
-"101" "103" "102" "103" "101" "103" "101" "101" "103"
-
-·  · BoardNameHash Key · TopScoreRange Key · 
-
-
-
-UserID (hash key)
-"101"
-
-BoardName (range key)
-"Galaxy Invaders"
-
-TopS core
-5842
-
-TopScoreDate "2014-09-15T17:24:31"
-
-BoardName (hash key) "Alien Adventure" "Attack Ships" "Galaxy Invaders" "Galaxy Invaders" "Galaxy Invaders" "Meteor Blasters" "Meteor Blasters" "Starship X" "Starship X"
-
-TopScore (range key)
-192 3 0
-2317 5842
-723 1000
-24 42
-
-UserID
-"101" "103" "102" "103" "101" "103" "101" "101" "103"
-
-·  · BoardNameHash Key · TopScoreRange Key ·  · BoardName
-TopScore
-
-
-
-UserID (hash key)
-"101"
-
-BoardName (range key)
-"Galaxy Invaders"
-
-TopS core
-5842
-
-TopScoreDate "2014-09-15T17:24:31"
-
-BoardName (hash key) "Alien Adventure" "Attack Ships" "Galaxy Invaders" "Galaxy Invaders" "Galaxy Invaders" "Meteor Blasters" "Meteor Blasters" "Starship X" "Starship X"
-
-TopScore (range key)
-192 3 0
-2317 5842
-723 1000
-24 42
-
-UserID
-"101" "103" "102" "103" "101" "103" "101" "101" "103"
-
-·  · BoardNameHash Key · TopScoreRange Key ·  · BoardName
-TopScore · 
-
-
-Region
-
-
-· API · Session · 
-Region
-
-
-· API · Session · 
-· S3 + CloudFront · DLC, assets ·  · 
-Region
-
-
-· API · Session · 
-· S3 + CloudFront · DLC, assets ·  · 
-·  · Socket · 
-
-Region
-
-
-Region
-
-
-1) API
-Region
-
-
-1) API 2) 
-Region
-
-
-1) API 2)  3) IP
-Region
-
-
-1) API 2)  3) IP
-EC2 API
-Region
-
-
-1) API 2)  3) IP
-EC2 API
-Region
-
-
-1) API 2)  3) IP
-EC2 API
-Region
-
-
-1) API 2)  3) IP
-EC2 API
-Region
-
-
-1) API 2)  3) IP 4) 
-EC2 API
-Region
-
-
-1) API 2)  3) IP 4)  5) 
-EC2 API
-Region
-
-
-1) API 2)  3) IP 4)  5)  6) 
-EC2 API
-Region
-
-
-
-EC2 API
-Region B
-
-EC2 API
-Region A
-
-

@@ -1,179 +1,0 @@
-KCon
-"" Bluetooth smart locks
-
-
-· ADlab ·  · butterflyhuangxx@gmail.com · IDID
-
-PART 01  PART 02  PART 03  PART 04  PART 05 
-
-
-CONTENTS
-
-01 
-
-
-
-
-·  ·  · 128bitAES · 
-
-
-·  · Host · Controller
-
-Physical Layer
-· 2.4GHz · 403738
-39 · 
-
-Link Layer
-· Standby,Advertising, ScanningInitiating,Connection · 
-
-GATT
-· GATT · GATT · ServiceService IncludeCharacteristic ·  Characteristicvalue
-
-
-·   · ServiceCharachteristicUUID  · Properties · Descriptors · Value
-
-SM
-· JustWorks tk60 · 6-digit PIN/Passkey Entrytk6
-000000-999999 · Out of band
-tk128bits
-
-02 
-
-
-·  · GATTProfile · 
-
-
-· APP · APP · APP · APPWEB · APP
-·  ·  · Ubertooth One/usb Dongle · /btsnoop_hci.log
-· 
-
-
-
-03 
-
-
-· BLEGPS
-
-APP
-·  ·  · 
-
-
-
-
-
-APP
-
-APP
-
-
-
-token
-
-token16byte
-01 23
-GET_TOKEN 
-
-16byte
-
-01 2
-OPEN_TYPE 
-
-38
-
-
-415
-
-912
-token
-
-1315
-
-
-
-
-APP
-
-token
-token OPEN
-
- mac 
-
-
-
-http
-
-
-
-token
-· token token token · app
-
-
-
-
-
- key
-APP
-
-key   
-
- 
-
- 
-
-
-
-key 
-APP
-
-appkey  
-
-Attack
-
-
-
- 
-
-
-
-
-
-
-20byte
-
-04
-
-
-
-
-· APP · APP ·  · APPMAC ·  · 
-
-
-1en(A1,B1),key 2en(A2,B2),key 3en(A3,B3),A1B1A2B2 4en(A3,B3),A1B1A2B2
-
-05
-
-
-
-
-
-
-
- web
-
- 
-
-
-
-
-
- bin
-
-
-· WebSQL... · Bin... · APPLogWebView
-database... ·  · ...
-
-
-
-Thank you!
-
-

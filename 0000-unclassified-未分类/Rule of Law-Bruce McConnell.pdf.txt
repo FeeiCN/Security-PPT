@@ -1,33 +1,0 @@
-
-
-Bruce McConnell
-
-
-
-
-
-
-
-  
-
- 
-
-
-
-
-
-
-
-
-
-·  ·  ·  · 
-
-
-·  ·  ·  · 
-
-
-·  · THE PLANET ·  · 
-
-!
-
-

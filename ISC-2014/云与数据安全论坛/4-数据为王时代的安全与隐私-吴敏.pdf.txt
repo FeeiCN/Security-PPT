@@ -1,208 +1,0 @@
-
-   20149
-China Internet Security Conference 2014 2014
-
-
-­  ­  ­ & ­ 
-
-
-· 
-· , , 
-
-
-· 
-· , 
-
-
-·  
-·  
-·  
-
-1.
-http://www.google.org/flutrends/
-Detecting influenza epidemics using search engine query data
-
-2.
-
-3.
-
-
-
-
-
-
- 
-
-
- 
-
-
-
- 
-
-1. 
-
-De-anonymity
-
-IMDB
-
-·  
-· 
-·  
-
-
-Backstrom   
-Backstrom, L.etc. `Wherefore art thou r3579x? Anonymized social networks, hidden patterns, and structural steganography', World Wide Web 2007
-Narayanan   
-Narayanan A, Shmatikov V. Robust De-anonymization of Large Sparse Datasets2008 De-anonymizing social networks. Security and Privacy, Security and Privacy 2009
-
-2.
-
-
-W. W. Zachary, An information flow model for conflict and fission in small groups, Journal of Anthropological Research
-
-
-Zheleva  
-Zheleva E, Getoor L. To join or not to join: the illusion of privacy in social networks with mixed public and private user profiles. WWW 2009
-Mislove  
-Mislove A, Viswanath B, Gummadi K P, et al. You are who you know: inferring user profiles in online social networks.In Proceedings of the third ACM international conference on Web search and data mining. ACM, 2010: 251-260
-
-3.
-
-   
-
-
-Newman  
-Adamic Zhou 
-Zhou T.etc. Predicting missing links via local informatio]. The European Physical Journal B, 2009, 71(4): 623-630.
-Zhou  
-Lü L, Zhou T. Link prediction in weighted networks: The role of weak ties[J]. EPL (Europhysics Letters), 2010, 89(1): 18001.
-
-4.
-
--
-Salvatore Scellato    Exploiting place features in link prediction on location-based social networks 2011
-Huo Zheng     Feel Free to Check-in_Privacy alert against Hidden Location Inference Attacks in GeoSNs 2013
-
-5.
-
-
-
-&
-
-·  · 
-
-
-
-2011 Wang     
-Wang, Q., & Jin, H. Quantified risk-adaptive access control for patient privacy protection in health information systems. ASIACCS2011
-
-
-1.
-2009 Carminati ()  
-Carminati, B., Ferrari, E., & Perego, A. (2009). Enforcing access control in web-based social networks. TISSEC09
-
-2. 
-2013 Cheng (OSN)     
-Cheng, Y., Park, J., & Sandhu, R. Preserving user privacy from third-party applications in online social networks. WWW companion 2013
-
-
-1. 
-2003Kuhlmann k-means  7 
-Kuhlmann, M., Shohat, D., & Schimpf, G. Role mining-revealing business roles for security administration using data mining technology. SACMAT03.
-2003 SchlegelmilchSteffens  ORCA  S={{p1},...,{pn}} Si,SjS 
-Schlegelmilch, J., & Steffens, U. Role mining with ORCA. SACMAT05.
-
-2. 
-2008Frank1. RBAC2.  z,y,ux 
-Frank, Mario, David Basin, and Joachim M. Buhmann. "A class of probabilistic models for role engineering." CCS08
-
-3. 
-2012 Molloy  generative role mining  
-Molloy, I., Park, Y., & Chari, S. Generative models for access control policies: applications to role mining over logs with attribution. SACMAT12
-
-
-
-
- 
-  
-  
-
-    [song00]   
-
-SSE
-
-ASE
-
- 
-
-  
-  
-  
-
-ASE [BDOP 04]
-M{W1,...,Wm} Wj Wj
-
-2014/10/9
-
-1. SSE
-
-""[ GOH
-03 ] · Bloom Filter ;
-BF · 1; BF
- · 
-"" [RJSR 06 ]
-·   F=K P 
-
-2. ASE
-
-
-
-Alice?
-
-urgent ?
-
-sender receiver priority
-
-Email_1 $%^ Email_2 3$% Email_3 #$T
-
-H%^ !@#C ^&U
-
-%^* &UG% T%$
-
-[ HL 07 ]
-   
-
-OR
-
-
-
-
-
-receiver=Bob AND
-
-[LZDLC13 ] 
-
-sender=Alicepriority=urgent AND
-
-2014/10/9
-
-OR
-
-3. Secure-Aware Query Processing
-"""" 
- "ghost query"[Pang ICDE'12]
- (Aggregate Suppression) [Zhang SIGMOD'12]
-Guarnieri Boolean Query [VLDB'14]
-
-
-·  
-­ 
-·  
-­  
-· 
-­  ­ 
-
- !
-
-

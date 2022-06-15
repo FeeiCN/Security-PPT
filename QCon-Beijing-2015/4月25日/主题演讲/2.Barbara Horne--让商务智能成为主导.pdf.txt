@@ -1,90 +1,0 @@
-Let BI Drive
-
-Let BI Drive BI A vision for a BI Driven World
-In 2020 the world will generate 50 times the amount of data as in 2011. And 75 times the number of information sources (IDC, 2011).
-
-Let BI Drive BI A vision for a BI Driven World
-Process improvement tools filled the gap in moving to the right BI Strategy.
-
-Let BI Drive BI A vision for a BI Driven World
-Process improvement tools filled the gap in moving to the right BI Strategy.
-
-Let BI Drive BI A vision for a BI Driven World
-We strive to develop BI strategies that Harnesses the power of our data to drive our business with the touch of finger and brilliant analysis.
-
-"Cross Mobile" Pentaho
-MongoDB
-useful in routing time sensitive information that can be distributed across servers
-DRIVE DISCOVER REALIZE INNOVATE VERIFY ESTABLISH
-
-"Beans and Leaves" Tableau
-Cloudera SAP
-Google Analytics
-
-DRIVE DISCOVER REALIZE INNOVATE VERIFY ESTABLISH
-
-"Cross Mobile" Pentaho and Hadoop
-Oracle
-Data Warehouse
-
-"Cross Mobile" Pentaho
-SAP
-Data warehouse Solutions
-DRIVE DISCOVER REALIZE INNOVATE VERIFY ESTABLISH
-
-LSS
-
-Lean Six Sigma Tool(s)
-
-Lean Six Sigma Tools and Techniques
-
-BI
-
-Business Intelligence Tool(s)
-
-Business Intelligence Tools and Techniques
-
-LSS and BI comes together because the advent of Big Data tools creates an opportunity to control the flow of data for better insight .
-
-Can the solution easily withstand change?
-
-Business Intelligence Tools and Techniques
-Business Intelligence is a wide term, we are using it to describe a strategy that brings together the right tools to push and pull your data through streamlined processes and let the business stay aligned with the needs of the customer. We are also pushing a dashboard driven strategy that empowers each employee to visualize and utilize the data they need to stay aligned with the business objectives.
-
-Voice of Business
-
-Voice of Customer VOC
-
-Questions? More Information?
-@LetBIDrive
-
-How Do We Get There ­ DRIVE Innovate with Hadoop
-"At its core, Hadoop is a distributed data store which provides a platform for implementing powerful parallel processing frameworks on it. The reliability of this data store when it comes to storing massive volumes of data couple with its flexibility related to running multiple processing frameworks makes it an ideal choice as the hub for all your data"
-DRIVE DISCOVER REALIZE INNOVATE VERIFY ESTABLISH
-
-About Pig and PigLatin
-"For those of you who are not familiar with Pig, it is a platform for analyzing large data sets. It is built on Hadoop and provides ease of programming, optimization opportunities and extensibility. Pig Latin is the relational data-flow language and is one of the core aspects of Pig."
-
-About Hive
-The Apache Hive TM data warehouse software facilitates querying and managing large datasets residing in distributed storage. Hive provides a mechanism to project structure onto this data and query the data using a SQL-like language called HiveQL. At the same time this language also allows traditional map/reduce programmers to plug in their custom mappers and reducers when it is inconvenient or inefficient to express this logic in HiveQL."
-
-Data Warehousing
-Data warehousing incorporates data stores and conceptual, logical, and physical models to support business goals and end-user information needs. A data warehouse (DW) is the foundation for a successful BI program.
-Creating a DW requires mapping data between sources and targets, then capturing the details of the transformation in a metadata repository. The data warehouse provides a single, comprehensive source of current and historical information.
-Data warehousing techniques and tools include DW appliances, platforms, architectures, data stores, and spreadmarts; database architectures, structures, scalability, security, and services; and DW as a service.
-
-HDFS
-Hadoop Distributed File System (HDFS). Data in a Hadoop cluster is broken down into smaller pieces (called blocks) and distributed throughout the cluster. In this way, the map and reduce functions can be executed on smaller subsets of your larger data sets, and this provides the scalability that is needed for big data processing.
-
-DOMO
-
-HDFS
-Hadoop Distributed File System (HDFS). Data in a Hadoop cluster is broken down into smaller pieces (called blocks) and distributed throughout the cluster. In this way, the map and reduce functions can be executed on smaller subsets of your larger data sets, and this provides the scalability that is needed for big data processing.
-
-Cluster
-Group of independent servers (usually in close proximity to one another) interconnected through a dedicated network to work as one centralized data processing resource. Clusters are capable of performing multiple complex instructions by distributing workload across all connected servers. Clustering improves the system's availability to users, its aggregate performance, and overall tolerance to faults and component failures. A failed server is automatically shut down and its users are switched instantly to the other servers.
-
-MongoDB and Map Reduce
-MongoDB is a document database that provides high performance, high availability, and easy scalability. A MapReduce program is composed of a Map() procedure that performs filtering and sorting (such as sorting students by first name into queues, one queue for each name) and a Reduce() procedure that performs a summary operation (such as counting the number of students in each queue, yielding name frequencies). The "MapReduce System" (also called "infrastructure" or "framework") orchestrates the processing by marshalling the distributed servers, running the various tasks in parallel, managing all communications and data transfers between the various parts of the system, and providing for redundancy and fault tolerance. http://www.mongodb.org/about/introduction/
-
-

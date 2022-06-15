@@ -1,130 +1,0 @@
-SACC2013
- 
-  20138
-
-Agenda
-· Bigdata · TCP Incast ·  · SDN
-
-SACC2013
-
-Three Things of Bigdata
-
-SACC2013
-
-MapReduce
-
-Deep Learning
-
-Graphlab
-
-One Day of MapReduce
-
-   Worker  
-
-
-3000+ 25000+ 150+ 1PB+ 200TB+
-
-SACC2013
-
-
-· 
-­  ­ 
-· 
-­  ­ 
-· 
-­  ­ 
-
-SACC2013
-
-
-· TCP Incast
-­  ­ 
-· 
-­  ­ 
-· 
-­  ­  ­ 
-
-SACC2013
-
-TCP Incast
-· 
-­  ­ TCP
-
-SACC2013
-
-TCP Incast
-TCP Incast
-
- SACC2013
-·  ·  · 1G10G
-
-TCP
-
-SACC2013
-
-· Qick ACKSACK
-· TCP RTOminSafe and Effective Fine-grained TCP Retransmissions for Data-center Communication
-
-
-
-SACC2013
-
-· 
-­  ­ shufflereduce
-· 
-­  ­  ­ 
-
-
-Master
-
-
-QoS
-
-SACC2013
-
-· QoS · DSCP
-
-
-Clos SACC2013
-· 
-· 4 
-· 24 4 
-· 64 8 
-
-ClosSACC2013
-· 72481152
-· 96642048
-· Google20083Clos20480
-·  · ,1/2~1/6 ·  · 
-·  ·  ·  · ECMP
-A Scalable, Commodity Data Center Network Architecture
-
-
-· Bigdata · 
-
-SACC2013
-
-SDN
-
-SACC2013
-
-·  · 
-
-Optical Circuit Switch
-
-Key Takeaways
-
-SACC2013
-
-· Bigdata
-
-· TCP IncastTCP QoS
-
-· Clos
-
-· SDN 
-
-SACC2013
-THE END
-
-

@@ -1,104 +1,0 @@
-Hybrid
-By  Monkey
-
-
-· Hybrid · H5 ·  ·  · Hybrid · 
-
-
-
-
-
-amr
-
-----H5  container
-
-
-
-
-
-
-
-AnyProxy
-12
-
-
-
-
-·  ·    ·    ·    ·   
-  
-
-----hpmsim
-
-hpmsim
-
-Sample
-
-
-
-Hybrid
-·    · 
-   · 
-   · Hybrid  
-2G2.5G3Gwifi 
-
-Hybrid
-· Hybrid  
-                              
-
-Hybrid
-
-Appium
-22
-
-Hybrid----Appium
-
-
-
-
-
-
-
-Hybrid
-· alipays://***appID=***&url=***     
-· Hybrid     
-·  
-
-
-·   
-      CaseAnyproxy         CaseapiAnyproxy         App          Cpuadb         App
-
-
-26
-
-
-27
-
-
-28
-
-
-29
-
-
-
-
-
-Demo
-
-
-· PPThttp://pan.baidu.com/ s/1kTJzAmj  
-33
-
-QA
-· Monkey · 
-
-@InfoQ
-
-infoqchina
-
-
-·  ·  ·  · 
- · 
-
-
-

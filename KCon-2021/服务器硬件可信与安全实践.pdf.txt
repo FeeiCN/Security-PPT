@@ -1,143 +1,0 @@
-
-
- ·  ·  · 
-0 1
-
- 
-0 1
-
- 
-
-BMC BOOT
-
-BMC OS BOOT
-
-BMC
-
-write
-
-NIC SPI flash
-
-BMC SPI Flash
-MotherBoard
-
-AC Power On
-
-
-
-SPI Flash
-
- RAM
-
-PCH ME & NIC BOOT BOOT
-
-UEFI BOOT
-
-SMM
-
-write
-
-Handler SPI flash
-
-Opt Roms OS Firmware 3rd NIC BOOT Update
-
-RAM
-
-GPU
-
-FPGA,etc
-
-0 1
-
-
-
- · Apt28-LojaxUEFI BIOS · NSABIOS · CIABIOS
-
-
-
-· 
-
-· 
-
-· 
-
- 0 1
-
- ·  ·  · 
-0 1
-
-2.0 
-
-
-
-
-
-| |
-
-|| 
-
-0 1
-
-2.0 
- 
-
-
-·  · 
-
-
-
-
-
-
-
-· 
-
-· 
-
-0 1
-
-
-· titan · nitro · Cerberus · BMC · BMC +  · EDRPC
-0 1
-
- ·  ·  · 
-0 1
-
- UEFI
-0 1
-
- 
-0 1
-
-
-
-BIOS · BIOS · UEFI · BIOS
- · BIOS · BootGuard · Secure Boot
-0 1
-
- APT28 
-0 1
-
- UEFI Secure Boot · /HASH · BootLoader · OEM · 
-0 1
-
- Secure Boot 
-0 1
-
- UEFI-BootGuard
-·  + 
-· UEFISEC PEI
-· DXE
-·  0 1
-
- 
-0 1
-
-  ·  ·  · BIOS BUG ·  BUG · -
-0 1
-
-
-KCon 
-MA N O E U VR E
-
-

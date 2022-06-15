@@ -1,155 +1,0 @@
-Microsoft Online Tech Forum 
-
- 
-
-Agenda
-
-· Azure  · Azure DDoS  · Azure  · Azure  · Azure  · Azure  · Azure  · 
-
-Azure 
-
-
-
-Identities
-
-Data
-
-Devices
-
-Security Policy Enforcement
-
-Apps
-Infrastructu re
-Network
-
-Visibility and Analytics Automation
-
-Azure 
-
-
- 
-
-
- 
-
-
-
-
-DevOps
-
-Azure
-
-
-Azure 
-
-
-Azure 
-
-Azure 
-
-
-
-
-
-(SDN)
-
-
-+
-
-Networking Partner Solutions
-
-Azure DDoS
-
-
-Azure DDoS
- (DDoS) 
-
-Azure DDoS
-
-Azure DDoS
-DDoS
-
-Azure DDoS
-DDoS
-
-
- Azure  Azure 
-
-
-
-
-·   Azure  IP    ·      IP 
-
-
-
-
-
-
-
-
-
-
-
- Azure 
- Azure  IP   Azure 
-1.  2. BGP  3. 
-
-Azure 
-
-
-Azure 
-
-Azure 
-    FQDN     FQDN        SNAT    DNAT 
-
-Azure 
- Web  Web  (WAF) 
-
-Azure
-
-WAF policy Uniform policy
-
-OWASP rules Bot management Custom rules
-
-Azure Global WAF (Front Door)
-
-Azure Regional WAF (Application Gateway)
-
-PaaS, IaaS, AKS, serverless and on-premises backends
-
- 
-   /
- URIWAF
- /URIWAF l
- 
- 
- 
- Azure   Azure Front Door  Azure CDN
-
-Azure
- WAF 
- 
- IP      HTTP       
- Azure 
-  Web  (OWASP)  (CRS) 3.13.0  2.2.9  
- WAF 
-   
-
-Azure 
-
-
-Azure 
-
-
-Azure 
-Azure Azure NVA
-
-
-
-
-
-© Copyright Microsoft Corporation. All rights reserved.
-
-PPT 
-
-

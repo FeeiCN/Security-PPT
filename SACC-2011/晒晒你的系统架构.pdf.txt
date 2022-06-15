@@ -1,109 +1,0 @@
-
-(sery@163.com)  linux
-SACC2011
-
-
-      
-SACC2011
-
-           
-
-
-
-SACC2011
-
-
-SACC2011
-
-  1 12sun v880 2SUN A5200 2 1Iplanet Messaging Server5.2 for
-Solaris 2openLDAP 3
-
-SACC2011
-
-  1
- 2 3i/o
-
-
-SACC2011
-
-  A.
-ldapmail   B.  
-
-SACC2011
-
-  12
-300 2
- 3
- 4 5
-
-SACC2011
-
-
-
-SACC2011
-
- F5web oracle.2 2--web
-   
-()
-SACC2011
-
-  1  2  31-2 42  
-()
-SACC2011
-
-  1 2 3 4
-()
-SACC2011
-
-
-
-SACC2011
-
-  1web  2 3 4 bgp680/
-
-SACC2011
-
-  1 netscaler 2    3SEO 4
-
-SACC2011
-
-
-
-SACC2011
-
-  1  2 3  41GB 5000
-
-()
-
-SACC2011
-
- 
-1 GFW
-2 
-3dns 
-4 
-
-()
-
-SACC2011
-
- SACC2011
-
-  1 Failoverdns cdnhadoop memcachedmysql  2 3 4
-
-SACC2011
-
-  1 2 3dns "" 4   5master hadoopnamenode 6
-
-SACC2011
-
-
-SACC2011
-
-2011.9.9 
-
-
-
-SACC2011
-
-

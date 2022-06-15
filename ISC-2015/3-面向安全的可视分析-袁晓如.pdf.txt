@@ -1,331 +1,0 @@
-     
-
-Visibility         
-Visualization       
-Visual  Analytics    
-
-    
-Visualization  
-
-/  
-
-(VISUALIZATION)    (MENTAL  MODEL)
-       (MENTAL  IMAGE)  
-
-    
-Data  
-
-Insights  
-
-Mental Model  
-
-Visualization  
-
-/  
-
-(VISUALIZATION)    (MENTAL  MODEL)
-       (MENTAL  IMAGE)  
-
-    
-Data  
-
-Insights  
-
-Image  
-
-Mental Model  
-Visualization  
-
-  
-
-Double  Gulf  Model  
-
-    
-
-Visualization
-
-User  
-
-Visualization Designer  
-
-Evaluation  
-
-Representation  
-
-Conceptual Model  
-
-Visualization  
-
-Data  
-
-Execution  
-
-Manipulation  
-
-  
-
-Double  Gulf  Model  
-
-    
-
-Visualization
-
-User  
-
-Visualization Designer  
-
-Evaluation  
-
-Representation  
-
-Conceptual Model  
-
-Visualization  
-
-Data  
-
-Execution  
-
-Manipulation  
-
-  
-    
-·   (Visual  analytics  is  the   science  of  analytical  reasoning  facilitated  by  interactive  visual   interfaces)  
-·  (Synthesize  information  and  derive  insight  from  massive,  dynamic,   ambiguous,  and  often  conflicting  data)  
-·   (Detect  the  expected  and  discover  the  unexpected)  
-·   (Provide  timely,  defensible,  and   understandable  assessments)  
-·   (Communicate  assessment  effectively  for   action)  
-  
-
-    
-
-VAST  CHALLENGE  2013    
-" "      Big  Marketing   -       -    -   
-     ­  Big  Marketing   -    -   
-  
-
-  
-04/01
-
-DoS     
-04/02
-
-   Admin  
-     
-
-     
-
-  
-
-  
-
-(17)  
-
-DoS  
-
-  
-
-  
-
-  
-
-DoS  (2)      DoS(1)  
-
-(2)  
-
-04/03
-
-04/04 04/05
-
-04/06
-
-04/07
-
-04/08
-
-(1)   (1)  
-
-  (7)  
-
-(1)  
-
-   X     
-
-   C&C  
-
-(2)   (8)  
-
-(2)  
-
-X   DoS  
-
-     
-
-   DoS  
-
-   DoS  
-
-(3)   (1)   (1)  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-(1)     
-
-04/09   04/10   04/11   04/12   04/13   04/14   04/15  
-
-  
-   -    -       - IP   -   
-  
-
-  
-   - NetFlow   - Big  Brother  Monitor  Data   - Intrusion  Protection  System  Data      - 16GB   -       -    -    -    -   
-
-      
-
-IP     
-
-    
-
-AnNetTe  --  Collabora/on  oriented  visualiza/on  of  network  data  
-Siming  Chen,  Fabian  Merkle,  Hanna  Schaefer,  Cong  Guo,  Hongwei  Ai,  Xiaoru  Yuan,  Thomas  Ertl   ACM  VizSec  2014.
-
-1--DDoS  
-· DoS1   ­  IP   ­    ­ 
-¡ DoS2   ¡ IP IP IP  
-
-· DoS3  
-­ 80 ­ DDoS
-
-    --  
-¡ a)     ¡ b,  c)-  E1
-IP IP DoS   ¡ d)-  E2,DoS  IPSSH 10.0.3.77 C&C   ¡ e,  f)-E3 IP   IP    ¡ g)-     
-
-VAST  CHALLENGE  2014  
-    
-
-  
-· TethysGAStechKronos20 20 Kronos   
-· 20141GAStechIPO Protectors  of  Kronos    
-· KronosTethys    
-  
-
-  
-   -    - 1      - POK  
--    - POKGAStech   - 2014120-21   - 201416-19GAStech   - 2014123Streaming  
-  
-
-    
-1  ­  845203  
-2     GAStech  ­    
--    -    -   
--    3GAStechEmail-    21170  
-- 4GAStechGPS  ­    685,17033MB   5GAStech  ­    (14912)   6Twitter  ­     7  ­     8   - POKAbila     
-
-  
-   -    - 2020141   -    - 
-   -       -   ­     -   ­     -   ­    
-  
-
-  
-   -    -       -    -    -    Twitter   -    - Streaming      -      
-
-   GAStech   Jan.7   2
-    
-
-Twitter  
-
-Tweet  Rainfall  
-
-·     ­ X
-­ Y   
-­    
-
-Location
-
-Content
-
-keyword Content
-rules
-
-VAST  Challenge  2015  
-
-""  
-First  Paper  on  "Big  Data"  
-· Michael  Cox  and  David  Ellsworth,  "Application-Controlled  Demand   Paging  for  Out-of-Core  Visualization."  Proceedings  of  the  8th  IEEEE   conference  on  Visualization  '97.  1997  
-· NASA  Ames  Research  Center  
-
-""  
-First  Paper  on  "Big  Data"  
-Michael Cox and David Ellsworth, "Application-Controlled Demand Paging for Out-of-Core Visualization." Proceedings of the 8th IEEEE conference on Visualization '97. 1997
-
-  
-
-Top  Ten  Challenges  of  Extreme  Scale  Visual  Analytics    
-
-1. In  situ  Analysis      
-
-2. Interaction  and  User  Interface    
-
-3. Large  Data  Visualization    
-
-4. Database  and  Storage    
-
-5. Algorithm    
-
-6. Data  Movement,  Data  Transport,  and  Network  Infrastructure    
-
-7. Uncertainty  Quantification    
-
-8. Parallelism    
-
-9. Domain  and  Development  Libraries,  Frameworks,  and  Tools    
-
-10.Social,  Community,  and  Government  Engagements    
-
-  
-
-Pak Chung Wong, Han-Wei Shen, Christopher R. Johnson, Chaomei Chen, and Robert B. Ross, "Top Ten Challenges in Extreme-Scale Visual Analytics," IEEE
-
-Computer Graphics and Applications, 32(4):63-67, July 2012.
-
-  
-
-Top  Ten  Interaction  Challenges  of  Extreme  Scale  Visual   Analytics    
-1. In  situ  interactive  analysis    
-2. User-Driven  Data  Reduction    
-
-3. Scalability  and  Multi-Level  Hierarchy     4. Representation  of  Evidence  and  Uncertainty    
-
-5. Heterogeneous  Data  Fusion    
-
-6. Data  Summarization  and  Triage  for  Interactive  Query   7. Analytics  of  Temporally  Evolving  Features    
-
-8. The  Human  Bottleneck     9. Design  and  Engineering  Development    
-
-10.The  Renaissance  of  Conventional  Wisdom    
-
-  
-
-Pak Chung Wong, Han-Wei Shen, and Chaomei Chen, "Top Ten Interaction Challenges in Extreme-Scale Visual Analytics," Expanding the Frontiers of Visual
-
-Analytics and Visualization, pages 197-207, Springer, UK, 2012.
-
-Visualization  Assembly  Line  
-http://vis.pku.edu.cn/mddv/jigsaw/
-
-iVisDesign  
-
-iVisDesign  
-Ren et al. IEEE TVCG 2014
-
-  
-
-

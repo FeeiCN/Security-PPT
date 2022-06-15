@@ -1,273 +1,0 @@
-Top Security and Risk Management Trends for 2019 and Beyond
-Steve Riley Sr. Director, Analyst--Cloud Security
-© 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates. This publication may not be reproduced or distributed in any form without Gartner's prior written permission. It consists of the opinions of Gartner's research organization, which should not be construed as statements of fact. While the information contained in this publication has been obtained from sources believed to be reliable, Gartner disclaims all warranties as to the accuracy, completeness or adequacy of such information. Although Gartner research may address legal and financial issues, Gartner does not provide legal or investment advice and its research should not be construed or used as such. Your access and use of this publication are governed by Gartner's Usage Policy. Gartner prides itself on its reputation for independence and objectivity. Its research is produced independently by its research organization without input or influence from any third party. For further information, see "Guiding Principles on Independence and Objectivity."
-
-3.5x
-Increase in organizations with 50% of their data in the cloud 2018-2020
-1 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-93%
-are dealing with rogue cloud app usage
-2 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-***
-
-85%
-Are interested in replacing passwords with new forms of authentication
-
-3 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-More than 80%
-of enterprise web traffic will be encrypted through 2019
-4 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-The Controls of Security Are Rapidly Shifting and Your Focus Needs to Shift to New Approaches
-5 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-External Mega Trends Beyond Your Control
-
-Skills Gap Attackers
-
-Your Organization
-
-6 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Regulation and Privacy
-Cloud Application Scale and Complexity
-
-Internal Mega Trends that Support Success
-Perfect prevention and authentication is not possible -- Plan, Detect, Respond Cloud delivery is one way to address the skills and scale gap Need to step up our game in communication
-7 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-2019 Trends
-8 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Trend 1
-9 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-1.5 million
-Unfilled global cybersecurity roles expected by 2020
-Source: "Solving the IoT Security Talent Gap: Where You Look Matters," (G00347310); "Data Scientist Jobs: Where Does the Big Data Talent Gap Lie?" IT Pro
-10 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Trend 1: Fusion of Products and Services
-11 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Trend 2
-12 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-33% increasing investment in cloud
-35% decreasing investments in datacenter
-Source: Oracle and KPMG Cloud Threat Report 2019
-13 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Trend 2: Cloud Center of Excellence Emerges
-14 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Four Primary Areas of Investment
-
-Cloud Security Posture
-Management (CSPM)
-
-Cloud Workload Protection Platforms (CWPPs)
-
-Cloud Access Security Brokers
-(CASB)
-
-Chief Cloud Architect & SecDevOps
-
-Infrastructure Platform
-15 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Software
-
-People & Process
-
-Trend 3
-16 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-49%
-Expect to store the majority of their data in a public cloud by 2020
-Source: Oracle and KPMG Cloud Threat Report 2019
-17 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-71%
-Report that the majority of their cloud-resident data is sensitive
-Source: Oracle and KPMG Cloud Threat Report 2019
-18 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Trend 3: Data Security Governance Framework
-19 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-DSG Framework
-
-Don't Start Here!
-
-Crypto
-
-DCAP
-
-DLP
-
-CASB
-
-IAM
-
-UEBA
-
-DBMS Big Data Files Cloud Endpoint
-20 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-4 Implement Security Products
-
-5
-
-Orchestrate Policies for All Products
-
-DSG Framework
-
-Start Here!
-
-Business Strategy
-
-Business Stakeholders Governance Compliance IT Strategy
-
-Risk Tolerance
-
-1 Balance Business Needs Versus Risks
-
-Data
-
-Prioritize Datasets
-
-People
-
-Analytics
-
-2
-
-Identify, Prioritize and Manage Dataset Life Cycles
-
-3 Define Data Security Policies
-
-Crypto
-
-DCAP
-
-DLP
-
-CASB
-
-IAM
-
-UEBA
-
-DBMS Big Data Files Cloud Endpoint
-21 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-4 Implement Security Products
-
-5
-
-Orchestrate Policies for All Products
-
-Trend 4
-22 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-83.9%
-of phishing attacks targeted credentials for financial, email, cloud, payment, and SaaS services
-Source: "2019 Phishing Trends & Intelligence Report: The Growing Social Engineering Threat," PhishLabs
-23 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Trend 4: Dawn of Passwordless Authentication
-24 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-35%
-of smartphones will adopt more than one biometric authentication method by 2022
-Source: "2019 Phishing Trends & Intelligence Report: The Growing Social Engineering Threat," PhishLabs
-25 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Passwordless Authentication
-
-Security Key by Yubico
-
-26 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Trend 5
-27 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-70%
-of organizations are unable to process more than 60% of their security event data.
-Source: Oracle and KPMG Cloud Threat Report 2019
-28 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Trend 5: Security Operations Center Revitalization
-29 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-50%
-of all SOCs will transform into modern SOCs with integrated incident response, threat intelligence and threat hunting capabilities by 2022
-30 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Biggest Challenges New
-Staffing Adopting new tools SIEM vs. EDR Or Outsource
-31 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Renewed
-Integrating threat intel Consolidating alerts Establishing playbooks Automating workflow SOAR
-
-Trend 6
-32 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Trend 6: Carta Proliferates
-33 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Examples
-Intrusions detection inside the LAN
-Internal protection for email
-
-Risk Appetite
-
-Remediate
-
-Policy
-CARTA
-
-Assess
-
-34 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Trend 7
-35 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-90%
-of large enterprises CISOs expected to present security issues to business leaders.
-36 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Trend 7: Risk Appetite Statements Emerge
-37 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-The Simple Story
-
-We do these things
-
-So you can help accomplish your goals
-
-To support these principles
-
-So we can help manage these risks
-38 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Sample Risk Appetite Statement
-National Rail System has no appetite for safety risk exposure that could result in injury or loss of life to public, passengers and workforce. All safety targets are met and improved year on year. In the pursuit of its growth and modernization objectives, the NRS is willing to accept risks that may result in some financial loss.
-39 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
- Think Differently  Explore New
-Options  Challenge
-Assumptions
-40 © 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates.
-
-Top Security and Risk Management Trends for 2019 and Beyond
-Steve Riley Sr. Director, Analyst--Cloud Security
-© 2019 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of Gartner, Inc. and its affiliates. This publication may not be reproduced or distributed in any form without Gartner's prior written permission. It consists of the opinions of Gartner's research organization, which should not be construed as statements of fact. While the information contained in this publication has been obtained from sources believed to be reliable, Gartner disclaims all warranties as to the accuracy, completeness or adequacy of such information. Although Gartner research may address legal and financial issues, Gartner does not provide legal or investment advice and its research should not be construed or used as such. Your access and use of this publication are governed by Gartner's Usage Policy. Gartner prides itself on its reputation for independence and objectivity. Its research is produced independently by its research organization without input or influence from any third party. For further information, see "Guiding Principles on Independence and Objectivity."
-
-

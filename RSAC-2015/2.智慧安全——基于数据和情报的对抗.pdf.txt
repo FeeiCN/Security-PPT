@@ -1,197 +1,0 @@
--! - RSAC2015!
-  ! ! 2015.06.05 !
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-RSAC 2015 
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-© 2015 NSFOCUS, blog.nsfocus.net!
-
- - ""
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-...
-
-CVE-2014-0160 2014.04.07
-
-
-CVE-2014-6271 2014.09.25
-
-
-CVE-2014-4114 2014.10.15
-
-
-CVE-2014-3566 2014.10.15
-Poodle
-
-   
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-99.9%1-day!
-99.9%
-Data Source: DBIR 2015 © 2015 NSFOCUS, blog.nsfocus.net!
-
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-
-© 2015 NSFOCUS, blog.nsfocus.net!
-
- ­ 
-p "" p """" p ""
-... "" p 
-© 2015 NSFOCUS, blog.nsfocus.net!
-
- ­ 
-p  ""
-p "" p 
-   " " ""
-p  " "
-© 2015 NSFOCUS, blog.nsfocus.net!
-
- ­ 
-
-ü "" ü  ü  ü 
-   ü 
-""" " ü "" ü IP "" ü ...
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-
-
- 
-
-
-
-
-
-§ § § §O2O §...
-
-§ § § § §App §...
-
-§ § §SNS § §O2O §...
-
-§ §
-§SNS §...
-
-© 2015 NSFOCUS, blog.nsfocus.net!
-
- - CERT!
-/IT!
-q TVR! q Kingfisher
-! q Seer! q BSA! q POAC
-! q ! q xFlow! q !
-q App/SNS! q L1/L2/L3!
-© 2015 NSFOCUS, blog.nsfocus.net!
-
- -  - +
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-
-:: 
->> 
-:: 
->> 
-:: ""
->> "" >> ""...
-:: 
->> TokenHoney...  "" "" >> ...
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-
-
-
-Service
-
-Control
-
-Resource
-
-
-Prepare
-
-
-Prevent
-
-
-Detect
-
-
-Respond
-
-4A TVR  
-  /
-
-RA
- BYOD
- 
-
-DL P
-
-
-
-APT
-
- DDoS
-
-
-
-
-
-  
-
-//
-
-| xFlow FW|IPS|WAF  VA|TAC|SWG
-
- |D
-
-....
-
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-!
-
-!
-----APT!
-
-     DDoSSDN !
-
-!
--SDNSDS!
-
-! -!
-
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-...!
-! DDoS
-
-! 
-
-! 
-
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-
-
-blog.nsfocus.net!
-
-  weibo.com/threatresponse!
-
-
-
-weibo.com/nsfocus!
-
- !
-
-!
-
-@!
-
-© 2015 NSFOCUS, blog.nsfocus.net!
-
-

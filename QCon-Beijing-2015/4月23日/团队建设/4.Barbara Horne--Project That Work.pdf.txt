@@ -1,133 +1,0 @@
-Projects That Work
-The Impact of Culture on the successful Project Team
-
-Agenda | Objectives
-¨ Explore Organizational Culture ¨ Communicating in a Way that Inspires High
-Performance ¨ Explore Conflict Management Approaches
-
-Explore Organizational Culture
-What is Organizational Culture?
-¨ An organization's culture comprises collective values, goals, processes, roles, ways of communication, assumptions and attitudes that exist amongst employees throughout the organization.
-¨ For the purpose of projects we are defining it as "how things get done here".
-
-Explore Organizational Culture
-Different Types:
-¨ Traditional (hierarchical)
-¤ clearly defined roles and a clear chain of command
-¨ Innovative (creative)
-¤ Creative initiative and Creative processes and procedures are encouraged
-¨ Competitive
-¤ Encourages internal and external competition
-¨ Collaborative (Teamwork)
-¤ Encourages cross-functional teams
-¨ Blended (subcultures)
-¤ have strong features from one or more different types listed above
-
-Exploring Organizational Culture
-Different Types: a few Examples
-¨ BNP Paribas (Bank)
-¤ Traditional (hierarchical) and silos (as of 2010)
-¨ Google
-¤ Innovative creative Entrepreneurial
-¨ Google and Goldman Sachs
-¤ Collaborative (Teamwork), (blended subcultures)
-
-Exploring Organizational Culture
-Is one type better than the other?
-¨ Many successful companies with different types of cultures. However as an individual you may find you are happier and more productive in one type of culture over another.
-
-Exploring Organizational Culture
-Is one type better than the other?
-¨ No, but...
-¨ "Organizations with strong, adaptive cultures enjoy labor cost advantages, great employee and customer loyalty, and a smoother on-ramp in leadership succession."
-"Strong Cultures do what they say they back their slogan and promises with actions."
-¤ Ex. BHC rewards individual accomplishments through such things as "WOW (Workers becoming Owners and Winners)
-¨ Strong cultures can be more selective about the customers they serve. "The result of all this is `the best serving the best,'
-¤ or as Ritz-Carlton's mission states, `Ladies and gentlemen serving ladies and gentlemen.'
-~ A book excerpt from The Ownership Quotient: Putting the Service Profit Chain to Work for Unbeatable Competitive Advantage by HBS professors Jim Heskett and W. Earl Sasser and coauthor Joe Wheeler. Key concepts include:
-
-Exploring Organizational Culture
-Defining: Successful Projects
-¨ The project produces High quality products in a timely manner, for the agreed upon budget that satisfies the customer requirements.
-¤ Meets it's objects ¤ Benefits the overall portfolio
-
-Exploring Organizational Culture
-Successful Projects Example
-The IT Project team at "Franklin Mutual"
-implemented a new Business Intelligence strategy that moved the bank to a dashboard driven culture where each employee was empowered with the ability to access the data needed quickly and easily.
-The project was scheduled to take 9 months and cost 7 million dollars. It was on budget and on time and the company met it's goal of a 2% increase in sales in the first 3 months following implementation.
-
-Exploring Organizational Culture
-Project Failure
-¨ On Average of many Projects fail
-¤ Overbudget and OverSchedule.
-n Poor Requirements n Poor alignment of Project Team with the Project
-work
-
-Exploring Organizational Culture
-Elements of a Good Project Team
-¨ Well Planned Project ¨ Supportive Project Sponsor ¨ Great Leadership with a Vision ¨ Motivated Team ¨ Right Skills and Experience ¨ Reliable Team Member ¨ Work well as a team
-¤ Good Communication ¤ Helpful and Support of one another
-
-Exploring Organizational Culture
-When you inherit the Project Team
-¨ Have Clear Project Goals ¨ Clear Project Requirements ¨ Project Plan (WBS) ¨ Communication Plan ¨ Risk Management Plan ¨ Engage Team Members ¨ Provide Training
-
-Culture on the Workflow
-The impact of organizational culture on the Project's Lifecycle
-At Times, In Traditional or Competitive cultures: ¨ A Project Management Framework may already
-exist ¨ May be more "paper work" ¨ May have more hands-on Managers
-At Times, in Collaborative cultures: ¨ YOU have to a Apply Framework ¨ Manager's may be busy working on the product
-
-The impact of organizational culture on the Project's Lifecycle
-Established Companies
-¨ More focused on meeting Cost and Schedule ¨ Management is often a separate profession ¨ Lifecycles tend to be more sequential
-¨ "getting the job done" ¨ "doing things right"
-
-The impact of organizational culture on the Project's Lifecycle
-Startups, Small Business and Collaborative
-¨ More focused on getting the project done
-¤ Managers often manage and work on product development
-¨ Lifecycles tend be more overlapping
-
-The impact of organizational culture on the Project's Lifecycle
-Project Lifecycle
-Communicating:
-n Communication Plans n Implement a Project Management Information
-System (PMIS)
-n Ex. Microsoft Project
-n Use Multiple Communication Techniques
-
-Communicating in a Way that Inspires High Performance
-n Use Multiple Communication Techniques
-n Group Face to Face Meetings n Agenda n Meeting Minutes
-n Online Meetings n Agenda n Meeting Minutes (or PMIS)
-n Online Chats/comments captured in PMIS n One on One (capture in PMIS) n Informal Talks
-
-Culture on Project Workflow
-The impact of organizational culture on the Project's Lifecycle
-Approaches to Managing Conflict
-
-Approaches to Managing Conflict
-­ Have Project Policies and Procedures in place
-· Project Charter, Project Scope, Clear Requirements, Change Management Procedures
-· Project Roles (Team Matrix) · WBS
-­ Escalation Policy ­ Upfront Communication ­ Enforce all policy and procedures evenly across the board
-
-Approaches to Managing Conflict
-Listen
-
-Approaches to Managing Conflict
-­ Acknowledge and Disperse energy
-· Control the environment when you can
-
-Techniques for Conflict resolution
-· Mediation · Arbitration · Control · Acceptance · Elimination
-· Conflict is not always "bad" it can offer creative solutions. It is a problem if it is hindering the success of the project
-
-ALWAYS USE a PROJECT FRAMWORK
-· In all cultures create:
-­ Clear Project Scope with clear requirements ­ WBS ­ Work Breakdown Structure ­ Change Management Procedure ­ Clear and Engaging Communication
-· Appropriate for the culture
-
-

@@ -1,244 +1,0 @@
-KCon
-Breaking iOS Mitigation Jails to Achieve Your Own Private Jailbreak
-Min(Spark) Zheng @ Alibaba Mobile Security
-
-ONLY AVAILABLE AT THE SCENE
-
-iOS status
-
-· Apple sold more than 1 billion iOS devices. More than 380,000 registered iOS developers in the U.S.
-· It was reported that iOS is more secure than Android due to its controlled distribution channel and comprehensive apps review. E.g., FBI vs Apple.
-· However, there are still potential risks for iOS systems. We will share our private jailbreak and show how to break the protection of iOS system.
-
-iOS System Architecture
-
-Sandbox Team ID Entitlement Kernel
-KPP Jailbreak!
-
-ONLY AVAILABLE AT THE SCENE
-
-iOS mitigations
-
-Sandbox Team ID
-
-You can not touch most of kernel interfaces unless you escape the sandbox.
-You can not execute or load any binary unless the bin has the "platform-binary" team-id.
-
-Entitlement
-
-You can not create hid devices unless the bin has the "com.apple.hid.manager.user-access-device" entitlement.
-
-Kernel KPP
-Jailbreak!
-
-You can not control the kernel unless you have kernel bugs and bypass kernel heap mitigations.
-You can not patch the kernel unless you can bypass the kernel patch protection.
-Finally, you did it!
-
-Sandbox and NSXPC
-sandbox
-APP
-sandbox
-APP
-
-XPC services
-NSXPC services
-
-· iOS apps are in the sandbox and they are separated from each other.
-· App can communicate with unsandboxed system services through IPC (e.g., mach message, XPC, NSXPC).
-· In this talk, we focus on NSXPC and discuss one IPC vulnerability we found that can escape the sandbox.
-
-iOS 9.0 Jailbreak: CVE-2015-7037
-· com.apple.PersistentURLTranslator.Gatekeeper
-· This service has path traversal vulnerability that an app can mv folders outside the sandbox with mobile privilege (used in Pangu9 for jailbreak).
-
-ONLY AVAILABLE AT THE SCENE
-
-ONLY AVAILABLE AT THE SCENE
-
-ONLY AVAILABLE AT THE SCENE
-
-Heap spray through OOL msg
-
-· Traditional xpc_dictionary heap
-
-spray. Failed because the data was
-
-freed before pc control.
-
-ROP ROP ROP ROP
-
-ROP ROP ROP ROP · Asynchronous xpc_dictionary heap
-
-PC ROP ROP ROP ROP
-
-spray. Unstable because the time
-
-ROP ROP ROP ROP
-
-window is very small.
-
-ROP ROP ROP ROP
-
-ROP ROP ROP ROP
-
-· SQL query heap spray. Low success
-
-Memory
-
-rate because of ASLR and memory limit.
-
-· Asynchronous OOL Msg heap spray. Finally success!
-
-ONLY AVAILABLE AT THE SCENE
-
-NEXT: User mode -> Kernel
-
-iOS kernel overview
-Kernel: XNU
-
-IOKit
-
-BSD Mach
-
-Entitlement
-User Mode
-
-· Mach
-- Kernel threads - Inter-process communication
-· BSD
-- User ids, permissions - Basic security policies - System calls
-· IOKit
-- Drivers (e.g., graphic, keyboard)
-
-ONLY AVAILABLE AT THE SCENE
-
-ONLY AVAILABLE AT THE SCENE
-
-iOS 9.0 IOHIDFamily UAF
-· OSSafeRelease() is not safe!
-
-Fake device & vtable & ROP
-
-Device1
-
-Device1 + 4
-
-R3=device1-0x3B4+4
-
-R6=read_gadget
-
-Device1 + 8
-R6=write_gadget
-
-R0 = Device1 R6 = [R3, #0x3B4] = Device1 - 0x3B4 + 4 + 0X3B4 = Device1 + 4
-
-Device2
-R3=device1-0x3B4+8
-R0 = Device2
-
-R6 = [R3, #0x3B4] = Device1 - 0x3B4 + 8 + 0X3B4 = Device1 + 8
-
-iOS 9.3 IOHIDDevice heap overflow
-· There are three types of report in IOHIDDevice: Input, Output, Feature. But no check for Input report.
-· If Input report > max(Output report, Feature report), then trigger heap overflow.
-· By using this vulnerability, the attacker can achieve arbitrary length of heap overflow in any kalloc zone.
-
-iOS 9.3 Heap Overflow
-Input, Output, Feature Report: if (Input > Output) then Overflow
-
-Zone.32
-
-32
-
-32
-
-32
-
-32
-
-32
-
-Zone.32
-
-160
-
-32
-
-32
-
-32
-
-32
-
-Overflow
-
-Leak Kslide Using Heap Feng Shui
-
-· The first 8 bytes of the object is the vtable addr of UserClient. Comparing the dynamic vtable address with the vtable in the kernelcachethe attacker can figure out the kslide.
-
-holder
-
-first_port
-
-userclient
-
-kalloc.4096
-
-0x40 kalloc.4096
-
-0x100 kalloc.4096
-
-read
-
-· kslide = 0xFFFFFFF022b9B450 ­ 0xFFFFFFF006F9B450 = 0x1BC00000
-
-Arbitrary Kernel Memory Read and Write
-· The attacker first uses OSSerialize to create a ROP which invokes uuid_copy. In this way, the attacker could copy the data at arbitrary address to the address at kernel_buffer_base + 0x48 and then use the first_port to get the data back to user mode.
-X0=[X0,#0x10] = kernel_buffer_base+0x48 X1=address X3=kernel_uuid_copy BR X3
-· If the attacker reverses X0 and X1, he could get arbitrary kernel memory write ROP.
-
-Arbitrary Kernel Memory Read and Write
-· If the attacker calls IOConnectGetService(Client_port) method, the method will invoke getMetaClass(),retain() and release() method of the Client.
-· Therefore, the attacker can send a fake vtable data of AGXCommandQueue UserClient to the kernel through the first_port and then use IOConnectGetService() to trigger the ROP chain.
-· After getting arbitrary kernel memory read and write, the next step is kernel patch. The latest and public kernel patch technique could be referred to yalu 102.
-
-Kernel patch for jailbreak
-
-Patching security features of iOS in order to jailbreak:
-· Kernel_PMAP: to set kernel pages RWX.
-· Task_for_pid: to get kernel task port.
-· Setreuid: to get root.
-· AMFI: to disable signature check.
-· LwVM (Lightweight Volume Manager): to remount the root file system.
-......
-
-Kernel patch protection bypass
-Apple introduced KPP in iOS 9 for its 64-bit devices. The feature aims to prevent any attempt at kernel patching, by running code at the processor's EL3 which even the kernel code (executing at EL1) cannot access.
-For arm32: · There is no KPP, we can patch the kernel text directly. (iOS 9.3.5 Phoenix JB)
-For arm64: · Timing attack. Before iPhone 7, KPP is not a real time check mechanism,
-patching and restoring the kernel text in a short time window is ok. · Patching data on heap is ok. But it is hard for us to patch LwVM. · Page remapping with fake TTBR (used in yalu 102).
-
-iOS jailbreak process
-Userland
-CodeSign SandBox TeamID Entitlement
-
-Kernel
-Kernel Patch KPP
-Heap Mitigation IOKit/XNU
-
-Jailbreak
-Root Break CodeSign
-Remount RFS Jailbreak Apps
-
-Jailbreak!
-OverSky (aka Flying) Jailbreak for iOS 9.3.4/9.3.5 (0day at that time) https://www.youtube.com/watch?v=GsPmG8-kMK8
-
-Conclusion
-· To mitigate iOS potential threats, more and more mitigation approaches are introduced by Apple. We conducted an in-depth investigation on the current mitigation strategies to have a better understanding of these protections and tried to find out their weaknesses.
-· Particularly, we will present how to break each specific mitigation mechanism by exploiting corresponding vulnerabilities, and construct a long exploit chain to achieve jailbreak.
-· Following the technique details presented in our talk, it is possible for anyone who interested to rewrite his own private iOS jailbreak.
-
-Thank you!
-
-

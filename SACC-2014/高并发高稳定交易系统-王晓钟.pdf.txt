@@ -1,103 +1,0 @@
-
- wangxiaozhong@jd.com
-
-
-·  ·  · - · - · - · - · - ·  · - · 
-
-
-     OFW
-  
-   Web
-
-
-
-
-   1  1DNS+ 2LVS+HAProxy 
-  1 1 JavaVIPDNS 2 DB
-2 
-
-
-  1  a  
-b   
-2   
-
-
-
-
-  1   
-
-2   
-3 - 
-
-
-  
-   1  2 3
-  Nginx Promise
-
-
-  
-  1 Nginx a  b  IP
-2 Web
-3  1 2 -
-4 DB
-
-
-  1 --- 2  
-  1  
-2   
-3  
-4  
-
-
- 
-   1  2  3  100
-  1  DB
-2  redisDB
-
-
-   1 CDN 2 
- 
-
-
-   
-  
-
-
-  
-  
- 
-  cpu / 
-  tcpcopy 
-
--
-  1000+100+
-  1  
-2  
-3 
-  1  2  3 
-
--
-
--
-
--
-  + +
-  1 DB 2 redisredis
-  1 Nginxredis 2 
-  1 Javaredisredis 2 redisNginxredis
-
--
-- Nginx+RedisRedis redis
-- Nginx+
-- 
-- 
-- redisredis
-
--
- 1   1
-2redis  1 2redis
-2 
-
-Q&A
-
-

@@ -1,95 +1,0 @@
-
-lake2  TSRC/Blade/ CEO  
-
-
-TSRCxSRC
-
-
-2012TSRC 2013SRCSRC
-
-
-TSRCxSRC SaaSSRC
-TSRCxSRCSRC
-
-
-
-
-
-"" ---- 
-
-
-
-
-
-QQ
-
-
-
-
-DDoS -> DDoS HIDS -> HIDS WAF -> WAF  ->  /   ......
-
-
-
- TCP  bug ......
-
-
-
-DDoS
-
-
-
-
-
-
-
-
-
- &  & 
-
-
-
-
-
-
-
-Tencent Blade Team
-
-
-Blade 
- 
-
-AIoT
-
-
-
-
-
-
-
-
-
-
-
- 
-----
-
-
-
-
-
-
-
-
-
-
-
-    Red Team 
-
-Talk is cheapshow me the Shell
-
-
-
-
-THANKS
-
-

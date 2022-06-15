@@ -1,218 +1,0 @@
- --
-
-# Whoami
-· @askme765cs · @ · M01N · 
-
-01 Mitigations 101
-
- CONTENTS
-02
-Red Team Operation
-
-03 "Mitigation Hell"
-
-Part 01 Mitigations 101
-
-Why Mitigations?
-
- ·  · 
-
- ·  · DLL ·  ·...
-
-Mitigations ·  · 
-
-01
-
-Mitigations Timeline
-
-Pre-Win10
-
-TH1
-
-RS1
-
-RS2
-
-RS3 +
-
-· ASLR · DEP · SafeSEH · SEHOP
-
-· CFG
-
-· CIG
-
-· ACG · Child Process
-Policy
-
-· CFG Strict Mode · CFG Export Suppression · NoLowMandatoryLabelImages ·...
-
-02
-
-Code intergerity guard-CIG
-
-· Windows 10 TH2 (1511) · DLL · DLL · DLL
-· MicrosoftSignedOnly
-
-·  MiValidateSectionSigningPolicy
-· API NtCreateSection
-
-· StoreSignedOnly 03
-
-Arbitrary code guard-ACG
-
-· Windows 10 RS1 (1607) · W^X
-· (X)(W) · (W)(X) · 
-
-·  MiAllowProtectionChange MiMapViewOfSection
-· API NtAllocateVirtualMemory NtProtectVirtualMemory
-
-NtMapViewOfSection(SEC_IMAGE/SEC_FILE)
-
-04
-
-Arbitrary code guard-ACG
-· API · VirtualAlloc with PAGE_EXECUTE_* · VirtualProtect with PAGE_EXECUTE_* · MapViewOfFile with FILE_MAP_EXECUTE | FILE_MAP_WRITE · SetProcessValidCallTargets for CFG
-05
-
-Boundary of ACG
-·  · AllowRemoteDowngradeACG
-06
-
-Mitigation Flags-EPROCESS
-ULONG FlagsFlags2Flags3Flags4
-ULONG MitigationFlagsMitigationFlags2 08
-
-Mitigation Policy-
-\Mitigation Policy-IFEO · HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ · MitigationOptions:REG_BINARY
-
-Mitigation Policy
-
-· HKLM\System\CurrentControlSet\Control\Session Manager\kernel\
-
-· MitigationOptions:REG_BINARY
-
-09
-
-Mitigation Policy-
-10
-
-Mitigation Policy-Powershell
-Mitigation Policy() · Get-ProcessMitigation ­Running ­Name notepad.exe Mitigation Policy() · Get-ProcessMitigation -Name notepad.exe Mitigation Policy() · Set-ProcessMitigation -Name notepad.exe -Enable MicrosoftSignedOnly
-11
-
-12
-
-Mitigation Policy-Exploit Protection
- · Mitiation Policy · CFGDEPASLR  · Mitigation Policy · 
-13
-
-Part 02 Red Team Operation
-
-CobaltStrike Blockdlls
-
-· CobaltStirke 3.14
-
-· DLL
-
-· blockdlls
-
-· Spawn
-
-· Screenshot · Keylogger
-
-· Mimikatz
-
-·...
-
-14
-
-15
-
-Blockdlls-CIG
-· UpdateProcThreadAttribute · CIG · DLL
-DLL 16
-
-17
-
-HOOK
-
-Malware
-
-· CIGDLL · ACG · ACGDLL
-
-.text System DLLs
-
-EDR DLL 18
-
-ACG+CIG
-
- DL
-
-
-
-Y 
-
-L
-
-AC
-
-N
-
-G
-
-Hook
-
-CIG 19
-
-Mitigation Policy
-· SetProcessMitigationPolicy · NtSetInformationProcess
-· CIGACGMitigations · 
-20
-
-Mitigation Policy
-· NtSetInformationProcess · ACG · AllowRemoteDowngrade
-ACG
-21
-
-Part 03 "Mitigation Hell"
-
-Side Effect Of Mitigations
-
-"Mitigation Hell"---- · ACG- -.NETCLRRWX · CIG- · Child Process Policy-
-
-Mitigations
-
-22
-
-"Mitigation Hell"
-· Mitigation Policy
-
-A-+ACG=>
-
-B-DLL+CIG=>
-
-23
-
-ATT&CK T1562
-Impair Defenses 
-·  ·  · 
-
-· IFEO 24
-
-Hunting "Mitigation Hell"-Audit Mode
-Au d it- Set-ProcessMitigation -Name notepad.exe -Enable AuditDynamicCode,AuditMicrosoftSigned
- Microsoft-Windows-Security-Mitigation/Kernel Mode
-25
-
-Hunting "Mitigation Hell"-ETW
-· Microsoft-Windows-Kernel-Memory:KERNEL_MEM_KEYWORD_ACG · Microsoft-Windows-Security-Mitigations:Microsoft-Windows-Security-Mitigations/KernelMode
-26
-
-
-· Mitigations"" · Mitigations · 
-27
-
-
-KCon   
-
-

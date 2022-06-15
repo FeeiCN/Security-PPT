@@ -1,297 +1,0 @@
-
-
-> ABOUT ME
-· ztz @360 ·  · // Google Hall of Fame · // Golang · // Ruby · // Homebrew
-0 1
-
->  · DNS Protocol  ·  DNS  ·  DNS 
-02
-
-> DNS  ·  1983  ·  IP "" · ICANN 
-0 3
-
-> DNS 
-0 4
-
-> 
-sub.domain.tld. 
-  
-0 5
-
-> 
-·  ·  DNS 
- ·  DNS 
-
-06
-
-> TLD
-
-· 
-
-
-
-IANA  · 
-
-
-
-· https://data.iana.org/TLD/tlds-alpha-by-
-
-domain.txt
-
-07
-
->  · 
- · 
-08
-
-> 
-Root DNS Server
-TLD DNS Server
-Authoritative DNS Server
-09
-
-> 
-
-
-
-a.com
-
- a.co
-
-TLD Server
-
-10
-
-> 
-
-
-
- a.co
-
-a.com NS
-ns.a.co
-
-TLD Server
-
-1 1
-
-> 
-
-Where is www.a.com
-
-
-
-x.x.x.x
-
-ns.a.co
-
-Authoritative DNS Server
-
-12
-
->  DNS  ·  DNS 
- DNS  ·  DNS Cloudflare DNS
-1 3
-
->  DNS 
-
-·  DNS 
-
-·  DNS  EPP  Zone file 
-
- NS  DNS 
-
-·  Zone file  DNS 
-
-
-
-·  DNS  NS 
-
-
-
-14
-
->  DNS  · 
-
-a.com IN NS ns1.xxyun.com
-
-
-
-xxyun DNS
-
-TLD Zone
-
-15
-
->  DNS  · NS 
-
-a.com IN NS ns1.xxyun.com
-
-
-
-xxyun DNS
-
-TLD Zone
-
-16
-
->  DNS  · 
-
-a.com IN NS ns1.xxyun.com
-
-
-
-xxyun DNS
-
-TLD Zone
-
-17
-
->  DNS 
-19
-
->  DNS  ·  ·  DNS  DNS 
- +  DNS =  DNS 
-20
-
->  DNS 
-·  ·  DNS  ns1.xxcloud.cn ·  ns1.xxcloud.com 
-
- DNS ns1. xxc l oud. c om
-
- 21
-
->  DNS  ·  DNS  DNS
-
-
-
- DNS ns1. dns-xxc l oud. c om
-
- DNS ns1. xxc l oud. c om
-
-22
-
->  DNS  ·  DNS 
-
-
-
- DNS ns1. dns-xxc l oud. c om
-
- DNS ns1. xxc l oud. c om
-
-23
-
->  DNS  ·  DNS  DNS
-
-
-
- DNS ns1. dns-xxc l oud. c om
-
- DNS ns1. xxc l oud. c om
-
-24
-
->  DNS 
-25
-
->  DNS  ·  DNS 
-26
-
-> DNS 
-
-2. Where is .com?
-
-1. Where is www.a.com?
-
-Root DNS Server
-3. Where is a.com?
-
-Client
-
-Stub
-
-Recursive DNS Server
-
-TLD DNS Server
-
-4. Where is www.a.com?
-Authoritative DNS Server 2 7
-
-> DNS 
-
-2. Where is .com?
-
-1. Where is www.a.com?
-
-Root DNS Server
-3. Where is a.com?
-
-Client
-
-Stub
-
-Recursive DNS Server
-
-TLD DNS Server
-
-4. Where is www.a.com?
-Authoritative DNS Server 2 8
-
-> DNS 
-
-Where is .com? Root DNS Server
-
-com. 86400 IN NS m.gtld-servers.net. com. 86400 IN NS c.gtld-servers.net. com. 86400 IN NS e.gtld-servers.net. com. 86400 IN NS l.gtld-servers.net.
-Root Zone file
-
-29
-
->  ·  @IAmMandatory · The .io Error ­ Taking Control of All .io
-Domains With a Targeted Registration @IAmMandatory ·  .io  NS  ·  NS @fate0
-30
-
-> 
-31
-
-> 
-32
-
-> 
-33
-
->  ·  NS
-34
-
-> 
-35
-
-> 
-36
-
->  ·  DNS 
-37
-
->  · NS  AXFR 
-IXFR  · TLD  NS 
-
-38
-
->  ·  TLD  NS 
- · 5k+  TLD NS  NS
-
-39
-
->  ·  NS  · (46) ns-tld1.charlestonroadregistry.com · (21) *.zdnscloud.com
-40
-
->  ·  NS  · 
-41
-
->  · DNS  ·  +  = 
-45
-
-
-KCon 
-MA N O E U VR E
-
-

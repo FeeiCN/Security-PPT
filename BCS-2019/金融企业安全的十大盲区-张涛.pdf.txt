@@ -1,181 +1,0 @@
-
-
-
- 
-
-q TCP/IP q IT CASB q API q DNS/NTP/PING q // q OPENSSL q POWERSHELL q  q  q WIN/LINUX/IOS/
-
-TCP/IP
-
-
-· TCP/IP   
-· IPV6,  
-· 
-
-
-· dhcp spoofing · Ettercaparp · DNS/NTP/SSDP/
- · snmp
-
-
-·  
-·  
-·  · 
-
-
-
-
-TCP/IP
-
-IT CASB
-
-:   24
- :   20
- :   14
-
-CASB
-
-CASB
-
-   
-
-q  
-q  IT  
-q  DLP EncryptionTokenization 
-q  
-
-CASB
-q RSA Conference 2017CASB 
-q  BYODSAAS 
-q (IDaaS)/(SSO) 
-q SAAS PAAS
-q ProxyAPI 
-
-API
-DDOS
-
-DDOS
-
-API
-q APP API q  q  q 2017OWASP A10
-
-API
-q  API
-q API+ ++Https 
-https://www.cnblogs.com/ac cumulater/p/6178166.html
-q ESAPI (The OWASP Enterprise Security API)
-q API kong
-
-API
-Table of Contents API Specification Languages API Specification Tools API Specifications API Frameworks API Client Development Tools API Documentation API Clients API Debugging and Mocking API Design Guides API Publishing API Gateways API Security API Monitoring API Testing API Developer Portal JSON Format Standards Learning Resources
-
-https://github.com/yosriady/api-developmenttools#api-developer-portal
-
-DNS/NTP/PING
-
-//
-
-:   24
- :   20
- :   14
-
-
-
-...
-
-PC
-
-
-
-POWERSHELL
-POWERSHELLWIN.NET FRAMEWORKWINDOWS
-1. 2. 3.Win32(API) 4.Windows(WMI) 5. 6. 7.IPSec 8. 9.(COM)
-
-POWERSHELL
-POWERSHEL
-
-POWERSHELL
-
-POWERSHELL
-
-POWERSHELL
-
-POWERSHELL
-PowerSploitnishangEmpireMicrosoft PowerShell
-
-OPENSSL
-® 2018ACR201710 50%20161112
-
-
-
-
-q  q  q 
-
-
-REVIEW 
- ü ü ü ü ü
-gccFortify_Source piefpie
-PIEPaxGrsec PaXLinuxASLR(Address Space Layout Randomization,) 
-PIEPaX 
-
-
-
-
-
-1 #include <stdio.h>
-
-2 #include <string.h>
-
-3
-
-4 int main()
-
-5 {
-
-6
-
-char str[3];
-
-7
-
-8
-
-strcpy(str, "abcde");
-
-9
-
-10
-
-return 0;
-
-11 }
-
-//
-
- FORTIFY_SOURCE  [tom@localhost code]$ gcc -O2 D_FORTIFY_SOURCE=21  2 -o test test.c In file included from /usr/include/string.h:642:0,
-from test.c:2: In function 'strcpy',
-inlined from 'main' at test.c:8:8: /usr/include/bits/string3.h:105:3: warning: call to __builtin___memcpy_chk will always overflow destination buffer [enabled by default]
-
- FORTIFY_SOURCE  [tom@localhost code]$ gcc -O2 -o test test.c [tom@localhost code]$ ll
-
-
-
-
-
-
-
-POC
-
-
-
-WIN/LINUX/IOS/
-
-q "" q coredump q Linux/windows/iOS/ 
- q  q 
-
-
-
-
-
-THANKS
-
-

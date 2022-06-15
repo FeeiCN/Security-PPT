@@ -1,146 +1,0 @@
-
-   2014925
-China Internet Security Conference 2014 2014
-
-
-·  
-·   
-· CNAS PTP
-
-
-
-
-1 2 3 4 5 6 7 8 9 10
-
-
-         
-
-2007   22 "      "
-
-
-
-
-
-·
-
-
-
-·
-
-
-
-
-
-
-
-·   
-
-
-
-
-
-
-
-
-
-
-
-
-
-ISO/IEC
-· 
-­ 27037 
-­ 17025  ­ 17020 
-· 
-­ 27042 ­ 27041
- ­ 27043
-
-NIST
-· CSNollePIcStEsToCfItwRIaArSeL PUSBecLurIeClibAraTry IONS
-(­8020004SE,RNISETSIR) 7100PDA 
-­ 2004:,SP800-72PDA ­ 2005, NISTIR 7250  ­ 2006:,SP800-86 ­ 2007, NISTIR7387 ­ 2007:,SP800-101 ­ 2009, NISTIR 7617 ­ 2014, SP80: 0-101Rev.1 ­ 2014,NIST IR 8006
-
-Compute file profiles Reference Data Set (RDS)
-
-
-· 
-­ 2001, NCJ 187736  
-­ 2007, NCJ 210798  
-­ 2008, NCJ 219941  
-­ 2009, NCJ 227050  
-
-
-
-· 10008:2008
-
-· 10008:2014
-
-­ 1 Scope
-
-· BIP 000­8-12S0c0o3pe 
-
-­ 2 Normative references ­ 2 Normative references
-
-­ 3 Terms and definitio·ns BIP 000­8-32T-e2r0m0s5anddefinitions 1­­004m5 0PIamnl8aapn:glne2eimnm0gee0nntth8tinesgyinsaftnoedmrm·atiBonS1000­­­ 8456-2LCP0eloaa0nndt8neeirxnstghoipf theorganization 
-­ om6thpMaeenroianangftoiietnromgmrietnahntgeitoasinnnysfdoterrmemva·ietiwoBinnIgP000­­­9-7892SPO.0eup0rp.ef8BporaorSmtritoa1nn0c0e0e8valuation  management system ­ 10 Improvement
-­ 7 Maintaining and improving the information management system
-
-IOCE Principles
-· (A· C1PO) 
-­ · 2 Good Practice Guide· fo3rComputer BasedEvidence
-
-· · 4(SW GDE)
-­ 
-· 5
-Good Practice Guide forComputerBasedEvidence http://www.swgde.o·rg 6
-
-
-
-· GB/T 29360-2012  
-· GB/T 29361-2012  
-· GB/T 29362-2012  
-
-1
-· 2008
-­ GA/T 754-2008  ­ GA/T 755-2008  ­ GA/T 756-2008  ­ GA/T 757-2008 
-
-2
-· 2009
-­ GA/T 825-2009  ­ GA/T 826-2009  ­ GA/T 827-2009  ­ GA/T 828-2009  ­ GA/T 829-2009 
-· 2013
-­ GA/T 1069-2013 ­ GA/T 1070-2013 ­ GA/T 1071-2013Windows
-
-
-3
-· 2012
-­ GA/T 976-2012  ­ GA/T 977-2012  ­ GA/T 978-2012 
-· 2014
-­ GA/T 1770-2014  ­ GA/T 1771-2014  ­ GA/T 1772-2014  ­ GA/T 1773-2014  ­ GA/T 1774-2014  ­ GA/T 1775-2014  ­ GA/T 1776-2014 
-
-
-· 2014
-­ SF/Z JD0400001-2014 ­ SF/Z JD0401001-2014 ­ SF/Z JD0402001-2014 ­ SF/Z JD0403001-2014
-
-
-· 
-­  ­ 
-· 
-­ 
-· 
-­ 
-· 
-­ 
-
-
-· 
-­ CNAS-CL08:2013/ ­ CNAS-CL272014/
- ­ CNAS-AL13/ ­ CNAS-AL14/
-· 
-­ 
-
-
-
-Thanks!
-guohong@stars.org.cn
-
-

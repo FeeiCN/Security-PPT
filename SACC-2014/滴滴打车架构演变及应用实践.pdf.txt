@@ -1,277 +1,0 @@
-
-   MagicYang
-
-
-· 2010--2012         · 2012--Now        
-
-
-·    ·    · 3   ·    ·   
-·    ·   :0   ·   :)
-
-
-
-
-
-
-
- 
-
-LNMP
-
-AppEngine
-
-LNMP 
-
-LNMP 
-
-
-
-
-
-2012.11
-
-2013.4
-
-2013.8
-
-2013.12
-
- 2013.2 Now
-
-
-· 2012.7--2012.11   · PHP   · <  10W   · 20
-
-
-·    · LNMP   · APNS   ·    ·   
-·    · MySQL   · Web502504...   · DNS
-
-APP
-
-
-
-APP
-
-
-
-API
-
-MIS
-
-DB 
-
-
-· 2012.12--2013.4   · <  100W   · IDCLNMP   · 30
-
-
-·    ·   
-·    ·   
-·    ·    · IDC   · LNMP
-
-APP
-
-
-
-APP
-
-
-
-nginx API DB
-
-MIS IDC
-
-
-·    · IDC   · IDC  
-·    ·   
-·    ·    ·    · AppIP
-
-
-
-App IP
-
-IP 
-
-IDC1
-
-IDC2
-
-
-· 2013.5--2013.8   · <  3000   · LNMP   · 51
-
-
-·    ·   
-·    ·   
-·    ·    ·    · MySQLDB
-
-
-LVS
-
-API nginx php--fpm memcached NFS
-
-API nginx php--fpm memcached NFS
-
-MIS nginx php--fpm memcached NFS
-
-MySQL(Master)
-
-MySQL(Slave)
-
-
-· 2013.9--2014.2   · 30002   · LNMP   · 122
-
-
-·    ·    ·    ·   
-·    ·    ·    · MongoDB   · nagios
-
-
-App
-
-App
-
-LVS
-
-Web
-
-Web
-
-Web
-
-Push  Server
-
-MongoDB
-MySQL(Slave)
-
-DBProxy
-MySQL(Master)
-
-MySQL(Slave)
-
-
-
-
-·    · CPUMemI/O  
-· Ngnix   · HTTP  Status(502504500...)  
-· Fast--CGIphp--fpm   · error  logslow  log...  
-· MySQL   · slow  log...  
-· Memcached   · QPS  
-· MongoDB   · QPS
-
-
-·    · ^_^   ·      · ^_^   ·    · ^_^   ·    · @_@  T_T
-
-pv
-
-16 12
-8 4 0
-2/1
-
-
-
-2/10
-
-2/19
-
-2/28
-
-3/9
-
-
-
-3/18
-
-3/27
-
-
-· API   · LVS  
-· CPU  Affinity   · LVSDNS   ·    · Memcached   · DB
-
-
-·    ·   
-·    · ...  
-·    ·    ·    ·    ·...
-
-
-·    ·   
-· Push   · LBSMongoDB
-
-
-· 2014.3--Now   · 5   ·    · 50+7
-
-
-
-App
-
-
-
-web
-
-
-
-App
-
-
-
-
-
- 
-
-
-
-  
-
-API   LBS
-
- POI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-App
-
-VIP
-
-VIP
-
-Nginx
-
-Nginx
-
-Web
-
-App TCP Push  Server
-
-KV
-
-DBProxy MySQL
-
-Redis 
-
-LBS  Server
- 
-
-
-
-·    · SPDY   · DevOps   · HHVM
-
-We Need You
-·    · ----  
-·    ·    ·    ·   
-·    ·    ·    · 
-
-Contact Me
-! !
-· yzl1573   · yangzhenlin@diditaxi.com.cn
-
-Q&A
-
-

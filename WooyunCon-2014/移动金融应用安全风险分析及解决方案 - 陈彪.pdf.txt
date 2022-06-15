@@ -1,261 +1,0 @@
-
-
-www.bangcle.com
-
-
-
-01
-
-
-
-02
-
-
-
-03
-
-
-
-
-· 
-­  
-­  
-­  
-
-
-·   
-·   ­   3:
-
-
-· 
-­ dex2jarbaksmaliIDA proapktool
-· 
-­ gdb 
-· 
-­ XposedSubstrate 
-· 
-­ Burp suite
-
-
-
-
-
- 
-
- SDK
-
- 
- 
-
-
-    
- 
-
-
-
-
-
-
-  
-    
-
-
- SDK 
-
-
-   
-
-
-
-OS hook  
-
-
-1. App 
-2.  
-
-
-
-01
-
-
-
-02 
-
-03
-
-
-
-
-·  ·  ·  · 
-
-1
-
-2
-
-
-
-
-1 2 3 4 5
-6
-7
-
-  /
-  Hook Token
-
-
-1
-
- - HOOK hook 
-
- 
-
-apksmali Listcom.logansoft.zcbao.view.a.n aList
-
-2
-
--POC
-     
-
-
-1 2 3 4 5
-
-
-
-     
-
-
-
- App 
-
-1
-
- -/
-      SDk     
-
-apk, 
-
-2
-parand 
-
-1
-
-
-2
-
-    
-
-2. cusNo cusNo 2000098909
-
-1.  URL** cusNo
-
-3
-
-
-
-01
-
-
-
-02 
-
-03
-
-
-
-
-· 
-   SDK  
-· 
- 
-· 
- 
-
-
- 
- APP
- APP
-
-
-
-· classes.dexAPK · classes.dexDalvik
-
-
-
-
-DEFCON 22
-DEFCON 221.0 "Android Hacker Protection Level 0" https://www.defcon.org/images/defcon-22/dc-22-presentations/Strazzere-Sawyer/DEFCON-22-Strazzere-and-Sawyer-AndroidHacker-Protection-Level-UPDATED.pdf
-
-
- 
- dump
- dumppatch
- Dexdex(  Xposed 360 ...  patchdump
- :DalvikdexdumpDex
-
-
- java  Java 
-   Dex    
-
-
-·   APK  Dalvik 
-·         dump
-
-
-APK 
-
-APK
-
-method public onCreate(Landroid/os/Bundle;)V .locals 2 .parameter "savedInstanceState"
-.prologue
-invoke-super {p0, p1}, Landroid/app/Activity;>onCreate(Landroid/os/Bundle;)V
-new-instance v0, Landroid/widget/TextView;
-invoke-direct {v0, p0}, Landroid/widget/TextView;><init>(Landroid/content/Context;)V
-return-void .end method
-
-APK 
- 
-
-method public onCreate(Landroid/os/Bundle;)V .locals 2 .parameter "savedInstanceState"
-.prologue
-nop
-nop
-nop
-nop
-nop
-return-void .end method
-
-APK  So
- 
- APK(XML)
- 
- DLL C# Unity3D  Lua  HTML/Javascript(IBM worklightPhoneGap)  Flash ...
- So
- C/C++
-
-
-· APK · classes.dex
- Java
-· so
- C/C++
-· 
- xml  
- Html5 (phoneGapIBM worklight)  lua  C# (Unity3D)
-...
-· AndroidAPK
-
-
- 
- 
- 
-   
-      ...
-
-
-
-· · · ·
-
-·  · 
- // · 
-  · 
-
-

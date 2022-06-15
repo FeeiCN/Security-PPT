@@ -1,95 +1,0 @@
-
-
-
-
-·  ·  
-· Daniel Liu · Renren Inc. Security Center · Dan.liu@renren-inc.com
-
-
-·  ·  ·  ·  · 
-
-
-· 
-­ web:XSSCSRFSQL Injection ­ : ­  ­  ­ SNS
-
-
-· 
-­ 
-· - · -
-­ 
-·  · 
-­ 
-·  · 
-
-  
-  
-
-· 
-­  ­  ­ 
-· 
-­  ­  ­ 
-
-
-
-
-· SEO
-­  ­ 
-·  ""
-­  ­  ­  ­  ­ 
-
-
-· 
-­  ­  ­ 
-
-
-· 
-­  ­  ­  ­  ­ 
-
-·  ·  · 
-
-
-
-
-
-· 
-­ XSS ­ CSRF
-
-
-
-
-
-Web
-
-
-
-
-
-
-
- /
-/
-
-· 
-­  ­  ­  ­ 
-
-
-
-
-· 
-­  ­  ­ 
- ­  ­ 
-
-
-
-
-
-
-
-
-
-·  
-· 
-
-
-
-

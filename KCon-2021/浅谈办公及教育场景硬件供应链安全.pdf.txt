@@ -1,170 +1,0 @@
- --
-
-
-· IoT ·  · 
-0 1
-
-IoT 2   
-0 4
-
-IoT 
-0 5
-
-IoT     
-0 7
-
-IoT 
-MTKIoT   SecureBootTEE  
-0 8
-
-IoT IoT
-59IoT  
-0 9
-
-IoT   
-10
-
-IoT 
-    
-11
-
-IoT 
-  
- 12
-
-IoT 
-     
-13
-
-IoT 
-  
- 14
-
-IoT  
-15
-
-
-16
-
- Android ROM
-17
-
- Secure Boot
- PKI
-18
-
-
-
- Secure BootCPU OTP FUSE eFUSE   
-19
-
-
-DM-Verity
-·   
-·  system root hash
-22
-
-
-
- -> Boot Verify -> DM Verity
-
-
-
-23
-
-  SECURE BOOT
-
-90%eFuse
-
-
-
-BootLoader
-
-
-
-
-
- 25
-
-  SECURE BOOT  MTK
-26
-
-  SECURE BOOT     QUALCOMM 
-27
-
- Boot Verify
-
-· frp
-
-seccfg
-
-· seccfg
-
-seccfg body 
-
-28
-
- Boot Verify
-29
-
- DM-Verity
-30
-
-
-
-Gain Full Access
-adb S E-L inux
-
-set property ro.debuggable = 1
-...
-androidboot. selinux =permissiv e
-ro.secure = 0
-
-Get Full Access
-
- adb root shell
-31
-
-  
-32
-
-
-33
-
- 
-·  ·  ·  · 
- 35
-
- 
-·  ·  · Framework
-
-36
-
- 
-  
-
-34
-
- 
-
-EVT
-
-DVT
-
-PVT
-
-
-
-
-IoTSDLC   
-
-PVT DVT EVT
-
-Souring
-IoT SDLC
- 37
-
-
-MA N O E U VR E
-
-

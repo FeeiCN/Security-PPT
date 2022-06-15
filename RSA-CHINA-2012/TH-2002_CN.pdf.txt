@@ -1,254 +1,0 @@
-
-
- ­ 
-Strategic Thinking on Next Generation Security in Cloud Era
-
-richard.zhao@nsfocus.com 
-
-
-""
-
-§   (e.g  0--day)  
-
-§   
-
-§ aa  
-
-§ op    
-
-§    
-
-§   
-
-§ ......  
-
-
-
- 
-
-
-
- ü 
-
-
-
-ü 
-
-
-
-
-
-""
- BYOD
-§  - > Applications § IP -> Users §  -> Content
-§  
-§ Advanced Malware § Zero-Day § Targeted APT Attacks
-§  
-§  § """" § ...
-
-
-
-
-
-
-
-
-/
-SIEM ­ APT 
-
-
-
-
-
-
-
-5RSA 2012
-
-Early Intercept Calls For Kills At Extended Range
-
-
-
-http://defense-update.com/20101118_aegis_ng_early.html
-
-
-1  "" 
-2Reuse 
-1  2: 
-3 """ "IntelligenceDefense Function  Point
-3: "" 4: 
-
-
-From SIEM to BIG DATA & Intelligence B D A IG ATA NALYTICS,  BDA, 
-  
-
-Data Source: RSA2012, Tech-303, by Zions
-
-
-
-
-1 2 3 4
-
-
-
- 
-
-BDA
-
-
-
-|||||...
-
-
-
-  
-
-Signature  
-
-Behavior  
-
-ReputaAon  
-
-Global  &   Cross  Enterprise  
-
-Enterprise  
-
-Device   Session   Packet  
-
-Data  
-
-
-
-Intelligence  
-
-Self--Healing      More  business   Awareness     
-
-Decision  Making   Engine  
-
-AcAon  
-
-
-
-
-
-Ø  Ø b Ø 
-
-
-
-
-q CERT q  q  q 
-
- 
-
-
-
-
-
-IT ()
-
-
-
-
-
-
-
-
-
- 
-
-Ø  Ø 
-
-
-Google Hacking, OSINT and ...
-
-http://www.stachliu.com/resources/tools/google-hacking-diggity-project/attack-tools/
-
-
-NSFOCUS WSM
-
-Maltego
-
-
-
-§ ""
-§    
-§ ""
-§ ""...
-§ ""
-§ ""...
-
-
-
-
-
-  
-
-  
-
-    
-
-         
-
-
-
-   
-
-
-
-     
-
-   
-
-
-
-
-[]
-
-
-
-
-
-   ·  · USB ·  · WIFI · LAN ·  ·  ·  · 
-
-
- 
-
-
-
-·  ·    · 
-
-
- 
-  
-
-""
-
-ØIPURL
-
-ØIPURL
-ü  ü  ü IP ü 
-
-
-
- 
-
-2  3 
-
-1 
-c / 
-
-
-4  
-
-
-
-...
-§ § """" 
-§ §  
-§ §  
-
-
-
-Richard.zhao@nsfocus.com
-
-
-

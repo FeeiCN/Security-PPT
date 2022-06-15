@@ -1,99 +1,0 @@
- 
-
-
-
-
-
-
---
-
-
-
-  
-
-  
-
-
-
-
- 
-1. protection,detection 2. prediction) 3.  4. 
-
-
-· 
-·  ·  · 
- ·  · 
-· 
-·  ·  · 
- ·  · 
-
-MRTI)
-·  ·  · "context" ·  ·  · 
-
-
-· STIX/TAXII: · STIX (Structured Threat Information eXpression ) ·  · 1.22.0 · TAXII(Trusted Automated eXchange of Indicator Information) · 
-· 
-
-
-
-
-
-
-
-3  
-
-1  
-
-2 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-TI ENGINE
-
-
-
-TI TI
-
-TI TI
-
-TI ENGINE logs
-RayWAF
-
-TI ENGINE logs
-
-TI ENGINE logs
-
-TI ENGINE logs
-
-RayIDP
-
-RayScan
-
-RayADS
-
-
-Thanks
- 
-
-

@@ -1,698 +1,0 @@
-
-
- 
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-IT
-
-
-
- 
-
- 
-
-
- 
-
- 
-Intelligence 
-
-2011
-
-55  4.03 
-4597  110 
-315 
-
-+81% +41% +36% +323% +93%
-
-1
-
-A + U = 5.5B  
-
-
-4  
-
-APT--//
-50%                   1--2500
-
-
-Government  &  Public   Sector   Manufacturing  
-Finance  
-IT  Services  
-Chemical  &   PharmaceuAcal   Transport  &  UAliAes  
-C--Level   Senior   R&D   Sales   Media   Shared  Mailbox   PA   Recruitment  
-
-2011
-
-55  4.03 
-4597  110 
-315 
-
-+81% +41% +36% +323% +93%
-
-2
-
-· 20112.32 · 550*
-
-
-6  
-
-2011
-
-55  4.03 
-4597  110 
-315 
-
-+81% +41% +36% +323% +93%
-
-3
-
-
-7  
-
-
-
-
-
-  
-
-  
-
-  
-
-IT
-
- 
-
- 
-
-
- 
-
- 
-Intelligence 
-
-
-
-IT
-Virtualization, Cloud, Mobility
-
- 
-
- Virtualized Data Center
-
-
-
-
-
-9  
-
-
-
-
-
-
-
-
-
- 
-
-1.77  3 
-1500 
-
-
-
-
-
-
-Gartner  IDC
-
-2.46  2.93  8.19  1.16 
-
- 
-
-
-
-IT-
-
-  
-Private     Cloud  
-
-Mobile   Cloud  
-
-Must
-support to enhance employees productivity
- I do not have the
-means to control security, risk, and compliance across all of these new I.T. platforms
- Must embrace to drive
-business agility and lower costs
-
-
-
-IT
-
-
-
-IT
-IT
-   
-
-
-
-·  ·  
-
-   
-
-IT
-   
-
-
-· IT · 
- (
-
-IT
- 
-
-
-
-·  · 
-12 12
-
-
-
-
-
-  
-
-  
-
-  
-
-IT
-
- 
-
- 
-
-
- 
-
- 
-Intelligence 
-
-
-
-4
-
- 
-
- 
-
- 
-
-IT 
-
-Intelligence 
-
- 
-
- 
-
- 
-
-1
-
- 
-
-
-
-2
-
-----
-
-
-
-3
-
-Intelligence ­based
-
-Security
-
-
-
-4
-
- 
-
-
-
- 
-
- 
-
-1
-
- 
-
-
-
-15  
-
-
-
- 
-
- 
-
-IT    
-
-
-· IT · 1/8
-
-Source: Information Risk Executive Council, 2011
-· 70% IT 
-Strengthening The Relationship Between IT Security And The Business
-
-
-Targeted Attacks 
-§ data breaches and early evidence of the breach in the log record 90% of the time, but the companies involved noticed it only 5% of the time.
-----"2010 Data Breach Investigations Report" conducted by the Verizon Business RISK Team
-·   
-·   
-
-
-IT 
-
-1
-
-
-2
-
-
-3
-
-
-· IT  
-·  
-· IT  
-
-·  
-·  
-·  
-
-· 
-·  
-·  
-
-
-
---IT//
-RISK
-
- 
-
- KRI KRI 
-
- /
-
-//
-
-
-
-
-
- 
-
-
-
-
-
-
-
-ITcontrol
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-/
-
-
-
-  
-  
-
- 
-
-IT 
-
-
-
-2
-
-----
-
-
-
-20  
-
---
-
-§ 
-
-§ 1
-
-§ owner § SLA
-§ 2
-
-§  § 
-
-
-
-
-
-
-
- 
-
-Private     Cloud  
-
-
-
-
-
-----
-§   
-§  
-
-   
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
---
-·  
-·   
- 
-
-
-
-
-
-
-DATA DATA DATA DATA
-
-
-
-
-
-----BYOD
-
-
-
-BYOD/
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
-
-
-
-
-
-
---"" O3-Cloud  Firewall
-
-
-
-Access Control
-
-Information Protection
-
-Cloud Visibility
-
-
-
- I  
-cI  do  not  have  the  means  to  control   soefc  tuhreCitsoye,n   n rtiersowkl,   I a.Tn.dS  pe  lcaco:umoriprtmlyiasnceC    aocmropslisa  anlcle  
-
-
-Private     Cloud  
-
-
-Intelligence 
-
-
-
-
-
-3
-
- Intelligence ­based Security
-
-Intelligence-based Security 
-
-26  
-
- --
-§  § 
-§  §  §  § 
-
-
-Global Intelligence Network
-Identifies more threats, takes action faster & prevents impact
-
-Calgary, Alberta
-
-San Francisco, CA Mountain View, CA
-Culver City, CA
-
-Austin, TX
-
-Dublin, Ireland
-
-Chengdu, China
-Chennai, India Pune, India
-
-Tokyo, Japan Taipei, Taiwan
-
-Worldwide Coverage
-
-Global Scope and Scale
-
-24x7 Event Logging
-
-Rapid Detection
-
-Attack Activity
-· 240,000 sensors · 200+ countries
-
-Malware Intelligence
-· 133M client, server, gateways monitored · Global coverage
-
-Vulnerabilities
-· 40,000+ vulnerabilities
-· 14,000 vendors · 105,000 technologies
-
-Spam/Phishing
-· 5M decoy accounts
-· 8B+ email messages/day · 1B+ web requests/day
-
-Preemptive Security Alerts
-
-
-Information Protection
-28
-
-Threat Triggered Actions
-
-
-
- 
-
-
-
-  
-
- 1.75 /25 
-
-  
-
-
- 
-  
-
-
-  
-
-    
-
-Intelligence
-§ 
-§ 
-§ 
-§ Intelligence § Intelligence
-§ Intelligence
-§  § SOC
-§  § 
-
-
- 
-
- 
-
-4
-
-  
-
----- Lifecycle Security
-
-31  
-
---
-
-§  
-§ Guest VM
-§ Guest VM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-  
-Guest VMs vSwitch1
-
-Guest VMs vSwitch2
-
-Guest VMs vSwitch3
-
---
-
-§  
-§  § 
-§   
-
-1-
-
-2-
-
-3-
-
-4-
-
-5- 0-
-
-2- 2-
-
-
-345-
-
-5
-
- 
-
- 
-
-· --  ·   · 
-
-
-· """ "
-·  
-
-Intelligence 
-·    
-
- 
-· IT 
-·  
-
-· 
-
-
-
-
-
- · //
-
-
-
-· DLP ·  · Cloud Firewall
-
-
-
-
-· SOC   GIN
-
-·  / 
-
-
-
-
-
-§ 28 §  § 
-§ 24
-§ 20
-
-36
-
-

@@ -1,349 +1,0 @@
-2 0 1 8
-360360
-BGP
-Eric
-
-
-
-BGPv4 
-
-
-CONTENTS
-
-01
-PART 01
-BGP
-
-02
-
-03
-
-04
-
-05
-
-PART 02
-5BGP 
-
-PART 03
-BGP /
-
-PART 04
-
-PART 05
-
- and  BGP,AT&T and NSA
-
-PART 01 BGP
-I'm the BGP protocol.At least so far,nothing is as irreplaceable as me,
-
-BGPRFC 1771RFC 4271
-Border Gateway Protocol, BGPv4BGP 74
-BGPTCP179 fragmentBGPTCP 
-
-AS(Autonomous system):IP ASAS 16ASN:1-65535;1-64511ASNASN:64512-65535
-AS PATH:AS()
-EBGP:BGP(EBGP)AS
-IBGP:BGP(IBGP)AS
-
-BGP3
-(adjancy table):BGP BGP(forwarding database): (routing table):BGPBGP
- 
-
-BGPshow ip bgp
-
-show ip bgp summary
-
-show ip route
-
-BGP
-BGP 
-BGP  BGP   
-
-BGP
-          AS       CustomerAS        PeerAS  ProviderAS 1.  CustomerAS CustomerPeer  Provider 2.  PeerAS Customer Peer  Provider 3.   ProviderAS           Customer           Peer  Provider 
-
-PART 02
-5BGP
-There has never been a shortage of vivid BGP security incidents in history.Of course,we only selected five classic ones
-
-Northrop Grummanbgp2003
-
-5BGP
-YouTube2008
-
-20035·Northrop Grumman
- 2IP Northrop GrummanIP 
-
-20082YouTube YouTube(Pakistan Telecom) YouTubeBGPPCCW PCCW
-static route208.65.153.0/24 null0;static route redistribute(Cisco )BGP BGP
-BGPPeer AS PCCW Youtubenull 
-
-5BGP
-Hacking TeamBGP Hijack2015
-  bgp hijack                  Adobe flash 0day/RCS 
-
-Google80012017
-GoogleNTT (NTTISPOCNKDDI ISPNTT76748 )40 Ministry of Internal Affairs and Communications ISP
-Google Google Google 8
-
-5BGP
-
- 1625,000NTT NTT KDDI KDDI KDDIVerizonIP Transit KDDIVerizonIP Transit KDDIVerizon95,000 IIJVerizon97,000 KDDIIIJNTT  NTTKDDISoftbank BBIIJ BGP      
-
-BGP1730ETH2018
-424BGP DNSBGP 
- ISPMyEtherWallet  
-
-5BGP
-
-PART 03
-BGP/
-Security flaws or vulnerabilities regarding the BGP protocol.
-
-BGP
-1BGP
-
-2AS_PATH
-
-BGP
-
-3()
-
-BGP/
-
-BGP hijack
-
- AS 
- AS1    1.1.1.1/18  1.1.2.2/18             
-1.1.1.1/181.1.1.1/181.1.2.2/18
-
-
-AS55.5.5.5/16AS11.1.2.2/181.1.2.2/18 AS51.1.2.2/181.1.2.2/18 AS5
-
-
-BGP/
-
-BGP hijack
- AS 
-
-
-
-
-BGP/
-
-BGP hijack
-
- Special-Prefix hijackBGP
-
-
-
-
-
-BGP hijack
-
-BGP/
-
- AS_PATH hijack ()AS_PATH prepend,AS_PATHAS
-
-
-
-
-
-(Route leak)
-
-BGP/ AS1AS1AS2AS3AS4AS5
-
-BGP
-BGPBGP  
-3
- 
- 
- AS/ISP/MITM
-
-BGP TTL modify ()
-
-BGP/
-
-EBGPASASEBGP ebgp-multihop(hop)ebgp ttl1ebgp-multihopebgpebgp TTL
-
-BGP TTLMITMBGP TTL 1TTL TTL
-switch(config)# router bgp 1.1
-switch(config-router)# neighbor 192.0.2.1 remote-as 1.2
-switch(config-route-neighbor) ebgp-multihop 2 (1-255
-
-BGP/
-
-Use BGP Break HTTPS
-
- CAcertificate authority
-
-BGP hijackTLShttps
- TLS CA TLS
-1CA  2CSRcertificate signing request CACA 3CA3
-whois htmlurl dnstoken
-4CATLS TLS 
-
-33TLS CABGPCA
-
-
-
-1 2BGPQrator Radar  BGPAS_PATH   BGPwhiosURLserverDNS TXTDNS token 3server
-
-whois
-
-
-
-htmlurl 
-
-dnstoken 
-
-4TLS
-
-TLS
-
-BGP/
-""
-1/64512 
-
-PART 04
- & 
-How to detection and defense.
-
-BGP Routes Moniting
-
- & 
- tracerouteTTL  TTLAS  
-: AS40->AS30->AS10->100 
-
-BGP Routes Moniting
-
- & 
- BGP BGP  RouteViews
-
- BGP  ASBGP 
- BGP
-IAR (Internet Alert Registry) · PHAS (Prefix Hijack Alert System) · RIPE NCC MyASN Service · BGPmon · WatchMY.NET · Renesys Routing Intelligence
-
- &  
- ASBGPIGPACLRoute-mapBGP Prefx Filtering  BGP Prefx Filtering
-
-
---- 
-
- & 
-  AS6AS110.1.16.1/22AS4AS5 AS1 AS6:
-AS110.1.16.1/22:f AS5/:Y
-AS6:X YfAS_PATHAS2 AS1
-
-YfAS_PATHAS6 AS2 AS1:
-
----
-
- & 
-
- 1MOAS(multiple origin AS)
-MOAS MOAS2 1) AS-path( AS-path) 2) AS-path
- 
-
-RPKI BGPsec 
- RPKIRFC 6810
-BGPRPKIResource Public Key Infrastructure: AS10297
-205.251.192.0/24, AS10297 205.251.193.0/24, AS10297 205.251.195.0/24, AS10297 205.251.197.0/24, AS10297 205.251.199.0/24, AS10297
-RPKIROARPKI RPKIROA
-<205.251.192.0/23, AS16509> <205.251.193.0/23, AS16509> <205.251.195.0/23, AS16509> <205.251.197.0/23, AS16509> <205.251.199.0/23, AS16509>
-RPKIRPKIIPASAS16509 AS10297
-RPKIRPKI
-
-RPKI BGPsec 
- BGPsecRFC 8206
-RPKIIETFRPKI ----BGPsecBGPsecAS BGPsec_Path_SignaturesAS
-
-(1)ASBGPsec_Path_Signatures (2)AS (3)AS (4)ASRPKI
-BGPsec_Path_SignaturesASASAS
-BGPsecAS
-ASASASBGPsecBGPsec_Path_Signatures ASASBGPsecBGP
-
-PART 05
-BGP,AT&T and NSA
-Say good,but you exchange the CARDS under the table
-
-... ......
-
-BGP,AT&T and NSA
-
-PRISMNSA2007 "US-984XN"
-·   
-PRISM  PRISM VoIP"" 20121,477PRISM
-
-2009  
-
-
-
-BGP,AT&T and NSA
-
-
-
-BGP,AT&T and NSA
-
-NSA 
-AT&T   (theintercept.com)
-
-
-  BGP Prefix hijackBGP AS_PATH hijack HTTPS TLS hijack
-
-BGP,AT&T and NSA
-  
- ftphttptelnethttpsmtpsnmppoppop3VoIPUPnP...
-
- sshhttpstls hijack3389RDPVNC... clientserver
- sshhttpsmssqlmysqlOracle DatebaseDB23389RDPVNC... 
-
-
-
-BGP,AT&T and NSA
-
- Rapid7 2018 
-
-1400
-3.4 IPv4 Rapid7 1400   Web  Web 26%  Rapid7 35% Rapid7   Shell 58%75%  Mirai 
-
-
-
-BGP,AT&T and NSA
-
-HTTP VS HTTPS
-
-POP3 VS POP3 over TLS
-
-Telnet VS SSH
-
-IMAP VS IMAP over SSL
-
-SMTP VS SMTPS
-
-
-1 ,
-250%50%+
-3  
-
-
-
-BGP,AT&T and NSA
-
-
-
-IETFRPKIBGPsecBGP,
-
-
-
-BGP510
-
-
-(Eric)
-
-360
-
-
-
-

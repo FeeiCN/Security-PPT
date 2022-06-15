@@ -1,431 +1,0 @@
-A CONTAINERS STATE OF MIND
-Chris Van Tuin Chief Technologist, West cvantuin@redhat.com
-
-THERE ARE THE WINDS OF CHANGE AND THEN THERE IS ACCELERATING CHANGE
-"...every strategic inflection point [is] characterized by a '10x' change... There's wind and then there is a typhoon"
--Andy Grove
-3
-
-4
-
-THE PROBLEM: FRICTION
-5
-
-APPLICATION DELIVERY VIA CONTAINERS
-6
-
-WHAT ARE LINUX CONTAINERS?
-
-· Used to create containers for software applications / microservices
-· Containers provide lightweight isolation of process, network, filesystem spaces
-· Package Once Deploy Anywhere
-· Docker builds on Linux containers, adds an API, image format, runtime, and a delivery and sharing model
-
-CONTAINER
-APP LIBS
-HOST OS SERVER
-
-7
-
-TRADITIONAL OS VS CONTAINERS
-
-Traditional OS
-
-Containers
-
-APP A APP B LIBS A LIBS B LIBS LIBS
-HOST OS HARDWARE
-8
-
-CONTAINER
-APP A LIBS
-
-CONTAINER
-APP B LIBS
-
-HOST OS HARDWARE
-
-MANY SEE CONTAINERS AS THE UTOPIA OF APPLICATION DELIVERY
-
-"What top benefits do you see with containers?"
-
-54%
-
-51%
-
-38%
-
-Containers potentially offer the ability to encapsulate a lot of manual processes and make it little or no touch.
-- IT Operations Engineer, Financial Services
-30%
-
-FASTER APP DELIVERY
-
-OPERATIONAL EFFICIENCY
-
-Source: TechValidate survey of 79 IT professionals
-
-DEPLOYMENT FLEXIBILITY
-
-LOWER DEPLOYMENT
-COSTS
-
-Containers transform the way you deliver applications to accelerate innovation.
-9
-
-PORTABILITY and FLEXIBILITY
-10
-
-FASTER APP DELIVERY and EFFICIENCY
-
-APP
-
-LIBS
-
-CONTAINER
-
-DEVELOPMENT FOCUS  CODE  APPLICATIONS  LIBRARIES AND OTHER
-DEPENDENCIES  DATA STORE
-
-CONTAINER
-APP LIBS
-HOST OS SERVER
-
-HOST OS SERVER
-OPERATIONS FOCUS  HARDWARE  OPERATING SYSTEM  NETWORKING  MONITORING
-
-11
-
-VELOCITY and DENSITY
-12
-
-BENEFITS OF CONTAINERS (cont)
-
-· Portability · Faster app deployment · Velocity · Density · Isolation
-
-· Snapshotting · Security sandbox · Limit resource usage · Simplified dependency · Sharing
-
-13
-
-UNDERLYING TECHNOLOGY
-
-Containers
-
-Containers
-
-Containers
-
-Cgroups
-Drivers
-
-DOCKER CLI SYSTEMD
-Namespaces
-RHEL Kernel
-
-Docker Image
-Unit File
-SELinux
-
-Hardware (Intel, AMD) or Virtual Machine
-
-14
-
-IMAGE -BASED CONTAINERS WITH DOCKER TECHNOLOGY
-
-App Layer
-Platform Image
-
-Layered Image 2
-Layered Image 1
-Platform Image
-
-App A SCL 1 RHEL 7 Runtime
-
-App B SCL 2 RHEL 6.5 Runtime
-
-App C SCL3 RHEL6.6 Runtime
-
-RHEL Container Host
-
-RHEL 7 Container Host provides the capability to run images built with Docker format for content distribution
-15
-
-16
-
-CONTAINERS
-
-BUILD, SHIP, RUN
-
-Dockerfile
-
-Image
-
-Container
-
-FROM fedora:latest CMD echo "Hello"
-Build
-"docker build or commit"
-
-Red Hat Certified
-
-docker.io Private Registry Registry
-
-Ship
-
-"docker push or pull <IMAGE_ID>"
-
-Physical, Virtual, Cloud
-Run
-"docker run <IMAGE_ID>"
-
-18
-
-Containers provide a discrete package mechanism for application components or microservices
-ADD NAME (View > Master > Slide master)
-
-Several containers can live on a virtual or bare metal system
-ADD NAME (View > Master > Slide master)
-
-These containers are easily created and controlled by Docker tools
-ADD NAME (View > Master > Slide master)
-
-Finding and running containers is easy
--bash-4.2# docker run -P fedora/apache Unable to find image 'fedora/apache:latest' locally Pulling repository registry.access.redhat.com/fedora/apache Pulling repository fedora/apache 2e11d8fd18b3: Download complete 511136ea3c5a: Download complete ff75b0852d47: Download complete 0dae8c30a0b2: Download complete 84f33df93401: Download complete 24b116bb2956: Download complete a7f290a6f21d: Download complete eb86e2be11d4: Download complete c06d2cba0d4a: Download complete f0b140ef8cdd: Download complete b05601b61180: Download complete Status: Downloaded newer image for fedora/apache:latest
-ADD NAME (View > Master > Slide master)
-
-This container is exposing httpd on port 49156 as noted in 'docker ps'
-
--bash-4.2# docker ps
-
-CONTAINER ID IMAGE
-
-COMMAND
-
-CREATED
-
-STATUS
-
-PORTS
-
-NAMES
-
-7ca95d1b0114 fedora/apache:latest "/run-apache.sh" 2 minutes ago Up 2 minutes 0.0.0.0:49156->80/tcp suspicious_colden
-
-ADD NAME (View > Master > Slide master)
-
-Rollbacks are also easy because image history is preserved
-
--bash-4.2# docker history fedora/apache
-
-IMAGE
-
-CREATED
-
-CREATED BY
-
-SIZE
-
-b05601b61180 5 months ago /bin/sh -c chmod -v +x /run-apache.sh
-
-249 B
-
-f0b140ef8cdd 5 months ago /bin/sh -c #(nop) ADD file:d16ad02a7a4176bbff 249 B
-
-c06d2cba0d4a 5 months ago /bin/sh -c #(nop) EXPOSE map[80/tcp:{}] 0 B
-
-eb86e2be11d4 5 months ago /bin/sh -c echo "Apache" >> /var/www/html/ind 7 B
-
-a7f290a6f21d 5 months ago /bin/sh -c yum -y install httpd && yum clean 15.87 MB
-
-24b116bb2956 5 months ago /bin/sh -c yum -y update && yum clean all 164.1 MB
-
-84f33df93401 5 months ago /bin/sh -c #(nop) MAINTAINER "Scott Collier" 0 B
-
-ff75b0852d47 5 months ago /bin/sh -c #(nop) MAINTAINER Lokesh Mandvekar 0 B
-
-511136ea3c5a 21 months ago
-
-0 B
-
-ADD NAME (View > Master > Slide master)
-
-RPM still exists in the container so its features and tools can still be used, even in a containerized environment
-[root@7ca95d1b0114 /]# rpm -qa | wc -l 160
-[root@7ca95d1b0114 /]# rpm -qi httpd Name : httpd Version : 2.4.10 Release : 1.fc20 Architecture: x86_64 Install Date: Mon 29 Sep 2014 12:28:44 PM UTC Group : System Environment/Daemons License : ASL 2.0 Signature : RSA/SHA256, Wed 23 Jul 2014 01:23:23 PM UTC, Key ID 2eb161fa246110c1 Source RPM : httpd-2.4.10-1.fc20.src.rpm Build Date : Wed 23 Jul 2014 10:32:07 AM UTC Build Host : buildvm-22.phx2.fedoraproject.org Vendor : Fedora Project URL : http://httpd.apache.org/ Summary : Apache HTTP Server Description : The Apache HTTP Server is a powerful, efficient, and extensible web server.
-[root@7ca95d1b0114 /]# rpm -qV httpd missing /run/httpd/htcacheclean
-ADD NAME (View > Master > Slide master)
-
-Containers cannot look outside of their namespace but admins can easily peak in, giving operational flexibility
--bash-4.2# docker exec -it suspicious_colden /bin/bash [root@7ca95d1b0114 /]# ps -ax
-PID TTY STAT TIME COMMAND 1 ? Ss 0:00 /bin/sh /usr/sbin/apachectl -D FOREGROUND 9 ? S 0:00 /usr/sbin/httpd -D FOREGROUND 10 ? S 0:00 /usr/sbin/httpd -D FOREGROUND 11 ? S 0:00 /usr/sbin/httpd -D FOREGROUND 12 ? S 0:00 /usr/sbin/httpd -D FOREGROUND 13 ? S 0:00 /usr/sbin/httpd -D FOREGROUND 14 ? S 0:00 /usr/sbin/httpd -D FOREGROUND 33 ? S 0:00 /bin/bash 50 ? R+ 0:00 ps -ax
-ADD NAME (View > Master > Slide master)
-
-Builds are reproducible via Dockerfiles
-~/my-app/Dockerfile FROM fedora MAINTAINER Mrs Developer <mydev@example.com> ENV GOPATH /go/src RUN yum install -y golang git hg && yum clean all RUN mkdir -p $GOPATH && echo $GOPATH >> ~/.bash_profile ADD . /my-stuff
-ADD NAME (View > Master > Slide master)
-
-Docker image delivery and consumption can happen via your operations work flow needs, devops or not
-ADD NAME (View > Master > Slide master)
-
-ORCHESTRATION
-
-More serious workloads require orchestration like Kubernetes to offload management overhead
-ADD NAME (View > Master > Slide master)
-
-Kubernetes allow operations teams to describe an application via json
-~/MyApp/kubernetes/prod_description.json
-{ "id": "frontend-controller", "kind": "ReplicationController", "apiVersion": "v1beta1", "desiredState": { "replicas": 3, "replicaSelector": {"name": "frontend"}, "podTemplate": { "desiredState": { "manifest": { "version": "v1beta1", "id": "frontend", "containers": [{ "name": "php-redis", "image": "kubernetes/example-guestbook-php-redis", "cpu": 100, "memory": 50000000, "ports": [{"name": "http-server", "containerPort": 80}]
-...
-ADD NAME (View > Master > Slide master)
-
-Once created, Kubernetes will keep the environment online as described in the json file
-
-JSON
-
-Kubernetes
-
-ADD NAME (View > Master > Slide master)
-
-Once created, Kubernetes will keep the environment online as described in the json file
-
-JSON
-
-Kubernetes
-
-ADD NAME (View > Master > Slide master)
-
-Once created, Kubernetes will keep the environment online as described in the json file
-
-JSON
-
-Kubernetes
-
-ADD NAME (View > Master > Slide master)
-
-Once created, Kubernetes will keep the environment online as described in the json file
-
-JSON
-
-Kubernetes
-
-ADD NAME (View > Master > Slide master)
-
-New applications can be spun up and tested before old applications are removed, lowering risk for upgrades
-Version 1
-ADD NAME (View > Master > Slide master)
-
-Some call this method of deployment red-black deployment, admins won't get stuck in the middle of an upgrade
-
-Version 1
-
-Version 1.2
-
-ADD NAME (View > Master > Slide master)
-
-Tests and certification can be done before customers access it
-
-Version 1
-
-Version 1.2
-
-Tests / CI
-
-ADD NAME (View > Master > Slide master)
-
-Once ready, the new version is used and the old version can be removed
-
-Version 1
-
-Version 1.2
-
-ADD NAME (View > Master > Slide master)
-
-Rollbacks can be done using the same method if desired
-Version 1.2
-ADD NAME (View > Master > Slide master)
-
-41
-ADD NAME (View > Master > Slide master)
-
-THANK YOU
-
-BIMODAL IT
-To capture digital opportunities, CIOs need to deal with speed, innovation, and uncertainty. This requires operating two modes of enterprise IT:
-conventional and "nonlinear."
-Executive Summary: Taming the Digital Dragon: The 2014 CIO Agenda
-43
-
-44
-
-TOP 5 MISCONCEPTIONS OF CONTAINERS
-1 Containers are new. 2 Containers equal virtualization. 3 Containers are universally portable. 4 Containers are secure by default. 5 Containers are not enterprise-ready.
-45
-
-EVOLUTION TO CONTAINERS
-
-46
-
-APP A
-
-APP B
-
-APP C
-
-BINS/LIBS OS & SHARED SERVICES
-HARDWARE
-PHYSICAL
-
-APP A
-
-APP A
-
-APP B
-
-BINS/ LIBS
-
-BINS/ LIBS
-
-BINS/ LIBS
-
-GUEST OS
-
-GUEST OS
-
-GUEST OS
-
-HYPERVISOR HOST OS SERVER
-VM
-
-APP D APP C APP B APP A APP A
-
-BINS/ BINS/ BINS/ BINS/ BINS/ LIBS LIBS LIBS LIBS LIBS
-HOST OS, SHARED SERVICES HARDWARE, VIRT, CLOUD
-CONTAINER
-
-SOME OF THE MOST ADVANCED INFRASTRUCTURES RUN ON CONTAINERS
-
-"Everything at Google, from Search to Gmail, is packaged and run in a Linux container."1
-- Eric Brewer, VP of Infrastructure, Google
-
-1 Source: http://googlecloudplatform.blogspot.com/2014/06/an-update-on-container-support-on-google-cloud-platform.html
-
-47
-
-CONFIDENTIAL | Red Hat associates and NDA partner use only | No further distribution
-
-ESTABLISHING STANDARDS AROUND...
-
-ISOLATION WITH LINUX
-CONTAINERS
-
-CONTAINER FORMAT WITH
-DOCKER
-
-ORCHESTRATION WITH
-KUBERNETES
-
-REGISTRY / CONTAINER DISCOVERY
-
-48
-
-

@@ -1,63 +1,0 @@
-www.wib.com info@wib.com
-
-Full Lifecycle API Security Platform
-
-Why API Security
-APIs are designed to allow access to your data, systems and applications.
-
-API development velocity has changed WAFs weren't built for APIs, and according to Gartner, API are the #1 attack vector.
-
-APIs expose your organization Business Logic.
-
-API Security Threats
-LACK OF Visibility & ownership
-Companies and security organizationsare not awareof all of their APIs.
-Data Leaks & Compliance
-PII leakagethrough APIsharmscompliance withregulations e.g.GDPR, HIPAA, Open Banking etc.
-Hacking & Abuse
-Companies don'tknow who is usingtheir APIs andwhether usage is authorized andreasonable.
-
-Cybersecurity 
- Leaders
-Founded by former CTO of Israel's National Cyber Directorate, we have the top Israeli Cybersecurity talent.
-
-Proprietary 
- AI Technology
-Patent-pendingAI & ML technologycreated by leading academics with PhDs in CS and Machine Learning.
-
-Full API Lifecycle
-Fromdevelopment to production- our products secure APIs and defend against API Security threats.
-
-Our Full Lifecycle platform
-Full protection across the entire API lifecycle, through Development, Testing and Production.
-
-Production engine
-Discovery and Inspection of APItraffic, using AI and ML proprietaryalgorithms 
- (patent-pending).
-
-PRODUCTION
-
-TESTING
-
-TEsting engine
-A testing environmentenabling security teams to simulate API attacks with a singleclick.
-
-development engine
-Scan and analyze code to discoverAPI threats &vulnerabilities, in order to remediatethem in development.
-
-DEVELOPMENT
-
-COMPLIANCE
-
-Compliance Egngine
-Ensuring APIs arecompliant with major regulations e.g.GDPR, HIPAA, Open Banking etc.
-
-Request a demo of Wib
-+972 (0) 54-794-7114 info@wib.com wib.com
-
-Experts Focus on API Security
-API will be the #1 attack vector by2022, WAFs alone are ineffective.
-AI-powered API Security solutionsare gaining widespread adoption.
-APIs expose application logic and sensitive data, thus have increasingly become a target for attackers.
-
-

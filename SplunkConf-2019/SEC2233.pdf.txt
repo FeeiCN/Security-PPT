@@ -1,144 +1,0 @@
-© 2019 SPLUNK INC.
-SEC2233 Deploying Splunk Enterprise Security and Phantom at Scale
-Mayur Pipaliya, Ankit Bhagat
-Forward Deployed Software Engineers | Splunk
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information.We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information aboutour roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries.All other brand names,productnames, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-© 2019 SPLUNK INC.
-
-Mayur Pipaliya
-Sr. Forward Deployed Software Engineer | Splunk
-
-Ankit Bhagat
-Forward Deployed Software Engineer | Splunk
-
-Security Geek | /dev/urandom
-r/homelab | building and breaking hardware Photographer | help people see world through my lens!
-Hackathons | organize, ideate, evaluate!
-
-© 2019 SPLUNK INC.
-@ZombIE
-
-~6000+ hours of gaming! Street photographer | @xynazog Live and breathe music Hypebeast | Sneakers + denim nerd
-
-© 2019 SPLUNK INC.
-@xynazog
-
-Agenda
-Let's see all of what are we going to cover in the next 40 minutes
-
-© 2019 SPLUNK INC.
-
-1
-
-2
-
-3
-
-4
-
-5
-
-Backstory 
-
-Architecture Discussion
-
-
-Technical Aspects and Performance Benchmarks
-
-
-Demo 
-
-Q&A! 
-
-© 2019 SPLUNK INC.
-"Trust, but verify."
-Russian proverb
-
-© 2019 SPLUNK INC.
-Backstory 
-Ninjas in the wild
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Why ES + Phantom
-at Scale? 
-
-1. Greater resiliency and availability 2. Automate complex ITOps & SecOps tasks 3. Speed, Productivity, performance 4. For fun and giggles
-
-© 2019 SPLUNK INC.
-Architecture 
-Discussing our favorite part of every project: the backend
-
-SOAR for Security Operations
-Faster execution through the loop yields better security
-
-Observe
-Point Products
-
-Orient
-Analytics
-
-Decision Making
-ACTION RESULTS / FEEDBACK LOOP
-
-FIREWALL IDS / IPS ENDPOINT WAF ADVANCED MALWARE FORENSICS MALWARE DETONATION
-
-SIEM THREAT INTEL PLATFORM HADOOP GRC
-
-TIER 1 TIER 2 TIER 3
-
-Acting
-FIREWALL IDS / IPS ENDPOINT WAF ADVANCED MALWARE FORENSICS MALWARE DETONATION
-
-AUTOMATED
-
-AUTOMATED WITH PHANTOM
-
-ES Search Head Clustering
-ES Fleet
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Technical Aspects and Performance Benchmarks  
-"Believe in performance, not quotes."
-
-© 2019 SPLUNK INC.
-"Executed 45 playbooks and 950 actions against 2K notable events
-to save 22.5 hours of analyst hours and money."
-Horizontal Scaling
-
-Demo
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Resources 
-Repositories, cheatsheets, et al.
-
-1. Github Repository 2. Cheat Sheets 3. Troubleshooting Guide 4. Freebies - List of OSINT Integrations with
-Phantom
-5. Sample Playbooks
-
-© 2019 SPLUNK INC.
-Q&A
-Mayur Pipaliya | Speaker Ankit Bhagat | Co-speaker
-
-© 2019 SPLUNK INC.
-Thank You!
-Go to the .conf19 mobile app to
-RATE THIS SESSION
-
-

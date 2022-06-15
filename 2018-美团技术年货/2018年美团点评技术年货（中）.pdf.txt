@@ -1,1994 +1,0 @@
-
-   200 2800   2200  3600  2017  10 300     7000  WebiOS  Android     ---- ...... 
-
-iv>2017 
-" " 2013  12  200 
- 2014  9 "" 8  
-" " 2015  33   15   1 
-  
- ""
-  58  759 
-   AI 8  
-
-<v
- bug 
- 
-    
- 2018 
-
-
-
- AI
-      ETA    O2O      DSP 
-
-   Flink  Storm   ----  BI 
-
-1
-1 10 27 33 52 66 76 91 99 120 137 150
-164
-164 186 194 215 225 233
-
- AI
-
-
-
-     
-
- 
-  O2O  
-"" """" """"" "
-
-
-2>2017 
- "" ""
-  O2O   /    ClickNet 
-
- AI<3
-
- Query  DNN/CNN/RNN/LSTM/GRU   
-
- Label   Query 
-  Bias    /  /  
-
-   
-
- Yelp   
-
-
-4>2017 
-  :
-1.  2.  3. 
- 
- AlexNet   High Level  Low Level    2  
-
- AI<5   POI   Deal   UGC    POI   3 
- OCR
-O2O  OCR  OCR   BD   
-
-6>2017 
- OCR  OCR  
-     
- OCR 
-1.   
-2.  HOG 
-3.  
- OCR  OCR 1.  Faster R-CNN  FCN     Faster R-CNN   :
-  ZF  5   3 
-                           RPN  Anchor 
-
- AI<7
- FCN /   Layer  Layer 
-
-8>2017 
-2.     
-
- AI<9  +    
-
-   
-
-2010  2015  4     NLP 2015   NLP   2015    OCR 
-
-10>2017 
-
-
-      
-1. 
- 2012  ImageNet   SIFTHOG  SVM   SIFT  26% CNN 26%  15%  ImageNet 2012   4.94%
-   
-    Google  2016 
-
- AI<11
-Wide & Deep Learning  
-2. 
-  
-  
-  
-   
-    Item
- User-Based  User X  N  User N  User  Item  X  Item   Jaccard Similarity
-
-12>2017 
- Model-Based   u  i   
- Item-Based  word2vec  Item   Cosine Similarity  u  Item  Item i  Top N 
- Query-Based    Query               WiFi  
- Location-Based   
- 
-  
-   
-  
-
-
- AI<13
-    AUCNDCGPrecision   AB  
-3. 
-  Item  Item    
-
-14>2017 
-3.1
- GBDTGBDT+LR   GBDT AB  CTR    
-
- AI<15
-   Item "" 
- Item  
-            Google  2016     Wide & Deep Learning 
-
-16>2017 
- 
-3.2
-     /   10%  Noise  (  )
- App   
- Item   Item  Item
-    
-3.3
- 
-1.   
-
- AI<17 2. 
- 
-   
- ""   
-  
-3.3.1    "  " "  "  "  " 
-
-18>2017   
-3.3.2  ""  Min-Max
-Min Max  Cumulative Distribution FunctionCDFCDF   x 
- CDF  Min-MaxCDF  AUC  0.1%01 CDF  Min-Max   Min-Max 
-3.3.3   super-liner  sub-liner x 2  
-
- AI<19
- 2  AUC   2 
-3.4Optimizer
-  
-3.4.1Stochastic Gradient Descent (SGD) SGD  Mini-Batch  
- 3.4.2Momentum  SGD Momentum  SGD 
- SGDMomentum  
-
-20>2017   
-3.4.3Adagrad  SGDAdagrad 
-Adagrad  gt   gt 
-3.4.4Adam Adam  Momentum  Adagrad   Adam  
-
-
- AI<21
- Adam  Adagrad  Momentum    SGDAdagrad  SGD   3.5                       Mean Squared ErrorMean Absolute ErrorCross Entropy  Cross Entropy   W  b  Sigmoid    MSE 
- y a  a=(Wx+b)  W  b 
-
-22>2017   Sigmoid  (z)  z  Cross Entropy 
-
- n i   Logistic   :
-
-   w  b  
-3.6
- 5  DNN   /  AUC  DNN  CTR   DNN   Item   Item
-
- AI<23   Item-Feature-Label    
- TheanoTensorflow  Keras    Min-Max   Adam  Cross Entropy  Wide & Deep Learning   Deep  Wide   Deep  3  ReLU  Sigmoid   Wide  Deep  7000  3000  Batch  Size  50000Epoch  20
-
-24>2017 
-4.  / 
-  Base  AB   / 
-  256->128->64 
- Base 
-
- AI<25   Item
-5. 
-   Item   CTR 
-1.  RNN  Deep & Wide  DNN    
-2. 
-
-26>2017 
-
-
-6. 
-1. H. Cheng, L. Koc, J. Harmsen et al, Wide & Deep Learning for Recommender Systems, DLRS 2016 Proceedings of the 1st Workshop on Deep Learning for Recommender Systems.
-2. P. Covington, J. Adams, E. Sargin, Deep Neural Networks for YouTube Recommendations, RecSys`16 Proceedings of the 10th ACM Conference on Recommender Systems.
-3. H. Wang, N. Wang, D. Yeung, Collaborative Deep Learning for Recommender Systems, KDD`15 Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining.
-7. 
-2015  2016  12      
-
- AI<27
-
-
- 1
- 1  ""Kaggle  ......   
-  
-
- >  >  > 
-
-28>2017 
- 2 + 
-
-  
- KPI  deadline    bad case   low
- 
-1.    
-
- AI<29
-2.  10min     
-
-1.  2.  3. 
-  garbage ingarbage out      word2vec     embeddingword2vec   ID   ......
-
-30>2017 
- 3
- 1.  2. ""   RD ""     ......  ...... IPWiFi...... "" 
-
- AI<31
- 4 WiFi 
-deep learning   deep learning    ----  
-
- 5 roadmap
-
-32>2017 
-                  Glmnet>LASSO>=Ridge>LR/Logistic  LR/Logisticridge  LR  lasso  L1 
-Glmnet  Stanford  Glmnet   RPythonSpark 
- RFRandom Forest <=GBDT<=XGBoost29  Kaggle  winner solution  17  GBDT  Boosting  DNNDeep Neural NetworkRF  Kaggle 
-RF  GBDT         CARTClassification And Regression Trees L Breiman  J Friedman  1984  90   the ensemble  stacking/ Bagging & Boosting
-         CARTrandomized variablesbootstrap samples  Boosting GBDT  RF  XGBoost  
-
- 
-
- AI<33
-
-
-
-       
-
-
- 
-        20ms 
-  KVKey-Value Tair  ETL  Tair
-
-34>2017   Thrift  RPC  
- Service   DomainDomain=ABC   ID  Domain 
- 1
-  ETL
-
- AI<35
- 
-
- Domain  Domain   ETL ETL  
-
-ETL   
-   IP   Key Value   
-   ETL   Tair  Squirrel Redis  KV  
-
-36>2017 
- 2
- Console  Settings  MySQL 
- Scheduler Settings  Hive  Map Reduce Job  
- Service Domain  Settings  Domain 
-
- AI<37
-  Domain  
-    
-
-  T+1   
- ETL   Hive  Hive   Hive SQL    
-
-38>2017 
- 3
-Console   Settings Scheduler  Settings   Storm   Kafka Topic  
-
-
-  
-
- AI<39
- 
-   
- 2   
-
-SUM 
- SUM  COUNT  MAX  MIN  AVG  DISTINCT COUNT
-  LAST  LIST ID 
- 24  
-1.  2.  1 
- 3. 
-
-40>2017 
- 
-1.  Key   Key  ${  ID}_${  } 
-2.     
-    2    
-3.    RPC  
- Key-Value  Storm  Calc Bolt 
-
- AI<41  Mafka Delay Topic 
- 4
- 24    Storm   Third Party 
-
-   
-
-42>2017 
- 5
-    O(N) N  
-DISTINCT COUNT  HyperLogLog 
-
-  
-
- Domain   Storage  Domain  Storage ID  Storage  Domain  Storage 
-
- AI<43
- 6
- Storage  1.  Domain  Storage 
-Domain  Storage   2.   Storage  Storage   Storage  3.  Domain   Key-Value  KV  Storage  Domain  
-
-
-
-44>2017      ----
-SNAPSHOT KV    KV              Period              ArchiveSyncArchive  SNAPSHOT  Diff  SNAPSHOT Diff  
- 7
-
- AI<45
- Sync   SNAPSHOT  KV     SNAPSHOT Lease  Diff Lease   Lease Lease  0 Lease 
-
-  KV   
-
-1.  0 2.  3.  Sync 
-  Sync    Sync  Sync  
- *   
-
-46>2017 
-
-1.  2.  3.  4. 
-  Updater   5.   Updater  
-
-   
-  KV   
-1.  Key   Storm 
-2. Third Party Updater  CASCompare And Swap CAS  
-
- AI<47
-
-  
-     
-   Storm At Least OnceAt Most Once Exactly Once    
-
-48>2017 
- 8
-  
-1.   
-2.    Key  
-
- AI<49
- 9
- 10
-      SNAPSHOT  SNAPSHOT   SNAPSHOT   SNAPSHOT  SNAPSHOT  
-
-50>2017  
- SNAPSHOT
- 11
-
-     
-
- AI<51
-
-
-2011  107   CTO2016   2015  
-
-52>2017 
-
-
-
-         Pipeline
- 
-1.1----
-  Key-ValueKV   
-
- AI<53
- 
-   Hive MySQL Kafka
-   
- 
-
-54>2017 
-  
-
-  """" 
-1.2----
- HashMap  HashMap  Datahub 
-1.  QPS  1  QPS  100 
-2.  IO   500Mbps 1.5Gbps
-3.  Hive   10  TB 
-4.  TP99  10ms 
-    
-
- AI<55
-
-  
-2.1
- TB   KV   KV   Redis/MemcacheHBaseTair  
-    ----
-  
-2.2
-   
-2.2.1  
-
-56>2017 
-1. JSON  -  JSON  2.  Hive  String
- 3. 
-IntegerDouble  String 
-
-1. JSON A  B   
-2.  JSON   
-3.  
-  JSON  2~10 
-2.2.2  Pattern   Java  GzipSnappyDeflateLZ4   
-
- AI<57
- 2  10   300~400 600~800 
-Deflate  1~9   LZ4  01 LZ4 JNIJava UnsafeJava Safe https://github. com/lz4/lz4-java
-
-58>2017 
-  /  /   LZ4  Java UnsafeJava Safe 
-   Snappy 
-2.2.3      Pattern   Pattern  
-2.3
-   
-2.3.1     KV 
-
- AI<59
- ---- PushPullPush 
-  ----Push   Pull Pull  
-Pull   Pull   Diff  Pull 
-----RedoLog      Diff Diff 
-
-
-60>2017   id 
-  MergeMerge   Merge 
-Merge  Diff    Diff  ----  Diff  Merge 
-MerkleTree ----  RedoLog   Diff RedoLog   Merge Log
-
- AI<61   RedoLog
-Merkle Tree   Diff Hash  Hash  ---- Diff  Hash Merkle Tree   Merkle Tree 
-Merkle Tree  hash   Hash  Hash  Hash  Hash  Hash  Merkle Tree  
-Merkle Tree   hash   hash  hash    LogN 
-
-62>2017 
-2.3.2     ----   ThriftHTTP ListMap  ......    1.   1.  Future  2.  Future 
-
- AI<63  
- ""update cache" "merge data  search cacheupdate cache 
-----     
-
-64>2017 
-  
-    
-----   JVM GC   Full GC  JVM  QPS Young GC   Least Recently UsedLRU  Young GC  Full GC
-
- AI<65
- GC    GC  QPS QPS  
- JVM  GC   JVM Off Heap JVM  EhcacheBigMemory   JVM   GC
-
-       
-
-2011  107   CTO2016   2015  
-
-66>2017 
- ETA 
-
-
-ETAEstimated time of Arrival  1  ETA   ETA  ETA   ETA  
- 1ETA 
-ETA  ETA   2 ---- ----
-
- AI<67      ETA     ETA 
- 2ETA 
-ETA           GBDTGradient Boost Decision Tree   RFRandomForest GBDT  DT Boosting  RF  DT Bagging     
-
-
-68>2017    ETA 
-GBDT 
-Facebook 2014          GBDT   LR       [1] GBDT   Facebook  GBDT   0-1  0-1   n   k  k  1 n-1   0 3 
- 3GBDT(Gradient Boost Decision Tree) 
- GBDT   
-
-
-
- AI<69
-
-GBDT  ETA 
- ETA  ETA    
-
-
- 4
- ETA  ETA  
-(1)  a. 
- b. 
-(2)  a.  N  N  b.  c.  d. 
- 
-
-70>2017 
-GBDT 
- GBDT  GBDT   CARTClassification And Regression Trees CART  CART 
-(1)  a.  n b. GBDT 
-  
-  GridSearch+CrossValidation  +  
-c. GBDT  4~6 
-  
-(2)   50% 50%  GBDT  50%  GBDT   x  GBDT  x  [25,20,22,....,30,28]  GBDT  
-
-OneHotEncoder
-
- AI<71
-
- 5.OneHotEncoder(  ) 
- GBDT  x  [25,20,22,....,30,28]   ID ETA  OneHotEncoder  0-1 
- 5    3  bit   {100}  {0010} {1000010} CART  7  GBDT  CART 
- 1000+ 
-
-72>2017 
-
-
-
-ETA  C R 
- N  N  
-1.  :   N N 
-  K  K  N  N    C  N   C   2.  :  Xi i  =abs(  -  )   N  P(Xi <= N) 6  7 
- 6
-
- AI<73
- 7N 
- N  N  1.   N  N  N   N ETA
-N   C  R   N 
-2.   Xi i  =(  -  )   Xi < 0    0 < Xi <= N  N  Xi >
-N  N    P(Xi <= N) N  (  7)
-
-
-  
-  5% 
-  40%
-
-74>2017 
- 
- GBDT  +Ridge  base modelGBDT  ETA   N 
-   (MAE)  3.4% 1.7 N   2.2 N 
-   (MAE)  2.56% 1 N   1.6 N  3.46 
-   (MAE)  3.1% 1.4 N   1.7 N 
-GBDT  ETA   
-
-ETA   ETA  GBDT+OneHotEncoder  ETA 
- ETA   ETA 
-
- AI<75
- ETA 
-
-[1] He X, Pan J, Jin O, et al. Practical Lessons from Predicting Clicks on Ads at Facebook[C]. Proceedings of 20th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. ACM, 2014: 1-9.
-[2] https://www.csie.ntu.edu.tw/~r01922136/kaggle-2014-criteo.pdf. [3] GitHubguestwalk.
-
-76>2017 
-
-
-
- 1600   
-   
-  40   
-  ""----O2O 
-      
-
- AI<77
- 2015  41   32  28   20% 
-----  
-
- DVRPDynamic Vehicle Routing Problem  1    
-
-
-78>2017 
-
- O2O     /    
-     3  1  50  1-2     /  /    
- e.g.  LBS  
-
-
- AI<79  
-      
-
-    
-    
-
-80>2017 
-  
-
- TSP BP  VRP     """"  
-
-  
- 
-   
-
-     
-
- AI<81    
- 
-
-82>2017  
-
- 
- 1
-    2      
-
- AI<83
- 
-
-84>2017  
-     t   
-
-   "Garbage ingarbage out" 
-
-
- AI<85  
-  
-  App     ""       / 
- 
-
-86>2017 
- 4 10  90% 
-----
-  NP-Hard  50  200  5  pow(200,50)*10  NP-Hard    2~3  
- "No Free Lunch Theory"      Building Blocks        
-
- AI<87
-   KM         50% 
-99%   30ms    2~3  50 
-
- 
-
-88>2017     
-  /   /  /  
-        
-
- AI<89
-
-"No measurement, No improvement"    A/B      
-   
-
-90>2017 
-
-  A/B  5  6    2.9  4.7  
-  19%  5  4  
-   
-
- O2O 
-
-
- AI<91
-
- 3    KTV   
- O2O 
-1  
-2 O2O  
-3    
-4 
-
-  
-
-92>2017      LTVlife-time value)   
-   1 2 3" O2O  "
-
-  kv 
-
- AI<93    
- O2O 
-
- 1 2 3      
-
-94>2017 
-    
-  
-
-  . 
- 5   5% 25%~85%
-   :    COX-PH   T  y  X  y  P(y|X) COX   T  T  t<T t  t' t'  T  (flag) (t')  P(t'|X) 
-
- AI<95
-Tx   Tx
- COX  XX  
-
-
-
-
-96>2017  
-   
-
- AI<97
-   
-  
-
-             look-alike  
-1 
-2 
-
-98>2017 
- 3
-  
-   
-
-
-
-
- AI<99
-
-
-     = 
-
-1.   30%  A  B  
-2.   Deal  POI
-3.  4. 
-1~4 6 
- 
-
-
-
-100>2017 
- 
-
- 2015   
- 1.0
- Deal    ""Deal   
- 4  1 Deal deal_score =  ((count(payorder) *  ^ i) count(payorder)  Deal i   1  28   (<1)Deal  
- Top N  Deal Deal  POI   200km  Deal 
-  Deal  Deal   Deal  UV/  UV
- / 
-
- AI<101
- POI  
-1.  Deal  
-2. 
- POI 
- Deal  Deal  Deal Deal  Deal   Deal   Deal  2016  POI  POI  Deal  POI   POI 
-1.  Deal  POIPOI  30  Deal  >=30 POI  30  
-2.  Deal  POI POI 
- 2016  Q2  F  POI F   POI  F  POI ID  POI 
- 2.0
-1.0   
-
-102>2017  2.0   POI  
-  3  3  POI  POI  Rerank  
-
-  POI POI ID 
-
- POI  POI  ""  
-
- AI<103
-1.  POI  Top POI 
-2.  Top POI POI  POI
-  POI 
-
- POI  ItemCF  UserCF  ItemCF
-  POI  Item/User  POI  
-    POI  POI 
- POI  
- POI   UUID  POI   
-
-104>2017 
- | N (i) |  POI i  | N (i) Ç N ( j) |  POI i  j  POI  u  POI j 
- N (u)  POI  S( j, K )  POI j  K  POI  wji  POI j  i  rui  u  POI i  " """""
- POI   POI   POI 
-   POI POI   Query  POI  Query  10  POI  POI   Query+City  Key POI  Query  Key""Query  POI """"     POI  A  B  C   A  B A  B B   A  POI  A  B 
-
- A  C 
-
- AI<105
-
- l  POI i  j  Nijl  POI i  j   (<1)
-
- ALS    POI   POI POI  
- 1.  Case 2.  POI  Deal  POI
-
-106>2017  3. POI  POI 4.  POI 5.  POI   2 
- 3  
-
-  Rerank  Location-Based  1357   2468  Location-Based 
- 2016  Q1  Rerank  Deal  Deal 30/180  /  
- Q2  POI  POI
-
- AI<107 
- Q2  Rerank  
-     HOUR_OF_DAYDAY_OF_WEEKCITY_ID      onehot  one-hot  HOUR_OF_DAY 0~11 12  ~18 19  ~23  DAY_OF_WEEK  CITY_ID  ID  
-  110 100  1 
-
-108>2017 
- 10  POI 1 1000 XGBoost   Rerank 
- POI  POI Rerank   User-POI User 7   /  POI User-POI   POI  POI 
-
- AI<109
- +    User  POI  CTR/CVR 
-
-
-                      Hive     ISample  label  ETL 
-   ISample
-  POI ID POI ID  POI   UUID  Feature  Sample
-    &  XGBoost 
- Scala  Spark  XGBoost  Spark  XGBoost    AUC  ABTest 
-
-110>2017 
-
- 
-
- Rerank   Deal  POI  Deal  POI  
-1. Hive ETL  POI   POI  POI   / 
-2. Spark User CFPOI CF  ETL 
-3. Storm   user__action_basic /  POI/ Deal POI/Deal 
-
- AI<111
-
- DataSet
-1.  ElasticSearch ES POI/Deal  POI  ES Location-Based   ES  KV   ES  
-2.  DataHub DataHub   Hive  DataHub  Tair   Key  Tair DataHub  HDFS  Tair
-3.  Tair  DataHub   value  Tair   Spark  Tair  Hive   Ready 
- 
- API API   ID  App  App  
-
-112>2017  Rerank  rank  Rerank  Rerank POI 
-  
-1. RecommendServicePublisher  Client  Request  Booth  UUID  
-
- AI<113
-2.  Context global ID  UUID   ABTest  Strategy
-3.  Booth  Handler AbstractHandler rerankpost rerank
-4.  Handler   Client
- Handler 
-
-114>2017 
-1. Handler      Strategy      SelectRule       Booth  Strategy ABTest Baseline  Strategy Strategy  SelectRuleBaseline   SelectRuleLocation-Based SelectRule Rule 
-2.  SelectRule  Selector Selector  Location-Based Rule  POI   POI Selector    ES  DataHub  Cache
-3. Merge  Merge  Rerank  Location-Based  246 
-4.  SelectRule   POI
-5.  POI  POI Rerank  Deal  Deal Rerank 
-6. PostRerank Case
-
-
- AI<115
-  Falcon 
- JVM  FullGC Thread block   ES ES   
- Booth 
- Hystrix  Rerank   Rerank 
-
- Debug          UUID      POI/Deal              PM  RD   Case
-
- /    20          
-
-116>2017 
-
- Deal  POI  Deal   POI  """"
-
- POI   POI
-
- POI  " "
- POI   Deal ""   POI """"  "" POI
- /  POI   POI 
- / 
- POI  =1   POI  POI CF   POI 
- Query  POI   Query CF  Query 
-
- AI<117
-
-                                Query  POI   POI  POI
- POI  POI   
-  POI  POI CF  PUSH  POI PUSH 
-
- 20  Rerank 
-   FFMUser CF LLR   /   
-  User  /Listwise   DNN  UV/  UV / 
-  /  Selector/Rerank Filter/ Merge ""
-
-118>2017       POI/Deal 
-
-
- /  ""  
-
- 
-"" 
-
-
- AI<119
- ""
-  /  Appi PC  App 
- /  
-
-   
-
- 
- 
-
-2010 2011    
-
-120>2017 
-
-
-
-  
- O2O 
-   POI """"
- """" """"""" """""
- " CS"Deal ""POI " CS""" POI
-  
-
- 2015  Q2   
-
- AI<121
-  /  UV   Query->  POI/Deal  ->  ->     
-  PV/  PVPage View  Deal   
-  /    20 
- POI  POI  1   0.5   0 
-   
-
-
-
-122>2017   bad case   case 
-1.  /   Query 
-2.  POI 
-3.  
-4.  A/B Testing  
-
-
-2015  Q2  Query   "" 30%   A  B 
-
- AI<123  Query  POI  Deal  "" 
-
-  POI  Deal    POI  POI  Deal 
-
-124>2017     POI " " POI  Deal  Deal  POI   Deal  POI  """"POI  " CS"Deal ""POI   2015  Q3 
- Query Query 
- 56%  POI """ """ POI ""  POI ""Term"
-
- AI<125 "POI Deal  Deal  
-""""" "" - """4 "" " - " 
-"" POI  
- POI  Deal  
-  POI  Deal  
- Query  4    
- "" POI  
-
-126>2017    POI   Deal 
-
- 2015  Q4  Query   32%  POI POI  Deal27%  POI   POI  30%  Query  case 
- 15%  Query """" 
- 7%  Query "" ""
- 5%  Query "" """"
- 3%  Query "798  3D " " 3D "
-
- AI<127
- & 
-   Query 
- Query    Query  &  Session       
- POI 
-2016  Q2  case  3 
-
-128>2017    case   POI "" Deal POI    case      case  Query  Chunk   Term  Chunk  Chunk 
- 
-
- Query  """"""
-
- AI<129
-"""" """""" """ "2015  Q4   Query  8 
- POI    POI           
- Query  Term  Query   Term """     """"""  " POI Term  tag 
-
-130>2017   tagPOI 
-POI  tag"" POI "  " Term  POI "" ChunkChunk   Term 
- Chunk 
-  Query     Term        Chunk       Chunk     tag       Chunk       BMESBeginMiddle EndSingle" "Chunk "" B""  E"" Chunk S- ""  S-POI "" B- 
-Chunk  123 CRF  
- Term   tag DealPOI   POI  
-
- AI<131
-   Chunk   tag  Chunk tag Term 
-tag           CRF++          CRF++       Query"    "
- Query  Term  tagChunk  Term Query 
- Chunk 
- Chunk  tag  Query   >POI>  > """ " POI "" POI ""
- Rerank 
-
-132>2017 
-
-
- Query   POI  Deal  case  2016  Q3 
-  POI  >=300KM  0300KM   
-  POI   
-  POI  
-  
-
-  TF-IDF
-RQ,D  t  Q  Term H  t   tft, f  t  f  l f  f  wf  f  POI  Deal  idft  Term t  
-
- AI<133
- "" POI "" """"""3  Term"" """"2  Term POI  1.5 
-  POI "" ""POI  (Brand Name) """
-"POI """"  """" """"POI"" Deal
-Term""""POI "" POI  ""  IDF  Term  Term  Query  
- k1  b  BM25   max if   Term  Query idft¢  Term  Query 
-Term 
- Term  Query  Query  4 
- Super important POI 
-
-134>2017 
- Required" """" "
- Important" """ ""
- Unimportant
-"" Query  4 
-  Query Term Term  Query    PMIIDF    query  /  Term  Query 
-  Chunk tag 
- XGBoost 
-
- AI<135
-
- Rerank  POI   POI  
-
-"" 
-1.  2. """""""
-" 3. "" 4.  Term """" 5.  chunk tag""""
-"" 6.  Chunk  Query  7.  Term  Query "" 0.48"" 0.39
-"" 0.55 8.  9.  POI ""
-POI  POI  10.  POI ""
- Chunk "" 11. """"
-
-136>2017 
-
-  """" 
-
-2010 2011    
-
- AI<137
-
-
-
-DSP  CTR    
- 
-
- 
-    LBS
-  P2P 
-
-
-
-
-138>2017 
- 
-
-     ADX ADX    
- 
-
-1.  " / "" / "
-2.  3.  4.  5. 
-  ID IMEI  IDFA Hive  Redis 
-
-
-
- AI<139
-1.  
-2.  
-       Spark  ML     Spark  ML     A  B   (A  B) 
-A 
-" / "" / " " / " 
-
-140>2017   
-  MySQL
-
- Redis   
- A/B   base   
-
- AI<141
-
-   
-
- 
-  
-  DSPDemand-Side Platform   
-
-   
-  72  
-
- AdaBoost   
-
-142>2017   AdaBoost  1 
-    icon-code  one-hot   123  13 2   
-       AdaBoost  Gentle AdaBoost  1 AdaBoost
-
-
- AI<143   
- Spark   Tair  key value  AdaBoost     100 
-
- Gentle AdaBoost  JSON  Tair   ADX  Tair  
-
-144>2017 
-
- Tair  DSP  
-1.  /   
-2.   /   +   +  
-3.     200   8090606030  80+90+60<200    200   
- AdaBoost    A/B testing
-
-
-
- AI<145
-
-
- Query Targeting     App  
-
-  NLP     
- TF/IDF   -  -   
-""" / " 
- c1 = "" c2 = """ / " c3 = 
-
-146>2017 
-c4 = " / "
-tfidf=(c2/c1)×log(c3/(c4+1))
- topN  TF-IDF 
- TF-IDF  " "  
- Spark   
-  TF-IDF   Tair  key TF-IDF  value 
-
-  Tair  Kafka  ID   Tair   Tair  ID    Tair
-
- AI<147
- Tair    
- 1  0.5   72  0.5 = 1 × e-*   
-w w' 
-
- ID Tair   Tair   
-  A    8:30        Spark Streaming      Redis 8:30 1100 Spark
-
-148>2017 
-Streaming  11:00  11:00   16:00  ADX  16:00  11:00 
- 
-
-   
- LR  
-
-    [0,1] 
-
- x1,..., xn
-
-
-
- 
-
-
-
-
-  
-
- AI<149
- CTR  A/B testing  
-  
-
-Friedman J, Hastie T, Tibshirani R.(2000), Additive Logistic Regression: A Statistical View of Boosting, Annals of Statistics, 28, 337-307.
-
-2012 2016   2011  2014 2016  
-
-150>2017 
- DSP 
-
-
- DSPDemand-Side Platform[1] AdExchange[2]    AdExchange       DSP   Cookie Mapping [3]      App  DSP  DSP  /   ROI [4] 
-  App   DSP   DSP 
-  DSP      DSP  AB  / 
- DSP 
-
- DSP 
-1.  AdExchange  2. 
-
-
-
- AI<151
-
- 1
- 1  Gateway   CTR  AdServerAdServer   RecServer  PredictorServerCTR/   AdServer  v  ctr v*ctrt   top 
-
-152>2017 
- 2
- 2   Gateway Gateway  AdServer  AdServer  RecServer   PredictorServer   Gateway 
- DSP  RecServer  PredictorServer  1  2  AdServer  RecServer   PredictorServer  CTR  CTR 
-
- AI<153
- 3
- DSP CTR 
-
-   
-
- /  /   /  /   
-
-154>2017 
-
-O2O  O2O   
-1.  
-  
-  PC  IP   PC  
-2.    
- 1  2  userid   userid  3.   /  /   userid  userid 
-
- user-based  item-based 
-
- AI<155
- item-based  item   item A  item B  item A  item B  item B   item B  item A  item A   item-based  
- user-based     
-
- O2O    
- FM   /  
-
-CTR 
-AdServer  PredictorServer   AdServer  v  ctr v*ctrt   top 
-
-k
- a* vi *ctrit + b i =1
-
-1
-
-k t,a,b  t 
-
-156>2017 
- ctr t ctr  a,b  DSP  ROI  a,b ROI 
- 1  CTR  CTR    CTR   
- CTR 
-        RecServer                                                AdExchange  DSP DSP   ROICTR  
-useradpublisher  [5]
- 1. 
-
-2. 
-  deal    deal  CTRCVRPVUV
-3.  
-
- AI<157
-4. 
-  match match  
-
-5.   LR+  +   +  +  FM  FFM  
-6.    /  
-
-
-1.    LR+  
-2.   id  one-hot encoding   
-3.   
-
-
-158>2017 
- DSP     top20  
-4.   
-5.  CTR   
-
-q:  p:  w: 
-
-2
-
- CTR 
-  
-  /  FFM[6]  FFM 
- CTR 
-
- AI<159
-  position bias   position bias
-
-  CTR  CVR   ctr_p cvr_p i   item  ctr_0/ctr_p  cvr_0/ctr_p
-   0
-
- v*ctrt  1  v  
- eCPM[7]eCPM  v*ctr*1000  eCPM [8]  CTR   eCPM  AdExchange  
-  t a b   CTR   CPC  ROI  CTR  CPC ROI 
-
-160>2017 
- DSP 
-   CVR    CVR     FFM   +  FFM   (k*n*n)k n  
-    1  k     label  GBDT  FM  GBDT 
-
-
- AUC ROC AUC  
-Facebook  NENormalized Entropy[9] NE  
-
- AI<161
-3
-N yi i  lable +1 -1 pi i  P  AUC  NE 
- AB 
- ABtest CTR   30% CTR  13% CVR  10%
- 1.  AUC 
- CTR  CVR AUC AUC 
-2.    
-
- DSP  
-
-162>2017 
-1.   CTR  
-2.    DSP  CTR
- adx    CPC      CPC   CPC   [10]CPC  
-3.    /   /    DSP  AdExchange   DSP  DSP 
-
-1. https://en.wikipedia.org/wiki/Demand-side_platform 2. https://en.wikipedia.org/wiki/Ad_exchange 3. https://developers.google.com/ad-exchange/rtb/cookie-guide?hl=en
-
- AI<163
-4. https://en.wikipedia.org/wiki/Return_on_investment 5. http://www.xiutx.cn/archives/263 6. https://www.csie.ntu.edu.tw/~cjlin/libffm/ 7. http://baike.baidu.com/view/1666309.htm 8. http://book.douban.com/subject/26596778/ 9. http://www.herbrich.me/papers/adclicksfacebook.pdf 10. https://en.wikipedia.org/wiki/PID_controller
-
-2015     DSP  2014  7  CPS DSP  DSP 
-
-
-
-
-
-  2015  10 ""  
- Hadoop  SQL  
-"1+1>2"  App   UGC  
- App  App    
- App 
-
-<165   SQL      
-" " Excel  
-
-
-
- 
-
-166>2017   Client    
-
- 
-    "  "   Blackhole DataX     10Gb
-
-<167      9   10   SQL  PrestoHive 22  work  Excel......    6  7   4  
-  BAT 
-
-168>2017 
- 500  11  P 3000  6000       50% 50%  
-    owner  owner     100  240  1000   
-
-
-   
-
-
-
-
-<169
-
- DB  Server  log  
-  DistCp  ready   ready     DistCp  Hadoop  DistCp MapReduce  A   B  A   A  B   DistCp   
-
-170>2017 
- 
-""   
-
-Kerberos   Kerberos  Kerberos   KDC  Client  ServerClient  HDFS ClientServer  Name NodeKDC  Client  Server  Client  Server     Kerberos  Kerberos  Kerberos 
-
-<171   Client  KDC   Server  ticket Server  3  2  Kerberos KDC   TGS  krbtgt A realm   @ B realm  KDC   KDC    Client  Server  Client  KDC  ticket 1   krbtgt CREALM @ REALM Client  ticket   Service  KDC Service  ticket  Service 
- Kerberos                                  KDC  krb5.conf  domain_realm   DNS 
-
-172>2017 
- Hadoop   Server  Client   Hadoop  Debug Hadoop  logClient  realm  realm  realm 
-   
-
-    
- RD   " "   
-
-
-<173
- 7000  8000  10     1~4  3~5   ODS  1  Task 1Task 2Task 3Task 8 Task 123   Task 8  Task 8  Task 7  Task 4   50   
-
-
-
-
-174>2017 
-   HiveSpark  UDF  
- 
-
- Hadoop   Block   10  
-    
-
-
-<175   Hadoop   2.7.1   Hadoop  HDFS    patch  bug  feature  Git   review  patch  Hive  
-  DistCp  HDFS  YARN   HDFS  DataNode   4   10Gbps 
-
-176>2017 
-  NameNode  YARN  trick   1000    Hadoop  Hadoop   Hadoop    Hadoop  Rack   Hadoop      3~4  3 3  DataNode  pipeline  NameNode  zone  Rack  NameNode  pipeline  hack  pipeline  Client  zone   Application  mapper  A  reducer  B  YARN   zone  Fair Scheduler  zone   zone 
-
-<177   job  job  job     balancer  Hack  ZoneTransfer  DataNode  block 
-                 Slave    DN(DataNode)  NM(NodeManager) App RM(ResourceManager)  zone   App DN  pipeline  root DN  transfer   
- 
-
-178>2017 
-    4  70%  70%  30%  
-  RPC  Active NameNode FsImage   standby  FsImage  block  DataNode 
-  NNNameNode SafeMode   5~6    
-   3 ""  NN  federation  cluster ID mount table cluster ID  Hive   MySQL   pipeline   KDC 
-
-<179  KDC   KDC 
-
-    
-
-
-  Hadoop    Hive 
-
-180>2017   Hadoop  
-  insert into  BI  select from BI  where group by  
- 8000    10    
-
-<181
- a  o1 b  o1o2 c  o2   mart   
-   
-
-182>2017 
-
- Hive  Hack  bi.o2  mart_b.o2 mart_b.o2  bi.o2  bi.o2  Hive  Hack   bi.   run 
- Hive   Hive metaserver   Spark Presto Hive    SQL  
-  7000  90%SQL   Hive  metaserver  
-
-<183
- 
-  NN 
-
-----
-  Block  Cache  Cache Cache  Cache   Cache  server zone Server Client NameNode  
-----
-  RPC  SLA      
-"" "  "
-   
-""
-
-184>2017 
-  
-    / 
-deadline 
-  Hive  
-      
-----
-  
-    brainstorming 
- 11  12   11 101112 
-
-<185  12  11  7  8   
-   
- 
-
-186>2017 
-
-    
-
- 
-      
-
-<187        Kimball     
- ODS  Bill Inmon   
-
-188>2017 
- 
-
-  BDWMFS-LDMMLDM    O2O   
-
-<189
-
-  
-BD  BD   BD  
-  
-
- App  PC  I   
-
-  
-POI 
- O2O   POI  POI   POI 
-
- POI  
-
-190>2017 
-
-  
-
- 
-
- 6   
-
-  3NF  3NF 
-
-<191
-
-  -  -    B  POI  POI   80% 
-
-192>2017 
-
-  -  -   ODS  
-
-<193
-  
-
-2003 2015    
-
-194>2017 
- Flink  Storm 
-
-
-1. 
-Apache Flink  Apache Storm   Apache Storm"Storm"  Storm  API   Storm  Apache Flink"Flink"  
- Flink    Storm  Flink   Flink """"  Flink   SLA 
-Flink  Storm 
-
-    
-
-Storm
-
-Flink
-
-
-
-
-
- 
-
-
-
-
-
-At Most Once At Least Once
-
-At Most Once At Least Once Exactly Once
-
- ACK 
- 
-
-
-   API  API   Storm  
-
-<195
-2. 
- Flink  Storm   Flink  
-2.1 " - "
-" - " 
-" "
-   
-   100 Flink  Storm API  
-"" Storm ""(At Most Once) ""(At Least Once)  Flink ""(Exactly Once)   
-
-196>2017 
-
-2.2
-Throughput  
- /     
-  20  /  2  /  
-Latency      
-   5  25 
- 30  60  
-3. 
- Storm  Flink  1  2  Standalone   Flink   on Yarn 
-
-3.1
-
- CPU Core Memory Disk OS
-
- QEMU Virtual CPU version 1.1.2 2.6GHz 8 16GB 500G CentOS release 6.5 (Final)
-
-3.2
-
- Version Master Memory Slave Memory Parallelism
-
-Storm 
-
-Flink 
-
-Storm 1.1.0-mt002 Flink 1.3.0
-
-2600M
-
-2600M
-
-1600M * 16
-
-12800M * 2
-
-2 supervisor
-
-2 Task Manager
-
-16 worker
-
-16 Task slots
-
-<197
-
-198>2017 
-4. 
-4.1
- Data Generator  id  eventTime   Kafka  TopicTopic Data  Storm Task  Flink Task Kafka Topic Data  Offset  inTimeoutTime  Topic Topic Storm  Topic Flink
-
-<199
- Metrics Collector  outTime  Topic   MySQL  Metrics Collector  outTime  outTime - eventTime  outTime inTime 99  MySQL  MySQL  99 
-4.2
- Storm  Flink  At Least Once   Storm  ACKACKer  1  Flink  Checkpoint  30  StateBackend  Memory
-  Kafka  Kafka    Kafka 
- eventTime    Kafka Topic  Topic 
-
-4.3 Identity
- Identity " - " 
- "msgId, eventTime" eventTime   20 B
-  inTime outTime   Kafka Topic Data 
- Kafka  "msgId, eventTime, inTime, outTime" 50 B
-
-200>2017 
-Sleep  Sleep 
-   Identity   1 ms
-
-<201
-Windowed Word Count  Windowed Word Count 
-   Flink    JSON  msgIdeventTime 
- 150 B         JSON              eventTime 
-inTime  CountWindow   eventTime  inTime outTime  Kafka  Topic  Spout/Source  OutputBolt/Output/Sink  1  JSONParserCountWindow    Storm  window CountWindow  HashMap  Flink  CountWindow  Reduce 
-
-202>2017 
-5. 
-5.1Identity 
-  Storm  Flink  
- Identity Storm  8.7  / Flink  35  / 
-  Kafka Data  Partition  1 Flink  Storm  3.2   Partition  8 Flink  Storm  4.6 
- Flink  Storm  3-5 
-
-5.2Identity 
-
-<203
-
-  outTime - eventTime  Storm Flink 99 
- Identity  99  Storm   Flink 
-  QPS  80000  Storm   Storm  Flink 
-              Storm QPS            100 99  700 Flink  50 99  300  Flink  Storm 
-
-204>2017 
-5.3Sleep 
- Sleep 1 Storm  Flink  900  / 
- 
-5.4Sleep 
-
-<205   outTime - eventTime Sleep 1 
-Flink  Storm
-5.5Windowed Word Count 
-  10   Storm  1.2  / Flink Standalone  4.3
- / Flink  Storm  3 
-
-206>2017 
-5.6Windowed Word Count Flink At Least Once  Exactly Once 
-   Flink  Exactly Once    JSON Parser  CountWindowCountWindow  Output  Source/Output/Sink  1 JSONParser/CountWindow  Windowed Word Count 
-  At Least Once  Exactly Once  Exactly Once  At Least Once  6.3%
-
-<207
-5.7Windowed Word Count Storm At Least Once  At Most Once 
- Storm  ACKer  ACK  Bolt  ACK At Most Once 
-  At Least Once  At Most Once At Most Once   At Least Once  16.8%
-
-208>2017 
-5.8Windowed Word Count 
- Identity  Sleep  outTime - eventTime  Thread.sleep() outTime - inTime  Windowed Word Count  outTime - inTime   outTime - eventTime  outTime - eventTime  outTime - InTime 
- Flink  Storm  outTime - inTime  outTime - eventTime  inTime  eventTime   Storm  Flink 
-  Storm  Flink   Flink  Flink 
-  outTime - inTime QPS Flink 
-
-<209
-5.9Windowed Word Count Flink At Least Once  Exactly Once 
-  99  At Least Once Exactly Once                     Flink Exactly Once  At Least Once  
-
-210>2017 
-5.10Windowed Word Count Storm At Least Once  At Most Once 
-  99  At Least Once At Most OnceQPS  4000              QPS  6000 QPS  8000  At Least Once  Storm 
- QPS  Storm At Most Once  At Least Once   QPS At Most Once 
-
-<211
-5.11Windowed Word Count Flink  StateBackends 
- Flink  Standalone  on Yarn  Memory FileSystemRocksDB StateBackends  StateBackends  Standalone  JobManager on Yarn  HDFS 
-  FileSystem  Memory   RocksDB 
- Standalone  on Yarn  FileSystem  Memory  on Yarn  RocksDB  Standalone 
-
-212>2017 
-5.12Windowed Word Count Flink  StateBackends 
-  FileSystem  Memory  Backends    RocksDB  Backends 
- on Yarn 
-6. 
-6.1
-  5.15.5 Storm  8.7  /  Flink  35  / Flink  Storm  3-5 
-  5.25.8 Storm QPS  Kafka  100 99  700 Flink  50  99  300 Flink  Storm  QPS Flink 
-
-<213
-
- Flink  Storm
-6.2
-  5.1  5.35.2  5.4  Bolt Sleep  1 Flink  Storm
-  
-6.3
-  5.65.75.95.10 Flink Exactly Once   At Least Once  6.3%Storm At Most Once   At Least Once  16.8%
-  Storm  ACKFlink   At Least Once   Flink  Exactly Once   Flink Storm At Most Once  Flink
-6.4Flink 
-Flink RocksDB  StateBackends 5.11 5.12 
-
-StateBackend 
-
-Memory
-
-TM Memory
-
- 
-
-
-
-        JM Memory 3-5  Storm 
-
-
-FileSystem
-
-TM Memory
-
-FS/HDFS
-
-KV 3-5  Storm 
-Backend
-
-RocksDB
-
-RocksDB on TM FS/HDFS
-
-0.3-0.5  Storm
-
-  KV 
-
-214>2017 
-6.5 Flink 
- Flink 
-  Exactly Once     
-7. 
-   Exactly Once    1ms Thread.sleep()   Flink 
-  
- Flink  RocksDBStateBackend    Flink  API Table API & SQL  CEP 
-
-8. 
-1. ---- . 2. intel-hadoop/HiBench: HiBench is a big data benchmark suite. 3. Yahoo  . 4. Extending the Yahoo! Streaming Benchmark.
-
-
-
-
-<215
-
-
- O2O  /push  
- POI 2000 2.5   
-     
- 1  
-
- 1
-
-216>2017 
-
-   
-  RPC  
-  
-
- 2
-
-<217  2     
-
- Thrift  RPC 
-
- 
- 3
- 3  123 A BC   AB C  A  B  2   3 C
-
-218>2017 
-
-      
-
- 
-     
-
- 4
-    4
-
-<219     
-
-  NoSQL  
- 5
- 5 ID level   ID+level  Key JSON  ID+level  
-
-  POI 
-
-220>2017  
- 6
- 6  
-
- 7
- 7    ID t  
-
-<221 1  7   3t 4t 6*t 13t   2  Apache Storm  Bolt  Bolt  Bolt Bolt   Storm   7   t 3*t    Storm   Bolt Storm   8
- 8Srm 
-
-222>2017 
- 8 ChinaSpout Spout    ProvinceBolt  40 CityBolt  300  BareaBolt POI  Bolt   POI  POI  POI    Storm ----DRPC Storm  Bolt 
- 
-
-
-       
- KV  Squirrel  Tair Squirrel  Redis Cluster  squirrel  KV   Tair  Squirrel   Tair 
-
-<223
-
- 
- 9
- Rhino Hystrix   
-a.  b.  c.    9        Rhino     request1      squirrel request2  squirrel   tair squirrel Rhino   squirrelrequest3  squirrel  Rhino  squirrel 
-
- 
-
-224>2017 
-       
- RPC     Rhino    
-  1   
-
-2016  2017  BI 
-
-----
-
-
-<225
-
-
-""   dashboard      1 
-
- 1
-                                 Kylin MySQLElasticsearchDruid   
-
-226>2017    
-
-       
-
-
- 2
-
-<227  2  1. 
- 2.  3.  master-work 
- 
- 3 
- 3
-
-228>2017   3 
-B=(L+H)*Y https://tech.meituan.com/ dsmf.html 
-          4  E  ,  A  
- 4
-
-<229
-
-  5     UV   SKU    GMV    GMV   GMV=  UV*  *  *  *SKU 
-
-  A/(A+B)
-
- 5
-
-
-
-
-
- 6
-
-230>2017   6 
-   
-    7  
- 7
-
-<231
- 
-   
-  
-  
-  
-  
-      
-  8  
-  9  
-
-232>2017 
- 8
- 9
-
-  
-
-<233
- BI 
-
-
- Cube  Cube  SQL    UI   Cube  
-
- BI 
-   SQL          UI 
-
-234>2017 
-----
-
- 1
- 1. 
- 1.  2.  OLAP 
-
-
-<235
- 2
- SQL  MySQL  Kylin  SQL  ESElasticsearch ES  API   API 
- 2   
-2. SQL   SQL  1.  SQL  SQL SQL
- SQL 2.  SQL   SQL   Dialect  SQL  SQL   SQL   SQL   SQL
-
-236>2017 
- SQL                Apache Calcite Avatica Alibaba  Druid
-1.  SQL  API  
-2.  ANSI SQL-92 SQL
- SQL  Java 
-3.   join   Kylin  Cube  join    inner joinleft outer join  full outer join   inner join  left outer join  full outer join  
-inner join 
-private void join(List<Map<String,String>>[] contents,List<Project> sharedList,final int n,int[] rowsStatus,LinkedList<MatchRow> result){
-if(this.cubeJoin==1){ throw new java.lang.IllegalArgumentException("left join call
-leftJoin method,not call join method"); }
-if(n<contents.length){ List<Map<String,String>> list = contents[n]; for(int k=0;k<list.size();k++) { boolean equal = true; if(n!=0) { Map<String, String> prev = contents[n - 1].get
-(rowsStatus[n - 1]); Map<String, String> cur = list.get(k);
-
-<237
-for (Project proj : sharedList) { String key = proj.fieldName.toUpperCase(); if (key.matches("^\\d+$") || key.equals("*")) { key = "_"; } key = proj.isCompanion() ? key + proj.getFactId() : key; String prevValue = prev.get(key); String curValue = cur.get(key); if (prevValue == curValue) { continue; }
-if (prevValue == null || curValue == null || !prevValue.equals(curValue)) {
-equal = false; break; } } } if (equal) { rowsStatus[n] = k; if(n==contents.length-1){//last dataset match MatchRow mr = new MatchRow();
-List<MatchRow.DatasetRow> tmp = new ArrayList<>(); for(int i=0;i<rowsStatus.length;i++){
-MatchRow.DatasetRow dr = new MatchRow.DatasetRow(); dr.setDatasetIndex(i); dr.setRowIndex(rowsStatus[i]); tmp.add(dr); }
-mr.addMatchRow(tmp); result.add(mr); }else{ join(contents,sharedList,n+1,rowsStatus,result); } } } } }
- inner join 
- contents 
- sharedList 
-
-238>2017 
- n  rowsStatus 
- result  join 
- MatchRow 
-
- sharedList  inner join
- join 
-
-left outer join 
-private boolean leftJoin(List<Map<String,String>>[] contents,List<Project> sharedList,final int n,int[] rowsStatus,LinkedList<MatchRow> result){
-boolean leftJoinMatch = false; if(n<contents.length){
-List<Map<String,String>> list = contents[n];
-for(int k=0;k<list.size();k++) { boolean equal = true; if(n!=0) { //in left join,compare with the first dataset. Map<String, String> prev = contents[0].get(rowsStatus[0]); Map<String, String> cur = list.get(k);
-for (Project proj : sharedList) { String key = proj.fieldName.toUpperCase(); if (key.matches("^\\d+$") || key.equals("*")) { key = "_"; } key = proj.isCompanion() ? key + proj.getFactId() : key; String prevValue = prev.get(key); String curValue = cur.get(key); if (prevValue == curValue) { continue; }
-if (prevValue == null || curValue == null || !prevValue.equals(curValue)) {
-equal = false; break; } } } if (equal) {
-
-<239
-leftJoinMatch = true; rowsStatus[n] = k; if(n==contents.length-1){//last dataset match
-MatchRow mr = new MatchRow();
-List<MatchRow.DatasetRow> tmp = new ArrayList<>(); for(int i=0;i<rowsStatus.length;i++){
-MatchRow.DatasetRow dr = new MatchRow.DatasetRow(); dr.setDatasetIndex(i); dr.setRowIndex(rowsStatus[i]); tmp.add(dr); } mr.addMatchRow(tmp); result.add(mr); }else{ //if next dataset is not match,use the next's next... for(int loopFlag=n+1;loopFlag<rowsStatus. length;loopFlag++){ boolean match = leftJoin(contents,sharedList, loopFlag,rowsStatus,result); if(match){
-break; } rowsStatus[loopFlag]=-1; if(loopFlag==contents.length-1){
-MatchRow mr = new MatchRow();
-List<MatchRow.DatasetRow> tmp = new ArrayList<>(); for(int i=0;i<rowsStatus.length;i++){
-MatchRow.DatasetRow dr = new MatchRow.DatasetRow();
-dr.setDatasetIndex(i); dr.setRowIndex(rowsStatus[i]); tmp.add(dr); } mr.addMatchRow(tmp); result.add(mr); } } } } }
-} return leftJoinMatch; }
-
-240>2017 
- left outer join  inner join  2 
-1. left outer join   
-2.   left outer join 
-4.  
-1.  2. 
-
-1.  Java  ScriptEngine     ScriptEngine 
-2. ""  ScriptEngine 
-5.      
-
-<241
-1.  UPM  UPM  UPM    UPM   UPM 
-2.   
-3.  
-6.  UI        
-
-  UI   UI  
-
-

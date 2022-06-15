@@ -1,170 +1,0 @@
-
-
-wnswfocwu.sn.csofmocus.com
-
- ---- 
-
-© 2011 
-
-
-
-
-
-
-
-http://www.rootkiter.com/EarthWorm
-
-
-a)  b)  c)  d) 
-
-
-
-http://www.rootkiter.com/EarthWorm
-
-
-
-
-
- a) 
-
-b) 
-WHY And c) 
-
-d) 
-
-HOW
-
-http://www.rootkiter.com/EarthWorm
-
-1  2  3 
-
-
-
-1 (LAN->WAN)
-
-
-
-192.168.xx.xx
-
-
-
-10.xx.xx.xx 
-
-
-
-
-1 (WAN->LAN)
-
-
-
-10.xx.xx.xx
-
-
-
-192.168.xx.xx
-
-
-
-
-
-
-2
-
-
-
-
-
-
-
-2
-
-
-
-
-
-Too
-
-
-3
-
-
-1.  2.  3.  4. 
-
-
-1  2  3 
-
-
-
-
-1.  A 
-
-
-1.  B 
-
-2. 
-
-
-
-
- OpenWrtTPLink
-
-2. 
-
-
- 
-
-dll  
-
-2. 
-
-
- 
-
-dll  
-
-2. 
-
-
-
-3. 
-
-
-
-4. 
-
-A. VPN  B. 
-
-
-
-4. 
-
-HTTP SSL FTP SOCKS
-
-
-
-4. 
-
-HTTP SSL FTP
-SOCKS
- 
- http://www.rfc-editor.org/rfc/rfc1928.txt
-
-
-
-
-
-A.  API   API 
-B.  Linux : $ sudo apt-get install gcc MacOS: Xcode  gcc  Windows MINGW32 + gcc  Linux + buildrootToolchain
-C. Big/Little -Endian  CPU  C 
-
-1  2  3 
-
-
-
-1.  2.  3. 
-
-
-
-
-
-

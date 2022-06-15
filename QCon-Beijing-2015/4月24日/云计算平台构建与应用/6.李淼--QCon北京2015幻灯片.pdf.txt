@@ -1,122 +1,0 @@
-  
-    
-
-  
-
-  
-
-SDK  
-
-  
-·  ·  · 
-
-  
-· IDCIaaS · IDCIaaS · 
-
--  
-[type|QoS][checksum][length] [appId]-> [token]-> ......
-
--  
-[type|QoS][checksum][length] [method]-> [resourceId]->IDuserId groupIdchatroomId.... [messageId]-> [paylaod]->
-
-  
-
-node.set  =  1//set  
-
-node.weight  =  2//1CPU:1RAM:2GB  
-
-node.name  =  MSG_NODE1//  
-
-//  
-
-app.actors  =  [  
-
-  {  
-
-  
-
-  method  =  "s_msg"  
-
-  
-
-  class  =  "com.rcloud.connectmanager.actors.CmpActor"  
-
-  
-
-  minConcurrency  =  2  
-
-  
-
-  maxConcurrency  =  4  
-
-  
-
-  isMessage  =  true  
-
-  },  
-
-  {  
-
-  
-
-  method  =  "s_ntf"  
-
-  
-
-  class  =  "com.rcloud.connectmanager.actors.CmpActor"  
-
-  
-
-  minConcurrency  =  2  
-
-  
-
-  maxConcurrency  =  4  
-
-  
-
-  isMessage  =  false  
-
-  }  
-
-]  
-
-  
-
-Union Hash  
-AppKeyCluster
-ResourceIdSET ResourceIdMethod   Node
-
-  
-
-  
-
-  IaaS   
-
-Access  Point    
-
-  
-
-SET  
-
-DB  
-
-  
-
-or  
-
-  
-
-  
-·  ·  · 
-
-  
-· IaaS · Union Hash ·  · PaaS
-
-    
-
-@InfoQ
-
-infoqchina
-
-

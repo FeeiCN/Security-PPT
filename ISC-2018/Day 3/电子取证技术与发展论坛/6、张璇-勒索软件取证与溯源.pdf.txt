@@ -1,275 +1,0 @@
-
- 
-
-
-360         
-
-
-       
-
-
-2017 162017223
-   
-LOCKER|
-CRYPTO|
-
-
-  Wannacry2017.5-2018.9
-
-
- 
-1989 AIDS / PC-CYBORG TROJAN Joseph Popp
-
-
- 
-2012 Reveton
-Raymond Odigie Uadiale20184 18
-
-
- 
-2013
-CryptoLocker  .  72   50, 1.3% 
-  $27M
-
-
- 
-2017
- Wannacry /MS17-010/445
-1.7 11.5
-
-
- 
-Ransomware-as-a-Service (RaaS)
-
-
- 
-    IOT
- :   
-
-
- 
-
-
-
-
-
-
-
-IBM security:
-
-70% of business victims paid
-
-Of those, 50% paid more than $10,000, 20%
-
-more than
-
-$40,000
-
-
-
-· 40 · FBI
-500 · 2 · 2 ...
-
-
-
-
-
-
- 
-
-2018
- LockScreen43% WannaCrypt27%GandCrab20%
-
-
- Crypto Ransomware
-
-· Web ·  ·  ·  ·  · 
-
-
-· RSA · ECC · AES
-
-
-
-
-·  · 
-
-  Zero
-
-
-
- 
-
-vs.
- AES (128 to 256 bit key), 3DES, DES  RSA, Elliptic Curve Cryptography (ECC)
-
-· Microsoft Office files (.doc, .docx, .xls, .xlsx, .ppt, .pptx, .rtf) · Open Office files (.odt, .ods, .odp) · Adobe PDF files · Popular image files (.JPG, .PNG, raw camera files, etc.) · Text files (.txt, .RTF, etc.) · Database file (.sql, .dba, .mdb, .odb,. db3, .sqlite3, etc.) · Compressed file (.zip, .rar, .7z, etc.) · Mail files (.pst) · Key files (.pem, .crt, etc.)
- 
-Petya: MBR 
-
-
-
-Command and Control server (C&C)
-
-
-C&C
-
-C&C
-
-
-
-
-
-&Intercepter-NGNetworkShare AA_v3 
-
-
-
-
-  
-   
-    
-  
-
- Wannacry Satan
-
-  
-
-
-
- 
-
-
-
-1. 
-
-2. 
-
-
-
- 
-
- 200 
-
-
-
- 
-
-
-
-
-
- 
-
-79 
-
-3. 
-
-4. 
-
-5. 
-
-
- 1.
-         
-
-
- 1.
-.ALCO
-
-
-
-
- 1.
- %appdata%  %appdata%
-
-
- 1.
- RSA  %public%%ALLUSERSPROFILE%
-
-
- 1.
-128 256 ID  ID
-
-
- 1.
- 
-
-
- 1.
-2018.07.08 101332-2018.07.08 104516
-
-
- 1.
-IDA OD X32Dbg 
-
-
- 2.//
-
-
- 2.//
-
-
-
-
-
-
-
-
-
-
- 2.//
-
- ProcessHacker.exe NS.exe (7.08) DUBrute2.1 nl.exe clean.bat (7.1)
-
-
- 2.//
-
-
-
-
-
-
- 3.
-
-IP
-
-   360 
-
-
- 4.
-
-13AM4VW2dhxYgXeQepoHkHSQuy6NgaEb94 12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn
-
- Bitcoin
-
-, ...
-
-Exchange
-
-18NWHHyCkTfsDPQJaMu5uGhpviS87hWfWk 1Kz66SnzzmeBmKY3WpEzMKTrcBF2gpNQ44
-
-
- 4.
-blockchain.info maltgo/chianalysis
-
-SilkRoad
- 
-·  ·  · 
-
-
-
-
-5. WireShark/
-
-
-
-
-
- IOT        
- 
-
-Jexboss
-
- 
-
-
-

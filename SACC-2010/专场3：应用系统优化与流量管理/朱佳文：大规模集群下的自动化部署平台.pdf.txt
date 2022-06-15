@@ -1,154 +1,0 @@
- 
-·  /2010-08
-jiawen_zhu@hotmail.com
-1
-
-
----- 
-·  ·  · 
-2
-
-
----- 
-·  · 
-3
-
-
-500 
-
-RHEL5u4 64 
-
- 
-4
-
- 
-
-
-· a)CLI
-b)Web UI c)
-· 
-a) b)PXE c)*
-· 
-a) b)
-5
-
-RedHat
-· PXE + Kickstart
-
-· PXE + Image
-
-· PXE + NFS Root
-
-6
-
-Kickstart
-1PXE  2Memory OS  3Anacondakickstart  4  I) %pre II) installing III)%post
-7
-
-
-
-ks.cfg-header ks.cfg-rootpw ks.cfg-firewall ks.cfg-selinux ks.cfg-timezone
-
-
-
-ks.cfg-packages
-
-shell
-
-Basic OSshell
-8
-
- default
-  ks.cfg-header   ks.cfg-rootpw   ...   ks.cfg-timezone   ks.cfg-firewall   ks.cfg-partition   ks.cfg-packages   pre-install.sh   post-install.sh   firstboot.sh   web_server   ks.cfg.partition   post-install.sh   mysql_server   ks.cfg-packages   fistboot.sh   ......
-9
-
-
-· profiles · ks · PHP""ks:
-http://xxx/ks.php?sn=xxx
-· %pre
- IPMIraid
-· %post
-
-
-Kickstart
-KS No! 
-10
-
-
-11
-
-
-· data source
-     
-· OOBout of band
- 
-· 
- 
-· 
- OSpxe    
-·  · 
-12
-
-OOBIPMI/iLO 
- "F12"KVM
- ipmitool -I lanplus -U root -H 192.168.0.10 power reset
- ipmitool -I lanplus -U root -H 192.168.0.10 chassis bootdev pxe
-Console ipmitool -I lanplus -U root -H 192.168.0.10 -e ^ sol activate
-CLI OOBmemory os%pre
-13
-
-
-
-
-
- ,IP,OS,,  ...
-
-
-
-PXE(dhcp,tftp,http)  kickstart(php)
-14
-
-Host A
-%pre  %post 
-
-
-
-2010-04-24 08:29> -------------------- STARTING CLONE ----------------------
-2010-04-24 08:29> Clone process will take you some minutes,please wait...
-2010-04-24 08:29> Auto-detect hostinfo via mac=00:26:b9:35:e9:aa 2010-04-24 08:29> Wrong SN, auto detect: 712dm2y, NOT 712dm2x  2010-04-24 08:29> Setting oob: 192.168.0.10/255.255.255.0 OOB 2010-04-24 08:29> Reach concurrent-clone's limit:55. Sleep 38s and then try to continue...
-
-2010-04-24 08:29> Pre-install done.Go ahead,basic os will be installed in about 10 min.
-
-2010-04-24 08:43> Default post-install completed
-
-
-
-2010-04-24 08:43> Change host clone status as don`t clone: mac=00:26:b9:35:e9:aa
-
-2010-04-24 08:43> Reset host pxe config as harddisk booting
-
-
-
-2010-04-24 08:43> hostname:xxx.aliyun.com; os:rhel54_64; ip:10.0.0.10; profile:mysql_ser
-
-2010-04-24 08:43> The OS is going to reboot now...
-
-2010-04-24 08:43> Auto-partition processe at firstboot, it takes about 10min per 1T disc...
-
-2010-04-24 08:51> ----------------------- CLONE DONE -----------------------
-
---  -- OSOOB --  -- 
-
-15
-
-
-      Basic OS
- ImageBasic OS NFS RootBasic OS
-16
-
-Thank You
- MSN
-jiawen_zhu@hotmail.com
-17
-
-

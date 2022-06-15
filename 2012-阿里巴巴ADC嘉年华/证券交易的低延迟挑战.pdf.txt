@@ -1,264 +1,0 @@
-
-
- 20127
-
-·  ·  ·  · 
-
-
-
-
-
-
-·  ­  ­  ·  ­  ­  ­  ·  ­  ·  ­  ·  ­ 
-
-
-· UTP/ARCA · INET · Millennium · Optimise · Direct-EdgeUME · ArrowHead · AMS
-
-
-
-
-
- 
-
-NASDAQ
-
- 687 2010
-
-814
-
-692
-
-
- /
-
- 20000
-
- 102131
-* 2010.10.20
-
-
-·  · Linux · /InfiniBand ·  ·  ·  · 
-
-
-
-
-
-
-
-· 
-
-· http://www.sina.com.cn 2005122010:36 
-
-·
-
-128
-
-·10(J7-COM)
-·2009-12"-04216:106:45 :()"5 ·  "  112461"2005
-4 1078.26 
-
-
-
-15037
-
-2010
-
-Millennium
-
-·  
-
-· http://www.17ok.com 2008-09-09 10:16:39 
-
-·
-
-15,,,
-
-,,
-
-· ·7,"," 
-
-· 2011-02-27 10:08:00  
-· 84305 ""1215 14" "10 ""2 
-
-
-
-·  
-
-· http://www.sina.com.cn 20110810 18:32 
-
-·
-
- 810 (109,-1.10,-1.00%,
-
-)(00388.HK)""8
-
-
-
-
-
-
-
-Facebook
-· Facebook
-· http://www.sina.com.cn 20120606 04:29 
-· Facebook518IPOOMX Facebook30 FacebookFacebook OMX
-·  IPO·Facebook4F0a0ce0book30%Facebook
-· http://www.sina.comO.cMnX2012060701:13  ·  67()OMX
-4000""Facebook IPO( )
-
-
-
-·  ·  ·  ·  · 
-
-
-·  ·  ·  ·  · 
-
-
-
-· PC
-
-· 
-
-· 
-
-· HAPVHAP
-­
-
-#2011# @SH
-
-
-
-· 
-
-­ 
-
-­ FIX
-
-· 
-
-­ 
-
-­ 
-
-­
-
-@
-
-
-
-
-
- 
-
-
-
-
-·  · 
-­  () ­  () 
-· :
-­ (Quorum)Paxos ­  (Virtual Synchrony)
-
-
-·   
-· 
-­ IP
-· 
-­ 
-
-
-· 
-­  
-­ ->->
-·  
-
-
-· (Sequencer)
-­  
-­  
-­   
-
-
-
-Paxos
-· Paxos 
-· 
-­ Client ­ Proposer (Leader) ­ Acceptor ­ Learner
-· 
-­ (Proposal) ­ (Agreed Value) ­ (Accept) ­ (Choose)
-
-Leslie Lamport
-
-
-
-Paxos
-· ProposerAcceptor 
-­ Prepare 
-­ Accept 
-· Learner
-
-Paxos
-
-Google Chubby
-
-ZooKeeper
-
-Paxos
-· 
-­ ( ­ ()
-·  
-· Paxos
-­  
-­  
-
-
-· Paxos 
-­ VaAccept 
-­ VbPrepare VaAccept Va
-· Paxos2N+1N 
-
-Collapsed Multi-Paxos
-
-
-
-· Collapsed Multi-Paxos 
-
- Client  Leader  Leader Leader Leader LeaderClient  
-
-
- 100 10 100 10 150 30 100 100 450 150 600
-
- 50 10 50 10 75 30 100 50 225 150 375
-
- 256B - 4KB35 
- 100200 200 350
-
-
-
-
-
-· HAP ·  ·  · 
-
-
-· 10G/40G/100G
-­ 
-· InfiniBand40G/80G
-­ 
-
-RDMA
-·  · CPU · 
-
-
-· PGM · UDPTCP · ACKNAK
-
-
-·  =>  · / ·  · 
-
- ­ 
-
-·  ·  ·  ·  · 
-
-­
-
-#2012# @kliu_sh
-
-

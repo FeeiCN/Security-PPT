@@ -1,159 +1,0 @@
-VC Investment Bubble And Security Startup Boom
-Dr. Fengmin Gong Co-Founder & Chief Strategy Officer
-Target the threats that target you.
-
-Outline
-o Cloudy With A Chance Of Bubble o White Hot Security Startup o What's China Got To Do With It? o White-Hot Cybersecurity Market o What's There For You?
-
-Billion Dollar Club, Exciting!
-o If you are in NOW, and can exit BEFORE the bubble bursts
-
-Are You In It?
-o Congratulations if you are o Otherwise, no despair, I am only showing the top 8
-
-Interesting Unicorn Stats
-
-Total tracked
-
-Still private (2015/2) In China
-
-All Industry
-
-116
-
-96
-
-19
-
-Software
-
-35
-
-31
-
-0
-
-Software/Security
-
-7
-
-7
-
-0
-
-Consumer Internet 25
-
-23
-
-5
-
-o "The Billion Dollar Startup Club", Wall Street Journal, By Scott Austin, Chris Canipe and Sarah Slobin
-http://graphics.wsj.com/billion-dollar-club/
-
-Two Paths Of Successful Exit
-o IPO ­ Initial Public Offering
-oDrought season since PANW, FEYE
-o Merge & Acquisition
-oTerm Sheet ­ Monday, August 31, 2015 "The only thing growing faster than M&A activity in 2015 is withdrawn M&A activity. Thomson Reuters reports that while global M&A is up 37% year-to-date, the bump in canceled deals is a whopping 53% (representing nearly $336 billion in pulled transactions)."
-
-Chance Of Bubble With VC Investment?
-
-Bubbles Are Anomalies In The Market
-
-Spectacular Bubbles Of The Past
-
-Dutch Tulip price bubble 1636
-
-Stock Market bubble 1929
-
-Housing Market bubble 2008
-
-South Sea Company
-
-Dot-com Stock
-
-?
-
-stock price
-
-bubble
-
-bubble 1720
-
-2000
-
-VC Valuation Hype Factors
-1. Strong Motivation 2. Deep Pocket 3. Overflowing Euphoria 4. Inability To See With Clarity
-
-F1 ­ 10 Billion Exits
-o FOMO Syndrome
-o"Fear Of Missing Out" We missed out on FAGA once!
-oData analytics is hot, we've got to invest!
-o But they can't tell if others are
- greedy or fearful now
-
-F2 ­ Too Much Money
-o QE-I, QE-2, 0% Fed rate o "Past performance does not
-guarantee future return, but look at FAGA ­ Facebook, Amazon, Google, Apple ­ success!" o Greed is infectious - retirement fund, mutual fund moved from public market to VC investment! o Maybe, 10-year cycle makes VC investment less of a "venture"
-
-Euphoria Definition
-is medically recognized as a mental and emotional condition in which a person experiences intense feelings of well-being, elation, happiness, excitement and joy
-o Success recipe: user count now, monetize later o Making It Big without IPO:
-oWhatsapp bought @$21.8B; Snapchat valued @$16B
-
-F4 ­ Desire Versus Ability
-o Clarity For Potential-Reality distance, ROI
-oLack of domain expertise by VCs oLack of historical data on new tech areas
-o Less visibility into private companies
-
-According To Robert Shiller
-
-Should You Invest In Stock Market?
-oYes 4 US Market oStart early oDollar price averaging oBuy index fund
-oCaution 4 China Market oBrave ones: follow the government the FIRST TIME oWeak of heart: watch with patience, invest when gov stays away
-
-Cybersecurity Startup Opportunity Is Exceptional
-
-o Sophisticated financial & data crimes
-oCarbanak attack on banks o"Pump & Dump" attack on Wall Street oAnthem, Blue cross and Blue shield, OPM breaches
-
-Continuous Monitoring
-
-Incident Response
-
-Risk Management
-
-o More useful tools o Practicing security o Government rules & regulations
-
-The Market Is White-Hot
-o Per Alberto Yepez, Managing Director, Trident Capital o$1.77 Billion VC investment 2014 compared to $1.62 Billion in 2000 oTotal $7.3 billion invested in 1,208 since 2010 (data from CB Insights)
-o Big Drivers o$100 billion annual cyber attack loss in US, GROWING oCybersecurity spending to INCREASE, from 4% to 7% of IT oMore innovative tools are needed!
-
-Top 7 Hot Areas
-1. Behavior data analytics for anomaly 2. Security payment and fraud 3. Security for IoT 4. NG identity & access control platform 5. Inside threat monitoring & response 6. Threat intelligence infrastructure 7. Security ecosystem solution
-
-Strategy To Innovate
-oCreate what Chinese businesses need for their security defense, go to Latin America & Mideast with ease
-oCreate what US businesses need for their security defense, go to North America & Europe with ease
-oWatch development on Wassenaar Arrangement, to leverage global security research talents effectively
-
-You Must Know The Differences
-
-o Gov. cybersecurity investment
-o Discourage use of foreign products
-o Compliance #1 driver
-o Price #1 criteria
-o Personal attention #1 enterprise concern
-o Hardware appliance still preferred
-
-o Gov. cybersecurity investment
-o Discourage use of foreign products
-o Risk mgmt #1 driver o Functionality #1 criteria o Robustness #1 enterprise
-concern o Software & VM gaining favor
-
-Target the threats that target you.
-Thank You!
-@FengminGong fgong@cyphort.com
-CYPHORT Confidential
-
-

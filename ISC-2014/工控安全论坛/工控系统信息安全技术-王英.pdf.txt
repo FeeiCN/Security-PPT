@@ -1,254 +1,0 @@
- 
-  
-2014924
-China Internet Security Conference 2014 2014
-
- 
-ICS   
-ICS
-
---
-   WindowsLinux  " "
-
-ICS
-·   ­  ­  ­   ­  ­  
-
-
-  
-
-ICS
-20106Stuxnet  775 windows2SIMATIC WinCC
-
- 
-ICS   
-ICS
-
-
-  
-
- ?  ? 
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-   
-
-
-
-ITICS
-
- 
-ICS   
-ICS
-
-
-
-GB 17859   
-
-· : · : · : · : · :
-
-IEC
-
-2008.8 2008.5 2008.1 2007
-
-NETWORK & SYSTEM SECURITY
-IEC 62443 / ISA-99
-Cable & Installation IEC 61784-5-14
-Safety Comm. Profile IEC 61784-3-14
-High Availability Industrial Network
-IEC 62439-6(DRP)
-
-IEC 62443 / ISA-99 
-
-ISASecure EDSA Certification Program
-ISA/IEC-62443-4-2
-
-ISASecureTM Security Development Lifecycle Assurance (SDLA)
-
-· Security Management Process · Security Requirements Specification · Security Architecture Design · Security Risk Assessment (Threat Model) · Detailed Software Design · Document Security Guidelines · Module Implementation & Verification · Security Integration Testing · Security Process Verification · Security Response Planning · Security Validation Testing · Security Response Execution
-
-ISA/IEC-62443-4-1
-
- 
-ICS   
-ICS
-
-
-OPC, Modbus, ProfiNet/ ProfiBus, MMS, DNP3
-
-ICS
- 
-
-
-
-
-
-
-
- 
-
-
- 
-
- 
-
-  
-
-  
-
-  
-
-  
-
-    
-
-
-
-DHCP OPC WEB Video Office
-
-Interne
-
-Printer SAP OA MES DNS Client Client Client PC Laptop
-
-t
-
-Data Maintain Engineer WinCC Supervisory OPC WEB App Historian Station Station Station Stations Server Server Server
-
- 
-
-Mobile Eng.
-
-Primary
-
-Station Control Server
-
-Redundant SIEM Control Server
-
- 
-
-
-
-SCALANCE X-400
-
-PROFINET 1000M
-
-InSdCXAu-L4As0N0tCrEial Ethernet 
-SIS
-
-
-
-SCALANCE X-200
-
-S7-400
-
-SCALANCE W780
-
-
-
-S7-300
-
-
-
-ET200
-
-S7-300
-
-Motion Control
-
-HMI
-
-
-
-
-
-
- 
- 
- 
- 
-
- 
- 
-
-
-
-
-
-" "
-
-  administrator 
-
-
- UUSB  
-
- 
-
-
-
- 
- 
-"" 
- ""
- 
-
-
-
-
-
- IATF
-
-
-
-
- 
-ICS   
-ICS
-
-
- "" "(CSSP)" 
-
-
-2008 (Guide to Industrial Control Systems Security) (SCADADCSPLC)
-ISA() 2007 2009 ISA99 " "
-
-
-    
-
-
-   ICS 
-
-
-  
-   
-         
- OEM/        
-        
-
-
-
-  
-
-  
-
-  
-  
- 
-
-  
-
-Thanks!
-
-

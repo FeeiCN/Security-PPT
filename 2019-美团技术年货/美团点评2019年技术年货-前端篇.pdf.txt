@@ -1,2550 +1,0 @@
-
-
-
- MTFlexbox  Litho  MTFlexbox   React Native  beeshell 2.0  React Native 
- Android  ProbeAndroid  OOM   Web  React Native  TSLint  ESLint 
-App   iOS  zsource    Bifrost 
-
-1
-2 2 14 28 61
-85 85 115 135 144 165
-182 182 190 198 219
-
-iv> 2019 
-
- Litho  Android  Java 8  
-
-235 235 252 270
-
-
-  HTML  JS        App   
-
-2> 2019 
-
-
-
-MTFlexbox 
-
-
-
-  App   "" Bug  ----MTFlexbox
-MTFlexbox   MTFlexbox      MTFlexbox  MTFlexbox   MTFlexbox 
-MTFlexbox 
-MTFlexbox 
-MTFlexbox  CSS3  Flexbox MTFlexbox  Flexbox 
-
-<3  XML   JSON  JSON  Native  MTFlexbox 
-MTFlexbox 
- MTFlexbox  XML   Native  Android  XML                                  MTFlexbox  XML  XML   UI  UI   XML   View MTFlexbox  XML  View  Node   XML  Node  Node  View MTFlexbox  3   XML  Node  View  View  XML  View rootView Node  View  JSON  Native 
-
-4> 2019 
-MTFlexbox 
-MTFlexbox  Native  UI   MTFlexbox  XML  MTFlexbox   App  
- 
-  MTFlexbox 
-MTFlexbox 
-   MTFlexbox  UI MTFlexbox 
-
-<5 
-  Tag  MTFlexbox  
-  Native   see-mge4-report  
-<Container style="width:360pt;justify-content:center;" > <Var name="see_MGE4" type="json"> { "bid":"xxxxx", "cid":"yyyyy", "lab":{ "isDynamic":true, "gather_index":"{extra.gather_index}", "index":"{extra.index}"
-
-6> 2019 
-} } </Var> <Container
-see-mge4-report="{see_MGE4}" click-url="{business.iUrl}" visibility="{{display.itemDynamic. imageUrl}?visible:displaynone}" > <Img style="width:331pt;height:106pt;justify-content:center;"
-border-radius="5pt" scale-type="center-crop" src="{display.itemDynamic.imageUrl}" background="#FFF8F8F8" /> </Container> </Container>
-MTFlexbox 
-MTFlexbox 
- MTFlexbox   
-  
- 
-
-<7   5PD 5PD  5  1PD     XML  30%        ""  MTFlexbox                                    MTFlexbox "" ""   
-
-
-8> 2019 
-
-
-   
-Mixpanel
-Mixpanel  IDE   
-HubbleData
-HubbleData  
-
-<9
- XPath  View    XPath  ViewGroup  View 
-  0       Button    XPath   LinearLayout[0]/ FrameLayout[0]/RelativeLayout[1]/Button[1]    XPath       ViewGroup     View                             0       Button  XPath LinearLayout[0]#rootView/FrameLayout[0]/ RelativeLayout[0]#container/Button[0]#btn      
-
-10> 2019 
-
-
-MTFlexbox  1.  XML  XML 
- MTFlexbox  2. MTFlexbox 
-  3.  DPath    
-
-<11
-
-4.     RD 
-
-5. MTFlexbox  XML  C 
-
-12> 2019 
-<?xml version="1.0" encoding="UTF-8"?> <Container>
-<Var auto-mge="true" name="ff510aa110844bb78c0b86fb04b26460" type="json">
-{ "bid" : "xxxxx", "cid" : "sssss", "lab" : { "index" : "{_index}", }
-} </Var>
-<!--  --> <Container background="#FFFFFF" border-radius="10pt"
-click-mge4-report="{ff510aa110844bb78c0b86fb04b26460}" click-url="{_iUrl}" padding-left="10pt" padding-right="10pt"> <!--  --> <Container style="flex-direction:column;justify-content:flexstart;margin-top:15pt;">
-6.  XML  
-
- MTFlexbox   80%  
- MTFlexbox  View   
-
-[1]  HubbleData  Android  [2]  mixpanel [3] 
-
-<13
-
-
-
-  DAU   /  30  PM /    App   AndroidiOSReactNativeFlexbox   AndroidiOS   tech@meituan.com
-
-14> 2019 
-Litho  MTFlexbox 
-
-MTFlexbox
-MTFlexbox    CSS3     Flexbox           MTFlexbox      HTMLReact NativeWeex  MTFlexbox   MTFlexbox   MTFlexbox  Litho 
-MTFlexbox 
-MTFlexbox  DSL " " JSON MTFlexbox 
- 1MTFlexbox 
-
-<15    MTFlexbox  Flexbox  DSL
-XML    XML 
-  
-   Flexbox 
- Native      MTFlexbox  MTFlexbox  XML  Java   JSON   Native  
- 2
-
-16> 2019 
-MTFlexbox 
- MTFlexbox     
- 
-MTFlexbox     Flexbox  Flexbox        Android LinearLayout Flexbox     8 
- 3
-   FPS 
-
-<17
- 
-RecyclerView  MTFlexbox    MTFlexbox  JSON   MTFlexbox  FPS  
- 4
-  RecyclerView  
-
-18> 2019 
-Litho
-Litho 
-Litho  UI  RecyclerView Litho   RecyclerView  Litho 
-Litho 
- Litho  Litho  RecyclerView  
-     
-
- MTFlexbox   MTFlexbox  ---- Litho   Litho  MTFlexbox  MTFlexbox  
-Litho + MTFlexbox 
-
-Litho  Litho  MTFlexbox  XML   Litho  Litho   Litho 
-
-<19  LithoView LithoView  Litho  View   Litho 
- 5Litho 
- 4  
- ----  MTFlexbox    Text Text  Litho  Prop  Litho  Prop    State  Prop   Litho     Updater Updater  State 
-
-20> 2019 
- 6
- Litho    
- 7
- 
-Litho  MTFlexbox  Flexbox  MTFlexbox ----Layer Layer  
-
-<21  Layer  z   Layer   Litho  Flexbox  Layer   Layer Flexbox   Flexbox   Layer  Flexbox  Flexbox   Litho  Flexbox  Layer  Litho   Flexbox  Litho  Flexbox 
- 8Litho 
-Litho  Flexbox  Yoga  Litho   Yoga  Yoga   Yoga   Layer  Layer  Layer  
-  
-
-22> 2019    Yoga  Layer 
- 9Layer 
- Layer  Layer  Yoga Yoga  Layer   Layer Layer   Layer 
-Litho  Litho Litho   Litho   Litho     State  State   State   Litho  FrescoImage  FrescoImage  DraweeDrawable  DraweeDrawable  Drawable 
-
-<23 DraweeDrawable    Glide GlideDrawable 
- MTFlexbox  Litho   Tag     MTFlexbox                    View            Litho                    MTFlexbox            Litho                  MTFlexbox   Litho  View  Litho  View  
- 10Litho  View 
- Litho  Android  View 
-
-24> 2019    
-   MTFlexbox   Litho  MTFlexbox 
- MTFlexbox   20  Litho  MTFlexbox  MTFlexbox  30M  
-
-<25
-
- 1MTFlexbox  (2) MTFlexbox   "" Litho         Litho               Litho     RecyclerView   MTFlexbox  MTFlexbox   Litho  3.2 ""
-
-26> 2019 
- MTFlexbox  Litho   LithoView 
-  Litho  FPS   MTFlexbox  2  
-
-Litho + MTFlexbox  App  
-
-<27
-  Litho  
-  RecyclerView  API   View 
-
-
-Litho Flexbox 
-
-
-
-  DAU   /  30 
-  /   App   AndroidiOSReactNativeFlexbox 
- AndroidiOS tech@ meituan.com
-
-28> 2019 
- React Native  beeshell 2.0 
-
-
- React Native RN 
- RN   RN 2018  11   RN  beeshell 1.0 1.0   RN   beeshell  2.0  3833  5  
-beeshell 2.0 
-
-<29
-
- Web  Native GUI  Web  Native   MV* AngularJS ReactVue.js  
-  RN  
-   
- UI  UI  
-  
-   
- RN  iOSAndroidWeb  
-
-
-30> 2019 
-
-  
-""  
-""  
-
-
-
-<31
-
-32> 2019 
-beeshell 2.0  1.0  RN  beeshell 2.0 
-
-
- 1.0  2.0  MTD Roo  beeshell 
-"" 
- MTD  
- Roo  MTD  UI  
- beeshell 2.0  Roo  Roo   
- beeshell  
-
-  
-   beeshell 1.0   F    ""
-
-<33
-  beeshell 1.0     ""
- RN iOSAndroidWeb   API   
-RN 
- MRNMRN  RN  RN  
-MRN  RN MRN   RN 
- RN MRN  
-  
-   MRN    
-  TypeScript TS TS  
-
-34> 2019 
-
- beeshell 1.0  beeshell 2.0  MTDRoo  Git Fork   
-MTD  beeshell 1.0  Roo  MTDbeeshell 2.0  Roo  
-
-
-<35
-  beeshell 1.0  MTD  50%  
-  MTD  MTD  Roo  Roo  
-  Roo  beeshell 2.0   
-  MTD  Roo   beeshell 
- beeshell  beeshell  
-
-UI 
-UI  
-UI  
-beeshell  Roo UI UI  PC  Web  RN  UI   UI UI 
-
-36> 2019 
-Roo Theme  UI  
-Roo Theme  SasS   JavaScript JS CSSLessSasSStylus 
-beeshell  Roo Theme  JS   UI 
-
-<37
-  Roo Theme    UI  " <  < " " "
-   Android   
-
-
-  App    App   App     beeshell    UI  beeshell  #ffd800
-
-38> 2019 
- UI  beeshell   beeshell  #ffa000 
- 
- beeshell 
- 
- beeshell 
-
-<39    beeshell Font Size 12141620  28  
- 
-Font Weightbeeshell NormalBold Normal Bold  Font Family
-Line Height  RN  =  * 1.2
-beeshell  
-
-40> 2019   UI 
- 
- App  beeshell  Button 
-
-  UI  beeshell  RN  StyleSheet.hairlineWidth  2px   beeshell  
-
- 
-
-<41           beeshell      Animated          FadeAnimated  SlideAnimated   beeshell   Button  FadeAnimated 
-Modal  FadeAnimated 
-
-42> 2019  Dropdown  SlideAnimated 
-
-<43
-
- C  B   M 
- API 
-
-"" ""  ""
-  
- BottomModal 
-
-44> 2019 
-
-""Brand Primary Dark beeshell 
- """"""
-  
-
- LabelText String LabelTextStyle TextStyle 
-
-<Text style={this.props.labelTextStyle}>{this.props.labelText || '  '}</Text>
-LabelText  LabelTextStyle 
-
-<45 
-  Style  xxxColor  
- Style  Color fontSizefontWeight  
-                               labelTextStyle
-
-
- Label  ReactElement  UI
-
-46> 2019  
-
-  
- / 
- beeshell 1.0   
- 
- SlideModal   
-
-<47
- BottomModal  SlideModal  
-
-48> 2019 
- BottomModal   SlideModal 
-
-<49
-  ""
-       RN                     
-
-50> 2019  beeshell 
- "" 
-
- 
-
-   6  50  
-beeshell  38 
-
-<51
-beeshell  Antd Mobile RN  NativeBase  React Native Elementbeeshell   
-
-
-
-52> 2019  UI 
-        UI  UI         SlideModal  
-SlideModal   / 
-
- UI 
-
-<53
-
- UI SlideModal  (offsetX, offsetY)   /  4   3  N-2  12 
- RN Slide-
-
-54> 2019  Modal 
- RN  SlideModal 
-SlideModal 
-
-<55
-beeshell Dropdown Popover 
- SlideModal Slider  Rate  UI  
-
-
-
-
-
-  Web  App   Form  HTML Form Switch  iOS  UISwitch   UI                  InputRadioCheckboxSwitch   Value  onChange Checked  
-
- Style
-Data
-Value onChange onPress renderItem
-
-
-
-
-
-ViewStyle/TextStyle 
-
-Any[]
-
- { label: string, value: any, [props: string]: any } Label Value  
-
-Any
-
-
-
-Function
-
-
-
-Function
-
-
-
-Function
-
-
-
-56> 2019 
-
-
-         
-  API  Props  Methods 
- Props  Name | Type | Required | Default | Description  Methods  RN 
-
-beeshell "" 
-  
-   AppiOS  Android  
-
-<57
-
-  
-beeshell 1.0 """"beeshell 2.0    70%  80% 
-SonarQube 
-beeshell 2.0 ""  Detox 
-   
-
-58> 2019 
-
- 
-
- MRN JS  Native  beeshell  JS Native  APP   .appiOS .apkAndroid jsbundle  Native  Native  
-
-<59
-
-
- beeshell  JS 
-  beeshell 1.0  20+    React Native 
- 50+            APP                
-beeshell  100+   beeshell 2.0  38  15+   100+  
-
-60> 2019 
-
-Github  beeshell  
-
- beeshell 1.0   MATERIAL DESIGN
-
-  -  Web  99%   30%  -  VoIP Push doze 
-Shark Push  98%  -   Node 
- 10% 
-
- 26    FE JS CSS  Android  iOS  HybridFlutterReact Native  tech@meituan. com
-
-<61
-React Native 
-
-MRN 
-MRNMeituan React Native React Native   RN   Android/iOS/Web   MRN   App PV   1 
-MRN  React Native 0.54.3  React Native  0.60.5 MRN   JSI  JS  Native JS React Hooks MRN    App 
-
- 2013    3 
-1  H5+Native  
-
-62> 2019 
-H5   Native  
-2    Android  iOS   2   3  2018  2019  140%   2015 Facebook  React Native RNRN  Native JS  RN   RN  RN   RN   MRN  2018   MRN   
-
-
-
-<63
-
- App  MRN  
-  Android/iOS  MRN   MRN  App   Android  iOS 
-         MRN            1     
-Android  iOS 2     Android  iOS  RN  RN    MRN  Android  iOS  RN                               
-
-64> 2019 
-Android/iOS/RN  Debug 
-     UI AppMock      Bundle  APK  Bundle  APK   MRN      MRN 
-
- MRN 
-RN  30  Native  MRN  RN    MRN 
-
-<65
- Android  iOS   MRN  Android  iOS   JS  JS  Native  Android  iOS  MRN  Bundle   JS   WM-RN 
-
-66> 2019 
-    WM-RN          RN interfaceRN Native     RN JS  RN Interface     Native    Bridge    Native  JS  Native   Android  iOS RN Native  Android  iOS  RN  Native   RN JS  JS  App  Android  iOS  MRN  Beeshell  Native  RN Interface  Native  JS   JS   MRN 
-Native/MRN/H5 
- App NativeMRNH5 H5   Native  Native  RN  H5 
-
-<67  MRN  Native   
- Native  2  
- MRN   MRN
- H5  
-
-  MRN 
-
-68> 2019 
-   MRN  
-MRN  & 
-   2018  10  MRN  MRN  MRN    Git  Talos    SOP Git Talos   Horn     RN  4   R Talos  R   Talos  R  MRN  MRN  Native   RD  R  
-
-<69
-   Bundle   Bundle 
- Bundle   Bundle   RN Bundle  Bundle   ""   
- Bundle   Bundle  Git   MRN  package.jsonLint   RN Bundle  Bundle  Bundle   MRN  MRN    RD  Lint Git Hook 
- Bundle  =>  Bundle   MRN  Bundle  
-
-70> 2019   Bundle 
- Bundle  Bundle   Bundle ""  Bundle " Bundle"  Bundle  RN Bundle   Native 
- MRN MRN  Bundle  mrn-pack2  Bundle  mrn-pack2   Bundle
-
-<71
-   package.json
-    A  B      
-
-72> 2019   Pre-Commit  MRN 
-
-
- 
-1  RD  Git  R   RN  CodeReview  RN  2  RN Bundle   Talos Talos  Git  LintBuild  / 
-
-<73
-QALeader   CD  ­Eva Eva 
- RN Bundle  App SDK   RN Bundle  CDN 
-3  ---- App  App  MRN  RN     Cat  Talos  RDQA  RD  R  "" P1P0""" "    4 ""     B 
-
-74> 2019 
- Horn  MRN  Native  H5   RD  QA  CDN Eva Bundle 
- MRN  5    Review  Bug   MRN    
-
-
-
-<75
-
- +  MRN   QA  MRN     
-   MRN  Native   MRN  Native RD  
-  
-
-76> 2019 
-  MRN RD  QA  1 Bundle   2 Native  3 4
- MRN  
-  Bundle MRN  App   MRN  MRN 
- Bundle   QA  
-
- MRN  2  MRN   Android  iOS    MRN 
-1 MRN  2 MRN   H5 3 
-  Android 
-
-<77
-" """"  React Native "" MRN  "" Android  iOS " MRN   MRN 
-
-1  MRN  Native 
-   Debug Release 
-MRN  Native  MRN   MRN  JS  MRN     2   Native  MRN   3   iOSAndroid  MRN   iOSAndroid  MRN  
-
-78> 2019 
-
-""   App 
- App  C   App   C  MRN   App   App  MRN 
-  
-MRN 
- MRN   MRN Bundle  MRN  
-
-<79
- MRN  MRN Bundle  CDN   MRN   App DNS   App  App   99.9%    Bundle   Common  MRN SDK  99.99%   Bundle MRN PageLoad Success MRN  MRN   JS   App   Bundle  Bundle   99.9%   Bundle  JS
-
-80> 2019 
-Native  Bug  JS ErrorNative Crash    RN 
- JS Error JS Error  MRN PageExit Success
-JS Error  RN  JS  JS Error   App  Bundle   JS Error  PV  JS   JS Error  JS Error   JS Error  JS Error  Native Crash 
-MRN PageExit Success  MRN    JS Error   MRN   App  Bundle   99.9%  MRN PageExit Success  
-"" 
-
-<81
-MRN 
-  
- Bundle   Bundle  Load   FPS
-  Bundle     CommonJS iOS  50  90  0.3s  0.7s Android 50  90  1.3s  1.8s MRN  App   JS  Bundle    Bundle  RN   Bundle  JS StartApplication 
-
-82> 2019 
-iOS  Android  
- iOS 50  400ms JS   100ms  Bundle  JS Bundle  
- FPS  FPS FPS   MRN   BindingX  iOS   Android  55  JS-Native  MRN FPS  MRN  Android   50  90   FPS  
-
- MRN  RN    MRN  
- Android Native  +iOS Native  -RN  / Android Native  +iOS Native 
-  : RN  - / RN  +Android native+iOS Native
-
-<83  Android Native  +iOS Native 
- -RN / Android Native  +iOS Native   
-  Native   Native Module  Native Module MRN   50%  Android  iOS   50% RN bundle  Native   20%  50%  JS   100% JS   Native Module  
-
-   MRN
-
-84> 2019 
- 60  RN  PV  
- MRN    MRN
-
-  618RN   React Native    Weex   State of React Native 2018   React Native   iOS  React Native   React Native  beeshell 2.0   ESLint   CAT 3.0 
-
-
-
- AndroidiOSFE  / Base   tech@meituan.com
-
-
-
-<85
-
-Android 
-
-DevOps  CI(Continuous Integration)   Android   CheckStyleLintFindBugs    PR(Pull Request)  Jenkins   1~2min   Flavor  PR  8~9min  50% 
-
-
-
-
-       
-
-86> 2019   
-FindBugs    Java1.0~1.8    SpotBugs         Java8 SpotBugs  FindBugs  SpotBugs  SpotBugs  Java 
-                               CheckStyle FindBugs   Java  Lint   
-
-<87
-
- 
-
-Android        Gradle                  Gradle Task Gradle  Module  CheckStyleFindBugsLint  Task Android Task     Variant     Variant = Flavor * BuildType     Module  Flavor * BuildType *LintCheckStyle Findbugs * 
- Task  Varint   
-
-88> 2019 
- Task  FindBugs  Lint  Module CheckStyle   Module Variant 
-
-  CheckStyle  Lint   FindBugs Class 
-
-<89
-BCEL    Module  Variant 
-Module  Variant  PR  Module  Variant   Module  Variant  Variant   FindBugs  Class  Variant   Variant   PR  Variant  Jenkins Job  Variant  Variant   Module 
- Module   aar  Module   Module  CheckStyle  Java FindBugs  Java  Module   Module   Module 
-
- Module  Variant    PR    
-
-90> 2019 
-  Class     
-
-
- Module 
-    Module  Module  Module  Gradle "Project"  Project  Variant  Module Variant  Project 
-static Set<Project> collectDepProject(Project project, BaseVariant variant, Set<Project> result = null) {
-if (result == null) { result = new HashSet<>()
-} Set taskSet = variant.javaCompiler.taskDependencies. getDependencies(variant.javaCompiler) taskSet.each { Task task ->
-if (task.project != project && hasAndroidPlugin(task.project)) { result.add(task.project) BaseVariant childVariant = getVariant(task.project) if (childVariant.name == variant.name || "${variant.
-flavorName}${childVariant.buildType. name}".toLowerCase() == variant.name.toLowerCase()) {
-collectDepProject(task.project, childVariant, result) } } } return result }
- 
-
-<91
-projectSet.each { targetProject -> if (targetProject.plugins.hasPlugin(CodeDetectorPlugin) && GradleUtils.
-hasAndroidPlugin(targetProject)) { GradleUtils.getAndroidExtension(targetProject).sourceSets.all {
-AndroidSourceSet sourceSet -> if (!sourceSet.name.startsWith("test") && !sourceSet.name.
-startsWith(SdkConstants.FD_TEST)) { source sourceSet.java.srcDirs
-} } } }
- Source  CheckStyle Task 
-//  class  static final Collection<String> defaultExcludes = (androidDataBindingExcludes + androidExcludes + butterKnifeExcludes + dagger2Excludes).asImmutable()
-List<ConfigurableFileTree> allClassesFileTree = new ArrayList<>() ConfigurableFileTree currentProjectClassesDir = project.fileTree(dir: variant.javaCompile. destinationDir, excludes: defaultExcludes) allClassesFileTree.add(currentProjectClassesDir) GradleUtils.collectDepProject(project, variant).each { targetProject ->
-if (targetProject.plugins.hasPlugin(CodeDetectorPlugin) && GradleUtils. hasAndroidPlugin(targetProject)) {
-//  Flavor  buildType GradleUtils.getAndroidVariants(targetProject).each { BaseVariant
-targetProjectVariant -> if (targetProjectVariant.name == variant.name ||
-"${targetProjectVariant.name}". toLowerCase() == variant.buildType.name.toLowerCase()) {
-allClassesFileTree.add(targetProject.fileTree(dir: targetProjectVariant.javaCompile. destinationDir, excludes: defaultExcludes))
-} } } }
- FindBugsTask  Class 
- FindBugs Task 
-
-92> 2019   Lint  Lint Task 
- Lint 
-
- CheckStyle  FindBugs   9min  5min 
-
- 
-
-
-
-<93
- Lint 3.x   CheckStyle  FindBugs 
- diff_cover     FindBugs   Class 
-
- git diff   git diff ­ name-only ­diff-filter=dr commitHash1 commitHash2   PR   Jenkins  - ${targetBranch} - ${sourceCommitHash} hash 
-
-git remote add upstream ${upstreamGitUrl} git fetch upstream ${targetBranch} git diff --name-only --diff-filter=dr $sourceCommitHash upstream/$targetBranch
-1.  UpStream upstreamGitUrl  
-2. 
-
-94> 2019  3.  
-Lint 
- Lint  Lint 
-App Source Files  JavaXMLproGuard 
-lint.xml  Lint   lint.xml 
-lint Tool  Android  IDEAGradle  lint 
-lint Output Lint 
-Lint Tool  Lint Tool 
-
-<95 Android  IDEAGradle  LintDriver  
- build.gradle 
-compile 'com.android.tools.build:gradle:3.1.1' compile 'com.android.tools.lint:lint-gradle:26.1.1'
-
-
-96> 2019 
-lint-api-26.1.1 Lint  API  Lint
-lint-checks-26.1.1  Issue 
-lint-26.1.1  jar  Gradle  jar 
-lint-gradle-26.1.1  Gradle  lint-26.1.1 
-lint-gradle-api-26.1.1  Gradle Lint 
- jar  Lint   Gradle   LintDriver  Analyze 
-fun analyze() { ...  ...
-for (project in projects) { fireEvent(EventType.REGISTERED_PROJECT, project = project)
-} registerCustomDetectors(projects) ...  ...
-try { for (project in projects) { phase = 1
-val main = request.getMainProject(project)
-// The set of available detectors varies between projects computeDetectors(project)
-if (applicableDetectors.isEmpty()) {
-
-<97
-// No detectors enabled in this project: skip it continue }
-checkProject(project, main) if (isCanceled) {
-break }
-runExtraPhases(project, main) } } catch (throwable: Throwable) { // Process canceled etc if (!handleDetectorError(null, this, throwable)) {
-cancel() } } ...  ... }
-  registerCustomDetectors(projects) Lint   Lint 
-1.  Project  Library  client.findRuleJars   jar 
-2.  client.findGlobalRuleJars  jar   Android 
-3.  jarFiles  Registry   CompositeIssueRegistry Lint  jar   build/intermediaters/lint   ~/.android/lint/
- computeDetectors(project)  checkProject(project, main) 
-
-98> 2019 
- runFileDetectors Lint 
- Android  Lint Lint 
- Scope 
-fun infer(projects: Collection<Project>?): EnumSet<Scope> { if (projects == null || projects.isEmpty()) { return Scope.ALL }
-// Infer the scope var scope = EnumSet.noneOf(Scope::class.java) for (project in projects) {
-val subset = project.subset if (subset != null) {
-for (file in subset) { val name = file.name if (name == ANDROID_MANIFEST_XML) { scope.add(MANIFEST) } else if (name.endsWith(DOT_XML)) { scope.add(RESOURCE_FILE) } else if (name.endsWith(DOT_JAVA) || name.
-endsWith(DOT_KT)) { scope.add(JAVA_FILE)
-} else if (name.endsWith(DOT_CLASS)) { scope.add(CLASS_FILE)
-} else if (name.endsWith(DOT_GRADLE)) { scope.add(GRADLE_FILE)
-} else if (name == OLD_PROGUARD_FILE || name == FN_PROJECT_PROGUARD_FILE) {
-scope.add(PROGUARD_FILE) } else if (name.endsWith(DOT_PROPERTIES)) {
-scope.add(PROPERTY_FILE) } else if (name.endsWith(DOT_PNG)) {
-scope.add(BINARY_RESOURCE_FILE) } else if (name == RES_FOLDER || file.parent == RES_FOLDER) {
-scope.add(ALL_RESOURCE_FILES) scope.add(RESOURCE_FILE) scope.add(BINARY_RESOURCE_FILE) scope.add(RESOURCE_FOLDER) } } } else { // Specified a full project: just use the full project scope scope = Scope.ALL
-
-<99
-break } } }
- Project  Subset  NullScope  Scope.ALL
- Detector 
-
- Project  Subset  Null Subset  Subset 
-Subset 
- runFileDetectors
-if(scope.contains(Scope.JAVA_FILE)||scope.contains(Scope.ALL_JAVA_FILES)){ val checks = union(scopeDetectors[Scope.JAVA_
-FILE],scopeDetectors[Scope.ALL_JAVA_FILES]) if (checks != null && !checks.isEmpty()) { val files = project.subset if (files != null) { checkIndividualJavaFiles(project, main, checks, files) } else { val sourceFolders = project.javaSourceFolders val testFolders = if (scope.contains(Scope.TEST_SOURCES)) project.testSourceFolders else emptyList<File> () val generatedFolders = if (isCheckGeneratedSources) project.generatedSourceFolders else emptyList<File> () checkJava(project, main, sourceFolders, testFolders,
-generatedFolders, checks) }
-} }
- project.subset  Java 
- runFileDe-
-tectors 
-
-100> 2019 
-1. Scope.MANIFEST
-2. Scope.ALL_RESOURCE_FILES)|| scope.contains(Scope.RE-
-SOURCE_FILE) || scope.contains(Scope.RESOURCE_FOLDER) ||
-scope.contains(Scope.BINARY_RESOURCE_FILE)
-3. scope.contains(Scope.JAVA_FILE) || scope.contains(Scope.ALL_
-JAVA_FILES)
-4. scope.contains(Scope.CLASS_FILE) || scope.contains(Scope.ALL_
-CLASS_FILES) || scope.contains(Scope.JAVA_LIBRARIES)
-5. scope.contains(Scope.GRADLE_FILE)
-6. scope.contains(Scope.OTHER)
-7. scope.contains(Scope.PROGUARD_FILE)
-8. scope.contains(Scope.PROPERTY_FILE)
-
- project.subset 
-/** * Adds the given file to the list of files which should be
-checked in this * project. If no files are added, the whole project will be
-checked. * * @param file the file to be checked */
-public void addFile(@NonNull File file) { if (files == null) { files = new ArrayList<>(); } files.add(file);
-}
-/** * The list of files to be checked in this project. If null, the
-whole * project should be checked. * * @return the subset of files to be checked, or null for the
-whole project */
-
-<101
-@Nullable public List<File> getSubset() {
-return files; }
- Files  Null 
-Lint  Gradle 
- Lint  Gradle   ./gradlew lint  Lint  Android  Gradle  Verification  Lint 
- Android Gradle   Task
- lint->LintGlobalTask TaskManager   lintDebuglintReleaselintVitalRelease->LintPerVariantTask 
-ApplicationTaskManager  LibraryTaskManager  lintVitalRelease  release 
-
-102> 2019 
- Android Gradle  Lint  LintGlobalTask
- LintPerVariantTask Variant
- Variant Variant 
- LintGlobalTask  LintPerVariantTask
- LintBaseTask LintGradleExecution  runLint 
- lint-gradle-26.1.1  Lint  API 
-Gradle 
-/** Runs lint on the given variant and returns the set of warnings */ private Pair<List<Warning>, LintBaseline> runLint( @Nullable Variant variant, @NonNull VariantInputs variantInputs, boolean report, boolean isAndroid) { IssueRegistry registry = createIssueRegistry(isAndroid); LintCliFlags flags = new LintCliFlags(); LintGradleClient client = new LintGradleClient( descriptor.getGradlePluginVersion(), registry, flags, descriptor.getProject(), descriptor.getSdkHome(), variant, variantInputs, descriptor.getBuildTools(), isAndroid); boolean fatalOnly = descriptor.isFatalOnly(); if (fatalOnly) { flags.setFatalOnly(true); } LintOptions lintOptions = descriptor.getLintOptions(); if (lintOptions != null) { syncOptions( lintOptions, client, flags, variant, descriptor.getProject(), descriptor.getReportsDir(), report, fatalOnly); } else { // Set up some default reporters
-
-<103
-flags.getReporters().add(Reporter.createTextReporter(client, flags, null,
-new PrintWriter(System.out, true), false)); File html = validateOutputFile(createOutputPath(descriptor. getProject(), null, ".html",
-null, flags.isFatalOnly())); File xml = validateOutputFile(createOutputPath(descriptor. getProject(), null, DOT_XML,
-null, flags.isFatalOnly())); try {
-flags.getReporters().add(Reporter. createHtmlReporter(client, html, flags));
-flags.getReporters().add(Reporter. createXmlReporter(client, xml, false));
-} catch (IOException e) { throw new GradleException(e.getMessage(), e);
-} } if (!report || fatalOnly) {
-flags.setQuiet(true); } flags.setWriteBaselineIfMissing(report && !fatalOnly);
-Pair<List<Warning>, LintBaseline> warnings; try {
-warnings = client.run(registry); } catch (IOException e) {
-throw new GradleException("Invalid arguments.", e); }
-if (report && client.haveErrors() && flags.isSetExitCode()) { abort(client, warnings.getFirst(), isAndroid);
-}
-return warnings; }
-           warnings = client.run(registry)    Lint 
- Lint 1. 
-IssueRegistry    Lint    BuiltinIssueRegistry2.   LintCliFlags
-3.  LintGradleClient Gradle Android 
-4.  LintOptions build.gralde 
- Lint  DSL  LintCliFlags Lint 
-
-104> 2019 
-5.  Client  Run  
- client.run(registry) Client  Client   Client  Gradle  Lint API   LintBaseTask  
-FindBugs 
-FindBugs  JAR  Apache  BCEL  ClassFindBugs  3.0.1  300  FindBugs   Gradle  FindBugs 
-Gradle FindBugs 
- Gradle  FindBugs  Task Gradle 
-
- Classes  Class   Class 
- Classpath  Class  Classes  
- Effort  MINDefaultMAX  findBugs ClasspathFinbugs   reportLevel       LowMediumHigh    Low  
-
-<105 Bug  High High   Reports   FindBugs  Classes  
-FindBugs 
- FindBugs IDEA  
- Analyze Current File 
- 
-
-106> 2019 
-   Java res 
-   Class  Build  Java 
- Class 
-
-<107
- Aux Classpath Entries, 
- IDEA   Gradle  FindBugs lib   Task  FinBugs  
- AuxClasspath
-ClassPath  Class  
-FileCollection buildClasses = project.fileTree(dir: "${project. buildDir}/intermediates/classes/${variant.flavorName}/${variant. buildType.name}",includes: classIncludes)
-FileCollection targetClasspath = project.files() GradleUtils.collectDepProject(project, variant).each { targetProject ->
-GradleUtils.getAndroidVariants(targetProject).each { targetVariant -> if (targetVariant.name.capitalize().equalsIgnoreCase(variant.
-name.capitalize())) { targetClasspath += targetVariant.javaCompile.classpath
-} } }
-classpath = variant.javaCompile.classpath + targetClasspath + buildClasses
-FindBugs 
- 
-class A { public static String buildTime = ""; ....
-}
-
-108> 2019 
- buildTime  Final
-         A        BUG_TYPE_MS_SHOULD_BE_
-FINAL Findbugs-IDEA 
- A A 
- A 
- ASM 
-void findAllScanClasses(ConfigurableFileTree allClass) { allScanFiles = [] as HashSet String buildClassDir = "${project.buildDir}/$FINDBUGS_ANALYSIS_
-DIR/$FINDBUGS_ ANALYSIS_DIR_ORIGIN"
-Set<File> moduleClassFiles = allClass.files for (File file : moduleClassFiles) {
-String[] splitPath = file.absolutePath.split("$FINDBUGS_ ANALYSIS_DIR/$FINDBUGS_ ANALYSIS_DIR_ORIGIN/")
-if (splitPath.length > 1) { String className = getFileNameNoFlag(splitPath[1],'.') String innerClassPrefix = "" if (className.contains('$')) { innerClassPrefix = className.split('\\$')[0] } if (diffClassNamePath.contains(className) ||
-diffClassNamePath.contains(innerClassPrefix)) {
-allScanFiles.add(file) } else {
-Iterable<String> classToResolve = new ArrayList<String>()
-classToResolve.add(file.absolutePath) Set<File> dependencyClasses = Dependencies. findClassDependencies(project, new ClassAcceptor(), buildClassDir, classToResolve) for (File dependencyClass : dependencyClasses) {
-if (diffClassNamePath. contains(getPackagePathName(dependencyClass))) {
-allScanFiles.add(file) break } } } } } }
-
-<109
- IDEA  
-CheckStyle 
-CheckStyle CheckStyle   Source  
-void configureIncrementScanSource() { boolean isCheckPR = false DiffFileFinder diffFileFinder
-if (project.hasProperty(CodeDetectorExtension.CHECK_PR)) { isCheckPR = project.getProperties().get(CodeDetectorExtension.
-CHECK_PR) }
-if (isCheckPR) { diffFileFinder = new DiffFileFinderHelper.PRDiffFileFinder()
-} else { diffFileFinder = new DiffFileFinderHelper.LocalDiffFileFinder()
-}
-source diffFileFinder.findDiffFiles(project)
-if (getSource().isEmpty()) { println '  java  checkStyle  '
-} }
- PR  50%+
-
-110> 2019 
-
-      
-
- FindBugs   PR   CI  Daily Build 
-
-<111
-
-
-
-apply plugin: 'code-detector'
-
-codeDetector { //  reportRelativePath = rootProject.file('reports')
-
-/** *  pr  */
-upstreamGitUrl = "ssh://git@xxxxxxxx.git"
-
-checkStyleConfig {
-
-/** *  CheckStyle  * true * false
-
-*/
-
-enable = true
-
-/** *  * false * true CheckStyleTask 
-
-
-*/
-
-ignoreFailures = false
-
-/** *  * true * false
-
-*/
-
-showViolations = true
-
-/** *  checkstyle.xml  checkstyle.xsl  uri * 
-
-*
-
-"${checkStyleUri}/checkstyle.xml"
-
-*
-
-"${checkStyleUri}/checkstyle.xsl"
-
-* *  null CodeDetector 
-
-*/
-
-checkStyleUri = rootProject.file('codequality/checkstyle')
-
-}
-
-findBugsConfig { /** *  Findbugs  * true
-
-112> 2019 
-
-* false
-
-*/
-
-enable = true
-
-/**
-
-*  max * min, default, or max. max  bug  . min 
-
-*/
-
-effort = "max"
-
-/** *  high
-
-* low, medium, high.  low  bug
-
-*/
-
-reportLevel = "high"
-
-/**
-
-*  findbugs_include.xml  findbugs_exclude.xml  uri * 
-
-*
-
-"${findBugsUri}/findbugs_include.xml"
-
-*
-
-"${findBugsUri}/findbugs_exclude.xml"
-
-*  null CodeDetector 
-
-*/
-
-findBugsUri = rootProject.file('codequality/findbugs')
-
-}
-
-lintConfig {
-
-/** *  lint  * true * false */
-enable = true
-
-/** *  lint.xml  retrolambda_lint.xml  uri
-
-* 
-
-*
-
-"${lintConfigUri}/lint.xml"
-
-*
-
-"${lintConfigUri}/retrolambda_lint.xml"
-
-*  null CodeDetector 
-
-*/
-
-lintConfigUri = rootProject.file('codequality/lint')
-
-}
-
-}
-
- 
-
-
-<113
-./gradlew ":${appModuleName}:assemble${ultimateVariantName}" -PdetectorEnable=true -PcheckStyleIncrement=true -PlintIncrement=true -PfindBugsIncrement=true -PcheckPR=${checkPR} -PsourceCommitHash=${sourceCommitHash} -PtargetBranch=${targetBranch} --stacktrace
- 
-def finalizedTaskArray = [lintTask,checkStyleTask,findbugsTask] checkCodeTask.finalizedBy finalizedTaskArray
-"open ${reportPath}".execute()
- PR  PR   Flavor  CI  Job  Flavor   Job 
- LintFinbugsCheckStyle   Lint   
-
- CheckStyle   FindBugs   Android Lint   Lint   FindBugs    Android Lint   Gradle     Android Gradle 
-
-114> 2019 
-
-
-
- AndroidJava  / Base   tech@meituan.com
-
-<115
-ProbeAndroid  OOM 
-
- App    App  App   Crash  Crash  OOM   App  App  App  OOM 
- OOM ----Probe Probe  Probe  OOM 
-OOM 
-   OOM          Android          OOM Android  OOM 
-
-116> 2019 
-Android  OutOfMemoryError  /art/runtime/thread.cc
-void Thread::ThrowOutOfMemoryError(const char* msg)  msg  OOM 
-                OutOfMemoryError      Android  OOM 
-
-/art/runtime/gc/heap.cc
-void Heap::ThrowOutOfMemoryError(Thread* self, size_t byte_count, AllocatorType allocator_ type) 
-oss << "Failed to allocate a " << byte_count << " byte allocation with " << total_bytes_free << " free bytes and " << PrettySize(GetFreeMemoryUntilOOME()) << " until OOM";
-
-<117
- OOM 
-1.                   Runtime.getRuntime.MaxMemory()  Android   OOM Android  OOM 
-2.                OOM        failed due to fragmentation (required continguous free"<< required_bytes <<
-"bytes for a new buffer where largest contiguous free"<< largest_ continuous_free_pages <<" bytes)";       art/runtime/gc/ allocator/rosalloc.cc 
-
-/art/runtime/thread.cc
-void Thread::CreateNativeThread(JNIEnv* env, jobject java_peer, size_t stack_size, bool is_ daemon) 
-"Could not allocate JNI Env" 
-StringPrintf("pthread_create (%s stack) failed: %s", PrettySize(stack_size).c_str(), strerror(pthread_create_result)));
- OOM   Android  JNIEnv  OOM
-
-118> 2019 
- JNI 
- JNIEnv     Andorid       Anonymous Shared Memory  4KB  page   Linux  mmap   /dev/ashmem  FD  FD  JNIEnv  
-E/art: ashmem_create_region failed for 'indirect ref table': Too many open files
-java.lang.OutOfMemoryError: Could not allocate JNI Env at java.lang.Thread.nativeCreate(Native Method) at java.lang.Thread.start(Thread.java:730)
- mmap  JNIEnv 
-E/art: Failed anonymous mmap(0x0, 8192, 0x3, 0x2, 116, 0): Operation not permitted. See process maps in the log. java.lang.OutOfMemoryError: Could not allocate JNI Env
-at java.lang.Thread.nativeCreate(Native Method)
-
-at java.lang.Thread.start(Thread.java:1063)
-
-<119
-
-
-
-1.  mmap  mmap flag  MAP_ANONYMOUS  Linux   
-2.  clone 
-
-W/libc: pthread_create failed: couldn't allocate 1073152-bytes mapped space: Out of memory W/tch.crowdsourc: Throwing OutOfMemoryError with VmSize 4191668 kB "pthread_create (1040KB stack) failed: Try again" java.lang.OutOfMemoryError: pthread_create (1040KB stack) failed: Try again
-at java.lang.Thread.nativeCreate(Native Method) at java.lang.Thread.start(Thread.java:753)
- clone 
-W/libc: pthread_create failed: clone failed: Out of memory W/art: Throwing OutOfMemoryError "pthread_create (1040KB stack) failed: Out of memory" java.lang.OutOfMemoryError: pthread_create (1040KB stack) failed: Out of memory
-at java.lang.Thread.nativeCreate(Native Method) at java.lang.Thread.start(Thread.java:1078)
-
-OOM 
- OOM  OOM   OOM 
-
-120> 2019 
-OOM Probe  OOM 
-
-Android      OOM   Java                OOM  Crash "" 
-    Java  Debug.dumpHprofData(String fileName)  Java  HPROF  dump  OOM  dump 
-  Probe                       1S              Runtime.getRuntime.totalMemory()-Runtime. getRuntime.freeMemory()   dump 
- HPROF    HPROF   
-
-
-
-<121
- Dominator GC Roots   DominatorB  E  Dominator B  F  Dominator
- ShallowSize  RetainSize ShallowSize 
- ShallowSize  GC  D  RetainSize  DHI  ShallowSize  JVM  GC  GC Roots   GC Roots   Github  HAHA  Java   HPROF  HAHA 
-
-122> 2019 
- App  HAHA  HPROF  
- OOM  OOM    256MB 
- 200  MB OOMDump  250  MB 70MB    256MB  200 72   OOMDump  250  MB  OOM   HPROF  Instance   HPROF  Instance  OOM
-
-<123
-HPROF  Snapshot   Object  Class 
-HPROF 
-// 1.  HprofBuffer    ByteBuffer  HprofBuffer buffer = new MemoryMappedFileBuffer(heapDumpFile); // 2.  Hprof  HprofParser parser = new HprofParser(buffer); // 3.  Snapshot snapshot = parser.parse(); // 4.  gcRoots deduplicateGcRoots(snapshot);
- OOM  HprofParser   Instance   ClassInstance  ArrayInstance key   Instance  Snapshot  Instance  Intsance  Instance  Instance  OOM  Instance  RetainSize 
-
-124> 2019   Instance  RetainSize
-   HAHA  PC    RetainSize  RetainSize   Instance  OOM ""
- Reference   Instance  Instance  Instance  RetainSize
- Instance  RetainSize  TOP N  Instance
-
-<125  N  RetainSize  Instance  Instance  
- 5  Instance   Instance Instance  RetainSize  5%  Instance  RetainSize  
-
-
-126> 2019      HAHA                        
-Instance  ArrayInstance byte   RetainSize  Instance  Instance 
- HAHA   OOM 
-Probe  RetainSize  Top N  GC Roots    Bitmap  2MB 
-
-<127  Bitmap  Timer   4  Instance Instance  Retain Size  595634 4*595634=2.27MB
- HPROF 
- Probe   65%
- HPROF   HPROF  MB 
- HPROF    MB  HPROF  HPROF  
-Debug.dumpHprofData()  VMDebug   /art/runtime/hprof/hprof.ccHPROF   HAHA  hrpof.cc 
-HPROF 
-
-128> 2019 
- HPROF      id    Class 
-    
- TAG   TAG 
- TAG  hrpof.cc 
-
-<129
-  OOM  
- dump  Java   20s dump  Native  
- dump   
-
-130> 2019 
- GOT  Hook  Hook  Hook  hrpof.cc   
- IO  open  write  HookHook   xHook 
- dump  Native  open   Hook  FD  write  
- dump  write   Hook  so   FD  FD  origin-write 
- mini-file  mini-file   0 
- HPROF  HPROF  Android Studio   HPROF   HPROF  
-
- Android 7.X  Probe  dump 
-
-<131
- HPROF  
-Probe  dump   Native Native   open  write  Hookhookopen  open  path  path   path  open FD open  hookwrite  FD  hookopen  FD   FD  write FD   write dump   HPROF  HPROF 
-
-132> 2019 
-
-
- OOMProbe   
-/proc/sys/kernel/threads-max   500  1W   /proc/pid/ status  VmPeak/VmSize 
- Thread.getAllStackTraces()  
-    "crowdSource msg"  
-
-
-thread name: Thread[nio_tunnel_handler,5,main] count: 1 thread name: Thread[OkHttp Dispatcher,5,main] count: 30 thread name: Thread[process_read_thread,5,main] count: 4 thread name: Thread[Jit thread pool worker thread 0,5,main] thread name: Thread[crowdSource msg,5,main] count: 202 thread name: Thread[Timer-4,5,main] count: 1 thread name: Thread[mqt_js,5,main] count: 1
-
-count: 1
-
-threadnames:Thread[Thread-5,5,main] count:1 trace: java.lang.Object.wait(NativeMethod) com.dianping.networklog.d.run(UnknownSource:28)
-
-<133
-FD 
- FD  JNIEnv     OOM     FD                  OOM  FD  Probe  FD  1s   FD  FD FD  95%  FD 
- /proc/pid/limits  Linux  Max open files  FD 
- FD  /proc/pid/fd  /proc/pid/fd FD 
- FD 
-File fdFile=new File("/proc/" + Process.myPid() + "/fd"); File[] files = fdFile.listFiles(); int length = files.length; //  fd  for (int i = 0; i < length ; i++) {
-if (Build.VERSION.SDK_INT >= 21) { Os.readlink(files[i].getAbsolutePath()); // 
-} else { //6.0  readlink 
-} }
- FD  FD FD   socket  handlerThread 
- anon_inode:[eventpoll]  anon_inode:[eventfd]  handlerThread
-
-134> 2019 
-
- FD  FD 
-
-anon_inode:[eventpoll] count: 381 anon_inode:[eventfd] count: 381 pipe count 26 socket count 32 /system/framework/framework-res.apk count: 1
-.......... Thread  thread name: Thread[Jit thread pool worker thread 0,5,main] thread name: Thread[mtqq handler,5,main] count: 302 thread name: Thread[Timer-4,5,main] count: 1 thread name: Thread[mqt_js,5,main] count: 1
-
-count: 1
-
-
-Probe           Java     FD          OOM  Android  Probe  OOM   OOM Crash  2 0.02  Probe  HPROF  7.X  Native  
-
- App   App  
-
- App  App   App App App   tech#meituan.com
-
-<135
- Web 
-
-  Web  Web ""  Web 
- Web 
- Web  ""  API """" 
-""  7  1   
- ""
-
- Web  
-
-136> 2019 
- Web  Web  Web   H5  PC  
-  IP    Web  SDK" " Web API 
-   
- Web   Google 
-Google 
-Google  reCAPTCHACompletely Automated Public Turing Test To Tell Computers and Humans Apart  reCAPTCHA 
-
-<137  reCAPTCHA  "" reCAPTCHA  AI 
-reCAPTCHA  
-  reCAPTCHA "" 
-Google  Web  Web   Web  
-
- 
- Web  
- 1Web   
- 2 Web 
-
-138> 2019 
- 3
-123  
-
- ""  
- 
-1.  2.  3.  4. 
-  
-  
- JS   100  5   
-
-<139
-  
-""  "" 
-
-
-1. Web API  HTTPS   Token Token
-2.  
-Token 
-Token  Web   Token Token   Token  Cookie   Token Token  Token  Token 
-Token  Token  10  Redis   Token Token  KV   10 
- Cookie  Token Token 
-
-140> 2019 
- Cookie  Token Cookie  Token Token Token  Redis  
-Token 
-     API 
-
-    
-
- Web  "" ""
- Web    
-""
-
- JS  
-
-<141   Uglify.js    
-  
-  Source Map  
-""
-
- 
-
-142> 2019 
- Step 0  Nginx   403  Web  Step 1 Token  Step 0  Web  Web   Token Step 2   Step 3 HTTPS  Token  Authorization  Header   CSRF  Step 4  Token  Token
-
-<143
-
-Step 5    
-
- Web   
- API  """" 
- Web   Web   Web  " "
-
- https://www.google.com/recaptcha/intro/v3.html  https://segmentfault.com/a/1190000006226236  https://www.freebuf.com/articles/web/102269.html
-
- Web 2015  SDK  
-
-144> 2019 
- React Native  TSLint  
-
-
-  Bug    Review      Static Program Analysis                                       Dynamic Program Analysis    Android  CheckStyleLintFindbugsPMD  iOS  Clang Static AnalyzerOCLint  React Native   JavaScript  ESLint TypeScript  TSLint  TSLint  TSLint  TSLint 
- TSLint 
- React Native 
-
-<145
-1.  React Native  2.  AndroidiOS
- 3.  Android iOS 
-
- Review  React Native    
-1.  2.  3.  4. "" IDE  5.  IDE  6. 
- TSLint 
-TSLint 
-TSLint  Palantir  TypeScript  Editors Build Systems Lint 
- TSLint  TSLint    TSLint  https://palantir.github. io/tslint/
-
-146> 2019 
-TSLint 
- TSLint 
-TSLint 
-
-<147
- TSLint 
- 2.1  Palantir  TSLint  
-TSLint 
- 
- TSLint 
- package.json  TSLint 
-
-148> 2019 
-TSLint 
- tslint.json 
-TSLint 
- extends  TSLint  airbnb  tslint-react  rules 
-TSLint  true  false  ERROR WARNING 
- 
-/* tslint:disable */
- TSLint  
-/* tslint:enable */
-
-<149
- TSLint  
-/* tslint:disable:rule1 rule2 rule3... */
- rule1 rule2 rule3...
-/* tslint:enable:rule1 rule2 rule3... */
- rule1 rule2 rule3...
-// tslint:disable-next-line
- TSLint 
-someCode(); // tslint:disable-line
- TSLint 
-// tslint:disable-next-line:rule1 rule2 rule3...
- rule1 rule2 rule3...  https://palantir.github.io/tslint/usage/ruleflags/
-
- npm install 
-IDE  IDE   VSCode 
-
-150> 2019 
-TSLint 
- VSCode    React Native 
-tslint --project tsconfig.json --config tslint.json
- ./node_modules/.bin/
-./node_modules/.bin/tslint --project tsconfig.json --config tslint.json
-
-src/Components/test.ts[1, 7]: Class name must be in pascal case
- CI 
-  CI  CI   Jenkins  Castle CI 
-
-<151
-TSLint 
-
- commitpull request 
-  commit  Hook  CI  CI 
-  pull request  CI  
-  CI  
- TSLint 
- TSLint 
- TSLint  
-1. saga  try-catch catch  TSLint  
-2.   TSLint  tslint-microsoft-contribtslint-eslint-rules 
-
-152> 2019 
-
- TSLint   
-TSLint 
- "class-name"
-" class-name"                         "-
-
-<153 class-name"https:// github.com/palantir/tslint/blob/master/src/rules/classNameRule.ts
-
-TSLint 
-
-154> 2019  
-TSLint 
- 2  1.  2.  'Rule'    Rule Lint.Rules.AbstractRule   TypedRule   Lint.Rules.AbstractRule 
-TSLint 
- metadata  metadata 
-
-<155
- ruleName   description   descriptionDetails   rationale   options  null  optionExamples    typescriptOnly true/false  TypeScript  hasFix true/false   requiresTypeInfo   optionsDescrition options   type 
-"functionality""maintainability""style""typescript"
- functionality   maintainability  style  typescript TypeScript  
-TSLint 
- 
- apply  apply                   applyWithFunction       applyWithWalker          applyWithFunction   
-
-156> 2019  applyWithWalker  applyWithWalker  IWalker   IWalker 
-TSLint
- IWalker  AbstractWalker  WalkContext
-TSLint
- WalkContext  applyWithFunction 
-
-<157
-TSLint
-  applyWithFunction  applyWithWalker  IWalker   sourceFile  ts.forEachChild   AST   AST Explorerhttps://astexplorer.net/
-https://github.com/fkling/astexplorer  TypeScript AST Viewerhttps://ts-ast-viewer.com/
-https://github.com/dsherret/ts-ast-viewer AST Explorer   AST Explorer  AST   1. 
-TSLint
-
-158> 2019  2. 
-TSLint
-TypeScript AST Viewer  1. 
-TSLint
-2. 
-
-<159
-TSLint
- kind  
-TSLint
-
-160> 2019    AST     ts.forEachChild 
- ts.Node
-TSLint
- kind  Node  StatementExpressionDeclaration        "class-name"    class  interface  ClassExpression ClassDeclarationInterfaceDeclaration AST  
-TSLint
-
-<161  isClassLikeDeclarationisInterfaceDeclaration  
-TSLint
- isClassLikeDeclarationisInterfaceDeclaration  node.js 
-TSLint
-TSLint
- addFailureAtNode   addFailureAtaddFailure 
-
-162> 2019 
-TSLint
-  kind 
-  ts  ts  js   ts  js 
-tsc ./src/*.ts --outDir dist
- ts  dist  tslint.json  
-TSLint
-
-
-<163
-tslint --project tsconfig.json --config tslint.json
- 
-
-TSLint 
-1.   CI  React Native  1  2 
-2.  Bug 3. 
- TSLint 
-1.  2.  3. TSLint 
- AST    TSLint     TSLint  React Native    TSLint  React Native  React
-
-164> 2019 
-Native  
-    """"
-
- Android 2017 
-
-<165
-ESLint 
-
-
-   JavaScript   JavaScript  JSLintJSHint ESLintFECS ----ESLint  JavaScript  AST Abstract Syntax Tree
-ESLint  ESLint  /   ESLint    eslint-config-airbnb  eslint-config-standard
-  ESLint  JavaScript   husky  lint-staged   JavaScript  
-
- ESLint  
-
-
-166> 2019 
-  Web  Node.jsReact Native Electron
-                         React/Vue JavaScript/TypeScript 
-  ESLint  
-
-     
- 
-  ESLint     JavaScript       
-    
-   
-
-<167   
-
- JavaScript   ESLint   
-
-1.  JavaScript  ESLint   
-2.  
-
-168> 2019 
- 3. "" / 
- 4. 
-
-
-  
- ESLint 
- ESLint  
-ESLint 
- ESLint  ESLint  1.   ESLint 
-ESLint    ESLint  
-
-<169 babel-eslint  ES  JSX   @typescript-eslint/parser  TypeScript 
-2.  ESLint    npm  3.   ESLint   ESLint    ESLint   ESLint 
-  
-   Node.
-jsReactVueReact Native 
-
-170> 2019 
-  TypeScript  typescript-eslint TypeScript
-   MRN React
-Native  prettier 
-  ESLint  TypeScript  React   React  TypeScript  React   ESLint  TypeScript   ts-react 
- ESLint 
-
-<171
- npm   TypeScript  React  
-//  typescripteslint-plugin-react@typescript-eslint  module.exports = {
-root: true, extends: [
-//  eslintrc. base.js
-'eslint-config-xxx/eslintrc.react.js', 'eslint-config-xxx/eslintrc.typescript-react.js' ] }
-
-     
-TypeScript  TSLint  eslint + @typescript-eslint/parser + @typescript-eslint/eslint-plugin 
- ESLint   
-  @typescript-eslint  TSLint 
-
-TypeScript  2019   Lint   ESLint 
-
-172> 2019 
-
- 
- ESLint  ESLint  VSCode  ESLint    
-
-  Commit  githook  ESLint   
-  CI   ESLint  "" 
-
-
-<173  husky  lint-staged  Commit  githook  git   lint-staged   precommit-eslint    Warn  Error      pre-commit hook    
- CI  Sonar   ESLint  Node  
-
- CLI   
-
-174> 2019 
-1.  Eslint 2.  ESLint  npm  3.  4.  .eslintrc  5.  6.  package.json 7. 
- typescript  @typescript-eslint/parser    ESLint   
- 
-
-<175
-   ESLint  
-
-176> 2019 
-
- 
-
-<177
-  precommit-eslint  git commit    CAT   
-    1  10    2  10 - 100    3  100 - 1000    4  1000 
-201903  0.2  10 
-1. 
-
-178> 2019  2. 
-     
-
-  
-  
-  
-changeLog    FAQ   2019  2 
-
-<179 0.2
-  2019  2  200    1000    20000-25000    75.562% 1  15.644%
- 64.015%  2018  12  2019  3  2019  3 
- 2019  1  2  3  2019  1  2   75% - 80%
- 
-
-180> 2019 
- 
-
- 
-1.  HTML  CSS   HTML  CSS   HTML  CSS   HTML  CSS   JavaScript TypeScript
-2.   
-3.  
-4.        
- ESLint  
-
-<181
-
-
-
-  Web   99%  30%  VoIP Push doze  Shark Push  98%   Node   10%   tech@meituan.com " "
-
-182> 2019 
-App
- iOS  zsource 
-
-zsource 
- App  2015  CocoaPods   App   cocoapods-binary  CocoaPods   App  
-   
-
-
-<183  App    pod install  App   pod install   App                   CocoaPods       CocoaPods  pod  zsource   
-zsource 
-zsource 
- zsource  zsource   zsource  
-
-184> 2019           
-
- Xcode  Xcode  Debug   Xcode  Xcode   UI 
- 
-
- Xcode  A  B A  libA.a B  A  libA.a  A   A Xcode  A
-
-<185
- 
-
-
- Mach-O  DWARF     Mach-O  DWARF 
- 
- osx-abi-macho-file-format-reference  Introduction to the DWARF Debugging Format  DWARF 1.1.0 Reference
-
- 
-   
-                                ZSCViewController xxd  xxd  ZSCViewController 
-xxd ./libZSource.a | grep -C 5 'ZSCViewControlle'
-
-
-186> 2019 
-xxd 
-  MachOViewer   MachOViewer"__debug_ str"Section 
-MacOViewer 
-
-
-<187 "Apple LLVM version 10.0.0 "  Mach-O  Ruby  ruby-macho 
-
- Section   DWARF 
- CI   DWARF 
- dwarfdump 
-dwarfdump ./libZSource.a | grep 'ZSCViewContro'
-
-dwarfdump 
- AT_name  DWARF 1.1.0 Reference 
-An AT_name attribute whose value is a null-terminated string containing the full or relative path name of the primary source file from which the compilation unit was derived.  ---- AT_comp_dir
-
-188> 2019 
-An AT_comp_dir attribute whose value is a null-terminated string containing the current working directory of the compilation command that produced this compilation unit in whatever form makes sense Forelax the host system. 
-
-  AT_name App    
-
-1.  
-2.  dwarfdump   CocoaPods 
- App   
-                    CocoaPods    zsource 
-
-<189
-pod zsource 
-
-zsource      
-  zsource 
-
- iOS 2016  App  App ReactNative  App  Flutter 
-
-190> 2019 
-
-
-
- ""    Bug
- 
-  2  +1   20  
-  "" 
-
-<191
-
- " -  -  -  - "   5      
-
-   5   5  5~10   
-   RN Android  6  Git iOS  5 RN5  16  Git  
-
-192> 2019 
-
-   UI     
-
-  Git  
-Develop  Stage  10  8 
-
-
-<193     Develop  Release  Release  Stage  Stage "" Release  Feature  Release  Stage   Stage  
-
- 
-
-
-194> 2019  1.  Stage  Release  2.  3.  Stage  Stage  4.  5.  6.  Stage  
-Branch Merge    
-
-Git + Atlassian Stash Jenkins Build   " "
-
-<195
-1.  Release   Release  Stage   10.1.1  Release  10.1.3  10.1.2   Release/x.x.x  Release   10.1.3   Stash   Jenkins  Jenkins Job,  Branch  Job   Release  Branch    2.  Stage    Stage     Jenkins  Job Stage    Stage      Jenkins   Jenkins 
-
-196> 2019 
- 
-3.   Jenkins Job   Pull Request  4.      App  5.                                 Release  Stage    Stage  Stage   Stage    Stage  
-
- 10  
-  
-
-<197
- 
-
-2016  
-
-198> 2019 
-
-
-
-
-  
-
-<199
-
- 
-
-   
-
- 
-
-200> 2019   
-
-  Mach 
-  UI  30      
-
-
-
-
-<201
-
-1.  API  API 
-2.  
-3.  UI    
-
-   
-   API 
-  
-
-202> 2019    
-
-1. 
- API   : 1.  2. 3.   Mach  MRNRN 
-1.1  Android   Block  Block   Block  iOS  Element
-
- Block 
-
-<203
-
-Block            Block    BlockView   BlockViewModelBlockView BlockViewModel LogicBlock  Block
-1.2
-
-    Root Block   Root Block Context  Block  Block  Block 
-1.3
-
-204> 2019 
- Root Block  Block Tree            SubBlock   Root Block Root Block Context   Context  Context  Root Context 
-
-<205  Key   Block   viewModel viewModel  Block   Root Block 
- Root Block   Block Block  BlockViewModel  Block  Block  View  
-2. Block  2.1Android 
-Android  APT  Block  Block   Map 
-
-206> 2019 
-@DynamicBinder(nativeId = "block_key_d", viewModel = blockDViewModel. class, modelType = blockDInfo.class)
-NativeID  Block  KeyviewModel  View  modelType  API  Model
-2.2iOS  iOS   Kylin  Kylin              Clang    section()  Kylin  {kylin_Key,kylin_Data}   Key    native_idElement viewModel
-
-#define PGA_ELEMENT_REGISTER(NATIVE_ID, PGA_ELEMENT, PGA_VIEW_MODEL) \ KLN_STRING_EXPORT("AppKey_"#NATIVE_ID"", "{ \""#PGA_VIEW_MODEL"\"
-: \""#PGA_ELEMENT"\"}");
-3. API 
- API  data_key   Block
- API 
-{ "data":{ "xxx_pay_by_friend": true, "xxx_by_friend_tip": "  TA  ", "xxx_by_friend_bubble_desc": "  ", "xxx_friend_order": false } "code":0, "msg":""
-}
-
-<207
-
- Model  Block 
- JSON  API 
-
-{ "data":{ "pay_by_friend":{//key "xxx_pay_by_friend": true, "xxx_by_friend_tip": "  TA  ", "xxx_by_friend_bubble_desc": "  ", "xxx_friend_order": false } } "code":0, "msg":""
-}
- API  Key 
- Block  Model
- layoutInfo 
- Block   native_id 
-Block  Key data_key  API 
-Key Block  ViewModel 
-
-{ "layout_info":[ {"native_id":"order_pay_by_friend","data_key":"pay_by_friend"}, { "native_id":"block_container_default",//  "children":[ {"native_id":"order_flower_cake","data_key":"flower_cake"} ] } ]
-}
-native_id 
-
-208> 2019  Children  Block 
-4. 
-                                 Android  Activity  Activity  
-  BlockContext
- Block  BlockContext BlockContext  Root Block Context  Block  BlockContext 
-
-
-
-<209
-4.1Command  
-//  private SupplierCommand<Object> mSupplierCommand = new SupplierCommand<>(); @Override public SupplierCommand<Object> getSupplierCommand() {
-return mSupplierCommand; } //  context().getSupplierCommand().registerCommand(new Supplier() {
-@Override public Object run() { }
-}); //  Object  context().getSupplierCommand().execute();
-4.2Event  
-
-//  private SupplierEvent mSupplierEvent = new SupplierEvent(); @Override public SupplierEvent supplierResponseEvent() {
-return mSupplierEvent; } //  context().supplierResponseEvent().subscribe(new Action() {
-@Override public void action() { } }); //  context().supplierResponseEvent().trigger();
-5. Block 
-5.1 Root Block  Block  Block
-
-210> 2019   Block
-Block Tree 
-
-<211
-Block 
-5.2Block  Block  API  layoutInfo layoutInfo  API  layoutInfo  native_id  Block   wm_confirm_order_logical  Block layoutInfo  UI  Block  5.3     Event 
-
-212> 2019    Block  
-6. Block 
- Block  View  BlockBlockView  ViewModel      Block     ViewModel    BlockView   ViewModel  BlockView  Block
-
-<213
-" " David Wheeler  ViewData ViewData  
-
- iOS  Android   NativeID  UI   33   
-
-214> 2019 
- UI   UI 
-
-<215
- 
-
-
-   RD  RD  RD   Bug
-RD   
-
-216> 2019 
-
-MVC   MVC   
- PGA   Element  Block   VC iOS  2894  289  Block 
-
-
-
-<217
-""     PR
-
-   
-
-Android  iOS    
- Android  iOS   PGA  Element Android  iOS   native_id  API   ID   API  
-
-  PGA   PGA 
-
-218> 2019 
- 
-   Mach  RN  
- PGA   100%   
-
-1. Mach (  )  2. MRN  React-native 0.54.3 
- 3. Metrics  App 
- 4. Hertz SDK
- 
-
-
-
- AndroidiOSFE  / Base   tech@meituan.com
-
-<219
-Bifrost 
-
-Bifrost [`bi:frst] Bifrost ----Asgard """"  Bifrost  SPASingle Page Application  / 
-
-"" CRM  Vue   
-  Bug    
-  
-
-
-   
-
-
-220> 2019         Vue   Vue     Nginx    Iframe  ---- HR 
-----SingleSPA 
-Nginx  Iframe HR   SingleSPA   Product-Ready  Bifrost
-
-<221
-
-Bifrost  SingleSPA  
-              Bifrost    /  
-
-222> 2019 
- DOM   Vue  
-
-
-
- Bifrost 
-
-<223
-
-
-
- Bifrost  Platform  
- AppName DOM  ID
-
-224> 2019 
- Domain
-Domain 
- ConfigPath URL
-
-import { Platform } from '@sfe/bifrost'
-new Platform({ layoutFrame: { render () { // render layout } }, appRegister: [ { appName: 'app1', configPath: '/path/to/app1/config.js' } ]
-}).start()
-
-                             
-
-AppContainer  Mounted 
-import { AppContainer } from '@sfe/bifrost' import Vue from 'vue' import VueRouter from 'vue-router'
-Vue.use(VueRouter) const router = new VueRouter({}) new AppContainer({
-appName: 'app1', router, mounted () {
-return new Vue({ router, components: { App }, template: '<App/>'
-}).$mount() } }).start()
-
-<225
- 
-((callback) => callback({ scripts: [ '/js/chunk-vendors.dee65310.js','/js/home.b822227c.js' ], styles: [ '/css/chunk-vendors.e7f4dbac.css','/css/home.285dac42.css' ]
-}))(configLoadedCb.crm)
-  @sfe/bifrost-config-plugin  Webpack    JSONP 
- CDN  URL 
-
- Vue   LayoutContainer  AppContainer 
-import { LayoutContainer } from '@sfe/bifrost' import Vue from 'vue'
-import App from './app'
-new LayoutContainer({ appName: 'layout', router, onInit ({ appSlot, callback }) { Vue.config.productionTip = false const app = new Vue({ el: '#app', router, store, render: (h) => ( <App appSlot={appSlot} />
-
-226> 2019 
-) }) callback() } }).start()
-   Vue  NPM   NPM  NPM   
- Bifrost  MockPlatform   / 
-
- 
-       
- Bifrost 
-
-
-   
-
-<227
-Bifrost  MockPlatformMockPlatform    API   NPM  
-MockPlatform  API  Platform  API   URL 
-// ...others...
-new AppContainer({ // ...others... runDevPlatform: process.env.NODE_ENV === 'development', // 
- mock platform devPlatformConfig: { layoutFrame: { mode: 'remote', configPath: 'path/to/layout/config.js' }, appRegister: [{ appName: 'app2', mode: 'remote', configPath: 'path/to/app2/config.js' }] }, // ...others...
-}).start()
- MockPlatform  RD  
-
-  Vue  Vuex Bifrost   Vuex Store
-
-228> 2019 
- StoreVue   Store  Bifrost  syncGlobalStore  Store  Store  Global   Vuex  mapState 
-import { AppContainer, syncGlobalStore } from '@sfe/bifrost' import Vue from 'vue' import Vuex from 'vuex' // ...others... Vue.use(Vuex) const store = new Vuex.Store({}) new AppContainer({
-mounted () { //  store  syncGlobalStore(store)
-// ...others... return new Vue({
-store, router, components: { App }, template: '<App/>' }).$mount() } }).start()
-Bifrost  installGlobalModule   Store   Bifrost   
-
-  lodashMoment  
-
-<229
- Webpack External   DLL     
-DLL ---- Vue  DLL  Vue  
-
-  Git   Git Submodule  Lerna   Lerna Publish   package.json 
-
- JSONP  Talos   CDN 
-
- Nginx   
-
-230> 2019   URL 
- /   URL  
-
-<231
-
-        Bifrost         Bifrost                                onAppLoading onAppLoadedonAppRoutingonError onAppRouting PVonAppLoading  onAppLoaded                  Loading  Loaded                                 onError 
-
- 
-  
-  ""
-   
-
-232> 2019 
-    
-""
-    Cookie 
- 
-
-   
-
- ""
-
-  12 Bifrost  2  38 Bifrost   Vue   Bifrost Bifrost  /  
-
- Bifrost 
-
-<233
-
-Bifrost   Bifrost
-    JS  CSS   
-
-    
-
-234> 2019 
-
-
-
-    30  24   LBS tech@meituan.com 
-
-
-
-<235
-
-Litho 
-
-
-1.  Litho 
-Litho  Facebook  Android UI   RecyclerView  Litho  
-Litho is a declarative framework for building efficient user interfaces (UI) on Android. It allows you to write highly-optimized Android views through a simple functional API based on Java annotations. It was primarily built to implement complex scrollable UIs based on RecyclerView. With Litho, you build your UI in terms of components instead of interacting directly with traditional Android views. A component is essentially a function that takes immutable inputs, called props, and returns a component hierarchy describing your user interface. Litho      Android UI           API      Android  Recyclerview Litho   Android   Props  
-Litho  Android  UI  Facebook   Android  React  UI 
-
-236> 2019 
- Android  API API Flexbox   Litho  Flexbox    Litho Litho  React   Litho  Yoga   Litho  View  Drawable Litho  Drawable   Litho   Litho 
-
- Litho 
-
-<237
-
-2. Litho 
-Litho  Android  XML 
- Java 
-Litho  Android 
-Android  res/layout  xx.xml
- Activity  Fragment 
-<?xml version="1.0" encoding="utf-8"?> <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World" android:textAlignment="center" android:textColor="#666666" android:textSize="40dp" />
-public class MainActivity { @Override protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState); setContentView(R.layout.helloworld); }
-}
-Litho Litho  Android 
-
-public class MainActivity { @Override protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState); ComponentContext context = new ComponentContext(this); final Text.Builder builder = Text.create(context); final Component = builder.text("Hello World") .textSizeDip(40) .textColor(Color.parseColor("#666666")) .textAlignment(Layout.Alignment.ALIGN_CENTER)
-
-238> 2019 
-.build(); LithoView view = LithoView.create(context, component); setContentView(view); } }
-Litho 
-Litho  Component""  React  View  Drawable
-Litho  View Litho   Litho   Litho 
- Litho  Layout Spec  Mount Spec  Layout Spec  Android  ViewGroup @LayoutSpec  @OnCreateLayout  
-@LayoutSpec class HelloComponentSpec {
-@OnCreateLayout static Component onCreateLayout(ComponentContext c, @Prop String name) {
-return Column.create(c) .child(Text.create(c) .text("Hello, " + name) .textSizeRes(R.dimen.my_text_size) .textColor(Color.BLACK) .paddingDip(ALL, 10) .build()) .child(Image.create(c) .drawableRes(R.drawable.welcome)
-
-<239
-.scaleType(ImageView.ScaleType.CENTER_CROP) .build()) .build(); } }
- Litho  HelloComponent 
-public final class HelloComponent extends Component {
-@Prop(resType = ResType.NONE,optional = false) String name;
-private HelloComponent() { super();
-}
-@Override protected Component onCreateLayout(ComponentContext c) {
-return (Component) HelloComponentSpec. onCreateLayout((ComponentContext) c, (String) name);
-}
-...
-public static Builder create(ComponentContext context, int defStyleAttr, int defStyleRes) {
-Builder builder = sBuilderPool.acquire(); if (builder == null) {
-builder = new Builder(); } HelloComponent instance = new HelloComponent(); builder.init(context, defStyleAttr, defStyleRes, instance); return builder; }
-public static class Builder extends Component.Builder<Builder> { private static final String[] REQUIRED_PROPS_NAMES = new String[]
-{"name"}; private static final int REQUIRED_PROPS_COUNT = 1; HelloComponent mHelloComponent;
-...
-public Builder name(String name) { this.mHelloComponent.name = name; mRequired.set(0);
-
-240> 2019 
-return this; }
-@Override public HelloComponent build() {
-checkArgs(REQUIRED_PROPS_COUNT, mRequired, REQUIRED_PROPS_NAMES); HelloComponent helloComponentRef = mHelloComponent; release(); return helloComponentRef; } } }
-Mount Spec  View  Drawable  @MountSpec   @onCreateMountContent Mount Spec  Layout Spec 
- @OnPrepare  @OnMeasure  @OnBoundsDefined  @OnCreateMountContent  @OnMount  @OnBind  @OnUnBind
-  @OnUnmount
-
-
-<241
-Litho ----Layout Layout  Litho  Android  ViewGroup  Flexbox  Litho  Layout  Yoga  Litho   Yoga Yoga Litho  Layout  Row 
-
-242> 2019 
-Column Flexbox 
-Litho   Litho  Props State  Props  @Prop   Props 
-@MountSpec class MyComponentSpec {
-@OnPrepare static void onPrepare(
-ComponentContext c, @Prop(optional = true) String prop1) { ... }
-@OnMount static void onMount(
-ComponentContext c, SomeDrawable convertDrawable, @Prop(optional = true) String prop1, @Prop int prop2) {
-if (prop1 != null) { ... } } }
- Prop  prop1  prop2   prop1  prop2 Litho  MyComponent  Builder  
-MyComponent.create(c) .prop1("My prop 1") .prop2(256) .build();
-
-<243
-State ""State  Checkbox  State   State  Props   Props  State 
-3. Litho 
-Litho  4  Litho  4 
-
-Litho  API  UI  UI React 
- Android  UI   Litho  React  UI Litho  Stetho  Chrome  
-
-Android  View  (Measure)  (Layout)  (Draw)  UI  UI   Measure  Layout  Litho  CPU   Measure  Layout  UI  Litho  RecyclerView  
-  RecyclerView 
-
-244> 2019   
- Android   View 
- Litho      Android  View    View  Litho  Litho   View  Litho   Litho  
-
- Litho  
- Android  Litho 
-
-<245  Litho  Android 
- Litho  Flexbox  Litho    Yoga Yoga  Flexbox 
- Yoga     Litho  View   DrawableLitho  Drawable   Drawable  ViewAndroid  Drawable        Litho                     Drawable 
-
-246> 2019 
-Litho  Drawable  View  Drawable  View   Drawable  View   Drawable  View 50  "Hello world" TextView  TextDrawable   8 Shallow Size 
-  Drawable  Drawable  Litho  View         Tag    
-
-<247
- Litho 
- Android  Android ConstraintLayout  Litho  Litho    Litho  Flexbox   Flexbox  Flexbox 
-
-Litho  
- RecyclerView   RecyclerView    itemType1  itemType2  Recycler  
-
-248> 2019    Litho item  LithoView 
- Litho  LithoView    itemType1 LithoView  Recycler   Litho 
- RecyclerView   LithoView  
-
- Litho  MTFlexbox   Litho  UI  Litho  Litho 
- Litho+  App  App   Litho+  
-
-<249
- Litho+ 
-
- Litho  Drawable  View   30M  Vivo x20  
-
-250> 2019 
-FPS 
-FPS  Litho   2   fps 
-5. 
-Litho  Android  React  API  UI Android  Litho  Litho   Litho  Litho   Flexbox 
-6. 
-1. Litho 
-
-<251
-2.  Facebook  Litho 3. React  4. Yoga 
-7. 
- Android 2015   Android 2017 
-
-252> 2019 
-Android  Java 8 
-
- Lambda invokedynamic  Android  RetroLambda Android  dex   D8  Java 8  ----Lambda  Android  Java8 
-Java 8 
-Java 8  Java Oracle  2014  3  18   Java 8Java  JVM  ScalaGroovy Java 8  
-Java 8 
- Lambda   @FunctionalInterface  Stream API mapfilter    ::    default   
- Lambda  Java   Stream  mapfilterreduce  IO  Java   Java 
-
-<253
-Android  Java 
- Java  Android  Java FrameworkAndroid-SDK  80%  JDK-API Eclipse or Android Studio Java   Oracle Google  Android  Java  
- Android  1.0  4.4 19  Android  4.4  Java 7
-  Android 4.4  Android N(7.0)  4  Android  Jack/Jill  Java 8 Jack/Jill   Java   App 
-  Android P(9.0) Google  Android Studio 3.x   D8 dex  Java 8 API 
-"" Rx Rx  Java 8  Lambda  Android Developer 
- Android  Java 8 
-Lambda 
- Android  Java 8 Lambda  "" Lambda  
-Lambda  Java   Java  Lambda  
-
-254> 2019 
-Lambda 
-
-
-  Lambda  ()  -run   Lambda  System.out.println("xixi") / System.out.println("ha-
-ha") run 
-Lambda 
-
-
-javac J8Sample.java -> J8Sample.class javap -c -p J8Sample.class
-
-<255
-
-
-  Lambda  1  Line 11  0: invokedynamic #2, 0 // InvokeDynamic #0:run:()Ljava/lang/Runnable
-  Lambda  2  Line 20  21: invokedynamic #6, 0 // InvokeDynamic #1:run:()Ljava/lang/Runnable
-Lambda  invokedynamic   invokedynamic 
-invokedynamic 
-invokedynamic  Java 7  Java 
-
-256> 2019 
- invokevirtualinvokestaticinvokeinterfaceinvokespecial  Java 
-  class  (Constant Pool)  MethodRef   
-  invokedynamic           class         (Constant Pool)  Invokedynamic_Info    BootstapMethod   BootstrapMethod  
-invokedynamic   J8Sample 
-javap -v J8Sample.class
-
-<257  J8Sample.class  invokedynamic  
- invokedynamic   1 J8Sample.java  Lambda  1 Runnable runnable = () -> System.out.println("xixi"); // lambda  1  2 javac J8Sample.java  J8Sample.class  Lambda  1 0: invokedynamic #2, 0 // InvokeDynamic #0:run:() Ljava/lang/Runnable;  J8Sample.class 
-
-258> 2019 
- 3 1  #2  class  #2 = InvokeDynamic #0:#35 // #0:run:()Ljava/lang/Runnable;  InvokeDynamic  Constant_InvokeDynamic_ Info   4 #0  class  BootstrapMethod  
- 5 java/lang/invoke/LambdaMetafactory.metafactory   invokedynamic 
-
-<259
- Lambda   2 
-  6   java -Djdk.internal.lambda.dumpProxyClasses J8Sample.class 
-
-260> 2019   7 javap -p -c J8Sample\$\$Lambda\$1.class 
-
- run       invokestatic        J8Sample.lambda$main$0 
- 7  Lambda  Java Android 
-Android 
-  Android   Java-BytecodeJVM           Android  Android-BytecodeDalvik/ART 
-
-
-<261  Lambda  Java  invokedynamic   Dalvik/ART  invokedynamic   Android  dex  invokedynamic  Android   Java 8
-Android 
- Java-Bytecode  Android-Bytecode  Desugar 
-
- RetroLambda Google  Jack & Jill  D8 dex 
-  Desugar           Lambda  Java              
-RetroLambda  JackD8  
-
-262> 2019 
-Android  RetroLambda
-RetroLambda  Desugar  javac  dx  dex 
-RetroLambda Desugar
-      invokedynamic           5   java/lang/ invoke/LambdaMetafactory.metafactory    J8Sample\$\$Lambda\$1.class  javac      dx   dex   J8Sample\$\$Lambda\$1  J8Sample. class  J8Sample.class  invokedynamic  invokestatic 
- J8Sample.java  Retrolambda  Android 
-AndroidStudio -> Build -> make project 
-
-<263
-app:transformClassesWithRetrolambdaForDebug      app:compileDebugJavaWithJavac  javac   app:transformDexArchiveWithDexMergerForDebug  dx     build/intermediates/ transforms/retrolambda  class 
-J8Sample.class  J8Sample$$Lambda$1.class 
-
-264> 2019 
- J8Sample.class  Lambda   1.7or1.6 
- J8Sample.lambda$main$0()  J8Sample.class 
-Android  Jack&Jill 
-Jack  Eclipse  ecj Jill  ASM4 Jack&Jill  Google  Android N(7.0)  javac&dx   jack  Desugar 
- Android P(9.0)  Jack&Jill  javac&D8   Desugar 
-
-<265
-D8  Android P(9.0)  dex  Android Studio 3.1   D8  dex 
-D8 Desugar
-Desugar  D8  Android Studio  IDE   RetroLambda 
-       java/lang/invoke/LambdaMetafactory.metafactory     J8Sample\$\$Lambda\$1.class D8  dex  dex 
- J8Sample.java  D8  Android 
-AndroidStudio -> Build -> make project 
-
-266> 2019 
-javac  J8Sample.class  invokedynamic   Desugar
- app:transformDexArchiveWithDexMergerForDebug  dx     build/intermediates/transforms/dexMerger  0  classex.dex
-  $ANDROID_HOME/build-tools/28.0.3/dexdump -d classes.dex >> dexInfo.txt  dex 
- Lambda  1 Runnable runnable = () -> System.out. println("xixi"); 
- dexIno.txt  1.4M com.J8Smaple2.J8Sample  J8Sample  dex 
-
-<267
-
-J8Sample.main 
- Lambda  1 desugar     Java      new Lcom/j8sample2/-$$Lambda$J8Sample$jWmuYH0zEF070TKXrjBFgnnqOKc   Lcom/j8sample2/-$$Lambda$J8Sample$jWmuYH0zEF070TKXrjBFgnnqOKc  J8Sample$$Lambda$1  1  Hash 
-
-268> 2019 
- Interface Ljava/lang/Runnable Lcom/j8sample2/-$$Lambda$J8Sa mple$jWmuYH0zEF070TKXrjBFgnnqOKc.run 
- RetroLambda 
-
- Lambda   invokedynamic  RetroLambda  D8    
- Lambda  Java8   BSM- 
- Android  Desugar  1. RetroLambda  javac 
-dx  2. Jack&Jill  jack 
-dex  3. D8  dex 
- dex 
-
- RetroLambda D8 Java8  Java8      API    DataAPI  D8         Android P(9.0)  9.0  Java 8D8 
-
-<269
- API API  
-                   Kotlin    Kotlin  Lambda Kotlin   Android  Java  Kotlin  Java 
- Java 8 D8   Kotlin 
-
-270> 2019 
-
-
-
-     
-
-<271
-  99.533% 98.818% 99.959%Crash  0.1 App 
-   
-
-272> 2019 
-
-  
-1. 
-    App  UGC  
-
-<273
-  SDK  15M  
- App UGC    16:9 
-  App UGC   Grafika                          App UGC Google CTS  
-
-274> 2019 
-2. 
-  H.264 H.264  H.264  MPEG-2  2  MPEG-4  1.5  2 
-  AAC AAC   ""
-
-   SDK 
-
-  CameraOpenGLMediaCodec  MediaMuxer              ijkplayer    mp4parser
-  
-  
- 
- 
-
-<275  App  
-
- 
-
- 
-
-276> 2019 
-1.  2. 
-Android  MediaPlayer  ijkplayer  FFmpeg MediaPlayer   Android  iOS MediaPlayer  API  FFmpeg   ijkplayer
- ijkplayer   3G  
- AndroidVideoCache   Socket  
- AndroidVideoCache   
-
-<277
-  
-
-
- MediaRecorder+Camera    16:9  
-1. Camera+AudioRecord+MediaCodec+Surface 2. MediaRecorder+MediaCodec
- 1  Camera  YUV  YUV  PCM  mp4 
- 2   2  mp4  MediaCodec  OpenGL  
-1     2  MediaRecorder Android 
-
-278> 2019 
-
-// VIVO Y66   MediaServer 
-//  1080P  720P  //  720P  480 if(isVIVOY66() && mMediaServerDied) {
-return getCamcorderProfile(CamcorderProfile.QUALITY_480P); }
-//SM-C9000,  1280 x 720  GPU    GPU 
-//  //  if (VideoAdapt.MODEL_SM_C9000.equals(Build.MODEL)) {
-return getCamcorderProfile(CamcorderProfile.QUALITY_HIGH); }
-//  1080 P  CamcorderProfile camcorderProfile = getCamcorderProfile(CamcorderProfile. QUALITY_1080P); if (camcorderProfile == null) {
-camcorderProfile = getCamcorderProfile(CamcorderProfile. QUALITY_720P);
-} //  QUALITY_HIGH  1080p  if (camcorderProfile == null) {
-camcorderProfile = getCamcorderProfile(CamcorderProfile. QUALITY_HIGH);
-} //  if (camcorderProfile == null) {
-camcorderProfile = getCamcorderProfile(CamcorderProfile. QUALITY_480P);
-}
-
-
- mp4 mp4 
-Box  Box  Box  Box  Container
-
-<279 Boxmp4  Track  Sample  Sample   Video Smaple  Audio SampleVideo Smaple  Audio Sample  mp4 
- mp4parser   FFmpeg mp4parser    mp4  Box mp4parser API  
- mp4  Box mp4parser  Box  OOM   mp4parser  Box
-
- mp4parser   3s   mp4parser  4-5s  3s  mp4parser  I  
-
-280> 2019 
-
-mp4parser 
-public static double correctTimeToSyncSample(Track track, double cutHere, boolean next) {
-double[] timeOfSyncSamples = new double[track.getSyncSamples(). length];
-long currentSample = 0; double currentTime = 0; for (int i = 0; i < track.getSampleDurations().length; i++) {
-long delta = track.getSampleDurations()[i]; int index = Arrays.binarySearch(track.getSyncSamples(), currentSample + 1); if (index >= 0) {
-timeOfSyncSamples[index] = currentTime; } currentTime += ((double) delta / (double) track. getTrackMetaData().getTimescale()); currentSample++; } double previous = 0; for (double timeOfSyncSample : timeOfSyncSamples) { if (timeOfSyncSample > cutHere) {
-if (next) { return timeOfSyncSample;
-} else { return previous;
-} } previous = timeOfSyncSample; } return timeOfSyncSamples[timeOfSyncSamples.length - 1]; }
- mp4parser MediaCodec 
-
-
- mp4 
-
-
- OpenMAX 
-
-<281 OpenGL
-  mp4 
-  
-1. 
- Colorformat 
-  
-
-282> 2019 
-
-status_t ACodec::setupVideoEncoder(const char *mime, const sp<AMessage> &msg, sp<AMessage> &outputFormat, sp<AMessage> &inputFormat) {
-if (!msg->findInt32("color-format", &tmp)) { return INVALID_OPERATION;
-} OMX_COLOR_FORMATTYPE colorFormat =
-static_cast<OMX_COLOR_FORMATTYPE>(tmp); status_t err = setVideoPortFormatType(
-kPortIndexInput, OMX_VIDEO_CodingUnused, colorFormat); if (err != OK) {
-ALOGE("[%s] does not support color format %d", mComponentName.c_str(), colorFormat);
-return err; } ....... } status_t ACodec::setVideoPortFormatType(OMX_U32 portIndex,OMX_VIDEO_ CODINGTYPE compressionFormat,
-OMX_COLOR_FORMATTYPE colorFormat,bool usingNativeBuffers) { ...... for (OMX_U32 index = 0; index <= kMaxIndicesToCheck; ++index) {
-format.nIndex = index; status_t err = mOMX->getParameter(
-mNode, OMX_IndexParamVideoPortFormat, &format, sizeof(format)); if (err != OK) { return err; } ...... }
-2. 
- Camera  YUV
- YUV  YUV 
-YUV UV Android 
- YUV 
-3. 16 
- H264  16*16 
-
-<283
- 16  
-4. 
-4.1   Surface  OpenGL  OpenGL   SurfaceTexture  updateTexImage   GL  GL    OpenGL  TextureView    Surface  TextureView  OpenGL 
-4.2  SurfaceTexture  OnFrameAvailableListener  GPU   SurfaceTexture  BufferQueue  Buffer  BufferQueue   Camera  GL  OnFrameAvailableListener  updateTexImage() SurfaceTexture  GL SurfaceTexture   BufferQueue BufferQueue    Buffer    FREEDEQUEUEDQUEUED ACQUIREDSHARED  Producer           Dequeue 
-
-284> 2019   Free    Buffer   Buffer     DEQUEUED        Producer   Producer          Queue  Buffer      QUEUED  Owner   BufferQueue      BufferQueue    ConsumerListener  onFrameAvailable     Consumer    Consumer  Acquire  QUEUED   Buffer   Owner  Consumer  Consumer    Buffer     Release Buffer  BufferQueue BufferQueue  GraphicBuffer GraphicBuffer  
-SurfaceTexture 
- Producer  Video  BufferQueue    Producer        dequeueBuffer       Buffer   QUEUED     dequeuedCount   mMaxDequeuedBufferCount         Free Buffer Producer    DequeueBuffer     onFrameAvailable 
-
-<285
-status_t BufferQueueProducer::dequeueBuffer(int *outSlot,sp<android::Fence> *outFence, uint32_t width, uint32_t height,
-PixelFormat format, uint32_t usage,FrameEventHistoryDelta* outTimestamps) {
-...... int found = BufferItem::INVALID_BUFFER_SLOT; while (found == BufferItem::INVALID_BUFFER_SLOT) {
-status_t status = waitForFreeSlotThenRelock(FreeSlotCaller::Dequeue,
-& found); if (status != NO_ERROR) {
-return status; } } ...... } status_t BufferQueueProducer::waitForFreeSlotThenRelock(FreeSlotCaller caller,
-int*found) const{ ...... while (tryAgain) {
-int dequeuedCount = 0; int acquiredCount = 0; for (int s : mCore -> mActiveBuffers) {
-if (mSlots[s].mBufferState.isDequeued()) { ++dequeuedCount;
-} if (mSlots[s].mBufferState.isAcquired()) {
-++acquiredCount; } } // Producers are not allowed to dequeue more than // mMaxDequeuedBufferCount buffers. // This check is only done if a buffer has already been queued if (mCore -> mBufferHasBeenQueued &&
-dequeuedCount >= mCore -> mMaxDequeuedBufferCount) { BQ_LOGE("%s: attempting to exceed the max dequeued buffer count "
-"(%d)", callerString, mCore -> mMaxDequeuedBufferCount);
-return INVALID_OPERATION; } } ....... }
-
-286> 2019 
-5. 
-Android 9.0 
- MediaCodec  Configure 
- CQ Android 9.0  9.0  CQ 
-
-status_t ACodec::configureCodec( const char *mime, const sp<AMessage> &msg) {
-....... if (encoder) {
-if (mIsVideo || mIsImage) { if (!findVideoBitrateControlInfo(msg, &bitrateMode, &bitrate,
-&quality)) { return INVALID_OPERATION;
-} } else if (strcasecmp(mime, MEDIA_MIMETYPE_AUDIO_FLAC)
-&& !msg->findInt32("bitrate", &bitrate)) { return INVALID_OPERATION; } } ....... } static bool findVideoBitrateControlInfo(const sp<AMessage> &msg, OMX_VIDEO_CONTROLRATETYPE *mode, int32_t *bitrate, int32_t *quality) { *mode = getVideoBitrateMode(msg); bool isCQ = (*mode == OMX_Video_ControlRateConstantQuality); return (!isCQ && msg->findInt32("bitrate", bitrate)) || (isCQ && msg->findInt32("quality", quality)); } 9.0  CQ  static OMX_VIDEO_CONTROLRATETYPE getBitrateMode(const sp<AMessage> &msg) { int32_t tmp; if (!msg->findInt32("bitrate-mode", &tmp)) { return OMX_Video_ControlRateVariable; } return static_cast<OMX_VIDEO_CONTROLRATETYPE>(tmp); }
- isBitrateModeSupportedint
-mode framework 
- media_codecs.xml 
-
-<287
-
-6. 
- 
-  
-
-     Andorid 9.0  98% 92%   
-
-
-288> 2019 
-
-   App  P0  
-
- sniffer  sniffer   Android 9.0  Android 9.0   5.2   98% 
-
-CPU     
- 
-  
-
-<289
-
-1. Android  2. Google CTS 3. Grafika 4. BufferQueue  5. MediaCodec  6.  Android  7. mp4  8. AndroidVideoCache  9. ijkplayer 10. mp4parser 11. GPUImage
-
-
-
-  APPPC  H5      PM   APP  AndroidiOSReactFlutter  React Native
-
-

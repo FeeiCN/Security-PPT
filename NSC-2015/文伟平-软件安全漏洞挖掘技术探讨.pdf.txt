@@ -1,302 +1,0 @@
- 
-  
-1
-
-
-
- Windows 7        
-
- Windows 78  IE Use after Free  GSSafeSEHDEPASLR  ROPHeap SprayJIT Spray  SharedUserData
-www.pku-exploit.com
-  Q Q513357938
-
-
-
-
-
-Windows8
-
-
-
-
-
-GS SEHProtect
-ASLR DEP Anti-ROP
-FreeEntryOffset Removed
-Randomized LFH PageGuard VTGuard
-NullPage Protection VirtualAlloc Randomization
-
-Windows 8
-
-GS
-SEH Protect
-
-ASLR DEP
-
-ForceASLR HeASLR Anti-ROP
-
-www.pku-exploit.com
-  Q Q513357938
-
-
-Crash    UAF FLASHUAF
-www.pku-exploit.com
-  Q Q513357938
-
-Crash
- 
-       
-www.pku-exploit.com
-  Q Q513357938
-
-Crash
- KTRAP_FRAME
-www.pku-exploit.com
-  Q Q513357938
-
- 
-
-Crash
-
- win32k!SfnINSTRING IDA 
-www.pku-exploit.com
-  Q Q513357938
-
-Crash
- 
- win32k!SfnINSTRIN G wParam lParam [esi+8] [esi+8]  esi[esi+8]   
-MS11-054
-www.pku-exploit.com
-  Q Q513357938
-
-
- 
-    :  1)  ,   2)  ,   
-www.pku-exploit.com
-  Q Q513357938
-
-
- 
-
-
-  
-  
-
-1 
-2  
-3    
-
-www.pku-exploit.com
-  Q Q513357938
-
-
- 
-   VdmSafeB P
-   
-www.pku-exploit.com
-  Q Q513357938
-
-
-
- 
-  MS11-010 
- MS10-011 
- MS10-011BP B    
-www.pku-exploit.com
-  Q Q513357938
-
-P  B 
-B   P            BP  
-
-
-   Windows 7 / 8   
- Windowswin32k.sys    SSDTShadowSSDT
-www.pku-exploit.com
-  Q Q513357938
-
-
- API  API  
-       APIUndocumented API
-www.pku-exploit.com
-  Q Q513357938
-
-
- APIMS10-011
- ApiPortCsrss LPC_PORT_CLOSED0x5CsrApiRequestThread 
-
-www.pku-exploit.com
-  Q Q513357938
-
-
-
-
-
- APIMS10-011
-
-ApiPort1
-
-ApiPort1
-
-BaseSrvExitProcess
-
-ApiPort0
-
-1,1 ApiPort0
-
-BaseSrvExitProcess
-00 
-
-www.pku-exploit.com
-  Q Q513357938
-
-
-  ""----Fuzzing
-
-www.pku-exploit.com
-  Q Q513357938
-
-
- 
-  /  Fuzzing,  , ,   ,     ,  
-
-www.pku-exploit.com
-  Q Q513357938
-
-
-   www.pku-exploit.com
-  Q Q513357938
-
- 
-
-UAF
-
-www.pku-exploit.com
-  Q Q513357938
-
-UAF
- Fuzz
- Fuzzing Framework  Grinder
- Fuzzer:  Cross Fuzz  ndujaFuzz  NodeFuzz  jsFunFuzz  Fuzzer ............
-www.pku-exploit.com
-  Q Q513357938
-
-UAF
- UAF
-
-www.pku-exploit.com
-  Q Q513357938
-
-UAF
- Browser Fuzzer?
-w3c    dom
-www.pku-exploit.com
-  Q Q513357938
-
-UAF
- Browser Fuzzer?  dom
- Base Dom Tree Building  randomNodes  randomTree  Generation algorithm  document.createElement  node.appendChild
-www.pku-exploit.com
-  Q Q513357938
-
-UAF
- Browser Fuzzer?  dom  IEjsjscript.dlljscript9.dll,
-IEjsjscript.dll domjscript9.dll fuzz
-www.pku-exploit.com
-  Q Q513357938
-
-UAF
- Browser Fuzzer?  Dom  DomEventList 
-"DOMContentLoaded","msvisibilitychange","abort","ac tivate","afterprint"...
-www.pku-exploit.com
-  Q Q513357938
-
-UAF
- Browser Fuzzer?  domelementRange,fuzz  elementRange
-RangeUAF  fuzz
-dom fuzzfuzz 
-www.pku-exploit.com
-  Q Q513357938
-
-FLASHUAF
- FLASHUAF
- FLASH  UAF  domainMemory  
- ActionScript 3 swf 
- (main thread)(worker thread)  UAF
-www.pku-exploit.com
-  Q Q513357938
-
-FLASHUAF
- domainMemory  UAF
- CVE-2015-0311
- ByteArray    Uncompress       domainMemory                domainMemory  ByteArray  
- CVE-2015-0313
- workerByteArrayClear domainMemorydomainMemory 
-www.pku-exploit.com
-  Q Q513357938
-
-FLASHUAF
- 
- ByteArray  m_buffer  m_subscribers 
- ByteArrayByteArray  m_buffer,m_subscibers m_buffer free/alloc,UAF
-www.pku-exploit.com
-  Q Q513357938
-
-FLASHUAF
- Flash 
-reference:http://help.adobe.com/en_US/as3/dev/WS2f73111e7a180bd0-5856a8af1390d64d08c-7ffe.html
- Flash  Worker Shared properties  MessageChanel  Shareable ByteArray
- Shareable ByteArray  
-www.pku-exploit.com
-  Q Q513357938
-
-FLASHUAF
- FLASH UAF   ActionScript3
- http://help.adobe.com/en_US/as3/dev/WS2f7 3111e7a180bd0-5856a8af1390d64d08c7ffe.html
-www.pku-exploit.com
-  Q Q513357938
-
-FLASHUAF
- 
-function demo_fuzz(obj:Object):void {//here you can operate on the object any way you want. obj.clear(); obj = null; obj.someproperty = "what ever you want" ........ } shareobj = Worker.current.getSharedProperty("sharedPropertyNa me"); demo_fuzz(shareobj);
-www.pku-exploit.com
-  Q Q513357938
-
-
- 
- 
- NETWORK_CHANGEPASTEREMOVEDRENDER
-LOCATION_CHANGE HTML_DOM_INITIALIZE HTML_BOUNDS_CHANGE ...... example: SharedObj.addEventListener(Event.ADDED, fuzzfunc); SharedObj.addEventListener(Event.ADDED_TO_STAGE, fuzzfunc); SharedObj.addEventListener(Event.REMOVED, fuzzfunc); SharedObj.addEventListener(Event.REMOVED_FROM_STAGE,fu zzfunc); .......................
-www.pku-exploit.com
-  Q Q513357938
-
-
- 
-         
-http://www.pku-exploit.com/
-www.pku-exploit.com
-  Q Q513357938
-
-
- 
-Windows5
- 3 MS11-010 CVECVE2011-0030 MS11-054 CVECVE2011-1886
- 3 2 1
-www.pku-exploit.com
-  Q Q513357938
-
-
- 
- 30    K19   Q6  T6    1  7
-www.pku-exploit.com
-  Q Q513357938
-
-
-
-
-www.pku-exploit.com
-
-38
-
-  Q Q513357938
-
-

@@ -1,190 +1,0 @@
- 13515813551
-
- Confidentiality
-
- Integrity
-
- Availability
-
-90% ............
-·  ·  ·  ·  · 
-
-Intrusion Kill Chain
-
-Reconnaissance Weaponization
-
-
-
-
-
-Delivery 
-
-Exploitation 
-
-Installation 
-
-Command & Crontal Actions on
-
-C2 
-
-Objectives
-
-
-
-AiLPHA
-
-
-
-6 3 
-
-
-
- 
-
- 
-
- 
-
- 
-
-  
-EDR EDR EDR DEREndpoint Detection and Response 
-
-Intrusion Kill Chain
-
-Reconnaissance Weaponization
-
-
-
-
-
-Delivery 
-
-Exploitation 
-
-Installation 
-
-Command & Crontal Actions on
-
-C2 
-
-Objectives
-
-
-
- 30 Web
-
-
-
-
-
-
-
-
-
- +
- 
- 0day
- 
-
- 
- SQLXSSCC 
-  
- 
-
-   20
-
- 
-
-
-
-
-
- 
-
- 
-
-ARIMA
-     AR , MA
-
-Exponential Smoothing
-    
-
-     3-sigma  
-Weekly Gaussian Estimation
-
-  RPCA  
-RPCA-SST
-
-A Robust Change-point Detection Method by Eliminating Sparse Noises, IEEE DSC CC 201610369623.5  201710803213.1
-
-  
-
-warning
-
-Mo
-
-Tu
-
-We
-
-Th
-
-Fr
-
-Sa
-
-Su
-
-3515:03 
-
-5
-
-3516:00   
-
-36  
-
-
-5
-
-5
-
-6
-
-6
-
-7
-
-3515:37 
-
-367:00AiLPHA +APT+SOC
-
-
-2000+ 
-
-
-37  
-
-3612:27  
-3611:02 
-
-1. 44522105 49834 288
-2.445 858MB  445
-
-
-
-/
-
-
-
-THANK YOU
-
-
-
-
-
-
-
-
-
-

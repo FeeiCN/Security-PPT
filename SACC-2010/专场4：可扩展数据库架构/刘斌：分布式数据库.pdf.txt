@@ -1,132 +1,0 @@
-
- MySQL?
- MySQL?
-  ­  ­  ­  ­  ­ 
-
-
-
-·  ·  · 
-
-· Fulltext · Snapshot · Optimized alter
-
-·  · 
-· 
-
-
-  ­ QPS ( / ) ­  ( / ) ­ 
-  ­  · cache & cache ­  (LRU / checkpoint ...) · buffered write · ordered write · 1ms
- IOPS!
-
-
- Vs  (sas 10k) ­ QPS  700%
- Vs SSD (FTL Optimized) ­ QPS  250%  95% ­  &  ­ 
- 
- 2007Flash 2008Flash  2008MySQLFlash, 2011MySQLSSD
-
-IO
- IO  ( & SSD & ) ­  ­  ­  ­  ­ 
- Tape is dead, disk is tape, flash is disk, ram locality is king. ---- Jim Gray
-
-SSD Vs 
-
-SSD 
-
-16K 16K 16K 1M 1M
-
-0.3ms
-
-0.54ms
-
-0.1ms
-
-3.8ms
-
-1.77ms
-
-5.9ms
-
-1.08ms
-
-0.15ms
-
-SSD 16K 1860 SSD 16K 100 SSD 16K 50 SSD 16K 440 SSD 1M6416K 800 SSD 1M6416K 68 SSD 1M116K 3700
-
- 
-
-
- FTL ­ in-page logging ­ 
-  ­ l2fs,btrfs, zfs ... ­ BFTL
- Kernel ­ flashcache
-  ­ append write ­ random read ­ merge
-
-FTL
- IO  ­  ­ 
- In-page logging ­ 20% log  ­ 75% raid5 ­ 60% 
-
-
- SSD/SSD/cache
- SSDcache ­ SSDinnodb buffer poolcache
- memoryinnodb buffer poolcache
- IO ­  /  / IO / 
-
-cache
- IO  ­  (800%) ­ 
- Merge  Pages mapping
-­ mem: ssd = 1 : 350  Multi-Write
-­ 68%  
-­ iops ->   
-­ iops -> iops
-
-cache & cache
- IOPS Vs   Cache Vs Cache         &    &   Nand flash Vs Nor flash
-­ 100ns
-
- Snapshot (Redirect write)  Btree (log-based 38x?) / Btree patch compaction
-
-
-  ­ ECC ­ SLC ­ Raid / Rebuild ­ 
-  ­ read cache / btree patch compaction
-  ­ 500G ~ 1T ­  · snapshot · online alter table
-
-
-  ­  ­  ­ 
-  ­  ­  ­  ­ //
-
-
-
-
- Scan & Search
- Partition Key ­  ­  ­  ­ 
- Partition Key ­  ­ 
-
-
-         
- Binding  
-
- & 
-  ­  ­  ­ 
-  ­  ­ 
-
-  dbproxyzookeeper
- zookeeper
- tablet(/) ­  ­ 
- tablet
-  ­   
-
- & 
-     
- dbproxy  zookeeper  ts
-­ slave ts down / master ts down / tablet down / all tablet down ­ auto-exchanger /  ­ mq
-
-
-dbproxy zookeeper table
-­  ­  (QPS / Latency) ­  ­  ­  ­ 
-
- & 
-  ­  /  ­  ­  ­  ­  ­ 
-  ­  ­ dbproxy
-
-Thanks!
-Q & A
-
-

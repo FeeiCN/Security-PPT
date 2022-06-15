@@ -1,406 +1,0 @@
-     
-
-  
-
-
-
-""
-
- 
-
-P2P
-
- 
-
-
- 
-
-
-
-
-
- 
-
-
-
-     
-
-     
-  
-  
-
-     
-
-           
-
-   
-
- 
-
- 
-
-   
-
-  
-
- 
-
- 
-
-
-
-
-u  u  u  u 
-
-
- 
-
-Ø bitmap Ø OLAP  <+><+ > Ø OLAP  Ø <+>    
-
-Bitmap
-
- 
-
-u ConciseSet https://github.com/metamx/extendedset u   http://www.infoq.com/cn/articles/the-secret-of-bitmap/
-
- 
-· /&  
-
-  
-
-
-
-External Data
-
-Task /Meta Data
-Col l ect or /Spliter
-
-Batch Manager
-
-Task /Meta Data
-ETL
-
-Task /Meta Data
-OLAP ( counter /bitmap)
-
-Task /Meta Data
-Dump
-
-Report /API
-
-Storage ( Hadoop/Mysql)
-
-Raw Dat a
-
-Fact Dat a
-
-Resul t Dat a
-
-Query Engine
-
-
-
-
-· Collector
- · ETL
- · Bitmapjoin
- · Countercountsum
-
-
-· QueryQnginegroo
-vy
-
-
-
-
-
-
-
- Domain Fact  Table Column Constraint Cube
-Metric
-Dimension Engine
-
-
-
-
-
-
-
- Analytics
-OLAPSchema
-Fact  Table
-
-1Fact  Table
-1Column 1Cube 1ColumnConstraint
-
-
-
-Metric DimensionOLAP 
- count()sum() count(distinct()) 
-Fact  Table Column
- countbitmap
-
-1CubeMetric
-1Metric 
-1Metric Dimension
-
-
-OLAP
-· (Dimension(s)  ,  Metric  (on  Fact  Table))
-
-· counterBitmap · Fact Table · Metric · Dimension(s) · 
-
-
-
-
-
-  
-
-
-collector  data  schema
-   <schema>sequencenumber,pla4ormid,partnerid,developerid,devId,produ c;d,sessionId,star<me,dura;on,versionName,versionCode,sdkVersion,ref pagename,pagename,adver;singID,appStoreID,cracked,mobile,pixel,osVe rsion,os,mapn_mcc,mapn_mnc,isp,ip,country,channel,jailbroken,language </schema>      
-
-
-
-ETL  Fact  Table
- developerid productid platformid partnerid appversion tduserid refpagenameid pagenameid duration sessionid starttime starttime_hour
-
- int int int int string long int int int string long int
-
-    
-50    
-128  
-
-
-
- Metric
-
-Metric Name
-pagecount
-
-
-pagenameid
-
-durationsum pageusergroup
-
-duration tduserid
-
-
-counter counter bitmap
-
-
-count sum group
-
- Dimension
-Dimension    Name
-
-1
-
-productid,platformid,refpagenameid,pagenameid,starttime_day
-
-2
-
-developerid,productid,platformid,pagenameid,starttime_day
-
-
-
- Cube Cube    Name Page_refer_visit Page_visit Page_stay_duraFon Page_visit_user
-Cube
-
-Metric  Name pagecount pagecount durationsum pageusergroup
-
-Dimension  Name 1 2 2 2
-
-
- (Hql)
-· 
-
-Select  count metric_value   from  Page_visit  where   starKme_day=20150401;
-· 
-
-
- Select  count metric_value   from  Page_stay_duraFon    where
-  starKme_day=20150401;
-·
- 
-
-Select  sum metric_value   from  Page_visit_user    where   starKme_day=20150401;
-
-&  
-
-ID
-
-
-
-Mac
-
-ID
-
-
-
-
-
-IMEI
-
-IDFA
-
-ID
-
-ID
-
- ID
-
-Cookie
-
-AndroidID
-
-&
-
-   
-
-  spa rk  
-
-ETL(hive   )
-
-   
-
-ID-Ma pping 
-
-     
-
-HDFS
-
-MYSQL
-
-Redis
-
-MongoDB
-
-
-
-  API
-
- /      
-     
-
-  
-
- 
-
- 
-
-
- 
-
-
- 
-
-                 
-
-  
-
-  
-
-  
-
-        
-
-  
-
-  
-
-Bitmap
-Select count*  from user where user.  = `' and user. =` ' and and user. <`';
-
-=
-
-=
-
-=
-
-""
-
-""
-
-""
-
-
-
-0
-
-0
-
-0
-
-1
-
-1
-
-1
-
-1 0
-
-AND
-
-1 0
-
-AND
-
-1 1
-
-0
-
-0
-
-1
-
-1
-
-1
-
-1
-
-0
-
-1
-
-=
-
-1 0
-
-0
-
-1
-
-  
-
-/  
---LogisFc  Regression     
-X        Top  N
-
-/  
---LogisFc  Regression     
-   d1:  a1,a2,a3,a5 d2:  a2,a4,a5 d3:  a1,a4,a5 d4:  a3,a4,a5 d5:  a1,a2,a3,a5 d6:  a2,a3,a4,a5 d7:  a1,a2,a4 d8:  a2,a3,a5 d9:  a4,a5 d10:a3,a5   
-
-  
-
- 
-
-
-
-
-
-
-
- 
-
- 
-
-
-Q&A
-
-  /  www.talkingdata.com     /    @TalkingData  
-
-    /    TalkingData     /  support@tendcloud.com  
-
-

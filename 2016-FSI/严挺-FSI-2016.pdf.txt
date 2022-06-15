@@ -1,95 +1,0 @@
- 201612
-
-· 
-·  · 
-
-
-· 645125 100 
-·  
-·  
-
-
-
-
-· 201510 ""7000
-·  
-· " "
-
-
- 
-
-
- 
-
-
-·  
-· A B
-· B A
-
-Zcash
-· 201610Zcash · "95%Zcash100%
- · Zcash · 
-
-:""
-
-
-(1) V  (2) P   (3)  PV (4) V  P   (5) P  P  V(1)(5) n 
-
-A B CD
-
-· 
-·  · 
-
-
-· 
-  "" 
-· 
-  
-
-
-· "" blockchain---- 
-
-
-
-
-
-
-
-
-
-
-
-Tor
-1. P2P ""
-1. TorIP  IPTor24
-1. Tor  
-2. IP 
-
-
-·   
-·   
-·   
-· 
-
-
-· TCP/IPIP · 
-,IP · IP
-
-
-   · 1  · 2  · 3  · 4 
-
-
-· 2016  100 
-·   
-·    
-
-· 
-·  · 
-
-PeerSafe1
-
-PeerSafe2
-
-www.peersafe.cn
-
-

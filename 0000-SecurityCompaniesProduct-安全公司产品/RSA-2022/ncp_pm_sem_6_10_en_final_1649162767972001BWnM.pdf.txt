@@ -1,36 +1,0 @@
-Press Release
-Nuremberg, 03/29/2022 Oliver Bezold
-VPN Management System with new and important features
-The NCP Secure Enterprise Management Server ("SEM") is a central component for "single-point of administration" for the NCP VPN Enterprise solution. It lets businesses conveniently administer their remote-access network from a central location so that they don't have to deal with a myriad of standalone applications. In the new 6.10 release, "SEM" administrators can make use of a representational state transfer (REST) application programming interface (API) as well as an add-on licensing option for two-factor authentication. In addition, "SEM" 6.10 can be used with the NCP VS GovNet solution approved by the Federal Office for Information Security (BSI).
-The "SEM" Version 6.10 supports the REST API, which allows administrators to retrieve status information from the system or transmit command scripts to the "SEM". A particular highlight is the NCP tailored Python API for "SEM" included in the package. This provides users with an efficient python interface to the "SEM", allowing tedious work to be optimized and repetitive work to be automated via python code.
-Additionally, two-factor authentication via TOTP or SMS can be added/activated as a license option in the "SEM" 6.10 for an additional fee. Depending on the desired configuration, either a time-based one-time password (TOTP) or an SMS can then be provided as second factor for VPN dial-in authentication with the NCP Secure Enterprise Management Server. A software token is necessary for the user to generate a one-time password via TOTP, which can be done via the NCP Authenticator App. This app can be downloaded free of charge and is available for smartphones and tablets in the Apple Store as well as the Google Play store. As an added security feature, the NCP Authenticator App can request biometric authentication (fingerprint or facial recognition) before granting access.
-Administration of the NCP VS GovNet Connector can also be done with the "SEM" 6.10. The NCP VS GovNet Connector refers to a software client for Windows 10 approved for "classified information ­ for office use only" (VS-NfD) regulation according to the Federal Office for Information Security (BSI). Administrators benefit from the advantages of centralized administration. The NCP VS GovNet Solution can be used to provide a fully VS-NfD workplace. This would consist of two components:
-
-Press Release
-· NCP VS GovNet Connector with BSI certification for "Classified ­ for official use only", "RESTREINT UE/EU RESTRICTED" and "NATO RESTRICTED" information
-· NCP Secure VPN GovNet Server with BSI certification for "Classified - for official use only", "RESTREINT UE/EU RESTRICTED" and "NATO RESTRICTED" information
-Both components together are ideal for secure processing and transmission of sensitive data having the security classifications described. Additionally, NCP Secure Enterprise Management 6.10 supersedes the NCP Exclusive Remote Access Management System. This means that NCP Exclusive Remote Access Clients tailored to Juniper SRX Gateways can now also be centrally administered with the "SEM" 6.10. The NCP Remote Access solution (NCP Exclusive Remote Access Clients and the "SEM") provides extensive flexibility in terms of licensing. So, in addition to a customary purchase license, the solution can also be operated with a convenient pay-per-use license. Given the circumstances created by the pandemic, customers tend to choose this version due to its flexibility.
-
-NCP engineering GmbH
-
-www.ncp-e.com
-
-Page 2 of 4
-
-Press Release
-Keywords NCP, Remote Access Management, VPN Management, REST API, time-based one-time password, BSI certification More Information
-· NCP Secure Enterprise Management Server www.ncp-e.com/en/products/centrally-managed-vpn-solution/management
-· If you would like more information about NCP, please go to www.ncp-e.com
-About NCP NCP engineering GmbH, headquartered in Nuremberg, is one of the world's leading software manufacturers for highly secure solutions in the areas of remote access, endpoint security and industry 4.0 / IIoT. Large reputable global corporations, mid-sized businesses, governmental departments, and other public agencies rely on solutions "Made in Germany" to protect their IT infrastructures against the latest security threats. The portfolio also includes solutions certified by the Federal Office for Information Security (BSI).
-
-NCP engineering GmbH
-
-www.ncp-e.com
-
-Page 3 of 4
-
-Press Contact
-NCP engineering GmbH Oliver Bezold
-Phone: +49 911 9968 124 Email: oliver.bezold@ncp-e.com www.ncp-e.com
-
-

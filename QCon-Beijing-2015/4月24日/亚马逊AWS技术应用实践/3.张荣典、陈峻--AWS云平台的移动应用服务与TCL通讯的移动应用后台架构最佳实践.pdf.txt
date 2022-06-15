@@ -1,228 +1,0 @@
-AWS TCL
-
-2015/04
-
- AWS  TCL
-
-
-
-       
-
-q AWS    q TCL   
-
-§ TCL
-
-§ TCLAWS
-
-§ TCL
-
-§ TCL
-
-AWS
-
-Mobile Startups on AWS
-
-Mobile Apps within Enterprises
-
-AWS
-Mobile Games on AWS
-
-
-
-        
-
-"  agility   "  backward  compa1ble   "  track  the  direc1on   "  know  your  customer   "  push  the  app  open   "  scalability   "  geographic  spread   "  operate  24/7  
-
-AWS
-     
-Amazon  EC2   Auto  Scaling   Elas1c  Load  Balancing  
-
-AWS
-
-AWS
-
-Amazon  Route  53   Latency--based  rou1ng  
-
-Amazon  CloudFront   sta1c/dynamic  content  
-
-......
-
-  
-
- API  
-
-  
-
-  
-
-AWS
-
-  
-Amazon Cognito (Identity Broker)
-  
-Amazon SNS
-
-API
-AWS IAM Amazon Cognito (Sync) Amazon DynamoDB Amazon SQS Amazon CloudSearch Amazon S3 Amazon Mobile Analytics Amazon Kinesis
-  
-Amazon Mobile Analytics Amazon Redshift
-
-AWS
-
-Identity Sync
-
-Amazon Cognito
-
-AWS
-
-Identity Sync
-Shared Data Search
-Media
-
-Amazon Cognito Amazon DynamoDB Amazon CloudSearch Amazon S3
-
-AWS
-
-Identity Sync
-Shared Data Search Media Backend Calls
-
-Amazon Cognito Amazon DynamoDB Amazon CloudSearch Amazon S3 AEmLaBzon SQS
-
-Custom   Backend   Amazon  EC2  
-
-AWS
-
-Identity Sync
-Shared Data Search Media Backend Calls
-
-Amazon Cognito Amazon DynamoDB Amazon CloudSearch Amazon S3 Amazon SQS
-
-Amazon Mobile Analytics
-
-Custom   Backend   Amazon  EC2  
-
-Amazon Redshift BI
-Amazon SNS
-
-
-
-       
-
-q AWS    q TCL   
-
-§ TCL
-
-§ TCLAWS
-
-§ TCL
-
-§ TCL
-
-TCL
-q TCL2004Alcatel,
-q  #4 2014Q4(Garnter) q 194  q 50 
-17 
-q +  (+/+) q MIEBC  
-
-TCL
-
-q Onetouch Stream 
-
-q App Center  q User Center 
-
-Games
-
-q Game Center 
-
-Apps
-
-q Onetouch Store 
-
-q Onetouch Payment  User center
-
-Store
-
-Music
-
-Theme s
-Life
-
-
-q qapp qapp q q qLog 
-
-TCLAWS
-qOnly EC2 +S3 (2008.12-2012.10) q2g/3g wap
-
-Amazon EC2
-
-Amazon S3
-
-AWS cloud
-
-TCLAWS
-qEC2 +S3+RDS+CloudFront (2012.10-2014.7)
-
-Amazon EC2 Amazon RDS Amazon S3 AWS cloud
-q appcenter 
-
-CloudFront
-
-TCLAWS
-qAdd VPC + ELB +DynamoDB(2014.8-2015.2)
-
-web servers cache servers
-
-Elastic LB
-
-Download distribution
-
-DB instance DynamoDB
-virtual private cloud
-
-Bucket
-
-IAM
-
-
-
-TCLAWS
-qAdd Multi-region Route53 (2015.2- )
-
-TCL
-Route53
-q region Geo location
-q  ELB
-q CDN CDN
-
-TCL
-q
-
-TCL
-q
-§ Flume collectorHDFS § MR/Hive/Streaming § Ooziesqoopdbdashboard
-
-TCL
-q
-§ CloudFront Raw log Geoip2  
-§ Nginx/Tomcat  
-§ Appcenter log 
-
-TCL
-q
-§ VPN §  § aws
-qDB Otter()
-qHDFS  log DistCP/FastCopy(facebook)
-
-TCL
-qEMR
-EMR job  
-q Auto scaling
-webserveronetouch stream 
-
-THANKSQ&A
-
-@InfoQ  
-
-infoqchina  
-
-

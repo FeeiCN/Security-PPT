@@ -1,839 +1,0 @@
-CS-2005 
-
-
- CISSP
-VMware
-CS-2005 
-
-
-§  § 
-§  § 
-§ 
-§  § 
-
-
-§  § 
-§  § 
-§ 
-§  § 
-
-
-
-5
-
-
-  
-
-6
-
-  2 
-2   1 
-
-  GB 
- 1 /
-
-Forrester Researchx86 2010  10  8 
-
-CPU
-10000
-10 µm
-110µ0m0
-10100n0m
-
-DRAM GB()
-$100
-$75
-$50
-
-10 1nm0 $25
-
-1
-
-1958 1978 1998 2018
-
-$0
-
-2005 2007 2009 2011 2013
-
-Gartner DataquestDRAM 2011  1 
-
-
-
-$25,000 $20,000
-
-2013  
-5 
-
-$15,000
-
-$10,000
-
-$5,000
-
-$0 220000662200007722000088 22000099220011002200111120210212 2013
-IDC Worldwide Virtualization Tracker2010 
-
-
-
-
-
-IDC Worldwide Virtualization Tracker2010 
-
-7
-
-
-· 2014 · 2CPUCPU16 · 300GB · 320
-5,000 
-x86
-8
-
-
-
-......
-
-......
-
-$10,000 10
-
-$310,8000 52+2
-9
-
-
-VLAN
- 
-IDS,   
-
-
-......
-VDC
-
- 
-
-5+2
-
-3!
-10
-
-......
- 
-11
-
-
-
-
-    
-
-
-  
- 
-
-   
-
-
-
-  
-
-
- 
- 
-
-12
-
-
-§  § 
-§  § 
-§ 
-§  § 
-
-
-
-
-
-
-
- 
-
-
-
-  
-
- 
-
-
-
- 
-
-
- 
-
-
-
-  
-
-14
-
-
-15
-
-1
-
-
-
-
-
-...
-
-Virtual Switch
-
-VLAN Trunks
-Distribution and core
-
-VLAN Trunks
-VLAN Trunks
-
-Layer 2 switches
-Distribution and core
-
-16
-
-2
-
-1
-A B GH
-Service vmkernel Console
-
-2
-
-3
-
-C
-
-D
-
-I J
-
-E
-
-F KL
-
-Service vmkernel Console
-
-...
-
-Service vmkernel Console
-
- 
- 
- 
-
-
-
-A
-
-B C D E F G
-
-H
-
-I J K
-
-L
-
-Service Console
-1
-
-Service Service Console Console
-
-2
-
-3
-
-Vmk Vmk Vmk
-
-1
-
-2
-
-3
-
-vNetwork Distributed Switch
-
-17
-
-
-§ Management Traffic ­ 
-§  § 
-§ Ethernet Storage ­ iSCSI, NAS IP
-§  § 
-§ Virtual Machine Traffic ­ 
-§  § 
-§ vMotion ­ 
-§  § 
-§ Fault Tolerance ­ 
-§  § 
-18
-
-I/O
-Virtual  Switch  
-10  GigE  
-19
-
-
- 
-
-
-
-
-
-20
-
- 
-
-
-650.555.1212 
-
- =  192.168.10.1
-
-VXLAN
-
-650.555.1212 192.168.10.1
-
-
-
- = 
-21
-
-
-
- 
-
-VM VM VM
-
-VM
-+  +  +  + 
-
-22
-
-
-
-
-
-
-
-1. 
-
-2. 
-
- 
-
-  
-23
-
-
-3.  
-
-
-
-
-
-
-
-
-  
-
-24
-
-
-
- VXLAN
-OpenFlow
-NVGRE STT OTV LISP TRILL Shortest Path Bridging
-
- VMware, Cisco, Citrix, Red Hat, Arista, Brcoade, Broadcom, Dell, Emulex, Intel Juniper, HP, IBM, NEC, Nicira, Big Switch, Brocade, Others Microsoft, HP, Dell, Intel, Arista, Emulex Nicira
-Cisco
-Cisco
-Brocade/Cisco
-Avaya, Alcatel-Lucent
-
-25
-
-
-
-L2   IPv6   Payload  
-VM   VM  
-
-IPv6
-
-VM   VM  
-
-VM   VM  
-
-L2   IPv6   Payload  
-VM  
-
-Open vSwitch Hypervisor
-
-Open vSwitch Hypervisor
-
-Open vSwitch Hypervisor
-
-Open vSwitch Hypervisor
-
-STT, GRE, IPSec, VXLAN, NVGRE
-
-L2   IPv4   TCP   STT   L2   IPv6   Payload  
-
-L2   IPv4   TCP   STT   L2   IPv6   Payload  
-
-26
-
-VXLAN
-
-FE:AA:03:F4 FE:AA:03:F5
-
-Sender
-
-Payload Receiver
-
-
-
-IP Payload
-
-Physical network A
-
-VLAN 10
-
-192.168.1.0/24
-
-IP Payload
-
-Payload
-
-IP Payload
-
-IP Payload
-
-Physical network B
-
-VLAN 100
-
-172.168.1.0/24
-
-
-
-
-§ () § 
-
-Outer MAC DA
-
-Outer MAC SA
-
-Outer Outer 802.1Q IP DA
-
-Outer IP SA
-
-Outer UDP
-
-VXLAN ID (24 bits)
-
-Inner MAC DA
-
-Inner Optional MAC Inner SA 802.1Q
-
-Original Ethernet Payload
-
-VXLAN Encapsulation
-
-Original Ethernet Frame
-
-CRC
-
-27
-
-VXLAN
-
-VM1   MAC1  
-VM1   MAC1  
-
-VM2   MAC2  
-
-VM2   MAC2   VXLAN  Segment  5000  
-VXLAN  Segment  5001  
-
-VM3   MAC3  
-VM3   MAC3  
-
-Host1  
-
-VTEP1  
-
-IP1  
-
-Join  MulEcast   Join  MulEcast   Group  Red   Group  Blue  
-
-VNI   Inner  MAC   Outer  MAC/IP  
-
-5001   MAC1  
-
-Local  
-
-5001   MAC2  
-
-Local  
-
-5001   MAC3  
-
-VTEP2  
-
-VTEP2  
-
-Host2  
-
-IP2  
-
-Join  MulEcast   Join  MulEcast   Group  Red   Group  Blue  
-
-VNI   5001   5001   5001  
-
-Inner  MAC   Outer  MAC/IP  
-
-MAC1  
-
-VTEP1  
-
-MAC2  
-
-VTEP1  
-
-MAC3  
-
-Local  
-
-28
-
-VXLAN
-
-VDC
-
-1
-
-2
-
-
-
-/
-
-n  
-n VDC
-n  
-n 
-n VLAN 
-
-29
-
-
-§  § 
-§  § 
-§ 
-§  § 
-
-
-  
- 
-31
-
-   
- 
-
-
-aaa  b
-b
-b
-32
-
-
-aaa  b
-b
-b
-33
-
-
-
-""
-DMZ
-
-""
-
-""
-
-
-
-
-
-
-
-
-
- VPN
-
- 
-
- 
-34
-
- 
-
-
-
-
-·  · , VPN,  · 
-
-Cost & Complexity
-AtthevDC Edge 
-
-
-
-VLANs
-
-· VLAN · Web · DLP, 
-
-
-
-· , ·  · DLP
-
- 
-
-35
-
-
-
--  - DLP, FIM, 
-
-Users
-
- 
-
-Sites
-
-VDI DMZ
-
-Web
-
-- DMZNAT, IPAM, VR - VPNs - Web
-
-VI Zone
-- IDS/IPS -  - //
-
-36
-
-
-
-
-
-Internet
-
-/
-
-Business A
-
-Business B
-
-Business C t
-
-Tenant A
-
-Tenant B
-
-Tenant C t
-
-37
-
-
-
-
-Edge
- 
-
-
-Security Zone
-Hypervisor 
-
-DMZ
-
- 1
-
- 2
-
-/
-Endpoint = VM
- 
-
-Endpoint = VM
-
-
-
-
-
-
-38
-
-
-
-
-Alpha
-
-
-
-.111 .112
-
-2 1
-
-vApp 1
-
-
-
-vApp
-
-.11 .12
-
-vApp
-
-vApp 2
-
-vApp 3 3
-
-vApp 4
-
-vApp
-
-39
-
-S2S VPN
-
-Cloud 1
-A
-
-
-
-VPN
-
-Cloud 2
-B
-
-
-/
-C
-
-
-
-VPN
-
-
-
-Cloud
-D
-
-
-
-VPN
-
-VPN
-
-40
-
- 
- 
- 
-
-SSL-VPN
-
-
-
-
-
-
-
-
-
-SSL--VPN  
-
-41
-
-
-
-vApp 
-
-
-42
-
-
-
-
-
-
- :
-VM RSPAN
-
-vmnic0   vmnic1  
-
-
-43
-
-IDS
-
-/
-
-SVM
-AV
-OS
-
-
-
-VM
-APP OS
-
-BIOS
-
-VM
-APP OS
-
-BIOS
-
-
-
-VM
-APP OS
-
-BIOS
-
-44
-
-
-IDS / IPS  
-
-
-
-
- vs. 
-
-
-§  § 
-
-§  §  § 
-
-§  § 
-
-
-
-§  § 
-
-§ VLAN §  § 
-
-§  § 
-45
-
-
-46
-
-
-
-

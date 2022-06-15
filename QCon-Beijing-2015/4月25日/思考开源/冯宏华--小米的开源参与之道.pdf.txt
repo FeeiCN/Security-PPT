@@ -1,244 +1,0 @@
-
-
-
-
-
-
-
-www.mi.com
-
-1
-
-www.mi.com
-
-2
-
-
-l  l  l  l 
-
-www.mi.com
-
-3
-
-
-Linux MySQL Redis PHP Nginx Resin Rabbit-MQ
- 
- Discuss Storm MemCache Supervisord Tomcat Java
- 
- Lucene Tornado MongoDB Jetty Spring Thrift Python
-
-
-
-...
-
-
-www.mi.com
-
-4
-
-
-u MIUI ...
- 
- u (Mi Cloud)  ...
-
-
-www.mi.com
-
-5
-
-
-
-HBase 
- Spark 
-
-
-HDFS Impala
-
-Zookeeper YARN MapReduce SenseiDB
- Hive Kudu Storm Kafka Scribe Thrift
-
-...
-
-
-www.mi.com
-
-6
-
-
-ü HBase : 347patch195
- 
- ü Hadoop : 85patch42
- 
- ü Spark : 63patch58
- 
- u 3HBase Committer2SenseiDB Committer
-
-
-
-
-www.mi.com
-
-7
-
-
-u 
- u 
-
-Ø 2012
- Ø 
-
-
-www.mi.com
-
-8
-
-
-l  l  l  l 
-
-www.mi.com
-
-9
-
-
-u 
- u 
-
-
-www.mi.com
-
-10
-
-
-u /
- u /
-
-
-www.mi.com
-
-11
-
-
-u (merge )
- u /patch(" ")
- u ""
-
-
-www.mi.com
-
-12
-
-
-u / 
- u /()
- u //
-
-
-www.mi.com
-
-13
-
-
-l  l  l  l 
-
-www.mi.com
-
-14
-
-""()
-u  
-
-u patch (///...)
-
-
-www.mi.com
-
-15
-
-
-u / 
- u "" ()
-
-
-www.mi.com
-
-16
-
-
-u / review
- u patch committerreview
-
-
-www.mi.com
-
-17
-
-
-u /""
- u /
-
-
-www.mi.com
-
-18
-
-
-u patchreview
- u ()
-
-
-www.mi.com
-
-19
-
-
-l  l  l  l 
-
-www.mi.com
-
-20
-
-""
-u ()
-
-Ø ""( )
- Ø ""(same page)
- Ø (bug-fix)
-
-
-www.mi.com
-
-21
-
-/(concept integrity)
-u concept integrity
- Ø 
- Ø ""
-
-
-www.mi.com
-
-22
-
-
-u  (good enough)
-
-Ø /(eventually)/( )
- Ø ""(/ )
-
-
-www.mi.com
-
-23
-
-Q & A
-
-
-www.mi.com
-
-24
-
-www.mi.com
-
-25
-
-

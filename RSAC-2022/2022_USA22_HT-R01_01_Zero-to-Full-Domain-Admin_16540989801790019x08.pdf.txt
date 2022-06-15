@@ -1,192 +1,0 @@
-#RSAC
-SESSION ID: HT-R01
-Zero to Full Domain Admin Real-World Ransomware Incident
-*This session is mostly a LIVE WALKTHROUGH
-Joseph Carson
-Chief Security Scientist & Advisory CISO Delinea @joe_carson
-
-Who is it for?
-
-Pentesters / Incident Response
-
-IT & System Admin
-
-IT Security
-
-IT Auditors
-
-</ >
-Tech Geeks
-
-© delinea
-
-delinea.com 2
-
-Disclaimer & Ethics
-
-Authorized Only
-© delinea
-
-Do No Harm
-
-Follow the Law
-
-Educational Purpose
-
-delinea.com 3
-
-#RSAC
-Disclaimer
-Presentations are intended for educational purposes only and do not replace independent professional judgment. Statements of fact and opinions expressed are those of the presenters individually and, unless expressly stated to the contrary, are not the opinion or position of RSA Conference LLC or any other cosponsors. RSA Conference does not endorse or approve, and assumes no responsibility for, the content, accuracy or completeness of the information presented. Attendees should note that sessions may be audio- or video-recorded and may be published in various media, including print, audio and video formats without further notice. The presentation template and any media capture are subject to copyright protection.
-©2022 RSA Conference LLC or its affiliates. The RSA Conference logo and other trademarks are proprietary. All rights reserved.
-4
-
-5
-
-You'll most likely be notified of a breach by an OUTSIDER!
-· Law Enforcement · Third Parties including customers · Attackers contact you · Social Media · Employees · Security Researchers
-
-Incident Response
-
-Incident Response Checklist ­ Be ready
-
- Ownership  Communications  Contact List  Clear Definition of Threat
-1) Confidentiality ­ Data Loss 2) Integrity ­ Data Poisoning 3) Availability - DDOS
-
- In-House Capability and 3rd Party Responsibility
- Containment (Evidence)  Press Statement  Legal Assessment  Eradication  Recovery  Lessons Learned
-
-© delinea
-
-delinea.com 8
-8
-
-9
-Be Incident Response Ready
-© delinea
-
-· Time Format and Naming? · Policies (HR, Legal, Law Enforcement) · Evidence Gathering (Logs, Images) · Identities and User Access · Service Accounts (Privileged Access,
-Rotate) · Go Bag (Everything you might need) · Communications Alternative (OOB) · Helpdesk Ready · Incident Response Plan ­ Keep Updated · Incident Response Practice Drills
-delinea.com 9
-
-10
-The Plan and Actions Document and Coordinate
-© delinea
-
-· Mandatory Requirements
-
-· Who is Responsible for managing ­ IR Plan
-
-· Executive Summary
-
-· Incident Response Timeline
-
-· Attack Path ­ Mitre Attack Framework
-
-· Malware Analysis
-
-· Data Recovery and Evidence Store
-
-· Threat Intelligence (Dark web)
-
-· Security in Place and Mitigations to contain Incident
-
-· Data Exfiltration
-
-· Asset Inventory
-
-· Network Activity
-
-delinea.com 10
-
-11
-© delinea
-
-delinea.com 11
-
-Indicators of Compromise (IoC)
-
-· Audit Logs? · After Password Rotation? · Discovering New Privileged Accounts? · Access from non-corporate devices · Increased Network Bandwidth Usage · Out of Hours Activity
-
-· New Privileged Activity · Abnormal Activity · Review Risk Register · Employee Notification · Suspicious Applications
-
-Shutdown Systems Pull the Plug?
-Can you go back to manual? What systems are still operational? Are the attackers still accessing your systems?
-
-14
-What did the attackers have access to and how did they do it?
-© delinea
-
-· Domain Admin and DC · All Systems · All Data · All Applications? · On-Premise or Cloud? · How long? · What tools did they use? · Did they leave any backdoors? · What data did they take and how? · What is the timeline of events? · What evidence is remaining?
-delinea.com 14
-
-15
-If you do become a victim of Ransomware
-© delinea
-
-RESTORE BACKUP or
-PAY RANSOM or
-DO NOTHING AND HOPE TO REBUILD
-delinea.com 15
-
-Find a sample of Cryptor from infected system
-
-Following the attackers' footprints ATTACK PATH
-LIVE WALKTHROUGH OF ATTACK
-
-Find Patient Zero or Staging System
-How did they get in? Shut the door!
-
-Initial access Staging systems
-
-Disable Security Using Local Admin
-
-23
-Persistence & Backdoors
-© delinea
-
-delinea.com 23
-
-24
-Elevate Privileges
-MIMIKATZ
-© delinea
-
-delinea.com 24
-
-25
-Lateral Moves
-Using PsExec
-© delinea
-
-delinea.com 25
-
-26
-Automation
-Mostly using batch scripts
-© delinea
-
-delinea.com 26
-
-What can we do to reduce the risks?
-
-28
-Top tips to stop Ransomware based on this ATTACK
-
-Education & Cyber Hygiene
-Privileged Access Management
-
-Backup & Test Application Control
-
-Zero-Trust & Least Privilege
-Patch and Update Security
-
-© delinea
-
-delinea.com 28
-
-#RSAC
-"Un d e rsta n d in g h a cke r te ch n iq u e s a n d p ro ce sse s is th e b e st wa y to d e fe n d a ga in st cyb e r a tta cks, a n d fo cu sin g o n b u sin e ss risks is th e b e st wa y to ge t se cu rity b u d ge t."
-­ Jo se p h Ca rso n
-
-

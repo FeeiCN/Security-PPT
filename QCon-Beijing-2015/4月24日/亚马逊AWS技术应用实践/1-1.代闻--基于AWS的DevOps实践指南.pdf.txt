@@ -1,285 +1,0 @@
-AWSDevOps
- AWS wendai@amazon.com
-
-DevOps?
-" DevOps is a software development method that stresses communication, collaboration, integration, automation, and measurement of cooperation between software developers and other IT professionals .... to improve operations performance. "
-Source: http://en.wikipedia.org/wiki/DevOps
-
-DevOps?
-...
-
-DevOps
-
-...
-
-
-
-, 
-
-Change Change
-
-Time
-
-Time
-
-DevOps
-
-DevOps
-
-DevOps
-
-Code
-
-Logic and control
-
-Frameworks/Tools Easy to use
-
-SDK
-
-Multiple Language
-
-API
-
-AUTOMATION FOUNDATION
-
-Platform
-
-Infrastructure and OS
-
-AWSDevOps
-
-Code Frameworks/Tools
-
-Programs, CLI, Scripts, DML, ...
-
-SDK
-
-Python, Java, PHP, Node.js, ...
-
-API
-
-REST API
-
-Platform
-
-Foundation Services
-
-AWSDevOps
-
- CloudFormation CodeDeploy OpsWorks ElasticBeanstalk 
-
-Code & CLI
-
-Ansible Saltstack
-...
-
-API & SDK AWS Services
-
-
-Code & CLI
-
-AWS
-
-Management Console
-
-APIs and SDKs Command Line Interface
-DevOps
-
-AWS Tools (SDK, CLI, IDE, etc.): http://aws.amazon.com/tools/
-
-DEMO
-
-Python Code ­ Start two EC2 instances
-
-CLI - Add Tag to EC2 instances
-aws ec2 create-tags --resources i-ffb064c7 i-8eb561b6 --tags Key=Name,Value=QConEC2
-
-DevOps 
-
-AWS DevOps
-
-Convenience
-IAM
-Customization
-
-Beanstalk OpsWorks
-
-CodeDeploy CloudFormation
-
-Provision
-
-Deploy
-
-CloudWatch
-Monitor
-
-CloudFormation
-
-
-· AWS Stack
-· 
-· CloudFormation 
-· 
-·  APICloudFormation
-
-Infrastructure as Code
-Samples: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/sampletemplates-services-us-west-2.html
-
-
-
-CodeDeploy
-
-
-
-Amazon S3 GitHub
-
-Application Bundle
-
-Deployment
-
-Agent
-
-Agent
-
-Agent
-
-Agent
-
-Agent
-
-Agent
-
-Deployment Group
-
-Deployment Configuration
-
-Rolling updates
-v2
-v1
-
-Auto Scaling support
-v2 v2 v2
-
-Customized Install
-files: - source: /web_files/ destination: /var/www/html/
-hooks: BeforeInstall: - location: setup/install_dep.sh ApplicationStart: - location: setup/start_server.sh - location: setup/start_logger.sh ApplicationStop: - location: setup/stop_server.sh - location: setup/flush_logs.sh
-
-Application Specification File
-
-version: 0.0 os: linux files: - source: /
-destination: /var/www/html/WordPress hooks: BeforeInstall:
-- location: scripts/install_dependencies.sh timeout: 300 runas: root AfterInstall: - location: scripts/change_permissions.sh timeout: 300 runas: root
-
-ApplicationStart: - location: scripts/start_server.sh timeout: 300 runas: root ApplicationStop: - location: scripts/stop_server.sh timeout: 300 runas: root
-
-Demo Snapshot
-
-OpsWorks
-
-OpsWork
-AWS OpsWorks is a flexible application management solution with automation tools that enable you to model and control your applications and their supporting infrastructure.
-
-OpsWorks
-
-OpsWorks Backend
-
-Command JSON
-Command Log+Status
-
-Amazon EC2, Amazon EBS, EIP, Amazon VPC, Elastic Load Balancing.... Auto-Scaling, Auto-Healing....
-
-OpsWorks Agent
-On-instance execution via Chef client/zero
-
-Chef
-
-Lifecycle events
-
-Built-in and Custom Chef Recipes
-
-Custome Recipe Demo
-­ 
-
-Cookbook development workflow
-
-Change cookbook
-
-Push change
-
-Stop an instance
-Update cookbooks
-
-Start an instance
-Trigger event or runlist
-
-Check logs
-
-ElasticBeanstalk
-
-Elastic Beanstalk 
-Application versions
-All versions are stored durably in Amazon S3. Code can also be pushed from a Git repository!
-Saved configurations
-Save these for easy duplication for A/B testing or non-disruptive deployments
-
-Application
-
-
-
-Demo: CLI workflow
-
-Initial app deployment:
-
-01 Initialize your Git repository $ git init .
-
-02 Create your Elastic Beanstalk app $ eb init
-
-03
-
-Follow the prompts to configure the environment
-
-04 Add your code $ git add .
-
-05 Commit $ git commit ­m "v1.0"
-
-06
-
-Create the resources and launch the application
-
-$ eb create
-
-Demo: CLI workflow
-Update your app:
-01 Update your code
-02 Push the new code $ git add . $ git commit ­m "v2.0" $ eb deploy
-03 Monitor the deployment progress $ eb status
-
-
-
-Amazon CloudWatch
-
-AWS IAM (Identity & Access Mgmt)
-
-Monitor resources
-
-Manage users, groups &
-permissions
-
-Convenience
-IAM
-Customization
-
-Beanstalk OpsWorks
-
-CodeDeploy CloudFormation
-
-Provision
-
-Deploy
-
-CloudWatch
-Monitor
-
-
-
-

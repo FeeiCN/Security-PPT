@@ -1,128 +1,0 @@
-
-  2014.9.24
-China Internet Security Conference 2014 2014
-
-
-·  · Hello, Edward Snowden · "IOE""IOE" · 
-
-
-­ """ " 
-­ ""
-·  ·  ·  ·  ·  ·  · 
-­ ""
-  
-
-Hello, Edward Snowden
-­ 20136CIA·  "PRISM"
-­ 20138788 ""
-­ 2014227  
-
-"IOE""IOE"
-­ 
-
-"IOE"
-­ "IOE"IBMOracle EMC 
-­ "IOE"IT  IT
-­ "IOE"" IOE"
-
-"IOE"
-­ Amazon Web Services
-· 201220 Amazon Web Services240 
-­ AWSIBM
-· IBM 20136IBMCIA6 Amazon AWS108IBM 
-
-"IOE""IOE"
-­ "IOE"
-· "IOE""IOE" ""
-
-
-
-28170%
-
-"IOE""IOE"
-­ 
-· "" 
-· "IOE" "IOE"IOEIOE 
-­ 
-· Gartner2014 42.7 IBMHP 201349%38%IBMX 25%
-
-"IOE""IOE"
-­ 
-· "IOE""IOE" 
-· "IOE" 
-­ 
-·  ·  · 
-
-
-­ 
-· IT · ""
- · 
- · "IOE"
-
-
-
-­ 
-·    
-­ 
-·     SaaSIaaS
-
-
-­ 
-·   "" ""
-· ""  
-· IT · 
-
-
-
-­ 
-·  
-· 2012Amazon Market PlaceAmazon VPCNISG 
-· NISG"NISG-VA" VMware ReadyCitrix Ready
-
-
-
-
- NISG-VA HypervisorNISG-VA NISG-VA 
-
-Operating System
-vNIC
-
-Operating System
-vNIC
-
-Operating System
-vNIC
-
-Operating System
-vNIC
-
-Security API Hypervisor
-
-Operating System
-vNIC
-
-SCM
-V
-
-NoviceAmazon VPC
-
-Centrally manage all your network
-
-Neusoft Security
-Amazon VPC
-
-V
-
-V
-
-Branch
-
-HQ
-
-V
-
-Branch
-
-Thanks!
-
-

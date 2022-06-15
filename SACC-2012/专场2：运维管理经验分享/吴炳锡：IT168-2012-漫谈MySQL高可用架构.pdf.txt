@@ -1,139 +1,0 @@
-MySQL
-
- @
-MYSQL
-
-
-     
-­  ­ DRBD ­  ­ MySQL Proxy ­ API ­ Galera MySQL ­ NDB Cluster
-   
-
-
-     MySQL
-
-
-
-
-
-
-
- 
-
-HA Keepalive, Heartbeat, Redhat Cluster Site MMM 
-
-
-
-
- DRBD
-
-HA Keepalive, Heartbeat, Redhat Cluster Site :DRBD
-   Standy MySQL
- 
-
-
- 
-HA Redhat Cluster Site
-   Standy MySQL 
-
-
- HA
-· HA · Standy () ·  · 
-
-
- 
-
-:
-DNS SERVER : Bind-DLZ+MySQL  :  , 
-
-
- MySQL Proxy
-
-
-
- MySQL Proxy
-
-·
-
-
-
-·
-
-,(proxyMySQL)
-
-·
-
-
-
-·
-
-
-
-·
-
-
-
-·
-
-
-
- 
-
-­ Proxy
-
-­ Proxy
-
-
- API
-
-
- 
-­  ­ Proxy ­ API
-
-
-· Galera MySQL
-
-
-
- Galera MySQL
-
-
- NDB cluster
-
-
- NDB cluster · 1.05BN QPM using MySQL Cluster 7.2 · 8-node(data node)cluster using MySQL Cluster 7.2.5 · 2-socket servers using X5670 with Infiniband interconnect and 48GB of memory · NDB API
-
-
-  
-
-
-
-
-       
-
-
-http://www.mysqlperformanceblog.com/2009/10/16/findingyour-mysql-high-availability-solution-%E2%80%93-thequestions/
-
-Simple replication Master-Master with MMM manager
-
-Level of availability 98 to 99.9+%
-99%
-
-Heartbeat/SAN (depends on SAN)
-Heartbeat/DRBD NDB Cluster
-
-99.5% to 99.9%
-99.9% 99.999%
-
-
-  · Galera MySQL Percona · PerconaGalera MySQL Percona XtraDB Cluster · 
-­ NDBcluster 
-
-
-V1 HA V2 HRedHat Cluster Site V3  V4 MySQL ProxyHA
-
-­V3V4 ­V3
-­V4App ­V4proxy
-
-Q&A
-
-

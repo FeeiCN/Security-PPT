@@ -1,87 +1,0 @@
-Windows 8 
-
-Windows 8  8.1 
-
- BYOD   
-UEFI
-
- PC   Windows Defender  Internet Explorer 
-
- 
-
-
-
-TPM
-
- (TPM)
-
-Windows 8.1 TPM()
-
-·  BYOD  · 
- Windows 
-· TPM  · 
- Windows 8.1 
-·  OEM ""
-
- BYOD   
-
-
-·  · 
- Windows 
-· Windows XP  · Windows 7  Windows Biometric Framework · 
-
-·  PC OEM  · 
- 8.1 
-·  ·  · 
-
- BYOD   
-
- BYOD   
-
-
-
-DigiNotar 
-· 
-""
-·  
-
-""
-·  
-Mimikatz
-· 
-
-
-
-
-· 
-·  Windows ·  · BYOD  · 
-· 
-· TPM  · 
-· 
-·  Windows  · ""
-
- BitLocker
- 
-      SkyDrive    BitLocker 
- BitLocker  BitLocker To Go ­ Windows
-  (BitLocker)  (BitLocker to Go)     AD 
-
- PC   Windows Defender
-
- PC   Windows Defender  Internet Explorer
-
-Windows DefenderIE
-· Windows Defender
-·  ·  ·  · 
-· IE
-· ActiveX ·  AM  ·  API 
-
-Win8.1
-
- BYOD  
-
- PC   Windows Defender 
-
- 
-
-

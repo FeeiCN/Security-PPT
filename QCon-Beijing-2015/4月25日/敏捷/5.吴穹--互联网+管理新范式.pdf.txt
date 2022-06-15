@@ -1,251 +1,0 @@
-+ "" 
- Agilean
-
-
-
- 
-
- 
-
-
-
- = 
-
-20 50 
-21
-
-21   
-
-
-1. ""
-2.  
-3. 
-4. 
-5.  
-6. """"
-
-
-
-    
-
-
-
- 
-
-
-
-
-Robby
-
-Robby
-  
-
-Robby
-  
-   
-
-Robby
-
-  
-
-   
-
-
-
- +10
-
--1
-
-
-
--5
-
-Robby
-
-Robby
-Code: MoveNorth = 0 MoveSouth = 1 MoveEast = 2 MoveWest = 3 StayPut = 4 PickUpCan = 5 MoveRandom = 6
-
-Robby
-0
-Code: MoveNorth = 0 MoveSouth = 1 MoveEast = 2 MoveWest = 3 StayPut = 4 PickUpCan = 5 MoveRandom = 6
-
-Robby
-
-0 2
-
-Code: MoveNorth = 0 MoveSouth = 1 MoveEast = 2 MoveWest = 3 StayPut = 4 PickUpCan = 5 MoveRandom = 6
-
-Robby
-0 2 6 5 . . . 3 . . . 4
-Code: MoveNorth = 0 MoveSouth = 1 MoveEast = 2 MoveWest = 3 StayPut = 4 PickUpCan = 5 MoveRandom = 6
-
-Robby
-1. 200
-
-Robby
-1. 200 2. 100
- 
-
-Robby
-1. 200 2. 100
-  3. 200   
-
-Parent 1: Parent 2:
-
-Parent 1: Parent 2:
-
-Parent 1: Parent 2: Child:
-
-Robby
-1. 200 2. 100
-  3. 200    4. 2 
-
-Robby
-  
-
-Robby
-  
-: 346
-
-Robby
-  
-
-: 
-
-346
-
-486
-
-
-
-
-·  ·  ·  ·  · 
-
-
-
-·  ·  ·  ·  · 
-
- 1. "
-" 2. 
-  3.   4.   5.    6.  """"
-
-
-
-·  ·  ·  ·  · 
-
- 1. "
-" 2. 
-  3.   4.   5.    6.  """"
-
-KPI, OKR
-·  · KPI · OKR?
-
- - 
-
-Ideas
-
-Dev Ready
-5
-
-Development
-
-3
-
-Ongoing
-
-Done
-
-Test Ready
-5
-
-Testing 3
-
-UAT 
-
-Delivery Ready
-
-
-Pull
-
-F
-F F
-
-F F F F
-
-
-
-D
-
-
-
-G
-
-E
-
-System Lead Time
-
-Discarded
-
-I
-
-I
-
-
-
-·  ·  ·  ·  · 
-
- 1. "
-" 2. 
-  3.   4.   5.    6.  """"
-
-
-
-·  ·  ·  ·  · 
-
- 1. "
-" 2. 
-  3.   4.   5.    6.  """"
-
-
-
-·  ·  ·  ·  · 
-
- 1. "
-" 2. 
-  3.   4.   5.    6.  """"
-
-
-
-
-
-·  ·  ·  ·  · 
-
- 1. "
-" 2. 
-  3.   4.   5.    6.  """"
-
-
-
-·  ·  ·  ·  · 
-
- 1. "
-" 2. 
-  3.   4.   5.    6.  """"
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-@InfoQ
-
-infoqchina
-
-

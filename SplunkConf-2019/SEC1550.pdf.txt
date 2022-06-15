@@ -1,231 +1,0 @@
-© 2019 SPLUNK INC.
-Have No Fear WMI is Here: Identify Lateral Movement and Malicious Backdoors with WMI
-Ryan Becwar
-Sales Engineer | Splunk
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-Agenda
-The Discussion Points
-
-1. Introduction 2. WMI Overview 3. WMI Attacks 4. WMI Attacks Detections 5. Ingesting 6. Takeaways 7. Q & A
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-WMI/MI Overview
-What exactly is WMI?
-
-© 2019 SPLUNK INC.
-"Windows Management Instrumentation (WMI) is the infrastructure for management
-data and operations on Windows-based operating systems."
- Microsoft
-
-WMI Functionality
-So what exactly can you do with WMI?
-What does it do?
-· Automate administrative tasks on remote computers via WMI scripts or applications
-· Supplies management data to other parts of the operating system and products
-
-Providers
-· Active Directory · BitLocker Drive Encryption (BDE) · Boot Configuration Data (BCD) · Domain Name System (DNS) · Group Policy provider · Hyper-V provider · Mobile Device Management (MDM) · Shadow Copy · And many, many more...
-
-© 2019 SPLUNK INC.
-
-WMI Architecture
-How does it work?
-
-© 2019 SPLUNK INC.
-
-MI vs. WMI
-Infrastructure or Instrumentation -- that is the question
-Tight alignment with standards
-New native-code provider APIs
-API support for rich PowerShell semantics
-New approach to creating PowerShell cmdlets from MI providers using XML
-Backward combability with older WMI implementation
-MI is a downloadable update to Windows 7, Windows Server 2008 R2, and Windows Server Standard
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-WMI/MI Based Attacks
-How WMI/MI is leveraged in attacks?
-
-© 2019 SPLUNK INC.
-
-Attackers Love WMI/MI
-Can you feel the love?
-
-It's built in to Windows no install necessary!
-· Living off the land (LotL)!
-It's scriptable via PowerShell and Sysmon
-· Great for persistence
-Fileless
-· Information made available through providers
-Attackers particularly love Win32_ Process Create
-
-Can be leveraged in remote attacks
-· winrm and wmic
-Often not monitored
-· Lack of knowledge
-Leveraged for Internal Recon
-· WMI queries to gather system information
-Log are often verbose in nature
-· Can be noisy
-
-© 2019 SPLUNK INC.
-WMI Attack Examples
-Who uses WMI anyways?
-APT32 used WMI to deploy their tools on remote machines and to gather information about the Outlook process APT29 used WMI to steal credentials and execute backdoors at a future time FIN8's spear phishing payloads use WMI to launch malware and spawn cmd.exe execution. They also use WMIC during and post compromise cleanup activities BlackEnergy uses WMI to gather victim host details Deep Panda is known to utilize WMI for lateral movement Empire and Cobalt Strike can use WMI to deliver a payload to a remote host FireEye Bring Your Own Land (BYOL) attack leverages WMIC to execute payloads while obfuscating PowerShell commands... more on this in a second
-
-© 2019 SPLUNK INC.
-WMI/MI Attacks Detections
-How can we detect WMI based attacks
-
-Previous .conf Talk on WMI
-Conventional way to identify WMI based attacks
-Windows WMI Activity Events
-· Event IDs 5859 and 5861 (can be extremely noisy) · Event ID 5860
-Sysmon WMI Events
-· Event ID 19 Look for new Event Filters being registered · Event ID 21 Look for Binding
-
-© 2019 SPLUNK INC.
-
-Limitations with Conventional WMI Alerting
-Where does conventional alerting fall off the rails?
-
-© 2019 SPLUNK INC.
-
-Not all the activity is logged
-· Some techniques are obfuscated
-
-Can be verbose in nature
-· Feels like you're drinking from a water hose
-
-Events sometimes contain less actionable information
-· WMI Activity logs do NOT contain details of newly created Consumers, Filters or Bindings used for WMI persistence
-· Complex correlation is sometimes necessary
-
-ETW are debug logs... more on this in a second
-· Format is in binary · Not ingested by Splunk... or is it?
-
-© 2019 SPLUNK INC.
-Ingesting WMI Events into Splunk
-
-What are Trace Events?
-ETW
-Event Tracing for Windows (ETW)
-Event logs are a fraction of what is actually produced
-· Receives events from ETW · ETW events that support "Channels" are written to the
-Event log · Each Provider has a unique GUID
-­ Hyphened Microsoft-Windows-WMI-Activity
-Microsoft-Windows-Powershell
-Microsoft-Windows-Sysmon
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Benefits of WMI Trace
-What's so special about the trace logs
-Difficult for Security teams to detect WMI activity through the Event Log on endpoints and the network for
-· Remote execution · Persistence mechanism · Lateral movement · etc
-Most PowerShell and Sysmon obfuscated WMI based attacks can be seen
-Entire log aka... NO FILTERING!
-
-© 2019 SPLUNK INC.
-Turn On the Trace Events
-Great now what?
-Two options for enabling WMI Tracing on endpoints:
-· Command line:
-­ wevtutil.exe sl Microsoft-Windows-WMI-Activity/Trace /e:true
-· Via the Registry:
-­ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-WMI-Activity/Trac e DWORD = Enabled (0 or 1)
-WMI trace events will be recorded within the
-· Event Log file
-­ %SystemRoot%\System32\Winevt\Logs\Microsoft-Windows-WMI-Activity%4Trace.etl". RD = Enabled (0 or 1)
-
-WMI on WMI
-WoW... Monitor WMI with WMI?
-PS Script developed by FireEye
-Feed WMI Trace logs from endpoints into SIEM to gain greater visibility
-Logs high-fidelity WMI events to the application log
-Contains only
-· Event Consumer Name · Event Consumer Command · Process Call Method · Process Call Command
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Ingesting the Data into Splunk
-But how do we ingest this into Splunk?
-WMI/Trace events are debug logs and the format is in binary
-· Splunk currently does not like the format
-Run a PowerShell script on the endpoint
-· https://gist.github.com/mattifestation/aff0cb8bf66c7f6ef44a#file-example_wmi_detection_eventlogalert-ps 1
-
-Ingestion Roadblocks
-Wait, something's missing...
-Some environments may leverage WMI invoked process creations for system administration
-· Establish white list/black list
-Why am I only seeing just a generalized name for the events and not the entire command that was executed?
-· Forked the PS script to include the entire event!
-­ https://gist.github.com/rbecwar/2413500e5f8d71e01580c29879d114cf
-
-© 2019 SPLUNK INC.
-
-Event Validation
-Can we test this?
-Detecting malicious WMI trace events
-· Malicious events are rolled into one simplistic alert
-· sourcetype= WinEventLog:Application Source=WSH EventCode=8
-· sourcetype=XmlWinEventLog source="XmlWinEventLog:Application" EventCode=8
-
-© 2019 SPLUNK INC.
-PowerShell test script to simulate the attacks
-· https://gist.github.com/mattifestation/fa2e3cea7 6f70b1e2267#file-wmi_attack_detection-ps1-L1 83
-
-© 2019 SPLUNK INC.
-References
-Rico Valdez .conf18 "The Hacker's Chocolate to their PowerShell Peanutbutter"
-· https://static.rainfocus.com/splunk/splunkconf18/sess/1523578675195001VubJ/finalPDF/SEC1833_WMITheHackerChocolate_Final_1 5385980427120012ky0.pdf
-FireEye blogs
-· https://www.fireeye.com/blog/threat-research/2016/08/wmi_vs_wmi_monitor.html · https://www.fireeye.com/blog/threat-research/2018/06/bring-your-own-land-novel-red-teaming-technique.html
-MITRE ATT&CK
-· https://attack.mitre.org/techniques/T1047/
-GitHub repo
-· https://gist.github.com/rbecwar/2413500e5f8d71e01580c29879d114cf/revisions
-Matt Graeber Derbycon 2019
-· http://www.irongeek.com/i.php?page=videos/derbycon9/1-05-how-do-i-detect-technique-x-in-windows-applied-methodology-to-definitiv ely-answer-this-question-matt-graeber
-
-© 2019 SPLUNK INC.
-
-Key Takeaways
-WMI Trace Events
-
-1. Fairly simple deployment
-2. Better visibility for WMI events
-3. Great for detecting obfuscated WMI
-attacks Not a silver bullet!
-
-© 2019 SPLUNK INC.
-
-Thank
-
-You
-
-!
-
-Go to the .conf19 mobile app to
-
-RATE THIS SESSION
-
-© 2019 SPLUNK INC.
-Q&A
-Ryan Becwar | Sales Engineer
-
-

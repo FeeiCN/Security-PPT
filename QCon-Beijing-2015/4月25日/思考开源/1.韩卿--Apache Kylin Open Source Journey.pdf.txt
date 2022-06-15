@@ -1,364 +1,0 @@
-Apache Kylin Open Source Journey
-  Luke Han
-Co-Creator & PMC Member lukehan@apache.org
-2015--04--25
-
-Agenda
-· About Apache Kylin · Kylin Open Source Journey · Apache Incubating · Build Community and Ecosystem · The Good, The Bad and The Ugly · Q&A
-
-About  Apache  Kylin  ()
-
-Extreme OLAP Engine for Big Data
-
-http://kylin.io  
-
-Kylin is an open source Distributed Analytics Engine that provides SQL interface and multi-dimensional analysis (OLAP) on Hadoop supporting extremely large datasets
-
-· First Apache Project open sourced by eBay Inc. · First Apache Project fully contributed from eBay CCOE
-
-· Open Sourced on Oct 1st, 2014
-· Be accepted as Apache Incubator Project on Nov 25th, 2014
-· Apache Kylin is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by Incubator.
-
-Technical  Challenges
-· Huge volume data ­ Table scan
-· Big table joins ­ Data shuffling
-· Analysis on different granularity ­ Runtime aggregation expensive
-· Map Reduce job ­ Batch processing
-
-Apache  Kylin  Architecture
-
-3rd  Party  App  
-(Web  App,  Mobile...) REST  API
-SQL
-
-SQL--Based  Tool  
-(BI  Tools:  Tableau...) JDBC/ODBC
-SQL
-
- Online  Analysis  Data  Flow    Offline  Data  Flow  
- Clients/Users  interactive  with  Kylin   via  SQL  
- OLAP  Cube  is  transparent  to  users
-
-Mid  Latency  --  Minutes
-
-REST  Server Query  Engine
-Routing
-
-Low    Latency  --  Seconds
-
-Hadoop Hive
-Star  Schema  Data
-
-Metadata
-Cube  Build  Engine  
-(MapReduce,  Streaming...)
-
-DOatLaA   P   CuCbuebe  
-(HBase)
-Key  Value  Data
-
-Features
-
-· Extremely Fast OLAP Engine at scale · ANSI SQL Interface on Hadoop
-
-90%$le'queries'<5s'
-
-· Seamless Integration with BI Tools, like Tableau
-
-· Interactive Query Capability
-
-· MOLAP Cube
-
-· Compression and Encoding Support
-
-· Incremental Build of Cubes
-
-· Approximate Query Capability for Distinct Count (HyperLogLog)
-
-· Leverage HBase Coprocessor for query latency
-
-· Job Management and Monitoring
-
-· User friendly Web GUI for manage, build, monitor and query cubes
-
-· Security capability to set ACL at Cube/Project Level
-
-· Support LDAP Integration
-
-· Streaming Support Coming soon!
-
-6
-
-Agenda
-· About Apache Kylin · Kylin Open Source Journey · Apache Incubating · Build Community and Ecosystem · The Good, The Bad and The Ugly · Q&A
-
-Kylin  Open  Source  Journey
-
-Ini$a$ve(
-
-POC$Completed$
-
-US#Patent#Filed#
-
-Open%Sourced%
-
-Apache  Top  Project
-Apache'' Incubator'Project'
-
-Sep  2013
-
-Jan  2014 Jun  2014
-
-  Jul  2014
-
-Oct  2014
-
-V1.0%Beta%Released%
-
-V1.0%GA%Released%
-
-Nov  2014
-
-Ready  for  Open  Source
-· Open  Source  from  Day  One   · Internal  vs  External   · Intellectual  Property   · Legal   · Domain   · License  
-­ Apache/MIT/BSD/GPL...  
-· Team
-
-Patent
-· Why? · How? · Patent vs Open Source
-
-Phase  I:  Open  Source  on  Github
-· Code pushed to github.com on Oct 1st, 2014
-
-Phase  II:  Apache  Incubator
-· Be accepted as Apache Incubator Project on Nov 25th, 2014
-
-Why  &  How  Apache?
-· Hadoop Ecosystem Home · Branding · Community · The Apache Way
-
-Incubation  Progress
-
-Incubator  Project  Proposal
-· IPMC & PPMC · Mentors and Champion · Committers
-
-Agenda
-· About Apache Kylin · Kylin Open Source Journey · Apache Incubating · Build Community and Ecosystem · The Good, The Bad and The Ugly · Q&A
-
-Infrastructure  Setup
-·  Mailing  List  
-­ Private@   ­ Dev@  
-·  Source  Code  Repo  
-­ git  &  svn   ­ Migration  
-·  Website   ·  JIRA   ·  Wiki
-
-IP  Clearance  &  Release
-· Kylin  for  brand  name?   · Apache  License  
-· GPL  Dependency?    
-· Apache  Release  
-· README,  LICENSE,  NOTICS,  DECLIARMER   · Source  Headers   · Licensing  of  dependencies   · Binaries
-18
-
-Team  onboard  Apache  Way
-· Community  then  Code   · Mailing  list  discussions   · Vote   · Code  Quality  and  Style   · JIRA  for  each  issue,  feature   · Merge  Pull  Request   · Recruiting  contributor/committer
-19
-
-How  to  contribute?
-· Join  mailing  list:   · dev@kylin.incubator.apache.org    
-· Create  JIRA  or  Leave  Comments   · Pull  Request/Patch  to  Apache  Github  Mirror
-20
-
-Graduate  to  Top  Project
-· Diversity   · Complete  (and  sign  off)  tasks  documented  in  the  
-status  file   · Ensure  suitability  for  project  name  and  product  name   · Demonstrate  ability  to  create  Apache  releases   · Demonstrate  community  readiness   · Ensure  that  mentors  and  the  IPMC  have  no  remaining  
-issues
-21
-
-Ready  to  Apache?
-22
-
-Agenda
-· About Apache Kylin · Kylin Open Source Journey · Apache Incubating · Build Community and Ecosystem · The Good, The Bad and The Ugly · Q&A
-
-Build  Community  and  Ecosystem
-· What's community? · How to grow community? · Community than Code!
-
-Marketing  --  Website
-· http://kylin.io
-­ Hosted on github.io (Github Pages) ­ Hosted on Apache Infra Server
-­ http://kylin.incubator.apache.org
-
-Marketing  --  Blog
-· Publish  via  eBay  Tech  Blog  to  gain  focus  from  industry  
-· http://www.ebaytechblog.com/2014/10/20/announcing--kylin--extreme--olap--engine--for--big--data  
-
-"Like  arch--rival  Amazon.com,  the  soon--to--split  eBay  Inc.  is  
-
-something  of  an  oddity  in  that  it  hasn't  historically  been  a  
-
-big  contributor  to  the  open--source  community.  But  the  e--
-
-commerce  pioneer  hopes  to  change  that  with  the  release  
-
-of  the  source--code  for  a  homegrown  online  analytics  
-
-processing  (OLAP)  engine  that  promises  to  speed  up  
-
-Hadoop  while  also  making  it  more  accessible  to  everyday  
-
-enterprise  users."  
-
-  
-
-----  siliconangle.com
-
-Marketing  ­  Social  Media
-· Github · KylinOLAP
-· Twitter
-­ @ApacheKylin
-· HackNews · Facebook
-­ Page: kylin.io
-· LinkedIn
-­ Group: Kylin
-· WeChat()
-­ ApacheKylin
-·...
-
-Marketing  --  Media
-· InfoQ   · CSDN   · OSChina   ·...
-28
-
-Build  Community  ­  Mailing  List
-
-Build  Community  ­  Meetup
-· Hive Meetup Bay Area, Dec 2014 · Apache Kylin Meetup Bay Area, Dec 2014 · Apache Kylin Tech Talk @AWS Seattle, Dec 2014 · Apache Kylin Meetup Beijing, Dec 2014 · Spark Meetup Bay Area, March 2015 · Kylin Meetup in China, coming soon ·...
-
-Build  Community  ­  Conference
-· Big Data Summit Shanghai, Oct 2014 · Big Data Technology Conference Beijing, Dec 2014 · Database Technology Conference Beijing, April 2015 · Hadoop Summit Europe, April 2015 · QCon Beijing, April 2015 · Strata+Hadoop World London, May 2015 · HBaseCon San Francisco, May 2015 · Hadoop Summit San Jose, June 2015 ·...
-
-Know  your  community
-· Google  Analytics   · Github  Statistics   · Mailing  List   · WeChat   ·...
-
-Apache  Kylin  Ecosystem
-
-· Kylin Core
-· Fundamental framework of Kylin OLAP Engine
-·Extension
-­ Plugins to support for additional functions and features
-·Integration
-­ Lifecycle Management Support to integrate with other applications like BI tools
-·Interface
-­ Allows for third party users to build more features via user-interface atop Kylin core
-
-Integration
-! ODBC Driver ! ETL ! Drill ! SparkSQL
-Kylin OLAP Core
-
-Extension
-! Security ! Redis Storage ! Spark Engine ! Docker
-
-Interface
-! Web Console ! Customized BI ! Ambari/Hue Plugin
-
-
-Apache  Kylin  Evolution  Roadmap
-
-2013%
-
-2014%
-
-2015%
-
-Future...%
-
-H1,%2015%
-
-Sep,%2014%
-
-Jan,%2014%
-Sep,%2013%
-Ini$al%
-
-Prototype. for.MOLAP.
-· Basic.end.to.end. POC.
-.
-
-MOLAP.
-· Incremental. Refresh.
-· ANSI.SQL. · ODBC.Driver. · Web.GUI. · ACL. · Open.Source%
-
-TBD.
-
-Next.Gen.
-
-·
-
-HOLAP.
-
-·
-
-· Streaming.OLAP. ·
-
-· JDBC.Driver.
-
-Lambda.Arch.
-Automa$on.
-Capacity. Management.
-
-· New.GUI. · Excel.Support. · SparkSQL. · ....more. %
-
-· InNMemory. Analysis.(TBD).
-· Spark.(TBD).
-· Mobile.(TBD).
-· ....more.
-
-.
-
-Excellence  of  Engineering
-Team Philosophy
-Recruit best people Done is better than perfect
-Do academic research Explain design in simple words
-Everyone does dirty work You write first version, I write second one
-Debate, Decision & Delivery
-35
-
-Agenda
-· About Apache Kylin · Kylin Open Source Journey · Apache Incubating · Build Community and Ecosystem · The Good, The Bad and The Ugly · Q&A
-
-The  Good
-
-·   
-
-· · · · ·
-
-            
-
-
-
-37
-
-The  Bad
-·    · vs   ·    · Roadmap  and  Features  from  external  
-38
-
-The  Ugly
-·    ·    · Ask  question  with  right  way   · 
-39
-
-If  you  want  to  go  fast,  go  alone.   If  you  want  to  go  far,  go  together.
-!!African)Proverb)
-
-Apache  Kylin
-· Kylin Site:
-­ http://kylin.incubator.apache.org
-­ http://kylin.io   
-· Twitter:
-­ @ApacheKylin  
-· WeChat()
-­ ApacheKylin
-
-@InfoQ
-
-infoqchina
-
-

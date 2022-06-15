@@ -1,180 +1,0 @@
-,   
-: 
-: 
-
-
- -> ""
-?
--  ­  -  ­ IDS/IPS
-3
-
-
-
-
-· : E-mail, DNS, FTP, HTTP
-· :  · : 
-
-
-DFI ()
-· : P2P (Bitorrent)
-·  
-· 
-
-DPI
-
-(
-
-)
-
-·   
-· 
-·  
-
-
-· Skype, Xunlei,
-·  · 
-, HardCode
-
-4
-
-
-VS
-2012
-5
-
-: 
-§ Apple AppStore 500K+   2.3
-§ Android Market 400K+  2
-§  21  
-
-: 
-§ 201124,7942010367%  c67602009 503%c1649  
-§ 20011800Android31.6%.    
-7
-
- 
-§ BYOD(), IT
-§ 50%20%tabletsIT. IDC Survey, 2010)
-§ 12.B$ by 2015 (ABI Research)
-8
-
-0-day 
-· 
-·  · 21
-· 
-·  ·  ~1
-
-· 
-·  · DPI
-9
-
-
-· 
-· C/S · Top 50~100
-· 
-· HTTP 
-·  : QQ: QQ,QQ, QQ;
-· 
-· HttpURL Mobile
-· / 
-
-
-· 
-·  · 
-· 
-·  · 
-· 
-·  -> DPI · Flow -> DFI
-
-
-: 
-§ 
-§  §  § 
-§ 
-§  § : Http
-user-agent;
-12
-
-: 
-
-80.00%   70.00%   60.00%   50.00%   40.00%   30.00%   20.00%   10.00%   0.00%  
-Dataset--1   Dataset--2   Dataset--3   Dataset--4  
-
-A   B   C   A+B+C  
-
-DFI DPI
-
-A 
-
-500~ Apps
-
-B  C 
-
-300~ Apps 700~ Apps
-
-   
-
-.
-
-13
-
-: DFI
-
-  
-
-DPI    
-
-1
-
-7
-
-93.60%
-
-97.32%
-
-2
-
-10
-
-75.40%
-
-91.37%
-
-3
-
-8
-
-72.20%
-
-96.75%
-
-4
-
-10
-
-90.50%
-
-98.21%
-
-User-Local
-
- 
-98.20% 97.90% 98.00% 97.90%
-
-§ () 
-§ Cache (IP+Port) § Sequence
-§ 
-§ : User-Local   .
-
-14
-
-
-§ 
-§ 0-day  §  § 
-§ 
-§  §  § DFI
-15
-
-
-
-

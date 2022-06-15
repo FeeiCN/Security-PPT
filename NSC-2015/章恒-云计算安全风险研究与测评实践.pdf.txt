@@ -1,241 +1,0 @@
-
- 
-
-2015-
-
-2015-
-
-2015-
-
-
-
-
-
- 
-
- 
-
-  
-
-
-
-
-  
-
- 18000
-
- 97%
-
-(1)ITIBM (2)
-
-
-
-
-
- ISO/IEC JTC1
-
- ISO/IEC 27017 ISO/IEC 27002
-
- ISO/IEC  (ISO/IEC JTC1)  NIST
-
- ISO/IEC 27018   ISO/IEC 27036-4  -- ISO/IEC 27009 ISO/IEC 27001/
-
- ENISA 
-
-
-
- CSA  --(ITU-T)
-
-  NIST  
-
-
- CIO
-
-FedRAMP
-
- TheOpenGroup  OASIS
-
- ENISA-------- 
- CSA 
-
- DMTF
-
-
-
- ITU-T 
-
- CIO
-
- TheOpenGroupSOA
-
- OASIS
-
- DMTF
-
-
-CCSA
- 20119TC8WG4    ·  ·   ·  ·   · IDC
- · 
-TC260
-  GB/T 31167-2014  GB/T 31168-2014  
-
-         
-
-   
-  
-
- 
-· 
-·  ; 
-· ,  
-·   
-
- 
-·  
-·  
-·   
-
- 
-·  
-·  
-·  ·
-  
-·   
-
- 
-·  
-· 
-·  
-·  · · 
-
-· 
-· 
-
-
-      
-
-? vSwtich ?
-?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ? 
-1
-
-
-  
-
- 
- OS 
-  
-
-
-
-
-
-1Host OS 2Guest OS 3Hypervisor
-http://cve.mitre.org/ 2014.12.31
-
-74, 15% 219,
-
-206,
-
-44%
-
-41%
-
-Vmware XEN KVM
-
-
-CWE-20: CWE-78:OS OS CWE-79:Web  CWE-119:  CWE-189: CWE-200: CWE-264: CWE-287: CWE-310: CWE-352:CSRF CWE-362:  CWE-476:
-
-
-
-1 2 3 4 5 6 7
-
-
-1 2 3 4......
-
-
-1 
-2 3
-
-
-1CVE-2007-5671CVE-2007-1744CVE2008-0923
-2DHCP ServerVMware Guest OS 
-3GuestHost, IO
-
-Guest
-
-Guest
-
-skip
-
-VM Host
-
-VMware
-VMSA-2014-0001
-a: cve-2014-1207Network File Copy (NFC)  b:cve-2014-1208GuestVMX  c:cve-2014-1211VMware vCloud Director 5.1.05.1.2 
-VMSA-2014-0002.4
-aCVE-2013-5211NTP 4.2.7p26ntpdntp_request.c monlistREQ_MON_GETLIST REQ_MON_GETLIST_1
-bCVE-2013-4332GNU glibc 
-
--Xen
-
-1 XenCPUXenCC CPUCCCVSMCTCI/O CCCA 2Xen I/OXenStore 3Xen 76
-
-
-1ecsecpgrsmsxsaxsd ecsecpxsa xsdXenStoregrsms  2Xen 3ecs
-
-  
-
-2673 304.58
-
-2686 293.84
-
-5bit/s 2725 297.20
-
-2713 302.33
-
-2683 303.45
-
-
-1 2 3APP 4  5
-
-
-
-CVE-2013-6366 
-
-CVE-2013-1662
-
-CVE-2013-1662http://cve.scap.org.cn/CVE-2013-1662.html
-
-
-
-Name CVE-2013-1662
-
-Description
-
-vmware-mount in VMware Workstation 8.x and 9.x and VMware Player
-
-4.x and 5.x, on systems based on Debian GNU/Linux, allows host OS users to gain host OS
-
-privileges via a crafted lsb_release binary in a directory in the PATH, related to use of the
-
-popen library function.
-
-Source CVE (at NVD; oss-sec, fulldisc, OSVDB, EDB, Metasploit, Red Hat, Ubuntu, Gentoo,
-
-SuSE, Mageia, more)
-
-NVD severity
-
-medium (attack range: local)
-
-Debian GNU/LinuxVMware Workstation 8.x9.xVMware Player 4.x5.x vmware-mountOSPATHlsb_release OS
-
-Ubuntu 14.04VMware Workstation 9.0.1 build894247 lsb_release lsb_release.cpp "cat /etc/shadow > /home/openvas/Desktop/shadow.txt"
-lsb_release
-
-PATH"vmwaremount -L"/etc/shadowcat"cat /etc/shadow"
-vmware-mountsetuidroot 
-
-201572
-
-

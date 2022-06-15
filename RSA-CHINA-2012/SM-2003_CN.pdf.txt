@@ -1,202 +1,0 @@
- 
-Gagan Gulati
-Microsoft 
-
-
-§  +  + 
-§  §  § 
-§  (ERM) """SPO "
-§  (DLP) "" + 
-
- 
-
- 
- DRM   
-
- 
-
-
-4
-
-  Microsoft 
-
-IT 
- 
-
-IT 
- 
-
-
- 
-
- ""
-
- IT 
-
- 
-
-SaaS
- 
-AD
-
- PaaS 
-PaaS
-
-
-
-§ 
-§ "" 
-§ ""
-§ BitLocker § 
-
-
-
-§ 
-
-§ 
-
-§ ""
-§ 
-
-
-
-§
-
-RM (CA-DLP)OutlookWord
-
-§  RM (CA-DLP)Outlook  Word
-
-
-
-8
-
-
-§  EFS 
-§  --  §
-§  BitLocker BitLocker
- 
-§  ""
-
-
-§ SharePoint ""
-§  § 
-§§ SharePoint ""
-§  § 
-10
-
-
-§ ""
-§ Office  Office 365  RMS...  § §
-"" § ""
-§ " RM "
-§  Android  Metro  iOS
-
-
-§ " RMS"
-§ MEiRcrMosoftAD RM
-
-Microsoft FOPE  §
-§  ISV 
-§  MSFT IRM GigatrustSecure Island 
-12
-
- AD RMS 
-13
-
-Outlook
-
-Outlook
-
-AD RMS 
-
-AD RMS 
-
-1
-
-4
-
-2
-
-3
-
-
-
-5
-
-
-1.  
-2.  
-3. 
-4.   RMS 
-5.  
-
-
-§ AD RMS 
-§  §  § 
-§  AD RMS  AD RMS  
-§  AD RMS SDK 
-
-MSDRM
-§ MSDRM / SDK/API
-§ MSDMRSMDRMAPI/ §  AD RMS 
-§
-SDK/API § MSDRM  API
-
-AD RMS SDK 2.0 (MSIPC)
-§  Windows  2012  5  §
- Windows  2012  5 
-§ 
-§ Microsoft  SDKOffice 15 SharePoint  Exchange §CER§"T CLCOOffffiicceeMSIPC..."  RAC
-§ " (9MB)  IRM'd
-
-
-MSIPCAD RMS SDK 2.0
-
-
-API Surface 
- 
-  RMS   
-
-MSDRM
-
-MSIPC
-
-84 
-
-20 
-
- 4000 
- 
-   
-
- 200-400  
- 
-
-
- MSDRM  
-
-MSIPC  
-
-AD RMS SDK 
-21
-
-AD RMS iOS SDK
-§  iOS  §§
-SDK  2012 
-
-File API
-File API
-·  AD RMS  · 
-F· ile API
- AD RMS  ·  ·  ADRMSAADRM 
-·File API  2012 
-
-
-§ AD RMS SDK 2.0  Microsoft  § 
-§ https://connect.microsoft.com/site1170/
-§  § 
-24
-
-
-
-

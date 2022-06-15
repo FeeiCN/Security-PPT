@@ -1,683 +1,0 @@
- 
-
- 
- 
-
-7 ID Trust &0rights&benefits
-status6+resources...
-
-3;4  1)///
-
-;4.# 8/: -/9
-
-$'!%5*"2(.,<...
-
-
-%-- "%: ! $
-
-
-%-- +"%: #ID
-
-& 
-' ...
-
-
-
-
-! +* +DNA'%#$+* ("
-
-BirthC
-ertificate
-
-National ID
-
-Identity Lifecycle 
-
- Authentication
-DeathCert
-ificate
-
-)*Pin&%#+'
-,-)*.
-
- Maintenance
-
-NP
-
-$! 
-
-Ø $!
-
-3 NP
-
-Ø "$!
-
-3
-
-NP
-
-Ø
-
-$!
-
-2 NP
-
-$!(
-
-$!%#
-
-NP
-
-
-'&
-
-
-
-
-
-
-
-
-
-
-I NP
-
-NP
-
-NP
-
-1 I
-
-4-digit PIN
-
-Fingerprint
-
-FAR=1:10,000 FAR=1:50,000
-
-FAR=1:50,000 FAR=1:1,000,000
-
-3D Face
-
-Ø
-
-/
-
-Ø
-
-3
-
-4
-
-/
-
-/
-
-/
-
-Ø
-
-1
-
-2
-
-Ø
-
-4
-
-&.,-2
-%/'"4301+ (&* .,-).#$! %4
-
- 
-
-
-E
-
-I
-
-P
-
-S I
-
-A
-
-C
-E
-
-
-
- Authentication
-Retirement
-
-
-
-.2 5D+*9)+ ,?<;C%>8
--G&1F9$8
-
-=>&1
-
-
-
-What you know !6
-
-7
-
-Registration
-
-Verification
-
-Identity Lifecycle 
-
-What you have !(
-
-3
-
-What you are !'
-
-#:
-
-What you behave ! "
-
-AB!(E/
-
-
- Maintenance
-
-<;D 4' 4@'05 4
-
-OEEG
-
-I
-
-C
-
-,
-
-77
-
-7
-
-7 7- -
-7
-
-,
-
-7 ;-
-
--7
-
-7
-
-;- - 7 7
-
-77 7
-
-7
-
-7
-
-,
-
-7
-
-7 ;-
-
-77
-
-- 77
-
-;-
-
-,
-
--,
-
-7
-
--
-
-77
-
-7
-
-7
-
-.
-
-7
-
-7 ;-
-
--
-
-,-
-
-- 7 ;-
-
-,-
-
--
-
--
-
-7
-
-7
-
-7
-
-7
-
-7
-
-77
-
-7
-
--7 7
-
-7-
-
--
-
-- ,-
-
-7
-
-7 ,;
-
-7 77; 7
-
-7 ,-
-
--,
-
-7 ,- 7
-
--
-
-77 7 7 ;- -
-77,
-
-;7 ,7
-
--7
-
-7
-
-Page 9
-
-I
-
-· .
-·. · · ·
-Page 10
-
-.5
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.. .5
-..
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-
-1
-
-0
-2
-
-Page 11
-
-/ /
-Policy & Governance
-(govt)
-//
-
-/
-
-/
-
-/
-
-/ /
-/
-/
-
-5
-4 9
-
-6
-
-2
-
-9
-
-0
-
-7 3
-
-4
-
-37 9
-
-37
-
-1
-
-.
-
-8
-
-37 9
-
-
- 
-
-A
-2017.11 2017.10/2013.8 2017.9
-
-`X"/
-Uber \ Yahoo  Equifax
-
-2017.10
-
-Dracore Data Sciences
-
-2016.4
-
-1zRD
-
-2016.5 2016.5 2016.9 2016.10
-
-y0Tumblr LinkedIn~ MySpace xV
-
-2016.10
-
-Adult Friend Finder
-
-p
-,;h(;g7,e9-e+j
-xvQ }dK+H_
-!; 6r1.43,dKTN_;m(gH#L k+jcU34d&Ho
-$*[W6gTN_Gwl-5Y| B
-6TN_iO=} H!8{
-#L7, +a],:4oSJH
-%;xnTumblrq+<jI_ ;st2@5^b?g.E.~dKfFH ;>uM!dK+<j6 ^b?gZE. xVdKTNC_H#LdK,<j<j<HfF ip'dKcUo ;PTNCg7,q)
-
-_dK
-5700 30 1.43
-3160
-5000
-6500 1.67 3.6 1
-4.12
-
-
-
-
-IdP        
-
-
- Facebook ID Gmail Apple ID Microsoft Account ID    
-
- 20 9 6 4 10 5 4 3
-
-Page 14
-
-
-
-
-OpenID S
-
-·
-
-·
-
-·
-
-F
-
-2005
-
-S
-
-·
-
-S
-
-FIDO
-
-S
-
-·
-
-ai
-
-S
-
-·
-
-d
-
-2013
-
-S ·e
-S ·
-S ·
-2018
-
-n
-
-S
-
-l
-
-o
-
-·
-
-·
-
-F
-
-·
-
-·
-
-·
-
-F
-
-·
-
-S
-
-F
-
-·
-
-IDP
-
-·
-
-·
-
-t
-
-F
-
-S
-
-F
-
-·
-
-·
-
-F
-
-·d
-
-o
-
-·
-
-o
-
-F
-
-·
-
-e
-
-oraclize
-r d
-
-2005
-
-2005
-
-i
-
-SOTER
-
-i
-
-i
-
- 
- 
-
-$%" · f]V7\BI)*qzQKS. · 
-
-$%" · M[Uw4D!xb · pm3i^
-
-{xr{[Y · hy`8& · {x^FGQr f] {f][Y · J@O0a{H1
-
-{xr{[Y · L9&}pm3i^ · ^FGQr f]{ {f][Y · J@O v{H1 · J@{H1Tg{H1;5H
-{R$
-
-{xNr{[Y
-· #c;L9&#X|d^E+qo pm{t-
-· {C_^Fr f] {f][Y · 2: <?,(>{C · J@5u`eP6a{H1#ml · {H1~+H/^^F{ · {C+36jk 
-
-{x
-
-
-{x
-ShocardTg{H1
-
-ZW={x
-s2J@ n2J@
-
-ZW=J@ 'AJ@
-
--
-
-A *A =
-
-A 2; A (;
-
-2% 2% 2%
-
-A ( #A ?@ 8A 61
-
-4A
-
-<
-A 8A
-
-(*
-A )"
-
-A E@ :9
-
-@-A
-
-C!
-
-* 7>4*'/,
-D&.3$0B5A 3=A ?@&.+
-
-
-
-
- "$(
- "+& !0+%)3'  &/* -/6,/.PSKPKICPK4*
-125#
-
- Authentication
-Destroy
-
-BirthC
-ertificate
-
-Unique ID
-
-Identity Lifecycle 
-
- Maintenance
-
-
-  
-#9;0 $
-683) &"
- .2,<: 2018-08-17  ' 2G CDMA%#1475/-/ )(+ $*!6!3
-
- 
-
-
-Huawei LiteOS
-
-IoT 
-
-Cookie
-
-,
-
-3
-
-PSK P
-PSK P
-
-I
-
-o T
-
-·
-
-PSK (Pre shared key)
-
-B
-
-N G
-
- 
-
-

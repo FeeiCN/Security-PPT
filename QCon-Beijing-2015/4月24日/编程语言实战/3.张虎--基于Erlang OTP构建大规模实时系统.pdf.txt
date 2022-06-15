@@ -1,291 +1,0 @@
-  Erlang/OTP  
-http://yunba.io
-
-
-·    · Yunba.io  CEO   · JPush  CTO   · @Tiger_
-2
-
-
-· Yunba.io     · Erlang/OTP     · C/C++    Erlang
-3
-
-  Yunba.io
-· Cloud  Bus  
-­   
-· MQTT  as  a  service  
-­ PCMac  
-· Socket.io  as  a  service  
-­ WebWeb  App
-4
-
-Yunba.io  
-·    ·   
-­   
-· 
-5
-
-Yunba.io  
-
-FrForFnorFtnoretnonetndnetdnednd
-
- 
-
- 
-
-
-
-  
-
-
-
-·    ·   
-­   
-·   
-­    ­ IDC  
-· 
-7
-
-
-·   IO  
-­ Libev/Nginx,  node.js  
-·   
-­ Erlang,  Go,  Akka
-8
-
-  IO  
-· Libev/Nginx  
-­    ­    ­   
-· Node.js  
-­    ­    ­ 
-9
-
-  IO  
-· CPU    
-­   
-·   
-­   process  
-10
-
-Go/Akka
-· Go/Akka  
-­   Erlang     ­ Akka    Java     ­    ­   GC  
-·   OTP  
-11
-
-Erlang  
-·    ·   
-­   
-·   
-­ Reduction  
-·   GC   · 
-12
-
-
-·    · (Pattern  matching)   ·  -module(fact).
--export([fac/1]).
-fac(N) when N > 1 -> N * fac(N-1);
-fac(1) -> 1.
-13
-
-
-·    · COP  (Concurrency  Oriented  Programming)   ·    ·    · Pid/Name
-14
-
-
-·   
-­    ­   
-· Reduction  budget,  2000  
-­ BIF   ­ ETS  
-·   IO  
-15
-
-
-·   
-­    ­   
-·   mailbox  length  
-­   mailbox    
-· Profiling  
-­ fprof   ­ systemtap
-16
-
-  GC
-·    ·   
-­ Go/Akka/Java  GC    
-· 
-17
-
-
-
-·    · 
-
-P2
-
-P3
-
-P1 P4
-
-18
-
-
-·    · 
-
-P2
-
-P3
-
-P1 {`EXIT', P4, ...} P4
-
-19
-
-
-
-·    · 
-{`EXIT', P2, ...} P2
-
-{`EXIT', P2, ...} P3
-
-P1 {`EXIT', P4, ...} P4
-
-20
-
-
-
-·    · 
-{`EXIT', P2, ...} P2
-
-{`EXIT', P2, ...} P3
-
-P1
-
-receive { EXIT
--> ... end
-
-,Pid,...}
-
-21
-
-· 
-
-
-
-Supervisors
-
-Workers
-22
-
-
-·   
-­    ­ Pg2/poolboy  
-· --setcookie
-23
-
-
-
-A
-
-B
-
-B ! Msg C ! Msg Node A
-
-C Node B
-24
-
-  Port
-
-A Erlang Node
-
- Process
-C 
-25
-
-  Port
-· Erlang  
-­    ­   
-· C/C++  
-­    ­   
-· Couchbase:  Erlang  +  memcached
-26
-
-· Application   · Supervisor   · Worker  
-­ gen_server   ­ gen_event   ­ gen_fsm
-
-OTP
-
-27
-
-OTP
-· gen_server  
-­ RPC  clint--server   ­ call/cast/info  
-· gen_event  
-­ event/handler  
-· gen_fsm
-28
-
-gen_server  
-·    ·   
-­ rabbitmq/redis/couchbase/mysql...  
-· RESTful  API   · Socket.io  API
-29
-
-gen_event  
-·   
-­ file_handler   ­ syslog_handler  
-·   
-­ 
-30
-
-gen_fsm  
-·   
-­    ­   
-·   
-­    ­   fsm    
-· fsm  
-31
-
-
-· list_to_atom/1   · http://www.erlang.org/doc/efficiency_guide/
-commoncaveats.html
-32
-
-Riak  Core
-· Riak  Core  key     ·   Amazon  Dynamo  Paper
-   · Couchbase,  Riak,  Aerospike  
-­    ­    ­    ­ 
-33
-
-Riak  Core
-·   Key     · Riak  Core  +  X  
-­ Redis?   ­...
-34
-
-  Erlang
-·    ·   Erlang  
-35
-
-  Erlang
-·    ·    ·    ·   Erlang    
-­ 
-36
-
-  Erlang
-· Code  Review  
-­   
-· eunit   ·    · Appmon/observer   · Mailbox  
-37
-
-  Erlang
-·   Erlang    Erlang  
-­   Leader     ­ 
-38
-
-
-Q & A
-39
-
-@InfoQ
-
-infoqchina
-
-40
-
-

@@ -1,1020 +1,0 @@
-
-  
-  
-                    ()  
-   2015424  
-
-! !
-
-  
-
-Inverted Index!
-
-Attribute! (FieldData)!
-
-Summary! (Stored Field)!
-
-Doc! Term! doc0! a, b, c, a! doc1! b, c, d! doc2! a, c, d! doc3! c, e!
-
-Term!
-
-a!
-
-0<0,3>, 2<0>!
-
-b!
-
-0<1>,1<0>!
-
-c!
-
-0<2>,1<1>,
-
-2<1>, 3<0>!
-
-d!
-
-1<2>,2<2>!
-
-e!
-
-3<1>!
-
-Per  Doc:   Field! attribute!
-field1! 1, 2, 4, 9!
-field2! abc, cde, a!
-field3! 1.02!
-field4! true!
-
-Per  Doc:   Field! attribute!
-field1! abc cde a!
-field2! aa bb cc!
-field3! a b c!
-field4! ...!
-
-Inverted Index !
-Attribute !
-Summary !
-
-  
-
-Query  
-h=pd  
-
-Searcher   In--MemoryMMap)  
-
-Load  
-On--Disk  
-
-Builder     
-
-Memory  
-
-  
--    
-  
--    
-  
-- Builderflush SearcherLoad    
--   
-
-6  
-
-   100w  
-PV  
-100w  
-
-1+   5000w+  
-
-  
-
-Query  
-
-Merger  
-
-Merger  
-
-shard  
-
-Simon/ Ganglia
-  
-
-Searcher   Searcher  
-
-Searcher   Searcher  
-
-Searcher   Searcher  
-
-replica  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher   Searcher   Searcher  
-
-CM  
-
-/   (Hadoop)   (Pangu)  
-
-Offline  Build  Job  
-
-  
-
-  
-Dispatcher   B   B   B   B  
-
-Dispatcher   B   B   B   B  
-
-Feed1   Feed2   Feed3   Feed4  
-
-8  
-
-  
-
-Merger  
-
-X  Merger  
-
-Simon/ Gangli
-a  
-
-Searcher   Searcher   Searcher  
-
-Searcher   Searcher   Searcher  
-
-Searcher   Searcher   Searcher  
-
-X  Searcher  
-Searcher  
-X  Searcher  
-
-/   (Hadoop)   (Pangu)  
-
-Offline  Build  Job  
-
-   Dispatcher   B   B   B   B  
-
-X   Dispatcher  
-B   B   B   B  
-
-Merger  
--CM   -CM  
-   Searcher  
--CM   -CM  
--Dispatcher
-  
-   Dispatcher  
-CM   -CM   -CM  
-  
-  
-  
--CM  
--   -  
-     
-  
--  
-  
-
-   50   PE  
-
-500+  
-
-Query  
-
-QRS  
-
-QRS  
-
-Proxy  
-
-Proxy  
-
-Proxy  
-
-AMon   
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-   (Hadoop)   (Pangu)  
-
-      DeployExpress        
-Offline  Build  Job  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-     
-
-  
-
-SwiT  
-
-P   P   P   P  
-
-DFS  
-
-  
-
-Feed1   Feed2   Feed3   Feed4  
-
-Admin  
-11  
-
-AMo n  
-   (Hadoop)   (Pangu)  
-
-    Q  RS/Proxy  
-
-Q-RS/PrAodxmyin    
-
---AdminBufferAdm1in  
-
-QRS  
-
-X  QRS  
-
--     
-   Searcher    
-
-Proxy  
-
-Proxy  
-
-X  Proxy  
-
---AdminBuAfdfemrin1      --     
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-X  Searcher  
-
-X  Admin  
-
---AdminSwiftDeployExpres  s -     
-
-  -Swift
-
-Adm  in  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-  -  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-A-dmin   
--   Admin  
-
-     
-DeployExpress  
-
--  
-     
-
-  
-  
-   SwiT  
-
-Offline  Build  Job  
-
-P   P   P   P  
-
-DFS  
-
-  
-
-  
-
-201411     
-
-  
--  
-     
--  
-
-1  
-
-AMon   
-
-Cluster1   QRS  
-
-Proxy  
-
-Proxy  
-
-Searcher   Searcher   Searcher  
-
-Searcher   Searcher   Searcher  
-
-Searcher   Searcher   Searcher  
-
-Cluster3   QRS  
-
-Proxy  
-
-Proxy  
-
-Searcher   Searcher   Searcher  
-
-Searcher   Searcher   Searcher  
-
-Searcher   Searcher   Searcher  
-
-Cluster2   QRS  
-
-Proxy  
-
-Proxy  
-
-Admin  
-
-Searcher  
-
-Searcher  
-
-Searcher  
-
-Admin  
-
-Searcher   Searcher  
-
-Searcher   Searcher  
-
-Searcher  
-  
-   Searcher  
--BinaryHippo     
-
-ClusterN  
-Admin  
-
-  
--Buffer
-  
-......     
--()    
-1 4  
-
-Hippo  
-
-Zookeeper  
-
-AMon  
-
-Package   Dep  Data  
-
-Master  
-Scheduler  
-
-Client  Interface  
-
-rpc   Hippo  Tools  
-
-Slave  Manager  
-
-Resource   Manager  
-
-AM  Manager  
-
-rpc  
-
-rpc  
-
-rpc  
-
-rpc  
-
-Slave  
-Framework  
-
-DP2  
-
-Worker  
-
-Amon  
-
-Slot   ainst2  
-
-DP2  
-
-DP2  
-
-SDK   Framework  
-
-Amon  
-
-AM  
-
-Slot   ainst2  
-
-DP2  
-
-SDK   App  Tools  
-CM2  
-
-YUM  
-
-Applica[on   app_name:  test   user:  test   packages:  {  ha3,  java  }   resource  :  {  cpu  :  xx,  mem:  xx  }   process:  hippoadmin_worker   parameters:  --p  xx  --c  xx   envs:  xxxx   ....  
-
-  
-
-1.  Submit  
-
-Hipoo  Master  
-
-qrs resource X 2! searcher resource X 4!
-
-234..    Sraetsaqsriugtin  re        127.0.0.[2-7]!
-
-QRS  
-qrs_0  
-Hippo  Slave  
-
-QRS  
-qrs_1  
-Hippo  Slave  
-5.  Start  
-
-Searcher  
-search_0  
-Hippo  Slave  
-
-Searcher  
-search_1  
-Hippo  Slave  
-
-Searcher  
-search_2  
-Hippo  Slave  
-
-Searcher  
-search_3  
-Hippo  Slave  
-
-Admin  
-
-QRS  
-
-qrs_0  
-
-QRS  
-
-qrs_1  
-
-Searcher   Searcher  
-
-search_0   search_1  
-
-Searcher  
-
-search_2  
-
-Searcher  
-
-Search_3  
-
-Hippo  Slave  
-
-  
-QRS/Proxy  
--AdminHippo    
--HippoBinary   
-   Searcher  
--AdminHippo   -HippoBinary   -AdminDeployExpress
-   -Swift
-  
-   Admin  
--Admin  
--  
-
-  
-Cluster2  
-X  QRS  
-
-X  Proxy  
-
-Proxy  
-
-X   Searcher  
-Searcher  
-
-Searcher   Searcher  
-
-Searcher  
-
-Searcher  
-
-Searcher   Searcher   Searcher  
-
-X  Admin  
-
-Hippo  
-
-1 7  
-
-!
-
-  
-
-  
-   
-  
-
-   
-  
-  
-
-  
-
-Search  For     
-
-Search  For   B2B  
-
-Search  For     
-
-Search  For     
-
-......  
-Search  For     
-
-  
-
-  
-
-   
-
-  
-
-  
-
-  
-
-  
-
-B2B  
-
-ISearch5  
-
-......  
-        
--    
--    
--   
-  
-
-   QRS     
-  
-Function   Expression  
-Sorter  
-
-  
-QRS  
-Sorter   QRS  
-
-Proxy  
-Sorter  
-
-Searcher  
-
-   Sorter  
-
-
-
-Func[on  
-
-  
-
-Expression  
-
-  
-
-     
-
-  
-
-  
-
-   100+  
-
-1000+  
-
-  
-     
-  
-
-OpenSearch  
-
-UI  &  API  
-
-·    · API   ·   
-
-·      
-·   
-
-  
-
-· Lua   ·    · query  
-
-UI  
-
-Console  
-
-           
-
-   
-
-  
-
-AngularJS  
-
-API  
-
-Searc h  
-
-Push  
-
-Config  
-
-SolrA PI  
-
-ESAPI  
-
-Tengine/PHP  
-
-  
-Hippo     
-
-Suggest     
-Aggregator  
-
-QP     
-
-Free  Schema  
-
-  
-
-  
-
-  
-
- Feature  
-
-Lua  
-
-Amon     
-
-QuotaServer     
-
-Swift     
-
-HA3     
-
-  
-  
-
-Join   Join  
-
-MapReduce  
-
-Processor     
-
-Adapter  
-
-RDS  
-
-ODPS  
-
-OSS  
-
-MySQ L  
-
-1  
-
-DRDS  
-
-HQueue  
-
-iStream  
-
-HBase/Hadoop  
-
-  
-
-app  
-
-VM  
-
-VM  
-
-VM  
-
-VM  
-
-VM  
-
-VM  
-
-VM  
-
-VM  
-
-VM  
-
-Admin  
-
-app  
-
-VM  
-
-VM  
-
-app  
-
-VM  
-
-VM  
-
-VM  
-
-VM  
-
-VM  
-
-VM  
-
-app  
-
-VM  
-
-VM  
-
-VM  
-
-VM  
-
-app  
-VM  
-
-cluster  
-
-cluster  
-app  
-
-Admin  
-
-cluster  
-app  
-
-cluster  
-app  
-
-cluster  
-app  
-
-cluster  
-app  
-
-cluster  
-app  
-
-     
-Admin  
-
-cluster  
-app  
-
-app  
-
-cluster  
-app  
-
-app  
-
-app   app   app3  
-
-app   app  
-
-app  
-
-app  
-
-app  
-
-SSD  
-
-app  
-
-cluster  
-app  
-
-app  
-
-app   app   app3  
-
-app   app  
-
-app  
-
-SSD  
-
-SSD  
-
-cluster  
-app  
-
-app  
-
-app  
-
-app3  
-
-app  
-
-app  
-
-app  
-
-app  
-
-  
-
-     
-
-  
-
-Admin  
-
-Cluster(ssd)  
-app  
-
-cluster  (ssd)  
-app   app   app  
-
-app   app   app  
-
-app   app  
-
-app  
-
-app  
-
-app  
-
-  
-
-Cluster  (ssd)  
-app   app   app  
-
-app   app   app  
-
-app   app  
-
-app  
-
-  
-
-  
-
-Cluster(sata)  
-
-app  
-
-app  
-
-app  
-
-app  
-
-app  
-
-app  
-
-app  
-
-app  
-
-  
-
-  OpenSearch  
-www.aliyun.com/product/opensearch
-@     
-@1318169830     
-QQ@370015616  
-
-  
-
-YST   Vespa   Lucene  
-
-Isearch  1.6  
-
-Isearch  3.0  
-
-Isearch  3.0   For  Taobao  
-Isearch  3.0   For  B2B  
-
-Isearch  3.2  
-
-Isearch  4.0  
-Isearch   4.1.6  
-Isearch  4.2  
-
-Newse  
-
-Kingso  
-
-Isearch  4.5  
-
-HA  
-
-Isearch  4.3  
-
-Isearch5  (HA3)  
-
-HA2  
-
-HA3  
-
-OpenSearch  
-
-:  2015  
-
--PDBM"HFOU  
-
-'TMJC *0
- "-PH 
-
-
-HA3()  
-
-%FQMPZ&YQSFTTc
-
-4XJGU 
-
-
-"OFU 
-
-
-*OEFYMJC  
-
-"NPOJUPS  
-
-)JQQP 
-
-
-"*OTU 
-
-
-Thanks  
-@ruijieguo     @jared_guo  
-
-

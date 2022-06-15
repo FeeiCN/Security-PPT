@@ -1,204 +1,0 @@
- 
-
-
-
-
-§ 
-§  §  §  § 
-§  § 
-§ . §  § : § 
-2
-
- ?
-3
-
-
-§  § 
-§ 
-§  § 
-4
-
-
-§  §  § 
-5
-
-
-§    2001:0DB8:0000:AB2C:DD98:BB02:1428:0036 ) §  §  § 
-6
-
-
-§ CSA § 
-7
-
-
-§ 
-§  §  § 
-8
-
-
-9
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
-OA
-
-
-
-
-
-
-
-
-
-
-
-OA
-
-
-
-
-
-
-
-OA
-
- NAS/FCIP/iSCSI)
-
-  
-   
-
-
-11
-
-: , 
-
-VM VM VM VM VM
-
-FW
-
-IDS
-
-
-
-12
-
-: 
-§ Hypervisor. § . § .
-13
-
-: ?
-14
-
-: ?
-
- A
-
-
-
- A
-
-
-
-B
-
-15
-
-: ?
-
-VM1 VM2 VM3 DC1 Server1
-
-VM1 VM2 VM3 DC1 Server2
-
-VM1 VM2 VM3 DC2 Server3
-16
-
-5: ??
-17
-
-6
-§   §  §  §  §  §  § 
-18
-
-: VM
-
-VLAN100
-
-Vswitch
-VLAN200
-
-VLAN100
-
-Vswitch
-VLAN200
-
-
-Server
-
-
-Server
-19
-
-Vswitch
-
-Server
-
-: ()
-Si
-Vswitch
-
-Server
-20
-
-: 
-
-? ?
-
-
-
-
-
-VM
-
-xOC
-
-xOC
-
-xOC
-
- 
-
-21
-
-
-§  +SSD  §  + SSD ? §    §   §   §  §  
-22
-
-
-§  §  § IP
-RFC2267 . () §  § DDos
-23
-
-
-§  §  §  § 
-24
-
-
-
-

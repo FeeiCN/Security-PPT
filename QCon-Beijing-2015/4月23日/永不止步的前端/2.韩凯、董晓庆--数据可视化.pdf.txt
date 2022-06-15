@@ -1,236 +1,0 @@
-DT
- , 
-
-
-·  ·  · 
-
-
-
-·  ·  ·  · 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-A
-
-
-
-
-
-
-
-
-
-
-
-so happy
-
-
-
-
-
-
-
- 2
-
- 
-
-
-
- ACharts
-
-
-
-http://acharts.github.io/
-
-SVG
-
-Raphael
-
-ACharts-canvas
-
-canvas SVG
-
-Gabriel
-
-
-
-
-
-
-
-demo
-
- 
-
- 
-
- 
-1.  2.  3. 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
- 
-
-  
-
-the Grammar of Graphics
-
-
-
-
-
-
-
-
-
-G2
-
-
-
-X Table Width
-Z Z depth
-
-X
-Y
-depth z depth / Z *100 table = table width / X *100
-
-FW IF VVS1-VVS2 VS1-VS2 S1-S2 I1-I2-I3
-
-carat
-price clarity
-
-
-y x color
-
-  
-
-  
-
-
-
-  
-
-   
-
-
-clarity
-
-color
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-ACharts G2
-
-Spider
-
-Spirit
-
-
-
-
-
- map scale stat legend tooltip
-
-geom
-
-space
-
-
- 
-
-axis
-
-  
-
-
-
-Gabriel
-
-
-
-SVG
-
-Canvas
-
-WebGL
-
-     
-
-HighCharts ACharts Gabriel
- G2
-
-
-
---------
-
-Q & A
-
-     
-
-Highcharts Acharts Gabriel
- G2
-
-
-  emailhankaiai@126.com hankaiai
-  emaildxq613@gmail.com 737198674
-
-

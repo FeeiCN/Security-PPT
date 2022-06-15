@@ -1,324 +1,0 @@
-Native    Web  
-
-2015·04·24
-
-
-
-· 2013
-· WebTL · PadTL
-· 2011
-· Symbian · Android/iOS/WebSDKSDK
-
-
-GMV
-
-45% 42%
-
-35%
-
-35.8%
-
-32.8%
-
-26%
-
-20% 2013Q4
-
-2014Q2
-
-2014Q3
-
-2014Q4
-
-: http://www.alibabagroup.com/cn/ir/earnings
-
-
-Native     ...
-
-Web    ...
-
-
-
-Native 
-
-zip 
-xList 
-
-Web
-
-Windvane Hotpatch
-
-
-
- W3C
-HybridAPI
-
- OS
-
-
-
- 
-
-
-
-
-Native
-
-Web
-
-
-1. Native  2. Web  3. React Native
-
-PART01  Native  
-1. Native 
-
-PART01  Native  
-
-
-PART01  Native  
-Mobile  Web  
-
-Page 1
-
-
-
-
-Page 2
-
-Page 3
-
-JS/CSS Library
-
-Webkit
-
-OS
-OS 
-
-Page 4
-
-PART01  Native  
-Native  
-
-App 1
-
-
-App 2
-
-App 3
-
-...
-
-Network1 TMConfig2 TBConfig2 ... 
-
-App y3 Util y
-
-iOS/Android
-OS 
-
-PART01  Native  
-Title
-
-PART01  Native  
-Title
-
-1.   2.
-
-PART02  Web  
-2. Web 
-
-PART02  Web  
-
-
-Browser
-
-HTML/JS/CSS
-
-Server
-
-PART02  Web  
-
-
-
-
-
-
-...
-
-2
-
-PackageApp
-
-1
-
-
-PART02  Web  
- 
-
-
-
-
-
-PackageApp
-
- 
-
-
- 
-
-
-
-... ...
-
-PART02  Web  
-
-
-PART02  Web  
-WebView  Crash  
-
-Lazyload 
-Crash
-
-PART02  Web  
-Web   
-
-PART02  Web  
-Crash
-
-PART02  Web  
-HybridAPI
-
-1
-
-2
-
-3
-
-1
-
-PART02  Web  
-
- xList  HybridAPI Native
-
-PART03  React  Native
-3. React Native
-
-PART03  React  Native
-iOS
-
-PART03  React  Native
-Android
-
-PART03  React  Native
-Web
-
-PART03  React  Native
-Native  
-·    ·    ·    ·   
-Web  Worker   Web
-
-PART03  React  Native
-
-Native 
-+
-Web 
-
-PART03  React  Native
-React  Native
-· 3.26 Facebook F8 [1]
-"What we really want is the user experience of the native mobile platforms, combined with the developer experience we have when building with React on the web."
-Native 
-+
-Web 
-
-PART03  React  Native
-&
-
-Facebook   Twitter   Reddit   Netflix   BBC   Flipboard   Khanacademy   WhatsApp        
-
-FB  Ads/F8/Groups  
-
-4.12  Chinese  Flashcards  
-
-4.21    iPad
-
-[1]
-
-[2]
-
-PART03  React  Native
-"Learn  once,  write  anywhere"
-
-Web
-
-iOS
-
-Android
-
-Virtual  DOM React
-
-PART03  React  Native
-
-
-PART03  React  Native
-
-
-PART03  React  Native
-
-
-PART03  React  Native
-CPU
-
-PART03  React  Native
-
-Android  Web  onload2100ms
-
-PART03  React  Native
-
-/CPU/
-
-React NativeNative
- Web
-
-PART03  React  Native
-
-
-
-
-
-
-
-
-  
-
-PART03  React  Native
-
-4iPad 6 8 11 ...
-
-PART03  React  Native
-"Write  once,  run  anywhere"
-
-Toolkit
-React Native
-
-React Web
-
-PART03  React  Native
-"Write  once,  run  anywhere"
-MUI  4.05
-
-PART03  React  Native
-
-1. iOS 6 JSCore
-· iOS6Web
-2. Android Version 2015.10
-· Web
-3. Appstore 
-· iPad
-4. jsbundle 
-· 
-5. 
-· PR
-
-@ @-
-
-

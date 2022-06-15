@@ -1,1572 +1,0 @@
-
-
-
-
-1
-
- BERT 
-
-2
-
-
-
-25
-
-
-
-57
-
-
-
-80
-
-AI Challenger 2018 104
-
-WSDM Cup 2019 
-
-113
-
- ETA 
-
-125
-
-
-
-138
-
-ICDAR 2019 
-
-154
-
-CVPR 2019 
-
-166
-
- StarNet 
-
-173
-
-
-   AI   AI   /  App    ......  
-
-2> 2019 
- BERT 
-
-2018 Natural Language ProcessingNLP  RNN  ELMo[1]  ULMFiT[2] Transformer[3]  OpenAI GPT[4]  Google BERT[5]  1    NLP   NLP  [6] Pre-training Fine-tuning NLP  
- 1NLP Pre-training and Fine-tuning 
-"""Pre-training and Fine-tuning"2009  CVPR 2009   ImageNet  [7] 120  1000  ImageNet  ResNetVCGInception 
-
-<3
-    ImageNet  PSACAL VOC  20%[8]
- NLP  Word Embedding NLP   NLP    NLP    NLP   Word2Vec[9]  GloVe[10]  
-                               "bank""" "" Context2Vec[11] Long Short Term MemoryLSTM[12]            Left-to-Right   Right-to-LeftELMo   LSTM ELMo   Embedding  NLP  ELMo  Feature-based 
-Fine-tuningGPTBERT   Transformer   Task-specific 
-
-4> 2019 
-NLP  [13] Google AI  BERTBidirectional Encoder Rep-
-resentations from Transformers 11   NLP BERT  NLP   NAACL 2019 BERT   NLP  NLP  NLP  ImageNet    [14]
-   40  UGC UGC   NLP    MT-BERT  MT-BERT  
-BERT    Transformer                  2         Transformer             Encoder   Transformer  Google  2017 Self-attention  NLP  RNN  Transformer  RNN  State-Of-The-ArtSOTA  Transformer  Transformer   Google Attention is all you need[3]
-
-<5
-
- 2BERT  Transformer 
-
-
- 1 Google  Base  Large  BERT 
-
-1BERT BaseLarge
-
- Base Large
-
-Layers 12 24
-
-Hidden Size 768 1024
-
-Attention Head 12 16
-
- 110M 340M
-
-
-BERT   TokenToken EmbeddingSegment EmbeddingPosition Embedding 3 
-
-6> 2019 
- 3BERT 
-  Wordpiece  Subword  
-  Token [CLS] Hidden State  Transformer    [SEP]   Segment Embeddings  Token  Embedding    Segment Embedding Segment Embedding
-
-BERT  Masked Language Model  Next Sentence Prediction 
-Masked Language ModelMLM
- [MASK] 
-1 [MASK] 2 Batch  15%  
-
-<7
- 80%  [MASK] 10%  10%  Transformer Encoder   
-Next Sentence PredictionNSP
-  A  B  50%   B  A 50%  B NSP  B  A NSP  
-Google   [15]  NSP   NSP  1-2  Epoch   98%-99% NSP 
- & 
-Google  BERT  BooksCorpus800M  Wikipedia2500M BERT  Google AI  Cloud TPU  BERT BERT Base  Large  4  Cloud TPU16  TPU 16  Cloud TPU 64  TPU 4 100 40  Epoch  Nvidia  GPU  BERT  GPU 
- BERTMT-BERT1 2 34 MT-BERT  4 
-
-8> 2019 
- 4MT-BERT 
- AFO 
-BERT   AFO[16]AI Framework On Yarn MT-BERT AFO   YARN  GPU  Horovod  Horovod  Uber    [17]  Facebook ImageNet [18]  Ring Allreduce[19]  Uber   TensorFlow  Horovod  Inception V3  ResNet-101 TensorFlow  GPU Horovod   TensorFlow TensorFlow   Tensorflow Horovod  
-Horovod  Open
-
-<9
-MPI  Nvidia NCCL Rank  Step  Horovod      Rank 0  Master  Rank1-n  Worker     Worker  Master  Map AllreduceHorovod   MPI Woker   Tensor  Master MPI  MPI Master  Worker  Map   Tensor  n   Tensor  Tensor Master   Tensor  MPI  Tensor   Map  Tensor Master  Tensor  Allreduce 
-
-Float 32Double  Batch Size Batch Size  Baidu Research  Nvidia  ICLR 2018    [20]        Float32FP32 Float16 FP16 Nvidia  Pascal  Volta   Tesla V100  FP16  P4  P40  INT8  
-
-10> 2019   MT-BERT 
- FP32  FP16   FP32  FP16   FP16  FP32 FP32 Master-weights FP32  FP32 Master-weights  FP32   FP16  FP16   Loss Scaling  Loss   FP16 
- MT-BERT 
-
- 5MT-BERT  Nvidia V100  Tensorflow 1.12Cuda 10.0Horovod 0.15.2
-
-<11
-
- 5    Benchmark  2  3
-
-2MT-BERTBenchmark
-
-
-
-Metric
-
-
-
-Macro-F1
-
-Query 
-
-F1
-
-Query NER F1
-
-MT-BERT FP32
-72.04% 93.27% 91.46%
-
-MT-BERT  Google BERT
-
-
-72.25%
-
-71.63%
-
-93.13%
-
-92.68%
-
-91.05%
-
-90.66%
-
-3MT-BERTBenchmark
-
- MSRA-NER LCQMC ChnSentiCorp NLPCC-DBQA XNLI
-
-Metric F1 Accuracy Accuracy MRR Accuracy
-
-MT-BERT FP32 MT-BERT 
-
-95.89%
-
-95.75%
-
-86.74%
-
-85.87%
-
-95.00%
-
-94.92%
-
-94.07%
-
-93.24%
-
-78.10%
-
-76.57%
-
-Google BERT 95.76% 86.06% 92.25% 93.55% 77.47%
-
- 2  3  MT-BERT   2 
-
-
-Google  BERT   UGC   Google  BERT Domain Adaptation  Domain-aware Continual Training  BERT  Google   BERT Large  MT-BERT Large 
-
-12> 2019 
-
- 5  Benchmark  3  Benchmark   8  4 MT-BERT  Benchmark  Benchmark 
-
-4MT-BERTGoogle BERT8Benchmark
-
-Benchmark MSRA-NER LCQMC ChnSentiCorp NLPCC-DBQA XNLI  Query  Query NER
-
-Metric F1 Accuracy Accuracy MRR Accuracy Macro-F1 F1 F1
-
-Google BERT 95.76% 86.06% 92.25% 93.55% 77.47% 71.63% 92.68% 90.66%
-
-MT-BERT 95.89% 86.74% 95.00% 94.07% 78.10% 72.04% 93.27% 91.46%
-
-
-BERT  Common Sense BERT     Query  """" Query BERT   BERT  
- MT-BERT    BERT   [21]  NLP 
-
-<13 ---- Knowledge-aware Masking ""  MT-BERT 
-BERT  BERT  Masked LMMLM "" ""  ""
- 6  BERT  MLM " """""""3   3 
- 6MT-BERT  Masking  Whole Word Masking 
-BERT " X """ ""  Knowledge-aware Masking  MT-
-BERT"" ""  6  Knowledge-aware Masking " """MT-BERT """" ""MT-BERT ""
-
-14> 2019 
-
-  MT-BERT  Knowledge-aware Masking 
-
-5MT-BERT
-
- BERT (Vanilla masking) MT-BERT (Knowledge-aware Masking)
-
-Macro-F1 72.04% 72.48%
-
-
-BERT   Query   MT-BERT  1000QPS  30  GPU  TP999  50ms 
-
- FP16  INT8 FP32
-    [22]  BERT 
-
- Query   Query  16  Sequence   Transformer   MTBERT  4  Transfomer MT-BERT-MINIMBM  7 Query  MBM 
-
-<15 
- 7 MT-BERT  Query  F1 
-MBM  TP999  12-14ms   6  MT-BERT  BERT  BERT  Google  ALBERT A Lite BERT[23]  GLUE  SOTA
- 8  BERT  
-1.  NSP  BERT "[CLS]" 
-2.  MLM 
-
-16> 2019 
-Token  Token   BERT  Token  
- 8BERT 
- MT-BERT  
-
-
-     NLP  6  20   AI Challenger 2018  
- MT-BERT   9  Share LayersTask-specific Layers  MT-BERT MTBERT 
-
-<17   Attention+Softmax   MT-BERT   Macro-F1 
- 9 MT-BERT 
- 10   App   UGC    POI  
-
-18> 2019 
- 10
-Query 
-Deep Query UnderstandingDQU  Query  MT-BERT  Query   Inference  4  MT-BERT  MT-BERT-MINIMBM  Query   11 
- 11MBM 
-
-<19
- Query  QPS MBM  17   Query   95% MBM  Query  Bad Case 
-
- UGC  POI    ""     46  
-   
-  MT-BERT  8(b) 
-
-20> 2019 
- 12
-
- Natural Language Inference, NLISemantic Textual SimilaritySTS
-Query  Query   """"" """""""Query  
-
-<21
- Query  Query   Query Query  STS   MT-BERT  Query   8(a)  Query  Query "[CLS] text_a [SEP] text_b [SEP]" MT-BERT "[CLS]" Query   MT-BERT  Benchmark   XGBoost 
-
- NLP   Named Entity RecognitionNER  
-NER  Query UGC   / NLP   MT-BERT  Query   Query  Query  
- Query "BME"  B E  M 13  Query  Query" """"" POI MT-BERT  Query  
-
-22> 2019 
- 13 Query 
- MT-BERT 
- MT-BERT  MT-BERT   
- MT-BERT   AFO  GPU  
- MT-BERT 
- BERT    MT-BERT  
-MT-BERT 
-MT-BERT  NLU    
-
-<23
-
-
-[1] Peters, Matthew E., et al."Deep contextualized word representations."arXiv preprint arXiv:1802.05365 (2018).
-[2] Howard, Jeremy, and Sebastian Ruder."Universal language model fine-tuning for text classification."arXiv preprint arXiv:1801.06146 (2018).
-[3] Vaswani, Ashish, et al."Attention is all you need."Advances in neural information processing systems. 2017.
-[4] Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. 2018. Improving Language Understanding by Generative Pre-Training. Technical report, OpenAI.
-[5] Devlin, Jacob, et al."Bert: Pre-training of deep bidirectional transformers for language understanding."arXiv preprint arXiv:1810.04805 (2018).
-[6] Ming Zhou."The Bright Future of ACL/NLP."Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. (2019).
-[7] Deng, Jia, et al."Imagenet: A large-scale hierarchical image database."2009 IEEE conference on computer vision and pattern recognition. Ieee, (2009).
-[8] Girshick, Ross, et al."Rich feature hierarchies for accurate object detection and semantic segmentation."Proceedings of the IEEE conference on computer vision and pattern recognition. 2014.
-[9] Mikolov, Tomas, et al."Distributed representations of words and phrases and their compositionality."Advances in neural information processing systems. 2013.
-[10] Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. Glove: Global vectors for word representation. In EMNLP.
-[11] Oren Melamud, Jacob Goldberger, and Ido Dagan.2016. context2vec: Learning generic context embedding with bidirectional lstm. In CoNLL.
-[12] Hochreiter, Sepp, and Jürgen Schmidhuber."Long short-term memory."Neural computation 9.8 (1997): 1735-1780.
-[13]  .  Word Embedding  BERT -- . https://zhuanlan.zhihu.com/p/49271699
-[14] Sebastion Ruder."NLP's ImageNet moment has arrived."http://ruder.io/nlpimagenet/. (2019)
-[15] Liu, Yinhan, et al."Roberta: A robustly optimized BERT pretraining approach." arXiv preprint arXiv:1907.11692 (2019).
-[16]   .   TensorFlow   WDL            . https://tech.meituan. com/2018/04/08/tensorflow-performance-bottleneck-analysis-on-hadoop.html
-[17] Uber." Meet Horovod: Uber's Open Source Distributed Deep Learning Framework for TensorFlow". https://eng.uber.com/horovod/
-[18] Goyal, Priya, et al."Accurate, large minibatch sgd: Training imagenet in 1 hour." arXiv preprint arXiv:1706.02677 (2017).
-
-24> 2019 
-[19] Baidu. https://github.com/baidu-research/baidu-allreduce [20] Micikevicius, Paulius, et al."Mixed precision training."arXiv preprint
-arXiv:1710.03740 (2017). [21]      .           ----       . https://tech.meituan.
-com/2018/11/22/meituan-brain-nlp-01.html [22] Hinton, Geoffrey, Oriol Vinyals, and Jeff Dean."Distilling the knowledge in a neural
-network."arXiv preprint arXiv:1503.02531 (2015). [23] Google. ALBERT: A Lite BERT for Self-supervised Learning of Language
-Representations. https://openreview.net/pdf?id=H1eA7AEtvS. (2019)
-
-  NLP 
-
- NLP  NLPDeep LearningKnowledge Graph    NLP Service  AI NLP     NLP NLP   tech@meituan.com  +  NLP 
-
-<25
-
-  2018 QCon  
-
-2018  12  31  200    O2O   NLP   
-
-"Eat BetterLive Better" 
-
-26> 2019  "" App   "" 
-   
-
- Google  O2OOnline To Offline  
-
-<27
- 5      
-    "" 
- O2O Online Offline   
-
-28> 2019 
-  DCGNDCGMAP    GMV
- O2O  """" "" "" "" "" 
-   
-
-<29
-   "" "" 
- """" "" 
-""    
- 
-
-30> 2019 
-
-   API   
-            API
-
-<31   
- Case  
- """ "
-  7 ""   Term 
- "" 
- """" 
-
-32> 2019 
-  
-  
-      
-
-<33
- O2O  ""   "" 
-  """"   
-
-34> 2019 
-  
-  NERNamed Entity Recognition
-""  
-     NER  NER   NER 
-
-<35
-NER " """""   
- CRFConditional Random Field   
-" +  + " " + " Term  CRF    CRF  NER  
-
-36> 2019 
-          Word Embedding              NLP  LSTMLong ShortTerm Memory+CRF  NER  LSTM  Embedding  
- LSTM+CRF CRF   LSTM+CRF  NER 
- LSTM+CRF  NER   CNN+LSTM+CRF CNN  CNN  Embedding  Embedding  LSTM 
-
-<37
- 4  
-  
-     
-   NER   TermWeight  
- "" 
-
-
-38> 2019 
-
-  Google   App  LR/FTRLFM/ FFMGBDTDNN 
-                               LBS     LR/FTRLFM/ FFMGBDTDNN 
-
- 4  1. 
- 2. 
-
-<39  App 3.       4.   
-   
-
-40> 2019 
-  App App   App 
-  Cover    
-  
-  
-   App      App 
-
-<41   
-
-   LR/FTRL  FM/FFM GBDT+LR   Wide&Deep
-    
-
-42> 2019 
- XGB(XGBoost, eXtreme Gradient Boosting)  GBDT XGB    
-XGB      
-  MLP(Multiple-Layer Perception)  """"  """"  
-
-
-
-<43
-
- MLP  MLP  XGB XGB  MLP  MLP  XGB ID   MLP  ID  IDID   ID ID 
- MLP 
-
-44> 2019   "1024512-256" 3-6    3  6 
-MLP   
-                             Embedding Wide&Deep Wide   Embedding  FNN  Embedding  FM  K  
- FM   Embedding  Embedding   FM  FM
-
-<45  Embedding  V3 
-FNN  Embedding   DeepFMDeepFM  Wide&Deep  FM  LR  LR  FM  DeepFM  FM  Wide&Deep   LR Embedding "" FM Embedding Embedding  FM Layer  DeepFM 
- DeepFM  Embedding   PNNPNN  Product   And"" Add"" 
-
-46> 2019 
-PNN  Product Layer  PNN   EmbeddingEmbedding  Product Product    
-
-<47
-PNN       Embedding               DCN Deep&Cross NetworkDCN  Cross Network   Deep&Cross Deep   Cross  Stack 
-Deep  Embedding Cross  DCN  Cross   Cross  x  Feature Crossing  x0 x   w x1  x2  Cross  
-DCN  
- DeepFMPNNDCN   ?  
-XGB   600  400  ;  Embedding  
- Wide&DeepWide&Deep  Wide   Deep Wide  Deep  Item  Deep  LR  Deep  V3  ID    V4 
-
-48> 2019 
- MTL    ? " ->   ->  ->  -> " 5  
- 1 =  ×   ×  ×  4 
-
-<49   4  2 "End to End"    AB 
-"End to End" CTR   CVR  Embedding   Wide&Deep 
-
-50> 2019 
-
- MLP   Embedding  FNN DeepFMPNNDCN   Wide  Wide&Deep MTL  Wide&Deep 
- :
-
-<51                  FNNDeepFMPNNDCN Wide&Deep  
-
- BP Basis Point1BP=0.01% XGB  BaselineMLP             XGBMLP  XGB                        FNN        Wide&Deep   Embedding  DeepFMDeep&Cross  
-
-52> 2019 
-  
- Embedding  FNN  Wide&Deep  
-                          Sigmoid
-
-<53 ReLULeaky_ReLUELU         AdagradRmspropAdam            ReLU+Adam           Batch Normalization  Dropout   3  6  
- Serving   KerasTensorFlow  
- TensorFlow TF-Serving  MLX  MLX   Serving  
-
-54> 2019 
- 
-   ""
-    2017 
-   
-  ""  XGB
-
-<55
-  
-   ""   
-
- O2O  ""  NER     
-
-[1] John Lafferty et al. Conditional random fields: Probabilistic models for segmenting and labeling sequence data.ICML2001.
-[2] Guillaume Lample et al Neural architectures for named entity recognition. NAACL2016.
-[3] Zhiheng Huang, Wei Xu, and Kai Yu. 2015. [4] Bidirectional LSTM-CRF models for sequence tagging. arXiv preprint
-arXiv:1508.01991. [5] Xuezhe Ma et al.End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-
-CRF.ACL2016.
-
-56> 2019 
-[6] T Chen, C Guestrin. XGBoost: A scalable tree boosting system. KDD2016. [7] Weinan Zhang et al. Deep Learning over Multi-Field Categorical Data: A Case
-Study on User Response Prediction. ECIR 2016. [8] Huifeng Guo et al. DeepFM: A Factorization-Machine based Neural Network for
-CTR Prediction. IJCAI2017. [9] Yanru Qu et al. Product-based neural networks for user response prediction.
-ICDM2016. [10] Heng-Tze Cheng et al. 2016. Wide & deep learning for recommender systems.
-2016.In Proceedings of the 1st Workshop on Deep Learning for Recommender Systems. [11] Ruoxi Wang et al. Deep & Cross Network for Ad Click Predictions. ADKDD2017.
-
-2016 2010   "Kaggle "QCon 
-
-<57
-
-
-1. 
-
- App    
-1.  POI UGC   
-2.   
-3.  "" 
-4. LBS LBS   
-                            
-
-58> 2019 
- NLPNatural Language Processing  NLP    KPI  
-
- NLP ----   NLP "" " "[1]  1  5 " "---- ) 5  3 
-1.  2.  3.  Listwise ----LambdaDNN
-
-<59
- 1 5 
-2. 
-Learning to RankL2R 
-1.          Loss Function   L2R     Pointwise PairwiseListwise
-2.  GBDT+LRDeep&Wide 
-                                LR FM  FFM GBDT  GBDT+LR LRFMGBDT 
-
-60> 2019 
-
- 2
-1. LR    LR  
-2. FM  LR  FM 
-3. GBDT  Boosting   GBDT  
-
-   2018  L2  
-1. 
-
-<61   2.   ID   Embedding   3.  DeepFM Google  DeepCrossNetwork         Google    Wide&Deep          [2]   Wide  LRGBDT  Deep  Low-Order Categorical    End-to-End  
- 3Deep&Wide 
-
-62> 2019 
-3. 
-   CV CV  ----  NLP  Transformer BERT  Transformer  NLP Task  State-of-The-Art 
- CTR    
-3.1
-   
-    Embedding        Label  
-  
-
-<63
-  ""
-  
-3.2 Embedding
-  UGC   Embedding  Embedding  Embedding  
-3.2.1 Embedding  ""  
- Pooling Embedding  Sum/Average Pooling  
- RNNLSTM/GRU  
- Attention   Embedding    Attention         Sum Pooling LSTM/GRU  [4]
-
-64> 2019 
- 4
- Session 
-3.2.2 ID  Embedding  ID  Embedding    ID  ID  Embedding   Airbnb  KDD 2018  [9]----  ID Airbnb   1-2  Airbnb  
-
-<65
- 5
-  ID US_lt1_pn3_pg3_r3_5s4_c2_b1_bd2_bt2_nu3
- Airbnb     
-3.2.3 Embedding  Embedding  ID   UGC  """"""
-
-66> 2019 
- 6
-  Embedding 
-  Pooling   Top 
-  /  /  Top N  Pooling  
-
-<67
-          DSSM                 Embedding  
-3.2.4 Embedding   Embedding  Query Shop  Embedding   Embedding  
-  
-  Embedding     Word2vecFasttext  -   Embedding   DSSM  Query-  Query   Embedding
- Multi-Task Embedding   Embedding   Embedding 
-
-68> 2019 
- 7Multi-Task  Embedding 
-3.3
-   
-  
-  ResNet50  [3] 
-  Embedding 
- Logo  
- 8
-
-<69
-4.  Listwise LambdaDNN
-4.1 Gap
- Gap    Pointwise  Log Loss   Gap
-1.  QV_CTR  SSR(Session Success Rate)  Pointwise  Log Loss  Item 
-2.  Pointwise  
- 9Pointwise  Listwise 
-
-70> 2019 
-
-4.2 Log Loss  NDCG
- Query   NDCG(Normalized Discounted Cumulative Gain)    Log Loss             NDCG 
- DCG(Discounted Cumulative Gain)   Query  l G  Doc   G(lj)=2lj-1lj  {012}    (j)=1/log(j+1)Doc  Query  DCG   k Zk  DCG@k   NDCG@k
- NDCG  LambdaRank   NDCG  [6]  NDCG   Lambda  LambdaDNN
-   Lambda       LambdaRankLambdaRank      Pairwise  Query  Pair Pij  Query  Doci  Docj   si  sj  Doci  Docj 
-
-<71
- Sij  Pair  Doci  Docj   Doci  Docj  Sij=1 -1 
- Pair  i  Sij  1 
-  Doci  Docj  NDCG  Lambda   NDCG 
-Lambda   Lambda  Doc   Lambda  Query  Doc  Doc  Lambda   NDCG 
-
-72> 2019 
- 10Lambda 
-4.3LambdaDNN 
-    TensorFlow        LambdaDNN        Lambda  Query   Shuffle  Worker 
-1.  QueryId  Shuffle Query  Query  TFRecord
-2.  Query  Doc  Size  Query  TF  Mini-Batch     MR  Key  Query    
-
-<73
- 11Lambda 
- 
-1.  ID  Training  
-2.     TfRecord   RecordDataSet            Worker  10 
-3. Concat   Categorical      Multi-Hot  Tensor     Embedding_Lookup  Map  
-4.  Tensor  
-5.  PS  Tensor  Worker  
- 30  
-
-74> 2019 
-4.4
-NDCG   NDCG 
-   NDCG 
-1.   NDCG  12 
-2.  Position Bias Position Bias   [7][8] a.  b.   a  Position Bias 
- 12
-
-<75  NDCG  LambdaDNN  Base   Pointwise DNN 
- 13LambdaDNN  NDCG  PvCtr 
-4.5Lambda 
-Lambda  DNN   LambdaDNN   LambdaDeepFM  LambdaDCN  DCN  Cross  
- 14DCN 
-Lambda  DCN  DCN  NDCG 
-
-76> 2019  
- 15Lambda Loss  DCN 
-5. 
- ""
-1.  Bad Case  """"" " 
-2.  Bad Case    Bad Case 
-3.    
- 
-                        Lime(Local
-
-<77 Interpretable Model-Agnostic Explanations)    [5]""  """"
- 16Lime 
- Lime ---- Pairwise  Listwise 
-1. Pairwise    """" "" 1.3km  "" 0.2km  10 ""
-
-78> 2019  2. Listwise  Lime  
- 17
-6. 
-2018   
- Graph Embedding  BERT  Query  
-                 DNN        DNN                DeepFM  DCN   LambdaDeepFM 
-
-<79
-LambdaDCN 
-Lambda Loss  Query 
- Query 
- Query 
- Log Loss  Lambda Loss  Multi-Task 
-Shuffle 
- Google  TF Ranking  Groupwise 
- Listwise 
- Pointwise 
-
-
-1.  2. Wide & Deep Learning for Recommender Systems 3. Deep Residual Learning for Image Recognition 4. Attention Is All You Need 5. Local Interpretable Model-Agnostic Explanations: LIME 6. From RankNet to LambdaRank to LambdaMART: An Overview 7. A Novel Algorithm for Unbiased Learning to Rank 8. Unbiased Learning-to-Rank with Biased Feedback 9. Real-time Personalization using Embeddings for Search Ranking at Airbnb
-
-2016  2016  2013   2012    AI  NLP   30  ICDE 2015  ACL 2016 Tutorial"Understanding Short Texts" 3  5   Facebook  Research Scientist  Facebook  NLP Service
-
-80> 2019 
-
-
-1. 
-      
-
-    
-1.   
-2.  
-3. 
-
-
-<81 "" 
- 1
-
-     NLPNatural Language Processing   
-   
- 
-
-82> 2019   95%  
-   
-
- 2
-   
-
- 
-  
-  Gap
-
-<83
-"" 
- 
-    
-   
-   
-2. 
- NLP  
-2.1
- NLG  NLP  NLUNature Language Understanding NLU  NLU  NLG   NLU  
-   NMT 2019   GPT2  Text2Text 
-
-84> 2019   Data2Text  Image2Text  
- 3
-2.2
- 
-   2014  Seq2Seq Model  Token  Embedding   Encoder  Token Decoder  Encoder  Decoder  Attention   Decoder  Encoder   Image2Text  CNN 
-
-<85  Decoder  
- 4Seq2Seq 
- Encoder-Decoder   
-  """ "  
-    
-   
-
-86> 2019 
-  N-Gram  BLUE  ROUGE  Edit Distance Coverage  Jarcard    
-                     GANGenerative Adversarial Networks  GAN  NLP   Seq2Seq  
-  Encoder  Decoder    2018 
- Contextual Embedding                Elmo(Embeddings from Language Models)OpenAI  GPT(Generative Pre-Training)           BERT(Bidirectional Encoder Representations from Transformers)   NLP    Embedding   ELMo LSTM  Embedding Transformer 
-
-<87 Encoder  Decoder  Attention  12    RNN  Attention 
- 5GPT ELMo BERT 
- Tree-Based Embedding  Tree Base  RNN  Embedding Tree   Task  "" 
-3. 
- 2017  
-3.1
- 
- Push  
-
-
-88> 2019     E&EExplore and Exploit         UGC     99%      
- 7
-3.2
- NLP    Context 
-
-<89 NLP   
- 8
-3.3
-  95%  
- 
- 1.    Case
- 2.  Gap 
- 
-
-90> 2019   
-  
-  Feeds   OOV   /  E&E  
-  Seq  ""    Topic Feature Context 
- + 
- 9
-1.  
-2. 
-
-<91  3.  +TF-IDF   Bad Case 4.  /         Bi-LSTM  Attention                PreTrain  Word Embedding     LSTM   Attention Dropout   Sigmod    Base  ELMo  Loss LSTM  ELMo Loss  Pre Train  
- 10Bi-LSTM  Attention
- ""
-
-92> 2019   CNN+Bi-LSTM+Attention  
- 11CNN+Bi-LSTM  Attention
- Topic  Context "" 
- RNN-LSTM    Context  Self-Attention  
-   Gap  Bad Case  
-
-<93
-  10% 
- 13
-       
-   NLU    Context  
-    Gap
-  Target  Context  
-
-94> 2019  "" 
-             RNN-Base  Seq2Seq        Encoder   ContextDecoder   
- 14LSTM Attention Based Seq2Seq 
- RNN     O(1)
-Encoder  Source   Context NMT   Transformer  Context Encoder  Encoder  Decoder  Context  Attention  Context 
-
-<95
- 15Transformer Based Seq2Seq Model
-                               10% 
- Combine  Combine   Copy      Copy    Copy  OOV " - "  Copy  Copy  Copy   Copy  Generate  "Where To Point"
-
-96> 2019 
- Gap  Language Model Word  Loss   Context   Label Decoder  Beam Search  Decoder  NMT  Coverage Loss   Combine 
- E&E   E&EExplore and Exploit  Epsilon Greedy  Epsilon   Epsilon     7   
-
-<97
- 17 E&E 
-3.4
- O2O   
- Data2Text  ""   D2T   Seq   
-  Context   Topic Topic  LDA 
-
-98> 2019   Key  Value  Field  Value "" Key"" Value" " Value  NLP  
- Context   Context Loss 
-       
- 18
-  Hard Constrained 
-
-<99
-  Soft Constrained  NMT  
-  Decoder  Beam Search  
-  Input Context  Output Decoder  Context  Hard Constrained  Output  Model  Soft Constrained   Context Model 
- Decoder  Beam Search  Word   N  N  Beam Search  KK  2 
- Beam Search   Fuction 
-
-100> 2019 
- 19Decoder Beam_Search 
-                          Hard Con-
-strained   Context   Soft Constrained                 Context   Decoder fuction  Hard&Soft Constrained     PGC  UGC   PGC  UGC   Context 
-3.5 
-
-
-<101  N   Beam Search   Decoder  Random Search 
- Context   batch batch_size  n-gram  
- 20
-4. 
-   Wide&DeepDNNFNN  CTR   
-
-   Cover  
- 
-
-102> 2019 
-     
-  CTR  /  
- User/Context  Item/POI 
-
-   
-5. 
- 2018   
-2018  2019 NLP    2019  GPT2  
-
-<103
-
-
-
-
-[1] Context-aware Natural Language Generation with Recurrent Neural Networks. arXiv preprint arXiv:1611.09900.
-[2] Attention Is All You Need. arXiv preprint arXiv:1706.03762. [3] Universal Transformers. arXiv preprint arXiv:1807.03819. [4] A Convolutional Encoder Model for Neural Machine Translation. arXiv preprint
-arXiv:1611.02344. [5] Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural
-Networks for Extreme Summarization. arXiv preprint arXiv:1808.08745. [6] Bert: Pre-training of deep bidirectional transformers for language understanding.
-arXiv preprint arXiv:1810.04805. [7] ELMODeep contextualized word representations. arXiv preprint arXiv:1802.05365. [8] openAI GPTImproving Language Understanding by Generative Pre-Training. [9] Neural machine translation by jointly learning to align and translate. arXiv preprint
-arXiv:1409.0473. [10] Tensor2Tensor for Neural Machine Translation. arXiv preprint arXiv:1803.07416. [11] A Convolutional Encoder Model for Neural Machine Translation. arXiv preprint
-arXiv:1611.02344. [12] Sequence-to-Sequence Learning as Beam-Search Optimization. arXiv preprint
-arXiv:1606.02960. [13] A Deep Reinforced Model For Abstractive Summarization. arXiv preprint
-arXiv:1705.04304. [14] SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient. arXiv
-preprint arXiv:1609.05473. [15] Generating sequences with recurrent neural networks. CoRR,abs/1308.0850.
-
-2015  2016  2016  2016  2018   2016  
-
-104> 2019 
-AI Challenger 2018 
- 2018  8  -12                   "AI Challenger 2018  AI " 81 1000 " " - " " 
-
- 2018  AI   NLP  
-
-<105
- 6 20   NLP  
-
-   6  20   
-1. 
- TensorFlow  PyTorch  RNet  MnemonicReader  BERT  
-2. 
- 20  Aspect   LSTM End2End  Aspect 
- 2018  2  Kaggle  "" 2018   Kaggle NLP  ELMo  
-
-106> 2019 
-3. 
- Kaggle Toxic   LSTM Encode + Pooling  Kaggle   RNN(LSTM/GRU)  RNN  RCNNCapsule + RNN  CNN   RNN 
-
-<107
-4. 
- Self Attention   Attention  Attention  LSTM   Gate(RNet)  Semantic Fusion(MnemonicReader) 
-
-108> 2019 
-5.  
- LSTM  GRU  Hidden size 400 > 200 > 100  Topk Pooling + Attention Pooling         Max   Attention
-Pooling  Pooling   Fc  aspect 
-  20  Aspect Aspect  4  
-   BERT 
- Word + Char    UNK 
-   Kaggle Toxic 
- Word + Ngram  NLP  
-  14.4WJieba 19.8WSentence Piece Unigram  fastText   Finetune     
-
-<109
- UNK  UNK   UNK  
-6. 
- ELMo Loss  ELMo  ELMo ELMo  Loss 
- LSTM Encoder  ELMo   LSTM  ELMo Loss  Finetune   LSTM  ELMo   ELMo  fastText   ELMo  Finetune   1  ELMo ELMo  Self Attention 
-
-110> 2019 
-7. 
- Jieba   SentencePiece SentencePiece  Jieba   Finetune Char  Word + Char 
- RNet  MnemonicReader  BERT 
- F1  Aspect  Valid  F1   7 
-8.  BERT
- Char  BERT  ELMo   512  Char  BERT 
-
-<111
-Train Loss  Valid Loss   BERT 
-9. 
-F1  F1  Batch  Batch  
-BERT  BERT  Transformer   LSTM  BERT  Loss  LSTM  Transformer   Transformer  BERT ELMo  
- AI Challenger 2018 
-Q  AI   ELMoBERT         Aspect  F1AUCLoss   Q  
-
-112> 2019 
- AI ChallengerKaggle  Q 
- Q  ELMo 
- Q  TensorFlow  PyTorch 
-PyTorch  
-  
-
-<113
-WSDM Cup 2019 
- WSDMWeb Search and Data Mining Wisdom  SIGIR   Top2  12  WSDM  NLP  NLP  Travel  WSDM Cup 2019 "" 2  15  
-1. 
- ""  ""
-
-114> 2019 
-   WSDM Cup  
-  NLP  Travel  NLP "" (NLI)  ----  NLP  BERT  
-2. 
-  32  8    AgreedDisagreedUnrelated  3  
-""Travel   
- 1 Unrelated   70% Disagreed  3%   
-
-<115
- 1
-Travel  2   20  100 
-
-116> 2019 
- 2
-3. 
-"" Travel 
-   
-    3 
-
-<117
- 3
- A  B  A  C  B  C  A  B  A  D   B  D Travel  
-4. 
-BERT  Google  Transformer    11  NLP      SOTA        NLP BERT     Transformer Transformer  Self-Attention  RNN "" BERT 12  24 ""12  16   BERT  12×12=224  24×16=384   BERT 
-
-118> 2019  NLI
-BERT Travel   BERT  BERT  4 
- 4BERT 
-Travel  Google  BERT  Finetune 5   Finetune 
- 5 BERT 
-
-<119
-5. 
-  VotingAveragingBlendingStacking    VotingAveraging    Stacking  
- BERT  BERT  GPU  BERT   Stacking  Blending   BERT 
-Travel     
-                              Blending  25  BERT  5  Stacking  25  SVMLRK KNN NB  LR   6 
-
-120> 2019 
- 6
- 7    Train Data  Val Data
-Train Data     BERT        BERT       Val Data  Test Data BERT  Val Data  Test Data   New Train Data   New Test Data   New Train Data New Test Data           New Train Data       5   " " 5  SVM  5   5  NewTrainingData2 5   NewTestData2 LRKNNNB    NewTrainingData2 NewTestDa-
-
-<121 ta2  LR  NewTestData2   5 
- 7
-6. 
-6.1
- 
-y  i  i   Agreed  1/15Disagreed   1/5Unrelated  1/16
-
-122> 2019 
-6.2 
-      Travel               0.8675025  BERT  0.87700+0.95PP25  BERT   0.87702+0.952PP  0.88156+1.406PP NLP  
- 8
-7. 
-   BERT    BERT  
-
-[1] Dagan, Ido, Oren Glickman, and Bernardo Magnini. 2006. The PASCAL recognising textual entailment challenge, Machine learning challenges. evaluating predictive uncertainty, visual object classification, and recognising tectual entailment. Springer, Berlin, Heidelberg, 177-190.
-[2] Bowman S R, Angeli G, Potts C, et al. 2015. A large annotated corpus for learning natural language inference. In proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP).
-
-<123
-[3] Adina Williams, Nikita Nangia, and Samuel R Bowman. 2018. A broad-coverage challenge corpus for sentence understanding through inference. In NAACL.
-[4] Rajpurkar P, Zhang J, Lopyrev K, et al. 2016. Squad: 100,000+ questions for machine comprehension of text. arXiv preprint arXiv:1606.05250.
-[5] Luisa Bentivogli, Bernardo Magnini, Ido Dagan, Hoa Trang Dang, and Danilo Giampiccolo. 2009. The fifth PASCAL recognizing textual entailment challenge. In TAC. NIST.
-[6] Hector J Levesque, Ernest Davis, and Leora Morgenstern. 2011. The winograd schema challenge. In Aaai spring symposium: Logical formalizations of commonsense reasoning, volume 46, page 47.
-[7] Bowman, Samuel R., et al. 2015."A large annotated corpus for learning natural language inference."arXiv preprint arXiv:1508.05326.
-[8] Wang, A., Singh, A., Michael, J., Hill, F., Levy, O., & Bowman, S. R. 2018. GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding. arXiv preprint arXiv:1804.07461.
-[9] Chen, Q., Zhu, X., Ling, Z., Wei, S., Jiang, H., & Inkpen, D. 2016. Enhanced lstm for natural language inference. arXiv preprint arXiv:1609.06038.
-[10] Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. 2018. Improving language understanding with unsupervised learning. Technical report, OpenAI.
-[11] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805.
-[12] David H. Wolpert. 1992. Stacked generalization. Neural Networks (1992). https: // doi.org/10.1016/S0893- 6080(05)80023- 1.
-
- NLP  NLP  NLU   CCTV-1    NLP  NLP    NLP  NLP   BERT   NLP  NLP   YunOS    NLP  NLP   
-
-124> 2019 
-  30  KDDWWWAAAIIJCAITKDETIST   ICDM2013  1   NLP  30  ICDE 2015  ACL 2016 Tutorial"Understanding Short Texts"  3  5   Facebook  Research Scientist Facebook  NLP Service
-
-<125
- ETA 
-
-1. 
-ETAEstimated Time of Arrival"" " " 
-ETA  
- ETA    ETA  
- ETA  -  -  -    
-ETA 
-
-126> 2019   ETA 
- ETA  ETA    ETA   ETA  ETA    ETA  ETA    ETA   ETA    ETA   
- ETA
-
-<127   -  -  -   ETA  " -  - " ETA   LR-XGB-FM-DeepFM-  
-ETA 
- ETA  
-2. 
-2.1
- CTR  ETA  LR->  ->Embedding->DeepFM->  
-  Embedding  ID  FM 
-
-128> 2019 
-   /  /  /  /  / 
- /  /  / 
- Wide&DeepDeepFMAFM   DeepFM  Base  DeepFM   Embedding  FMFactorization Machine deep FM  DNN  Feed-Forward   Learning Decay/Clip Gradient/  /Dropout/  
-2.2
- ETA  Square  Absolute  MAE  ME  Learning Decay 
- ETA  N  1min  1min   N  3  absolute   1.2  absolute  1.8  absolute   ETA  
-
-<129
-
-2.3
-" + " ETA     
- TF  TF  
-  (a*b+c)*d  TF  OP   bd  ac 
-   OP 
- TF   
-
-130> 2019 
-
- Shared Parameters   TF   Label 
-  
-  Label  Regularization 
-  Loss 
-    
-
-2.4
- "" x   TF  w1   w2*x w1  w2 
-
- / 
-
-<131
-
-
-3. 
-3.1 + 
-  ETA  
-   
-  "" RF  RF 
-
-132> 2019   """"  RF 
-
- <   >   RF  ETA  + 
-4. 
-4.1 
- Spark  -> Spark  TFRecord ->  -> TensorFlow Serving  GPU  -> CPU Inference   Epoch  4  TF   TF  IO  Spark 
-
-<133
-TFRecord  3.6 16   PS   PS Serving  GPU   Chief Worker  Valid   Spark  Serving GPU  
-  AFO       TF    PS-Worker             tf.train.MonitoredTrainingSession  PS Step   Worker   Worker  1~2W/s Epoch   16  Worker  16  4-6      PS-Worker   RPC  Worker     GPU  OP  Device Device   Loss  Grad 
-
-134> 2019 
-
-TF  ID  Vocab   Spark   Libsvm  avg/std    TF     ID TF 
-list_arr inference  ph_vals ph_idx
-tf_look_up = tf.constant(list_arr, dtype=tf.int64) table = tf.contrib.lookup.HashTable(tf.contrib.lookup. KeyValueTensorInitializer(tf_look_up, idx_range), 0) ph_idx = table.lookup(ph_vals) + idx_bias
- Spark  avg/std  TF   constant  ph_in  ph_out
-
-<135
-constant_avg = tf.constant(feat_avg, dtype=tf.float32, shape=[feat_dim], name="avg") constant_std = tf.constant(feat_std, dtype=tf.float32, shape=[feat_dim], name="std") ph_out = (ph_in - constant_avg) / constant_std
-4.2TF 
-  
-ETA  DeepFM  TensorFlow  SavedModel   Tensorflow SavedModel 
- S  TensorFlow SavedModel 
-     TensorFlow Serving CPU     gRPC API  RESTful API  Thrift  
-  AFO GPU  TensorFlow Serving    JNI  TensorFlow  Java API TensorFlow
-Java API SavedModel 
- TensorFlow Java API  SavedModel  CPU  batch=1  1ms  3 
- TensorFlow Java API  C++  libstdc++.so   GCC  4.8.3 CPU  CentOS 6,  GCC  4.4.7 TensorFlow SavedModel  GCC    Input 
-
-136> 2019   TensorFlow Remote Remote  Output  
-
-  TP99   5ms 
-
-
- 
-   
-  Embedding  LSTM/ CNN/ 
- 
-
-<137
-
- 2017  ETA  2018  
-
-138> 2019 
-
-
-1. 
- App    
-   
-  
-
-<139
-   
-
-   
-  TP99  10ms  5ms   RPC  CPU  GPU  
- 5ms TP99  10ms       End-to-End   
-2. 
-
-
-140> 2019 
- 5ms  
- 3 
-2.1 
-  
-  
-                               addrbuildingunit floor  1  2  5 1 2 5         
-  12 MAE
-
-<141
-
-2.2 +  
- LSHPQ  
- NLP  70%+ 20%+    Embedding  
-7 7   
-                Word2Vec  charLevel     Embedding GPS 
-
-142> 2019 
-
-  12.20pp  ME  87.14sMAE  38.13s 1min  14.01pp2min  18.45pp3min   15.90pp 2.3End-to-End     100% NLP 
-
-<143
-  VC                        GPS     ID   Embedding   ETA   5msTP99  10ms    Fusion    Fusion   Flops     Robust  LSTM GPS  Embedding
-  LSTM  charLevel   20%  
-
-144> 2019 
- charLevel 
- charLevel  GPS   GPS   Embedding GPS  Embedding  GPS  
- Embedding  GPS  Embedding   ID ID   Trainable
-
-<145
-
-  End-to-End                                   Feature Permutation   GPS Shuffle  GPS  GPS  ME   
-
-146> 2019 
-
-  GPS  
-
- 1 2 ......
-
- GPS  >>  >>   GPS  
-
- End-to-End   100%ME  4.96sMAE  8.17s1min  2.38pp2min  5.08pp3min   3.46pp 
-
-3. 
-    Faiss  TensorFlow Operation  
- End-to-End  Word2Vec  
-3.1
-Nearest Neighbor Search   
-
-<147  ANNApproximate Nearest Neighbor   3  K-D  LSH  PQ    ANN-Benchmarks  Erikbern/ANN-Benchmarks  ANN  GPU  Faiss  Benchmark Faiss  FaceBook  2017    C++/Python  GPU   Faiss 
-  8W  GPS 
-
-148> 2019   8W 
- Mac  CPUCPU  GPU
-3.2
- TensorFlow  C API           Client              Protobuf    OP TensorFlow  OP  
- Profile  Profile  Timeline  OP 
-
-<149
-               LSTM/GRU/SRU       TensorFlow LSTM  BasicLSTMCellLSTMCell LSTMBlockCellLSTMBlockFusedCell  CuDNNLSTM   CPU  CuDNNLSTM FullyConnect 
- 2.3pp   OP  BasicLSTM    contrib   LSTMBlockFusedCell    GRU/ SRU 
- LSTMBlockFusedCell  LSTM  Loop   OP Timeline 
-This is an extremely efficient LSTM implementation, that uses a single TF op for the entire LSTM. It should be both faster and more memory-efficient than LSTMBlockCell defined above.   Tensorflow1.10.0CentOS 7  CPU inference 1000 
-
-150> 2019 
-
- LSTMBlockFused FullyConnect  
- 
-
-lstmOP Fully Connect SRU GRU Block GRU LSTMBlockFused LSTM Block LSTM BasicLSTM
-
-(ms) FLOPs 
-
-1.18
-
-27.83M 7.00M
-
-4.00
-
-27.96M 7.06M
-
-3.64
-
-28.02M 7.10M
-
-4.44
-
-28.02M 7.10M
-
-2.48
-
-28.09M 7.13M
-
-4.34
-
-28.09M 7.13M
-
-4.85
-
-28.09M 7.13M
-
-4.92
-
-28.09M 7.13M
-
-(MB) 29.1 29.4 29.6 29.6 29.7 29.7 29.7 29.7
-
- -2.3pp       
-
-3.3 
- 
-  lstm  Embedding  Word2Vec  
-
-End-to-End 
-
-ME End-to-End  Word2Vec 
-
-MAE 4.14
-
-1min 2min 3min
-
--0.45
-
--0.31%
-
-0.05%
-
- End-to-End  char embedding  Word2Vec  Word2Vec  char embedding  char embedding   Word2Vec 
-
-
-<151
-
- 1min |pred-label|<=60s  2min |pred-label|<=120s  3min |pred-label|<=180s  2  :  a charLevel  Word2Vec LSTM  bWord2Vec  End-to-
-End GPS    
-    
-
- b   Word2Vec  MAE  15s char embedding  Word2Vec  char embedding 2.3   End-to-End 
-
-ME End-to-End  Word2Vec 
-
-MAE -1.28
-
-1min 2min 3min
-
-0.64
-
-0.90%
-
-0.85%
-
- End-to-End  Embedding   Word2Vec  
- End-to-End 
-
-152> 2019 
- Embedding  
-End-to-End  Word2Vec End-to-End  Word2Vec
-End-to-End   Word2Vec  
-  <=>    End-to-End  Word2Vec  Case End-to-End  
-4. 
-   Word2Vec  End-to-End 
-   -  -  TF OP  Embedding  
-
-<153
-5. 
- ETA    ETA  ETA 
- ETA    ETA  
-6. 
- 
-7. 
- AI ----  AI    AI  tech@meituan.com AI 
-
-154> 2019 
-ICDAR 2019 
-
-     8-neighbor  8-neighbor    backbone 
- ICDAR2019 (International Conference on Document Analysis and Recognition)  "As it is of more practical uses"
-ICDAR  (IAPR)  ICDAR                                   ICDAR 2003 "Robust Reading Competitions" 89  3500 ICDAR 2019  9  20-25   ""ICDAR 2019 Robust Reading Challenge onReading Chinese Text on Signboards
-
-   
-
- 1
-
-<155
-
- 1
- CNN Faster RCNNSSD  FPN[1] 
-
-156> 2019 
-      Faster RCNN  SSD  
-
-1.     
-2.   
-
-1 2
-1 FCN [2] FCN, fully convolutional network (fc)   FCN   FCN  FCN  
-
-<157
- 2
-2 Textboxes [3]  SSD      NMS 
- 3Textboxes 
-
- SSD 4  
-
-158> 2019   4   
- 4
-1    5 Conv6_2 Conv7_2  Conv8_2 
- 5
-2 
-
-<159  5  conv4_3 Fc7 4     conv4_3_f,fc7_f,conv6_2_f,conv7_2_f,conv8_2_f  conv9_2_f 
- 6   3*3   d=256
- 6
-3  7segment link  Faster-RCNN  
- 7
-
-160> 2019  2
- 8  
- 8
- 9 
-ab c  A  Bd A+B/2 AB  AB 
- 9
-
-<161
-
-ICDAR2013ICDAR2015  ICDAR2013  229  233 ICDAR2015   1000  500 
-1  ICDAR2015  1
- 1
-"baseline" ssd  + " " baseline " +  " baseline    1  3  73.4->76.3  
-2 2  3
- 2ICDAR2013 
-
-162> 2019 
- 3ICDAR2015 
- ICDAR2015  PixelLink FPS  TextBoxes++  FPS  10 
- 10
-3  11   500  SegLink  5  
- 4
-
-<163 1
-
-164> 2019 
- 11
-
-   ICDAR2013  ICDAR2015   PixelLink [4]   
-
-Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, Bharath Hariharan, Serge Belongie."Feature Pyramid Networks for Object Detection."arXiv preprint. arXiv: 1612.03144, 2017. J. Long, E. Shelhamer, and T. Darrell."Fully convolutional networks for semantic segmentation."In CVPR, 2015.
-
-<165
-M. Liao, B. Shi, and X. Bai."Textboxes++: A single-shot oriented scene text detector." IEEE Trans. on Image Processing, vol. 27, no. 8, 2018. D. Deng, H. Liu, X. Li, and D. Cai."Pixellink: Detecting scene text via instance segmentation."In AAAI, pages 6773­ 6780, 2018.
-
-
-
-   
- tech@meituan.com 
-
-166> 2019 
-CVPR 2019 
-
-
-CVPR 2019   5160  1294   ""
-         Trajectory Prediction Challenge   CVPR 2019 Workshop on Autonomous Driving -- Beyond Single Frame Perception  
-
-<167  
- 3   3   2   1.3425  
-
-  
- 2   ID
- 3  2   3 
-
-Average displacement errorADE 
-
-168> 2019 
-Final displacement errorFDE 
- 
-
- 1.  2. 
- 
-   
-  1. Social GAN Encoder  Pooling 
-
-<169  2. StarNet LSTM  Hub   Host 
-
-
- 
-  
-
-170> 2019   12 
- 6  6   
- 
-
-  
-           LSTM  Encoder-Decoder      Encoder  Decoder  Noise Noise 
-
-<171
- Encoder  LSTM  Decoder  LSTM  Noise   Noise 
-
- 
-
-
- Loss  Weighted Sum of ADEWSADE  Adam  WSADE  1.3425
-
-
-
-
-
-StarNet
-
-TrafficPredictApolloScape Baseline 
-
-WSADE 1.3425 1.8626 8.5881
-
-172> 2019 
-
-  Trajectory Prediction Challenge   
-
-Yanliang Zhu, Deheng Qian, Dongchun Ren and Huaxia Xia. StarNet: Pedetrian Trajectory Prediction using Deep Neural Network in Star Topology[C]//Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). 2019. Gupta A, Johnson J, Fei-Fei L, et al. Social gan: Socially acceptable trajectories with generative adversarial networks[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2018: 2255-2264. Apolloscape. Trajectory dataset for urban traffic. 2018. http://apolloscape.auto/ trajectory.html.
-
- PNC   PNC   PNC   PNC 
-
-<173
-  StarNet  
-
-1. 
-" "    StarNet  IROS 2019IROS  IEEE/RSJ International Conference on Intelligent Robots and SystemsIEEE      ICRARSS 
-1.1
-  1  
- 1       ""
-
-174> 2019 
- 1
-1.2
-       
-
-<175
- 
-1.3
- Kalman Filter, KFHidden Markov Model, HMM Gaussian Process, GP
-( ) ( )  X t = f X t-1  p Xt X t-1 
- ""    
-                      Long Short Term MemoryLSTM  5   CVPRIEEE Conference on Computer Vision and Pattern Recognition 2019  10  2    CVPR 2016  Social-LSTM Social-LSTM  LSTM   Social Pooling Layer   NxN  
-
-176> 2019 
- 2Social LSTM  Social Pooling 
- CVPR 2019  &  &   LSTM    
- 3
-
-<177
-                /    Occupancy Grid Map, OGMMessage Passing, MP Graph Neural Network, GNNGCN/GAT 
-
-2. StarNet 
-  LSTM  4   GCN  
-
-  N   Step 1  i  t   x  y
-( ) Interaction1t = f P2t - P1t , P3t - P1t ,, PNt - P1t
-
- f
-
- Step 2 
-
-( ) 
-
-Pt +1 1
-
-=
-
-g
-
-P1t , Interaction1t
-
-
-
- g  LSTM
-
-178> 2019 
- 4  StarNet
- 1.  2  3  1  2  3 
-  2.  N  N   N   1  N  
-
-<179   Attention   Message Passing   ""      1245 " + " 
- 5StarNet 
- 5 Host Network  LSTM  Hub Network  LSTM  Hub Network   st  LSTM   st  rt Host Network  P1t  rt   q1t  Attention 
-
-180> 2019   P1t  q1t  LSTM  P1t+1 
- 4  UCY&ETH           4        ZARA-1/ZARA-2UNIVETH HOTEL 3.2   3.2  0.4  3.2  8  
-a ADEAverage Displacement Error  8 b FDEFinal Displacement Errorc 
-
- 80%   LSTM  0.029  
- StarNet   
-
-
-<181
- Hub Network 
-3. 
-  
-  
-   1  2   
-
-[1] A. Alahi, K. Goel, V. Ramanathan, A. Robicquet, F. Li and S. Savarese,"Social lstm: Human trajectory prediction in crowded spaces,"in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE 2016, pp. 961-971.
-[2] H. Wu, Z. Chen, W. Sun, B. Zheng and W. Wang,"Modeling trajectories with recurrent neural networks,"in 28th International Joint Conference on Artificial Intelligence (IJCAI). 2017, pp. 3083-3090.
-[3] A. Gupta, J. Johnson, F. Li, S. Savarese and A. Alahi,"Social GAN: Socially acceptable trajectories with generative adversarial networks,"in 2018 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 2018, pp. 2255-2264.
-[4] A. Vemula, K. Muelling and J. Oh,"Social attention: Modeling attention in human crowds,"in 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018, pp. 1-7.
-[5] Y. Xu, Z. Piao and S. Gao S,"Encoding crowd interaction with deep neural network for pPedestrian trajectory prediction,"in 2018 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 2018, pp. 5275-5284.
-[6] D. Varshneya, G. Srinivasaraghavan,"Human trajectory prediction using spatially
-
-182> 2019 
-aware deep attention models,"arXiv preprint arXiv:1705.09436, 2017. [7] T. Fernando, S. Denma, S. Sridharan and C. Fookes,"Soft+hardwired attention:
-An lstm framework for human trajectory prediction and abnormal event detection," arXiv preprint arXiv:1702.05552, 2017. [8] J. Liang, L. Jiang, J. C. Niebles, A. Hauptmann and F. Li,"Peeking into the future: Predicting future person activities and locations in videos,"in 2019 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 2019, pp. 5725-5734. [9] A. Sadeghian, V. Kosaraju, Ali. Sadeghian, N. Hirose, S. H. Rezatofighi and S. Savarese,"SoPhie: An attentive GAN for predicting paths compliant to social and physical constraints,"in 2019 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 2019, pp. 5725-5734. [10] R. Chandra, U. Bhattacharya and A. Bera,"TraPHic: Trajectory prediction in dense and heterogeneous traffic using weighted interactions,"in 2019 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 2019, pp. 8483-8492. [11] J. Amirian, J. Hayet and J. Pettre," Social Ways: Learning multi-modal distributions of pedestrian trajectories with GANs,"arXiv preprint arXiv:1808.06601, 2018.
-
-   
-
-  C++  Python   TensorFlow  Pytorch    tech@meituan.com
-
-

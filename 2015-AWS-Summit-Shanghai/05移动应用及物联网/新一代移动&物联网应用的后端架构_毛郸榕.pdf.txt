@@ -1,216 +1,0 @@
-&
- danrongm@amazon.com
-
-""
-Evolution of Cloud Compute Toward Serverless
-
- - AWS
-
-
-
-
-
-
- -  Containers
-
-
-
-
-
-
-
-
-
- - ""Serverless
-
-
-AWSServerless
-· Serverless =  · Lambda · API GatewayLambdaREST API · Serverless AWS = Lambda + API Gateway ·  · PaaSBaaS"" · "LambdaAWS"
-- Janakiram MSV (janakiram.com)
-
-Amazon Lambda
-
- AWS Lambda
-
- 
-
-
- 
-
- ""
-
-
-
- ·  · 
- ·  ·  ·  · 
-
- · BYOC · 
- · 
- ·  ·  · 
-
-Amazon API Gateway
-
-· RESTful API 
-
-· 54
-
-· DDoS(7)SYN  (3)
-
-· API (  )
-
-· API (caching layer)
-
-Amazon API Gateway
-
-AWS Lambda Amazon EC2
-AWS API
-
-
-&""
-
-Mobile
-
-
-
-Amazon CloudFront CDN
-
-Internet
-
-API Gateway
-
-
-Amazon CloudFront
-
-API Gateway 
-
-API Gateway
-
-Amazon CloudWatch
-
-AWS
-
-AWS Lambda 
-
-AWS
-
-AWS IAM 
-
-AWS Lambda 
-Amazon EC2 Web 
-
- 
-
-?
- 
-AWSAPI IAM
-SwaggerAPI
-
-""
-
-AWS
-
-Amazon Cognito
-
-
-Amazon Mobile Analytics
-
-AWS Lambda
-
-Mobile SDK
-
-
-Amazon S3
-
-Amazon SNS 
-
-Amazon DynamoDB
-
-Amazon API Gateway
-
-AWS
-
-
-
-     
-(1) API Gateway SDKiosandroidjs (2)  (3) 
-
-""
-
-AWS IoT  AWS Lambda
-
-
- 
-
-SDK
- 
-
-
-GATEWAY
-MQTT HTTP
-
-
-things
-
-AWS IoT API
-
-
-
-AWS 
-SHADOW
- thing
-
-Lambda
-
-
-
-AWS
-
-
-
-""AWS
-
-API Gateway
-
-AWS Lambda 
-
-IoT 
-
-Amazon S3 
-
-Amazon Dynamo DB 
-
-Amazon Kinesis 
-
-Amazon SNS 
-
-Amazon SWF 
-
-AWS
-
-Amazon
-
-CloudFormation CloudWatch 
-
-
-
-...  
-
-
-1 "" &
-
-2 AWS Lambda + Amazon API Gateway AWS
-
-3 AWS IAM
-AWS
-
-Mobile
-
-Internet
-
-API Gateway
-
-AWS Lambda 
-
-AWS
-
-

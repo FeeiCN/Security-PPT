@@ -1,641 +1,0 @@
-@  
-----  
-  wangdong07@meituan.com
-
-
-·O2O
-
-·  ·
-·""
-
-
-O2O
-        O2O  (Online  to  Offline)          =  (LBS)  +   
-
-
-
-  
-
-  
-
-O2O
-TalkingData 2014  O2O
-
-TalkingData 2014  O2O
-
- vs.
-
-
-
- vs. 
-
- 
-
-
-
- 
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-All  That  Is  Solid  Melts  into  Air.     ----  Karl  Marx
-
-
-  
-  
-   
-  
-  
-   
- vs 
-
-  
-   
-  
-  
-   
-
-O2O
-  
-
-1400   1200   1000  
-800   600   400   200  
-0   2010   2011   2012   2013   2014   2015e  
-
-O2O  vs       LocaEon  based
-  
-
-
-
- 
-
-     
-
-
-
-
-
-
-
-80   70   60   50   40   30   20   10  
-0   2011  
-
-
-
-2012  
-
-2013  
-
-2014  
-
-2014121 >90%
-
-
-
-80%
-
-
-
-4500   4000   3500   3000   2500   2000   1500   1000  
-500   0  
-        
-
-       
-
-60.00%   50.00%   40.00%   30.00%   20.00%   10.00%   0.00%  
-
-
-
-0hr   3hr   6hr   9hr   12hr   15hr   18hr   21hr   day:1   day:3--3.5   day:5--10  
-
-  //      
-
-O2O
-
-   ·    ·   
-
-   ·    ·    ·   
-
-   · /   ·   
-  
-   = =  
-
-
-
- · 
-
-/
-
-·  · 
-
- 
-
-·  ·  · 
-
- 
-
-·  
-·  · 
-
-
-
-· 
- 
-
- ·   · 
-
-
-
-·  · 
-
-
-·O2O
-
-·  ·
-·""
-
-
-@
-
-·  ·    · ......  
-   ·    ·   
-
-·    ·  ·   
-   ·    ·    ·   
-
-   · /   ·   
-  
-
-
--->   
-
-
- SVM   · 75%   · 68%  
-   · 35%  
-=/   
-· 30%  
-
-
-      
-
-
-·  
-
-
-·  · 
- · 
-  
-
-
-·  
-·  (todo)
-
-/
-·  
-·   
-
-100%+ 21% 94%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-     
-
-  
-
-
-
-
-
-        
-     
-     
-  
-     
-user  profile        
-deal/poi   profile    
-  
-query/deal   topic  model  
-   ......  
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-Poil  
-
-
-
-  
-
-Query  
-
- 
-
-  
-
-
-
-  
-
-
-
-
-
-CTR  model  
-
-
-
-   Action  model  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-Query  Retrieval  
-
-
-
-   User  Retrieval  
-
-
-
-
-
-  
-
-
-
-  
-
-  
-
-        
-     
-     
-  
-     
-     
-......     
-
-
-
-Impression Log
-Order/Click Log
-Deal DB
-
-Flume Agent
-
-API Control Service
-
-feature Labeled Data
-
-Model 1 Model 2
-...
-Online train
-
-Offline train
-
-feature monitor
-
-spark
-
-  
-
-
-
-
-
-API  
-
-
-
-Command  
-
-
-
-
-
-LR  
-
-
-
-SVM  
-
-GBDT  
-
-Topic   Model  
-
-  
-
- 
-
-Mutual  InformaEon  
-
-  
-
- 
-
-
-MinMax  
-
-Chi  squared  
-Standard  
-
-        
-  
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
- 
-
-  
-
-  
-
- LR + GBDT 
-
-  
-
-     
-
-  
-
-  
-
-  
-
-
-  
-ü   
-· /   · 
-...  
-
-ü    ü 
-   ü   
-
-/   
-  
-
-         Term     
-
-     
-
-Query  suggestion  
-
-  
-
-  
-
-  
-  
-     
-
-" "POI  
-
-        
-  
-
-                                                         
-
-12%   8%   -   3%   -  
-
--  
-
--   <1%   -   76%  
-
-21%   17%   7%   5%   6%   <2%   <1%   4%   9%   28%  
-
-  
-  
-"//"        
-+SVM   
-
-
-
-
-
-  
-
-
-
-
-
- 
-
-Agdrdoivtieves  
-
-  
-
-     
-
-  
-
-  
-
-  
-
-
-
-deal  
-·CTR/CVR   ·CVR   ·   ·   ·  
-  
-deal--user  
-·   ·   ·  
-
-poi  
-·#   ·#/   ·CTR/CVR/CXR  
-·CPR  
-
-user  
-·   ·   ·   ·  
-
-poi--user  
-·   ·   ·//   ·//  
-
-
-
-   
-   
-  
-
-GBDT  
-
-LR  
-Additive   Groves  
-
-rank  
-
-
-·    · 2   · 2   · 3%  
-·    · Online  learning
-
-
-    
-
-
-
-user/ item cf 
-
-  
-
-  
-
-LR GBDT 
-
-  
-
-     
-
-  
-
-  
-
-  
-
-hap://tech.meituan.com/mt--recommend--pracEce.html
-
-
-·    · LocaEonlocaEonlocaEon   · 
-   · 
-
-context
-
-·    · ""   · ""
-  
-
-
-baseline  
-
-20140609   20140610   20140611   20140612   20140613   20140614   20140615   20140616   20140617   20140618   20140619   20140620   20140621   20140622   20140623   20140624   20140625   20140626   20140627   20140628   20140629   20140630  
-
-hot_for_local  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-   
-   
-      
-     
-
-     
-     
-     
-  
-
-
-dealdeal   deal
-     
-·    ·    /      1. (R2):  0.8   2.   
-hap://tech.meituan.com/mt--mlinacEon--how--to--ml.html
-
-
-
-  
-
-  
-
-/  
-
-
-
-   30%+   
-         /   /     
-
-
-·O2O
-
-·  ·
-·""
-
-
- ""
-               90%   /)
-   AB      
-
-  
-     
-   dwang97
- /, 
-JTVGEJ"OGKVWCPEQO
-
-

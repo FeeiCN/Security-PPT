@@ -1,368 +1,0 @@
- 
-   
-
-
-                         
-
-
-
-Q&A
-
-Q&A
-
-Q&A
-
-·What ·Why ·How
-
-  
-·
- ·
-·
- ·
-·
- ·/
-
-
-·     ·                     --         ·   --  GoogleBaiduSohu  Yahoo               1               2      ·                  1                 2  
-
-
-
-
-
-
-
-FAQ 
-
-
-
-
-
-
-
-
-Start  1993 "Eliza"  1966    1950     
-
-1995 Dr.   Richard   
-Alice
-
-
-
-Start Askjeeves
-
-· MIT 
-· Askjeeves 
-
-Answer  Bus · URL
-
-MULDER
-
-·   
-
-LAMP
-
-·  
-
-
-· 1 (QuesRon  Answering)
-
-· 2
-
-·
-
-3
-
-----
-
-
-
-IBM  Watson  
-
-              Apple  SIRI
-
- i  
-
-
-
-JIMI
-
-
-                         
-
-
-JIMI
-JIMI
-+
-   
-
- VS  
-
-  VS    
-    
-
-
-
-
-
-
-
-1986BP  Nature
-Rumelhart, Hinton, Williams
-
-2011  
-PhD   candidate   of  Hinton,  
-MSR
-
-2015   Deeper  Network  
-ImageNet   ClassificaGon  
-Speech
-
-2006   DBN   Science  
-G.E.   Hinton
-
-2012  DNN    
-ImageNet   ClassificaGon
-
-
-2012 20121009              -Google-X  Lab   2013 20130119            Institute  of  Deep  Learning  
-                                                            (IDL)         20131209        Facebook  ,    ·                                                                   (Yann    LeCun  )   2014 20140622        ICML  Deep  Learning  Platform     20140714          Adam   20140909              JD  DNN  Lab  
-20141103          IDST  (Institute  of  Data  Science  &  Tech  )     
-
-
-DCNNDeep  ConvoluRonal  Neural  Networks 
-
-Vector  space  model
-
-                                                    
-1
-·  · Time  
-consuming
-
-2
-·  
-· Mis-- classificaGon  
-
-3
-·  
-· Poor   performance  
-
-? "Car"
-
-"Automobile"
-
-"Tank"
-
-?
-
-Word2vec
-
-
-                         
-
-Who  is  JIMI
-
-  
-Deep  Neural  Network  
-  
-Machine  Learning  
-
-n JIMIJD  Instant  Messaging   Intelligence  
-n   
-
-  
-Search  Engine  
-  
-Knowledge  Graph  
-  
-User  profile  
-  
-Natural  Language  Processing  
-
-7×24           
-
-  
-Big  Data  
-
-  
-
-      
-
-  
-Pre--sales  ConsulRng
-  
-A]er--sales  service
-   Life  Partner  
-
-J  I  M  I  
-  
-  
-  
-MM  
-  
-  
-
-JIMI
-
-    
-
-162    
-
-50  
-M  
-
-300100  
-
-  
-
-MLS    
-
-  
-
-~  
-
-  
-
-     
-
-28  
-
-  
-
-181cm   75kg  
-
-   
-  
-
-     
-
-  
-
-96%   
-800   
-4.71334×750 1815.5iphone   6plus  
- ~  
-
-    
-  
-
-
-
-  
-
-    
-6000+  
-
-    
-NLP  
-
-2012-12   2013-05   2013-11   2014-05   2014-07   2014-10   2014-11  
-
-    
-  
-
-    
-  
-
- 26  
-
-JIMI2500  
-
-11.11
-45
-=
-
-  
-
-JIMI
-
-           
-
-
-
-
-
-JIMI  
-  
-
-        
-
-  
-
-
-
-  
-
-
- 
- 
-
-
- 
-...... 
-
-        
-
-  
-
-
- 
- 
-
-
-  ...... 
-
-JIMI , ,  , 
-
- 
-
-
-
-
-
-
- 
-
- DNN
-
-
-
-/
-
-
-
-1 2 3 4
-
-
-  
-           
-
-1 2 3 4
-
-1 2 ... 3 4
-
- 
-
- 105.00%   100.00%   95.00%   90.00%   85.00%   80.00%   75.00%  
-
-DNN   Baseline  
-
-Error  ReducRon  Rate   21.60%  
-15.00%   14.50%   13.25%  
-
-
-  
-  
-     
-""  
-     
-JIMI  
-   JIMI?  
-  
-
-Q&A
-
-
-@InfoQ  
-
-infoqchina  
-
-

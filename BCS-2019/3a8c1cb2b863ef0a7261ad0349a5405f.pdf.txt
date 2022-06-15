@@ -1,275 +1,0 @@
-¯)6 Á¢%=
-Bk 1.¨aRW +
-1
-
-£
-
-!  ÁÑ ! Í¯)Î ÁSÑ ! !
-¢TCP/IP Á ! S®*L!XÑ
-
-2
-
- ÁÑ
-! "oP"Ç~p n¢ Á ! ,(5*
-
-,(5*
-
- Á
-
-?&N¢ED
-3
-
-Í¯)Î ÁSÑ
-u»
-4
-
-Í¯)Î ÁSÑ
-! Æ¸t¥u»
-u»
-5
-
- ÁÑ
-6
-
- ÁÑ
-7
-
- ÁÑ
-
-9]²¢"ª^"
-
-} ²
-
-ti"0
-%: 8
-
-Ê ·@¢¯) ÁÍ1998eÁÎ
-
-! %:Ð Windows|®*¢$bIPID2I
-} ²
-
-x GÐIPID=31337
-
-£
-(Windows ®*)
-
-x
-
-GÐIPID=31338
-9
-
-TCP Á}
-! U-NÐOff-Path (È
-G) } ²Ï´¾ÀIPLM¢w4 ! £¢Ðzo<G¢>y
-! XBTCP>yÑg,>Q`Ñ
-\¬g,>
-Ig,>
-10
-
-TCPg,>G<
-
-;I¢-Tg,>
-Morris Bellovin
-
-1985
-
-1989
-
-1995
-Mitnik
-H.
-
-
-Zalewsky
-
-Windows} Í_ZqÎ
-klm
-
-"#2} Í+AZqÎ
-Herzberg
-
-r¢Z$Off-Path} Ð Í1/2+AÎ - @Linux
-(USENIX Security 2016)
-
-2001
-
-2004
-Watson
-BGP DoS
-
-2007
-
-2012
-
-2016
-
-2018
-
-r¢o;2} ÐÍ© ZqÎ
-1. C ÄÍS&P 2012Î 2. Linux/FreeBSD/Mac (CCS
-2012)
-
-!O¢ ÁÐ
-- s|®* (USENIX Security 2018)
-
-11
-
-§ÐTCP Á} Í2012Î
-¸ÐK7=«9
-G} ²¢Åo;
-12
-
-TCP Á} Í2016 LinuxÎ
-! o;ÆÌ ! $b¿Å0 Challenge ACK &N¢¯)4 (Rate limit)Ï%:
-! s>y% ! Ë4Ð100Í©Ã°Î
-
-\¬
-
-} ²
-
-I 13
-
-ÑS. Ñ
-! SÐ¦¢\¬¬:> ! SÐ
-\¬
-
-1 challenge ACK } ²
-
-I 14
-
-ÑS. Ñ
-! SÐ¦¢\¬¬:> ! SDÐ
-\¬
-
- challenge ACK } ²
-
-I 15
-
-} jG
-
-! >yVKÐ_10 © ! g,>Ð 30 © ! ACK >Ð _10 ©
-
-16
-
-(K5
-! ´l¡_N%: ! Linux
-t.Ïf4!3TCP/¶ÍRFC 5961Î
-17
-
-' ÁÑ
-! A+m± ! B;$s%:? ! ³[¢, µ`K;É
-
-
- ACK 
-If(pkt.seq < rcv_nxt)
-
-DelayedAckLost++
-
-Drop
-
-21   
-
-18
-
-' ÁÑ
-! A+m± ! B;$s%:? ! ³[¢, µ`K;É
-· 5 
- FreeBSD 4.9.3 · 7 
- Linux 4.8.0 (ACM CCS 2019)
-19
-
-TCP Á} Í2018 wifiÎ
-! BVK'È;¢%:Ñ
-\¬g,>
-Ig,>
-20
-
-TCP Á} Í2018 wifiÎ
-! BVK'È;¢%:Ñ
-! Ð%¯)C¼Ì
-21
-
-TCP Á} Í2018 wifiÎ
-! %C¼FJÑ
-! $8cC¼->68cC¼Ì
-
-Pkt C
-
-Pkt A
-
-Pkt A 22
-
-TCP>y3v----s WiFi ÂY$
-
-! . 68cC¼
-! z\¬BJOACK
-
-G
-
- ACK
-
-d
-
-8¢{h?
-
-x8
-
-x
-
-IPLMÀ¯)4
-
-8
-
-ÈIPLMÀ¯)4
-
-23
-
-TCP>y3v----s WiFi ÂY$
-
-! . 68cC¼
-! z\¬BJOACK
-
-ºACK
-
-ACK
-
-JACOK
-
-8
-
-d d
-
-5ms J½FÃ
-8¢{h?
-
-x8
-
-x
-
-IPLMÀ¯)4
-
-8
-
-ÈIPLMÀ¯)4
-
-24
-
-§Ð1I,V} (2018)
-25
-
-(K5
-! È;¢%:Ð68cC¼ ! ¤?7
-Ðt¥¯)u» ! IEEE 802.11c'
-! ¹)
-Transport Network
-Link Physical
-26
-
-
-!¯) Á¢&E - VKH%:Ñ - } ²;x/Ñ - 9]²¢^#S"jG"%:¢Ñ
-
-Bk
-zhiyunq@cs.ucr.edu
-27
-
-

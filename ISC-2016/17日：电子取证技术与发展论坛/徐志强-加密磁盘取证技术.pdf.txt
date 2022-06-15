@@ -1,218 +1,0 @@
-
-
-Forensic analysis of encrypted drives
-
-
-
- (Henry Tsui)
-,  ,   ,  
-_______________________________________________
-∑ EnCase(EnCE)-- ∑ EnCase ∑ ISC2(CCFP) -- ∑ (MCE) ∑ (HTCIA) ∑ (ACFE)
-
-
-
-
-
-
-
-
-
-
- /  /  
-
-
- 
-≠ 
-∑  ∑ 
-≠ 
-∑ / ∑ 
-
-
-1. 
-≠ 1997ATA-3 ≠ BIOS
- 
-≠ Master()User() ≠ HighMaximum
-File System Forensic Analysis, Brian Carrier, 2005
-
-
- BIOS
-≠ ThinkpadDell Latitude BIOS)
-
-ATA
- 
-≠  ≠ 
- 
-≠ ATOLA Insight ≠ PC-3000 UDMA
-
-ATA  ATOLA Insight
-
- 2. 
-≠  AES
-≠ FIPS 197
-http://www.intel.com/content/dam/www/public/us/en/documents/technology-briefs/ssd-320-series-datasecurity-features-brief.pdf
-
- 2. 
-≠  
-WD Drive Unlock
-
-
-   
-
-
-3. /
-≠ BitLockerSafeBootPGP CheckPoint
- 
-≠  
-≠  
-
-
- McAfee Safeboot /McAfee Endpoint Encryption  Bitlocker/BitLockerToGo  Check Point PointSec PC/Endpoint Full Disk Encryption  PGP WDE / Symantec Encryption  Utimaco SafeGuard Easy  WinMagic SecureDoc  GuardianEdge  Sophos SafeGuard  FileVault (Macintosh OSX)  LUKS (Linux)
-
-
-
-
-BitLocker (Vista)
-BitLocker (Win7/Win8)
-SafeBoot
-Check Point FDE GuardianEdge Encryption
-Plus/Anywhere Symantec Endpoint
-Encryption Sophos Safeguard
-Enterprise Safeguard Easy
-
- 
-VBR 
-VBR 
-MBR 
-VBR 
-MBR 
-MBR 
-MBR 
-MBR 
-
-
-
-
-
-Offset 0
-Offset 0
-Offset 3
-Offset 90
-Offset 6
-Offset 6 Offset
-119 Offset
-144
-
-HexEB 52 90 2D 46 56 45 2D 46 53 2D ASCII: ÎR|¨-FVE-¨FS-
-HexEB 58 90 2D 46 56 45 2D 46 53 2D ASCII: ÎX¨|-FVE-FS-
-Hex: 53 61 66 65 42 6F 6F 74 ASCII: SafeBoot
-Hex: 50 72 6F 74 65 63 74 ASCII: Protect
-Hex: 50 43 47 4D ASCII: PCGM
-Hex: 50 43 47 4D ASCII: PCGM
-Hex: 53 47 4D 34 30 30 3A ASCII: SGM400
-Hex: 53 47 45 34 30 30 3A ASCII: SGE400
-
-
-
-
-Symantec PGP WDE
-WinMagic SecureDoc FDE
-Apple FileVault
-
-
-MBR MBR
-
-
-
-
-
-
-Offset 3
-Offset 246
-Offset 0
-
-HexEB 48 90 50 47 50 47 55 41 52 44 ASCII: ÎH|PGPGUARD
-Hex57 4D 53 44 ASCII: WMSD
-Hex: 65 6E 63 72 63 64 73 61 ASCII: encrdsa
-
-
-
-Vista
-Win7Win10
-Safe Boot
-
-
-
-
-
-Microsoft BitLocker
-McAfee SafeBoot
-FileVault TrueCrypt
-
-Vista Win7 Win8 Win10 BitLockerToGo
-4.x 5.x 6.x 7.x V1 V2 V6-V7
-
-EnCase v6
-    (Win7)      
-
-
-EnCase v7
-          
-
-
-FTK V6
-          
-
-
- V4
-          
-
-
-
-
-
-
-Check Point PointSec
-Sophos SafeGuard
-Linux Symantec PGP
-FDE
-Symantec Endpoint
-
-6.x 7.x 8.x 4.x 5.x 6.x LUKS 9.x 10.x 7.x 8.x
-
-EnCase v6
-          
-
-EnCase v7
-          
-
-FTK V6
-       
-
- V4
-          
-
-
-4. ()
-≠ TrueCryptPrivate DiskPGP
- 
-≠  ≠  ≠ 
-
-
-  
-≠ BitLocker (OneDrive ≠ FileVault (iCloud ≠ SafeBoot ()
-
-
-
-
- SurfaceBitlocker EnCase)
-
-
-
-
-
-
-- 2015    20
-
-
-
-

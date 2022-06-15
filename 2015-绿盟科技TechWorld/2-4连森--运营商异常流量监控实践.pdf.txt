@@ -1,160 +1,0 @@
-
-NSFOCUS
-
-w.cowmw.nsfocus.com
-
-© 2015 
-
-DDOS
-
-DDOS
-2014DDOS1Gbps68112.5Gbps-7.5Gbps 50%20Gbps
-
-20135
-
-
-
-
-
-
-
-2Gbps,CPU
-
-
-
-
-
-Internet
-
-HTTP SSH
-
-WEB 
-
-NIDS
-Server
-
- 
-
-
--2
-2013 -[2013]467
--
-
-- 2013 1 2100M
-   
-
-
-
-
- AP2S0" """  "" ""
-
-
-
-
-
-·  ·  · 
-
-
-·  ·  · 
-
-
-·  ·  · 
-
-
-
-
-
- 
-
-  
-
- NTA  
-
-  
-
-   NTA
- 
-
- 
-
- 
-
-   
-
-     
- 
-
-
-CMNET
- CMNET BRCMNETBR8Flow1500Flow18W  43Flow2000
-  
-
-· 1000G
-
-
-
-
-
-
-
-·  · IPIP 
-
-
-
-·  · 
-
-
-
---
-
-
- IPCERT  """" ISP
- 17*24CMNET8IDCDNS RadiusGPRS 2  3 
-
-
-
-
-
- 
-
- 20148 20149 201410 201411 201412 20151 20152
-
- 8 9 18 11 29 20 13
-
- 1383.67M 2590.22M 12601.22M 9552.6M 13535.7M 27301.5M 6482.5M
-
-cacheip
-· 11126128 DDOS   
-· 2  ip  
-· 32014.5.21     .
-· 4 
-
-
-
-
-
- 
-
- 
-
- 
-
-
-
-
-
- 
-
-X
-
-Y
-
-Xx 
-
- 
-
-
-
-
-
-

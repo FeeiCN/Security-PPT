@@ -1,235 +1,0 @@
-  
-
-
-
-·    ·    ·    ·    ·    ·   
-
-  --  
-
-HTTP
-
-IO
-RPC   Client
-
-RPC
-
-RPC      
-
-
-
- 
-
-IO
-RPC   Client
-
-RPC   Server
-RPC   Server
-RPC   Server
-RPC   Server
-RPC   Server 
-
-  --  
-·    · IORPC   · IOrt   ·   
-
-
-
-· rt   
-
-·
-
- rt
-
-
-
- 
-
-
-­   
-· CPU   
-­ Perfdstat   ­ Lmbench3  
-
-  --  RT
-·   
-­    ­   
-·   
-­ RPC   ­   
-
-  --  RT
-·   
-­    ­   
-·   
-­ RPC   ­   
-
-  --  CS
-·   
-­ Callback/akkanode.js/ scalaerlanggolang  --    
-­   --  kilim  
-· IO  
-­    ­ RPC  
-
-  --  CS
-
-
-
-CS
-
-IO 
-
-CS
-
-
-
-CS
-
-IO 
-
-CS
-
-
-
-......
-
-
-
-   
-
-CS
-
-IO 
-
-CS
-
-
-
- 
-
-CS
-
-IO 
-
-CS
-
-
-
-
-
-......
-
-
-
-......
-
-/
-
-  --  
-
-
-
-
-HTTP
-
-
-TT TT TT
-
-
-
-TT TT
-
-RPC  
-
-RPC     RPC   
-
-TT TT
-
-   
-
-
-
- 
-
-RPC   Server
-
-IO
- RPC   Server
-RPC   Client
-RPC   Server
-
-IO  RPC   Server
-
-RPC   Client
-
-RPC   Server
-
-
-
- Web
-
-
- 
-
-+
-
-  --     Fiber
-
-
-
-Mailbox
-
-
-
-
-
-
-
-
-
-Runnable  Task   Queue
-
-Running  Thread   Queue
-
-WaiDng  Task   Queue
-
-WaiDng  Thread   Queue
-
-Scheduler
-
-  
-
-
-
-Servlet
-
-+
-
-HSF Tair MINA/NeMy
-
-   DSL
-
-Java  NIO
-
-   
-ASM
-
-  --  
-· Tomcat7Servlet   · Web  
-­ ServletFilter   ­ Web  
-· RPC  
-­   
-· IO  
-
- --  
-· Kilim  
-­    ­   
-· Kilim   · RPC   · DSL   ·   
-
-
-· ThreadLocal   
-·    ·    ·    ·   
-
-
-·    · CPU   · RT
-CPURT  
-·  vs   
-­    ­   
-
-

@@ -1,304 +1,0 @@
-   
-
- -- About  Me
- ()  Oracle ACEOracle  http://www.laoxiong.net 10 OracleODUTB DBAIDBAIIIOracle
-30  ,15
-ACOUGOracle Oracle  ACOUG
-
-
-----How   Fast ----Why   Fast?
- ----
-
-How Fast--Throughput
-Run  status g  roup 0   (  all  jobs): READ: i  o=718598MB, a  ggrb=11975MB/s, m  inb=11975MB/s,   maxb=11975MB/s, m  int=60009msec, m  axt=60009msec
-Run  status g  roup 0   (  all  jobs): READ: i  o=741407MB, a  ggrb=12355MB/s, m  inb=12355MB/s,   maxb=12355MB/s, m  int=60010msec, m  axt=60010msec
-12GB/s
-
-How Fast--IOPS
-read :    io=541129MB, b  w=9018.7MB/s, iops=1154.4K, r  unt= 6  0001msec slat (  usec):  min=2,  max=1443.9K, a  vg=18.27, s  tdev=334.60 clat (  usec):  min=0,  max=1444.9K, a  vg=322.69, s  tdev=1124.99 lat (  usec):  min=46,  max=1444.9K, a  vg=341.19, s  tdev=1174.25
-read :    io=441140MB, b  w=7352.1MB/s, iops=941068, r  unt= 6  0002msec slat (  usec):  min=2,  max=521414, a  vg=22.55, s  tdev=279.10 clat (usec):  min=0,  max=522272, a  vg=395.87, s  tdev=949.56 lat (usec):  min=44,  max=522301, a  vg=418.69, s  tdev=991.48
-IOPS  100IO0.3-0.4ms
-
-How Fast--Query  Table
-SQL>    select b  ytes/1024/1024/1024 g  b from  dba_segments where   segment_name='XJTEST1';
-GB -------------------- 127.389771
-SQL>  select /  *+  parallel (  a 3  2)  */  count(*) f  rom  xjtest1 a  ;
-COUNT(*) -------------------- 25020643
-Elapsed: 0  0:00:12.90
-IO10GB/s
-
-How Fast--Create   Table
-SQL>  create t  able X  JTEST2 n  ologging parallel 3  2 t  ablespace TT_FLASH03 2    as 3    select /  *+  parallel(a 3  2) *  /  *  from X  JTEST1 a  ; Table c  reated. Elapsed: 0  0:01:06.33
-IO5.7GB/s(1+2
-
-How Fast--SAS   Disk
-SQL>  create t  able X  JTEST3 n  ologging parallel 6  0 t  ablespace TBAS_WTDATA as select /  *+  parallel(a 6  0) *  /  *  from X  JTEST1 a  ;
-Table c  reated.
-Elapsed: 0  0:01:15.43     I  O5GB/s(1+24
-SQL>  select /  *+  parallel(a 6  4) *  /  count(*) f  rom  xjtest3 a  ;
-COUNT(*) ----------------------
-25020643
-Elapsed: 0  0:00:21.72 IO5.8GB/s4
-
- IOPS Throughput Latency
-
-Why Fast--
-
-SAS
-
-SSD
-
-PCIe Flash
-
-100~150
-
-50,000+
-
-200,000+
-
-150MB/s
-
-500MB/s
-
-4.0GB/s
-
-10ms
-
-100us
-
-30us
-
-
-Bandwidth
-Latency
-
-Ethernet 1~100Gb/s 10us
-
-SAN 2~16Gb/s 2us
-
-Infiniband 40~100Gb/s 200ns
-
-
-
-Why Fast--
-
-RAC 1
-
-RAC  2
-
-56Gb   IB  
- 
-
- X86 PC Server 1
-
- X86 PC Server
-2
-
- X86 PC Server
-3
-
-----
-
-----Oracle
-Optimal Storage Configuration Made Easy S . A. M . ES tripe  And  M irror   Ev ery thing ASM: Automatic Storage Management
-
-ASM
-
-CREATE TABLESPACE ... DATAFILE '+dgroupA';
-
-1
-
-2
-
-Database
-
-3
-
-file
-
-4
-
-1
-
-2
-
-3
-
-4
-
-ASM
-
-ASMFailure  Group
-
-ASMFailure  Group
-
-ASM
-
-
-
-SDS  1
-
-SDS  2
-
-SDS  3
-
-SDS  4
-
-Volume  1 Volume  2
-
-SDS  5
-
-SDS  6
-
-SDS  100
-...
-
-2--3""
-E A
-D
-C B
-
-2--3""
-
-E
-
-E
-
-B F
-F
-
-B
-
-
- à 
-
-
- à 
-
-
-l  · EMC S  caleIO · Fusion Storage · SheepDogCEPH
-l  · VMWARE V  irtual SAN
-l  · Enmo zDataLight
-
-----
-----IO ----IOPS ---- ----
-
-
-Oracle 12cinmemory option
-select i  nmemory_size/1024/1024 i  nmemory_size,bytes/1024/1024   total_size,BYTES_NOT_POPULATED/1024/1024   not_populated,INMEMORY_COMPRESSION from v  $im_segments where   segment_name='XJTEST1';
-INMEMORY_SIZE TOTAL_SIZE NOT_POPULATED INMEMORY_COMPRESS ------------- ----------- ------------- -----------------
-478.4375 130447.125 71474.3125 FOR QUERY LOW
-123
-
-
-Oracle 12cinmemory option inmemory_size 200G sga_max_size 300G pga_aggregate_target 60G
-200G  inmemory1TB
-
-----100
-Oracle 12cinmemory option
-SYS@edwnew1> s  elect c  ount(*) f  rom p  u_intdata.F_2_OFFER_SERV_D;
-COUNT(*) ---------------------- 141259060
-Elapsed: 0  0:00:01.90
-
-
-----12c  online  move  datafile
-SQL> create tablespace TBS_NEW datafile '+DG_FLASH02' size 10g; SQL> create table TEST5 nologging tablespace TBS_NEW as select * from dba_objects; SQL> select file_id,file_name from dba_data_files where tablespace_name='TBS_NEW'
-FILE_ID FILE_NAME ----------- ------------------------------------------------------------
-377 +DG_FLASH02/EDWNEW/DATAFILE/tbs_new.256.896153511
-SQL> alter  database  move  datafile 377  to  '+DG_HISTORY';
-Database altered.
-Elapsed: 00:03:43.18 SQL> alter  tablespace TBS_NEW    rename  to  TBS_201507;
-Tablespace altered.
-
-optimizer  adaptive  features
-
-SELECT executions, end_of_fetch_count,
-
-elapsed_time/px_servers
-
-elapsed_time,
-
-cpu_time/px_servers cpu_time,
-
-buffer_gets/executions buffer_gets
-
-FROM
-
-(SELECT sum(executions) as executions,
-
-sum(case
-
-when px_servers_executions > 0
-
-then
-
-px_servers_executions
-
-else executions end)
-
-as px_servers,
-
-sum(end_of_fetch_count) as end_of_fetch_count,
-
-sum(elapsed_time) as elapsed_time,
-
-sum(cpu_time) as cpu_time,
-
-sum(buffer_gets) as
-
-buffer_gets
-
-FROM gv$sql
-
-WHERE executions > 0
-
-AND sql_id = :1
-
-AND parsing_schema_name = :2)
-
-SQLgv$sql
-set optimizer_adaptive_features=false or set _optimizer_dsdir_usage_control=0
-
- 
-   
-
-----
-
-
-Dell R720XD  RH2288H
-IBM X3850
-
-
-8Dell 4 2(512G 60
-
-Mellanox SX6036 3656Gb
-
-2
-
-Mellanox 56GbInfiniband HCA
-ES3000 PCIe 1.2T 10000 900G SAS 72003TSATA
-
-24
-12 112900G 483T
-
-Oracle 12c RAC
-
-2
-
- 
-
-
-
-
-
-Oracle
-
-z3 ­ SQL
-
-zData ­ 
-
-BayMax
-
- 
-
-

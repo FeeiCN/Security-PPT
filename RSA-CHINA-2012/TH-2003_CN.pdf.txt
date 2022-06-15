@@ -1,113 +1,0 @@
- ID! !
-
- USB HID !
-Nikhil "SamratAshok" Mittal
-!
- ID! !
-
-!
-§ SamratAshok! § Twitter - @nikhil_mitt! § http://labofapenetrationtester.blogspot.com! § KautilyaMareech  Nishang ! §  PWN ! § !
-§ Clubhack'10Hackfest'11Clubhack'11Black hat Abu Dhabi'11Black Hat Europe'12Troopers'12PHDays'12Black Hat USA'12
-§ !
-§  EUSecWest'12 ! §  GrrCON'12 !
-!
-
-!
-§ ! §  HID §  HID -- Teensy++ §  Teensy++! § Windows ! § Mac OS X ! § Kautilya §  Windows 8  Mountain Lion ! § ! § ! § ! § ! § ! !
-4  
-
-!
-§  --" HID    "!
-§  HID ! § !
-
- HID!
-§ ! § ! §  HID 
-! § !
-6  
-
- HID -- Teensy++!
-§  pjrc.com  USB ! §  130 KB! §  Teensy  Teensy ++! §  24 ! §  Atmel ! !!
-
- HID -- Teensy++!
-§ //! §  Teensyduino  C  C 
-Arduino ! § ! § !
-
- Teensy++!
-§ ! § 
-! § 
-! § !
-9  
-
-Windows !
-§ ! §  20  25 ! § Windows 
- Windows  USB ! §  PowerShell!
-10  
-
-OS X !
-§  USB ! §  10  15 ! § ! § !
-11  
-
-Kautilya!
-§  HID  !
-§  Chanakya a.k.a. Kautilya ! §  Ruby ! § 
-! §  HID 
-! §  WindowsLinux  OS X !
-
-Kautilya !
-§  SD  Teensy  !
-§ Pastebin ! § powershell  ! § !
-
-  Windows 8  Mountain Lion ! § 
- !
-§  shellcode! §  shell! §  DNS TXT !
-14  
-
-!
-
-!
-
-Windows  8  !
-
-Mac  OS  X  Mountain  Lion!
-
- USB  HID   !
-
-   ! !
-
-!!   !
-
-   Sudo!
-
-!
-
-UAC  !
-
-15  
-
-Teensy !
-§ Teensy  Teensy  SD  !
-§ "" !
-
-Kautilya !
-§ ! §  pastebin ! § ! § ! § 
- pastebin!
-
-!
-§ ! § ! §  Windows ! § ! § !
-
-!
-§  Windows " "!
-§  Mac OS X udev ! §  USB 
-
-19  
-
-!
-§ USB HID ! § ! § !
-20  
-
-!
-§ ! § ! § !
-§ Kautilya  http://code.google.com/p/kautilya/!
-§  @nikhil_mitt! § http://labofapenetrationtester.blogspot.com/!
-
-

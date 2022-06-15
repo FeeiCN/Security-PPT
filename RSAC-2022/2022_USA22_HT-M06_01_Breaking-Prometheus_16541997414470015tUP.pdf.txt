@@ -1,319 +1,0 @@
-#RSAC
-
-SESSION ID: HT-M06
-Breaking Prometheus: When Ransomware Crypto Goes Wrong
-
-Andy Piazza
-Global Head of Threat Intelligence IBM X-Force
-
-Aaron Gdanski
-Intern, X-Force Threat Intelligence IBM Security Graduate Student, Rochester Institute of
-Technology
-
-#RSAC
-Disclaimer
-Presentations are intended for educational purposes only and do not replace independent professional judgment. Statements of fact and opinions expressed are those of the presenters individually and, unless expressly stated to the contrary, are not the opinion or position of RSA Conference LLC or any other cosponsors. RSA Conference does not endorse or approve, and assumes no responsibility for, the content, accuracy or completeness of the information presented. Attendees should note that sessions may be audio- or video-recorded and may be published in various media, including print, audio and video formats without further notice. The presentation template and any media capture are subject to copyright protection.
-©2022 RSA Conference LLC or its affiliates. The RSA Conference logo and other trademarks are proprietary. All rights reserved.
-2
-
-#RSAC
-Agenda
-Help! We have Ransomware Analyzing Prometheus Break once, then reapply Decryptor Framework Lessons for the road ahead
-3
-
-#RSAC
-Help! We are Victims of a Ransomware Attack
-
-#RSAC
-Help! We are Victims of a Ransomware Attack!
-5
-
-#RSAC
-Decryption is not a Strategy
-Catastrophic attacks reveal gaps in security strategies ­ Decryption is not a strategy ­ Hope is a terrible security strategy
-Post attack - First question: "Can your team decrypt the files? Can you recover the key?" ­ No....No....No
-6
-
-#RSAC
-Ransomware Encryption 101
-Primary intention is to get victims to pay Variety of encryption libraries and algorithms
-­ Asymmetric and Symmetric algorithms
-Attackers use an asymmetric algorithm (e.g., RSA) to generate a public/private key pair
-· Public key (distributed) is needed for encryption · Private key (not-distributed) is needed for decryption
-Public key is placed in the ransomware configuration data and distributed with the ransomware
-7
-
-#RSAC
-Ransomware Encryption 101
-On the system:
-­ Go Fast: symmetric algorithm (e.g., AES) is used for file encryption
-Random encryption key is generated at execution time and used to encrypt files Prioritize files for encryption Intermittent encryption
-­ Harden:
-Public key is used to encrypt the AES key used for file encryption
-How do I decrypt my files?
-­ You need the private key from the attacker to obtain the key(s) used for file encryption
-­ They want $$$ to provide the key
-8
-
-#RSAC
-Criminals make mistakes, you might find them
-Solid Reverse Engineering
-Reverse Engineering and research strategy
-­ Identify source material Public code re-use
-­ Identify weaknesses
-Focus on the file encryption key and associated parameters
-­ Think outside of the box
-Don't try to get the private key Don't try to brute force entire key space
-9
-
-#RSAC
-In Action: Applied Reverse Engineering and Research
-Client had a ransomware event
-­ Multiple ransomware binaries discovered across several machines ­ Encrypted files and no good backups
-File submitted for analysis
-­ Prometheus ransomware
-Reverse Engineering of the ransomware uncovered a "flaw" in the key generation
-10
-
-#RSAC
-Reversing Prometheus
-
-#RSAC
-Analyzing Prometheus
-Needed to: First ­ Understand the ransomware behavior
-­ Run in analysis environment/sandbox ­ Observe behavior
-Second ­ Determine "how" exactly Prometheus encrypts files
-­ Determine the encryption method ­ Work backwards to determine the inputs to the encryption algorithm and
-whether we could recover them
-12
-
-#RSAC
-Analyzing Prometheus ­ Find the Encryption
-13
-
-#RSAC
-Analyzing Prometheus ­ Find the Initialization Vector (IV)
-Uses a hardcoded initialization vector (IV) which did not change between samples
-14
-
-#RSAC
-Analyzing Prometheus ­ Key Generation
-15
-
-Analyzing Prometheus ­ Environment.TickCount
-
-16 #RSAC
-
-Random() by default uses Environment.TickCount as the seed. Environment.TickCount is a 32-bit number representing the amount of time since the system started
-
-Analyzing Prometheus ­ Environment.TickCount
-
-17 #RSAC
-
-Analyzing Prometheus ­ Predicting Environment.TickCount
-In order to guess the key, you need a place to start. This helps limit the keyspace you need to brute force.
-Take the difference between the boot time and a file timestamp
-If its less than INT_MAX, no further operations are required
-Otherwise, obtain the offset from INT_MIN and add it to INT_MIN.
-
-18 #RSAC
-
-#RSAC
-Analyzing Prometheus ­ Decrypting Files
-Did we guess the correct key?
-19
-
-#RSAC
-Analyzing Prometheus ­ Removing the Garbage
-Prometheus encrypts files in the following format:
-­ <encrypted data> <base64 encoded RSA-4096 encrypted key>GotAllDone
-The size of the "useless" or garbage data is constant
-The size of the encrypted data can be found with the following formula:
-20
-
-#RSAC
-Analyzing Prometheus ­ Decryption Optimizations
-There are potential optimizations due to the seed being dependent on time. Files encrypted after another file will have a larger seed value It is possible to sort files by last write time in order to not have to continuously recalculate the potential tick count and ensure that the estimates are more accurate Seed values are relatively close to each other on each infected device
-21
-
-#RSAC
-Break once, then reapply
-Code reuse can be your friend
-
-#RSAC
-Break Once, Then Reapply
-Malware families often reuse code (even vulnerable code) Ransomware families have similar vulnerabilities Some data is hard-coded Non-secure random number generators rely on the seed value entirely for randomness
-­ Applicable to other ransomware families and multiple programming languages · C# Random, Java Random, C rand() etc.
-23
-
-#RSAC
-Break once, reapply ­ Additional Decryptors
-
-Ransomware Family Prometheus AtomSilo LockFile Bandana Chaos PartyTicket (new)
-
-Vulnerability Used C# Random to generate keys Used time64() and rand() to generate keys Used time64() and rand() to generate keys Used C# Random to generate keys Used C# Random to generate keys Default seed value of Golang's Math.Rand() ­ generated key is constant.
-
-24
-
-Example ­ AtomSilo Ransomware
-Uses C rand() time64() return value as the seed
-­ time64() returns the seconds since the epoch, or January 1st, 1970.
-You can regenerate the key assuming the seed can be guessed Replicate encryption procedure, but with decryption. AtomSilo uses intermittent encryption for speed LockFile winds up being the exact same decryption process.
-
-25 #RSAC
-
-Example ­ Guessing AtomSilo and LockFile time64()
-AtomSilo and LockFile append a timestamp onto the name of their ransom notes
-These times could be a good starting estimate
-Less time to decrypt per file
-
-26 #RSAC
-
-#RSAC
-Example ­ AtomSilo and LockFile Code Re-Use
-
-LockFile:
-
-AtomSilo:
-
-27
-
-#RSAC
-Example ­ Bandana Ransomware
-Like Prometheus, Bandana is written in C# Uses AES-256 to encrypt files Added a new layer ­ RFC2898DeriveBytes class In order to the obtain key, we need the "password" passed to the function RFC2898DeriveBytes()
-­ Luckily "password" is generated by C#'s Random() and SHA256 hashed
-28
-
-#RSAC
-Example ­ Bandana Decryption
-SHA256 Hash the results of the potential "password" Pass the "password" to RFC2898DeriveBytes
-­ Get the "key" and "IV"
-Files are encrypted with AES-256-CBC using PKCS7 padding Decrypt file data and attempt to match to known plaintext value Key Difference
-­ Only one encryption key is used to encrypt all files ­ Decrypting one file enables decrypting all other files ­ Allows for guaranteed decryption, if at least one file encrypted on the system has
-known content
-29
-
-#RSAC
-Example: Chaos Ransomware
-Chaos ransomware is also like Prometheus
-­ Hardcoded salt (1, 2, 3, 4, 5, 6, 7, 8) ­ RFC2898DeriveBytes, with Random() generated password ­ AES-256-CBC encryption ­ Main difference is the File format:
-"<EncryptedKey>" + <RSA encrypted RFC2898DeriveBytes password> + "<EncryptedKey>" + <Encrypted Data>
-30
-
-#RSAC
-Example: PartyTicket Ransomware
-Poorly implemented Ransomware uses Golang's randInt() Does not explicitly set the seed ­ remains default value ­ key generated is constant It does appear that the ransomware operators intended to set the seed value
-­ Mistake: it was set after the key was generated
-31
-
-What next?
-Many ransomware samples had similar key generation vulnerabilities Cryptographic algorithms and other libraries can be used to create a framework for creating decryptors Could we also standardize on the pieces needed?
-
-32 #RSAC
-
-#RSAC
-Next Steps: Investigate Creating a Decryptor Framework
-To create a decryptor that exploits key generation weaknesses:
-­ Determine the encrypted file format ­ Extract the encrypted data ­ remove any junk ­ Determine the encryption algorithm ­ Determine success
-Some areas of the ransomware samples will require deeper analysis
-33
-
-#RSAC
-Start here...
-Work the decryptor framework
-
-Decryptor Framework­ Determine the Encrypted File Format
-Requires detailed analysis
-Usually consists of two parts:
-­ Encrypted data ­ Symmetric key and IV
-Encrypted with an asymmetric algorithm
-
-35 #RSAC
-
-#RSAC
-Decryptor Framework ­ Determine the Encryption Algorithm
-Using static or dynamic analysis Find the algorithm Follow the logic the ransomware uses to convert decrypted data to encrypted data, except use the decrypt operation for the algorithm.
-­ Leads to guaranteed or potential decrypted data ­ For keys that are "guessed" there needs to be a way to verify the
-decrypted data is correct.
-36
-
-Decryptor Framework ­ Determine Success
-A library to match file signatures is needed for keys that are "guessed" vs. calculated If the decrypted data matches the filetype signature, it is likely correct!
-
-37 #RSAC
-
-#RSAC
-Failures & Lessons learned
-The variety of ransomware encryption methods does not allow for a one size fits all approach with creating decryptors
-Even with the key vulnerabilities, files without known content are sometimes impossible to decrypt
-With Prometheus, an encrypted key is appended to the file. However, because that key is encrypted with OAEP padding, it is not possible to compare the encrypted key from the file with the encrypted guessed key
-Newer versions of ransomware families may fix these key generation weaknesses
-Framework development and research is on-going
-38
-
-#RSAC
-Applying lessons for the way ahead
-
-#RSAC
-Apply ­ Security Management
-Focus on a layered approach prevention, detection and response strategy
-­ No one "solution" can stop ransomware ­ Ransomware is king on the endpoint
-Groups are sophisticated, stealthy, and patient Ransomware is not always about locking you out Hijacking data and extortion are the "norm" Destructive malware can evade AV long enough to execute the payload
-­ Dark web markets provide these tools at relatively humble costs
-40
-
-#RSAC
-Apply ­ Security Management
-Prevent entry and lateral movement
-­ Reduce privileged accounts ­ Segregate account privileges ­ Log admin account activity ­ Enable MFA
-Reduces value of stolen or guessed passwords Reduces entry vectors
-­ Baseline internal network activity
-Monitor Alert on anomalous behavior
-41
-
-#RSAC
-Apply ­ Security Management
-Patch and hunt
-­ Conduct a vulnerability assessment ­ Pen-test and Hunt to reveal potential weaknesses
-Enact PowerShell and other script execution protections
-­ PowerShell leveraged in multiple facets of a ransomware attack
-Lateral Movement Download Execution
-­ Monitor, restrict, and alert
-42
-
-#RSAC
-Apply ­ Security Management
-Backups - have them, test them, and keep them offline
-­ Foundational best practice ­ Testing is critical ­ Offline if feasible
-Read only If online - backup network should access primary (not the other way around)
-Develop a response action plan
-­ Prepare an IR plans and drill them
-In-house expertise and/or retain a 3rd party for rapid help
-­ Be able to establish temporary business functionality ­ Keep business continuity throughout investigation/remediation
-43
-
-#RSAC
-Apply ­ Leverage Reverse Engineering - Can you Create a Decryptor?
-Leverage Reverse Engineering as part of a response investigation
-­ Look at the inner-workings and functions ­ Understand the parameters and the process ­ Can you determine how the ransomware key is generated?
-If it is using hard-coded values or random numbers generated from time ­ it is worth investigating
-Use knowledge from all aspects of the attack in your analysis (forensic details, timestamps etc.)
-Think code reuse, vulnerable implementations that plague the original codebase (Thanos  Hakbit  Haron  Prometheus  ?)
-44
-
-Apply ­ What about sharing?
-How are we sharing?
-­ Global Liaison Executive is a defined role in IBM Security X-Force
-Establishes relationships with organizations Initiatives to share technical information Defines what to share and when
-· Caveats to releasing "generic decryptors" in the wild
-Provides notifications to federal law enforcement (US and global)
-How can your organization share?
-­ Know sharing partners in your industry and region ­ Determine what your organization can share ­ Establish a cadence and expectation for sharing
-
-#RSAC
-45
-
-#RSAC
-THANK YOU
-
-

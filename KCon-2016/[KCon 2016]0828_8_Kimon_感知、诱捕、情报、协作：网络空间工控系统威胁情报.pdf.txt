@@ -1,450 +1,0 @@
-···
-
-[ Kimon@ ]
-
- | [ Kimon@ ]
- Kimon 18500851413 kimon@plcscan.org ameng929
-
- VS.   VS. 
- 
-[ @KCon ]
-
-Part. 01
- VS. 
-
- VS. | [@KCon ]
-
- VS. | [@KCon ]
-
-SHINE----Project Shodan Intelligence Extraction X-PlaneTreasure MapNCR
-
-
- VS. | [@KCon ]
-
-/ BGP/AS//Whois/ Passive DNS/
-&
-IoC/TTP 
-&
- 
-
- VS. | [@KCon ]
-
-  
-
- VS. | [@KCon ]
-
-
- Stuxnet/Duqu/Flame BlackEnergy
-SCADA SCADAPLC  
- "" 
-https://apt.securelist.com
-
-Part. 02
-VS. 
-
- VS. | [@KCon ]
-
-
-
-Shodan shodan.io
-
-Censys censys.io
-
-ZoomEye zoomeye.org
-
-ICSfind icsfind.org
-
-IVRE
-
-ivre.rocks
-
-Rapid7 scan.io
-
-
-
-nmap nmap.org
-
-zmap
-
-zmap.io
-
-masscan github.com/robertdavidgraham/masscan
-
-
-
-ICS/SCADA/PLC Google/Shodanhq Cheat Sheet http://scadastrangelove.org/
-
-Internet connected ICS/SCADA/PLC Cheat Sheet
-
-http://www.scadaexposure.com/
-
- VS. | [@KCon ]
-/
-
- VS. | [@KCon ]
-
-
- VS. | [@KCon ]
-
-https://scadahacker.com/resources/msf-scada.html
-
- VS. | [@KCon ]
-""
-Kill Chain 
-  
-40IPv4
- PLC Blaster
-  ""
-
- VS. | [@KCon ]
-
-
- PLC Digitalbond  Conpot
-
- VS. | [@KCon ]
-
-   
-  
-   
-
- VS. | [@KCon ]
-
-
- VS. | [@KCon ]
-Shodan
-
-Shodan API
-
- VS. | [@KCon ]
-
-
-Part. 03
-
-
-| [@KCon ]
-
-S7comm TCPTCP ISO_TP S7 S7
-S7comm Module: 6ES7 151-8AB01-0AB0 Basic Hardware: 6ES7 151-8AB01-0AB0 Version: 3.2.3 System Name: SIMATIC 300(1) Module Type: AN12CPU Serial Number: S C-B8TH91812011 Copyright: Original Siemens Equipment
-
-| [@KCon ]
-
-VxWorks--
-
-| [@KCon ]
-
-
-| [@KCon ]
-
-modbus Redpoint nse debug
-
-| [@KCon ]
-
-
-3/&
-
-6&$'$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6,(062&
-
-
-
- 
-
-
-
-
-
-
-
-,3
-
-
-
-
-
-IP$61 
-
-,3
-
-67,;,2&
-
-
- 
-
-| [@KCon ]
-
-
-
-
-
-
- /9 /9 /9
-
-WFSSRUW  VFRPP
-
-73.7 
-&273 
-6 
-
-73.7 Q
-&273 Q
-6 Q
-
-6 )&
-
-6 )&Q
-
-0
-
-0
-
-WFSSRUW  PRGEXV
-
-WFSSRUW [[[ [[[
-
-)&
-)& 
-)& 
-)& 
-
-)&
-
-)&
-
-)&
-
-)& 
-)& 
-
-)& 
-)& 
-
-0
-
-0
-
-0
-
-)&
-
-
-| [@KCon ]
-
-/ Nmap ScriptRedpoint Msf module Git
- Shodan Censys Rapid7
-
-Part. 04
-
-
-| [@KCon ]
-
-
-
-#DB1
-
-·
-
-2016-02-10 15:25:44 [209.133.66.214] Write request, Area : DB1, Start : 0, Size : 452 --> OK
-
-2016-02-10 15:25:45 [209.133.66.214] Write request, Area : DB1, Start : 452, Size : 60 --> OK
-
-#DB123
-
-2016-02-22 06:54:19 [93.115.95.202] Write request, Area : DB1, Start : 0, Size : 16 --> OK
-
-2016-02-22 06:54:19 [93.115.95.202] Write request, Area : DB2, Start : 0, Size : 16 --> OK 2016-02-22 06:54:19 [93.115.95.202] Write request, Area : DB3, Start : 0, Size : 16 --> OK
-
-·
-
-#CPU
-
-2016-02-22 06:54:43 [93.115.95.202] CPU Control request : Block Insert or Delete --> OK
-
-#PLC CPU
-
-2016-02-22 06:58:09 [37.48.80.101] CPU Control request : Warm START --> OK
-
-#PLC CPU
-
-2016-02-22 06:58:21 [37.48.80.101] CPU Control request : STOP --> OK
-
-#PLC
-
-2016-02-22 07:03:02 [37.48.80.101] System clock write requested
-
-
-­  ­ CPU ­  ­ 
-
-­  ­  ­  ­ 
-
-| [@KCon ]
-PLC-Blaster
-S7-300 FB65 "TCON" FB63 "TSEND" FB64 "TRCV"
-S7-1200 TCON TSEND/TUSEND TRCV/TURCV
-CP FC5 "AG_SEND" FC6 "AG_RECV"
-
-| [@KCon ]
-HMI
-
-| [@KCon ]
-HMIweb
-
-| [@KCon ]
-HMI
-
-| [@KCon ]
-Shodan
-
-| [@KCon ]
-Shodan
-
-| [@KCon ]
-Shodan
-
-| [@KCon ]
-Shodan
-
-| [@KCon ]
-Shodan
-
-| [@KCon ]
-Shodan
-http://plcscan.org/blog/2016/06/ics-security-research-report-2016-05/ 
- 
-
-| [@KCon ]
-Shodan
-
- IP
-
-RDNS
-
-     S7    Modbus     Ethenet/IP 
-
-
- 102
-
-502
-
-44818
-
-82.221.105.6
-
-census10
-
-169
-
-71.6.167.142
-
-census9
-
-232
-
-71.6.135.131
-
-census7
-
-234
-
-66.240.236.119 census6
-
-233
-
-71.6.158.166
-
-ninja. census
-
-111
-
-82.221.105.7
-
-census11
-
-167
-
-85.25.43.94
-
-rim.census
-
-192
-
-71.6.165.200
-
-census12
-
-236
-
-198.20.99.130
-
-census4
-
-92
-
-66.240.192.138 census8
-
-237
-
-71.6.146.185
-
-Inspire.census
-
-67
-
-66.240.219.146
-
-burger.census
-
-107
-
-198.20.69.98
-
-border.census
-
-215
-
-198.20.70.114
-
-census3
-
-224
-
-188.138.1.218
-
-unknown
-
-93
-
-20130821 20140720 20140508 20140602
----- 20140206 20150122 20140222 20140516 20140226
- ---- 20141007 20140512 20150811
-
-20130827 20140526 20140509 20140706
----- 20140206
----- 20140227 20140630 20140225
----- ---- 20141104 20140518 20150627
-
-20141025 20140504 20140510 20140430 20160520 20140207 20141016 20140212
-20140226 20160414 20160520 20140604 20140603 20160524
-
-[ @KCon ]
-
-THANKS
-[ @KCon ]
-
-

@@ -1,97 +1,0 @@
-
-
-2020.12.17
-
-
-
-01 
-·
-02 
-·
-03 
-04 
-
-01 
-
-01 
-
-APP · 
-
-IoT · 
-
- · 
-
- · 
-
- · 
-
-DLP · APP
-
-·  ·  ·  ·  · 
-
-· APP
-
-·  · ......
-
-· ......
-
-02 
-
-02 
-BYODBring Your Owner Device) 
-
-02 
-root
-· PCroot · root
-
-
-· PC · 
-
-02 
-
-
-
-VS 
-
-
-
-03 
-
-03 
-
-
-
-
-
-
-MDM(Mobile Device Manager) · 
-
- · 
-
-APP ·  APP ·  
-
-
-·  ·  ·  ·  · 
-
-03 ----APP
- ·  ·  ·  · APP · 
-
-03 ----APP
-· ----hookAPI · ----AndroidiOS · ----hookAPI · APP----hookAPI · ----view
-
-03 ----APPAPP
-· SDK ·  · APP
-
-03 ----APPAPP
-· APP...... ·  · APP · APP
-
-04 
-
-04 
-30% + 70%
-
-04 
-
-OCR   
-
-

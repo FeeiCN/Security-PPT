@@ -1,142 +1,0 @@
- 
-.Z42-
-
-
-· @ http://wubx.net
-·   · MySQL  · Tel:  13501245755     QQ:  82565387 · MySQL
-· CMUG,    MySQL
-
-
-· LinuxMySQL ·  · 123 · 
-
-LinuxMySQL
-· 
-­64CPU  VS    ­CPU (bios) ­NUMA      (bios) ­Raid SSD Raid SAS   Raidforce  
-WriteBack
-­Raid10 V  S  Raid  5  And N  o  Raid
-
-LinuxMySQL
-· 
-­   XFS        (rw,   noatime,nodiratime,nobarrier)
-­ IO  deadline    &  noop ­  ­  ­ IP V6  ,selinux
-· 
-­http://wubx.net/21ways--optimize--mysql/ ­http://wubx.net/stop--irqbalance--and--cpuspeed/
-
-LinuxMySQL
- /etc/sysctl.conf net.ipv4.tcp_max_syn_backlog  =  819200 net.core.netdev_max_backlog =  400000 net.core.somaxconn =  4096 net.ipv4.tcp_tw_reuse=1 net.ipv4.tcp_tw_recycle=0 vm.swappiness =  1
-· 
-cd  /etc/rc3.d/ mkdir ~/rc3    && m  v  *  ~/rc3/ chkconfig ----level  3  crond chkconfig ----level  3  sshd on chkconfig ----level  3  network  on ln --s  /etc/rc.local S99local
-
-LinuxMySQL
-· MySQL
-­Innodb_buffer_pool_size ­innodb_flush_log_at_trx_commit ­innodb_log_file_size *  innodb_log_files_in_group
-
-LinuxMySQL
-· 
-­ConfigDB)
-­(Ansible,   SaltStak) ­ ( ­
-
-
-· LinuxMySQL ·  · 123 · 
-
-
-· 
-­ zabbix +  mpm
-· 
-­CPU
-· USER,  SYS,  IDLE, I  OWAIT
-­RAM
-· 
-­DISK
-·  · IO
-
-
-· 
-­Raid
-· Hp:  hpacucli · Lsi:  megaCli
-­
-· free  ­m · ipmitool
-­CPU
-· mcelog
-­SSD
-· smartctl
-
-
-· MySQL
-­DML ­ conn_thread,   active_thread) ­ ­ ­ And   ­
-
-
-· LinuxMySQL ·  · 123 · 
-
-123
-
-· 
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
-
- 
-
-123
-·
-­Ansible
-· SSH · 
-­Saltstack
-· Agent · AgentAnsible
-
-123
-· 
-­ ­
-
-
-123
-· 
-­ 
-­
-·  ·  · 
-
-123
-· 
-­
-· MHA · MMM · DNS · VIP · Zookeeper
-
-
-· LinuxMySQL ·  · 123 · 
-
-
-· 
-­ ­low
-· 
-­ ­ ­DB    
-· 
-­DevOps
-
-
-   13501245755
-
- 
-
-
-ORA
-
-
-
-Oracle
-
-z3 ­ SQL
-
-zData ­ 
-
-BayMax
-
- 
-
-

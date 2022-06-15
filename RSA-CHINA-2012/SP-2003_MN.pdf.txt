@@ -1,727 +1,0 @@
-"VHVTU
-
-HUAWEI ENTERPRISE A BETTER WAY
-
--47pt
-
--30pt
-
-white
-
-Font :
-
-dium
-
-Huawei XX
-
-s and ners :
-
-YY
-
-Arial
-
-!-BYOD Author/ ID: Author's name/Author's ID Dept: Branding Planning Dept
-
-Version: V1.0(20YYMMDD)
-
-HUAWEI TECHNOLOGIES CO., LTD.
-
-enterprise.huawei.com
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-BYOD BYOD 
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 2
-
-!
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-487M 2011 , PC 1.2B 2013 50% Smartphone 17% BYOD
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 3
-
-!
-
-
-APP
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-
-PC            Laptops              Smartphone
-700 600 500 400 300 200 100
-0 2009 2010 2011 2012 2013
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 4
-
- 
-
-!
-
-Anytime
-
-Any where
-
-HUAWEI ENTERPRISE A BETTER WAY
-Any device
-
-  
-
-Laptop  Email
-
-
-enterprise.huawei.com
-
-LaptopPDA
-2GWiFi VPN
-Email  
-
-Smartphone TabletVDI
-3G4G
-Email, CRM,ERP UCSaaS
-
-2000
-Huawei Confidential
-
-Page 5
-
-
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-BYOD! What Benefits, If Any, Has Your Firm Experienced as a Result of Deploying Mobile Applications? 
-
-
-
-75%
-
-∑  
-
-
-
-65%
-
-∑  ∑  ∑  ∑ 
-
- IT
-  
-
-
-16% 16% 15%
-
-48% 48% 42%
-
-....
-enterprise.huawei.com
-
-
-
-14%
-
- 
-
-14% 10%
-
-Source: Forrester Research, Enterprise And SMB Networks And Telecommunications Survey, North America And Europe, Q1 2010 Forrester Research, Insights For CIOs: Make Mobility Standard Business Practice, September 3, 2010
-
-Huawei Confidential
-
- 6%
-0% 10% 20% 30% 40% 50% 60% 70% 80% Page 6
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-BYOD BYOD 
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 7
-
-                    Damage  caused  by  Cybercrime  
-
-2012
-Evolu4on  to  Cybercrime  
-CRIMEWARE
-
-Vulnerabilities Worm
-Outbreaks
-
-Spam Mass Mailers
-
-Spyware
-
-Intelligent Botnets
-
-2001
-
-8
-
-enterprise.huawei.com
-
-2003
-
-2004
-
-2005
-
-Huawei Confidential
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-Web Threats
-
-Targeted Attacks
-
-Mobile Threats
-
-Social Engineering
-Single Shot Malware
-Data Exfiltration
-
-BYOD
-Data Leakage
-Proximity Attacks
-
-2007
-
-2010 2011+
-
-PaSgoeu8rce: 2012 Trend Micro Inc.
-
-HUAWEI ENTERPRISE A BETTER WAY
-!
-
-155100
-2012
-
-2011
-
-2010
-
-2009
-
-Top1
-
-
-
-0
-
-2012
-
-2011
-
-2010
-
-2009 0
-
-Gain  Privileges Gain  Information Bypass  something XSS Memory C  orruption Overflow Code E  xecution DoS
-10 20 30 40 50 60
-
-Gain  Privileges Gain  Information Bypass  something XSS Memory C  orruption Overflow Code E  xecution DoS
-
-1
-
-2
-
-3
-
-4
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 9
-
-!
-47%
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-HUAWEI ENTERPRISE A BETTER WAY
-   WiFi 
-Page 10
-
-!
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-∑ 2012
-122 10
-
-
-APP
-l  l Android Market
-
-
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 11
-
-BYODIT!
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-
-l OSWindows Apple
-
-GAP
-
-BYOD
-l 5OS
-l 
-
-l IT
-
-l OTA
-
-
-
-l IT
-
-l 
-
-l AV/
-
-
-
-IPS LCM
-BYODOBeuyt oonf dyoyuorucr ocnotnrotrlol
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 12
-
-BYODCIO...!
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-
-enterprise.huawei.com
-
-
-
-
-
-
-
- 
-
-0101110011001
-Balance
-Huawei Confidential
-
-l IT 
-l   
-l   BYOD ... ...!
-Page 13
-
-BYOD!
-
-HUAWEI ENTERPRISE A BETTER WAY
-724
-
-OEM
-
-Apple
-
-Andro id
-
-China Mobile
-SingTe l
-VDF
-
-SAP
-
-Syclo
-
-Adob e
-Sench a
-
-Anten na
-Kony
-
-Signal So8
-
-InfoSp ace
-
-Cybird
-
-Embla ze
-
-
-
-Sams ung
-
-HTC
-
-Motor ola
-
-Sony
-
-WP
-
-RIM
-
-Lenov o
-Huaw ei
-
-
-Black berry
-OS
-
-Telefo nica
-/
-
-
-
-"Everything depends on everything"
-----Gartner" Mobility  and  Securityp
-
-
-enterprise.huawei.com
-
-  Huawei Confidential
-
-Page 14
-
-HUAWEI ENTERPRISE A BETTER WAY
-BYOD!
-∑ Step1 ∑ Step2 ∑ Step3 ∑ Step4
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 15
-
-HUAWEI ENTERPRISE A BETTER WAY
-Step1!
-
-
-
-
-
-01001110101
-
-10110011011
-
-
-
-10110001111
-
-0101101
-
-Partner
-
-
-enterprise.huawei.com
-
-
-Huawei Confidential
-
-
--  -  -  - 
-Page 16
-
-HUAWEI ENTERPRISE A BETTER WAY
-Step2!
-
-Who
-
-What device
-
-
-ÊPC
-
-
-
-
-
-
-
- 
-ËBYOD
-
-
-
- 
-
-VP N
-
- 
-
-4W1H
-
-Where How
-
-
-
-
-
-PC
-
-LAN WLAN
-
-VPN
-
-
-
-
-
-
-
-WLAN
-
-VPN
-
-
-
-
-
-
-
-WLAN
-
-VPN
-
-What
-enterprise.huawei.com
-
- IM
-SCM ...  ...
-
-
-IM
-Huawei Confidential
-
-
-IM
-Page 17
-
-HUAWEI ENTERPRISE A BETTER WAY
-Step2!
-
-
-∑ 
-∑  ∑  ∑  ∑  ∑ 
-
- 
-
-
-
-∑  ∑  ∑  ∑  ∑ 
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-
-∑  ∑  ∑  ∑ 
- 
-∑ 
- ∑  ∑  ∑  ∑  ∑ /
-Page 18
-
-HUAWEI ENTERPRISE A BETTER WAY
-Step3!
-
- 
-
-
-Email OA CRM...
-
-
-VDI
-∑ image ∑  ∑  ∑ 
-enterprise.huawei.com
-
-
-∑  
-∑  ∑ 
-Huawei Confidential
-
-OS
-∑ "" ∑  ∑  ∑ OS
-Page 19
-
-HUAWEI ENTERPRISE A BETTER WAY
-Step4 !
-SSL MEAP  Server
-Firewall
-
-
-
-MEAP  IDE IDE
-
-
-
-
-
-
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-SSL/SSO/MDMSDK
-Page 20
-
-Step4!
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-enterprise.huawei.com
-
-App Security Policy
-Server MEAP  Server 
-
-App Store
-
- 
-
-Required Optional Disallowed
-
-In-house
-
-Recommend
-
- 
-Huawei Confidential
-
-Page 21
-
-!
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-1
-2BYOD 
-
-3
-
-4 App Store
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 22
-
-BYOD
-!
-Trusted
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-Role-based
-
-Enforced
-
-Network be secure
-
-Dynamic!
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 23
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-BYOD BYOD 
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 24
-
-!
-l 14.62.9 2.2 1.7Mail
-l 
-1VPN 2 3
-l BYOD
-1VPN 2 3
-
-
-   
-
-
-
-Wifi Campus Office-based
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-    
-
-3G
-
-Wifi
-
-Wifi
-
-Coffee
-
-Home
-
-Non-Office-based
-
-Hotel
-
-BYOD
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 25
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-ONE  MORE  THING...  
-
-enterprise.huawei.com
-
-Huawei Confidential
-
-Page 26
-
-enterprise.huawei.com
-
-HUAWEI ENTERPRISE A BETTER WAY
-
-
-2012910...
-
-Huawei Confidential
-
-Page 27
-
-HUAWEI ENTERPRISE A BETTER WAY
-Copyright©2012 Huawei Technologies Co., Ltd. All Rights Reserved. The information in this document may contain predictive statements including, without limitation, statements regarding the future financial and operating results, future product portfolio, new technology, etc. There are a number of factors that could cause actual results and developments to differ materially from those expressed or implied in the predictive statements. Therefore, such information is provided for reference purpose only and constitutes neither an offer nor an acceptance. Huawei may change the information at any time without notice. 
-
-

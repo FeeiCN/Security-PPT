@@ -1,357 +1,0 @@
-Xen  
-Hypervisor  Ho+ix
- Email: xiantao.zxt@alibaba-inc.com
-
-
-· 
-· XenLinux/KVM XenMaintainerKVM KVMIA64Linux KVM/IA64Maintainer
-·  
-·  9 (IAA) 
-· 
-
-Agenda
-· Xen  Hypervisor   · Hypervisor  Ho1ix   · XSA--123   · XSA--123   ·   
-
-Xen  Hypervisor
-
-Xen Hypervisor 
-
-· 
-
-· Xen
-
-· Type-1Hypervisor
-
-­ 
-
-· 2003
-
-
-
-­ Para-virtualized 
-· 2005Xen 3.0
-
-­  Linode RackspaceSoftlayer 
-
-­ Intel/AMDVT-x/AMD-V
-
-­ 
-
-­ Full-virtualization 
-
-· Xen
-
-· 2007Citrix XenSource
-
-­ Xen
-
-­ Xen
-
-­ 10-14Pre-
-
-· 2010Xen-4.0
-
-disclosure List
-
-­ LinuxPVOps
-
-­ Predisclosure list
-
-· 2015117Xen 4.5
-
-­ http://www.xenproject.org/security-
-
-­ 
-
-policy.html
-
-Xen 
-
-· 125
-
-­ http://xenbits.xen.org/xsa/
-
-­ xsa-108xsa-123
-
-· XSA-108
-
-140  
-
-­ 2014101
-
-120  
-
-­ Hypervisor 100  
-
-80  
-
-­ 32Hypervisor Crash
-
-60  
-
-­ 
-
-40  
-
-
-· XSA-123
-
-20   
-0  
-
-­ 2015310
-
-­ 
-
-­ Xen
-
-­ 
-
-
-
-1800   1600   1400   1200   1000  
-800   600   400   200  
-0  
-
-1005  
-599   MS  Windows  
-
- (2010--2015)
-
-121   555   Linux  
-
- 
-929     Xen  
-
-Xen
-
-Xen
-
- 
-
- VMShutdown VM10-30 Xen
- VM
-VM
-
-
-LinuxHotfix
-
-· Hotfix
-­ Ksplice by Oracle
-
-Pre--Defined  
-
-­ Kgraft by Suse ­ Kpatch by Redhat
-
-Module
-
-­ Alihotfix by Alibaba
-
-
-
-­ Linux 4.0 Hotfix
-
-· Kpatch
-
-
-
-­  ­ 
-
-
-
-­ 
-
-­ CPU
-
-­ CPU
-
-HotfixXen Hypervisor Hotfix
-9
-
-Hypervisor  Ho1ix
-
-Xen Hypervisor 
-
-Userspace Kernel
-
-IAAS     
-   
-  
-
-Dom0
-
-Tapdisk2
-
-Libvirt Xend
-
-Blktap2
-
-Blkback Netback
-
-HVM
-Ne1ront Blkfront  
-
-Xen  Hypervisor
-Intel  Hardware    with  VT--x,  ETP,  SR--IOV
-
-Hypervisor Hotfix
-XenType-1 Hypervisor Xen Hypervisor Xen HypervisorModule Hotfix Hotfix
-12
-
-Hypervisor
-
-Dom0
-
-HVM Domain
-
-HVM 
-
-Dom0 CPU
-
-Guest Mode Host Mode
-
-Kernel
-
-Kernel
-
-Xen Hypervisor
-
-
-
-
-
-Dom0
-
-
-
-
-
-
-
-Xen
-
-Xen Hypervisor 
-Dom0CPUXen hypervisor
-
-Dom0DMA Xen hypervisor 
-
-
-
-DMAXen
-· DMA
-­ DMA ­ DMADMA ­   
-· DMA
-­ DMA · dma_map_sg_attrs/dma_unmap_sg_attrs
-­ HotfixDom0 ­ map_sg/unmap_sg ­ DMADMA
-DMAHotfix Hypervisor 
-14
-
-
-buffer read
-buffermap_sg_list
-DMA
-
-15
-
-Hotfix
-buffer
-bufferhotfix
-read
-buffermap_sg_list DMADMA
-DMA
-
-Hypervisor 
-
-
-16
-
-
-
-· DMA
-­ CPU
-· Hypervisor 
-­ HypervisorLoad ­ HypervisorRelocate ­ Hypervisor E820
-· Hypervisor Hotfix 
-­ fixHypervisor  VA ­ HotfixHypervisor PA'=VA & 0xffffff ­ 4GE820>16M
-· BIOS-e820: pa_start ­ pa_end (usable) ­ Hotfix
-· PA= f (pa_end, PA')
-
-E820 Memory Map
-
-17
-
-XSA--123  
-
-XSA-123
-­ 228Pre-disclosure List ­ IMPACT  
-======   A  malicious  guest  might  be  able  to  read  sensi]ve  data  rela]ng  to  other   guests,  or  to  cause  denial  of  service  on  the  host.  Arbitrary  code   execu]on,  and  therefore  privilege  escala]on,  cannot  be  excluded.        
-  
-2015310 1200 
-
-
-· AWS  
-· Rackspace:   · Aliyun:  
-
-
-
-
-
-· 
-­ 18000 ­  ­ 
-  
-  
-
-
-
-
-· Seg0.10       
-· Seg1.50     
-    
-Patch
-
-
-· 
-   Hypervisor(4K)  Pattern  PatchMerge
-Patch  VM  PatchDMAHypervisor  VM
-VM
-
-
-· 
-­  ­ 
-· hypervisor
-­ 16 ­ 24
-·  
-­ 100 ­  ­  ­ 
-
-
-  
-
-XSA--123
-
-
-228Xen 32 32 35Ready 36Ready
-36 39
-310
-
-
-     
-
-
-· 
-­ 
-· 
-­ 
-· 
-­ 
-· 
-­ 
-Xen
-
-Q&A
-......     Email:  xiantao.zxt@alibaba--inc.com
-
-@InfoQ  
-
-infoqchina  
-
-

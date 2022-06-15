@@ -1,261 +1,0 @@
-SWEED  
-
- 
-
- 
-
-
-SWEED 
-
-
-1  2 AgentTesla 3 
-
-
-1 Office 2 AgentTesla
-
-
-1 FTP  
-
- 
-1  
-
-
-
- b.com
-URL a.com/1.exe
-IP 2.2.2.2
-
- a.com
-
- d.com
-
- e.com
-
-IP 1.1.1.1
-Hash 123a...cde
-
- c.com
- up.b591.com
-
- down2.b591.com
-
- abcded...dec
-
- b591.com
-IP 4.4.4.4
-
-email admin@126.com
-
-IP 3.3.3.3
-
- k.com
-
- f.com
- i.com
-
- g.com
-Hash h.com
-IP 5.5.5.5
-
-PDNS Whois 
-SSL
-
-
-
-  DNS
-NetFlow
-
-PDNS
-
-whois
-
-8PDNS
-
-17Whois
-
-IP 
-
-
- 
-
-
- 
-
-
-42IP 
-Netflow
-
- / 
-/
-
-
-
-
-
-
- 
-
- b.com
-URL a.com/1.exe
-IP 2.2.2.2
-
- a.com
-
- d.com
-
- e.com
-
-IP 1.1.1.1
-Hash 123a...cde
-
- c.com
- up.b591.com
-
- down2.b591.com
-
- abcded...dec
-
- b591.com
-IP 4.4.4.4
-
-email admin@126.com
-
-IP 3.3.3.3
-
- k.com
-
- f.com
- i.com
-
- g.com
-Hash h.com
-IP 5.5.5.5
-
- b.com
-URL a.com/1.exe
-IP 2.2.2.2
-
- a.com
-
- d.com
-
-IP 1.1.1.1
-Hash 123a...cde
-
- c.com
- up.b591.com
-
- down2.b591.com
-
- abcded...dec
-
- b591.com
-IP 4.4.4.4
-
- 
-
-IP 3.3.3.3
-
- k.com
-
- e.com
- f.com
-email admin@126.com
- i.com
-
- g.com
-Hash h.com
-IP 5.5.5.5
-
- b.com
-URL a.com/1.exe
-IP 2.2.2.2
-
- a.com
-
- d.com
-
- e.com
-
-IP 1.1.1.1
-Hash 123a...cde
-
- c.com
- up.b591.com
-
- down2.b591.com
-
- abcded...dec
-
- b591.com
-IP 4.4.4.4
-
-email admin@126.com
-
-IP 3.3.3.3
-
- k.com
-
- f.com
- i.com
-
- g.com
-Hash h.com
-IP 5.5.5.5
-
- b.com
-URL a.com/1.exe
-IP 2.2.2.2
-
- a.com
-
- d.com
-
- e.com
-
-IP 1.1.1.1
-Hash 123a...cde
-
- c.com
- up.b591.com
-
- down2.b591.com
-
- abcded...dec
-
- b591.com
-IP 4.4.4.4
-
-email admin@126.com
-
-IP 3.3.3.3
-
- k.com
-
- k.com
-
- f.com
- i.com
-
- g.com
-Hash h.com
-IP 5.5.5.5
-
-
-1 2
-
- 
-
-
-
-
- 
-
-1  2 IP 3 Hash
-
-
-
-
-  
-
-

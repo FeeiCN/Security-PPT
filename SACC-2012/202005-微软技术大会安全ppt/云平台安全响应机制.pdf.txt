@@ -1,144 +1,0 @@
-Microsoft Online Tech Forum
-
-
-  
-
-
-
-
-
-
-0days $5,000  $350,000
-()  · PC - $0.13  $0.89 ·  - $0.82  $2.78
- (DOS) 
-: $102.05 : $327.00 : $766.67
-IP  100,000$100
-
-: $66 30% 
-  $100  $1,000 
- 4$150  $0.97.
-
-
-
-
-
-
-Exchange/OneDrive 
-
- OAuth 
-
- 
-
-Exchange
-
-
-
-
-· MFA99.9% · 
-· Secure Score ·  ·  https://aka.ms/SUG ·  ·  https://cert.Microsoft.com · 
-
-
-ASC, MDATP, AAD, Azure Sentinel
-
-Azure Security Center 
-
-Azure Security Center 1
-
-Azure Security Center 2
-
-ASC 
-{ "resourceType": "Virtual Machine", "Attacker IP": "199.59.x.x", "Victim IP": "x.x.x.x", "Attacker Port": "15796", "Victim Port": "389" } · NSGASCNSGJIT
-
-MDATP 
-
-MDATP 
-
-MDATP
-
-----Ryuk
-
-----Advanced Hunting
-// Find use of Base64 encoded PowerShell // Indicating possible Cobalt Strike DeviceProcessEvents | where Timestamp > ago(7d)
-| where InitiatingProcessFileName =~ 'wmiprvse.exe'
-| where FileName =~ 'powershell.exe' and (ProcessCommandLine hasprefix '-e' or ProcessCommandLine contains 'frombase64')
-| where ProcessCommandLine matches regex '[A-Za-z0-9+/]{50,}[=]{0,2}'
-| project DeviceId, Timestamp, InitiatingProcessId, InitiatingProcessFileName, ProcessId, FileName, ProcessCommandLine
-
-AAD
-Conditional Access  Identify Protection
-
-AAD
-
-· Conditional Access
-· 
-· 
-· AzureAzure portal, Azure PowerShell, Azure CLI 
-· 
-· AAD Identity Protection  
-· 
-· 
-· 
-
-· Identity Protection
-· MFA · 
-   
-· AAD  
-
-----AAD 
-
-3/10/2020: Azure NSGInternet
-2020AAzure Portal1/22
-3/53/63/7 Azure Portal 
-AAD 3/53/63/7 IPA
-1/221/22 IP
-AConditional AccessMFA Identity Protection
-
-76%
-
-
-
-
-IT
-
-
-
-44%
-
-
-
-© Microsoft Corporation Azure
-
-3.5M
-
-
-
-
-Azure Sentinel 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-·  · Azure · 
-Azure Security Center https://docs.microsoft.com/en-us/azure/security-center/ Microsoft Defender ATP https://docs.microsoft.com/en-us/windows/security/threat-protection/ AAD Conditional Access https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/ Azure Sentinel https://docs.microsoft.com/en-us/azure/sentinel/
-
-
-
-Thank you
-© Copyright Microsoft Corporation. All rights reserved.
-
-

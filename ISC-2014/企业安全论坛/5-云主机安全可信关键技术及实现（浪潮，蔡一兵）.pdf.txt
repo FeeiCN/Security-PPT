@@ -1,148 +1,0 @@
-
-      2014924
-China Internet Security Conference 2014 2014
-
-
-1  2  3 
-
-
-
-
-
-
-
-
-
- 
-
---Guest OS
-Guest OS Gest OS 
-
-----
-windowsXENKVM Guest OSDomain0 hypervisor
-
----- 
- 
-
-----APT
-· DECITYBOUNEBIOS  OS
-· GINSUPCI 
-· IRATEMONKMBR 
-· IRONCHEFBIOS 
-· SWAPBIOS 
-
-
-1  2  3 
-
-
-  VMMGuest OS 
-
-----TPM2.0
-
-TCG TPM2.0
-
-· TPM2.0TCG 2014
-· TPM2.0TPM1.2
-· SM2 SM4
-·  · VMM
-VM · PCR BankPCR
-Hash Bank
-
-----Z32H320TC
-
-Z32H320TC
-
-·  SXH2014022 SSX1401
-· CPU   
-· 
-­ SM4>2Mbps
-­ SHA-256SM3 >1Mbps
-­ SM2256ECC <350ms
-
-----
-· VMM · vm
-vTPM
-
-----VTPM
-· vTPMvTPM manager VM · VM vTPM · Domain0TPM TPM 4bit vTPM 
-VM vTPM VM vTPM 
-
-----VMM
-   3 
-SYSENTER_CS_MSR SYSENTER_EIP_MSR SYSENTER_ESP_MSR
-· VMM 
-· RootkitVMMGuest OS
-
-----
-·   VM   
-·  OpenvSwitch VlanQoS    API
-
-Gest OS----
-· Gest OS   
-·   
-·  
-
-
-1  2  3 
-
-
-
-2
-
- BIOS 
-     
-  
-
-
-
-Xen VMMVMVM  OS Kernel VMMVM
-
-
-
-
-
-  Host+vm 
-
-   
-
-   Host/vm 1.
-2.     
-
-Host/Dom0 1.HostOSTgrub 2.HostOSHostOS
-
- vm  
-
- 
-
- 
-
-Dom1 Dom1
-
-
-Dom2
-
-..........
-
-DomN
-
-
-
-SSR
-
-· SSR 
-·  
-·   
-·  
-· OS Kernel  
-
-
-· BIOS · 
-
-SSR
-·  · SSROSSSR · SSROS
-
-
-
-Thanks!
-
-

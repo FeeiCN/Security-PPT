@@ -1,102 +1,0 @@
-Application of Lua in Nginx Lua  Nginx  agentzh@gmail.com
- (agentzh)
-2015.04
-
- No "callback hell".  100% nonblocking IO
-"" 100% I/O.
-
- openresty.org
-
- qa.openresty.org OpenResty 
-
-$ ./dispatcher r t 170 a 'linux x86_64' ngx_echo ngx_lua Requires at least 5 machines. bucket 1: tlngx_lua (264 min) bucket 2: twvngx_lua twngx_lua trvngx_echo thngx_echo (167 min) bucket 3: trvngx_lua thngx_lua tngx_lua tvngx_echo trngx_echo (162 min) bucket 4: tvngx_lua tlngx_echo tongx_lua thvngx_echo tngx_echo (145 min) bucket 5: thvngx_lua trngx_lua twvngx_echo twngx_echo tongx_echo (90 min) ...
-
- Lua SSL  Lua CDN  Lua WAF (Lua Web )
-
- Light threads 
-
-local thread_A, err = ngx.thread.spawn(func1)
- thread_A keeps running asynchronously  in the background of the current  "light thread".
-
-local ok, res1, res2 = ngx.thread.wait(thread_A, thread_B)
-
-local ok, err = ngx.thread.kill(thread_A)
-
- luarestywebsocket WebSocket 
-
-local server = require "resty.websocket.server"
-local wb, err = server:new{ timeout = 5000,  in milliseconds max_payload_len = 65535,
-}
-local data, typ, err = wb:recv_frame()
-local bytes, err = wb:send_text("Hello world")
-
- fullduplex cosockets
-
-
- SSL/TLS cosocket
-
-local sock = ngx.socket.tcp() local ok, err = sock:connect("www.cloudflare.com",
-443)
-ok, err = sock:sslhandshake( false,  disable SSL session "www.cloudflare.com",  SNI name true  verify everything
-)
-
- ssl_certificate_by_lua  Lua  SSL 
-
-ssl_certificate_by_lua ' local ssl = require "ngx.ssl" local cert_chain, priv_key = my_load_data() assert(ssl.set_der_cert(cert_chain)) assert(ssl.set_der_priv_key(priv_key))
-'
-
- ssl_balancer_by_lua  Lua  Nginx 
-
-upstream { server 0.0.0.0 balancer_by_lua ' local balancer = require "ngx.balancer" local host, port = my_load_backend_addr() assert(balancer.set_cur_peer(host, port)) '
-}
-
- nginxsystemtaptoolkit  Systemtap  Nginx 
-
- stapxx (stap++) Systemtap ......
-
- How CPU time is spent inside LuaJIT CPU  LuaJIT 
-
-$ ljvmstates.sxx x 5521 arg time=60 Start tracing 5521 (/usr/local/nginxwaf/sbin/nginxwaf) Please wait for 60 seconds...
-Observed 1203 Luarunning samples and ignored 49 unrelated samples. Compiled: 64% (779 samples) C Code (by interpreted Lua): 14% (172 samples) Interpreted: 13% (158 samples) Garbage Collector (compiled): 3% (48 samples) Garbage Collector (not compiled): 3% (42 samples) Trace exiting: 0% (4 samples)
-
- When an nginx worker's CPU is too high...  nginx worker  CPU ......
-
-# assuming one nginx worker process has the pid 19647. $ ngxrps.sxx x 19647 WARNING: Tracing process 19647. Hit CtrlC to end. [1376939543] 300 req/sec [1376939544] 235 req/sec [1376939545] 235 req/sec [1376939546] 166 req/sec [1376939547] 238 req/sec [1376939548] 234 req/sec ^C
-
-$ ./samplebt p 19647 t 20 u > a.bt WARNING: Tracing 19647 (/opt/nginx/sbin/nginx) in userspace only... WARNING: Time's up. Quitting now...(it may take a while)
-
-# using Brendan Gregg's flame graph tools: $ stackcollapsestap.pl a.bt > a.cbt $ flamegraph.pl a.cbt > a.svg
-
-# assuming the nginx worker process pid is 19647: $ ljluastacks.sxx arg time=20 skipbadvars x 19647 > a.bt Start tracing 19647 (/opt/nginx/sbin/nginx) Please wait for 20 seconds
-
-# using Brendan Gregg's flame graph tools: $ stackcollapsestap.pl a.bt > a.cbt $ flamegraph.pl a.cbt > a.svg
-
- When an nginx worker's CPU is low and the throughput is low...
- nginx worker  CPU  ......
-
- offCPU flame graphs from the samplebtoffcpu tool
-
- nginxgdbutils GDB Nginx 
-
-(gdb) lbt C:ngx_http_lua_socket_tcp_receive @.../lib/resty/mysql.lua:191 @.../lib/resty/mysql.lua:530 content_by_lua:10
-
-(gdb) lbt full C:ngx_http_lua_socket_tcp_receive @.../lib/resty/mysql.lua:191
-local "self": table (0x40f181a8)
-local "sock": table (0x40f181b0)
-@.../lib/resty/mysql.lua:530 local "self": table (0x40f18148) local "opts": table (0x40f18150)
-...
-
-(gdb) lgc The current memory size (allocated by GC): 898960 bytes
-
-(gdb) lgcstat 15172 str
-987 upval 104 thread 431 proto 952 func 446 trace 2965 cdata 18961 tab
-9 udata
-
-objects: max=2956, avg = 51, min=18, sum=779126 objects: max=24, avg = 24, min=24, sum=23688 objects: max=1648, avg = 1622, min=528, sum=168784 objects: max=226274, avg = 2234, min=78, sum=963196 objects: max=144, avg = 30, min=20, sum=28900 objects: max=23400, avg = 1857, min=160, sum=828604 objects: max=4112, avg = 17, min=12, sum=51576
-objects: max=24608, avg = 207, min=32, sum=3943256 objects: max=176095, avg = 39313, min=32, sum=353822
-
- Any questions?  
-
-A
-
-

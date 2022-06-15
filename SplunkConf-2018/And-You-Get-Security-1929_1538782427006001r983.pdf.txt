@@ -1,258 +1,0 @@
-© 2018 SPLUNK INC.
-And You Get Security! And You Get Security...And You Too!
-Free Good Stuff!
-Elyssa Christensen Sr. Product Marketing Manager, Security
-Oct 2018
-
-Forward-Looking Statements
-
-© 2018 SPLUNK INC.
-
-During the course of this presentation, we may make forward-looking statements regarding future events or the expected performance of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results could differ materially. For important factors that may cause actual results to differ from those contained in our forward-looking statements, please review our filings with the SEC.
-The forward-looking statements made in this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, this presentation may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements we may make. In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionality described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Listen to Your Data, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2018 Splunk Inc. All rights reserved.
-
-This Session is Brought to You By....
-
-© 2018 SPLUNK INC.
-
-ELYSSA CHRISTENSEN
-Sr. Product Marketing Manager Former Sr. Sales Engineer for 5 Years
-15 Years of BI Experience Amateur Kayaker!
-
-© 2018 SPLUNK INC.
-The Splunk Platform for Security Intelligence
-
-200+ APPS
-
-Splunk for Security
-
-Splunk-Built Apps
-
-Cisco Security Suite
-
-Palo Alto Networks
-
-OSSEC
-
-Windows/ AD/ Exchange
-
-FireEye
-
-Stream data
-
-Bit9
-
-DShield DNS
-
-© 2018 SPLUNK INC.
-Security for AWS
-
-Splunk for AWS
-Pre-Built Searches, Reports, and Dashboards for Detailed Analysis
- Provides Deep Insight
-· For Compliance & Security across Network
-ACLs, Groups, IAM Activity, S3, VPC Activity, Resource & User Activity, ELB/Cloudfront/S3/VPC Flow Traffic
-· Billing including a Budget Planner, Historical Bill
-Analysis, and Current Monthly Estimated Billing
-· Utilization across EC2 Instances, EBS
-Volumes, Lambda, API Gateway and more with Capacity and Reserved Instance Planning insight
-· ....And a whole lot more!!
-
-© 2018 SPLUNK INC.
-
-Splunk for AWS
-IAM Activity
-
-© 2018 SPLUNK INC.
-
- Identifies changes to roles
- Logon/logoff activity
- Use of credentials
- Users potentially trying to do things they shouldn't be able to do
-
-Splunk for AWS
-Cloudfront: Traffic Analysis
- CDN Entire picture of what is being requested/accessed
- Can review users/clients interacting with web proxies
- Denial of Service attacks
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Security for Microsoft
-
-Splunk for Microsoft
-Pre-built Searches, Reports, Dashboards for Detailed Analysis
- Visibility into your entire Microsoft Stack with Monitoring by Event, Network, Host, Process, Application, Disk, and Printer
- Active Directory analysis by Domain, Domain Controller, DNS, User, Computers, Groups, Policy, Organizational Unit, and more.
-
-© 2018 SPLUNK INC.
-
-Splunk for Microsoft
-Microsoft Infra: Anomalous Logons
- Exchange, Office365, Azure  Authentication Events  Windows Firewall  Messaging  AD Audit
-· Domain & Authentication issues · Printer abuse
-
-© 2018 SPLUNK INC.
-
-Splunk for Microsoft
-Microsoft Infra: User Audit
-
-© 2018 SPLUNK INC.
-
- Lockout Activity  Failed Logon
-
-Splunk for Microsoft
-Microsoft Exchange: Message Activity
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Security for Cisco
-
-Splunk for Cisco Suite
-Pre-built Searches, Reports, Dashboards for Detailed Analysis
- Emails analysis including Message tracking, Gateway Performance and more
- Web Analysis by Request, Client, Policies
-(personal/business use and legal liability)
- Web Performance by Proxy, Network Resource, and
-Destination
- Network analysis by eStreamer, Sensor, Policy, Host,
-Flow, Malware Events, and Intrusion Events
- Identity Services Analysis by User Investigation, Profiler, Device, Posture, Authentications, and more.
-
-© 2018 SPLUNK INC.
-
-·
-
-Splunk for Cisco Suite
-Cisco: ISE Failed Logins
-
-© 2018 SPLUNK INC.
-
- Sometimes the Chart isn't pretty but the search is....
-· Access abuse
-· Potential compromise
-· Superman effect
-
-Splunk for Cisco Suite
-Cisco: Web Security Overview
- Visibility into what users are doing from their browser
- May identify a flight risk employee or behavior that's out of compliance with corporate policy
- Cloud or file sharing services
- Upticks in traffic going out to google drive or other locations.
-
-© 2018 SPLUNK INC.
-
-More Cisco Goodness!
-
-© 2018 SPLUNK INC.
-
-Web Destinations
-Intrusion Event Host Summary
-Malware Event Summary
-
-© 2018 SPLUNK INC.
-Security for Palo Alto
-
-Splunk for Palo Alto Networks
-Pre-Built Searches, Reports, and Dashboards for Detailed Analysis
-
- Most Common Use Cases
-
-· Security overview, investigation and incident
-response
-
-· Policy overview, monitoring and adjustment
-
-· Operational overview and configuration
-management
-
- Data Sources
-
-· Traffic
-
-· Autofocus
-
-· Threat
-
-· TRAPS
-
-· Wildfire
-
-· Aperture
-
- Adaptive Response and Integrations
-
-· Tag IP/Domain on firewall
-
-· On-demand Wildfire
-
-· Enrich with Autofocus
-
-· Common Information Model (CIM) compliant
-
-· Full integration with Splunk Enterprise Security
-(ES)
-
-© 2018 SPLUNK INC.
-
-Splunk for Palo Alto
-PAN: Overall Posture
-
-© 2018 SPLUNK INC.
-
-This should look familiar!!
-
-Splunk for Palo Alto
-PAN: Network Security
-
-© 2018 SPLUNK INC.
-
- Let's You know what your firewall thinks looks off
- Initial indication of what needs to be addressed by security engineer
- Great feed into splunk!
-
-Splunk for Palo Alto
-PAN: Malware
- Helps stop endpoint attacks before they get started!
-
-© 2018 SPLUNK INC.
-
-So Many Vendors
-So Many Great Apps!
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Better than a car...
-
-Splunk for Security Essentials
-Free Security Learning Guide
- Over 438 Security Use Cases Documented in Detail across: · Monitoring · Compliance · Advanced Threat Detection · Insider Threat Detection · Fraud Detection · Incident Investigation and Forensics
- Detailed Data Onboarding Guides
- Clearly Aligns to Security Journey through Stages detailing: · Impact · Needed Data Sources · Known False Positives · Response Guidance and more!
-
-© 2018 SPLUNK INC.
-
-Top 20 Security Controls
-
-© 2018 SPLUNK INC.
-
- Extensible framework fore baseline security "best-practices"
- Based on Top 20 CSC v6.1 published by Center for Internet Security
- Data agnostic
- Leverages Splunk CIM
-· Tags · Event Types · Fields
-
-How do I get this goodness?
-
-© 2018 SPLUNK INC.
-
-www.splunkbase.com
-
-© 2018 SPLUNK INC.
-Thank You!
-
-

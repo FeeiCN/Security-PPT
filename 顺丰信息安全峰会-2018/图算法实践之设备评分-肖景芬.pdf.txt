@@ -1,40 +1,0 @@
-01
-
-
-
-02
-
-
-
-03
-
-
-
-04
-
-
-
-
-
-
-
-
-
-neo4j
-
-  
-·  300+ ·  300+
-
-
-
-
-2. 
- : ,/, ,,, ......
- : , ...... 3. 
-
- 1. uid: phone, bank_card, ID_card and so on 2. : register, login, coupon, order and so on 3. : ip , network_type and so on
-
-
-1.  2.  3. ip 4. ,(GCN)
-
-

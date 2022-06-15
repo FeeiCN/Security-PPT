@@ -1,366 +1,0 @@
-© 2018 SPLUNK INC.
-A Deep Dive Into Splunk LDAP Authentication and How it Affects Cluster Performance
-Jacky Chen - Developer ­ Atlassian October 2018
-
-Forward-Looking Statements
-
-© 2018 SPLUNK INC.
-
-During the course of this presentation, we may make forward-looking statements regarding future events or the expected performance of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results could differ materially. For important factors that may cause actual results to differ from those contained in our forward-looking statements, please review our filings with the SEC.
-The forward-looking statements made in this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, this presentation may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements we may make. In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionality described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Listen to Your Data, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2018 Splunk Inc. All rights reserved.
-
-© 2018 SPLUNK INC.
-How we scaled Splunk LDAP auth to handle hundreds of users and groups
-
-© 2018 SPLUNK INC.
-Logging @ Atlassian
-
-Logging @ Atlassian
-
-© 2018 SPLUNK INC.
-
-Atlassian Logging Platform
-.CONF 2017 Talk: Traversing the Cloud: Atlassian's Journey Building a Logging Pipeline with Splunk on AWS
-
-Logging @ Atlassian
-
-© 2018 SPLUNK INC.
-
-id: jira environment: production
-Atlassian Logging Platform
-
-id: auth-service environment: development
-
-Access Control Model
-authorize.conf:
-
-© 2018 SPLUNK INC.
-
-Generates
-authentication.conf:
-
-Config Deployment Process
-
-© 2018 SPLUNK INC.
-
-authentication.conf
-
-Package
-
-configuration-app
-
-authorize.conf
-
-Place
-
-Search Head Deployer
-
-Deploy
-
-Search Head Search Head
-
-Search Head
-
-Our Scale
-
-© 2018 SPLUNK INC.
-
-392
-
-685
-
-1
-
-Splunk Roles LDAP Groups
-
-SH Cluster
-
-478
-DAUs
-
-© 2018 SPLUNK INC.
-Problems
-
-LDAP component slowness
- ~4s login time on average
-
-© 2018 SPLUNK INC.
-
- ~17s login + page load
-
-Active Directory (AD) server load
-
-© 2018 SPLUNK INC.
-
-Splunk instance does the most queries and 98% of the big queries
-
-Slow auth config deployment
-~1 hour deployment time
-
-© 2018 SPLUNK INC.
-
-Auth config bundle deployment failures
-1/4 of our bundle deployment failed
-
-© 2018 SPLUNK INC.
-
-Questions to answer
- Why is LDAP component (e.g. login) slow? · What LDAP queries does Splunk perform? · Why are they slow? · Why are they resource heavy?
- Why is bundle deployment slow and error-prone? · What does bundle deployment do? · Which part of the bundle deployment is slow?
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Investigation
-
-What LDAP queries are being done?
- ScopedLDAPConnection = DEBUG · 400k LDAP searches in 15 minute!
-
-© 2018 SPLUNK INC.
-
-What is querying LDAP?
- Components that queries LDAP · 1 User login = 300+ LDAP searches · Any components that need user roles: · Search scheduler · Search dispatcher · Data model ·...
-
-© 2018 SPLUNK INC.
-
-Why are queries expensive?
-
- Two key factors: · The number of LDAP groups · Depth of LDAP group nesting
-
-E.g. a troublesome group:
- atlassian-staff: · member_groups (55): · exec-team
-- Scott - Mike -...
-· sydney-staff
-- observability-team -...
-· mountain-view-staff · customer-support
-- amsterdam-support -...
-·...
-
-© 2018 SPLUNK INC.
-
-LDAP query breakdown
-
-© 2018 SPLUNK INC.
-
-What does bundle deployment do?
-
-© 2018 SPLUNK INC.
-
-?
-Cli
-
-Access Logs
-
-© 2018 SPLUNK INC.
-
- Deployer: sourcetype=splunkd_access uri_path="/services/apps/deploy"
-
- Searchhead: sourcetype=splunkd_access uri_path="/services/apps/local"
-
-© 2018 SPLUNK INC.
-Bundle Deployment - Putting them together
-
-/services/apps/deploy
-
-Cli
-
-Deployer
-
-/services/apps/local payload: apps.zip
-
-Search Head
-Search Head
-. . .
-
-Search Head
-
-Bundle Installation - Loggers
- Again, we enabled some useful debug logs: · AppsDeployHandler · LocalAppsAdminHandler · ApplicationManager · ApplicationUpdater · UserManagerPro
-
-© 2018 SPLUNK INC.
-
-Bundle Installation - Debug logs
-
-© 2018 SPLUNK INC.
-
-Bundle Installation - Debug logs
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Bundle Deployment - Putting them together
-/authentication/_reload x2
-Search Head
-
-/services/apps/deploy
-
-Cli
-
-Deployer
-
-/services/apps/local payload: apps.zip
-
-x2
-Search Head
-. . .
-
-x2
-Search Head
-
-Flamegraphs
-
-© 2018 SPLUNK INC.
-
-Source: http://www.brendangregg.com/FlameGraphs/cpu-linux-execs.svg
-
-Bundle Installation Flamegraph
-
-© 2018 SPLUNK INC.
-
-Recap
- LDAP component slowness · Splunk needs to query a big tree of LDAP groups for each user.
-
-© 2018 SPLUNK INC.
-
- AD server load · Compounding the problem above, a lot of components in Splunk also need to query user
-info.
- Slow bundle deployment · Bundle installation includes reloading authentication information for everyone twice.
-
-© 2018 SPLUNK INC.
-Solutions
-
-Previous Architecture
-
-Search Head Search Head Search Head
-
-Query
-
-Active Directory
-
-© 2018 SPLUNK INC.
-
-LDAP Cache?
-
-© 2018 SPLUNK INC.
-
-Possible Solutions
- Restructure LDAP groups  Change authentication scheme
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Scripted Auth
-
-Script Functions
-
-© 2018 SPLUNK INC.
-
- userLogin · Can be a basic LDAP bind
-
-Username + Password True / False
-
- getUserInfo · Determines ACL · Gets called frequently and concurrently · Unrealistic to do LDAP query
-
-Username [role1, role2,...]
-
-Script Functions
-
-© 2018 SPLUNK INC.
-
- getUsers · Roles are not used for ACL (7.0.4) · Determines if schedule search gets run
-
-[[username,role1,role2,...],[username,role1,role2,...]]
-
-New Architecture
-
-© 2018 SPLUNK INC.
-
-Search Head Search Head
-
-Invokes Invokes
-
-Script Script
-
-Search Head
-
-Invokes
-
-Script
-
-Fetches
-
-Redis
-
-Updates
-
-Cron Job
-
-Active Directory
-
- Login API (4s -> 0.7s)
-
-Results
-
-© 2018 SPLUNK INC.
-
- Login API + Page load (17s -> 14s)
-
-Results
- No more LDAP query spamming
-
-© 2018 SPLUNK INC.
-
-Results
- Faster and less erroneous bundle deployment (8mins -> 1.5mins)
-
-© 2018 SPLUNK INC.
-
-Results
- Lower saved search skip ratio (75% -> 8%)
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-Lessons
-
-Key Takeaways
-LDAP auth
-
-© 2018 SPLUNK INC.
-1. Nested LDAP structure and the number
-of groups can negatively affect performance
-2. Use ScopedLDAPConnection to profile
-your LDAP queries
-3. Beware of auth reloads when deploying
-authorize.conf and authentication.conf via bundle
-
-© 2018 SPLUNK INC.
-
-Key Takeaways
-Splunk Debuging
-
-1. Loggers are great, enable them for
-troubleshooting
-2. Flamegraph can help with finding
-problematic components
-3. Access log gives you a glimpse of the
-internal workings of Splunk
-
-© 2018 SPLUNK INC.
-
-Key Takeaways
-Scripted Auth
-
-1. Instrument your auth script
-2. Ingest script logs back into Splunk for
-debugging
-3. The script need to be implemented
-efficiently
-
-Thank You
-Don't forget to rate this session in the .conf18 mobile app
-
-© 2018 SPLUNK INC.
-
-

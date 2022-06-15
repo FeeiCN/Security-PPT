@@ -1,89 +1,0 @@
-
- 
-
-
-· OpenStack ·  ·  ·  · 
-
-OpenStack
-·  (nova) ·  (neutron) ·  (keystone) ·  (glance) ·  (cinder) ·  (swift) · 
-
-
-
-(Cont'd)
-· 122 · Region · 100+ · 30+
-/ 
-
-(Cont'd)
-·  CPU: ~10% -> ~50%
-·  ·  · 1/2
-·  ·  ·  · 
-
-IaaS
-· 
-­  ­  ­ 
-· 
-­ OpenStacknova/neutron/keystone/glance/cinder ­ OpenStack ­ OpenStackbug (90+50+) ­ 30+ ­ 10
-
-
-· 
-­ nova-network ­ Flat DHCP Network Manager ­ 
-· 
-­ neutron ­ ML2 + Open vSwitch Agnt ­ SDN (Software-Defined Networking) ­ 
-
-
-· nova-network 
-· IP (Fixed IP) IP (Floating IP)
-·  (Security Groups)
-· 
-· QoS
-
-(Cont'd)
-· 
-­ Flat DHCP Network Manager ­ Multi-host
-· 
-­ IP ­  ­ QoS
-
-
-· L2 ·  ·  · IP
-·  · NATiptables · 
-·  · 
-
-
-· neutron · 
-­  ­ 
-·  · 
-­  ­  ­ 
-
-
-
-
-
-(Cont'd)
-· 
-­ VXLAN (Virtual Extensible LAN) ­ Flat ­ ML2 Plugin + Open vSwitch Agent ­ L2 Population
-· 
-­ SVLAN (Shared VLAN) ­ ACL ­ L3NAT ­  ­ OpenVPN ­ L3
-
-
-
-
-· Neutron bug
-· neutron 
-· L2 Population 
-· OVS Agent · 3.9iproutenamespace ·  · 
-
-·...
-
-
-·  · 
-­  ­ QoS ­ L3SNATDVR ­...
-· 
-­  ­  (OpenFlow)
-· 
-
-
-· xuchengli@corp.netease.com
-
-Q&A
-
-

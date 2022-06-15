@@ -1,289 +1,0 @@
-QCon2014 417--19
-
-@InfoQ
-
-infoqchina
-
- QCon
-
-
----- 
- 
-
-Who am I
- - lakehu
- 07  WebAgent    TSRC
-
-
-  
- &  Q & A
-
-
- 
-
-
- 1
-
-
-
-Agent 
-
- 2
-
- 
-
-IDC
-
-
-
- Web
-
-DDoS
-
-
-
-IDC
-
-
-
- 
-
-
-
-DDoS 
-
-
-
- 3
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-VP
-
-
-
-IT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-2006 
-
-
-2008 
-
-2007   
-
-
-
-
-
-
-·  · 
-
- 
-
-·  · 
- 
-
-·  · 
-
- 
-
- 
-
-·  · SOC
-
-
-
-
-2005-2006 
-
-2010
-
-2007-2009 
-
-
-TSDL
-
-
-
-
-
-PCMobile 
- 
-Web
-
- 
- 
-Web 
-
-
-
- 
-
-
-
-
-
-
-DDoS
-
-
-DDoS
-
-
-DNS
-1Local DNS Local DNS 2DNS DNS
-
-
-
-
-
-
-
-
-Agent
-
-·  
-
-
-
-·  · 
-
-·  · 
-
-
-
-·  · 
-
-
-Agent
-
-
-
-
-
-Web/Server
-
-SQL Injection XSS CSRF JSON Hijacking OS Injection ....
-
-·  · 
-Web
-
-·  · 
-Server
-
-high-risk port low version remote overflow danger config weak pwd ....
-
-
-Web/Server
-
-
-
-
-danger func danger COM DLL Hijacking overflow ....
-
-·  ·  · 
-
-PC
-
-·  ·  · 
-Mobile
-
-danger func storage transmission  ....
-
-
-
-
-
-WAF
-
-
-struts2 0day
-
-
-
-
-
-
-
-
-
-
-
-10:00  struts 0day
-
-10:40  
-
-10:50  
-
-11:40 struts  
-
-18:30  
-
-&
-
-WAF 0dayagent
-
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-mrhupo@qq.com lakehu@tencent.com
-
-

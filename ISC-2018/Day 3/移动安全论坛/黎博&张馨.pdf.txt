@@ -1,156 +1,0 @@
-APPSDK
- &  360 Vulpecker Team
-
-
-360 VULPECKER TEAM
-· 360 @___sniperhg · 360 @_7C00
-360Vulpecker Team360 APPOS-360 2018CVE 
-
-
-
-·  · SDK ·  · 
-
-SDK
-
-SDK
-*http://www.freebuf.com/articles/network/178011.html
-
-
-
-·  · SDK ·  · 
-
-ANDROID
-1.
-· Linux · UIDGID · UID* · GIDUID · GID:/data/etc/platform.xml · //**
-
-ANDROID
-2.INTENT
-· AndroidIPC · IPCAPP · / · startActivity()/startService()/bindService()/sendBroadcast() · ActionComponetName · Extras
-
-ANDROID
-3.
-· Android APP -Activity -Broadcast Receiver -Content Provider -Service
-· AndroidManifest.xml · / · 
-
-Activity Receiver Provider Service
-
-ANDROID
-3.
-·  ·  · android:exported=true · BroadcastManger.registerReceiver() · <intent-filter>android:export=false
-<receiver android:name="com.xxx.android.pushservice.PushServiceReceiver" android:process=":xxservice_v1" > <intent-filter> <action android:name="android.intent.action.BOOT_COMPLETED" /> <action android:name="android.net.conn.CONNECTIVITY_CHANGE" /> <!-- ... --> </intent-filter>
-</receiver>
-·  ·  · () · 
-
-SDK
-
-· jar/so ·  · SDK · SDK
-· SDK · 
-
-Activity
-+ SDK Activity
-
-Receiver
-+ SDK Receiver
-
-Provider
-+ SDK Provider
-
-Service
-+ SDK Service
-
-SDK
-
-· SDK... ·  ·  ·  ·  ·  ·  ·...
-
-PUSH SDK
-SDK - A
-- Receiver - Receiver - ""
-<receiver android:name="Receiver" android:enabled="true"> <intent-filter> <action android:name="cn.xxxxx.android.intent.REGISTRATION" /> <action android:name="cn.xxxxx.android.intent.MESSAGE_RECEIVED" /> <action android:name="cn.xxxxx.android.intent.NOTIFICATION_RECEIVED" /> <action android:name="cn.xxxxx.android.intent.NOTIFICATION_OPENED" /> <action android:name="cn.xxxxx.android.intent.CONNECTION" /> <category android:name="" /> </intent-filter>
-</receiver>
-
-PUSH SDK
-SDK - A
-- APP - SDK - A - Receiver xxxxxCustomerReceiver - xxxxxCustomerReceiverIntentappurl - POC
-
-PUSH SDK
-SDK - A
-- APP - 
-
-PUSH SDK
-SDK - B
-- Receiver - Receivercom.xxx.android.xxxxx.xxxBaseReceiver
-<receiver android:name="com.xxxx.xxdemo.receiver.MessageReceiver" android:exported="true" >
-<intent-filter> <action android:name="com.xxxxx.android.xxxxx.action.PUSH_MESSAGE" /> <action android:name="com.xxxxx.android.xxxxx.action.FEEDBACK" />
-</intent-filter> </receiver>
-
-PUSH SDK
-SDK - B
-- com.xxxxx.android.xxxxx. xxxBaseReceiverpush - RSA App - .... - SDK
-
-PUSH SDK
-SDK - B
-
-PUSH SDK
-SDK - B
-- XX - SDK - BReceiver - SDK - Receiver - POC
-
-PUSH SDK
-
-
-SDK
-SDK - A
-- SDKActivityXxShareXxXxxxxActivity -  - Activity
-
-SDK
-SDK - A
-- XxShareXxXxxxxActivityIntent - ActivityName - ContextstartActivityActivityNameActivity
-
-SDK
-1 ­ 
-- Activity//.... - SDKActivity -  -  - SDK90%+
-
-SDK
-1 ­ 
-
-SDK
-1 ­ 
-- SDK90%+ - 
-
-SDK
-2 ­ 
--  - IM - SDK - / - app...
-
-SDK
-2 ­ 
-
-SDK
-3 - 
-- bugrelease - Log... - UI -  - SDK
-
-SDK
-3 - 
-- IM - UI - UI : ( - SDK
-
-SDK
-...
--  - SDK -  - 
-
-SDK
-
-
-SDK
-
-
-
-
-·  · SDK ·  · 
-
-
-
--  - SDK - SDK -  - ....
-
--  -  or "..." - ....
-
- 
-
-

@@ -1,154 +1,0 @@
- 
-By 
-
-About Me
- ID:     <>  Github https://github.com/brianwrf  http://avfisher.win/
-
-   
-
- 
-
-
-P2P  
-
-" "
-
-
-
-P2P
-140
-
-120
-
-100
-
-80
-
-60
-
-40
-
-20
-
-0 2015-05
-
-2015-06
-
-2015-07
-
-2015-08
-
-2015-09
-
-2015-10
-
-2015-11
-
-2015-12
-
-2016-01
-
-2016-02
-
-2016-03
-
-2016-04
-
-
-
-  
-
-  
-......
-
-P2P
-
-SQL   getshell    XSS  webshell CSRF 
-
- 
-
-
-SQL 
-
- 
-
-   
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
-
-
- 
-
- 
-
- 
-
- 
-
-
- 
-
- 
-
- 
-
-WiFi
-
-WiFi 
-
- WiFi
-
- 
-
-
-
- 
-
-
- 
-
-  
-
- IPS
-
-WiFi OA
-VPN
-
-
-  
-
-SDL  STRIDE
- 
-WAF DDoS
-
-
- 
-
-PasswordSafe QQ URL  APP WiFi
-WooYun
-
-  
-
-The End
-
-
-

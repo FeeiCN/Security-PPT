@@ -1,469 +1,0 @@
-
-Host security in cloud environment
-  Ke.li@jowto.com 2014-09-24
-China Internet Security Conference 2014 2014
-
-
-1  2  3  4  5 
-
-
-
-
-
-""
-   
-
- SaaS)
- PaaS)
- IaaS)
-
-
-
-
-
-
-
-
-
- 
-
-/
-
-Virtual Compute
-
-Virtual Network
-
- 
-
-Virtual Storage
-
-
-
-
- Iaas(Infrastructure as a service)
-­ Server Virtualization
-­ public/external ­ private/internal
-
-
- Cloud Computing)
-­ Business Model) ­ 
- ( )
-
-
-
- 
-­ Hosted1 ­ Bare Metal 2
-
-... APP
-
-APP
-
-OS
-
-OS
-
-Hypervisor Host OS HardWare
-1
-
-... APP
-
-APP
-
-OS
-
-OS
-
-Hypervisor
-
-HardWare
-2
-
-
-  "        "
-
-
-  
-- 2014227  
-- "   "
-
-
-
-
-
-·  
-
- 
-
- 
-
-
-
- 
-
-
-
- 
-
- 
-
-
-
-  
-
-sql
-
-
-
-
-
-
-
-
- hypervisor  Guest os  Guest osHost os  Guest oshypervisor  Others
-
-
-
-hypervisor
- CVE-2012-2625
- XENhypervisor 
-
-XEN
-
- XEN  Domain 0Domain U  PV  HVM
-
-Domain 0
-
-Domain U APP PV Hypervisor Hardware
-
-APP HVM
-
-
-
-
-
-pygrub
-
-Vmlinuz 
-
-1G
-8G   
-
-
-
-
-
-
-
-Domain 0
-
-
-
-8G 1G
-
-Domain U APP PV Hypervisor Hardware
-
-APP HVM
-
-CVE-2012-2625
-· 2012-05-042012-05-30 · RedHat Fedora 17XenSource Xen 4.1.2 ·  · http://www.doc88.com/p-0611913713596.html
-
-Ghost OS
-
-
-APP
-
-APP
-
-VSwitch
-
-OS
-
-OS
-
-Hypervisor HardWare
-
-Guest OS
-
-Guest oshost os
-· CVE-2014-0983
-­ Oracle VM VirtualBox ­ Oracle VM VirtualBox `crServerDispatchVertexAttrib4NubAR()'
- 
-
-OpenGL
-
-Guest OS 
-
- PMIO/MMIO
-3D
-
-Host OS 
-
-
-
-
-  
- 
-
-Guest OS VBOXGUEST.SYS
-
-GuestOS 
-
-Hypervisor crUnpack()
-Host OS crUnpackData
-HardWare
-
- 
-
-CVE-2014-0983
-· :2014-03-11:2014-03-12  Oracle VirtualBox v4.2.20Oracle VirtualBox v4.3.6
-· _VirtualBox · http://www.91ri.org/10371.html
-
-Guest oshypervisor
- CVE ID: CVE-2011-1898
- XenMSI 
- Intel VT-dPCI DMAMSI
- XenDMADMA xen
-
-DMA
- DMA(Direct Memory Access)   CPU CPU  CPU  
-
-
-
-Domain 0
- 
-
-Domain U
-
-APP
-
-APP
-
-PV
-
-HVM
-
-Hypervisor 
-
- 
-
- Loopback
-
-Hardware
-
-
-
-CVE-2011-1898
-· :2011-06-30:2011-06-30 · XenSource Xen Red Hat Fedora 15Red Hat Fedora
-14Qumranet KVM · Xen hypervisor · http://blog.csdn.net/q123456789098/article/details/7832121
-
-
-
-
-  guest os  hosthypervisor,hypervisor hypervisorvm 
-  
- os    guest oshost os
-
-
-
-JHSE
-C:\
-
-
-
-
-
-Iaas
-
-JHSE_SAFESERVER
-
-C:\MyWeb
-
-HKEY_LOCAL_MACHINE\SO FTWARE\Microsoft\Window s\CurrentVersion\RunOnce
-
-C:\boot.ini
-
-127.0.0.1:80
-
-explorer.exe
-
-C:\*.exe C:\Windows
-D:\
-
-C:\mysql\dat a\
-C:\vmware
-C:\*.dll
-
-127.0.0.1: 
-*.sys
-
-Administrator | C:\Windows\system32
-\cmd.exe
-
- | System
-
-Administrator | JHSE\*.exe
-
-Administrator | C:\Windows\system32\
-w3wp.exe
-
-Administrator | C:\vmware\vmw
-are.exe
-
-
-
-
-
-
-
-
-  ­ Guest os ­  ­  ­  
-
-Host os    
-
-... APP
-
-APP
-
-OS
-
-OS
-
-Hypervisor Host OS
-SMP Server
-1
-
-... APP
-
-APP
-
-OS
-
-OS
-
-Hypervisor
-
-SMP Server
-2
-
-
-
-JHSE
-
-
-
-
-
-  
-
-ERP
-
-NAS
-
-OA
-
-EMAIL
-
-Linux VM
-
-Windows VM
-
-Unix VM
-
- 
-
-    
-
- 
-JHSE
-
-
-
-
- SaaS)  PaaS)
- IaaS)
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-/
-
-Virtual
-
-Virtual
-
-Compute Network
-
-
-
-Virtual Storage
-
-
-
-
-
-JHSE
-
-
-
-
-
-
-
-
-
-
- 2005  GB/T22239-2008 GB/T210282007 
- 200829201041  2012""      ""
-
-
-
-
-
-
-
-
-
-
-Windows/linuxlinux 100 webshell PC C/S webwebAPT URL CCCC99.9%
-
-2013
-
-12300
-
- 2013325-48
-
-15
-
-iproot30000
-
-""""
-JHSE
-
-JHSEAIX  
-
-2014 F1
-
- 
-
-10 
-
-
-
-     
-1 2JOWTO 1000 3 2014.9.253 10
-
-Thanks!
-  B-26C601 100020 010-65014696 010-65016411 www.jowto.com   601 518057 0755-86638038 0755-86638028 www.jowto.com
-
-

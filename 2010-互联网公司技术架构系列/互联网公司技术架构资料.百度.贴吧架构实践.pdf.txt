@@ -1,107 +1,0 @@
-
-
-
-9  - ++++ itieba++..
-9  - +lamp+nosql++++..
-
-
-9 
-­  ­ P ­ 10w ­ w
-9 &
-­ 7*24
-9 
-­ 
-9 
-­  ­ 
-
-
-9  9  9 
-
-
-cover
-
-
-9 Mysql+cache+flash ­ Mysql ­ Cache ­ Flashscale up
-9  ­ 80%
-
-Mysql-
-9  9  9  9  9 
-­ qpsqps ­ <1T
-
-Mysql-
-9  ­  ­ Mysql
-9  ­  ­  ­ 
-
-Cache-
-9 Cache ­ 5-10w qps ­ 2-8
-9 Cache ­ cache vs cache ­ Ex:  vs 
-9 cache 9 
-­ 
-
-Flash
-9 Flash ­ 
-9  ­ 
-
-
-mysql+cache+flash
-9  ­ G ­ 
-9  ­  ­ 
-9  ­ 
-
-Cover
-
-
-9  ­  ­ key
-9  ­  ­  ­ 
-
--(MQ)
-9 
-9  ­ Replication ­ 
-9  ­ w/s
-
-
-9  ­  ­ 1000w
-9 Mysql is impossible
-
-
-9  ­  ­  ­  ­ 
-
-
-9  ­  ­ patch ­ cache
-9  ­ Binlog
-9  ­ 
-9  ­ 
-
-Key-value
-9  ­  ­ id-> ­ P ­ KV
-9 kv ­  ­ cache
-9 kv
-
-Key-value
-9  ­  ­ 
-9  ­  ­ 
-
-
-9  ­  ­ 
-9  ­ 
-9  ­  ­ 
-9 
-
-
-
-
-9  ­  ­  ­  ­  ­ 
-
-
-9 
-
-
-9  9 
-­  ­  ­ 
-9  ­  ­ 
-
-
-
-9 blog 9 
-
-

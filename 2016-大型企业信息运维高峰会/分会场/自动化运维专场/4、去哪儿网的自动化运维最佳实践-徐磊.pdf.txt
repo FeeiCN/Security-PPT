@@ -1,100 +1,0 @@
- 
-@qunar-opsdev
-
-
-·  ·  ·  · 
-
-
-· 
-­ / ­ 
-· 
-­ / ­ 
-
-
-
-
-
-· 
-­ rsyslog/ ­ qunar-flume/
-· 
-­ 
-· Agent
-­  ­ / ­ 
-
-
-
-
-
-
-· Kafka + ELK
-­ KafkaBuffer ­ ELK/Spark/StormKafka ­ HDFS
-· 
-
-
-· 
-
-
-Pattern 
-
-
-
-· 
-­ Salt/Puppet/Chef/Ansible
-·  · Failover/Scheduler/HA... · 
-­ Mesos ­ Docker ­ Marathon/Chronos
-· 
-
-
-
-
-· Docker + Git · / ·  · 
-­ GitMarathon ­ 
-·  · / · 
-
-
-· 
-­ 90~100 ­ 143 ­ 150ms
-· 
-­ 100TB+ ­ 35+document
-· 
-­ 3150
-
-
-· 
-­  ­ OpenStack
-
-
-· / 
-­ Git ­ / ­  ­ Kibana ­  ­ ...
-·  
-
-
-· 
-­ Kafka
-­ 
-­  ­  · kafka-manager
-
-
-· ----Kafka
-
-
-· /
-­  ­ 
-· 
-­  ­ cronjob ­ salt ­ Nginx/DNS ­ ...
-
-
-· /
-­  ­ grep/awk/perl ­ /
-·  · 
-­  ­ 
-
-
-
-
-
-
-
-
-
-

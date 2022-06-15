@@ -1,173 +1,0 @@
-2 0 1 8
-----Hacking
-@Kevin2600 @MonkeyKing
-
-#Whoami
-@Kevin2600   : KCON; XCON; ; BESIDES; OZSECON; DEFCON26
-
-01
-PART 01
- 101
-
-
-CONTENTS
-
-02
-PART 02
- & 
-
-03
-PART 03
- RF   
-
-PART 01
-
-
- 101
-·  () ·  (; ; ) · RFID ( ·  ()
-
- ?
-
-
-· RKE KeeLoq algorithm cracked (2008) · Passive Keyless entry Keyfob Relay attack (2012) · Gone in 60 seconds -- Hijacking with Hitag2 (2012) · Samy's Rolljam -- Drive it like you hacked it (2015) · BMW ConnectedDrive -- Telematics hacked (2015) · Mitsubishi Outlander WIFI Hacked -- PenTestPartners (2016) · 14 vulnerabilities found in BMW connected cars -- KeenLab (2018)
-
- HACK -- 2015
-
- HACK -- 2016
-
-PART 02
- & 
-
- ---- 
-
-
-· Keyless Entrance System · Keyless Engine Start/Stop · Bluetooth Low Energy 4 · Auto Lock/Unlock Function · Mobile as Key (Android; Iphone) · Remote Keys Sharing (20 Users)
-
-
-
-
-
-
-
-1
-
-2
-
-3
-· B T L E - M o d u l e ( C C 2 6 4 0 ) to communicate with mobile APP through 2.4ghz
-· RF-Module(NXP-61X0915) Emits unlock/lock cmd to the vehicle. RF-module vary from different car models
-· BTLE-Module (SYD8801) sensor. 2.4GHz BTLE SOC 32bit ARM Cortex-M0. Functionality unknown ?
-
-
-
-
-
-
-Oscillator: 13.560Mhz Math: 13.560MHz / 8000 = 1695hz 13.560MHz * 32 = 433.92Mhz
-
-SDR-HackRF
-
-SDR-GQRX
-
-
-
-
-
-
-
-APP
-
-APP
-
-APP
-
-APP
-
-APP
-
-APP--Server
-....
-
-Encryption ?
-
-
-
-PART 03
---RF 
-
-RF-
-
-RF-
-
-
-
-...
-
-:
-
-PART 04
---
-
-
-
-
-
-What could possibly go wrong ?
-
-
-
-
-
-
-
- ?
-
-
-
- ?
-
-
-
-PART 05
- --
-
-BTLE--
-
-BTLE--
-
-BTLE--
-
-BTLE -- 1st 
-
-BTLE--
-
-BTLE--
-
-BTLE--
-
-BTLE--
-
-BTLE--
-
-BTLE--
-
-Login--
-· 1-byte of encryption key ·  XOR  · 
-
-Login--
-
-Login--
-
-Login--Crafting Packets
-
-
-
-
-
-
-· Security by obscurity ??? · 100 %  ·  ·  +  + 
-
-
- @Kevin2600 @MonkeyKing
-
-

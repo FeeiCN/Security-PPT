@@ -1,392 +1,0 @@
-
-   2015330  
-
-Outline
-·    ·    · CTR   ·   
-
-:      Search  Ads  
-
-Display  Ads  
-
-   
-
-
-
-·   
-
-  profit = PV *CTR * ACP
-
-
-· CTR  
-
-        
-
-Google   AdWords    
-  
-
-  
-
-
-        
-
-Google   AdSense  
-  
-RTB  
-(Real  Time   Bidding)  
-
- 
-
-
-
-
-
-CTR  
-Query l
-
-l cookie\ 
-
-
-
-l  l 
-
-
- 
-
- l
- 
-
-Outline
-·    ·    · CTR   ·   
-
-
-
-  
-
-     
-
-Logistic   Regression  
-
-
-
-  
-
-CTR   
-
-  
-
-  
-·    ·    ·     
-
-  
-  
-
-CTR  
-
-  
-·   
-
-  
-·   
-
-  
-·   
-
-  
-·   
-
-  
-
-·  :    10000  ;  1000  ;  100    
-
-· (q)1  ,  2  ,  ...  ,  10000   · (u)1  ,  2  ,  ...  ,  1000  
-
-· (a)1  ,  2,  ...  ,  100  
-· :  q=1,u=2,ad=3  
-
-2  
-
-3
-
-64[ |1, 0,{.z. . , 0} ][ |0, 1, 0{,z. . . , 0} ][ |0, 0, 1,{0z, . . . , 0} ]75
-
-10000-dim q-vector 1000-dim u-vector 100-dim ad-vector
-
-  
-
-· 1st  3   q,u,ad  
-
-2
-
-3
-
-64[ |1, 0,{.z. . , 0} ][ |0, 1, 0{,z. . . , 0} ][ |0, 0, 1,{0z, . . . , 0} ]75
-
-10000-dim q-vector 1000-dim u-vector 100-dim ad-vector
-
-   · 2nd   q*u 
-     [ |0, 0, . . . , 0{,z1, 0, . . . , 0} ]
-100001000 dim q  u vecotr
-
-     
-  
-
-  
-     
-
-     
-
-  
-
-  
-
-  
-
-· Hashing    
-
-2
-
-3
-
-   [ |0, 0, . . . , 0{,z1, 0, . . . , 0} ] ! 4[ 0|, . . .{,z1, . .}. ][ |0, . . .{,z1, . .}. ]5
-
-100001000 dim q  u vecotr
-
-1000dim hash table 1000 dim hash table
-
-· sta-s-cs  
-2
-
-[ |0, 0, . . . , 0{,z1, 0, . . . , 0} ] ! 4 |0{.z4}
-
-100001000 dim q  u vecotr
-
-historic CTR
-
-· ?  
-
-3 |1{0z3} · · · 5
-historic show
-
-:  LogisIc  Regression  
-
-·    
-­   x ctr w  
-
-  
-
-ctr =
-
-1
->
-
-  
-
-1 + exp( w x)
-
-·   
-
-­    (x1, y1), . . . , (xn, yn)
-· X:     · Y:  {--1,+1}      ,    --1:   ,  +1  
-
-X n
-
-­    mwin
-
->
-ln(1 + exp( w xiyi)
-
-i=1
-
-:  LogisIc  Regression  
-
-·   
-
-­   
-
-  
-
-X n
-
-  
-
-mwin ln(1 + exp(
-i=1
-
-  
-
-·   
-
->
-w
-
-xi
-
-yi
-
-)
-
-+
-
-C
-
-kwk1
-
-X d
-
- kwk1 =
-
-|wj |
-
-j =1
-
-w  t
-
-wt 1 tdt  dt :  ()
-
-­ LBFGS:    1st  Hessian   ­ :     ­ (SGD):      
-
-w = [w1, . . . , wd]
-
-
-
-  
-Ø  
-Ø  
-
-  
-Ø  
-Ø  
-
-&  
-Ø  
-Ø  
-
-Outline
-·    ·    · CTR   ·   
-
-· CTR    
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-·site
-
-·Site--Ad
-
-·Ad
-
-·Site--hour
-
-·hour
-
-·Ad--cookie
-
-·Cookie
-
-·......
-
-·......
-
-  
-
-­ LR  
-
-­
-
-N   2N -1
-
-
-
-C
-
-1 N
-
-+
-
-C
-
-2 N
-
-+
-
-C
-
-3 N
-
-+
-
-...
-
-+
-
-C
-
-N N
-
--1
-
-­   
-
-Ø   
-
-
-
-·   
-­    ­   
-· DANOVA:      
-
-Site-AdCookie...
-  
-Site-Ad,  SiteHour,  ...
-Site,  Ad,  Hour,   Cookie,  ...
-
-      ......  
-
-·   
-­    ­ CTRCPM  
-
-Outline
-·    ·    · CTR   ·   
-
-  
-
-        
-:  40%+     
-
-     
-
-Yahoo,  Facebook,     Microso_,  etc.  
-
-:  10%+     
-
-        
-
-Google,  Baidu,  etc.  
-
-  
-20%  
-
-
-
-
-
-        
-  
-
-     
-Google,   Baidu,  
-etc.  
-
-Thanks
-
-

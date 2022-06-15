@@ -1,160 +1,0 @@
- 
-UnicornTeam 
-
-
-
-
-
-
-
-
-
-
-
-
-IC
-
-IC
-
-
-
-
-·  ·  · ADS-B
-
-----SDR
-
-----SDR
-
-RTL-SDR
-
-
-
-52M ­ 2.2 GHz
-
-   
-
-2.56MS/s  8-bit $20
-
-H a c k R F bladeRF x40 U S R P
-
-One
-
-B200mini
-
-1M ­ 6GHz 300M ­3.8GHz 70M ­ 6GHz
-
-20 MS/s  8-bit $300
-
-40MS/s  12-bit $420
-
-56MS/s  12-bit $675
-
-
-SDR 
- 
-
-
- 
-
-
-
- HDSDR
-
-
-Audacity
-
-
-2
-
-1.5
-
-1
-
-0.5
-
-0
-
--0.5
-
-MATLAB
-
--1
-
-0
-
-0.5
-
-1
-
-1.5
-
-2
-
-2.5
-
-3
-
-3.5
-
-x 104
-
-
-
-Gnuradio
-
-
-
-Chronos
-
-
-
-
-
-
-SDR 
- 
-
-
- 
-
-
-·  433.92MHz · FM · 9.6Kbps
-
-
-·  + 
-
-
-· 11 · LSB · CRC = 68
-
-
-
-
-
-
-
-
-
-
-
-
-·  
-· 
-
-ADS-B
-
-PPM
-
-ADS-B
-
-ADS-B
-
-
-
-http://www.flightradar24.com
-
-......
-www.ichunqiu.com
-
-Thanks & Join us
-
-

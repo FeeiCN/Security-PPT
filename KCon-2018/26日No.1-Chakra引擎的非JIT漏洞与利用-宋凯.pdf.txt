@@ -1,402 +1,0 @@
-0
- KaiSong (exp-sky) Tencent Security Xuanwu Lab
-
-WHO AM I
-$##$%  %$& '& ' '  
-#!'$# # #!'$#$&#%)#$# ! ("$)
-
-1Chakra vulnerability 2Bypass ASLR & DEP
-3Bypass CFG 4Bypass CIG 5Bypass ACG 6Exploit 7Q&A
-
-
-CONTENTS
-
-The vulnerability was discovered on May 31, 2016. The vulnerability was fixed in February 2017.
-
-NativeIntArray struct :
-
-NativeIntArrayHead length head
-
-Segment : left
-length size
-Next segment
-Buffer
-
-Segment : left
-length size
-Next segment
-Buffer
-
-NativeIntArray struct :
-
-Make var_Array_1 object reach a special state. Make var_Array_1->length smaller.
-
-Make var_Array_1 object reach a special state.
-
-Array.length < (head.next.left + head.next.length)
-
-0x2e
-
-< (0x03d2
-
-+ 0x2e)
-
-NativeIntArrayHead Length:0x0000002e
-head
-
-Segment : head Left:0x00000000
-Length:0x00000000 Size:0x00000012
-Next segment
-Buffer:0x00000012*4
-
-Segment : head.next Left:0x000003d2
-Length:0x0000002e Size:0x0000002e
-Next segment
-Buffer:0x0000002e*4
-
-Make var_Array_1 object reach a special state.
-
-Array.length < (head.next.left + head.next.length)
-
-0x2e
-
-< (0x03d2
-
-+ 0x2e)
-
-Make var_Array_1 object reach a special state.
-
-Callback function causes length to be modified. But the ReverseHelper function still uses the old length.
-
-Make var_Array_1 object reach a special state.
-
-Array.length < (head.next.left + head.next.length)
-
-0x2e
-
-< (0x03d2
-
-+ 0x2e)
-
-NativeIntArrayHead Length:0x0000002e
-head
-
-Segment : head Left:0x00000000
-Length:0x00000000 Size:0x00000012
-Next segment
-Buffer:0x00000012*4
-
-Segment : head.next Left:0x000003d2
-Length:0x0000002e Size:0x0000002e
-Next segment
-Buffer:0x0000002e*4
-
-step 1 Make var_Array_1->head.size smaller.
-
-step 1 var_Array_1->head.size : 0x2e -> 0x23 var_Array_1->head.size : 0x23 < var_Array_1->head.length : 0x2e
-
-NativeIntArrayHead Length:0x0000002e
-head
-
-Segment : head Left:0x00000000
-Length:0x0000002e Size:0x00000023
-Next segment
-Buffer:0x0000002e*4
-
-Segment : head.next Left:0x00000023
-Length:0x0000000b Size:0x00000012
-Next segment
-Buffer:0x00000012*4
-
-step 1 var_Array_1->head.size : 0x2e -> 0x23 var_Array_1->head.size : 0x23 < var_Array_1->head.length : 0x2e
-
-step 1 seg->left = 0 seg->EnsureSizeInBound() : seg.size = 0x23
-
-step 1 Min(Next->left, Size) - Min(0x2e, 0x23)
-
-step 1 var_Array_1->head.size : 0x2e -> 0x23 var_Array_1->head.size : 0x23 < var_Array_1->head.length : 0x2e
-
-NativeIntArrayHead Length:0x0000002e
-head
-
-Segment : head Left:0x00000000
-Length:0x0000002e Size:0x00000023
-Next segment
-Buffer:0x0000002e*4
-
-Segment : head.next Left:0x00000023
-Length:0x0000000b Size:0x00000012
-Next segment
-Buffer:0x00000012*4
-
-Step 2 Create OOB
-
-Step 2 ConvertToJavascriptArray : Create new segment Seg.buffer = 0x23 * 0x08, Seg.length = 0x2e
-
-JavascriptArrayHead Length:0x0000002e
-head
-
-Segment : head OOB Left:0x00000000
-Length:0x0000002e Size:0x00000023
-Next segment
-Buffer:0x00000023*8
-OOB : 0x0b*0x08
-
-Segment : head.next Left:0x00000023
-Length:0x0000000b Size:0x00000011
-Next segment
-Buffer:0x00000011*4
-
-Step 2 Seg.buffer = 0x23 * 0x08; Seg.length = 0x2e;
-
-Step 3 Segment layout
-
-Array 1 Segment : head Left:0x00000000
-Length:0x0000002e Size:0x00000023
-Next segment
-Buffer:0x00000023*8
-Array 2 Segment : head Left:0x00000023
-Length:0x0000000b Size:0x23
-
-OOB Write
-
-Step 3 Segment layout and segment OOB
-
-Step 4 Edit var_Array_2.head.size
-
-Array 1 Segment : head Left:0x00000000
-Length:0x0000002e Size:0x00000023
-Next segment
-Buffer:0x00000023*8
-Array 2 Segment : head Left:0x00000023
-Length:0x0000000b Size:0xffffffff
-
-OOB Write
-
-Step 4 Edit var_Array_2.head.size
-
-Array 1 Segment : head Left:0x00000000
-Length:0x0000002e Size:0x00000023
-Next segment
-Buffer:0x00000023*8
-Array 2 Segment : head Left:0x00000023
-Length:0x0000000b Size:0xffffffff
-
-Segment : head.next Left:0x00000023
-Length:0x0000000b Size:0x00000011
-Next segment 0x7fffffff
-Buffer:0x00000011*4
-
-Step 5 var_Array_2 OOB r/w
-
-Array 2 Segment : head Left:0x00000000
-Length:0x0000000b Size:0xffffffff
-Next segment
-Buffer:0x00000023*8
-
-OOB 0xffffffff * 8
-
-Step 5 var_Array_2 OOB r/w
-
-Step 6 Fill Memory r/w Inline Head Edit NativeIntArray.length,
-NativeIntArray.head.length, NativeIntArray.size
-
-Step 6 Fill Memory r/w Inline Head Edit NativeIntArray.length,
-NativeIntArray.head.length, NativeIntArray.size
-
-out of bound memory read/write
-
-memory
-OOB segment NativeIntArray
-object
-
-edit array.length array.head.size array.head.length
-
-Step 6 Fill Memory r/w DataView
-
-Step 6 Fill Memory r/w DataView
-
-Step 6 Fill Memory r/w DataView
-
-Step 6 Fill Memory r/w DataView
-
-Step 6 Fill Memory r/w DataView
-
-1Chakra vulnerability 2Bypass ASLR & DEP
-3Bypass CFG 4Bypass CIG 5Bypass ACG 6Exploit 7Q&A
-
-
-CONTENTS
-
-Module address and object address
-
-Module address and object address
-
-ROPVirtualProtectVirtualAlloc
-
-BB C : EC . C BB C 1 B BB C CE I OC
-C 6 I CA
-BB C : EC . C BB C 1 B BB C CE I OC
-C 6 I CA
-
-(D>C( A MGI (D>C( (D>C( D >D
-
-)
-
-G.!
-
-414 5443
-
-6 21 1 0 3 1
-
-(D>C( A MGI (D>C( (D>C( D >D
-
-)
-
-G.!
-
-414 5443
-
-6 21 1<1 : 1 1 0 3 1
-
-1Chakra vulnerability 2Bypass ASLR & DEP
-3Bypass CFG 4Bypass CIG 5Bypass ACG 6Exploit 7Q&A
-
-
-CONTENTS
-
-Control Flow Guard (CFG)
-
-;=C 4 ! 4 /
-
-::
-
-= A4
-
-/
-
-;=C ;=C ;=C
-:: ;=C
-::
-
-4!4/
-
-4!4
-
-/ 4 C A : A=
-
-4 !4
-
-000 0 4 0 ::0 A A ::
-
-4 !4
-
-4
-
-: A4, 4 ::+ 4A
-
-Control Flow Guard (CFG)
-
-bitmap
-index offset : data [0x0077b960] 0x01dee58c : 0x55555555 [0x0077b964] 0x01dee590 : 0x30010555 [0x0077b968] 0x01dee594 : 0x04541041 ...
-
-bt : 0x30010555&0x400 != 0 00000100 00000000 = 0x400
-01010 = 0x0a = 10
-
-Function address : 0x77b96450 0x77b96450 : [01110111 10111001 01100100 01010000]
-
-Leak stack address
-
-Finding the return address of a specific function.
-
-Modify the function's return address.
-
-Control RIP.
-
-1Chakra vulnerability 2Bypass ASLR & DEP
-3Bypass CFG 4Bypass CIG 5Bypass ACG 6Exploit 7Q&A
-
-
-CONTENTS
-
-Code Integrity Guard (CIG) Only properly signed DLLs are allowed to load by a process
-
-us-14-Yu-Write-Once-Pwn-Anywhere
-
-"LoadLibrary" in ShellCode Load DLL file into Memory Parse PE header Reload sections Fix Import Table Rebase
-
-Elevation of privilege is Quite Complex Shellcode reusable Increase privileges and Escape SandBox can be in a DLL
-
-1Chakra vulnerability 2Bypass ASLR & DEP
-3Bypass CFG 4Bypass CIG 5Bypass ACG 6Exploit 7Q&A
-
-
-CONTENTS
-
-Two general ways load malicious native code into memory Load malicious DLL/EXE from disk Dynamic generate code
-CIG block the first way Only properly signed DLLs are allowed to load by a process Child process can not be created (Windows 10 1607)
-ACG block the second way Code pages are immutable New, unsigned code cannot be created
-
-Arbitrary Code Guard(ACG)
-
-Leverage valid signed code in an unintended way ROP (Return oriented programming)
-It could construct a full payload
-
-Call API Function
-
-Example No need of shellcode Just like C code
-
-Example No need of shellcode Just like C code
-
-1Chakra vulnerability 2Bypass ASLR & DEP
-3Bypass CFG 4Bypass CIG 5Bypass ACG 6Exploit 7Q&A
-
-
-CONTENTS
-
-
-Demo
-
-1Chakra vulnerability 2Bypass ASLR & DEP
-3Bypass CFG 4Bypass CIG 5Bypass ACG 6Exploit 7Q&A
-
-
-CONTENTS
-
-
- 
-https://scsc.xlab.qq.com/ 9RN$?EMObW8*Q1[Qb4'9RN* \L&7GJ$_aJS?E(-
-XN#J J$_ab^.3" ,R#=KJ$P`b0-JN=V?E_ab
-)U-JN%B<FD )>MO 5J:6bY2C YH>MO?E-J9RNI+bAZ/A!]T ; 100@J?E
-
-
- 
-https://scsc.xlab.qq.com/ 9RN$?EMObW8*Q1[Qb4'9RN* \L&7GJ$_aJS?E(-
-XN#J J$_ab^.3" ,R#=KJ$P`b0-JN=V?E_ab
-)U-JN%B<FD )>MO 5J:6bY2C YH>MO?E-J9RNI+bAZ/A!]T ; 100@J?E
-
-
-
-F
-
-H 9F O
-
-E
-
-# 57 # 87 F 0 80 9 F 819 N 8 E 8 8- M F H
-
-H : OF O EE
-
-N#
-
-E 9 F 9 : 9 Q F9 N
-
-M F .O/
-
-H
-
-H B R : H E # :QH9 F E 9 F :Q 9 9 C F B E
-
-23
-
-

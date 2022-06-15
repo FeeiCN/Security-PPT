@@ -1,231 +1,0 @@
---Android  QQ    
--  
-
-ØQQ   Ø   Ø     ØHttpDns-   Ø  
-
-QQ
-
- 
-
-SNS  
-
- OOM
-
- 
-
- UP
-
-DTS
-
- 
-
- QRC 
-
-MV 
-
-FLACAPE 
-
-
-
-² 12 ² 15 ² 300 ² 140
-
-
-
-QQ  
-
-·    ·    ·    ·    · 
-
-
-
-  
-
-  
-
-   UI  
-
-  
-
-.......  
-
-
-
- 
-
-  
-
-
-
-  
-
-     
-
-    
-
-     
-
-      DB        
-
-  
-
-  ­    
-
- 1. 2.
- 1. 2. 3.
-
- 1.  2. 3. 
- 1.  2. 3. 4.BUG
-
- 1.
-2.
-3.DB(100 010+s -> 3s) 4. 
- 1. (android) 2./
-
-Ø     Ø     Ø    
-
-·    ·    ·    ·   
-
-  
-
-W\A\D  
-
-R   READ  
-
-  
-
-  
-
-()  
-
-Sync  
-
-  
-
-      ()     
-
-WriteDBTaskManager  
-
-                 
-  
-
-u/w/   a/d  
-
-SongTable  
-
-DBAdapter   FolderSongtable   FolderTable  
-
-UI/   (ConcreteWatcher)  
-
-      <<interface>>   Watcher     
-           (Subject)     
-  
-
-            (ConcreteWatcher  
-/ConcreteSubject)              
-
-         (Subject)     
-        <<interface>>   Watcher     
-  
-
-         (ConcreteWatcher   /ConcreteSubject)        
-               
-
-
-
-  
-
-  
-
-
-
-  
-   
-
-  
-   
-
-
-    
-   
-
-·                  
-   ·   
-                   
-
-APP     
-
-  
-
-Interface   /  
-   QQMusicPlayer  
-   QQMediaplayer  
-
-   NormalPlayer  
-  
-
-   Vkey  
-     
-      PCM   AudioOutput  
-
-  
-
-     
-
-  
-
-  
-
-   OnlinePlayer  
-
-UrlPlayer   LocalPlayer  
-
-   QQMediaplayer  
-
-  
-
-   
-
-·                                        · PCM             ·   
-bionic  C CPU/
-neon
-
-Java  
-
-  
-
-  
-
-  
-
-JNI    
-   Aac.o   flac.o  
-...  
-
-PCM  Buffer     (DTS)   AudioTrack  
-
-Native  C  
-
-Java  
-
-APE  
-
-HttpDns-  
-
-·    ·  · 
-
-    
-
-·   
-­    ­    ­ 
-
-·   
-­    ­    ­   
-·   
-­ () ­    ­ 
-
-  
-
-@InfoQ  
-
-infoqchina  
-
-

@@ -1,330 +1,0 @@
- -
-Tony Wang () CHFIECIHISO27001 LA
-1
-
-
-
-  
-
-
-2/xx
-
-2
-
-
-
-
-
-3/xx
-
-3
-
-
-
-
-
-4/xx
-
-4
-
-()
-
-Symantec
-
-5/xx
-
-5
-
-??
-
-
-6/xx
-
-6
-
-?
-· 100%
-
-7/xx
-
-7
-
-
-· http://esupport.trendmicro.com/solution/zh-TW/1114221.aspx
-8/xx
-
-
-
-9/xx
-
-9
-
-()
-
-10/xx
-
-10
-
-
-
-IThome
-
-11/xx
-
-11
-
-()
-
-12/xx
-
-12
-
-?
-
-13/xx
-
-13
-
-!!
-
-14/xx
-
-14
-
-
-
-  
-
-
-15/xx
-
-15
-
-() 
-
-
-
-16/xx
-
-16
-
-
-
-
-
-17/xx
-
-17
-
-
-
-
-
-18/xx
-
-18
-
-()
- · 
--  · 
--  -  ·  - browser - Java/Flash · 
-
-19/xx
-
-19
-
-..
-· "" ·  · !! ·  (ex: .doc .docm.docx.dwg
-.jpg.bmp.xlsxlsx..........)
-
-20/xx
-
-20
-
-
-1.  
-2.  3.  
-21/xx
-
-
-
-  
-
-
-22/xx
-
-22
-
--
-·  ­  ­  ­ 
-23/xx
-
-(Java Script)
-
-24/xx
-
-24
-
-(Document Exploit)
-
-
-
-25/xx
-
-25
-
-!!
-
-26/xx
-
-26
-
--
-
-
-
-27/xx
-
-27
-
-
-
-28/xx
-
-28
-
-
-·  ­  ()
-·  ­  ­ 
-·  ­ 
-iFrame  
-
-29/xx
-
-
-
-30/xx
-
-30
-
--Flash
-
-
-
-31/xx
-
-31
-
-Flash 
-
-blog.malwarebytes.com
-
-32/xx
-
-32
-
-Flash 
-
-IThome
-
-33/xx
-
-33
-
-Flash 
-
-IThome
-
-34/xx
-
-34
-
-?
-
-http://technews.tw/2016/01/05/316-flash-bugs-discovered-and-fixed-this-year/
-
-35/xx
-
-35
-
-
-
-  
-
-
-36/xx
-
-36
-
-
-1. -IE/Flash( ) /Java/Windows update -  (Firefox Chrome)
-2.  3. UAC 4. 
--  -  () 5.  6. 
-
-37/xx
-
-37
-
-
-·  · Pc-cillin
-
-38/xx
-
-38
-
-
-
-39/xx
-
-39
-
-
-
-40/xx
-
-40
-
-2T
-
-41/xx
-
-41
-
-
-1. : - Flash AD-GPO/Flash msi () - IE, 
-2.  - UAC  - (ex: FirefoxChrome ...) - 
-3.  -  () -  () -  () - 
-
-42/xx
-
-42
-
--
-·  -  -  -  (EXEJSSCR..)
-·  - ()  
-
-43/xx
-
-43
-
--
-· //IPS -  -  - URL  -  (ex: IE...)
-
-44/xx
-
-44
-
-......
- 
-
-45/xx
-
-45
-
-Thank You 
-
-46/xx
-
-4466
-
-

@@ -1,18 +1,0 @@
-www.reservoir.com
-
-CP Tensor Decomposition Tensor is decomposed into a non-unique weighted sum of a pre-defined number of rank-1 components
-
-· · ·
-· · · · · ·
-
-· · · · · · · · ·
-
-1 13
-86
-New components Unaltered components Updated components
-
-·
-
-·
-
-

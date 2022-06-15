@@ -1,69 +1,0 @@
-  ·    ·    
-TalkingData  
-
-FURY ROAD TO NG DATA PLATFORM
-YC Huang @ TalkingData 2015-09-11
-
-Common data work flow
-DATA
-
-Next-generation data platform?
-CCOLLABORATIVE
-
-Next-generation data platform?
-I ITERATIVE
-
-Next-generation data platform?
-I INTERACTIVE
-
-Next-generation data platform?
-EEXPRESSIVE
-
-Next-generation data platform?
-I INTELLIGENT
-
-Technical challenges
-CCROSS
-
-Technical challenges
-MMETA DATA
-
-Technical challenges
-HHYBRID
-
-Technical challenges
-SSPEED
-
-Technical challenges
-VVISUALIZATION
-
-Technical challenges
-EEFFICIENCY
-
-Technical challenges
-OOPERATION
-
-What we tried/ing
-CCODELESS / 
-
-What we tried/ing
-DDATA CATALOG
-
-What we tried/ing
-HHOME BREWED OLAP
-
-What we tried/ing
-SSAMPLING
-
-What we tried/ing
-MML AS A SERVICE
-
-What we tried/ing
-DDATA FLOW
-
-What we tried/ing
-CCONTAINER
-
-Q&A
-
-

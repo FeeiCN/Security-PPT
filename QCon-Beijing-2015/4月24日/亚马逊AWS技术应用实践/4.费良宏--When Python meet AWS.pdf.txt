@@ -1,127 +1,0 @@
-" We're going to move your hub, the center of your digital life, into the CLOUD ...If you don't think we're serious about this, you're wrong. "
-
- Steve Jobs, WWDC 2011
-
-32
-
-" Gifts are easy ... Choices can be hard ... In the end, we are our choices.
-Build yourself a great story."
- Jeff Bezos, 2010
-
-PYTHON  AMAZON
- 
- , AWS EVANGELIST / 2015.04
-
-PYTHON 
- (Guido van Rossum) / 1991 (TIBOE)8 / 20154 
-Google, Youtube, Instagram, Pinterest, Bing, Reddit, Etsy, Dropbox, Quora, Yelp, Friendfeed, Trulia, Hunch, Blogger and Rdio...
-
-Autodesk Maya, GIMP, BitTorrent, Blender 3D, Cinema 4D, Dropbox, OpenStack, YUM, OpenERP, Civilization IV, Matplotlib, FreeCAD, MySQL Workbench, Nuke...
-
- PYTHON
-
-" Python allows us to produce maintainable features in record times, with a minimum of developers."  Cuong Do, Software Architect, Youtube
-
-Python 2 vs Python 3, Significant whitespace, Performance, Global Interpreter Lock(GIL)...
-
-PYTHON
-                 
-- import this (PEP 20)
-
-PYTHON
-  
-    
- 
-- Bruce Eckle, "Why I Love Python"
-
-PYTHON
-import urllib.request from bs4 import BeautifulSoup as bs4 htmlfile = urllib.request.urlopen("http://finance.yahoo.com/q?s=AMZN") htmltext = htmlfile.read() soup = bs4(htmltext) for price in soup.find_all(id="yfs_l84_amzn"):
-print (price)
-
- PYTHON 
-
-YELP
-
-YELP
-
-YELP
-
-MRJOB
-
-NETFLIX
-
-NETFLIXPYTHON
- https://netflix.github.com/
-
-PYTHONAMAZON WEB SERVICE ...
-Boto
-
-BOTO
- Boto -  Python  AWS SDK   Botto 2 (Stable), Boto 3 (Preview)  -  40+ AWS  (S3, EC2, EMR...)
-
-BOTO 3 
- Python 2 & Python 3  AWS    API  Boto 2   Boto 2  Apache
-
-BOTO 3 
-(Resource) -  (Collection) -  (Clients)   (Paginators) -  (Waiters) -  Botocore - AWS CLI  
-
-BOTO 3 
-
-BOTO 3 
-
-BOTO 3 
- https://github.com/boto/boto3sample
-
-BOTO 3 
-AWS Elastic Transcoder requires configuration AWS S3 bucket for input AWS S3 bucket for output AWS SNS topic for notifications IAM role for access Transcoding pipeline Transcoding job
-
-BOTO 3 &
-
-BOTO 3 AWS S3 
-
-BOTO 3 AWS S3 
-
-BOTO 3 AWS SNS TOPIC
-
-BOTO 3 AWS SQS QUEUE
-
-BOTO 3 AWS IAM ROLE
-
-BOTO 3 AWS TRANSCODING PIPELINE
-
-BOTO 3 AWS TRANSCODING JOB
-
- PYTHON 
-
-
-
-iPython, http://ipython.org/
-
-Numpy, http://www.numpy.org/
-
-Pandas, http://pandas.pydata.org/
-
-Scipy, http://www.scipy.org/
-
-Matplotlib, http://matplotlib.org/
-
-
-
-Scikit-learn, http://scikit-
-
-learn.org/stable/index.html
-
-Web 
-
-Scrapy, http://http://scrapy.org/
-
-Web 
-
-Flask, http://flask.pocoo.org/
-
-...
-
-
--  Amazon Web Services -  Boto 
-
-

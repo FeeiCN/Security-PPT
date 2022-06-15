@@ -1,357 +1,0 @@
- DRC
-   ----  11571
-
-
-·     ·    · DRCdata  replica2on  center            ·   
-
-Agenda
-· DRC   · DRC   · DRC   · DRC  
-
-
-
-1RDS
-
-RDS
-
-replica(on
-
-RDS
-
-2
-...
-
-3
-APP ...
- 
-...
-...
-
- 
-
-DRC
-
-DRC
-Data  Replica(on  Center  
-       
-
-DRC
-DRC  region  manager
-
-
-
-DRC  cluster  manager
-
-
-
-Master  DB Slave  DB
-
-DRC  Store   data
-DRC  Store DRC  slave  store DRC  distributed  data
-
-DRC  Congo   DRC  SDK  
-
-Master  DB Slave  DB
-
-
-
-
-
-DRC
-·    ·   
-
-DRC
-
-
-
-1           
-
-1                    
-/   
-
-2           
-
-  
-     
-
-   ·   ·   ·  
-
-2     
-3      4                 
-/
-
-3 /
-4   /
-
-
-
-
-              
-
-               
-  
-
-
-              
-
- 
- 
-
-              
-
-
-
-
-
-
-
-     
-
-1 ­ 
-
-  
-
-  
-
-  
-
-  
-
-  
-
-Store
-
-  
-
-  
-
- 100%  
-
-  
-
-  
-
-Congo
-
-  
-
-  
-
-  
-
- 100%  
-
-   
-
-2 ­ 
-
-1--N%   N%  
-
-               100%  
-
-Store Congo
-
-Congo Store
-
-   
-
-               100%  
-
-DRC
-  
-
-
-·    ·    ·    ·   
-
-commit Binlog
-
-Store
-
-Congo
-
-
-5~100ms 1~5ms 0.2ms
-150ms
-
-
-
-commit
-
-·    · DDL   ·    ·   
-
-Binlog
-
-Store
-
-Congo
-
-
-·    ·    ·    ·    ·    ·   
-
-Cluster   Manager
-
-Zookeeper
-
-SSttoorree
-
-CCoonnggoo
-
-Distributed   data
-Slave  Store
-DRC  reloader
-
-DRC  monitor
-
-2014
-2000+   100TB  
-30+GB      17000+  
-
-2014
-
-DRC
-
-   571
-
-   1
-
-   10000  
-
-
-2   11
-
-DRC
-
-10   
-
-DRC
-
-
-
-         Store    Store    Zone1
-DRC
-Congo    Congo         
-Zone3
-
-     
-Paxo  s/DRC
-      Region1
-Region2
-
-         Congo    Congo    Zone2  
-
-
-
-Store 
-
-               Sto   re             Region1
-
-Store
-
-
-
-
-
-Store
-Slave   store
-
-     
-     
-   Sto  re
-Sla v  e   sto  re
-  
-  
-Region2
-
-Store
-Slave   store
-
-
-
-
-
-DRC
-
-
-· 201450%RDS   · +  
-
- ---- DTS
-
-
-
-MySQL
-
-mysqldump
-
-mysqlimport
-
-25--page  document
-
-Oracle
-
-/
-
-SQL  Loader
-
-7--page  document
-
-SQL  Server Import/Export
-
-Bulk  Copy  Program
-
-10--page  document
-
-PostgreSQL pg_dump
-
-3--page  document
-
-
-Data  Transforma(on  Service  
-·    ·    ·    ·   
-
-
-
-· RDS  replica2on   · DRCRDSRDS   ·   
-· RDS7*24  
-
-RDS
-
-DRC
-10%
-
-RDS
-
-
-
-· RDSDRDS  
-· SDK  
-·    ·   
-·   
-· Open  search   · CDP   · DRDS   ·   
-·   
-
-RDS  
-
-DRDS  
-
-  
-
-  
-
-  
-
-  
-
-DRC  store DRC  SDK
-
-
-ECS   APP  
-DRDS   RDS   OCS   OTS  
-
-
-DRC DRC  SDK 
-
-KVStore   OSS   ODPS   ADS   CDP   Open  search   ONS   MQS  
-
-
-      Email:    cuiyun.fcy@alibaba--inc.com
-
-

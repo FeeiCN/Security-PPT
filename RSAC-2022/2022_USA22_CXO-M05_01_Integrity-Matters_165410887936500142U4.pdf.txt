@@ -1,40 +1,0 @@
-#RSAC
-
-SESSION ID: CXO-M05
-Integrity Matters
-
-MODERATOR: Malcolm Harkins Chief Security & Trust Officer Epiphany Systems @ProtectToEnable
-PANELISTS: Juan Gomez-Sanchez VP & Global Info Security Officer Whirlpool Corporation
-
-Jerry Davis VP & Chief Security Officer Pacific Gas & Electric
-
-Pamela Fusco Founder CBG and ZuluTails
-
-#RSAC
-Disclaimer
-Presentations are intended for educational purposes only and do not replace independent professional judgment. Statements of fact and opinions expressed are those of the presenters individually and, unless expressly stated to the contrary, are not the opinion or position of RSA Conference LLC or any other cosponsors. RSA Conference does not endorse or approve, and assumes no responsibility for, the content, accuracy or completeness of the information presented. Attendees should note that sessions may be audio- or video-recorded and may be published in various media, including print, audio and video formats without further notice. The presentation template and any media capture are subject to copyright protection.
-©2022 RSA Conference LLC or its affiliates. The RSA Conference logo and other trademarks are proprietary. All rights reserved.
-2
-
-#RSAC
-Some Data to Consider
-61% of corporate directors would compromise on information security for the sake of a business objective
-Dec 2019 ­ National Association of Corp Directors (NACD)
-84% of business leaders were confident in their information security posture, but only 31% of security staff surveyed had confidence
-Oct 2020 - ISACA
-
-#RSAC
-Oct 2020 ­ over 100 survey responses
-76% of us have felt some sort of pressure, either self-imposed or initiated by others, to under-report the reality of a security risk
-
-#RSAC
-Key Take Aways
-Facts are our friend in these moments. We need to "talk to our tribe" so we can calibrate with trusted peers inside and outside our organizations to gain additional perspectives. Ethical decision making is a requirement of leadership, a deliberate commitment. It is supposed to feel uncomfortable and if it does not then you are not doing it the right way. Ethical decision making requires us to have the humility to recognize we are all vulnerable to dilemmas and we all suffer from blind spots that can impact our true understanding of risk. Create a protocol to follow when we must walk up the management chain (including to the board of directors), to address risk issues. We need to leverage our own codes of ethics and our broader organizational DNA to navigate what is right and wrong.
-
-#RSAC
-One last thing ..
-Be ready to walk away, putting our badge on the table if necessary, knowing you did all you could do.
-Such action, while unfortunate, has been taken by many of us.
-Juan, Pamela, Jerry, and I can assure you will always end up in a better place with your integrity and the integrity of the CISO/CSO role intact when you do the right thing.
-
-

@@ -1,162 +1,0 @@
-
-
-
-
-
-
-@XiaoJunHong @
-
-· 
-o  ­ OpenVMS
-uptimes-project.org 2013712
-
-· 
-o  ­ 
-youtube
-
-· 
-o  o  o 
-
-· 
-o  o  o  o bug o "" o .......
-
-· 
-o Design For Failure o 
-
-·  ­ Design For Failure
-o  o SLA o 
-
-·  ­ 
-
-weibo.com
-
-weibo.cn
-
-api.weibo.com
-
-DNS
-
-NginxVarnish...
-
-TomcatJetty...
-
-
-
-
-
-CacheStorage...
-
-·  ­ 
-       
-
-·  ­ 
-
-o  |  o 
-
-DNS   | 
-
-
-    
-
-· SLA
-o SLA o SLA
-
-· SLA ­ 
-o  o 
-
-· SLA ­ 
-o  o 
-
-· SLA ­ 
-o  o  o  o 30% o 
-
-· SLA ­ Failover
-o  o  o 
-
-· SLA
-o  o  o  o Failover
-
-·  ­ 
-o IDC o  o  o 
-
-· 
-   
-OR
-
-·  ­ Touchstone
-o Design For Failure o 
-  
-
-· Touchstone
-o  o  o  o 
-
-Client Server Resource
-
-· 
-o tcpcopy
-tcpcopy
-
-· 
-
-3
-
-2
-
-1
-
-Client
-
-Server
-
-Resource
-
-o 
-
-o linux tc
-
-o sleep
-
-· 
-o  o  o 
-
-· 
-o 
-o 4xx5xx o  o SLA o  o  o ......
-o 
-
-· Touchstone ­ 
-
-· Touchstone ­ 
-
-
-
-· 
-o 400ms2s
-
-
-· 
-o 
-o 
-o  o  o  o SLA
-
-· 
-o tomcat503 o  o 
-
-· 
-o mysql slave 
-o slave
-
-· Touchstone
-o  o  o 
-
-· 
-o  o 
-
-· 
-o copy o  o  o  o 
-
-QA
-
-@ @XiaoJunHong xiaojun2@staff.sina.com.cn
-
-

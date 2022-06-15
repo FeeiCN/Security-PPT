@@ -1,144 +1,0 @@
-Lesser Known Phantom Features
-Phantom Product Management Team
-Kavita Varadarajan Sam Hays Philip Royer
-
-Forward-Looking Statements
-
-© 2019 SPLUNK INC.
-
-During the course of this presentation, we may make forward-looking statements regarding future events or the expected performance of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results could differ materially. For important factors that may cause actual results to differ from those contained in our forward-looking statements, please review our filings with the SEC.
-The forward-looking statements made in this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, this presentation may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements we may make. In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionality described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Listen to Your Data, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-Outline
-This is where the subtitle goes
-I  ntros - 2 mins
- Case Management Features - 15 mins · Aggregation - Kavita - 3 mins · Workbooks - Sam - 7 mins - video · Repeat Action, Undo Action ­ Phil - 2 mins · Kicking off a Playbook from Slack ­ Phil - 2 mins - video · Updated HUD function
- Playbook Features · Same action, switch apps - Phil - 3 mins
- Community - Sam - 10 mins · Growing the Community · Top community feature requests · Reusable Custom Functions · Open Sourcing Apps
-
-© 2019 SPLUNK INC.
-
-Agenda
-· Introductions · Case Management Features · Playbook Features · Community Update
-
-© 2019 SPLUNK INC.
-
-Case Management
-Features for Creatures
-
-© 2019 SPLUNK INC.
-
-Aggregation
-This is where the subtitle goes
-
-© 2019 SPLUNK INC.
-
-Workbooks
-Directing Human Action
-
-© 2019 SPLUNK INC.
-
-Workbooks
-Directing Human Action
-
-© 2019 SPLUNK INC.
-
-Workbooks
-Directing Human Action
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Set-up Workbook Video
-
-© 2019 SPLUNK INC.
-Use Workbook Video
-
-Repeat Action, Undo Action
-This is where the subtitle goes
-
-© 2019 SPLUNK INC.
-
-Slack Integration
-Flexible Chatbot Commands
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Slack Integration Video
-
-HUD
-
-© 2019 SPLUNK INC.
-
-HUD
-Container
-
-© 2019 SPLUNK INC.
-
-HUD
-Preset Metrics
-
-© 2019 SPLUNK INC.
-
-HUD
-Label
-
-© 2019 SPLUNK INC.
-
-HUD
-Global
-
-© 2019 SPLUNK INC.
-
-Playbook Features
-Automation Innovation
-
-© 2019 SPLUNK INC.
-
-Multi-App Actions
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Data Management
-in Custom Code
-Playbooks
-
- Sometimes no substitute for custom code  Global scope usage is discouraged, so how should
-data be persisted across action calls?
- save_data()  simple, permanent, key-based string storage
- save_run_data()  temporary playbook execution data
- save_object()  context-linked by either event or playbook  can be auto-deleted when event is closed  wildcard _ and % patterns
- action and playbook handle  maintain state across a single action or sub-playbook call
-
-Using a "handle" with phantom.act()
-
-© 2019 SPLUNK INC.
-
-handle
-Action Run
-handle
-
-Building Community
-Nation of Automation
-
-© 2019 SPLUNK INC.
-
-What are we doing in Community?
-... and how you can be part of it!
-· Increasing communication via our Slack community
-­ Surveys & Polls
-o Open Sourcing or our Apps is a direct consequence of this o Some features are in the roadmap because of this
-­ Social Media Experimentation
-o Reddit AMA o Slack AMA
-­ Playbook use-case review with engineering ­ Video Content on my.phantom.us site ­ Contributing to Answers (validated_best-practices tag) ­ Upcoming Events...
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Thank You!
-
-

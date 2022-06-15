@@ -1,224 +1,0 @@
-
-
- 
-
-
-· "" · OWLQNCPUGPU
-Confidential & Proprietary
-
-""
-
-
-Confidential & Proprietary
-
-
-
-
-· 
-­  ­  ­  ­  ­ 
-· 
-Confidential & Proprietary
-
-
-· 
-Confidential & Proprietary
-
-
-1.  2. "" 3.  4. 23
- 5.  6. 5
-Confidential & Proprietary
-
-
-· ""
-­  ­  ­ 
-Confidential & Proprietary
-
-
-Confidential & Proprietary
-
-
-· "" ·  ·  · 
-­  ­ ""
-Confidential & Proprietary
-
-
-· CPU-Intel SNB
-­  ­ 
-· GPGPU-Nvidia Fermi
-­ 
-· -Intel Phi
-­ 
-Confidential & Proprietary
-
-
-·  
-·  ·  · 
-  · 
-Confidential & Proprietary
-
-SNB
-·  · CPU · x864 · 4 uops
-Confidential & Proprietary
-
-1CPU
-
-20: xor 23: xor 26: xor 29: sub 2d: jne
-
-%r8,%r8 %r9,%r9 %r10,%r10 $0x1,%rax 20
-
-· Intel(R) Xeon(R) CPU E5-2680 (SNB) · One iteration/cycle · 4 uops/cycle · IPC5 ins/cycle CPI0.2 · IPC/CPI
-
-Confidential & Proprietary
-
-SNB
-1.  2.  3.  4. 123
-SIMD
-Confidential & Proprietary
-
-2CPU
-
-60: vaddps 64: vmulps 68: sub 6c: jne
-
-%ymm2,%ymm2,%ymm1 %ymm4,%ymm4,%ymm3 $0x1,%rax 60
-
-· Intel(R) Xeon(R) CPU E5-2680 (SNB) · One iteration/cycle · 3 · 8 SP add+8 SP mul/cycle/core · 16 SP ops*8cores*2 ways*2.7GHZ/s=691G SP Flops · underflow
-
-Confidential & Proprietary
-
-3CPU
-
-70: psubb 75: pmuludq 7a: paddq 7f: sub 83: jne
-
-%xmm9,%xmm9 %xmm9,%xmm9 %xmm8,%xmm8 $0x1,%rax 70
-
-· Intel(R) Xeon(R) CPU E5-2680 (SNB) · AVX2 operands · One iteration/cycle · 3 · (128bits(packed 64 bits) mul+128bits(packed 64 bits) mul+64bits
-sub)/cycle/core · 320 bits/cycle
-Confidential & Proprietary
-
-4CPU2
-
-c0:
-
-psubb
-
-c5:
-
-pmuludq
-
-ca:
-
-paddq
-
-cf:
-
-paddq
-
-d4: psubb
-
-d8: pmuludq
-
-dc: paddq
-
-e0: sub
-
-e4: jne
-
-%xmm9,%xmm9 %xmm9,%xmm9 %xmm10,%xmm10 %xmm8,%xmm8 %xmm7,%xmm7 %xmm7,%xmm7 %xmm6,%xmm6 $0x1,%rax c0
-
-· Intel(R) Xeon(R) CPU E5-2680 (SNB)
-
-· One iteration/2 cycle
-
-· 3
-
-· (2x128bits(packed 64 bits) mul+3x128bits(packed 64 bits) add+64bits sub)/2 cycle/core
-
-· 352 bits/cycleport5384 bits/cycle
-Confidential & Proprietary
-
-Phi
-· P54c"" · UV · 64 · 512 bits SIMDV · 
-61Pentium@1.1GE5-2680@2.7G · P54
-50Phi 
-Confidential & Proprietary
-
-5 Phi
-60vfmadd231pd %zmm18, %zmm19, %k2, %zmm21 66sub $0x1, %rax 6a: jnz 60 · Xeon Phi coprocessor SE1061@1.1G · fma · One iteration/2 cycle · Vfmadd231pd1 cycle+1 cyclestall ·  16 df/2 cycle · 42
-16df/cycle/core · 16dfx60x1.1G=1.05T double flops
-Confidential & Proprietary
-
-Fermi
-· c2075 448 cuda core
-·  ·  · 
- · SF1030.4GFLOPS · SF, 515.2GFLOPS · FMA
-Confidential & Proprietary
-
-6Fermi
-
-S2R I2F.F32.U32 LOP.AND FFMA.FTZ.RZ SHL.W FFMA.FTZ.RZ [Unroll] FFMA.FTZ.RZ STS
-
-R0, SR_Tid_X; R2, R0; R0, R0, 0xf; R2, R2, R2, R2; R0, R0, 0x2; R2, R2, R2, R2;
-R2, R2, R2, R2; [R0], R2;
-
-· Nvidia Tesla C2075 · FMA · 1024 threads/block,140 blocks928.7G flops · FMA
-Confidential & Proprietary
-
-7Fermi
-
-S2R I2F.F64.U32 LOP.AND DFMA.RZ SHL.W DFMA.RZ [Unroll] DFMA.RZ STS.64
-
-R0, SR_Tid_X; R2, R0; R0, R0, 0xf; R2, R2, 0x40000, R2; R0, R0, 0x3; R2, R2, 0x40000, R2;
-R2, R2, 0x40000, R2; [R0], R2;
-
-· Nvidia Tesla C2075 · FMA · 1024 threads/block,140 blocks489G flops · FMA
-Confidential & Proprietary
-
-
-· CPU
-­  ­  ­  ­ HaswellFMA
-· GPGPU
-­  ­  ­  ­ 
-Confidential & Proprietary
-
-
-· 
-­  ­  ­ 
-·  · ""footprint
- ·  · kernel · 
-Confidential & Proprietary
-
-
-·  ·  · 
-­  ­  ­  ­ 
-Confidential & Proprietary
-
-
-·  · 
-­  ­  ­ ...... ­ 
-·  
-· bug · 
-Confidential & Proprietary
-
-
-· 
-Confidential & Proprietary
-
-
-·  ·  · CPU
-GPGPU · 
-Confidential & Proprietary
-
-
-· 
-­ 
-·  · 
-­ JVMJava
-·  ·  · Bug
-· changren@taobao.com @
-Confidential & Proprietary
-
-
-· 
-Confidential & Proprietary
-
-

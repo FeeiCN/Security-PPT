@@ -1,136 +1,0 @@
-Sub-techniques, priorities, more open source &
-MITRE ATT&CK at mobile phone
-~by Andrii Bezverkhyi, SOC Prime
-twitter @andriinb
-
-_whoami
-NotPetya attribution using ATT&CK in 5 days, July 2, 2017 Sigma + ATT&CK capability Jan 2018 and acceptance May, 2018
-Architect of uncoder.io
-THANK YOU EU ATT&CK & Sigma communities & SOC Prime team,
-for making this possible.
-
-Sub-Techniques
-
-18X9
-
-Transpose the matrix, Tactics move to horizontal
-12X32
-
-Terms used consistently, Tactics cropped from Technique names
-
-Discovery: idea on sub-techniques
-
-Host Parameters
-
-User Data
-
-Software
-
-Accounts
-
-Browser Bookmark
-
-System Information System Network Configuration
-System Services System Time
-System Network Connections
-
-File and Directory Application Window Peripheral Device System Owner / User Permission Groups
-Process Listing Query Registry
-
-Network Specifics Domain Trust
-Password Policy Network Sniffing Remote System
-
-Credential Access: idea on sub-techniques
-
-Clear Text Credentials
-
-Credential Extraction
-
-Unsecured Credentials
-
-OS Credential Dumping
-
-LSASS
-
-Memory
-
-NTDS
-
-DCSync
-
-Proc Filesystem
-
-/etc/passwd and /etc/shadow
-
-Cached Domain Credentials
-
-LSA Secrets
-
-Credentials
-
-Network Sniffing
-
-from Password
-
-Stores
-
-Keychain
-
-Securityd Memory
-
-Credentials from Web Browsers
-
-6 Tactics 6 Techniques, #5 has 0 examples 55 examples 104 Sigma rules on behavior
-
-Tactics Techniques Examples Sigma
-
-6
-
-6
-
-55
-
-104
-
-Exploit code = 6-6-55-104
-
-Ex
-6-6-55-104
-
-Exploit
-14
-
-Phantom techniques
-21 total, 23 examples, 0 sigma 15
-
-Ph
-9-21-23-0
-
-Phantom
-16
-
-C# .NET
-
-Command Interpreter 1 Tactic 1 Technique 285 examples 280 Sigma rules,
-17
-
-CI
-1-2-285-280
-
-Command Interpreter
-18
-
-CyberElements
-Ex CI Ph
-6-6-55-104 1-2-285-280 9-21-23-0
-19
-
-Prioritized by Sightings, Examples and Sigma count
-
-Do not exclude. Prioritize.
-/Be safe
-twitter @andriinb
-
-Sigma @ ATT&CK for Cloud
-
-

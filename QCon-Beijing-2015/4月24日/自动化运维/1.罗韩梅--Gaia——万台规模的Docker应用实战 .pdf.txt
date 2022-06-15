@@ -1,414 +1,0 @@
-Gaia----Docker
-mavisluo
-
-· Docker · Gaia · Practical application
-
-DOCKER
-docker 
-
-Docker
-1namespace       2cgroups       3aufsAnother  Union  File   System      
-
-Docker     ----Linux  Namespace  
-
-·    
-· Linux   ·    ·    · PIDUIDIPC   · CPU
-   ·   
-
-· /  
-              
-     
-
-Docker  v.s.  VM  
-
-App  
-
-App  
-
-App  
-
-l   
-   l    l   
-
-Binaries/   Binaries/   Binaries/   Libraries   Libraries   Libraries  
-
-App  
-
-App  
-
-App  
-
-Guest   Kernel  
-
-Guest   Kernel  
-
-Guest   Kernel  
-
-Hypervisor(VMM)   Host  Kernel   Hardware  
-System  VirtualizaOon  
-
-Binaries/   Binaries/   Binaries/   Libraries   Libraries   Libraries  
-namespace  &  cgroup   Host  Kernel   Hardware  
-Container  VirtualizaOon  
-
-Docker  
-1      2      3      4  
-
-GAIA()  
-
-
-DockerDocker
-
-Gaia  as  Cluster  Opera:on  System
-Gaia Gaia  ----""    
-
-----Gaia
-
-Gaia
-
-p 8800 p 10w+10w p 3.5k p 2500  
-
-p 0.2mscontainer p 95%vcorememory p 120w:   p 9900wcontainer  
-
-Gaia----
-30%10%     
-Ø  Ø  Ø  Ø bufferbuffer
-buffer
-
-Gaia----
-Gaia  
-pGaia  
-Ø Cpuio......  
-p+  
-Ø ......  
-  
-pcontainerGaia  
-Ø   
-pbuffer  
-
-Gaia----
-
-· ----   · api----api   ·   
-
-Gaia  APIs
-
-Resource  Pool                    
-
-Gaia----
-
-ResourceManager
-Resource  Pool                    
-
-appMaster   Monit   oring
-   Exp  and
-  
-Shrink
-
-1Monitoring 
-      2Expand       3Shrink       3 Gaia  api        
-
-Gaia----
-1retry      2ApplicaOonretry a\empt a\empt      3migrate        4        5Gaia      
-
-Gaia----
-   
-
-Gaia----
-·    · container
-applica:on
-
-container  
-
-aKempt_n  
-
-  
-
-   A  M  
-
-  
-
-  
-
-container    
-
-......  
-
-  
-
-container  
-
-Docker
-·   
-­ cpumemorydisknetwork  
-·   
-­    ­    ­ ......  
-· Docker  
-­ Bug   ­ Zookeeper  session  expire   ­ Swap  
-· Gaia  
-­    ­    ­ Overhead  
-
-Gaia----  sfair  
-u       quota  
-   u   
-   Service   batch      u    cpumemory--intensive      Servicebatch   u    u   
-
-Service  registry  and  service  discovery    
-p Why  do  we  need  service  discovery  
---Machine is anonymous.   ----Ports  are    resources.  
-
-Docker  registry    
-1      2      3server      4IDC  
-  
-5image
-
-Be\er  docker  
-lBug fix
-p bindmounttrueconfig path p Docker0rm p Address on use
-l
-p containerimage p 
-GAIA_HOST_IPip GAIA_INSTANCE_IDid GAIA_PORT_MAPPING p 
-
-----  
-
-nm_cgroup   dn_cgroup   sys_cgroup  
-
-/cgroups hardlimit task_cgroups  
-
-callBackFunc Gaia  kill  policy
-
-cgroup  1 a\ach
-container  1  
-
-SoSlimit  
-
-  
-
-cgroup  1   
-
-......
-
-a\a  ch   
-
-container  2     
-
-...  
-
-  
-
-cgroup  1 a\ach
-container  n  
-
-  
-ElasOc  Memory  Control         1oom  kill container task_cgrouphardlimit      2container   container      3  containersoclimit  
-   4  
-
-  x 
-
-----CPU  
-
-sshd  
-+  NMa  gent        
-+DataNode  
-
-Root   (1024)  
-
-DataNode   (1024  *  3)  
-
-NM   (1024)  
-
-task_cgroups  
-
-  
-
-container  1   1024  
-
-container  2      1024     
-
-...  
-
-container  n   1024  
-
-   1cpu  share  +  cpuset       2  
-   3NMDataNode container  
-
-child  class    1 a\ach
-container  1  
-
-----  
-
-Root  class1
-
-1TC+cgroups       2 container borrow   
-
-      child  class      2 a\ac   h    container  2        
-
-...... child  class    n
-
-a\ach
-
-a\ach
-
-...  
-
-container  n  
-
-  
-PRACTICAL  APPLICATION  
-
-
-applicaOons  on  Gaia
-
-
-
-Gaia
-
-
-Gaia
-
-Confd
-
-
-Gaia
-docker
-Confd
-
-
-Gaia
-docker
-
-Gaia
-Docker
-
-Gaia
-
-
-Gaia
-
-
-Gaia
-Docker
-
-
-
-
-Gaia
-
-
-Gaia
-docker
-
-Gaia
-docker
-
-
-
-
-Gaia
-Stop  docker
-
-HECD  on  Gaia   ----Haproxy+Etcd+Confd+Docker
-Gaia  portal
-
-Gaia  Resource  Pool
-
-api
-
-Docker
-Webserver
-
-Docker
-Webserver
-
-GGaaiiaa  N  Nooddee
-
-Docker
-Webserver
-
-Docker
-Webserver
-
-GGaaiiaa  N  Nooddee
-
-Docker
-Webserver
-
-Docker
-Webserver
-
-GGaaiiaa  N  Nooddee
-
-Docker
-Webserver
-
-Docker
-Webserver
-
-GGaaiiaa  N  Nooddee
-
-Docker
-Webserver
-
-Docker
-Webserver
-
-GGaaiiaa  N  Nooddee
-
-Docker
-Webserver
-
-Confd Haproxy
-
-GGaaiiaa  N  Nooddee
-
-ETCD Docker  registry
-
-Lhotse  on  Gaia
-
-Hermes  on  Gaia
-
-Docker
-
-Docker Docker Docker
-
-Gaia  dev  cloud     
-Doc   ker   
-Doc     ker   
-Doc   ker   
-
-Docker Docker Docker
-
-1IP      2root      3      4  
-  
-5webshell
-
-Gaia
-
-MR     on  Gaia
-Hermes   on  Gaia
-DNN   on  Gaia
-
-Storm     on  Gaia
-Lhotse   on  Gaia
-PhoneBook   on  Gaia
-
-Spark   on  Gaia
-TRE   on  Gaia
-TDP   on  Gaia
-
-Hive   on  Gaia
-TDBank   on  Gaia
-......   on  Gaia
-
-·   
-
-·
-
-  
-
-·
-
-
-
-Thanks
-
-

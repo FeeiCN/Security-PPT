@@ -1,123 +1,0 @@
- !
-Mike Hamilton
-BreakingPoint
-
-!
-
-!
-
-!
-!
-
-!
-!
-
-! !
-
- !
-
-  DoS  !
-
- !
-
-!
-
-!
-
-3
-
-!
-
-!
-
-!
-!
-
-!
-!
-
-4  
-
-!
-
-! !
-
-!
-!
-
-!
-!
-
- !
-
-  DoS  !
-
-5
-
-!
-
-! ! !
-
-!
-!
-
-!
-!
-
- !
-
-  DoS  !
-
- !
-
-!
-
-!
-
-6  
-
-!
-! § Internet 
-! § IETF !
-§ RFC 1944! § RFC 2544! § RFC 3511!
-7  
-
-RFC 2544!
-§ !
-§ !
-§ 18 !
-§  RFC 2544  !
-8
-
-RFC 3511!
-§ HTTP !
-9
-
-!
-§ IETF
-§ ! § !
-§ !
-§ DPIbench!
-10  
-
- =  !
-§ !
-§ !
-§ !
-§ !
-§ !
-11
-
-!
-§ *!
-1. ! 2. ! 3. ! 4. ! 5. ! 6. ! *!
-12  
-
-!
-§ !
-§ Mike Hamilton! § ! § BreakingPoint Systems! § mhamilton@breakingpoint.com!
-13  
-
-!
-
-

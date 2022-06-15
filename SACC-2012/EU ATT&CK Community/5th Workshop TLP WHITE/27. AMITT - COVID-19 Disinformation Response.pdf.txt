@@ -1,59 +1,0 @@
-AMITT Framework COVID-19 Disinformation Response
-SJ TERP ROGER JOHNSTON EU ATT&CK Workshop, May 19th 2020
-1
-
-Cognitive Security Collaborative
-bring together information security researchers, data scientists, and other subject-matter experts to create and improve resources for the defense of the cognitive domain MISP Disinformation Sharing Community! https://cogsec-collab.org/
-@bodaceacat @VV_X_7
-
-Disinformation
-deliberate promotion... of false, misleading or mis-attributed information
-focus on creation, propagation, consumption of misinformation online
-we are especially interested in misinformation designed to change beliefs in a large number of people
-@bodaceacat @VV_X_7
-
-AMITT Framework
-@bodaceacat @VV_X_7
-
-Incidents
-@bodaceacat @VV_X_7
-
-#WeWontStayHome
-Photo: Lake Country Calendar, Vernon, BC, Canada
-@bodaceacat @VV_X_7
-
-#OperationGridlock
-Photo: The State News, Lansing, Michigan, USA @bodaceacat @VV_X_7
-
-Plandemic
-Photo: NBC News, Salem, Oregon, USA @bodaceacat @VV_X_7
-
-Countermeasures
-@bodaceacat @VV_X_7
-
-Reactive Countermeasures
- Takedown Requests
- Censorship  Violation of ToS
- Law Enforcement Escalations
- Go Physical
-@bodaceacat @VV_X_7
-
-Playbooks
-@bodaceacat @VV_X_7
-
-Collection & Analysis
- So far...
- Collection  Processing  Analysis
- In progress
- Counters
- Task tracking
- TheHive Case templates  Workflows are merged to parent
-@bodaceacat @VV_X_7
-
-@bodaceacat @VV_X_7
-
-Thank You
-EU ATT&CK Community MITRE Engenuity MISP Project TheHive Project
-Atomic Threat Coverage
-
-

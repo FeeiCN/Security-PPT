@@ -1,362 +1,0 @@
-Microservices under the microscope
-QCon Beijing
-Ross Garrett rgarrett@axway.com @gssor
-
-April 25th, 2015
-
-© 2015 Axway | Confidential
-
-1
-
-"To Improve Is to Change; To Be Perfect Is to Change Often"
-Sir Winston Churchill
-, 
-·
-
-© 2015 Axway | Confidential
-
-© 2015 Axway | Confidential
-
-2
-
-We've already been forced to change...
-
-© 2015 Axway | Confidential
-
-3
-
-Digital Business has no Border
-· Architecting for Mobile isn't enough
-· Omni-channel experiences require a new approach
-· Digital products are King
-
-© 2015 Axway | Confidential
-
-4
-
-Expectations for IT have changed
-· In the past enterprise architecture was designed for known use cases and integrations
-­ The consumer cloud & mobile application model has changed the way business users view IT products and processes
-· Today's enterprise must architect for the unknown
-­ Enterprise IT systems are no longer an island and must build their capacity to integrate with the outside world
-
-© 2015 Axway | Confidential
-
-5
-
-© 2015 Axway | Confidential
-
-6
-
-Netflix has shown the way... Reactions Adrian Cockcroft received.
-
-"You guys are crazy! Can't believe it"
--2009
-
-"What Netflix is doing won't work"
--2010
-
-"It only works for Unicorns like Netflix"
--2011
-
-"We'd like to do that, but can't"
--2012
-
-© 2015 Axway | Confidential
-
-7
-
-A mandate for change!
-
-© 2015 Axway | Confidential
-
-8
-
-Enterprise IT Adoption Cycle
-
-http://blog.gardeviance.org/2012/07/adoption-cycles.html - Simon Wardley
-
-© 2015 Axway | Confidential
-
-9
-
-What do Enterprise Applications look like?
-
-Data Storage
-
-Backend Server
-© 2015 Axway | Confidential
-
-Web Client
-Mobile Client
-COlCitOehlinteehtnrsetrs
-11
-
-The backend relied on monolithic applications
-· All functionality in a single process
-· Scale by adding servers
-Backend Server
-
-© 2015 Axway | Confidential
-
-12
-
-SOA introduced separation
-· Separable elements of functionality become services · Scale & reuse services as needed
-
-Backend Server
-
-Service
-
-Service
-
-Service
-
-Service
-
-© 2015 Axway | Confidential
-
-13
-
-Are these services useful?
-"The value of a well-designed object is when it has such a rich set of affordances that the people who use it can do things with it that the designer never imagined."
-Donald Norman
-
-© 2015 Axway | Confidential
-
-14
-
-Are these services useful?
-Are these services able to serve today's application needs? And tomorrow's?
-
-© 2015 Axway | Confidential
-
-15
-
-Introducing Microservices
-"...the microservice architectural style.. ..is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an
-HTTP resource API. ..."
-Martin Fowler
-http://martinfowler.com/articles/microservices.html
-
-© 2015 Axway | Confidential
-
-16
-
-Why Microservices?
-· A platform for the business · Agility · Not tied to technology
-
-Backend Server
-
-Service Service Service Service
-
-© 2015 Axway | Confidential
-
-17
-
-It's not loosely coupled, if multiple services need to be
-updated at the same time
-Loosely Coupled
-
-© 2015 Axway | Confidential
-
-18
-
-Functionally Bounded
-
-You should not require too much information about
-surrounding services
-
-© 2015 Axway | Confidential
-
-19
-
-Sounds familiar?
-
-© 2015 Axway | Confidential
-
-20
-
-Are these services useful?
-How small is microservice? We want to avoid dumb services that are just CRUD wrappers
-
-© 2015 Axway | Confidential
-
-21
-
-SOA vs Microservices
-
-SOA
-· Team focused on services
-· Services deployed in a shared bus
-· Machine readable service registry
-· Centralized orchestration
-· Centralized data storage
-
-Microservices
-· Teams aligned with business
-· Services deployed at the edge
-· Developer readable catalogue
-· Orchestration within each app
-· Data storage replicated across atomic instances
-
-© 2015 Axway | Confidential
-
-22
-
-Build it, Run it, Own it
-· SOA Services were seen as projects
-­ The team moves on when the scope of that project is delivered
-· Microservices and their APIs must be managed as products
-­ Product team owns their service from conception to retirement
-
-© 2015 Axway | Confidential
-
-23
-
-Examining the components of a microservices architecture
-
-© 2015 Axway | Confidential
-
-© 2015 Axway | Confidential
-
-24
-
-Defining Services
-
-© 2015 Axway | Confidential
-
-25
-
-Defining Services
-
-· Build services for business functions not known integration problems
-· Implement a process to build and deploy each service independently
-· Existing services can be maintained, while new or partial services are launched
-­ No impact to production until traffic routing is updated
-
-© 2015 Axway | Confidential
-
-26
-
-Decentralize Everything
-
-© 2015 Axway | Confidential
-
-27
-
-Decentralize Everything
-· Developers can build services on any platform, with any tools
-· Limit or remove centralized resources
-­ Databases ­ Message Queues ­ Enterprise Service Buses
-
-© 2015 Axway | Confidential
-
-28
-
-High Trust, Low Friction
-
-© 2015 Axway | Confidential
-
-29
-
-High Trust, Low Friction
-· Developers dislike rebel against strict governance processes
-· Services should be managed and owned by product teams
-­ Lifecycle management
-· Functional decomposition based on the business
-­ Services should not represent technology or architectural constraints, but rather business requirements
-
-© 2015 Axway | Confidential
-
-30
-
-Lightweight Integration Patterns
-
-© 2015 Axway | Confidential
-
-31
-
-Lightweight Integration Patterns
-· Services should be stateless · Hide backend implementation complexity · Document your services and their APIs
-­ Swagger, RAML, Blueprint
-
-© 2015 Axway | Confidential
-
-32
-
-Think Differently About API Design
-
-© 2015 Axway | Confidential
-
-33
-
-Think Differently About API Design
-· Bring the Web to enterprise integration
-· Traditional RPC-style APIs can depend on a high degree of context for surrounding services
-· Design a RESTful representation of your service
-­ This API should look at application needs (outside-in)
-· Hypermedia-Style APIs promote loose-coupling
-· Use HTTP linking to self-document service capabilities
-
-© 2015 Axway | Confidential
-
-34
-
-Design security with public access in mind
-
-© 2015 Axway | Confidential
-
-35
-
-Design security with public access in mind
-· Access to services must be managed
-­ Don't assume internal or private access
-· Define or inherit granular identity and policy rules
-· Leverage and adhere to security standards
-­ OAuth 2.0 ­ API Keys
-
-© 2015 Axway | Confidential
-
-36
-
-Architecting for Continuous Change
-
-© 2015 Axway | Confidential
-
-© 2015 Axway | Confidential
-
-37
-
-Holistic approach to digital
-
-© 2015 Axway | Confidential
-
-38
-
-The Microservices End Game
-
-© 2015 Axway | Confidential
-
-39
-
-The Microservices End Game
-· New versions of services are deployed frequently
-­ Ideally automatically
-· Move away from general purpose orchestration
-­ Apps orchestrate the services they need in the environment they prefer
-· Most architectures will have hundreds of services
-­ But remember useful design
-
-© 2015 Axway | Confidential
-
-40
-
-Thank You!
-Ross Garrett rgarrett@axway.com @gssor
-
-© 2015 Axway | Confidential
-
-41
-
-

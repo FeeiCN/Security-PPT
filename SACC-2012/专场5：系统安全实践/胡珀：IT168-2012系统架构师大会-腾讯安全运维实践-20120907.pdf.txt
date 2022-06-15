@@ -1,101 +1,0 @@
-
----- 
-
-
-lake2  80SEC  9+ years security experience  focus on Web Security
-lakehu  join Tencent Security Center in 2007  work on Tencent Security Response Center  System / Response / Assessment / Train
-
-
-
-
-
- 
-
- 
-
- 
-
-
-2005 160+ 
-  
-
-
-2005-2006 
-2007-2009 
-
-2010
-
-T-SDL
-Security Development Lifecycle
-
-TSEC
-
-Web   Agent  
-DDoS IDS / WAF DNS
-
-DDoS
-Anti-DDoS
-max protection 15G+ 1000+ / month response time < 5 min
-
-SecAgent
-Agent
-
-·  
-
-
-
-·  · 
-
-·  · 
-
-
-30W server cover TB-Level data 200+ rule response time < 5 min
-
-
-·  · 
-
-Web/Server
-
-
-SQL Injection XSS CSRF JSON Hijacking OS Injection Etc..
-
-·  · 
-Web
-
-·  · 
-Server
-
-high-risk port low version remote overflow unsecu config weak pwd Etc..
-
-5W+ domain / 30W server cover PHP / JSP / JAVA / C / C++ suport full scan time < 1 day
-
-
-
-
-danger function danger COM overflow DLL Hijacking Etc..
-
-·  ·  · fuzz
-PC
-
-·  ·  · 
-Mobile
-
-storage password transmission malicious Etc..
-
-SOC
-
-
-
-
-
-
-
-
-
-
- http://security.tencent.com  
-600+ vul 30+ new features 20+ bug fixed
-
- mrhupo@qq.com
-
-

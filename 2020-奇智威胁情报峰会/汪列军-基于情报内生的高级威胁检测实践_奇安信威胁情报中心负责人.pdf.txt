@@ -1,181 +1,0 @@
-
- 202013
-
-1
-
-
-
-2
-
-
-
-3
-
-4APT
-
-1
-
-
-
-2019
-CTI
-
-CTIIoC
-
-SourceThe Evolution of Cyber Threat Intelligence (CTI): 2019 SANS CTI Survey
-
-SourceThe Evolution of Cyber Threat Intelligence (CTI): 2019 SANS CTI Survey
-
-
-· SANS 201980%60% · IOCTTP
-
-
-
-
-
-
-SourceThe Evolution of Cyber Threat Intelligence (CTI): 2019 SANS CTI Survey
-
-SourceThe Sliding Scale of Cyber Security2015 SANS Robert M. Lee
-
-
-· SANS2019CTI42% 
-·  
-
-2
-
-
-
-3
-
-1
-
-2
-
-3
-
-
-· Payload · 
-
-3
-
-
-
-EDRNDR
-
-APT
-
-    Web U IM P2P  
-
-Spear Phishing
-· OfficePDF · FlashJava
-Watering Hole
-· WebFlashJava ·  · 
-U
-·  ·  · 
-Web
-·  · 
-
- - 
-
-
-·  /  
-· IOCTTP  
-·  
-
-
-
-
-
- or 
-
- ­ 
-
-VT
-
-
-
-1. VT 2. 
-
-1.  2. LNK
-
-
-
-
-
-
-
-
-·  
-·  · 
-
-
-""
- ·  · 
-PDB
-
-
-
- 
-
- 
-
-APT 
-
-
-3800200 RedDrip-234566 
-
-
- 
-
-
- 
-
-APT Digital Weapon
-
-150
-
-Hash IOC
-
-APTAPTAPT28Operation Dustysky TA505MageCartHash IOC https://github.com/RedDrip7/APT_Digital_Weapon
-
-
-
-CPU VT HOOK 
-
-  URL 
-
- 
-
-
-
- ­ 
-
--
-++APT/tag
-
-4
-
-APT
-
-Lazarus and Bitter
- x APT Lazarus
-· LazarusHWPHWP 
-Bitter
-· BitterRTF CVE-2018-0798
-
-OilRig and APT28
-OilRigdocx
-APT28docxOffice DDE
-
-OilRig and APT28
-Cobalt GroupOffice Word ATM 
-Fin7Office Word  FIN7
-
-APT
-APT
-1.  2.  3.  4. 
-
-
-
-

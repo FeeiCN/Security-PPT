@@ -1,104 +1,0 @@
-ATT&CK IN THREAT MODELING AND USE CASE GENERATION
-Ion Santotomas
-
-I HAD NO IDEA AND TOO MANY QUESTIONS
-so I went to the internet
-
-CVSS
-
-This is too hard... Isn't there a better way?
-
-USING ATT&CK FOR THREAT MODELING
-What methods and tools are at my disposal?
-ATT&CK Technique name & ID ATT&CK Tactic Lockheed's Kill Chain
-
-USING ATT&CK FOR THREAT MODELING
-Extended Kill Chain
-Source: https://www.pandasecurity.com/rfiles/enterprise/solutions/ad360/1704-WHITEPAPER-CKC-EN.pdf Also, Black Hat talk: https://www.blackhat.com/docs/us-16/materials/us-16-Malone-Using-An-Expanded-Cyber-Kill-Chain-Model-To-Increase-Attack-Resiliency.pdf
-
-USING ATT&CK FOR THREAT MODELING
-What else can I use to add depth and defense for these techniques?
-Extended Kill Chain ATT&CK Technique name & ID ATT&CK Tactic Lockheed's Courses of Action Matrix
-Source: https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
-
-USING ATT&CK FOR THREAT MODELING
-
-Technique: Modify Existing Service Technique ID: T1031 Tactic: Persistence Extended Kill Chain Phase: Internal Exploitation
-
-Detect
-Windows Registry, File monitoring,
-Process monitoring, Process command-
-line parameters
-
-Deny
-User Account Management: Limit privileges of user accounts and groups
-
-Disrupt
-Use system firewall to drop unauthorized
-connections and restore service
-
-Degrade
-Apply ad-hoc QoS rule
-
-Deceive Honeypot VM
-
-Detection use cases IR Playbooks
-
-Architecture Engineering Network PM
-
-PUTTING THINGS IN ORDER
-What are the most important techniques to consider?
- Select the top 5 threat actor groups for your industry  Create a Navigator heatmap layer and order by frequently used  Prioritize those techniques
-
-1 2
-3
-
-SUPERCHARGING USE CASES
-How can I convert the prioritized techniques into structured, actionable use cases?
-
- Create a matrix and group tactics as categories  Map the kill chain to each technique  Create as much use cases as aspects you want to cover from a technique  Assign scores and follow up improvement
-
-Tactic Technique
-
-Defense Evasion
-
-Disabling Security Tools
-
-ID T1089
-
-Ext Kill Chain Phase
-Target Manipulati
-on
-
-Criticality 1-5
-5
-
-Use Case
-Clearing of event logs
-
-Event Ref Calculation Detection Rule
-
-104
-
-If event
-
-Sigma
-
-happens, detection
-
-trigger alert rule for
-
-SIEM of
-
-choice
-
-Reliability 1-5
-3
-
-I FOUND ATT&CK EXCELLENT
-at making myself ask better questions
-
-THANK YOU
-Ion Santotomas ionsantotomas@protonmail.com @ionsantotomas
-
-

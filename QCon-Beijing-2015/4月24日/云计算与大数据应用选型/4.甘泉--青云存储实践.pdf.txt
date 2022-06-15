@@ -1,75 +1,0 @@
-
-: Reno :  ( Samantha )
-
-Agenda
-·  ·  · 
-
-Traditional Enterprise Storage
-
-
-
-Capacity
-
-
-
-
-
- S3
-
-
-
-
-
- 5TB
-
-
-
- SSD
- Performance
-
-
- 
-
- 
-
- 
-
-Virtual SAN / NAS
-
- Snapshot
-
-
-·  ·  · 
-
-?
- ·  ·  ·  · 
- · IO ·  · 
-
-
-
-
-
-
-
-
-Snapshot ·  ·  &  · Offline & Online ·  ·  ·  ·  · 
-
-About CEPH
-·  ·  ·  ·  -->  · S3  · No RAID?
-
-About CEPH
-
-About CEPH
-
-About GlusterFS
-·  · No Stripe · Split Brain · 
-
-About EBS
-· ?
-for workloads where data is accessed infrequently, and scenarios where the lowest storage is important. Magnetic volumes provide approximately 100 IOPS on average, with an ability to burst to hundreds of IOPS.
-development and test environments, and boot volumes. General Purpose (SSD) volumes are designed to offer single digit millisecond latencies, deliver a consistent baseline performance of 3 IOPS/GB to a maximum of 10,000 IOPS, and provide up to 160 MBps of
-
-Thank you.
-reno@yunify.com
-
-

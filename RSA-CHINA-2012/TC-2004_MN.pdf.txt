@@ -1,1153 +1,0 @@
-
- 
-
-
-
-
-1
-
-
-
-2
-
-
-
-3 
-
-
-
-æ
-
-VMM
-
-ç
-
-
-
-è
-
-
-
-4 7
-
-3
-
-1.1
-4
-
-    
-
-
-1.1 
-
-200   150   100  
-50   0  
-
-public  cloud   virtual  private  cloud   private  cloud  
-private  cloud   public  cloud  
-
-Gartner2011IT 5.6%3.6  2020IT5.88b 1.13% 4.25%b201380% 7%~30% b b  
-
-5
-
-1.2 
- 
-6
-
-1.3 
-CSA2010 RSA
-
-   u 2                 
-APIAPI
-   u 3  
-    
-u 4  
- 
-  
-7
-
- 
-
- 
-
-  
-
-
- 
-
-1.3 
-
-CSA2010 RSA
-u 5         
-u 6                   
-u 7      
-
- 
-
- 
-
- 
-
-
-
-
-
- 
-
-
-
-
-
- 
-
- 
-
-8
-
-1.3 
-
-1   
-
-
-
-2    
-
-
-
-3  
-
-
-
-
-
-4  
-
-
-
-
-
-
-
-5   
-
-6  
-
-  
-
-9
-
-  
-  
-  
-
-
-
-1
-
-
-
-2
-
-
-
-3 
-
-
-
-æ
-
-VMM
-
-ç
-
-
-
-è
-
-
-
-4 7
-
-10
-
-2.1 
-
-
-     
-  
-
-· 
- Xen77 VMware ESX21
-· 
-     
-    
-11
-
-2.2 
-
-  
-
- 
-
- 
-
-
- u , u  u 
-12
-
-2.3 
-
- TCG CPUIntel AMDDRTM  
-
-  
-
-seL4 8700C  
-
- HyperGuardHyperChec k 
-
-13
-
-2.3 
-  HyperSafeHyperSentry
-HyperSafe HyperSafe"Type-I"  BitBisorXen
-HyperSentry  HyperSentry    HyperSentry
-14
-
-2.4 
-
-      TEtherIntel V 
-Lares
-
-
-
-    VMM  
-
-       
-15
-
-2.4 
-  Cherub
-Cherub  
-Cherub CPU LVMMLVMM   Cherub Cherub  
-16
-
-2.5 
-
-       
-
- 
-
-
-        
-
-   
-17
-
-2.6 
-
-
-
-HIMA
-
-
-
-
-
-
-
-
-
-HyperSafe
-
-vTPMSIM
-
-BitBisor
-
-
-
-Xen
-
- 
-
- CherubCPU
-
- 
-
-
-
-
-
-     
-
- HyperSentry   
-
-18
-
-
-
-1
-
-
-
-2
-
-
-
-3 
-
-
-
-æ
-
-VMM
-
-ç
-
-
-
-è
-
-
-
-4 7
-
-19
-
-3 
-VMM
-VMM
-20
-
-
-
-1
-
-
-
-2
-
-
-
-3 
-
-
-
-æ
-
-VMM
-
-ç
-
-
-
-è
-
-
-
-4 7
-
-21
-
-3.1 VMM
-
-
-
-
-
- 
- 
-22
-
-3.1 VMM--
-
-   
-
-
-
-
-
-VMM 
-
-  
-
- 
-
-
-
-
-
-      
-
-       
-
-
-
-
-
- VM
- M      
-
-VMM  
-
-
-
- 
-
-
- 
- 
-  
-
-23
-
-3.1 VMM--
-
-          
-
-u   
-                   
-u   
-     
-
-
-
- 
-
- 
-
-
-
-  
-
- 
-
-
-
-24
-
-3.1 VMM--
-
- 
- 
-
- 
-
-   
-
-  
-
- 
-
-25
-
-3.1 VMM--
-1
-
- 
-     
-
-
-Text
-
-
-
- 
-
-
-
-
-  
-
-  
-
-     
-
-
-26
-
-        
-
-3.1 VMM--
-2
- 
-
- 
-
-
-  
-
-
-
- 
-
-
-
-   
-
-27
-
-3.1 VMM--
-
-     
-
-u          
-
-
-
- 
-
- 
-
-28
-
-3.1 VMM--
- 
-
-u     
-u      
-u    
-
-
-  
-
-  
-
-  
-
-29
-
-3.1 VMM--
-1 
-
-  
-
-u DRTM
-
-DRTM
-
-4.
-
-
-
-  
-
-1.
-
-DRTM
-
-u 
-
-  
-
-5.
-
-DRTM
-
-u 
-
-
-
-
-
-DRTM  
-
-DRTM
-
-     
-
-2.      
-
-  
-
-
-
-3.
-
-   DRTM 
-
-
-TPMAMDIntelDRT 
-
-
-30
-
- 
-2 
-
- 
-
-   u 
-     u      u            
-
-1.
-CPU
-3. 2.
-
- BI OS
-SMM ROMs 
-VM
-
- 
-
-
-
-31
-
-3.1 VMM--
-3 
- 
-
-u  u 
- u  u 
-
-
-
-32
-
-3.1 VMM--
-
- 
-
- 
-
-
- 
-
-
- 
-
- 
-
-
-           
-
-       
-
-       
-
-       
-
-       
-
-33
-
-
-
-1
-
-
-
-2
-
-
-
-3 
-
-
-
-æ
-
-VMM
-
-ç
-
-
-
-è
-
-
-
-4 7
-
-34
-
-3.2
-
-     -----
-35
-
-3.2
-1
- 
- 
-
-  
-
-
-
-
-
-3.2
-1
-1 
-
- u   u    u    u  
-
- 
- 
- 
-
-
-
-   
-
-    
-
-   
-
-
-
-37
-
-3.2
-2
-
-  
-
-   u 
-
-   u 
-
-   u 
- 
-       
-
-
- 
-
- 
-
-
-
-O
-
- 
- 
-
-
- 
-l   
-
-l
-l
-l
-
-O
- O
-
- O
-
- O
-
-  
-
-
-
-38
-
-3.2
-2-
-
-   u 
-   u 
-    u     u  
-
-   u 
-  
-
-Windows 
-
-Linux 
-
-Linux 
-
-
-  
-
- 
-
-  
-
-39
-
-3.2
-2-
-
-   vTPM (SSPA) 
-(ASMM)   
-          u SSPA
-    u (SIM)  SSPA  
-  
-  
-
-
-C B
-
-Seal
-A    
-
-
-
-
-
-
-
-
-Hypervisor
-
-
-
-
-
-
-
-
-
-
-
-40
-
-A
-
-
-3.2
-2-  
-     
-41
-
-
-
-1
-
-
-
-2
-
-
-
-3 
-
-
-
-æ
-
-VMM
-
-ç
-
-
-
-è
-
-
-
-4 7
-
-42
-
-3.3 
-l  l  l IaaSPaaS SaaS
- l 
- 
-43
-
-3.3 
-
-
-
-
-
-
-
- 
- 
-  
-
-
-
- 
-
- 
-
-  
-
-
- 
-
-  
-
- 
-
-
-
- 
-  
-
- 
-  
-
-
-
-   
-
-    
-
-
-   
-
-
-
-44
-
-3.3 
-1
-
-   
-
-  
-
-
-     
-
-
-  
-
-
-45
-
-3.3 
-2
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-
-
-        
-46
-
- 
-       
-
-3.3 
-3
-
-  
-
- 
-
-  
-
-  
-   
-
-
-   
-
-47
-
-  
-  
-
-
-3.3 
-4
-
-
-
-
-
- 
-
-u
-
- 
-
-
-
- u     
-
-
-
- u
-
- 
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-48
-
-4
-
-(1) !
-
- !  
-!
-
-ETPM 
- 
-
-
- 
- 
-
- 
-
-
-
-
-
- (M620)
-ARM
-(S3C2410)
-
-UART
-
-ETPM
-
-I2C
-
-JetWay2810
-
-IO I  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- DMA / 
-
-FPGA
-(EPIC12)
-
-       
-
-NandFlashB (K9F2808)
- 
-NandFlashA (K9F2808)
-
-USB
-
-GPS
-
-USB
-
-
-
-49
-
-4
-(2)!  !
- !
-50
-
-4
-(3)  !
- !  !
-
-VMM
-
-VM
-Dom 1 Dom 2 
-VTPM VTPM 
-Host OS
-
-
-Dom B VTPM Manager
-vtpm-be
-
-Hypervisor
-
-TPM
-
-Hardware
-
-Guest OS vtpm-fe
-
-51
-
-4
-(4)!  !  
-!
-!
-Lenovo Thinkpad R61i HP NC 6230 HP NC 6400
- 
-52
-
-4. 
-
-
-
-     
-
-
-
-
-   
-
-
-
-
-IaaSPaaS SaaS    
-
- 
-53
-
-
-
-

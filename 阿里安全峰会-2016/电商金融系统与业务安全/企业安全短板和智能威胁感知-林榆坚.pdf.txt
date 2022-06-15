@@ -1,282 +1,0 @@
-
-
-
-
-
----- linx
-
-www.aisec.com Artificial Intelligence Security Co.,Ltd
-www.aisec.com
-
-
- CEOlinx Web Web2.0AIScanner WebIDSWeb
-www.aisec.com
-
-
-
-
-
- 70%
-0Day 
-
- 
- 
-
-www.aisec.com
-
-
-
-contents
-www.aisec.com
-
-
-1  2  3  4 
-
-1 . 
-· Nday0DayBUG ·  · 
-
-
-
-www.aisec.com
-
-2 . 
-
-
-
-
-
-2.1  www.aisec.com
-
-2.2 
-
-2 .  
-2.1 
-
-
-
-www.aisec.com
-
-2 . 
-2.1  2.1.1 -  xmlnosqlStruts2
-
-
-
-www.aisec.com
-
-2 . 
-2.1  2.1.2 -  appATM
-
-
-
-www.aisec.com
-
-2 . 
-2.1  2.1.3 
-
-
-
-www.aisec.com
-
-2 . 
-2.1 
-2.2 
-
-
-
-www.aisec.com
-
-2 . 
-
-
-
-2.2 
-
- 
-
-
-   DDOS
-www.aisec.com
-
-2 . 
-2.2 
-·  ·  + +
-
-
-
-www.aisec.com
-
-
-· "" · 1"" · 2 ""
-·  100%
-
- 1
-0DayNday 2
-www.aisec.com
-
-
-
-3 . 
-
-
-
-·  · 
-
-· 
-·  · 
-
-·  · 
-www.aisec.com
-
-
-
-
-
-· 2014ISCWeb 
-1 2urlurl 3PVS
-
-PVS
-
-
-
- 
-
-www.aisec.com
-
-3 . 
-3.1 
-·  ·  · 
-
-
-
-www.aisec.com
-
-3 . 
-
-
-
-AppScan/
-· AppscanWeb2.0 
-· debugAppscan 
-
-www.aisec.com
-
-3 . 
-WVS/ · WVS ·  ·  · 
-· debug
-www.aisec.com
-
-
-
-3 . 
-
-
-
-SQLMap/
-· SQLMap
-· SQLMap"" 100%100% 
-· 
-
-www.aisec.com
-
-3 . 
-
-
-
-3.2 
-· 
-· 1ifconfiguname · 2SQL/ · 3505debugsql · 4
-
-· Nday0Day"""" 
-
-www.aisec.com
-
-3 . 
-3.2  3.2.1 · Struts2shellcode · 
-· unameifconfigls struts2 0Day 
-www.aisec.com
-
-
-
-3 . 
-3.2  3.2.2 Sql root pssql
-www.aisec.com
-
-
-
-3 . 
-3.2  3.2.350xDBErrordebug · fuzz · fuzz 
-· Web
-
-
-
-www.aisec.com
-
-3 . 
-3.2  3.2.4WebShell
-
-
-
-www.aisec.com
-
-4 . 
-4.1 
-
-
-
-·  
-·  IBM AppscanHP Webinspect Acunetix WVS SQLMaphavij
-· Web
-· ......
-
-www.aisec.com
-
-4 . 
-4.1 
-www.aisec.com
-
-
-
-4 . 
-4.2  · Struts Nday0Day · Webshell ·  · ......
-www.aisec.com
-
-
-
-4 . 
-4.2 
- "" 
-www.aisec.com
-
-
-
-
-· ""
-
-
-
-· 
-
-1
-
-2urlurl
-
-3PVS
-
- 
-
-  
-
-www.aisec.com
-
-
-: linx@aisec.com http://tt.aisec.com http://ti.aisec.com
-
-
-
-www.aisec.com
-
-
-Thanks.
-www.aisec.com
-
-

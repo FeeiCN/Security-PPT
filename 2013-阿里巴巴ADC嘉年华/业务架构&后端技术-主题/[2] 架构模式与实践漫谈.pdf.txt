@@ -1,713 +1,0 @@
-
-
-Sunday, July 14, 13
-
-trait Speaker { val name:String val aliases:Set[String]
-}
-trait Organization{ val bu = "tmall" val group = "alibaba"
-}
-object WangFuqiang extends Speaker with Organization{ val name = ""
-val aliases = Set("", "@") val blog = "http://afoo.me" }
-
-Architecture
-Sunday, July 14, 13
-
-Architecture Principles
-· Abstraction · Modularity · Scalability · Robustness · Security · Availability · Reusability · name it more...
-Sunday, July 14, 13
-
-Exciting?
-Sunday, July 14, 13
-
-Don't Be Silly!
-Sunday, July 14, 13
-
-Overload
-Sunday, July 14, 13
-
-How About
-Practices + Patterns
-Sunday, July 14, 13
-
-Roadmap First
-Sunday, July 14, 13
-
-Isolation  Immutability
-
-Async Throttling
-Consistency
-
-Clustering Buffering
-
-Layering
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-So Far, So Good
-Sunday, July 14, 13
-
-Isolation Immutability
-Clustering
-
-Async Throttling
-Consistency
-
-Layering
-
-Caching
-
-Sunday, July 14, 13
-
-What we do?
-Sunday, July 14, 13
-
-Sure,
-1. Scale Up! 
-Sunday, July 14, 13
-
-"I try so hard, I got so far..."
-`cause hardware can't work well without proper software
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Buffering
-Sunday, July 14, 13
-
-Queues
-fucking simple idea, right?
-Sunday, July 14, 13
-
-Queue Everywhere
-· cpu task run queue · thread pool task queue · actors' mailbox · TCP stack send buffer /receive buffer · MOM · etc.
-Sunday, July 14, 13
-
-Batching when they slowly move
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-When to batch When to flush
-Sunday, July 14, 13
-
-Problem With
-Nagle Algorithm
-Sunday, July 14, 13
-
-It's your choice!
-Latency VS.
-Throughput
-Sunday, July 14, 13
-
-Smart Batching
-focus on the whole pipeline
-Sunday, July 14, 13
-
-· Lock-free · 100K+ TPS
-http://mechanical-sympathy.blogspot.com/2011/10/smartbatching.html
-Sunday, July 14, 13
-
-Disruptor
-Start 2 use it today
-Sunday, July 14, 13
-
-----------------
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Throttling|flow control
-Sunday, July 14, 13
-
-Rate Control Backpressure
-Sunday, July 14, 13
-
-Rate Control
-Sunday, July 14, 13
-
-Semaphore
-Sunday, July 14, 13
-
-
-
-
-
-Sunday, July 14, 13
-
-Let's apply
-BackPressure Butterfly Effect
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
- what
-load, rt, etc.
-
-Back Pressure
-where hardware, os, app, etc.
-Sunday, July 14, 13
-
-(
-
-how
-ack, nack, etc.
-
-)
-
-----------------
-Sunday, July 14, 13
-
-2 + 2 = ?
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Caching
-Sunday, July 14, 13
-
-Why Caching?
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Cache Everywhere
-· CPU Level1-3 cache · Browser-side cache · Server-side cache
-· Business-layer cache · DAL-layer cache · Database-level cache · Reverse Proxy · DNS · Name it more...
-Sunday, July 14, 13
-
-Cache Types
-· Local Cache · Map · Ehcache * (BigHeap) · Redis
-· Remote Cache · Tair * · Memcached
-· In-Memory Data Grid - IMDG · Coherence · GemFire
-Sunday, July 14, 13
-
-* means Hybrid
-
-Cache Strategy
-
-Dimension Synchronous
-
-Asynchronous
-
-READ
-
-Read-Through
-
-Refresh-Ahead
-
-WRITE
-
-Write-Through
-
-Write-Behind
-
-Sunday, July 14, 13
-
-Caching Tricks
-· Dummy Value · non-exist entities in storage
-
-· Versioning · long-period-cached files
-
-Sunday, July 14, 13
-
-K1 K2 K3 K4 K5
-Cache
-
-K1 K2 K3 K4 K5
-Storage
-
-index.html <=> file1
-
-file1.v2
-
-file1.v1
-
-Case Study - 11
-
-
-
-... ... ...
-
-Sunday, July 14, 13
-
-----------------
-Sunday, July 14, 13
-
-Async
-Sunday, July 14, 13
-
-Story Background...
-give me the quote of EUR/USD here u are buy 2 lots
-transaction result
-Sunday, July 14, 13
-
-Go Async
-Future<Double> rateQuoteFuture = executor.submit(new Callable<Double>() { @Override public Double call() throws Exception { connection.getCurrentValue(USD); }
-});
-try { Double rateQuote = rateQuoteFuture.get(5, TimeUnit.SECONDS); // Blocking wait Future<Integer> future = executor.submit(new Callable<Object>() { @Override public Integer call() throws Exception { if(isProfitable(rateQuote)) connection.buy(amount, rateQuote) else throw n
-Exception("not profitable"); }
-}); Integer amount = future.get(5, TimeUnit.SECONDS); // Blocking wait System.out.println("Purchased "+ amount + " USD"); } catch (InterruptedException e) { e.printStackTrace(); //To change body of catch statement use File | Settings | Fi } catch (ExecutionException e) { e.printStackTrace(); //To change body of catch statement use File | Settings | Fi } catch (TimeoutException e) { e.printStackTrace(); //To change body of catch statement use File | Settings | Fi }
-Sunday, July 14, 13
-
-blocking wait
-The Pain In The Neck
-Sunday, July 14, 13
-
-Go Reactive
-
-1. val rateQuote = future { 2. connection.getCurrentValue(USD) 3. }
-
-5. rateQuote onSuccess { case quote =>
-
-6. val purchase = future {
-
-7.
-
-if (isProfitable(quote)) connection.buy(amount, quote)
-
-8.
-
-else throw new Exception("not profitable")
-
-9. }
-
-10.
-
-11. purchase onSuccess {
-
-12. case _ => println("Purchased " + amount + " USD")
-
-13. }
-
-14.}
-
-Sunday, July 14, 13
-
-Behind The Pretty Face
-blocking still exists
-Sunday, July 14, 13
-
-Task Scheduling Matters
-Sunday, July 14, 13
-
-Async & Task Schedule Granularity
-·Process ·Thread ·Actor ·Coroutine ·Continuation
-Sunday, July 14, 13
-
-Go Non-Blocking
-Sunday, July 14, 13
-
-And Think In Big Picture
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sir, Yes, Sir.
-
-R All Async Good?
-Sunday, July 14, 13
-
-"Trade A For A" Async
-Anti-Pattern
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-A yelled `get it done'
-B working...
-A looking/waiting/ smoking...
-
-Future<Double> rateQuoteFuture = executor.submit(new Callable<Double>() { @Override public Double call() throws Exception { connection.getCurrentValue(USD); }
-}); Double rateQuote = rateQuoteFuture.get(5, TimeUnit.SECONDS); // Nothing more to do, just wait and return
-Sunday, July 14, 13
-
-Future<Double> rateQuoteFuture = executor.submit(new Callable<Double>() { @Override public Double call() throws Exception { connection.getCurrentValue(USD); }
-});
-Double rateQuote = rateQuoteFuture.get(5, TimeUnit.SECONDS); // Nothing more to do, just wait and return
-Why don't U do it in current thread?
-Sunday, July 14, 13
-
-It's All About
-RESOURCE UTILITY 
-Sunday, July 14, 13
-
-SEDA
-A grand master of buffering + async
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-----------------
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Manage Isolation
-
-Async Throttling
-
-Dependencies Immutability
-
-Wisely Clustering
-Buffering
-
-Layering
-
-
-
-Sunday, July 14, 13
-
-WhereWe Stand
-Sunday, July 14, 13
-
-Service1 Service2
-Service3
-
-Exception
-Start Small, But Basic!
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-What we do after catch?
-retry? ignore? throw up?
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Timeout Everywhere
-· Thread.join(long) · Future.get(long, TimeUnit) · ExecutorService.awaitTermination(long, TimeUnit) · CountDownLatch.await(long, TimeUnit) · RPC Framework, say, HSF or Dubbo · IO timeout · you name it...
-Sunday, July 14, 13
-
-Circuit Breaker Pattern
-I want it to be automatic!
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Switches  I don't need you here!
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Switch.reduce{
-
-trait PartialFunction[-A, +B] extends (A => B) { self => import PartialFunction._
-/** Checks if a value is contained in the function's domain. * * @param x the value to test * @return `'''true'''`, iff `x` is in the domain of this function,
-`'''false'''` otherwise. */
-def isDefinedAt(x: A): Boolean
-... }
-
-trait Function1[@specialized(..) -T1, @specialized(..) +R] extends AnyRef { self => /** Apply the body of this function to the argument. * @return the result of function application. */ def apply(v1: T1): R
-
-}
-Sunday, July 14, 13
-
-http://www.infoq.com/cn/articles/function-switch-realize-better-continuous-implementations
-
-Hard Enough
-Sunday, July 14, 13
-
-2. Scale Out 
-Sunday, July 14, 13
-
-We r gonna Cluster it.
-Sunday, July 14, 13
-
-Asymmetric
-
-Symmetric
-
-Stateless
-
-Stateful
-
-Computation
-Sunday, July 14, 13
-
-State
-
-Replicas , 
-Sunday, July 14, 13
-
-Replica means Symmetric
-Sunday, July 14, 13
-
-When It Goes Stateless
-Sunday, July 14, 13
-
-Computational Replicas
-Sunday, July 14, 13
-
-Master-Workers Pattern
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Most of the time, Computation and state are so close...
-Sunday, July 14, 13
-
-State Replicas
-Sunday, July 14, 13
-
-Read Scales Redundancy
-Sunday, July 14, 13
-
-Replication
-Sunday, July 14, 13
-
-Replication Types
-· Consistency Concerning Replication · Synchronous Replication · Asynchronous Replication
-· Bandwidth Concerning Replication · Intra-IDC Replication · Inter-IDC Replication
-· Other Views...
-Sunday, July 14, 13
-
-Load-Balancing
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-So short Just Stay with me
-Sunday, July 14, 13
-
-----------------
-Sunday, July 14, 13
-
-Shards,
-aka. Partitioning
-Sunday, July 14, 13
-
-Write Scales Storage Scales
-Sunday, July 14, 13
-
-Routing
-Sunday, July 14, 13
-
-Lookup Table
-Sunday, July 14, 13
-
-Hashing
-Sunday, July 14, 13
-
-Consistent Hashing
-Sunday, July 14, 13
-
-Sharding Strategy Matters
-· Capacity Planning · Capacity Expanding · State Transferring · State Access Pattern · Fault-Tolerance · etc.
-Sunday, July 14, 13
-
-L.B. Vs. Routing
-Sunday, July 14, 13
-
-----------------
-Sunday, July 14, 13
-
-Shit Happens
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Isolation 
-Sunday, July 14, 13
-
-Bulkhead Pattern
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-One Tab, One Process
-Sunday, July 14, 13
-
-Linux Container
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Single Box In A Cluster
-
-A Whole Cluster Goes Bad...
-Sunday, July 14, 13
-
-So When you deploy clusters of
-· Search Service · HSF/Dubbo Service · Data Storage Service · Caching Service(Tair, Redis, memcached...) · Whatever that's important or have higher priority, NO Share!
-Sunday, July 14, 13
-
-What Do U Think?
-Sunday, July 14, 13
-
-----------------
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Redundancy
-Sunday, July 14, 13
-
-Symmetric Cluster?
-Sunday, July 14, 13
-
-Symmetric Cluster?
-What A Lucky Boy!
-Sunday, July 14, 13
-
-What About Asymmetric Cluster?
-Sunday, July 14, 13
-
-BinaryStar Pattern
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-----------------
-Sunday, July 14, 13
-
-Way&Style
-Sunday, July 14, 13
-
-Consistency
-Sunday, July 14, 13
-
-Why Consistency?
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Consistency Everywhere
-· Religion · Bible · Brotherhood initiation
-· Psychology · Gambling · Debating
-· Industry
-  
-Sunday, July 14, 13
-
-Show Time...
-Sunday, July 14, 13
-
-
-Sunday, July 14, 13
-
-In Framework Design like Spring
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
--- Haskell is a pure functional language and even the I/O system can't break this purity.
-
-Go Consistency When Necessary
-Sunday, July 14, 13
-
-Layering
-Sunday, July 14, 13
-
-Why Layering?
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-impact
-
-Layer Patterns Everywhere
-
-Sunday, July 14, 13
-
-Can U Name More?
-
-Cake Pattern
-Sunday, July 14, 13
-
-Stackable Traits Pattern
-Decorator Pattern In Scala
-Sunday, July 14, 13
-
-----------------
-Sunday, July 14, 13
-
-Immutability
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Persistent Data Structure
-Sunday, July 14, 13
-
-Familiar?
-Sunday, July 14, 13
-
-Event Sourcing
-Sunday, July 14, 13
-
-Capture all changes to an application state as a sequence of events.
-Sunday, July 14, 13
-
-Real World ES
-· Binlog, HLog . . . · Kafka's Storage Strategy
-· MetaQ - Java Clone of Kafka, · LMAX Platform
-· Many home-brew tools · Ultra Messaging Stream Edition(UMS) - Informatica · Available Projects/Solutions · https://github.com/eligosource/eventsourced · https://github.com/sbtourist/Journal.IO · https://github.com/fusesource/hawtjournal
-Sunday, July 14, 13
-
-
-·TMS ·
-Sunday, July 14, 13
-
-Lambda Pattern
-Sunday, July 14, 13
-
-Does Lambda's face inspire U?
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Todd-Montgomery
-http://www.infoq.com/presentations/High-Performance-Network-Applications-in-the-Capital-Markets
-Sunday, July 14, 13
-
-Sunday, July 14, 13
-
-Your Opinion?
-Log VS. JMX
-Sunday, July 14, 13
-
-----------------
-Sunday, July 14, 13
-
-Composability
-Yes, This is a principle :0)
-Sunday, July 14, 13
-
- 
-Sunday, July 14, 13
-
-It'sNot The Ending, It's The Beginning...
-Sunday, July 14, 13
-
-
-Sunday, July 14, 13
-
-Have Fun & Happy
-Sunday, July 14, 13
-
-

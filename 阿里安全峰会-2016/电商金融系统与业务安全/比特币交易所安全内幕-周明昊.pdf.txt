@@ -1,167 +1,0 @@
-
-  
-
-...
-·  · 
-
-...
-·  ·  · 
-
-
-
-   
-
- 
-
- 
-
-
-
- 
-
-DDoS 
-
-  
-
-  
-
-
-
- 
-
-Mt.Gox
-
-Mt.Gox
-
-Mt.Gox
-· ·70% ·754.5
-
- 
-
- 
-
- ID
- 
-
-
-Mt.Gox
-· 
-
-Bitstamp
-· Mt.Gox 70%BitstampBtc-e ·  · dump1.8btc
-
-
-· 7961000btc · 7170btc · BTC3000btc · Yes-BTC435btc · BTC-ebtc · bitfinex · DAO1.66000
-
-
-·  · transactionhash
-·  · DoS
-· DAO · 
-·  · 
-
-Google Authentication
-·  ·  · 
-
-Google Authentication
-
-Google Authentication
-· GA
-  
-
-Google Authentication
-
-· GA
-
-User_table
-
-Name
-
-Password_hash
-
-......
-
-1001
-
-1002
-
-......
-
-GA_key
-
-Google Authentication
-· GA
-1. GA uid+google OTP code
-
-
-
-4. 
-
-GA
-
-2. key OTP code
-3. OTP code
-5. OTP code 
-
-
-· ...... ·  · 
-
-
-
-
-· 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
- · ---- · ---- · 
-A+B, A'+B, A+B', A'+B' 
-
-
-· 
-Pay-to-Script-Hash scriptPubKey: OP_HASH160 <scriptHash> OP_EQUAL scriptSig: ..signatures... <serialized script> m-of-n multi-signature transaction: scriptSig: 0 <sig1> ... <script> script: OP_m <pubKey1> ... OP_n OP_CHECKMULTISIG
-
-  
-
-  
-
-
- 
-
-
-· case ·  · 
- 10%
-· 
-
-Tower Defense
-  
-
-Tower Defense
- "" 
-
-Tower Defense
-  
-
-
-·  ·  ·  · ¥ 671
-
-
-
-
-· ----CA · ---- · ----
-
-
-
-
-
-

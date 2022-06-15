@@ -1,187 +1,0 @@
-  
-· Coding.net     · Google  SRE  (07--14)     · :     · sunyucong@coding.net  
-
-
-Coding.net     
-
-
-
-
-
-  
-        
-
-  
-
-· Product  Orientated   · "Not--My--Job"   · InnovaIon  
-
-        
-
-  
-        
-
-Coding.net    
-
-CORE  
-
-        
-
-  
-
-Front  
-
-CORE  
-
-Cache  
-
-GIT  
-
-IDE  
-
-CompX  
-
-Repo  
-
-MQ  
-
-Docker  
-
-FileSystem   Email  
-
-  
-
-     
-
-  
-
-· X    
-­   
-· A!  
-­ CORE    
-· B!  
-­   
-· C  
-­ DB  
-· D  
-­   
-·   
-  
-
-        
-
-BoVleneck  
-        
-
-BlackBox  
-        
-
-Blame  war  
-        
-
-  
-
-  
-
-"OrganizaIons  which  design  systems  ...   are  constrained  to  produce  designs  which  are   copies  of  the  communicaIon  structures  of  these  
-
-organizaIons.  "  
-
-  
-
---  Melvin  Conway,  1968  
-
-  
-
-     
-
-  
-
-· Feature  Ownership   · Agile   · BoVom--up  InnovaIon  
-
-        
-
-  
-        
-
-
-
-·    ·    ·    · 
-
-        
-
-  
-        
-
-
-
-  
-        
-
-  
-
-GIT   20150324.1  
-Build
-
-CI   app.jar   Package  
-
-Docker   app:20150324.1  
-Run
-  
-     
-
-  
-
-jobs  :  <     name:  "coding--front"     image:  "coding--front:X"   >   jobs  :  <       name:  "coding--backend"       image:  "coding--backend:Y"       env:  <                 key:  "xxxxxx"               value:  "xxxxxx"   >   jobs:  <     name:  "mysql"     image:  "mysql:5.5"   >  
-
-        
-
-  
-
-   $  go  run  stack.go  up      Job:  coding--front   Image:  coding--front:X   State:  [/coding--front_X]:  Up  1  s      Job:  coding--backend   Image:  coding--backend:Y   State:    [/coding--backend_Y]:  Up  1  s    Job:  mysql   Image:  mysql:5.5   State:  [/mysql_5.5]:  Up  1  s
-
-        
-
-Devops!  
-        
-
-Pipeline  
-        
-
-:  DockerUI
-        
-
-DockerUI
-        
-
-:  DockerUI
-        
-
-:  Prometheus  
-        
-
-:  PreVy  Graphs
-        
-
-Monitoring  is  Code  too!
-        
-
-  
-· Test  coverage  
-­ Code  responsively  
-
-· Code  Review  
-­ Less  interrupIon  
-
-· Push  On  Green  
-­ AutomaIc  regressive  tesIng  
-
-        
-
-hVps://coding.net
-
-Coding    
-  
-
-        
-
-

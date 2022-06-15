@@ -1,61 +1,0 @@
-
- @fengyuncrawl
-2013.9.6
-
-·  ·  ·  · 
-
-
-
-cphppython
-
-about me
-
-
-
--->-->--> sns-->360
-
-
- 105,6  beta 
-
-
-1.Axure
-2. 
-
-
-1.linux+apache(nginx)+mysql+php(CodeIgniter  Symfony...)
-2.uwsgi+python(Django,Tornado,Pyramid...)
-3.mongodb+nodejs(Express...)
-4.java
-
-pv
-
-webLAMP
-
-pv
-
-
-1.web1.02.03.0... 
-2.3gwifi
-
-
-lvshaproxynginx squid web server apachenginx cachememcachedredis mysqlpostgresql mongodb nosqlTokyo Cabinetleveldb sphinxlucenesolr elasticsearch mmsegictclas
-
-
-scrapy nagioscactizabbix mahout : zeroMQ gearman fastdfsmoosefs JIRA git countly mapreducehadoop
-
-
-
-cachedb
-
-
-
-
-
-
-
-
-1. 2. 3. 4.
-
-Thanks!
-
-

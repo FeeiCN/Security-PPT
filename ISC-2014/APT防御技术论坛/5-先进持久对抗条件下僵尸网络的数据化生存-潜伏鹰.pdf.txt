@@ -1,264 +1,0 @@
- 
-   
-China Internet Security Conference 2014 2014
-
-· 
-­ bot 
-­ 
-·  
-· VPS/
-· DNSDDNS fastflux domianflux
-­ Botnet C&C 
-
-""botnet
-·    "" 
-
-·      ""   "DDOS" "   "  
-
-· " " "   "
-
-1. 
-
-rootkit
-
-
-
- 
- 
-
-   
-
-" "   
-
- 
-
-
-
-
-
-2.
-
-3.
-0daybot bot?
- botnet?
- ""
-/  ""
-
-
-
-botnet 
-
-
-
-1.   botnet
-
-
-
-
-
-
-
-
-
-2. "  " botnet 
-
-3.      
-
-1
-
-
-OSAppIP
-
-
-
-App App
-
-
-   
-
-
- 
-   
-
-2
-
-
-
-
-
-0day 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-3
-
-
-0day 
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-/
-
-0day
-
-
-
-
-OS CPU\GPU\RAM;   / ip /    
-
-
-emailurl // C2/ 0day/ / /  /  // url
-
-
-    emailurl  C2/ / url /
-
-4.1 ----
-
-   
-
- 
-
- 
-
-
- 
-
-   
-
- 
-
- 
-
- 
-
-  
-
-4.2 --
-
-
-· botid · 
-
-
-
-· 
-·   
-
-
-·  ·  ·  · 
-
-
-·  ·  · 
-· 
-
-
-·  ·  ·  · 
-
-
-· // 
-·  
-
-1  
-
-2bot  
-
-3bot  
-
-4botnet 
-
-5 
-
-CVE
-
-BID
-
-Description
-
-Discovered
-
-2012-1875
-
-53847
-
-Microsoft Internet Explorer CVE-2012-1875 Property Remote Code Execution Vulnerability
-
-Same
-
-ID May 2012
-
-2012-1889
-
-53934
-
-Microsoft XML Core Services CVE-2012-1889 Remote Code Execution Vulnerability
-
-Jun 2012
-
-2012-4969
-
-55562
-
-Microsoft Internet Explorer Image Arrays Remote Code Execution Vulnerability
-
-Use-After-Free
-
-Sep 2012
-
-2012-4792
-
-57070
-
-Microsoft Internet Explorer 'CDwnBindInfo' Use-After-Free Remote Code Execution Vulnerability
-
-Dec 2012
-
-6
-
-"email-email-
-
-0day-"
-
-
-
-
-
-7 botnet   
-
-8 / 
-
-
-0day 
-
-
-30
-
-

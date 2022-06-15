@@ -1,450 +1,0 @@
-#RSAC
-SESSION ID: HT-W02
-Pain in the Apps -- Three Attack Scenarios Attackers Are Using to PWN SaaS
-Matt Radolec
-Senior Director of Incident Response and Cloud Operations Varonis
-
-#RSAC
-Disclaimer
-Presentations are intended for educational purposes only and do not replace independent professional judgment. Statements of fact and opinions expressed are those of the presenters individually and, unless expressly stated to the contrary, are not the opinion or position of RSA Conference LLC or any other cosponsors. RSA Conference does not endorse or approve, and assumes no responsibility for, the content, accuracy or completeness of the information presented. Attendees should note that sessions may be audio- or video-recorded and may be published in various media, including print, audio and video formats without further notice. The presentation template and any media capture are subject to copyright protection.
-©2022 RSA Conference LLC or its affiliates. The RSA Conference logo and other trademarks are proprietary. All rights reserved.
-2
-
-#RSAC
-Is SaaS safe or Is there pain in these Apps?
-3
-
-#RSAC
-Let's talk about SaaS.
-4
-
-#RSAC
-What makes data more important and valuable than ever?
-
-#RSAC
-Collaboration. If we can't share it, we can't realize its value.
-
-#RSAC
-SaaS apps make collaboration easy.
-7
-
-#RSAC
-Securing SaaS is getting harder.
-44 percent of SaaS privileges are misconfigured. 75 percent of external contractor accounts remain active after they leave. 15 percent of employees transfer business-critical data to their personal cloud accounts.
-Source: Varonis 2021 SaaS Risk Report (data from actual SaaS environments, not surveys).
-8
-
-#RSAC
-Threat actors are attacking SaaS
-(and so is Varonis Threat Labs).
-
-#RSAC
-Pain in the App #1 ­ SSO Imposter
-
-#RSAC
-What do you do if one of your SSO/IAM admins was an imposter?
-
-#RSAC
-5 questions to discuss during the simulation:
-What can I find out today? How quickly can I find it? What am I missing? How could I have detected it? How could I have minimized the blast radius before this event?
-
-Attack Flow
-
-Get admin access to any connected application
-
-Backdoor access to customer contracts folder
-
-Downloads full users list Exfiltrate sensitive HR files
-
-#RSAC
-
-Phishing Mail
-
-Extracting users list using admin panel Sharing sensitive data stored on My Drive with external
-
-Impersonation to other users using SSO
-
-Share customers contracts using a public custom URL
-
-Advanced Phishing: Bypassing MFA
-5 Enters 2FA code
-
-#RSAC
-
-1
-Enters User/Password
-
-2 Credentials
-
-3 Authentication
-
-Victim receives a phishing mail. Clicks on the link
-
-Phishing Page
-
-Attacker Machine
-
-Okta
-
-4 SMS/Push 2FA
-
-#RSAC
-Phase 1 ­ Initial Foothold - Okta
-Attack -
-­ Using advanced phishing, attacker bypasses MFA ­ Attacker impersonates to other users by taking advantage of default SSO
-settings of Okta.
-Detections to Consider
-­ Activity from new Geo Location ­ Suspicious IP activity ­ Direct assignment of Okta application
-
-#RSAC
-Phase 2 ­ Impersonation + Data Exfiltration on Google Workspace
-Attack -
-­ Using the Google Workspace admin Jerome has, the attacker exports the users list of the organization
-­ Attacker impersonate to desired executive and sharing sensitive data from it's My Drive with external.
-Detections to Consider
-­ User list export ­ Direct assignment of Okta application
-
-#RSAC
-Phase 3 ­ Impersonation + Data Exfiltration on Box
-Attack -
-­ Attacker finds out the Box super admin mail using Jerome's Box user. ­ Attacker impersonates to Box's super admin user and shares sensitive
-data using a custom URL.
-Detections to Consider
-­ Sharing of Sensitive Content
-­ Box File Shared Publicly via Custom URL
-
-#RSAC
-Is SaaS safe or Is there pain in these Apps?
-22
-
-#RSAC
-Pain in the App #2 ­ Cross-Cloud Hacking: Stealing Salesforce Data via GitHub & Slack
-
-#RSAC
-How would you identify lateral movement in SaaS and SalesForce data exfiltration?
-
-#RSAC
-5 questions to discuss during the simulation:
-What can I find out today? How quickly can I find it? What am I missing? How could I have detected it? How could I have minimized the blast radius before this event?
-
-Attack Flow
-Downloads company's git repos Scans git for secrets
-
-Steals accounts and opportunities list
-Downloads files containing secrets from channels
-
-#RSAC
-
-Phishing Mail
-
-Git Recon Git exfiltration
-
-Sends message via slack webhook in Salesforce channel
-
-Installation of a salesforce app
-
-Advanced Phishing: Bypassing MFA
-5 Enters 2FA code
-
-#RSAC
-
-1
-Enters User/Password
-
-2 Credentials
-
-3 Authentication
-
-Victim receives a phishing mail. Clicks on the link
-
-Phishing Page
-
-Attacker Machine
-
-GitHub
-
-4 SMS/Push 2FA
-
-#RSAC
-
-#RSAC
-Phase 1 ­ Initial Foothold GitHub
-Attack -
-­ Using advanced phishing, attacker bypasses MFA ­ Attacker users hijacked session to download Git repo code
-Detections to Consider
-­ Activity from new Geo Location ­ Suspicious IP activity
-
-30
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-31
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-32
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-#RSAC
-Phase 2 ­ Lateral movement to Slack
-Attack -
-­ Using the stolen credentials, attacker logs in to Slack ­ Attacker scans slack channels and downloads secrets
-Detections to Consider
-­ Activity from new Geo Location ­ Suspicious IP activity ­ Access/Use of Key Files in Slack
-­ Abnormal File Downloads from Slack
-
-#RSAC
-Phase 3 ­ Lateral movement and exfiltration from Salesforce
-Attack -
-­ Using Slack webhook attacker sends a message in a SF admin channel, Lures SF admin to install a SF app
-­ Performs privilege escalation and persistency by creating a backdoor SF user ­ Exfiltrates SF data
-Detections to Consider
-­ Activity from new Geo Location ­ Suspicious IP activity ­ Authorization/Installation of New Salesforce Application ­ Abnormal Access to Salesforce records
-
-#RSAC
-Is SaaS safe or Is there pain in these Apps?
-35
-
-#RSAC
-Pain in the App #3 ­ Those cookies will go straight to your SaaS
-
-#RSAC
-How do you protect your cookies and monitor your SaaS Apps?
-
-#RSAC
-Attack Flow
-
-Steal browser cookies Steal browser credentials
-
-Attacker can connect directly to SF But may be blocked or discovered by MFA and/or conditional access
-Attacker pivots his web traffic through the victim's PC
-
-Phishing Mail
-
-Corporate Employee Desktop
-
-Through Reverse Proxy Connection
-
-End Users Are Just trying To Do Their Jobs
-
-40
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-41
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-42
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-What the Hacker Sees
-
-Browser Gives them the Keys to Your SaaS Kingdom
-
-43
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Attacker Dumps Credentials & Cookies
-
-44
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Tunnel through the victim to avoid detection
-
-45
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-#RSAC
-Average vs Advanced Attackers
-
-Average Hacker Joe
-Average Attacker ­ Compromises Endpoint ­ Pulls down Creds and Cookies ­ Takes them offline to attacker machine ­ Logs in using compromised creds from
-that machine
-Results ­ Alerts trigger around Geo location ­ Suspicious IP Sources ­ Potentially blocked by conditional access
-settings
-
-Sophisticated Hacker Snir
-Advanced Attacker ­ Compromises Endpoint ­ Pulls down Creds and Cookies ­ Route all web traffic through
-compromised machine using proxy ­ Access Cloud Applications through proxy
-using compromised creds
-Results ­ No change in geolocation or IP source ­ Not blocked by conditional access
-
-#RSAC
-Phase 1 ­ Initial Foothold on User Machine
-Attack -
-­ Establishing command and control of end user computer ­ Scrape all cookies and credentials ­ Proxy traffic through the compromised device to avoid detection or
-abnormal geo activity
-Detections to Consider
-­ C2 Beacon ­ Dumping of Cookies/Credentials on Endpoints ­ New Proxy installed/configured on endpoint
-
-Login to AWS using stolen credentials
-
-48
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-49
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Access data in S3 Buckets
-
-50
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Expose a bucket to the public
-
-51
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Give everyone access
-
-Attacker can access the bucket from anywhere
-
-52
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-#RSAC
-Phase 2 ­ AWS S3 Bucket Theft
-Attack -
-­ Use stolen cookie to impersonate AWS Admin ­ Set Private Bucket to Public ­ Download Publicly exposed data
-Detections to Consider
-­ S3 Bucket set Public ­ Abnormal Access / Download of S3 Objects
-
-Access GitHub with stolen credentials
-
-54
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-55
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Access a sensitive code repository
-
-56
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Access a sensitive code repository
-
-57
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Make the repository public
-
-Attacker can steal code or add malicious code
-
-58
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-#RSAC
-Phase 3 ­ GitHub Repo Theft
-Attack -
-­ Use stolen cookie to impersonate GitHub ­ Set Private repo to Public ­ Download Publicly exposed data
-Detections to Consider
-­ Repo set Public
-
-Login to Salesforce with stolen credentials
-
-60
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-61
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-What about MFA?
-
-62
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Attacker uses the existing cookie
-
-63
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Attacker is in
-
-65
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-SF guest profile can't access data
-
-66
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Attacker modifies guest profile
-
-Grant access to existing opportunities
-
-67
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Create rule to grant access to future opportunities
-
-68
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Guest profile can access everything
-
-70
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-71
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-Bulk data access through API
-
-Attacker dumps everything through an API
-
-72
-
-VARONIS SYSTEMS. PROPRIETARY & CONFIDENTIAL.
-
-#RSAC
-Phase 4 ­ Salesforce Exfil
-Attack -
-­ Attacker modifies guest user profile
-Grants access to opportunities Grants API access to guest accounts
-­ Steals opportunity data via API
-Detections to Consider
-­ Modifications to guest user profile ­ Modifications to opportunities object permissions ­ API Access added to profile
-
-#RSAC
-How to apply what you've learned today
-Next week you should:
-­ Create an inventory of your sanctioned SaaS apps ­ Check what telemetry & logs you have from each vendor
-Next month you should:
-­ Audit org-wide configuration settings ­ Hunt down and kill unnecessary global access (e.g., "Anyone links")
-Within six months you should:
-­ Define data security policies for each SaaS app ­ Trigger alerts on policy violations and abnormal behavior
-74
-
-#RSAC
-Feeling Overwhelmed?
-Stop by the Booth Visit Varonis.com Stick around!
-75
-
-

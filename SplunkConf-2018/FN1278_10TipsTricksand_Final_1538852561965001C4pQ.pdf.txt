@@ -1,158 +1,0 @@
-© 2018 SPLUNK INC.
-10 Tips, Tricks and Hacks for Better Dashboards in Splunk
-Applications that look better are perceived to be better.
-Jason Conger, Splunk
-October 2018 I Version 1.0
-
-Forward-Looking Statements
-
-© 2018 SPLUNK INC.
-
-During the course of this presentation, we may make forward-looking statements regarding future events or the expected performance of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results could differ materially. For important factors that may cause actual results to differ from those contained in our forward-looking statements, please review our filings with the SEC.
-The forward-looking statements made in this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, this presentation may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements we may make. In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionality described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Listen to Your Data, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2018 Splunk Inc. All rights reserved.
-
-whoami
-
-© 2018 SPLUNK INC.
-
-jason.conger@splunk.com @JasonConger http://www.linkedin.com/in/JasonConger https://www.splunk.com/blog/author/jconger.html
-6+ years at Splunk Created or consulted on 25+ Splunkbase applications
-
-Staff Solutions Architect Global Strategic Alliances
-
-Am I In The Right Place?
-Target Audience: Splunk Application Developer
-
-© 2018 SPLUNK INC.
-
-You should be familiar with:  Simple XML  JavaScript  jQuery  CSS
-
-You will learn:  Splunk Developer Settings  Tokens and Event Handlers  Splunk's Bootstrap Implementation  Splunk Web Framework  Splunk Form Input Manipulation  Bonus Fun Stuff
-
-Splunk Dashboard Examples App
-Start Here
-
-© 2018 SPLUNK INC.
-
-https://splunkbase.splunk.com/app/1603/
-
-© 2018 SPLUNK INC.
-Developer Settings
-Avoiding Headaches
-
-1. Splunk Instance Developer Settings
-Caching, minification, limits
-
-© 2018 SPLUNK INC.
-$SPLUNK_HOME/etc/system/local/ web.conf
-[settings] minify_js = False minify_css = False js_no_cache = True cacheEntriesLimit = 0 cacheBytesLimit = 0 enableWebDebug = True
-
-Topics
-
-© 2018 SPLUNK INC.
-
-1. Debug/refresh ­ updates settings without restarting Splunk. Update just what you need http://localhost:8000/enUS/debug/refresh?entity=data/ui/views&entity=data/ui/nav
-
-2. Disable Caching in your browser debug capabilities
-
-3. JavaScript ­ cause a breakpoint with the "debugger" command
-
-© 2018 SPLUNK INC.
-Dashboard Tricks without coding
-Just a step beyond Simple XML, but no coding yet
-
-2. Dynamic Content with Tokens
-Hide things that are irrelevant
-
-Empty maps are no fun...
-
-© 2018 SPLUNK INC.
-
-3. Bootstrap
-Modal
-Bootstrap is already in Splunk
-
-© 2018 SPLUNK INC.
-http://docs.splunk.com/Documentation/Splunk/7.1.2/ReleaseNotes/Bootstrap https://getbootstrap.com/docs/4.1/components/modal/
-
-4. Static Resources
-Images, CSS, JavaScript
-
-© 2018 SPLUNK INC.
-File System
-$SPLUNK_HOME/etc/apps/<your app>/appserver/static/<your resource>
-URL
-http://splunk_url:splunk_port/st atic/app/<your app>/<your resource>
-
-5. Splunk Style Guide
-Splunky Elements
-
-© 2018 SPLUNK INC.
-http://splunk_url:splunk_port/en -US/static/docs/style/styleguide.html
-
-© 2018 SPLUNK INC.
-Dashboard Tricks with code
-Taking things a step farther with JavaScript
-
-6. Add Rendering to Table Rows
-Table rendering with
-Bootstrap Tooltips
-
-© 2018 SPLUNK INC.
-Make table text that is too long a tooltip
-
-7. Splunk
-Web Framework
-Pivot a Table
-
-Splunk Web Framework
-
-© 2018 SPLUNK INC.
-
-8. Interactive Collapse &
-Expand
-With just a little JavaScript
-
-Toggle Visibility of any Simple XML Element
-
-© 2018 SPLUNK INC.
-
-9. Form Input Types
-HTML5 Input Types
-
-Controlling Text Box Input Types
-
-© 2018 SPLUNK INC.
-
-10. Putting it all
-Together
-Event Handler + Token + Table Cell Render + Modal + Splunk Web
-Framework
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-11. Bonus Time
-
-Q: where can I get a copy of this app?
-A: GitHub
-
-© 2018 SPLUNK INC.
-
-https://github.com/JasonConger/SplunkConf18
-
-Additional UI Sessions at .conf18
-
-© 2018 SPLUNK INC.
-
- FN1209 - Visualize This, Mother Trucker
-
- DEV1545 - Go From Dashboards to Applications With Ease: SplunkJS and Splunk Python for Non-Developers
-
- Exciting, To-Be-Announced Developer Sessions
-
-© 2018 SPLUNK INC.
-Don't forget to rate this session in the .conf18 mobile app
-
-

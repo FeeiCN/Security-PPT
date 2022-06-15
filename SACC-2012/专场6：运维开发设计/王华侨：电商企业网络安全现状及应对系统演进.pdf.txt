@@ -1,231 +1,0 @@
- 
-
-B2C HonestQiao 
-
-
- 
-       ""
- 
-   ""
-
-
- 328 8:104:00DDOS
-
-
- 
- 8:10   SA  
-
-
- 
- TMS    404
-
-
- 
- TCP floodGET  index.php  refer  IP    
-
-
-[17:29:38] Emma: may I have that person's contact number? [17:29:41] john: he will pay me every month [17:29:48] john: 800$ [17:29:52] john: if i will stop ur site [17:29:57] john: if u will pay me 1000$ [17:30:00] Emma: where did you get this info, john? [17:30:32] john: someone own a site [17:30:35] Emma: how can I trust this, john? [17:30:38] john: like urs [17:30:39] Emma: can you tell me that site link? [17:30:46] Emma: do you have the site name? [17:30:50] john: i dont want troubles [17:30:55] Emma: I understand [17:30:57] john: if u will pay me
-
-""
-     
-
-
-
-
-       
-
-
- 
- 2010  2011  2012
-
-
- 
- URL  URLNginx
-   IP
- TMS   
-
-
- SYN/TCP flood  WebServerGET
-
-SYN/TCP flood
-     WEB
-
-WebServer
- HTTP
-   IP
- 
- QPS
-
-
-
-
-
-
-
-
-
-
-
-SYN flood TCP flood http flood iops
-
-
-
-Nginx   cache 
-
- CPU 
-
-
-
-  CPU 
-
- 
-
-
-
-
-
-
-
-  
-
-
-   
-       
-
-
- Firewall/EthProxy Firewall/Cisco Nginx Defence checkcode
-
- NO Yes Yes Yes
-
-All Defence ­  
- 
-
-IP 
-
- NO- Always on No- Always on Yes Yes
-
-
-
-
-
-
-
-
-/
-
-Slave SelfControl
-Master Server
-
-M-S
- Master:
- Slave      
- Slave
- Master  Master  Master
-
-
- 
- netstat
- PV
- Nginx
- UV
- Nginx
-
-
-
- check_ip.py
-
-IP
-
- 19/Apr/2012:21:31:0 P0 [('114.243.212.115', 144) ,('174.36.198.36', 1)]
-
- check_pv.py
-
-PV
-
- 19/Apr/2012:21:41:1[0-4] P1 23
-
- 19/Apr/2012:21:41:1[5-9] P0 81
-
- check_syn.py SYN
- 19/Apr/2012:21:41:1[0-4] P1 10  19/Apr/2012:21:41:1[5-9] P1 15
-
-
- 
-P2 P1 P0
-
- 
-  
-
-
-PV < 100 SYN < 60  <100M
-PV 10-200 SYN  60-100
-PV  200-300 SYN 100-300
-PV  >300 SYN >300
-
-
- MasterSlave  Slave  
-
-
-
- Syn Flood
- iptables
-
- Nginx
-
-All Defence ­  
-
- limit_req
-
-
-
-
-
- 
-
-
-
- PHPIP
-
- 
- stone_action.py
-
-Stone/
-
-
-
-
-
-
-
-""
-   
-
-
-   
-
-Cisco
-     
-
-TMS
-     
-
-EthProxy
- 
-   
- 
-   
- 
-   
-
-Global DNS
- IP  
-
-
- Akamai Kona Site Defender
- HTTPHTTPS  
- IP
- Akamai Kona Site DefenderIP  VPN    
-
-Q&A
-
-

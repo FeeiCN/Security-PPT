@@ -1,244 +1,0 @@
- 
- 2014-10-16
-
-
-       
-
-
- 
-
-
-2012-2013 2014 1195
-
-
-  32
-
-
- 3.4
-
-
- 
-
-
- "" 1.3w
-
-
-   
-
-
- 
-   IE BHO  Email  Chrome  Firefox  rom  
-
-
- 
-     WIFI  DNSFlash player
-
-
-  ­ 
-     
-
-
-   USBKEY
-  
-      
-
- ­ BSB
- 
-URL
-BSB
-
- ­ 
-
- / 
-   
-
-
-
- 
-
-cache
-
-cache
-
- 
-
- 
-
- 
-
- 
-
- 
- 
-   
-
-
-
-
- 
- 
- 
- 
-
- 
-
-
-
- 
-
- ­ 
-
- 
-
-
-
-
-
-
-PE
-
- ­ 
-  //
-
- ­ 
-      Shellcode
- / shellcode
-
- ­ 
- POCDoCmd 
-
- ­ 
- Javascript
-hook 
-HookDoCmd
-
-
- ­ 
-
- PE 
- www.a.com<embed src=nb.swf>  PEwww.a.com/nb.swf  
-
- 
-
- 
-
- 
-
-
-
-VDC 
-
- ­ 
-
- URL   
-
-Webtool
-
- 
-
- 
-
- 
-
-model
-
-Bayes SimHash kmean
-
-KNN
-
-i_load() i_train() i_predict() i_evaluat e() i_dump()
-
-Logger/I O
-
-Mysql
-
- ccode
-
-Crawler
-
-HtmlPas er
-
-Denoise Wordseg Feature Math
-
-...
-
- ­
- 
-
-
-
- 
-
-SVM  bayes 
-
- 
-
- 
-
-
-
-
-
- ­
-  - Bayes
-
-
-
-
-
-
-
- ­
- 
- 
-   SCGIS
-
- ­
- 
-     
-
-
- ­
-
-
-
-
-
-
-
-
-
-
-
-
- ­ 
- 
-     
-     
-
- ­ 
-     
-
-
- ­ 
- 201353729.8 46.8%
- 2013 48.7%
-
-­ 
- 2013 
-
- ­ 
-  
- 
-
- ­ 
-  
-
- ­ 
- 201353729.8 46.8%
-   
-39.7%  44.0%1-4  83.8%  
-  67.8%
-
-
-

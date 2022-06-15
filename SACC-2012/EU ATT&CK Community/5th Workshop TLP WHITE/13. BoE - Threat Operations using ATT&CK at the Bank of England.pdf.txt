@@ -1,117 +1,0 @@
-Threat Operations using ATT&CK at the Bank of England
-James Morrin
-Cyber Defence Intelligence Lead
-
-Detect and respond to cyber-attacks against the Bank of England
-
-CDC ­ Our approach
-Threat
-Attacker groupinst,etllaigcetniccse, techniques or promcaetcdhuinrges
-known by the Bank
-
-Large scale data mining ­ attack
-Unknown atdtiasccokvsery
-
-Attack Sophistication
-
-Attacker groups, tactics,
-techniques or procedures Prkevneonwtantivbey the Bank
-controls
-
-Unknown attacks
-Log
-analysis
-
-How targeted is the attack
-
-CDC ­ Our operating model
-
-75%
-
-75% of CDC analysts focused
-
-on improving
-
-detection
-
-Threat intelligence
-
-Understanding our attackers' tactics, techniques and procedures
-
-Responding to suspicious
-behaviours
-
-Incident response
-
-Data analytics
-
-Continually developing new methods of detecting behaviours associated with attacks
-
-Point 1: Introducing Threat Operations & ATT&CK
-
-Threat Operations goals: 1. Clear and unified purpose
-- Understand our adversaries and their TTPs - Threat-led use case generation
-2. Use of a common language
-- Collaborate across TI, red & blue teams ­ and partners - Irrespective of the source format or focus
-3. Consistent output and knowledge retention
-- Drive efficiency through consistency - Enforced through a compatible threat intelligence platform
-
-Knowledge Understanding
-Inspiration Application
-Mitigation
-
-DISTILLERY ­ Distilling raw threat intelligence into use case ideas
-
-Assessment
-
-Structuring
-
-Analysis
-
-Evaluation
-
-Production
-
-· Assessing the value, relevance and confidence of the intelligence
-· Assign a rating
-
-· Structuring the intelligence in the TIP
-
-· Extract viable TTP snippets against ATT&CK
-· Creating UC ideas
-· Assessing against current understanding
-
-· Gap Analysis
-· Determine effectiveness of existing UCs
-· Prioritisation for UC generation
-· Update threat matrices
-
-· UC development process
-· UC fed back into TIP
-· IM/IR utilise knowledge in support of triage
-· Campaign patterns
-
-DISTILLERY ­ View from the TIP
-
-KOJAK
-DISTILLERY ­ View from the SIEM
-
-Point 2: Training and clarity
-Cons
-
-Pros
-
-Point 3: Communicating with seniors
-
-Allows threat intelligence, and
-use cases, to become tangible
-
-Effective visualisation tool
-for demonstrating
-coverage to seniors
-
-Useful for `story telling'
-
-Assurance and understanding
-
-

@@ -1,83 +1,0 @@
-
- Cnbird@wanmei qQ:2010289
-
-
-
-   BASH Nagios OSSIM
-
-
-
-
-     
-
-
-    MD5, MD4 CRC32SHA    
-
-
- Tripwire Download:http://sourceforge.net/projects/tripwire  Aide Download:http://aide.sourceforge.net/  Ossec Download:http://www.ossec.net/
-
-
- Tripwire 1. 2.rpm rpm -ivh ftp://rpmfind.net/linux/epel/5/i386/tripwire-2.4.1.11.el5.i386.rpm 3. 3.1 twcfg.txt LOOSEDIRECTORYCHECKING=ture  3.2 key twadmin --generate-keys --site-keyfile /etc/tripwire/site.key twadmin --generate-keys --local-keyfile ./$HOSTNAME-local.key
-
-
-3.3 :  twadmin --create-cfgfile --cfgfile ./tw.cfg --site-keyfile ./site.key twcfg.txt twadmin --create-polfile --cfgfile tw.cfg --site-keyfile site.key twpol.txt 3.4  chmod 0600 tw.cfg tw.pol 3.5  tripwire --init --cfgfile ./tw.cfg --polfile ./tw.pol --site-keyfile ./site.key --localkeyfile ./nagios.oa.wanmei.com-local.key 3.6 (,web, ,twpol.txt,) tripwire --check tripwire --check -r "/var/lib/tripwire/report/nagios.oa.wanmei.com-20120229113844.twr" | logger -t tripwire
-
-
- 3.7  passwd  3.8 crontab 00 03 * * * /usr/sbin/tripwire --check  3.9  tripwire --update --twrfile /var/lib/tripwire/report/nagios.oa.wanmei.com20120229-113844.twr  3.10  tripwire --update-policy --cfgfile /etc/tripwire/tw.cfg --polfile /etc/tripwire/tw.pol --site-keyfile /etc/tripwire/site.key --local-keyfile /etc/tripwire/nagios.oa.wanmei.com-local.key  3.10 nagios
-
-
- Snort Download:http://www.snort.org/  Samhain Download:http://la-samhna.de/samhain/
-
-(Snort WAF)
-1. Snort:
-alert tcp $EXTERNAL_NET any -> $HTTP_SERVERS $HTTP_PORTS (msg:"WEB-ATTACKS /bin/ps command attempt"; flow:to_server,established; uricontent:"/bin/ps"; nocase; classtype:webapplication-attack; sid:1328; rev:6;) 2. mod_securitysnort(mod_securityapache,snort web server)
-(msg:"SQL Injection test"; flow:to_server,established;uricontent:"?";pcre:"/(\%27)|(\')|(\-\)|(%23)|(#)/i"; classtype:Web-application-attack; sid:9099; rev:5;)3.  WAF XSS,SQL INJECTION,,,webshell, ,HPP(http)
-
-Bash
- bashbash
-MicrosoftWord 97-2003
-
-Nagios
- Nagios+aide :aide, nagiosaide, nagios  Nagios+snort Download:https://www.monitoringexchange.org/inventory/Ch eck-Plugins/Network/check_snort Nagios+ossec Download:http://kintoandar.blogspot.com/2011/01/nagiosnrpe-ossec-check.html
-
-OSSIM
- OSSIM OSSIMnagios,cacti,snort,nessus,ossim-agent,ossimserver Download:http://communities.alienvault.com/community
-
-OSSIM
-
-1. ossim-agent
-
-wget http://downloads.sourceforge.net/project/os-sim/os-sim/os-sim-2.1/ossim2.1.tar.gz?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fossim%2F&ts=1330507868&use_mirror=cdnetworks-kr-1 tar xvzf ossim-2.1.tar.gz cd ossim-2.1/agent && python setup.py install
-2. 
-
-vim /etc/ossim/agent/config.cfg 
-
-ossimagenton debian
-
-OSSIMon windows
-
-OSSIM
-3. ossim-agent ossim-agent 4. OSSIMOSSIM-agent
-
-5.
-
-OSSIM
-
-5. 
-
-OSSIM
-
-6. 
-
-OSSIM
-
-7. 
-
-OSSIM
-
-
-2012-03-03
-
-
-
-

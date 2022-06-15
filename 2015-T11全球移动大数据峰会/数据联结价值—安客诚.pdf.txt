@@ -1,189 +1,0 @@
-Data Connectivity: The Business Transformer
-Acxiom Corporation Ken Liu ­ GM, Connectivity BU, Asia
-
-Data Explosion...More Data Silos...
-
-MARKETING COMPLEXITY
-
-DATA DRIVEN
-Addressable TV, Cross-Device, Personalization, Programmatic
-DIGITAL
-Email, Website, Search, Display, Affiliates, Video, Mobile, Social
-TRADITIONAL
-Print, Catalog, Direct Mail, Radio, TV, Telemarketing
-
-1900
-
-2000
-
-2015
-
-Customer Experiences Becoming More Diversified
-Today's customer journey involves many channels But each channel has its own data and metrics
-
-Fragmented Data = Missed Opportunities
-
-SILOS OF CUSTOMER DATA
-
-INEFFICIENT MARKETING
-
-?
-WRONG MESSAGE WRONG CHANNEL WRONG TIME
-
-Through DATA, advertisers are able to dramatically improve marketing efficiency
-
-Online/Offline Measurement
-10% Lift 71% Cardholder Appr. Rate
-(Bank)
-
-Acquisition
-Response rates +64% Close rate +26%
-(Brokerage)
-
-Identified double-digit
-redirect in spend
-(Insurance)
-
-Response rates +136% CPA 58% < forecast
-(Health insurance)
-
-Customer Experience
-Sales volume per guest up
-nearly 50%
-(Hospitality)
-6X average
-Campaign buy rate (Automotive)
-
-Insights in
-days vs. weeks
-(Retailer)
-
-150-250%
-ROI (Retailer)
-
-25%
-increase in response rates (Health)
-
-If there is one thing you use, use your own data...
-Source: Econsultancy, `The Promise of First-Party Data' in association with Signal, June, 2015
-
-To magnify the power of your own data, you need the capability to connect them to other relevant data & activate their usage.
-
-Marketing In Internet of Things (IoT) Era
-"30% increase YOY from 2014 to 2015 with 4.9
-billion connected things being used.
-This is estimated to grow to 25 billion by 2020."
-
-What are key business problems for advertisers?
-
-Targeting
-
-Personalization
-
-Measurement
-
-How can I identify & reach my TA across digital channels?
-
-How can I deliver personalized content for defined TA segments?
-
-How can I measure sales impact of digital campaign?
-
-Data Connectivity is the Business Transformer
-
-MOBILE ATTRIBUTION
-
-SITE PERSONALIIZATION
-
-VIDEO
-
-SEARCH
-
-DATA MANAGEMENT
-
-MARKETING APPLICATIONS
-
-MEDIA
-
-DATA CONNECTIVITY
-DATA SOURCES
-
-CRM
-
-TRANSACTION
-
-THIRD PARTY
-
-· Efficient · Accurate · Scalable · Security & privacy compliant
-
-Case Study
-A SALES-DRIVEN APPROACH BY CONNECTING RETAIL DATA
-
-A Win-win Collaboration Strategy
-
-+
-
-An International Cosmetics Brand
-Drive In-store Sales by... - Existing member retargeting - New customer acquisition
-
-Wangfujing Department Store
-- Retain existing customers /cross-sell opportunity
-- Drive multi-channel customer engagement
-
-Identify Target Audience via Connecting Data
-Group 1 CRM Retargeting
-
-Brand
-
-Identify matched CRM members
-
-Match & distribute to media (Weibo)
-
-Group 2 Retail Targeting
-
-Brand
-
-Find lookalikes in non-matched Retail members
-
-Match & distribute to media (Weibo)
-Cosmetics Women's wear
-
-Reach TA Groups on Media and Call to Actions
-
-1. Reach TA on Weibo with targeted post
-
-2. Drive traffic to campaign site for further engagement
-
-3. Register / login  PII collected
-
-5. Sales converted at WFJ counter
-
-4. Trigger SMS offer  Drive sales to WFJ
-
-Measure the Success
-
-Group 1 CRM Retargeting Group
-
-Purchase%
-
-9.52%
-(Benchmark: 2.19%)
-
-Group 2 Retail Targeting Group
-0.67%
-
-Cost per
-
-Acquisition
-
-N/A
-
-36
-(Benchmark: 55)
-
-Start Planning Your
-Connection
-
-Thank You.
-Ken.Liu@acxiom.com
-
-

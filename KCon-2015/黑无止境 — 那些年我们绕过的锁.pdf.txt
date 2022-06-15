@@ -1,235 +1,0 @@
- -- 
-Kevin2600
-
-:
-
-.  . @ . @ . @ I . @ II
-
-:
-,.4000 .
-, . .
-.   .
-
-
-
-
-
-
-
-
-
-
-
-
-
-@
-
-Samsung: Ezon RFID 
-
-ing
-Ezon  == Mifare classic 1K !!? Mifare Crypto1 ..... Proxmark3Snoop ...
-
-:
-,  4bytes  UID .  Mifare  Block 0 in Sector 0 .  Mifare UID . Sniff UID, . Key.
-
-
-
-
-5 , . 4, 1Reset ?
-
-HID-Prox2 
-
-.  = 21(8 bits) .  29644 (16 bits) . 
-. Wiegand 26 bits (iClass)
-
- RFIDler
-RFID: RF, (; )  Proxmark3 , .  125khz /134khz : , , , 
-
-RFIDler : 
-HID EM4x02
-
-RFIDler : HID  .  minicom  RFIDler
-.  rfidler.py (import RFIDler)
-> set tag hid26 > encode 123 87654 hid26 > emulator
-
-:
-
-RFIDler : 
-.  T55x7
->  > 10
-. RFIDler  T55x7; Q5; HITAG ..
-> set tag hid26 > copy T55x7 > clone
-
-:
-
-RFIDler :  .  . HID  . 
-github.com/kevin2600/RFIDler-HID26-BruteForce
-
-:
-
-BLEKey -- RFID  github.com/LinkLayer/BLEKey
-
-@
-
-
-
- vs 
-. ,  . : ; ; ; .. . ....
-
-1: 
-, . ...
-
-2: 
-. ...
-
-3: 
-. ...
-
-4: ?
-. ... RTFM..
-
-?
-, .  , .
-, ,  .
-,  . , .
-
-
-, , .  , , .
-. ,  . .
-:  (Loop);  (whorl)  (Arch).  , , .
-
-
-: (); (IPhone)
-, 
-: , .  , 
-
-&
-;. , .
-,, . .
-http://dasalte.ccc.de/biometrie/fingerabdruck_kopieren.en
-
-:
-
-?
-
- - YL 99
-Master :  ( 0123 # :  ( 9  : 10  (1 - 8  :  + xxxx +  + # (
-,  ...
-
-: Reset
-
-: Relay
-
- ...
- Reset , . .  Relay , . .  -->  Reset  -->  ()
- ...
-
-RTFM ..
- em78p156e   EEPROM 24C02,  (l2C ) I2C  2: SCL () + SDA ()
-
-,  (BusPirate)
- Windows / Linux / Mac  I2C / SPI / UART / 1-Wire / JTAG . 
-
-The Hack
-:  (0) +  + (#) (#),  EEPROM  EEPROM ,  (Plain-Text )
-
-@ I
-
- ...
-
--- August
-August ,  August , App ,  (; ; ?)
-
-August 1: 
-APPAES-ECB
-AES: ,  E-mail,  UUID (32bits hex)
-
-August 2:  log 
-. (UserID),  . UUID APP August  .  UUID; UserID  . APP  log .
-..... :(
-
- -- WinkHub
-. All IN ONE  WinkHub (ARM CPU; RAM; NAND) .  WIFI/Bluetooth/Zigbee (2.4G); 915Mhz (Zwave); 433Mhz (RF) .  (GE; Nest; Dropcam; Philips)
-
-Debug  -- UART
-.  (8 data bits, no parity bits and 1 stop bit) . : 300; 9600; 115200  230400 ? .  (https://code.google.com/p/baudrate/) .  Bus-Pirate  Shikra () 
-
-Got ROOT? Command Execution
-WinkHub  (set_dev_value.php) curl "192.168.01/set_dev_value.php" -d "nodeId=a&attrId=; uname -a;"
-..... :(
-
- 101
-(), ,, (Glitch) ,  (Glitch)  (,,).
-
- -- NAND Glitch
-NAND Glitch ,  bootloader .  root shell.
-,  I/0 pin GND  ...
-
-
-NAND Glitch ,  &  ....
-
-@ II
-
-, 
-
-
-. ,  .. . , ,  ..
-
- - Shim
-. , , , 
-
- - 
-. , , , . 
-
-
- Zmap  Masscan .  IPv4 . , . .  ZoomEye . ZoomEye  Shodan , .
- dorks  T-Shirt ;)
-
- -- Envisalink
-
-
-EnvisaLink TCP/IP.  , .
-&!!
-(user: user)
-
- -- P372
-
-
-ANPR: .  Web, Telnet, FTP . !?  !!!
-
- -- Echelon PLC
- Ethernet , ,   WEB-Server & (ilon)  ics.zoomeye.org (i.LON 600, i.LON SmartServer)
-
-: Echelon PLC
-
- -- S2 NetBox
-
- S2 NetBox  WEB(80) S2 NetBox & admin /admin & IEIeMerge/eMerge
-
-SHODAN -- HID 
-
- HID  FTP(21), TELNET(23), WEB(80) HID & root / pass
-
- -- Masscan
-https://github.com/robertdavidgraham/masscan  IPv4  40  (4294967295).  Class D, . , IP . , 3 . Masscan .  (DoS ?)
-
-Masscan  -- VNC 5900
- VNC   VNC , masscan 0.0.0.0/0 --exclude 255.255.255.255 -p 5900 nmap --script openvnc.nse -n -Pn -iL vnc.txt -p 5900 > /dev/null
-
-VNC 5900 -- 
-
-VNC 5900 -- 
-
-VNC 5900 -- 
-
-VNC 5900 -- 
-
-VNC 5900 -- 
-
-VNC 5900 -- 
-
-
-Kein System ist Sicher100% . , .  . , .
-@KEVIN2600
-
-

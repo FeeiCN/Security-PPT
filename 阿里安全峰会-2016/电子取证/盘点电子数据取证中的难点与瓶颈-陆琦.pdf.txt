@@ -1,94 +1,0 @@
-
-  13817065810
-
-
-·  ·  ""
-
-· FornsisLatinRoman Times
-· Forensic Science · Computational forensicsForensic accounting
-
-· ,  
-
-
-
-  
-
-
-
-
-·  · * ·  · 
-
-
-·  ·  · 
-
-
-
-1
-
-2
-
-3
-
-· IDESATA SASSCSI
-· SATA mSATANGFFM.2
-· PCIE SSD
-
-USB1.1USB2.0 USB3.0USB3.1 microtype-c OTGIDE
-SATA IEEE1394
-
-· USBm-bus f-busdku5flash
-· Com
-
-
-
-
-
-· // · BIOSUEFIEFIBootloader · 
-
-
-
-· bitlockerfilevaultLUKSFDE TC......
-· 
-· OTP · 
-
-
-  
-
-
-
- 
-
-
-   
-  
-  
-
-
- 
-
-
-   
-
-1 
-·  ·  ·  Eg
-
-2 
-·  · 
-
-3 
-   
-
-
-· 
-
-*Evil Maid
-·  
-· TrueCryptBitlockerPGP ·  ·  · Eg200910Joanna putkowskaTrueCrypt
-
-
-4 
-·  ·  · 
-
-   13817065810
-
-

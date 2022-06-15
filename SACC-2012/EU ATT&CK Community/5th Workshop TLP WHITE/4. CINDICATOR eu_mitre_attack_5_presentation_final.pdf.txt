@@ -1,69 +1,0 @@
-TLP: White
-EU ATT&CK Workshop #5
-Daniil Yugoslavskiy Head of Threat Detection Cindicator SOC, RU/ES
-
-agenda
-
-TLP: White
-
-Part 1: RE&CT
-· RE&CT intro · RE&CT use cases · Operationalization · Demo · To be discussed
-
-Part 2: OSCD
-· OSCD intro · OSCD Sprint #1 Results · OSCD Sprint #2 Announcement
-
-TLP: White
-Atomic Threat Coverage
-
-who we are
-
-TLP: White
-
-· Daniil @yugoslavskiy, Head of Threat Detection, Cindicator  · Mateusz Wydra, @sn0w0tter, Threat Intelligence Analyst, Relativity  · Jakob Weinzettl, @mrblacyk, Incident Responder, Tieto  · OSCPx3, GCFAx3, GNFA, CCNP Security, etc
-
-who we are
-
-TLP: White
-
-· Working with the ATT&CK framework for almost 4 years · It's 4th time we're speaking on the EU ATT&CK Workshop · RE&CT is a part of the Atomic Threat Coverage project
-
-what is RE&CT TLP: White
-· ATT&CK-alike framework for Incident Response techniques · Threat Actor -> Incident Responder · Tactics -> Response Stages (the "why") · Techniques -> Response Actions (the "how")
-
-TLP: White
-
-RE&CT use cases TLP: White
-· Prioritization of Incident Response capabilities development · Gap analysis -- determine "coverage" of existing capabilities
-
-operationalization TLP: White
-1. Download 2. Modify 3. Export 4. Profit
-
-TLP: White
-Demo time!
-
-to be discussed TLP: White
-· Connect RE&CT with Threat Detection/Hunting · Add multiple languages support · RE&CT for Cloud · RE&CT for ICS
-Join discussions in GitHub Issues!
-
-TLP: White
-Open Security Collaborative Development
-
-https://oscd.community TLP: White
-The First OSCD sprint: · Started in October 2019 · Finished in November 2019 · Results added to `master` branch in February 2020
-
-https://oscd.community TLP: White
-        
-
-TLP: White
-OSCD Sprint #2 will take place
-beginning of August 2020
-
-Thank you!
-
-TLP: White
-
-RE&CT web site: ATC GitHub Org: ATC Twitter: ATC Demo Confluence: OSCD Twitter:
-
-https://atc-project.github.io/atc-react/ https://github.com/atc-project/ https://twitter.com/atc_project https://atomicthreatcoverage.atlassian.net https://twitter.com/oscd_initiative
-
-

@@ -1,125 +1,0 @@
-
-----
-SPEAKER / 
-
-
- @tombkeeper
- 15 
- 
-
-"" 
-
-
-
-
-
-
-
-
-
-Java 6.0  isEqual()
-public static boolean isEqual(byte digesta[], byte digestb[]) { if (digesta.length != digestb.length) return false; for (int i = 0; i < digesta.length; i++) { if (digesta[i] != digestb[i]) { return false; } } return true;
-}
-
-
-
-
-  
-
- 
-
-
-
- isEqual()
-public static boolean isEqual(byte[] a, byte[] b) { if (a.length != b.length) { return false; } int result = 0; for (int i = 0; i < a.length; i++) { result |= a[i] ^ b[i] } return result == 0;
-}
-
- FTP 
-
- FTP Bounce 
-
-FTP Bounce
-
-# nc 172.0.0.1 21
-
-220 sun8 FTP server (SunOS 5.8) ready.
-
-USER anonymous 331 Password required for anonymous. PASS user@sun
-
-(4 x 256) + 3 = 1027
-
-230 User anonymous logged in.
-
-PORT 192,0,0,1,4,3
-
-200 PORT command successful.
-
-NLST
-
-150 ASCII data connection for /bin/ls (192.0.0.1,1027) (0 bytes).
-
-226 ASCII Transfer complete.
-
-PORT 192,0,0,1,4,4
-
-200 PORT command successful.
-
-NLST
-
-425 Can't build data connection: Connection refused.
-
-(4 x 256) + 4 = 1028
-
-
-
-BadBarcode 
-
-
-
-
-
-
-Laser/LED CCD/CMOS
-...
-
-
-UPC/EAN Code 39 Code 128
-...
-
-
-RS232 PS/2 USB HID
-...
-
-BadTunnel 
-
-
-1. UDP  2.  3. Windows  WPAD 4. Windows  API  UNC path 5. Windows  139  445  NBSTAT query 6. NBNS  7. NBNS Transaction ID  8. NBSTAT query  NB query  9.  WPAD WEB NBNS 
-
-Alice
-
-NAT & Firewall
-
-Bob
-
-192.168.9.9
-
-192.168.1.1
-
- Alice  UNC 
-
- \\10.10.2.2\BadTunnel 10.10.2.2  445/TCP  139/TCP  SYN
- http://WPAD/wpad.dat  NB query
-
-10.10.2.2
-
- RST 445/TCP  139/TCP   NBSTAT query  137/UDP  137/UDP BadTunnel Transaction ID
-
- Transaction ID  BadTunnel  NB response
-
-""
-
-""
-
-""
-
-

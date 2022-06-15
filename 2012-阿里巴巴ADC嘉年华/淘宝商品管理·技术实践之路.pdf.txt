@@ -1,237 +1,0 @@
- 
-
-About Me
-- --
- 
-@TB
-
-
-   
-
-@
-  TB    
-
-@
-
- 
-
-
-
-
-
-
-
-·
-
-·
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Query /
-
- 
-
-
-  
- 
-
-
-
-
-
-
-
-
-
-  
-
-......
-
-Hadoop/Join
-
-Job·&
-
-
-
-
-
-
-
- &
-
-
-
-Hadoop
-
-Hadoop +  + DSL Notify(MQ) + DSL +  
-
- BI  DWBI 
-
-
-Hadoop  Join SST DSL
-why not HIVE?
-
-
-    
-
-
-
-
-
-  
-
-......
-
-&
-
-Join
-
-MapJoin DSL/ MIMO
-
-
-
-
-
-
-
-Hadoop
-
- DumpHDFS DumpMapJoin
-Merge Job
-MIMOJob
-
-
-
-
- MapJoin MIMO 
-
-@
-Join SST DSL  MapJoin MIMO 
-
-Join
- Key  SequenceFileMapFile MultipleInputs  MIMO
-
-
-
-ID=1 ID=1 ID=1 ID=1 ID=2 ID=2 ID=2
-......
-
- ID=11 ID=22 ID=33
- ID=12 ID=45
-
-  
- 
-
-SST
-Static Search Table  + KeyValue  FileFormat
-Join SST100GB20MB
-
-DSL
- Java    
-
-
-
-1E+20GB+200 3k-5k20k SST  + 4TB HDFS 
-DUMP
-
-
- 
-
-SequenceFile Buffer@ID
-
- 
-......
-
-
-
-+ID
-ID +ID  +ID  +ID  ID +ID  
-......
-
-
-
-3 7 14
-
-28
-
-28
-
-28
-
-...
-
-MapJoin
-GBMap  KV-Seek
- MapHadoopReduce  
-
-MIMO
-MultipleInputs/MultipleOutputs  TaskContext 
-PartitionerClass CombinerClass ReducerClass OutputFormat NumReducers ......
-Job
-
-Huge DataSet 1
-
-Huge DataSet N
-
-Split
-
-Split
-
-Split
-
-...... ...... ......
-
-MI
-
-MapA MapB
-
-MapA MapB
-
-MapA MapB
-
-MAP
-
-MapTask
-
-Combine X
-
-Combine Y
-
-Partition/Sort X
-
-Partition/Sort Y
-
-MO
-
-REDUCE
-
-MergeSort/Reduce X1
-
-MergeSort/Reduce MergeSort/Reduce
-
-X2
-
-Y1
-
-
-DSLSSTMIMO Reporter 
-sum(""item_stock_quantity) max(""item_price) average(""item_price) MIMOCombinerReducer  
-
-
-   
-
-
-Q&A
-
-

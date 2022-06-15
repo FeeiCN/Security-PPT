@@ -1,82 +1,0 @@
-40G 
-2012  cdn  
-
- 
-2011  CDN  860G   2012   CDN  100+%    10  cache  40G  
-
- 
-1.  CDN 2. 2011  3. 2012  4.  5.  cache  6.  7.  8.  2013
-
- CDN
- 100+  30    860Gbps    30TB    95%  Lvs + Haproxy + Squid(TS)
-
- CDN
- 30TB  93%  50TB  95%  1%  50%    18->36kB
-
-2011 
-  50%   1TB   11 
-
-2012 
-  2Tbps 
-­  10G  200  
-­  93%  140G 
-
-2012 
-  10    3 
-
-  30%   100%   10%
-
-2012 
-
-Capex =  Opex = 
-  <<  30G 
-
-Cache 
- CPU -    ­ 
-   - CDN    ­ 
-
-
-
- SSD   $1/GB
-  256G 1500 
-
-
-  Intel  E5    $600 
-
- cache 
-  xxTB   xxGB     cpu   
-
-
- cache 
- 
-­ SSD  270GB/s  >>6000 IOPS ­ CPU  1gbps/core ­  10gpbs  bonding  ­ 
-
- cache 
-  16core 8×600G  
- TS 
-­  16gbps  112kqps ­  7.7gbps  ­  3.4gbps  17kqps (  haproyx)
-
- cache 
-
-
- 
-­  ­ 
- 
-­  ­ 
-
-
- TS 
-­  Raw Disk  ­  x 
- TS 
-­  ­  stack ­ 
-
- 2013
-  10  30    4.8T  24  48T    4G  8G  ?
-
- CDN 
-     
- 
-
-
-
-

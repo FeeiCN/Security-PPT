@@ -1,476 +1,0 @@
-
-----
-
-  yin-hao@sangfor.com
-
-20122011
-§ 
-
-3
-
-
-§ 
-§  § 
-§ ---- § 
-4
-
-
-
-
-BYOD
-
-PC
-
- 
-5
-
-
-
-
-
-
-    
-
- · .....
-· .....
-· .....
-·.....
-· .....
-
-
-6
-
-
-§   § APT § 
-7
-
- 
-""
-§ ---
-§ --- 
-8
-
-
- 
-9
-
---
-
- 
-
-DLP
-
-
-
- 
-
-
-
-IPS
-
-
-
-AV
-
- · / 
-·  · 
-
-
-
-10
-
---
-
- 
-11
-
-DRM   
-
-
-§  § ----
-§ / § ---
-§ 
-12
-
-/""
-
- 
-
-Internet
-
-
-
-
-
-OS
-
-OS OS OS
-
-OS OS OS
-
-OS
-
-
-
- 
-  
-
-
-
-
-
-
-
- 
-
-
-
-l aaa l  l 
-
-/
-
-
-
- 
-
-l aa a
-
-/
-
-
-
- 
-
- 
-
-
-
- 
-
- 
-
-
-
- 
-
-a a
-
-
- 
-
-
-
-
-
-
-
-    
-
- 6  
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
- Sandbox
-     
-
- 
-
-
-
-
-
-
-
-18
-
-  
-
-
-   
-19
-
-
-§  IT -----
-20
-
-
-
- admin  °°°°°°
-OK
-
-
-
-/ VS  Same
-
-
-
-
-
-
-
-concurrent
-
-Different
-
-
-
-Scalability
-
-
-
-
-
-
-22
-
-
-§  § ---- § 
-§  § =+ § 
-23
-
- 
-
-a 
- 
-
-
-
-
- 
-
-
-
-
-
-
-
-
-24
-
-
-
-
-
-
-
-
-
-Direct Access
-
-
-
-
-
-
-
-
-
-
-
-n  n  n 
-
-25
-
-
-
-Internet
-
-
-
-
-
-Security Access 
-
-
-
-
-
-n  n  n  n PC
-
-Internet
-
-26
-
-
-
-
-
-
-  VPN 
-Security Access
-
- 
-
-
-
-OS
-
-
-
-
-
-n U 
-n  n 
-
-27
-
-
-
- admin °°°°°°
-OK
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-Internet
-
- 
-
-
-
- 
-
- 29
-
-
-§ Only PC § Only One Device §  § 
-30
-
-/
-
-
-
-
-
-
-
-
-
-TCO
-
- 
-
-*OUFSOFU
-
- 
-
-
-
-
-
- 
-
-OS
-
-  
-
-
-
-
-
-OS OS OS
-
-OS OS OS
-
-OS
-
-
-
-
-
- 
-
-44-71/
-
- 741 
-
-/("'
-
-"$
-
- 
-
-
-
-
-
- 
-
-
-
-  
-
-
-
-
-
-
-TCO
-
-
-
-
-
-
-5$0
-
-
-
-
-90%
-TCO14
-35
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PC A
-
-PC B
-
-
-
-36
-
-
- 
-   +86-186-7561-8111 yin-hao@sangfor.com www.Sangfor.com
-
-

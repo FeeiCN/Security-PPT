@@ -1,262 +1,0 @@
- 
-  2014-09-25
-
-
-    
-32
-
-
- 
- 
-
-
-
-
-  
-
-
-  
-   
-
-
-
-20   
-
-
-
-Forte D.V. 
-
-
-
-Ma G. Hunton P. 
-
-
-
-
-
-
-
-    
-
-Wang W.     
-
-
-
-
-
-
-
-Gladyshev Abbott J .
-
-
-
-
-
-    
-
-
-   
-
-Case A. FACE   
-
-
-
-ISO/IE C27037   
-
-
-  
-
-  
-
-
-
-1
-      
-
-2
-       
-
-3
-    
-
-
-   
-
-
-· "" 
-·  
-·   
- 
-
-
-
-· Vmware Station    
-
-Vmware Station 
- 
-
-
-
- uuid
- 
-
-
- 
-
- 
-
- 
-
- Vmdk
-
-
-
-
-
-dll  
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-· KVM   
-
-
-
- 
-
-
- 
-Cpu
-
-cpu vmcs
-
-vmcs
-
- 
-
-REVISION_ID Ept
-
-VMX_ABORT_INDI CATOR
-VMCSLINKPOINTER
-
-Guest cr3 HOST_CR4
-
- Vmcs
-
-vmcs 
-
-Raw 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-·  · VMCS ·  ·  · 
-· ApiHook ·  ·  · DLL
-
-
-
- 
-
-      
-
-      
-
-
-
-
-
- 
-
-  
-
-
- 
- 
-  
-  
-
-
-
-
-
- 
-
-
-
-
-·   
-· APT 
-·  
-
-
-  
-
-
-
- 
-
-    
-
-    
-
-
-
-
-    
-
- Ip
-
-
-·  · 
-
-
-·  · 
-
-
-· IP
-
- IpMAC 
-
-
-
-· 
-
-· 
-
-· 
-
-
-   
-· 
-
-
-·  · DLL
-
-
-·  ·  · 
-
-Thanks!
-
-

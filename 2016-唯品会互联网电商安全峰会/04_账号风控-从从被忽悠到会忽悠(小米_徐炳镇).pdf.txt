@@ -1,143 +1,0 @@
-
-
- 
-
-
-u  100W  u  100W / u  100W  u  100W  u  100W  u...
-
-
-
-u  ----  u  ----  u  u  u  u  u...
-
- 
-
-
-
-
-
-
-
-
-u  u  u  u 
- 
-
-
-u  ----  cookieIMEI API
-u  ----
-
-
-
-
-
-
-
-1
-
-2
-
-
-
-5  4
-
-
-
-
-
- 
-
-3
-
-  IP  
-
-· 
-
-· 
-
-IP 
-
- 
-
-· 
-
-· 
-
-IP 
-u 
-u 
-
-
-10
-111
-50%
-2
-10P=(1/2)^10=0.1% 50%   0.05 69%-99%
-
-
-u  IP 10 UA  python-requests/2.7.0 CPython/2.7.10 Windows/7 11  UA 
-
-
-u  ---- 
-
-30%
-
-80%
-
-
-u  u  u  UA UA / u / u / u...
-  
-
-IP 
-u  u  u  u  IP u...
- IP  IP 50W+ IP
-IP  1 IP  2 IP  3 4
-
-
-u UApython-requests/2.7.0 CPython/2.7.10 Windows/7 u  100  u 
-IP  
-
-
-u IP  u  u  u  u...
-
-
-u  u  u  IP u  u  u  IP u... u 
-
-
-
-/IMEI/
-u  u  u  u...
-
- ó 
-
-
-A
-
-D1 D2
-
-B C
-
-D3
-
-//
-
-
-u  u 
-u Q u A10%
-x
-u Q u A
-
-
-u Qapp u A
-
-
-u Q u A
-
-
-u Q u A u Q u A...
-
-
-u  u  u  API u 
-
-Thanks!
-xubingzhen@xiaomi.com
-
-

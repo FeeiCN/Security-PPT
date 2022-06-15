@@ -1,233 +1,0 @@
-
-  
-
-
-
-
-
-
-Naming 
-
-
-
-
- ­   ­   ­ 
-
-1.1 
- 
- 30+
- SRE
- 50:1
- 
-     
-
-1.2 
-
-Runtime 
-
-Runtime 
-
-Runtime 
-
-   runtime  runtime
-
-
-
-1.3 
-
-Daemon
-Nginxresin
-
-Nohup
-Java
-Cron
-
-Supervisord
-
-
-god load service god start service god stop service god nuke service god log service god cron service
-
-1.4 
-
-     ++
-
-
-
-
-
-
-
-
-1.5 
-WEB GIT
-
-Build Server
-
-ODIN
-
-FRIGGA
-APP SERVER
-
-GOD
-
-FRIGGA ......
-APP SERVER
-
-GOD
-
-1.6 -
-
-1.7  ­ 
-   
-
-1.8 
-bash -x ./build-release.sh -u git@git.n.xiaomi.com:deploy-test.git ­t job.test_service.deploy -v 8c5cc2d5e
-
-1.9 
-1700+ 500+
-900+
-
-
-2.1 
-     
- 
-
-2.2 
-
- 
-
- 
-
- 
-
- TAG
-
- 
-
-LVS
-
- 
-
-2.3 TAG
-
- 
-  
-
-   
-
-cop.xiaomi_owt.miliao_pdl.im_service.ack cop.xiaomi_owt.miliao_pdl.im_service.chat
-
-2.4 
-
- 
-
-TAG
-
- 
-
-
-·  · TAG
-
-
-· God · TAG
-
-2.5 
-
-
-2.6 
-     
-
-2.6 
- 
- LVS
-
-2.7 
- 
-WEB GIT
-
-Build Server
-
-ODIN
-
- TAG
-
- 
-
-LVS
-
-FRIGGA
-APP SERVER
-
-GOD
-
-FRIGGA ......
-APP SERVER
-
-GOD
-
-3.1 
-   
-
-3.2  - docker
-· 
-­  ­  ­  ­ 
-· 
-­ IO
-· Volume
-­ 
-· IP
-
-3.3 docker
-
-GIT
-dockerfile
-
-WEB
-
-Build Server
-Docker build
-REGISTRY
-Docker images
-
-ODIN
-
- 
-
- TAG
-
- 
-
-LVS
-
-FRIGGA
-APP SERVER
-
-GOD
-
-FRIGGA ......
-APP SERVER
-
-GOD
-
-3.4 
-
-
-
-  
- 
-
-
- 
-
-
-Naming
-
-
-       
-
-Our goal is noops!!!
-http://www.noops.me
-
-Q&A
-
-

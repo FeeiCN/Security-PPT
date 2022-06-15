@@ -1,167 +1,0 @@
- ID MN-2005!  !!
-
- SCADA  !
-Amol Sarwate!
-Qualys Inc.
- ID MN-2005!  !!
-
-!
-SCADA  ! ! ! ! ScadaScan  !
-
- SCADA !
-
-! !
-!!
-!
-
-!
-!!
-http://www.ntsb.gov/doclib/safetystudies/SS0502.pdf!
-!
-http://www.nerc.com/docs/docs/blackout/Status_Report_081104.pdf!
-!
-http://en.wikipedia.org/wiki/List_of_industrial_disasters!
-!
-
-! !
-! !
-!
-! !
-!
-
-!
-!
-http://www.bpa.gov/corporate/BPAnews/archive! /2002/NewsRelease.cfm?ReleaseNo=297!
-
-! !
-! ! !! !! !! ! ! !
-
-!
-!!
-!http://www.theregister.co.uk/2001/10/31 !/hacker_jailed_for_revenge_sewage/
-
-! !
-!! !
-!! !! !! !! !!
-! ! !
-!
-
-APT!
-
-!
-
-!
-
-!!
-
-!
-
-!!
-
-! !!
-
-!
-
-!
-
-!
-
-!
-
-!
-
-!http://www.symantec.com/content/en/us/enterprise/
-
-!
-
-!media/security_response/whitepapers/w32_duqu_
-
-the_precursor_to_the_next_stuxnet.pdf!
-
-!
-
-!
-
-!
-
-!
-!
-
-!
-!
-!
-
-!
- (FEP) ! !
-
-Modbus  
-
-DNP  3  
-
-OPC  
-
-ICCP  
-
-ControlNet   BBC  7200  
-
-ANSI  X3.28   DCP  1  
-
-Gedac  7020  
-
-DeviceNet  
-
-DH+  
-
-ProfiBus  
-
-Tejas  
-
-TRE  
-
-UCA  
-
-!
- (HMI) !
-
-!
-
-io !
-· ! · ! · ! ! !
-!
-
-!
-· FEP !  HMI ! · !
-!
-
-ScadaScan !
-
-
-modbus  DNP 3  SCADA !
-!
-
-Secure DNP 3.0
-1.0  2007  2 ! !
-! ! ! ! !  (HMAC)! ! !
-!
-
-!
-· ! ! · ! · ! · ! !
-
-!
-· ! · ! · ! · !
-! !
-
-!
-·SCADA ! · ! · SCADA ! · SCADA ! · SCADA ! · - SCADA !
-! ! !
-
-
-!
-· ! · ! · SCADA ! · SCADA !
-· ! · ! · IT ! · SCADA ! !
-
-!
-!Twitter @amolsarwate!
-http://code.google.com/p/scadascan/! !
-
-

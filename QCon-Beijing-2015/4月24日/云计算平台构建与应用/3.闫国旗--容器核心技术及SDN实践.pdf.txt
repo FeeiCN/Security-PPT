@@ -1,109 +1,0 @@
-  
-www.jd.com
-
-SDN  
-  
-&     
-  
-     
-
-Agenda  
-
-  
-
-SDN        
-
-Part  1  
-
-Agenda  
-· Namespace   · CGroup   · Docker   ·      
-
-Namespace  
-·    ·    · hypervisorKVM,Xen   · Kernel  2.4mnt  namespace~3.8
-user  namespace  
-
-Namespace  
-· mnt  (Mount  points)   · pid  (Processes)   · net  (Network  stack)   · ipc  (System  V  IPC)   · uts  (Hostname)   · user  (UIDS)  
-
-Namespace   · namespace  
-· namespace   · namespace  
-
-CGroups  
-·    · ,CPU,IO   · Namespace   · VFS   · CGroups  
-
-CGroups  
-
-cgroupns  
-· ns   ­   
-· cgroup  IO   ­ CFQ   ­    ­ buffer  io  
-
-docker  
-· CoW   ·   
-­ btrfs   ·   
-­ aufs,overlayfs   ·   
-­ device  mapper    
-
-overlayfs  
-· dentry      ­ merged/  
-­ work/      ­ lower/      ­ upper/   · copy  up     
-
-JD  Image  Store  
-
-  
-
-Part  2  
-
-  
-·    ·    · IP   ·    ·   
-
-  
-·    ·    ·    ·   
-
-  
-·    ·    ·    ·   
-
-  
-
-  
-·    ­   
-· Overlay  Network   ­ L2  over  L3  
-·      ­   
-·    ­   
-
-  -    
-
-  -    
-
-  -    
-Container1~N:     vRouter:     Inner  vSwitch:  Openflow  
-
-  -    
-QoS:     Firewall:     NAT:     Router:  IP  
-
-  ­  ARP  Agent  
-Receive  ARP  Request:  ARP   Send  ARP  Reply:  IP/MAC   
-
-  -  Tunnel  
-Tunnel  Port:     VxLAN:  Virtual  Extensible  LAN(supported)   GRE:  Generic  Routing  Encapsulation(supported)   Geneve:  Generic  Network  Virtualization  Encapsulation(3.18)   STT:  Stateless  Transport  Tunneling(patch)  
-
-  ­  Multiple  Host  
-
-  -    
-
-  -    
-
-­  IBG  
-IBG:     Zone1~N:  (VLAN)   OSPF:  Equal-cost  multi-path  routing   Quagga:    OSPF,  RIP,  BGP  
-
-  ­  vRouter  
-vRouterOpenflow  Controller   
-
-  
-
-  
-www.jd.com
-
-      Q&A           
-  
-
-

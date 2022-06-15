@@ -1,248 +1,0 @@
- 
-
-
-
-1
-
-2
-
-3
-
-
-1
- 
->
-
-2
- 
->
-
-
- Hypervisor
-APT 
-
-
-Physical architecture
-
-Virtual architecture
-
-Application Operating system x86 architecture
-
-APP APP APP
-
-OS
-
-OS
-
-OS
-
-Hypervisor x86 architecture
-
-
-
-Hypervisor
-
-
-
-
-
-
-
-APT
-APTAdvanced Persistent Threat
---------
-Advanced
- 
-Persistent
-
-Threat
- 
-
- 
-
-Lurid 
-
- 
-
-APT
-
-Nitro 
-
- 
-
- 
-RSA 
-Luckycat 
-
-APT
-
-Stuxnet 20106
-20100945000 60%
- Stuxnet
-
-Duqu
-
-20119
-
-   DLL
-
-Flame
-
-20125
-
-USB
-
-
-
-
-
-
-
-3
- 
->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-·  · 
-
-· "" · CPUI/O
-
-· "" · 
-
-
-   DPM  
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
- (100VM)
-
-
-
- 
-
- x100
-  
- 
-    
-
-
-
- x1
-
-
-
-
- 
-
- 
-
-  
-
-  
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-FOR
-     
-
-
-
- 
-
-PC 
-
- 
-
-   
-
-D D o S  
-
-    
-
-   
-
-   
-
-    
-
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-

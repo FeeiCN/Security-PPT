@@ -1,185 +1,0 @@
-QCon2014 417--19
-
-@InfoQ
-
-infoqchina
-
- QCon
-
-
-----
-  201310
-
-
-
- 04  05  06  08
-2008 - 2010 2010 - 
-
-  IDCOffice
- 
-
- 
-       
-
-
- 
-  
-
-
- 
-ACLVM 
-
-
- 
-CAM ARPNBNS ARP 
-
-
- 
- 
-
-
- 
-802.1 QbgVEBVEPAMulti-Channel 802.1 Qbh/802.1BRVN-TagVN-Link
-
-
- 
- 
-
-
- 
-
-ID VM
-
-
-
- 
-
- IPARPEthernet 
-WEB API
- 
-
-
- --
-DDoS   
-WEB  
-
-
- 
-100DDoS80Gbps 10%5Gbps99.99%
-20099.99% 1000WEB100% 0Day
-
-
- 
- 
- BPSPPSQPSConnection
- 
-WEB  
- 
-
-
- 
- 
-
-
- 
- 
-
-
- 
- 10
-
-
- 
- 
-
-
- VPC
-  
-
-
- VPC
-imageVM IPSFWWAFUTM
-
-
-
-
- 
- 
- 
-
-
- 
- 
-
-
-
-
-
-
-
-VM
-
-
-
-SDN
-
-
- 
-  Image
-SDN
-
-
-
-VM VVMM VVMM 
-
-Firewall IPS Image Image
-
-WAF
-
-
-
-Image 
-
-IAAS
-
- 
-
-
- 
-SDN image 
-
-
- WAF
- WAFDNAT  WAFDNAT  BGPOSPFWAFDNAT  VM  ......
-
-
-
-CSR
-
-BGP
-
-switch
-
-OSPF Ip_forward DNAT
-
-OSPF
-
-CSW
-
-Traffic
-
-WAF
-
-Server
-
-VM
-
-VM
-
-VM
-
-
-   
-yunshu@outlook.com http://weibo.com/pstyunshu
-
-

@@ -1,136 +1,0 @@
-   360 
-360 Marvel Team
-1
-
-360
-360 MARVEL TEAM  
-   3
-2
-
-
-· qemukvmxen · docker · 
-3
-
-QEMUKVM XEN
-4
-
-Qemu
-Qemu 
-
-·  · Qemu
-
-5
-
-Qemu
-
-
-
-other 27%
-
-qemu 36%
-
-kvm 14%
-
-xen kernel 23%
-
-Qemu ·  ·  ·  · 
-
-Qemu
-
-·  -> 
-
-· Qemu
-
--> 
-
-6
-
-Qemu
-
-Step 1  1. 2. 3.
-
-Step 2  1.
-2.apihypercall
-
-Step 3
-
-Step 4
-
-
-
-
-
-1.Shell
-
-2.
-
-3.
-7
-
-Qemu
-1. 2.libcshellcode CVE-2016-2538 CVE-2016-3710 3. shellcodeshellcode CVE-2015-7504 CVE-2016-3710 4.
-8
-
-Qemu
-
-
-
-
-Lib
-
-9
-
-CVE-2016-3710
-10
-
-DOCKER 
-11
-
-container breakout
-1.linux kernel 2.task struct 3.task listpid=1task struct 4.namespace 5.root shellbreakout
-12
-
-docker  ­ Seccomp
-Security computing modelinux kernel feature seccompbpf 
-
-syscall  linux kernel 
-
- syscall cve-2014-0038recvmmsg syscall
-13
-
-docker swarm
-
-· Swarmdocker 
-· 2375 · 
-docker  ·  breakout
-
-Swarm ip
-14
-
-
-15
-
- 
-16
-
-
-
- 1. 2.
-
- 1.kernel 2. 3.
-
-
-
-1.
-
-2.
-
-17
-
-Q&A
-18
-
- 
-19
-
-

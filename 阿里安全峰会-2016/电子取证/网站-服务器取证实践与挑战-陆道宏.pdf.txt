@@ -1,89 +1,0 @@
-/ 
- 
-2016714
-
-
-  15   /  ldh@forensix.cn
-
- VS 
-/ /
-
-WEB /
-
-  
-
-  
-
-RIA 
-
-
-CGI 
-
-
-   
-
-/   
-
- 
-
-
-
-
-URI
-
-HTTP
-
-HTML
-
-MIME
-
-Chrome / Fiddler / JavaScript Charles
-
-IP/DNS
-
-Python / Node
-
-...
-
-
-
- /  /  /  / ...
-
-  
-
-
-
-Internet
-Web Servers Application Servers
-
-
-Database
-
-
-
-
-IaaS ·  PaaS ·  SaaS · 
-
-/
-
-HTTP / HTML/MIME
-
-JavaScript / AJAX
-
-PHP/ASP/...
-
-APACHE / IIS
-
-MSSQL / MySQL
-
-
-
-Web  CDN / Cloud
-
-...
-
-
-
- ldh@forensix.cn
-
-

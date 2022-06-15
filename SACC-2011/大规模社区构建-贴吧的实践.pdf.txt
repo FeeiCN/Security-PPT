@@ -1,168 +1,0 @@
-
-SACC2011
-
-Outline
-     
-     &  
-
-SACC2011
-
-  
-- ++++ itieba++..  
-- +lamp+nosql++++..
-SACC2011
-
-
- &
-­  ­ P ­ 10w ­ w
- 
-­ 
- &
-­ 7*24
- 
-­  ­ 
-
-SACC2011
-
-SACC2011
-
-
-
-SACC2011
-
-  webserver
-­  ­  ­  ­ 
- 
-
-SACC2011
-
-
-
-SACC2011
-
-
- php
-­ MVC ­  ­ 
- 
-­  ­ **
-
-SACC2011
-
-  
-­  ­ 
- 
-
-SACC2011
-
-
-   
-
-SACC2011
-
-
-cover
-SACC2011
-
--
- Mysql+cache+flash ­ Mysql ­ Cache ­ Flashscale up
-  ­ 80%
-SACC2011
-
-Mysql-
-  ­  ­ qpsqps<1T
-  ­ 
-SACC2011
-
-Cache-
- Cache ­ 5-10w qps ­ 2-8
- Cache ­ cache vs cache ­ Ex:  vs 
- cache  
-­ 
-
-SACC2011
-
-Flash
- Flash ­ 
-  ­ 
-
-SACC2011
-
-mysql+cache+flash
-  ­ G ­ 
-  ­  ­ 
-  ­ 
-SACC2011
-
-Cover
-SACC2011
-
-
-  ­  ­ key
-  ­  ­  ­ 
-SACC2011
-
--(MQ)
- 
-  ­ Replication ­ 
-  ­ w/s
-
-SACC2011
-
-
-  ­  ­ patch ­ cache
-  ­ Binlog
-  ­ 
-  ­ 
-
-SACC2011
-
-Key-value
-  ­  ­ id-> ­ P ­ KV
- kv ­  ­ cache
-  ­  ­ 
-  ­ 
-
-SACC2011
-
-
-  ­  ­ 
-  ­ 
-  ­  ­ 
- 
-SACC2011
-
-
-SACC2011
-
-
-  ­  ­  ­  ­  ­ 
-
-SACC2011
-
-
- 
-
-SACC2011
-
-
-   
-­  ­  ­ 
-  ­  ­ 
-
-SACC2011
-
-
-SACC2011
-
-
- & ­ 
-       
- & ­  ­ 
-  ­ 
-
-SACC2011
-
- blog   :mail jointieba@baidu.com
-SACC2011
-
-

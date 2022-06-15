@@ -1,172 +1,0 @@
-
- <lidaobing@gmail.com>  2015-04 
-
-
-·   Hadoop 
-
-Outline
-· : glusterfs · hadoop · : gridfs, hbase · : fastdfs
-
-glusterfs
-·  ·  POSIX :   glusterfs  · :  · : 
-·  POSIX  glusterfs 
-
-glusterfs
-· glusterfs 
-·  key  key 
-· 
-· 
-· 
-· 4T 100MB/s   11  11
-·  
-
-glusterfs
-· 
-·  
-·   50  80GB),   13
-
-glusterfs
-·  ·   ·  ·  
-
-glusterfs
-· 
-·  iops  SASSSD iops,  
-·   
-·  
-·  hash 
-
-glusterfs
-·  ·  key   ·  
-
-glusterfs
-·  · + · :  · IOPS:   · : 
-
-Hadoop
-·  ·  · offline  · 
-· (NameNode) ·  ·  ·  (NameNode  
-
-Hadoop 
-· Hadoop : ·  NameNode  64M , 10PB   1.6 200B,  32GB   ·  qps  qps   1000qps  512Gb/s  
-· Hadoop offline:  · Hadoop : 
-
-Hadoop  
-· 1.6  32GB100  2000GB 
-· : 1000qps  15000qps  
-· : NameNode 
-
-
-· WRN ·  W  ·  R  · W + R > N (N 
-
-
-WRN
-· W,R,N  · 2,2,3  · 446  669  
-
-WRN
-· 
-·  446 3   
-· ()  
-
-
-· Hadoop · NameNode  · NameNode 
-· WRN ·  ·  () /  ()
-
- 
-· GridFS ( MongoDB) · HBase · HBase + Hadoop
-
-GridFS
-·  MongoDB · 255KB · 
-· chunks:  256KB 
-· files: 
-
-GridFS 
-·  · MongoDB: 
-(*)... ·  Range GET(
-mongodb )
-
-GridFS 
-· oplog :
-· oplog  mongodb  mongodb  MongoDB  ReplicaSet  oplog
-·  oplog  5GB-50GB  24  
-·  GridFS oplog   secondary MongoDB 
-· 
-·  
-
-GridFS 
-·  · mongodb  mmap   gridfs   
-· 
-
-GridFS 
-· 
-·  mongodb sharding
-· sharding  files_id  sharding key
-· files_id  
-·  files_id  
-· MongoDB Sharding  PPT)
-
-GridFS
-· :  · : 
-GridFS,  · :  GridFS
-
-HBase
-·  Hadoop  NameNode   HBase 
-
-HBase 
-·  · ,
-
-HBase 
-· 
-·  Hadoop NameNode 
-· HBase  Region Region   Region 
-·   key 
-· key   key 
-
-HBase 
-·  · 10MB ·  hbase offset  size ·  
-
-HBase
-· HBaseHadoop  
-· Hadoop offline NameNode 
-· HBase Region  
-· 
-
- : fastdfs
-· fastdfs:
-· hadoopNameNode  fastdfs  NameNode 
-·  NameNode key
-· URL: group1/M00/00/00/rBAXr1AJGF_3rCZAAAAEc45MdM850_big.txt
-·  NameNode  group1 
-
-fastdfs 
-·  · 
-
-fastdfs 
-·  key:  
-· :
-·  4TB  , 100MB/s  11
-· 
-· (
-·  
-
- 
-
-  
-
-
-  
-
-
-
-
-
-
- 
-
-fastdfs
-
-
-
-key 
-
-Q&A
-
-

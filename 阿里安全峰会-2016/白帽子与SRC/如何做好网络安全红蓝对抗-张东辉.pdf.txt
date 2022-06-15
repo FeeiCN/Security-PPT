@@ -1,128 +1,0 @@
-
-  
-2016-07-14
-
-
-   
-idshineast ·0day · 2009  30 · X-Team · Windows WebBIOS RootkitiOS Rootkit
-
-
-·  ·  ·  ·  ·  ·  · Q&A
-
- ­ 
-7.12    
-
- ­ 
-20160303 
-
-
-
-former Homeland Security Secretary Michael Chertoff stated, "There are two types of people: those who have been hacked, and those who don't know they've been hacked."
-
-
-·  · 
-
-
-
-
-·  ·  ·  · 
-·  · /
-
-
- ­ 
- 
-
- 
-
-
-
-APT 
-
- ­ 
-
- ­ 
-·  ·  · 
-
- ­ 
-
-
-
-
-
- ­ 
-
-· 
-·  
-
- ·  · 
-
-· 
-·  
-
- ·  · 
-
-·  ·   · 
-
- ­ 
-·  ----  ·  ----  · 
-
- ­  ­ NRC
-
- ­  ­ docker · docker 
-
- ­ 
-
- ­ 
-·  · 
-
- ­ 
-
- 
-
-
-
-
-
-  
-
-
-
-
-
-
-
- 
-
-
-
-  
-
- ­ BadTunnel
-·  ·  · cookiejs
-
- ­ SSRF
-· SSRF · XXEGopher · pptSSRF
-
- ­ 
- 
-·  ----  
-· ssh 
-
-
-· APT · 
-· APT ·   
-
-
-
-·  ·    · 
-
-Reference
-· National Cyber Range Overview http://www.acq.osd.mil/dtetrmc/docs/20150224_NCR%20Overview_DistA.pdf
-· The National Cyber Range: A National Testbed for Critical Security Research https://www.whitehouse.gov/files/documents/cyber/DARPA%20%20NationalCyberRange_FactSheet.pdf
-· Build Your SSRF Exploit Framework http://static.wooyun.org/summit/2016/Whitehat-Day/1-GGBond.pdf
-
-Thanks
-Q & A
-team donghui.zdh@alibaba-inc.com
-
-

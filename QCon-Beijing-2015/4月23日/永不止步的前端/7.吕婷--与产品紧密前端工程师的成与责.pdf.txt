@@ -1,391 +1,0 @@
- 
-
-
-!
-   
-
-
-1. 
-·  ·  · 
-!
-2. 
-· 1 · 2-4
-!
-3. 
-
-
-
-
-
->
-
->
-
-
-
-
-
->
-
->
-
-
-
-
-
-
-
-
- )5.-$44  +BWBTDSJQU  ".%$PNNPO+4  /PEF+4$PGGFF4DSJQU  (SVOU(VMQ  3FRVJSF+4#SPXTFSJGZ8FCQBDL  :6*K2VFSZ;FQUP  4BTT-&444UZMVTj  #BDLCPOF+4"OHVMBS+4&NCFS+41PMZNFS+43FBDU+4  3FBDU/BUJWF  8FC$PNQPOFOUT j
-
-
-·  ·  ·...
-
-:
-· "" ·  · 
-
-  
-
-
-·  ·  ·  · 
-
-
-
-
-·  ·  ·  · 
-
-·  · 
-
-
-
-
-
-
-
-
-
-
-
- -- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- -- 
-
-
-
-
-
-5
-
-A8 (
-
-
-
-
-
-!
-
-*
-
-CB
-
-)
-
-¥ 79261.34
-';,+.63
-
-32=
-
-31?
-
-
-3
-
-#  " -
-
-#  "
-
-# 
-
-# 
-
-
--
-
-   
- 
-
-+ 
-
-
-
-'  &  ( &!%
-
-   
-
-
-
-
-*
-
-*
-
-- 3)
-
-) >:
-
-# 
-
-2  0 "$
-0 -! 7/9 @4$ 
-%<$ "9 9&##
-
-,
-
-¥ 7
-
-'
-
-3
-
-# # # #
-
-+
-
-/ 
-
-
-'
-
-. 
-
-&
-
- 
-(
-
-
-#
-
- 
-
-
-  
-
-
-·  · 
-
-1
-
-
-
-1.  2.  3. 
-
-1
-· 
-
-2
-·  ·  ·  ·  · 
-
-3
-·  ·  ·  ·  ·  ·  · 
-
-
-Auto Scaling
- Scheduler
-!
-32
-
-instance_ids = ['i-th1uto67', 'i-b0lfbvep', 'i-rb2o6fhb', 'i-209d8icg']
-ret = describe_instances( instances=instance_ids, status=['stopped'], limit=len(instance_ids) )
-if not ret or ret['ret_code'] != 0: print('API call failed') exit(1)
-instance_ids = [i['instance_id'] for i in ret['instance_set']] if not instance_ids:
-print('no stopped instance found') exit(1)
-ret = start_instances(instance_ids) if not ret or ret['ret_code'] != 0:
-print('API call failed') exit(1) wait_job(ret['job_id'])
- 
-
-2014.11.20  2014.12.01   2015.01.30
-2015.02.18  2015.03.15  2015.03.18 
-
-2015.01.17  Demo V1 2015.01.30  Demo V2 2015.02.22  Demo V1
-2015.02.20 
-2015.03.01  2015.03.12  +  2015.03.21 
-
-
-Auto Scaling
-·  ·  ·  ·  · 
-
-2
-
-
-
-1.  2.  3. 
-
-1
-·  ·  ·  ·  ·  · 
-
-2
-·  --  ·  ·  · 
-
- -- ()
-·  ·  ·  ·  · 
-
-          
-
-          
-
- 
-
-0 QingCloud Secured Series B financing from Lightspeed China Partners...
-
-+
-
-3 PEK1 > Overview
-
-* BeiJing1 (PEK1)
-Status: Normal
-'
-
-&
-
-! July $ 4925.92
-
-%
-
-
-
-Instances CPU Memory Vom Vol Bandwidth
-...
-# Apply Quotas
-
-)
-
-Typology
-
-Typology
-
-$
-
-1
-
--
-
-.
-
-?
-
-+
-Volume: MessageQueue Read Write Unit: KB/s Step: 5m
-
-+ Add A Monitor
-
-Samantha
-
-/
-
-Recent Activities
-
-4
-
-Run Instances 8''
-2014-07-10 12:03:46 Instances: i-oz5nw2cx Instance Type: 1Core 1G Image ID: centos65x64b
-Apply Security Group 6'' 2014-0+7-A1d0d1A2:0M3o:2n7itor
-Security Group: sg-g3mgvx0g
-Associate EIPs 3''
-2014-07-10 12:03:46 Instances: i-oz5nw2cx Instance Type: 1Core 1G Image ID: centos65x64b
-Capture Instance As Images 10''
-2014-07-10 12:03:27 Security Group: sg-g3mgvx0g
-Apply Security Group 6''
-2014-07-10 12:03:27 Security Group: sg-g3mgvx0g
-Apply Load Balancer Polices < 1''
-2014-07-10 12:03:27 Security Group: sg-g3mgvx0g
-
-Capture Instance As Images 10''
-2014-07-10 12:03:27 Security Group: sg-g3mgvx0g
-All Activities
-
-
-thebestdesigns.com tympanus.net/codrops
-
-
-
-1
-Beta
-
-1
-Beta
-·  HTML CSS Javascript ""Mockup ·  · 
-
-2
-
-
-Internet
-
-181.11.242.184
-
-Internet
-181.11.242.184
-
- ...
-  
-
-
- 
-
-
-
- 
-
-
-
-
-
-Internet
-181.11.242.184
-
-2
-
-·  ·  ·  · 
-
-3
-
-
-3
-
-·  ·  ·  · 
-
-
-
-
-·  ·  ·  ·  ·  ·  ·...
-
-3?
-·  · API  · 
-
- 
-
-
-https://dribbble.com/yunify
-
-

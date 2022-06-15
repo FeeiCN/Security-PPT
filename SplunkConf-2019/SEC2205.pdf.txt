@@ -1,220 +1,0 @@
-Beyond Tier 1 Automation: The Hidden Value of Phantom Automation to Security Operations
-Chris Decker
-Enterprise Security Manager | Penn State University
-Craig Vincent
-Lead Technologist, SLED | Splunk
-
-© 2019 SPLUNK INC. © 2019 SPLUNK INC.
-
-Beyond Tier 1 Automation:
-The Hidden Value of Phantom Automation to Security Operations
-
-© 2019 SPLUNK INC.
-
-Chris Decker
-Enterprise Security Manage | Penn State University
-
-Craig Vincent
-Lead Technologist, SLED | Splunk
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-Chris Decker
-About Me
-Husband, father of two children
-· Thus far survived without coffee!
-SOC manager at Penn State University
-Splunker since July `17
-· Enterprise Security (ES) · Phantom · User Behavior Analytics (UBA)
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Craig Vincent
-Lead Technologist, SLED Markets
-
-Universities & Colleges
-
-State & Local Governments
-
-Medical Centers
-
-About Penn State
-Small "City"
-· 24 campuses throughout Pennsylvania · 17,000 employees · 100,000+ students · Airport, power plant, nuclear reactor, police force · $900 million+ in annual research expenditures
-Small SOC
-· 1 person: Tier 1 · 2 people: Tier 2 · 1 person: Incident Response · 1 person: Vulnerability Management
-© 2019 SPLUNK INC.
-
-Why Splunk Acquired Phantom
-Pillars of a data-enabled future
-
-Investigate
-
-Monitor
-
-Analyze
-
-© 2019 SPLUNK INC.
-Act
-
-Collective Challenges
-SOC analyst to faculty/staff/student ratio is high (1:24,000)
-Good people are hard to find and retain
-· Central PA isn't exactly Silicon Valley · 5 open positions!
-Not staffed 24/7
-Mundane, repetitive (but also time consuming) tasks
-Load balancing challenges between analysts
-· Duplication of efforts · Inconsistencies in execution
-
-© 2019 SPLUNK INC.
-
-Solution
-Automation with Phantom
-· Or as we lovingly call Phantom, "Ava"
-Addresses all of our challenges:
-· Hiring/retention: always here (provided we pay the bill!) · Runs 24/7 · Excels at repetitive tasks · Always does exactly what we tell it to do · Automatically identifies duplicates
-
-© 2019 SPLUNK INC.
-
-Agenda
-Topics
-Tier 1 Playbooks Validation Playbooks Utility Playbooks
-
-© 2019 SPLUNK INC.
-Information Covered
-Identifying situations that could benefit from a particular type of playbook Planning and development Results that can be achieved
-
-© 2019 SPLUNK INC.
-Tier 1 Automation
-
-Tier 1 Playbooks
-Defined
-
-© 2019 SPLUNK INC.
-
-A playbook that automates some end-to-end IR process that typically would be conducted by a tier 1 analyst
-
-© 2019 SPLUNK INC.
-
-Motivations for Tier 1 Playbook
-
-150 Phishing reports per day
-
-5 Security Staff Members
-
-Analysts had to manually retrieve data for each phish (importance of the submitter, analyze headers, extract IOCs, etc.) which consumed two FTEs.
-Responses to the reports were generic; custom responses are more effective
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Impact
-Reduction of human time Customized responses to reporters
-
-© 2019 SPLUNK INC.
-
-What's next
-
-© 2019 SPLUNK INC.
-
-Automate remediation efforts
-· Utilize Phantom and Notable Events to take automated actions regardless of the time of day
-Involve student workers
-­ Create an approval matrix where student actions can be confirmed by a supervisor until they are comfortable with the student
-
-© 2019 SPLUNK INC.
-Validation Playbooks
-
-Validation Playbooks
-Defined
-Playbooks that help with the analyst perform standardized validations and checks
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Motivations for Validation Playbook
-
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Impact
-
-© 2019 SPLUNK INC.
-
-Processing Time
-Days Minutes
-
-Firewall Team Members Needed
-
-5
-
-0
-
-Deviations from SOPs
-Many None
-
-Difficulty for customers to renew requests annually
-
-Difficult
-
-Easy
-
-© 2019 SPLUNK INC.
-Utility Playbooks
-
-Utility Playbooks
-Defined
-
-© 2019 SPLUNK INC.
-
-Playbooks designed to be run by a manually by a human analyst during an incident to speed up the human analysts workflow
-
-Motivations for Utility Playbook
-In addition to automated workloads which can lock out a user, analysts needed the ability to do it too. Lockout is relatively easy but ending sessions requires a number of different sessions
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Impact
-
-© 2019 SPLUNK INC.
-20% of the time to lock out accounts
-
-© 2019 SPLUNK INC.
-
-Key Takeaways
-
-1. Use utility playbooks to speed up
-analysts annoying tasks
-2. Automate security advising for other
-groups using validation playbooks
-3. Automate tier 1 processes
-
-© 2019 SPLUNK INC.
-
-Thank
-
-You
-
-!
-
-Go to the .conf19 mobile app to
-
-RATE THIS SESSION
-
-

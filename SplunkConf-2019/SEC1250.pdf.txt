@@ -1,236 +1,0 @@
-© 2019 SPLUNK INC.
-Feed the Beast! Addressing APTs at Speed & Scale 
-Creating and Utilizing Endpoint Centric Threat Hunt Uses Cases
-Max Moerles
-Sr Threat Hunter | Booz Allen Hamilton
-Jay Novak
-Threat Hunt Team Lead | Booz Allen Hamilton
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-© 2019 SPLUNK INC.
-Feed the Beast! Addressing APTs at Speed & Scale 
-Creating and Utilizing Endpoint Centric Threat Hunt Uses Cases
-
-Max Moerles
-Senior Threat Hunter | Booz Allen Hamilton
-
-Jay Novak
-Threat Hunt Team Lead | Booz Allen Hamilton
-
-© 2019 SPLUNK INC.
-Threat Hunting Tactics & Use Cases
-
-Overview
-· Techniques covered in this talk can be used against a variety of data sources and are Endpoint Detection and Response (EDR) vendor agnostic · Splunk is our preferred data correlation engine · Types of Hunt Analytics  · 4 Hunt use cases that can be used in your environment
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Introduction
-Threat Hunting VS. Incident Response
-Threat hunting is an effective way to proactively detect threats within an organization. Many organizations blend Incident Response (IR) and Threat Hunting together. However, they are 2 separate tasks that work together.
-Incident Response (attackers' capability and action. IR starts with known bad activity)
-· An organized approach to managing incidents, minimizing loss and destruction, mitigating the weaknesses that were exploited, and restoring IT services after a cyberattack.
-Threat Hunting (attackers' capability and intent. CTI informs Threat Hunting)
-· The process of proactively and iteratively searching through security relevant data to detect and isolate advanced threats that evade existing security solutions.
-
-© 2019 SPLUNK INC.
-
-Pushing the Limits of Time and Data 
-Current Detection Technology
-Anti-Virus 
-· Detect known threats in the Golden Hour via signatures
-Endpoint Detection and Response (EDR) 
-· Streaming Telemetry and Question Based to create behavior-based detection
-Threat Hunting 
-· The art and science of uncovering adversaries that abuse signature thresholds and hide in the noise of telemetry
-
-IOCs/Signatures
-
-# HITS
-
-Low
-
-TP%
-
-95%
-
-Detection
-Low-Med 85%
-
-Threat Based TTP
-Medium 35%
-
-Heuristics
-High 2%
-
-Haystacks
-100,000+ <1%
-
-Reactive Detection
-
-Real-time
-
-vs.
-
-vs. Proactive/Hypothesis Driven Discovery Cyclical
-
-Hypothesis
-
-Data Collection
-
-Investigation
-
-Improvement & Reporting
-
-Analysis
-
-© 2019 SPLUNK INC.
-Threat Hunting Loop
-How we do it in Splunk
- Hypothesis - Queries  Investigation ­ Saved Searches  Analysis ­ Custom App  Improvement & Reporting ­
-Workflows & Dashboards  Data Collection - Ingest
-
-Grouping Categories of Hunts
-All Auto-Run Services
-
-APT29 "Google Updater" Service
-
-Svchost not spawned by services.exe
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Hunting Scenarios
-
-Hunt Scenario 1
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Hunt Scenario 1
-Scenario
-· When an adversary gains a foothold on a network, they want to ensure persistence and escalate privileges. One way to do this is by creating a service.
-· Hunting for statistical anomalies in services no matter how larger your enterprise may identify outliers and possible adversary activity.
-Why traditional detection failed?
-· Applications use services for legitimate program functionality and Windows 10 Pro has 250 services installed by default.
-How we are going to hunt this threat?
-· Collect all services information from every host · Identify fields that have unique values · Perform statistical analysis to identify anomalies
-
-Hunt Scenario 1
-Windows Services field available to analyze
-· short_name (service name) · long_name (service description) · file_path · command_line · service_type · start_type
-
-© 2019 SPLUNK INC.
-
-Hunt Scenario 1
-Analysis
-· Collect all services information from every host · Identify fields that have unique values · Perform statistical analysis
-
-© 2019 SPLUNK INC.
-
-Hunt Scenario 2
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Hunt Scenario 2
-Scenario
-· Adversaries use living off the land techniques to blend with regular usage. PowerShell is a common tool for this activity. Obfuscated PowerShell commands tend to create long unique commands strings that are not common in most environments.
-Why traditional detection failed?
-· Analyzing millions of PowerShell commands is unrealistic. Creating a signature will yield false positives.
-How we are going to hunt this threat?
-· Collect PowerShell commands that are > 200 characters · Identify encoded PowerShell commands then decode them to make stacking easier · Identify parent process and investigate outliers · Identify full command being executed · Remove GUIDs, Username, temp file name
-
-Hunt Scenario 2
-Windows long PowerShell command field available to analyze
-· parent_process_path · process_path · process_username · command_line
-
-© 2019 SPLUNK INC.
-
-Hunt Scenario 2
-Example Encoded _Command
-Example Decoded_Command
-
-© 2019 SPLUNK INC.
-
-Hunt Scenario 2
-
-© 2019 SPLUNK INC.
-
-Hunt Scenario 3
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Hunt Scenario 3
-Scenario
-· Wajam social search engine application (ESET, 2019). The different techniques used by Wajam for interception and injection of network traffic are malware developer techniques that could be used by other tools.
-Why traditional detection failed?
-· Wajam uses obfuscation, code protection, and anti-detection techniques that hide the true behavior of their software.
-How we are going to hunt this threat?
-· Identify anomalies in Service DLLs · Analyze Command Line arguments · Analyze service or process metadata
-
-Hunt Scenario 3
-
-© 2019 SPLUNK INC.
- Sort by statistical "service type"  Analyze "command line" arguments  Investigate leads  Pull any suspicious file and preforming analysis.  This file is marked as malicious by 8 out of 55 AV
-vendors in VTI
-
-Hunt Scenario 4
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Hunt Scenario 4
-Scenario
-· Microsoft Teams is a collaboration tool with built-in chat capability. Within the Teams software, the update function allows for the download and execution of arbitrary files via nupkg packages.
-Why traditional detection failed?
-· Teams uses this utility for application functionality. This technique can bypass application whitelisting and EDR detection. This is very noisy and filled with legitimate Teams traffic.
-How we are going to hunt this threat?
-· Collect Teams function arguments for "Download", "Update", and "UpdateRollback". · Remove the individual usernames to make stacking easier · Collapse outliers and random 64 characters file names used for legitimate updates · Identify arguments that included http or IP addresses
-
-Hunt Scenario 4
-Example search criteria
-· Process Name = update.exe · Process Path = Microsoft\Teams · Command Line = download, update, or updateRollback
-
-© 2019 SPLUNK INC.
-
-Hunt Scenario 4
-
-© 2019 SPLUNK INC.
-
-Command used by Adversaries
-
-Conclusion
-
-© 2019 SPLUNK INC.
-
-This talk has provided an understanding of what endpoint threat hunting is and offered example use cases as a first step for attendees to start the process of developing threat hunt use cases and analytics.
-Constant input of CTI derived analytical ideas leads to a mature capability.
-Threat hunting is a complicated, but effective strategy against advanced threats. As a result, a comprehensive hunt plan needs to be developed and implemented. A hunt plan combined with a deep library of use cases and analytics gives defenders the framework to find adversaries wherever they may hide.
-Please remember to check out "SEC1071 for more information on how to operationalize threat hunting on Splunk Enterprise.
-
-© 2019 SPLUNK INC.
-Q&A
-Max Moerles | Moerles_Max@bah.com Jay Novak | Novak_James2@bah.com
-
-© 2019 SPLUNK INC.
-
-Thank
-
-You
-
-!
-
-Go to the .conf19 mobile app to
-
-RATE THIS SESSION
-
-

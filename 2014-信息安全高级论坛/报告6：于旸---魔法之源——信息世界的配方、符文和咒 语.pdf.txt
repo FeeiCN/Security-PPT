@@ -1,86 +1,0 @@
-----
- 
-
-wnswfocwus.n.cosmfocus.com
-
-Public
-
-© 2014 NSFOCUS
-
-·
-
-     
-       
-
-            
- 
-
-
-
- à 
- 
-Web 
- 
- 
-
-APT
-
-1
-
-2
-
-3
-
-4
-
-5
-
-    
-
-0-Day     
-
-  
-
-  
-
-  
-
-----
-
- 20129 14Vupen "  "
-
-0-Day""
-.EXE .BAT .SCR  .SHS HTML.CHM Windows.HLP ......
-
-0-DayMS06-001
-
-
-
-/* Metafile Functions */ #define META_ESCAPE
-
-0x0626
-
-/* GDI Escapes */
-
-#define MFCOMMENT
-
-15
-
-#define SETABORTPROC
-
-9
-
-int Escape( HDC hdc, int nEscape, int cbInput, LPCSTR lpvInData, LPVOID lpvOutData
-);
-
-// handle to DC // escape function // size of input structure // input structure // output structure
-
-0-DayWiFi""
-  SSID SSIDAP,
-Probe Request (SSID = "MyHome")
-
- 
-
-
-
-

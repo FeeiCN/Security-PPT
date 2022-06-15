@@ -1,265 +1,0 @@
-
-:
-
-
-   Experience
-¡ TACERT ¡  ¡ 
- 
-¡ (ISBN9789863470601) ¡ (ISBN:9789861815534) ¡ 
- Certified
-¡ LPIC Level 1 ¡ ISO 27001:2005 LA (ISMS) ¡ BS 10012:2009 LA (PIMS)
- Contact
-¡ xfile.lin@msa.hinet.net
-
-
- 
-¡ Apache killer (cve-2011-3192) ¡ Slowloris(cve-2007-6750 ) ¡ Shell shock (CVE-2014-6271)
- 
-¡ Falsh CVE-2015-5119 ¡ Unicode attack
- 
-
-D.o.S (Apache Killer)
-
-IIS Range
-
-IIS Rang Test
-
-ms15-034
- ms15-034.aspx
- https://technet.microsoft.com/zhtw/library/security/ms15-034.aspx
-
-Slowloris
-
-Slowloris
-  ip   ,  
-¡ Apache Server
-÷ mod_antiloris , mod_reqtimeout , mod_limitipconn
-
-ShellShock
- Bash   Gnu bash 4.3
-
-ShellShock 
- env VAR='() { :;}; echo Bash is vulnerable!' bash -c "echo Bash Test
-
-test-cgi
- Apache (cgi-bin/test-cgi)  HTTP
-
--
-
--
- (adobe flash)->FLASH
-¡ Falsh CVE-2015-5119
-
--Unicode
-
-?
-
-
-
-
-   ?
-
-
-
-
- ,
-¡  ¡  ¡ .................................
-
-LOG
- LOG
-¡ ? ?
- LOG  LOGà
-
-
-
-google
-
-
-
-
-
-
-
-gcalcli
-
-github.com/in google sanum/gcalcli 
-
-Nagios 4.0.8 www.nagios.o  rg
-
--Nagios
-
-Nagios plug_in
-
-Plug_in
-
-googlecl
- http://github.com/insanum/gcalcli
-¡ google
-÷ googleOAUTH2 ÷  ÷ 
-
-Googlecl install
-
- yum install python
-
-gcalclipython 
-
-pip install --upgrade google- python
-
-api-python-client
-
-
-
-pip install --upgrade python-dateutil
-
-pip install --upgrade python-gflag
-
-pip install --upgrade gcalcli
-
-Googlecl 
-(1)
-
-Googlecl 
-
- --calendar --title --where --when --duration --description --reminder []
-
-Googlecl 
-    // : ()   , Popup Email Sms(not work)
-
-Nagios 
- Nagios
-¡ http://netadmin.pcuser.com.tw/article_content.aspx?sn=1101 030006
- Google 
-¡ http://netadmin.pcuser.com.tw/article_content.aspx?sn=160 5130016&jump=2
-
-
-
- 
-
-
-
-nmap nmap.org
-
-
-
-pbnj
-
-pbnj.sourceforge.net nmap 
-
--nmap
-   NSE (Nmap Scripting Engine)  
-
--nmap
-
-pbnj
- Perl   nmap
-
-Nmap-pbnj
-
-pbnj
-
-Pbnj-mysql
-
-Nmap (heartbleed)
- NSE(Nmap Scripting Engine)
-
-Nmap (slowloris)
-
-Nmap-NSE
- https://nmap.org/nsedoc/scripts/
-
-nmap 
- nmap
-¡ http://www.netadmin.com.tw/article_content.aspx?sn=13120 30002
-  
-¡ http://60.199.248.203/article_content.aspx?sn=1504080004
-
-LOG
- 
-¡  ¡ TRY ¡ ........................................
-
-LOG
-
- Event Log LOG Parser
-rsyslog mysql
-
-
-
-
-
-code.google.com/p/e EVENT LOGsyslog  ventlog-to-syslog/ 
-
-www.microsoft.com/ enus/download/details. aspx?id=24659
-
-SQLevent log 
-
-www.rsyslog.com
-
-LINUXsyslog 
-
-www.mysql.com
-
-LOG
-
-LOG-linux
-
-syslog
-
-Syslog format
-(1) (2) (3) (4)
-
-SYSLOG-ssh brute force
-
-SYSLOG-imap brute force
-
-SYSLOG-promiscuous
-
-SYSLOG-login
-
-Log ­windows 
-
-Windows event log
-
-eventLog-syslog
-
-LOG Parser
- 
-¡ sqllog ¡ windowslog
-
-LOG Parser
-
-LOG Parser
- 
-¡ Logparser ­i:[] ­o:[] " SQL "
-
-LOG Parser-
-
- IISW3C BIN IISODBC HTTPERR URLSCAN CSV TSV XML W3C
-
- IIS  W3C () IIS  IIS  ODBC  httperr.log (6.0) URL scan  CSVComma Separated Values TSVTab Separated Values XML  W3C 
-
-LOG Parser-
-
-
-EVT FS REG
-
-
-Windows   Registry
-
-LOG Parser-
-
- W3C XML TSV SYSLOG NAT
-IIS SQL CSV CHART
-
- W3C XML  Tab  syslog readable tabulated column format  IIS  W3C  CSV 
-
-LOG Parser-Example
-
-LOG
- WindowsEventlog SyslogMySQL
-¡ http://netadmin.pcuser.com.tw/article_content.aspx?sn =1602030005
- LOGPARSE ODBC
-¡ http://netadmin.pcuser.com.tw/article_content.aspx?sn=1512 030004
-
-
-
-

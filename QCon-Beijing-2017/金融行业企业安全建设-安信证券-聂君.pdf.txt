@@ -1,225 +1,0 @@
-
-
-·
-
-
-CONTENTS
-
-1  2  3 
-
- 
-
- 
-
- 
-
- 
-01 01 01
- 
-
- 
-
- 
-
-
-
-    
-
-
-
-
-
-
-
-
-CONTENTS
-
-1  2  3 
-
-SDL 
- 
- 
- 
-
- 
-
- 
-
-
- 
-
-
-
- 
-
-
-
-
-
-
-
-
-
- 
-
- 
- 
-
- 
-
-·  ·  ·  · ITIT& ·  ·  · CXO
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-·  · 
-
-·
-
-
-
- Sensor
-
- SensorSIEM
-
- SIEM
-
-  
-
-· 
-   
-
-
-
- 
-
- 
-
-
-·  ·  ·  ·  ·  · 
-  
-
-SIEM
-
-
-
- 
-
- 
-shellcwdexe/usr/sbin/sshd -> shell
-
- 
-PermitDstIP->
-
- 
-101000->DNS Tunnel
-
-· SIEM
-   SIEM    
-
-· Sensor
-  Sensor
- Server Server MD5 
- 
-
-·  · 
-
-
-
-CSO
-
-
-
-SRC 
-......
-
- Web ......
-
-  ......
-
- HIDS ......
-
- 
-......
-
-1
- 
-
-2
- 
-
-
-
-
-
-  
-
-
- IPSWAF  SDL
-
-
-CONTENTS
-
-1  2  3 
-
-·  ·  ·  ·  · 
-
-
-
-
-
- Or
-
-
- 
-
-·  ·  · 
-
-·  ·  ·  ·  · 
-
-·   ·    · 
-
-· · ·
-  
-
-·  ·  ·  ·  · 
-
-
-
-
-
-
-
-
-·  ·  ·  
-
-·  · 
-
-·  · IT · 
-
-
-
-
-
-
-""( )+
-
-
-
-
-  "" 
-
-
-

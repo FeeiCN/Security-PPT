@@ -1,142 +1,0 @@
-2013 
-bugreport@vip.sohu.com
-
-
- DDOS  Security as Service  Active & Passive Web 2.0 App Scanner  Struts2  IassPaas  Mobile & GSM Security
-2
-
-DDOS
- Spamhaus "300" G
- dns    The DDoS That Almost Broke the Internet
-3
-
-DDOS
-4
-
-DDOS
-       anycast    URPF
-5
-
-DDOS
- ""    zebra(bgp)netfilternginx    
-iptables -t nat -A PREROUTING -i eth1 -p tcp -m tcp --dport 80 -j DNAT --todestination X.X.X.X:80 · 6
-
-Security As
-
-Service
- 
-
-En(de)cryptCaptcha PhishMalwareScanner
-
-Blacklist
-
- 
-
-ACCESS_KEY = "DG74KC39ZC6BJC5312A74D7BWURW42"
-
-SECRET_KEY = "1LCJ4f#CV6JY6pYdcXJG"
-
-ENCRYPT_SERVICE_ENDPOINT = "https://sasp/CipherServices/encrypt"
-
-DECRYPT_SERVICE_ENDPOINT = "https://sasp/CipherServices/decrypt"
-
-encrypt: {"sign":"3fb9c19841315fe70ca54788af5b87698f91f210","status":0,"cipher":"AAAAANVsKvYbwsiK32MVSnqIYI28vYYUSXj_x5fSQmzced-R"}
-
-|key_version|iv|ciperdata|
-
-decrypt: {"sign":"ab5fde10e6607e2fbda4ed0095974894fb90d3e3","status":0,"plain":"abcdef"}
-
-7
-
-Active & Passive Web 2.0 App Scanner
- Active WEB2.0 App Scanner    onsubmit...  QtWebKit
- Passive Web 2.0 App Scanner  Proxy  ...
-8
-
-Struts2
- S2-005S2-009S2-016  S2-012S2-013
- ...  
-9
-
-Struts2
- WAF  WAF VS WAF  CDNGateWay  web
-10
-
-Struts2
- Security Manager
-11
-
-Struts2
-
- 
-
- ""
-
-http://t.cn/zlnNPn6
-
-public Object callMethod(Map context, Object object, String string, Object[] objects)
-
-throws MethodFailedException {
-
-http://www.inbreak.net/?p=507
-
-if (object.getClass().getName().startsWith("java.")) {
-
-return null;
-
-}
-
-public Object callStaticMethod(Map context, Class aClass, String string, Object[] objects)
-
-throws MethodFailedException
-
-{
-
-return null;
-
-}
-
-12
-
-Struts2
- web filter
-private final String[] STRUTSAttackPattern = { "StaticMethodAccess", "denyMethodExecution", "java.lang", "redirect:", "action:", "java.io", "Runtime", "context[", "#_", "org.apache.struts2" };
-13
-
-Struts2
-     
-14
-
-IassPaas
-
- IAAS
-
- 
-
- 
-
- 
-
- PAAS(java)
-
- Security Policy
-
- Javaagentinstrument
-
- 
-
-15
-
-Mobile & GSM Security  Andiod Security
- Webview  Uncovering Android Master Key
-16
-
-Mobile & GSM Security      
-17
-
-
-     
-bugreport@vip.sohu.com
-18
-
-

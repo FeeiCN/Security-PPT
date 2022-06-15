@@ -1,152 +1,0 @@
-2 0 1 8
-YOUR COMOANYS NAME
-Python
-
-
-
-·  · n0tr00t · https://blog.csdn.net/niexinming · githubhttps://github.com/niexinming
-
-
-· 
-· sqlite ...... · 
-
-
-
-   
-
-
-
-01
-PART 01
-
-
-02
-PART 02
-Hook
-
-
-CONTENTS
-03
-PART 03
-Auditd
-
-04
-PART 04
-http
-
-05
-PART 05
-fuzzing
-
-Web
-
-· ·IDE ·xdebug ·Burp Suite ·hackbarmodify headers...... ·general log
-
-PART 01
-
-
-general log
-Mysql set global general_log_file=`'; set global general_log=on; PostgreSQL postgresql.conf log_directory = 'pg_log' log_filename = 'postgresql-%Y-%m-%d_%H%M%S.log' log_statement = `all' ......
-
-sql
-
-Linuxgrep
-
-
-
-PART 02
-Hook
-
-python
-
-
-
-
-
-
-
-
-
-
-
-
-sstipickle 
-
-
-· cd hook/ · cp os.py xxx.py · xxx.py  hookhook hooksubprocesscheck_call
-
-
-shellpython web
-WSGIshell
-
-__import__del modules
-
-flaskdebugfalsepython
-
-Python webhook......
-
-
-
-PART 03
-Auditd
-
-Auditd
-auditd auditd Linux Linux, CentOS  Ubuntu apt-get install auditd
-
-
-· sudo auditctl -a exclude,always -F msgtype!=PATH -F msgtype!=SYSCALL # · sudo auditctl -a always,exit -F arch=b64 -S execve -k rule01_exec_command #shell
- · sudo auditctl -a always,exit -F pid=$mypid #
-
-
-· grephttps://github.com/paoloantinori/hhighlighter
-
-
-
- 
-
-
-
- 
-
-ssrf
-
-PART 04
-http
-
-ssrf
-
-dns
-· Ping ­c 1 xxx.pw · url=http://xxx.pw · <?xml version="1.0" encoding="utf-8"?> <!DOCTYPE xdsec [ <!ELEMENT methodname ANY > <!ENTITY xxe SYSTEM "http://xxxx.pw/text.txt" >]> <methodcall> <methodname>&xxe;</methodname> </methodcall>
-
-dnsssrf,xxe,
-
-
-
-PART 05
-fuzzing
-
-  poc ......
-
-web api
-
- 
-auditd dns
-Web 
-
-fuzzing
-
-burp
-
-
-  
-
-To do
-1.  2.  3.  4.  5.   https://github.com/niexinming/python_hook
-
-
-·     ppt csdn
-
-
-
-
-

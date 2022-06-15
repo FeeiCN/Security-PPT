@@ -1,206 +1,0 @@
-
- CTO 20149
-China Internet Security Conference 2014 2014
-
-
-
-    SurDoc: 2011  SurDoc: 20123 www.surdoc.com  : 1000+    : 100   : TruPrivacyTM, SurCloudTM, VisiDocTM  : 2013""
-2013GMIC 20123CRN""
-
-""
- 
-FaceBook3.5 Youtube  100
-
-
-
- 
-   
-
- 
-
-
-
-
-
-
-
-
-· 
-­  ­  ­  ­ 
-
-
-
-­ 
-­  
-­  
-­  
-
-
-
-
-
-­  ­  ­  ­ 
-­  ­  ­ 
-
-
-
-Anti-DDoS
-
-NGWAF
-
-NGFW
-
-AV
-SIEM
-
-MASS
-
-SSL
-
-HoneyNet
-
-Recover
-
-Crypt File
-
-HE
-CryptDB
-
-Forensics
-
-JavaSec
-
-MAC
-
-MASS
-
-SAST
-Sandbox
-LXC
-
-APT
-
-NGIPS
-
-   OS/ HTTP
-TCP/UDP IP
-
-
-VPN
-
-DAST
-
-ATT
-
-
-·  ­  ­  ­  ­  ­ 
-·  ­ 
-·"" -  - 
-
-
-
-· -1
-­  ­ 
-
-· 
-­  
-­ 
-
-· -2
-­  ­  ­ 
-· 
-­  ­ 
-Deduplication
-
-
-· (Deduplication) 
-­ 60% ­ 90%
-· 
-­ 
-· 
-­ 
-
-Surdoc
-
-
-
- OpenAPI
-
-
-
- 
-
- API 
-
-
- 
- 
- 
- 
-
-Surdoc
-· Surdoc TruPrivacy
-­ ­ ­ ­
-
-TruePrivacy1
-
-TruePrivacy2
-
-
-· Hash · Hash · Hash · Hash · 
-HashHash HashHash
-
-
-· 
-­  ­  ­ 
-· 
-­  ­  ­  ­ 
-
-Surdoc
-· 
-           SSL    
-
-
-·  
-­  
-· Web 
-­  ­ 
- ­ 
-
-
-
-
-
-----
-  HIPAA 
-
-
-
-
-Surdoc 
-­ MyMedImage 
-­ The Practice Institute  
-­ Schooner Healthcare Services,  
-­ Hilltop , 
-
-Surdoc
-
-­ ­
- --3270
---20141000SurDoc
- --800
---20142015
-Oracle --Oracle
-
-
-
-
-
-· ----  
-·   
-· 
-
-
-Thanks!
-
-

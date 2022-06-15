@@ -1,116 +1,0 @@
-
-· 
-
-
-
-
-
-
- 
-
-
- 
-
-
- 
-
- !!
-
-
-
-
-IM
-
-VoIP 
-
-
-
-
-
-
-
-
-
-
-
-
-:
-
-
-
-
-
-
-
-
-
- GPRS
-
-BTS
-
-BSC
-
-
-
-SGSN
-
-GGSN
-
-PS
-
-TBF 
-
-GPRS Attach/Detach
-
-PDP Content Active/Deactive
-
-
-
-
-1.  
-2.  3.  4.  5. 
-9
-
-
-1.  XMPP SIMPLE?) 2.  3.  4.  5. 
-10
-
-
-1. DNS 2.  3.  4.  5.  6. 
-11
-
-IM
-1. ACK 2.  3. 
-12
-
-VOIP
-1. P2P  P2P 2. NACK  3.  4. FEC 5. FEC 6. 
-13
-
-
-
-   
-
-NIO 
-MQ
- 
- FEC
-Cassandra Redis Mysql
-14
-
-
-1. ! NIO Aysn
-2.  Disruptor  3. Cache 4. FEC. 
-proto buffer thriftavro 5. 
-15
-
-
-1. IP 2. DC 3. DC
-FEC
-16
-
-@InfoQ
-
-infoqchina
-
-

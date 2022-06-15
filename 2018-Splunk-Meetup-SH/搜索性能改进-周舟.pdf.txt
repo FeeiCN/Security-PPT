@@ -1,89 +1,0 @@
-
-Splunk 7.0
-2018.01.13
-
-© 2017 SPLUNK INC.
-
-
-
-© 2017 SPLUNK INC.
-
- Alex James - Senior Principal Product Manager (Search Technologies)  Manan Brahmkshatriya - Principal QA Engineer
-
-     
-
-
-
-© 2017 SPLUNK INC.
-
-
-TASplunk
-
-© 2017 SPLUNK INC.
-
- - DIRECTIVES
-
-© 2017 SPLUNK INC.
-
- TagsEventtypes · TagsEventtypes · SplunkTA50%
- Splunk7.0Tags(Eventtypes) · search 500 DIRECTIVES(REQUIRED_TAGS(tags="foo, bar")) · search 500 DIRECTIVES(REQUIRED_EVENTTYPES(eventtypes="alpha,omega"))
-  · search 500
-DIRECTIVES(REQUIRED_EVENTTYPES(eventtypes="alpha,omega"),REQUIRED_TAGS(tags ="foo,bar"))
-  ·  · 
-
-(Cardinality)
- Parallel Reduce
-  · search tag=authentication | stats sum(bytes) by host
- host  statsshuffle
-· search tag=authentication | shuffle by host | stats sum(bytes) by host · Reduce  Splunk 7.0 · 
-· limits.confphased_execution=true · | noop phase_mode=3 · stats, transaction  tstats  
-
-© 2017 SPLUNK INC.
-
-Parallel Reduce
-
-© 2017 SPLUNK INC.
-
-Parallel Reduce
-
-© 2017 SPLUNK INC.
-
-Splunk 7.0
-
-© 2017 SPLUNK INC.
-
- Projection Elimination · search ERROR | eval x=a*b | lookup users uid OUTPUT username | stats count by host · search ERROR | stats count by host
- Predicate Splitting · | eval x=a+b | where x=10 and y=10 · | where y=10 |eval x=a+b |where x=10
- Tag Elimination · search ERROR | where tag="Authentication" | stats count by host · search DIRECTIVES(REQUIRED_TAGS(tags="Authentication")) | where tag=Authentication |
-stats count by host
- Collapsing evals commands · | eval x=a+b | eval y=c+d · | eval x=a+b, y=c+d
-
-© 2017 SPLUNK INC.
-(Data Model Acceleration) 
-
-
-Splunk 7.0
-
-© 2017 SPLUNK INC.
-
-(Data Model Acceleration)
-
-
-© 2017 SPLUNK INC.
-
- Splunk 7.0 · / · indexer
-  · /acceleration.max_time ·  · (
-acceleration.poll_buckets_until_maxtime=true)
-  · Splunk 7.0 · 
-
-
-
-© 2017 SPLUNK INC.
-1. Splunk 7.0 2. 
-· DRRECTIVES · (Cardinality) ·  · Data Model Acceleration
-
-
-
-© 2017 SPLUNK INC.
-
-

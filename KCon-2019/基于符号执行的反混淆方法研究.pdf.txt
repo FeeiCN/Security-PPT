@@ -1,104 +1,0 @@
-2019
-
-
-
-
-
-CONTENTS
-
-01
-PART 01
-
-
-02
-
-03
-
-PART 02
-
-
-PART 03
-
-
-04
-PART 04
-
-
-PART.01
-CLICK ADD RELATED TITLE TEXT, AND CLICK ADD RELATED TITLE TEXT, CLICK ADD RELATED TITLE TEXT, CLICK ON ADD RELATED TITLE WORDS.
-
-
-· OLLVM https://github.com/obfuscator-llvm/obfuscator
-· 20106 LLVM
-
-· LLVMLLVMGCC
-· LLVMIR 
-· C/C++OCx86ARMmipsIR
-
-PART.02
-CLICK ADD RELATED TITLE TEXT, AND CLICK ADD RELATED TITLE TEXT, CLICK ADD RELATED TITLE TEXT, CLICK ON ADD RELATED TITLE WORDS.
-
-
-· OLLVM4.0 a.  b.  c. 
-
-· freebuf)
-
-· freebuf)
-
-· freebuf)
-
-· ---- · 
-· (y <10 || x *(x + 1)%2 == 0) · https://github.com/obfuscator-llvm/obfuscator/wiki/Bogus-Control-Flow
-
-· ----  a = b + c a = b - (-c) a = -(-b + (-c))
-r = rand (); a = b + r; a = a + c; a = a - r r = rand (); a = b - r; a = a + b; a = a + r
-
-https://github.com/obfuscator-llvm/obfuscator/wiki/Instructions-Substitution
-
-· ---- ·  ·  ·  
-· 
-
-PART.03
-CLICK ADD RELATED TITLE TEXT, AND CLICK ADD RELATED TITLE TEXT, CLICK ADD RELATED TITLE TEXT, CLICK ON ADD RELATED TITLE WORDS.
-
-
-·  ·  ·  ·  · angr
-https://github.com/angr/angr
-
-·  ·  ·  ·  ·  ·  · 
-· patch or 
-
-·  Case 1 ·  · 
-· return
-
-·  Case 2 ·  ·  · ""
-
-·  Case 3
-· 
-· BEQBNE 
-
-·  ·  · block value
-
-·  ·  · ARM 32ITT  · 
-......
-
-· ----patchor ·  · GDLwingraph
-
-·  · vs
-
-·  · vs
-
-PART.04
-CLICK ADD RELATED TITLE TEXT, AND CLICK ADD RELATED TITLE TEXT, CLICK ADD RELATED TITLE TEXT, CLICK ON ADD RELATED TITLE WORDS.
-
-
-· GDL · hex-rayCtree · IDA Pro 7.2Hex-Rays api microcodeblockblock
-
-· --patch
-·  · 
-· SO
-
-
-
-
-

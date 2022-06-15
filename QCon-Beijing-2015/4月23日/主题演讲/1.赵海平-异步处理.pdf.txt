@@ -1,92 +1,0 @@
-   
-QCon  Beijing  /  2015.04  
-
-  
-
-
-Client
-
-Database   Server
-
-  
-
-DbConnection conn = new DbConnection(IPAddress); DbResult res = conn.exec(Query); res.display();
-
-  
-
-Client
-
-Database  1 Database  2
-
-  
-1:  
-DbResult res1 = conn1.exec(Query1); DbResult res2 = conn2.exec(Query2, res1); res2.display();
-
-  
-2:  
-DbResult (res1, res2) = ExecParallelQuery(conn1, Query1, conn2, Query2); formatAndOutput(res1, res2);
-
-  
-
-
-function getResult() { DbConnection conn = new DbConnection(IPAddress); DbResult res = conn.exec(Query); return res;
-}
-
-  
-3:  
-DbConnection conn = new DbConnection(IPAddress); Future<DbResult> res = conn.asyncExec(Query);
-
-  
-
-function getResult1() { DbConnection conn = new DbConnection(IPAddress); Future<DbResult> res = conn.asyncExec(Query); yield return res;
-}
-
-  
-
-function getResult1() { DbConnection conn = new DbConnection(IPAddress); Future<DbResult> res = conn.asyncExec(Query); yield return res;
-}
-function getResult2() { DbResult res1 = waitFor(getResult1()); yield return res1;
-}
-
-  
-Facebook  
-   Distributed    
-Query
-
-PHP    yield   generator       
-   Distributed    
-Query
-
-  
-
-: IdList friends = waitFor(getFriends(myId)); yield return getTaoBaoBuyers(friends);
-
-
-  
-
-: IdList friends = waitFor(getFriends(myId)); yield return getTaoBaoBuyers(friends);
- IdList buyers = waitFor(getPorscheBuyer()); yield return getFriends(buyers);
-
-  
-
-
-Friends
-
-Porche  Buyers
-
-SELECT  *  FROM  friends  f       INNER  JOIN  porche_buyers  b  ON  f.id  =  b.id
-
-  
-
-   Distributed    
-Query
-
-   Distributed    
-Query
-
-Q  &  A        
-Thank  you
-
-@  
-
-

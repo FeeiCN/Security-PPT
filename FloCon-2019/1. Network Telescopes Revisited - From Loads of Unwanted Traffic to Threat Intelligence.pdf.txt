@@ -1,257 +1,0 @@
-Network Telescopes Revisited
-From Loads of Unwanted Traffic to Threat Intelligence
-Piotr Bazydlo, Adrian Korczak, Pawel Pawliski
-Research and Academic Computer Network (NASK, Poland)
-
-Who are we
-Piotr Bazydlo Head of Network Security Methods Team NASK @chudyPB piotr.bazydlo@nask.pl
-Adrian Korczak Network Security Methods Team NASK adrian.korczak@nask.pl
-Pawel Pawliski CERT Polska pawel.pawlinski@cert.pl
-
-Network Telescope Also known as darknet or blackhole. Unused IP address space. No legitimate network traffic should be observed.
- First (?) & largest telescope (approx /8):
-
-Network Telescope
-In practice, we can see a lot of different activities: Misconfiguration of network devices/applications.  Scanning. Backscatter from DoS attacks. Exploitation attempts (UDP). Weird stuff.
-
-DoS attacks (backscatter)
-
-What we want to achieve?
- Detect large-scale malicious events (botnets, exploits).  Detect attacks on interesting targets.  Track activities of specific actors responsible.  Understand the dynamics (trends).
-
-Problems
- How to group packets?  How to classify them into events?  How to find interesting events?  How to identify actors?  How to analyze trends?
-
-Traffic going to network telescope
-
-Our approach
-
-1. Monitored IPv4 space: > 100 000 addresses
-
-2. Analyze captured traffic every 5 minutes.
-
-Stats: ~ 10 000 pps ~ 25 000 000 000 packets per month 80% = TCP
-
-Traffic going to network telescope
-
-Parser L7 up to L4 payload
-
-Parser L7
-
-Two parsing scripts:  Parser L4 ­ up to 4th OSI layer. written in C++, uses libtins library.
-
- Parser 7 ­ parsing of 7th OSI layer. written in python, uses dpkt library
-
-Traffic going to network telescope
-
-Parser up to L4
-
-Parser L7
-
-Initial aggregation
-
-ABggrorek1egrat1or
-
-ABgrgorke..eg.ra.t.o. r
-
-Aggregator N
-
-Redis
-
-Traffic going to network telescope
-
-Parser up to L4
-
-Parser L7
-
-Initial aggregation
-
-ABggrorek1egrat1or
-
-ABgrgorke..eg.ra.t.o. r
-
-Aggregator N
-
-Analyzer TCP
-
-Analysis Analyzer UDP
-
-Analyzer DNS
-
-Analyzer amplifiers
-
-Analyzer ...
-
-Analyzer SIP
-
-Redis
-
-Traffic going to network telescope
-
-Parser up to L4
-
-Parser L7
-
-Initial aggregation
-
-ABggrorek1egrat1or
-
-ABgrgorke..eg.ra.t.o. r
-
-Aggregator N
-
-Elastic Search
-
-Analyzer TCP
-
-Analysis Analyzer UDP
-
-Analyzer DNS
-
-Analyzer amplifiers
-
-Analyzer ...
-
-Analyzer SIP
-
-Redis
-
-Case study 1 Botnet Fingerprinting
-
-Botnet fingerprinting
-
-Botnet fingerprinting
-Packets with SEQ = IP_DST
-
-Botnet fingerprinting
-
-Botnet fingerprinting
-
-Botnet fingerprinting
-In total, about 45 000 unique IP addresses were identified.
-Distribution of source IPs
-
-Case study 2 Memcached
-
-Memcached
-
-Memcached
-
-Github 1.3 Tbps DoS
-
-Reported 1.7 Tbps DoS
-
-Memcached
-
-Github 1.3 Tbps DoS
-
-Reported 1.7 Tbps DoS
-
-Day 1 ­ 20.02 (first scan)
- Only 4 IP addresses  Source: DigitalOcean, UK  Duration: 25 minutes  Constant source port per source IP  One payload used (memcached statistics)
-
-Day 5 ­ 24.02 (new actor)
- Only 1 IP addresses  Source:AS 27176, DataWagon LLC, US  Small hosting with anti-DDoS  Randomized source ports  New payload  Scan lasted longer: 3 hours
-
-And so on... Pre-GitHub scanners
-Distribution of source IPs
- About 60 IP addresses.  Several scanning patterns.
-
-And so on... Post-GitHub scanners
-Distribution of source IPs
- About 315 IP addresses.  Multiple scanning patterns.
-
-Looking deeper into packets
-
-PGA
- PGA = custom code to generate packets
- Improve DDoS Botnet Tracking with Honeypots,Ya Liu, 360 Netlab, Botconf 4th edition, Dec 2016
- Usually simple operations, examples
- constant values  byte swap  incrementation
- Leaves patterns that can be used for IDS  Our tool detects patterns and creates new signatures
-
-PGA examples
-
-1. Mirai: TCP_SEQ = IP_DST
-
-2. XoR.DDoS PGA:
-IP_ID = SPORT TCP_SEQ[1:2] = IP_ID
-
-PGA example
-
-Signatures everywhere
-SYN FLOOD on IP belonging to Google ­ full of PGA signatures.
-
-Signatures everywhere
-SYN FLOOD on IP belonging to Google ­ full of PGA signatures.
-
-1. SPORT = TCP_SEQ[1:2]
-
-2.TCP_SEQ[3:4] = 0xFFFF
-
-1
-
-3. SPORT = IP_SRC[3:4]
-
-2
-
-3
-
-Operations
-
-Operational value of network telescopes
- Raw output from analyzers is not actionable (too many events)  Scans   abuse notifications (automated for high confidence events)
- PGA fingerprint1ing   Shadowserver remediation feeds
- DoS attacks   situational awareness & alerts
- Automated feeds provide limited "i2ntelligence" 3
-
-DoS backscatter for the Polish IPv4 space (color = PGA fingerprint)
-
-Sharing threat information
-
- Automated distribution of abuse reports & IoCs
-
- Free
- > 100 active1participating entities
-
- > 50 data sources
-
-2
-
- Formats: JSON & CSV & more
-
-3
-
-Interested in getting the data?
-
- Network owners: send an email to n6@cert.pl to sign up  Usually working with national CSIRTs
-
-1
-
-2
-
-3
-
-Aiming for actual intelligence
- In-depth analysis of events extracted from the traffic  insight into TTP  more difficult to automate
- Anomaly / trend detection:
- forecast ex1ploitation campaigns.
- new campaigns
- Attribute activities to botne2ts / actors 3
-
-Future plans
-
- Combine network telescopes with other data sources
-Honeypots, sandboxes, botnet tracking
-
- Research collab1oration:
-Looking for help in linking PGA signatures to tools / malware
-
-2
-
-3
-
-https://sissden.eu
-This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 700176.
-
-

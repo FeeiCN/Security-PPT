@@ -1,69 +1,0 @@
- 
-  360   2014925
-China Internet Security Conference 2014 2014
-
-
-· GoogleNest · AppleiWatch · Jawbone ·  · Tesla ·  ·  · ......
-
-
-· 2014Defcon 4522 
-· SyScan360 Tesla
-· 2013 
-· USB Firmware 
-
-
-·  · IPS · IDS · UTM · VPN · SOC · 
-
-
-·  · 
-? · 
-
-
---
-·  ·  · 360
-
-
-·   ·  Security Development Lifecycle (SDL)
-· Web 
-
-
-­ 
-­ JTAG
-» Debug
-­ TTL
-» 
-­ USB
-» 
- 
-
-Firmware
-­ Firmware
-­ Firmware
-» picjtag 
-­ FirmwareEEPROMFLASH
-» 
-­ Firmware
-» JTAGSPII2C 
-» USB 
-
-
-­ 2014 BlackHat
-­ 
-» HackRFBladeRFDVB-T »  »  » 
-­ 
-» WiFiZigBeeRF » 2.4Ghz315/433/868/915Mhz
-­ 
-»  » 
-
-
-­  ­  ­  ­  ­ 
-
-
-­  ­  ­  ­ 
-
-
-­  ­  ­ 
-
-Thanks!
-
-

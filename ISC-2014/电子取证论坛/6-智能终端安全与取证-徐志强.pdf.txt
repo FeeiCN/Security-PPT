@@ -1,214 +1,0 @@
-
- 
-
-
-
- (MTEC)
-
-
-           (CCF)  (HTCIA)  ISC2 Certified Cyber Forensics Professional (CCFP)  EnCase Certified Examiner (EnCE)
-2
-
-
- 1.  2. Android  3. iOS  4.   5. 
-3
-
-1.
-·  ·  ·  ·  ·  · 
-
-2. Android 
-
-5/38
-
-5
-
-2. Android 
- Android APP
-6
-
-2. Android
-   (PIN)  
-
-2.1 
-   Android 1.6-4.2Galaxy S4999%
-
-   
-   
-8
-
-2.1 
-
-2.2 XSS
- Cross Site Scripting AndroidWebkit XSS
-Android4.040%
-10
-
-2.2 XSS
-11
-
-2.3 /
- / ()
-12
-
-2.3 /
- USBAndroid adb
-13
-
-2.4 /
- /
-   1.5-4.2  USB  root  
-
- 
-SHA-1 5
-14
-
-2.5 ()
- Android  60%  HTC70%  MIUI 5.0  
-2014/9/28
-
-2.5 ()
- MTK ,
-2014/9/28
-
-2.6 Android
- Android    root     SD 
-  )
-  
-2014/9/28
-
-2.7 JTAG
- JTAGdump
- ORT Box  Riff Box  Medusa Box
-18
-
-2.8 
- Android,  
-19
-
-3. iOS
- iOSAPP 
- iOSAndroid 
- iOS
-20
-
-3. iOS
-     iOS 8
-21
-
-3.1 iOS
- iOS20137         ·                    iPhone"Mactans")
-22
-
-3.2 iOS
- (PASSCODE)
- iPhone4  iPhone 3GS  iPAD1  iPod Touch3  iPod Touch4
-23
-
-3.2.1 i OS
- DFU    
-24
-
-3.2.2 iOS
- iOSPCPC 
-25
-
-3.2.3 Touch ID
-  iPhone 5S   
- iPhone6TouchID 
-26
-
-3.2.4 iPhone FileRelay
- iPhoneiTunes      file_relay    iPhone 
- iOS8
-2014/9/28
-
-3.2.5 iPhone
- iPhone4S/iPhone5/5c/5s/iPhone6/iPhone6 Plus Passcode 
- DFU 
-
-3.2.6 iTunes
- iOSiTunesiPhoneiPADiPod Touch 
- Win 7/Win 8 Users/(username)/AppData/Roaming/Apple Computer/MobileSync/Backup
- Mac OSX ~/Library/Application Support/MobileSync/Backup/
-29
-
-3.2.6 iTunes
- iTunes   Passware Kit Forensic  Elcomsoft Phone Password Breaker
-30
-
-3.3 
-   
-31
-
-3.4 
-  
-32
-
-4. 
- ""NSA 
-2014/9/28
-
-4.1 Android
- 201410Android L  2011(Android3.0)  
-
-4.2 iOS
-  20149iOS 8 
-
-
- iOS 8
-2014/9/28
-
-
- iOS 8   30  
-2014/9/28
-
-MAC
- iOS 8MACWi-Fi MAC 
-2014/9/28
-
- (Two-step Verification)
-  Apple ID  
-    " Apple ID"  iCloud  icloud.com   iTunesApp Store  iBooks Store    Apple  Apple ID 
-2014/9/28
-
-iCloud
- iCloud
-2014/9/28
-
-
- iCloud    
- iCloud  128  AES   -   -  
-2014/9/28
-
-iCloud 
-2014/9/28
-
-iCloud 
-2014/9/28
-
-
-  " "  ""
-  
- http://www.apple.com/cn/privacy/government-information-requests/
-2014/9/28
-
-
-2014/9/28
-
-
-  ·  (Android L) ·  (iCloud) ·  · ) · 
-2014/9/28
-
-
-  ·  · (GPS) ·  · App · (iOS8 )
-2014/9/28
-
-
-  · Root ·  Apple StoreGoogle Play) ·  · URL · 
-2014/9/28
-
-THANK YOU
-   digitalforensics QQ: 7850350
-49
-
-

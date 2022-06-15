@@ -1,271 +1,0 @@
- 
- 
-
-
-
-
-
- CCF YOCSEF (2016-2017) CCF  (2018)    CCF   IEEE CS SSAISFS
-
-
-
-1942    "" 2002 15   
-
-
-
-
-
-
-
-
-
-Privacy Protection
-
-
-BIG DATA
-
-
-
-
-
-
-
-CLOUD
-
-
-
-
-Digital Forensics
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-  ----
-  ----
-  ----
-  ----
-
-
-
-
- 
- "" "" ""
-
-
- 
-1.  2. 
-
-
- 
-3. TopN
-
-
- 
-1. LSTM+CRF
-
-
- 
-2.  1 2 3 4
-
-
- 
-1. TF-Levenshtein Distance
-
-
-
- 
-2. TF-Levenshtein Distance  =    + 1 -   
-
-92.00%
-
-90.00%
-
-88.00%
-
-86.00%
-
-84.00%
-
-82.00%
-
-80.00%
-
-78.00%
-
-76.00%
-
-74.00%
-
-0.2
-
-0.3
-
-0.4
-
-0.5
-
-
-
-
-  TopN
-
- top10 top20 top30 top40 top50
-
- 7.65 14.4 20.2 25.3 30.3
-
-Bing 5.6 9.6 11.2 12.3 13.4
-
-
-
-
- LSTM+CRFCRFHMM F1
-
-1.  Location 
-
-F1 baidu bing
-
-LSTM+CRF
-89.28% 90.18%
-
-CRF 77.18% 78.98%
-
-HMM 71.44% 71.67%
-
-2.  Organization
-
-F1 baidu bing
-
-LSTM+CRF
-84.87% 86.42%
-
-CRF 50.27% 62.18%
-
-HMM 37.51% 42.95%
-
-3.  Person
-
-F1 baidu bing
-
-LSTM+CRF
-92.12% 90.35%
-
-CRF 74.45% 65.33%
-
-HMM 64.26% 66.00%
-
-
-
-  
-
-1. 2
-
-
-
-Bing
-
-
-
-67%
-
-72%
-
-94%
-
-2. 5
-
-
-
-Bing
-
-
-
-3.4
-
-3.8
-
-4.2
-
-3. 
-
- 2.8
-
-Bing 2.6
-
- 3.1
-
-
-
-30  LSTM+CRFHMMCRF  
-
-
-
- """" 30,   
-
-
-
-
-· ""(Endsley1988) " · "
-"(Tim Bass, 1999)
-     
-Endsley, "Design and evaluation for situation awareness enhancement" 1988.
-
-----
-
-·  ·  · 
-
-
-
-  
-
-...... 
-
-""   
-
-
-    ----   
-  /----  /----  / ----
-
-
-
-
-
-
-
-  /()
-
-
-/
-
-        
-
-
- /
-
-
-  
- I /  ()
- II / 
- III / // 
-
-          
-
-
-
-
-
-  
- 
-
- 
-
-

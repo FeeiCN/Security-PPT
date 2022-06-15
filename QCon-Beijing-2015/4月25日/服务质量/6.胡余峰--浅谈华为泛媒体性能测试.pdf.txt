@@ -1,374 +1,0 @@
-
-   028    13880881280   Emailhuyufeng@huawei.com
-
-
-·  · · IT ·  · 13880881280 ·  huyufeng@huawei.com · earthure · · 2001
- · 2005SDHPDHATMDDN
- · 2007
-  · 
-
- 
-Ø   Ø   Ø  
-
-
-
-   /
-
-VS
-
-   
-
---
-
-RAS
-
-----------""
-     
-
- ""
-   ----------""""
-
-  
-
-  
-
-  
-
-  
-
-     
-
-  
-
-  
-
-    
-
-   
-
---
-
-
-
-   
-
-
-5   4   3   2   1   0  
-1   2   3   4  
-
-
-
-
-
-   
-
-
-
-...
-
-IO
-
-1vs.
-
-2
-
-IO
-R
-
-w
-
-3vs.
-
-4
-
-5
-
- 
-Ø   Ø   Ø  
-
-
-
-
- 
-
-PPS 
-PPTV
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-ØIO   ØIOIO   ØIO   ØIO 
-
-ØIOIO   ØIO IO   ØIO
-
---
-
-
-
-
-
-1
-
-1vs.
-
-
-
-
-
-2
-
-
-
-R w
-4
-
---
-
-User1
-
-User2
-
-UserN
-
-......
-
-2
-
-......
-
---
-
-
-
-3vs.
-
-
-
-1 2
-
-3
-
-4
-
-5
-
-6
-
-0
-
-4
-
-8
-
-12 16
-
-20
-
-24 hours
-
-
-
-
-20
-
- N
-
-
-
-
-
-IO 
-
-
-
-
-
-
-
- IO
-
-
-
- IO
-
-
-N
-
-
-Y
-
-IO 
- IO
-
-968  
-
-Y  12*243.4
-
-
-
-
-
-N
-
-
-Y
-
-
-IO 
-
-IO 
-
- IO
-
- IO
-
- IO
-
- IO
-
-
-
-
-
-
-
-
-
-  
-
- 
-Ø   Ø   Ø
-
-Workload
-  
-
-Workload
-
-
-
-           
-
- IP SAN   FC SAN   IP SAN FC SAN
-
-   
-
-
-
-Workload
- 
-
-Workload
-
- 
-
-256KB   512KB   1MB   2MB  
-4ms   5ms   6ms   7ms  
-
-
-
-
-
-256KB 1%
-
-512KB 2%
-
-1MB 84%
-
-2MB 9%
-
-4ms 50%  
-
-5ms 80%  
-
-6ms 90%  
-
-7ms 99%  
-
-EDIUS
-
-
- 
-
-
-
-256KB  &512KB    IO  0%--20%    
-
-1
-
-1MB  &2MB  IO   80%--100%
-
-256KB  &512KB    IO  21%--40%    
-
-2
-
-1MB  &2MB  IO   60%--79%
-
-256KB  &512KB    IO  41%--60%    
-
-3
-
-1MB  &2MB  IO   40%--59%
-
-256KB  &512KB    IO  61%--80%    
-
-4
-
-1MB  &2MB  IO    20%--39%
-
-256KB  &512KB    IO  61%--80%    
-
-5
-
-1MB  &2MB  IO    20%--39%
-
-IO
-IO
-IO
-Tester
-
-IO
-
-
-
-
-
-Workload
-
-Workload
-
-
-
-
-
-1000 800 600 400 200
-0
-
-Wor k load
-968
-
-8
-
-
-8 48
-Workload
-
- 
-
-l8+48*20=968   lWorkload8+8*520 5=48   lWorkload96848 20.2
-
-Thanks
-
-

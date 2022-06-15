@@ -1,115 +1,0 @@
-Google
-
-CTO @ | Ticwear
-
-
-· Google · Google ·  ·  · 
-
-Google
-
- & Google Code
-· C++ Coding Style · Readability · Unit Test · Code Review · "LGTM" (Look Good To Me)
-
-
- base  blaze
-o v.s. makefile, ,  o Facebook: buck, Twitter: pants, : blade  Protocol Buffer  Stubby RPC  GTest, GFlags, GLog  MapReduce, Bigtable, etc...
-
-
- Google2 Gmail
- "3-530-50"    
-
-Google
-
-
-unit test? code review?
-
-
-
- 
-
-Google
-
-
- (generalist)(specialist)  Smart:   Get things done  Communication
-
-
- Phone screen + 3onsite coding interview  Whiteboard coding: 
-
-
-
- Coding style guide, mentor, starter project
- Codelabs
-
-
-
-
-
-hackathon
-
-Review
-
-Self review Peer review
-
-
- Risk taking  Temptation
-
-
- 2-3    bugs + features
-
-
-
-
-
-·  ·  ·  · 
-"50"
-
-
-· 
-     
-· 20137(DNN) · Johns Hopkins Univ.
-
-* 
-·  · 
-  · 
-  · 90%-95%
-
-
-· 
- ""
-·  ·  (DNN, MaxEnt, CRF...)
-
-
-·   12306..
-· API · 
-   
-
-
-·  (Proactive Search) · Google Now · 
-       
-
-
-
-
-·  ·  · Google Glass · Android Wear
-
-
-
-Ticwear
-
- 
-
-Cubic UI 
-
-
-
-
-·  · TicwearAPP
-    
-    
-
-
-·  ·  · API · 
-
-Thank you!
-
-

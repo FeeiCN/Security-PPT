@@ -1,184 +1,0 @@
-  
-&CTO
-
-
-· "" ·  ·  · CA · SSL
-
-""
-
-1. ""
-
-:
-
-D
-
-WAF
-
-
-
-
-
-HTTPS
-
-
-
-
-1. ""
-HTTPS 
-() HTTPS"" 
-
-1. ""
-HTTPSSSL
-HTTPS "" HTTP 
-
-1. ""
- 1 http://www.eshimin.com/ SSL 400 WiFi(Web/APP)  
-+https ==
-
-1. ""
- 2SSL WiFi, WiFi SSLhttp  
-
-
-1. ""
- 3App APP  
-
-1. ""
- 4APP/ APPHTTP/
-
-
-
-2. 
-HTTPSHTTPS HTTPSHTTPSSSL 
-(1)  SSL SSL20
-(2)  SSLSHA-1 SSL
-(3)   TLS1.2 ......
-
-2. 
-(4) 1SSL SSL  
-(5) "SSL"CDN HTTPSCDN HTTPSCDN  
-(6) APPSSL APPhttps APP DNS 
-
-
-AzureSSL
-
-3. 
-
-(1) SSL SSL SSL  (2)CT CASSLCT SSL (3)   (4) Azure SSL 
-
-3. 
-
-(1) · CASSL · SSL · SSL · SSL
-(2) · APISSL · SSLSSL · SSL
-
-3. -Azure
-Azure SSL (1) SSL
-  
-
-3. -Azure
-(2)  ( ) 
-
-3. -Azure
-(3) SSL HTTPS
-
-3. -Azure
-(4) AzureSSL WoSign SSL APISSL
-
-3. -
-SSL SSLAPI SSL HTTPHTTPS
-
-3. -
-(1) SSLAPI API SSL 
-
-3. -
-(2) SSL SSL SSL HTTPSIP SSLWAF/CDN/SLB/ 
-
-CA
-
-4.CA
-
-
-
-HTTP 
-
- 
-
- ""
-
-
-
-
-
-
-
-
-
-
-
-PKI/CA
-
-4.CA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SSL
-
-PKI
-PKI/CA
-
-4.CA
-PKI/CASSL 
-1SSL
-·  · /APP · API · SSL POP/SMTP/IMAP
-
-4.CA
-2
-  · CASaaSAPI
-  
-· API/ SaaS   
-
-4.CA
-3    API  ·    ·    ·   ·  PDF  
-
-4.CA
-4 EK
-EK EK 
-
-SSL
-
-5.SSL
-1SSLCT EV SSLCT CT LogEVSSL WoSignStartCom CASSLCT
-2AppATS 201711App Store App ATS(App Transport Security)HTTPS 
-
-5.SSL
-3HTTP · HTTPS · ChromeHTTP
-4SHA-1 20151231CASHA1SSL SHA220161231 SHA1SSL
-
-5.SSL
-5HTTPS · 2015682016
-1231https 71550% https
-
-5.SSL
-5HTTPS · 2016101HTTPS
-service.gov.ukHSTS HTTPS
-
-  WWW.WOSIGN.COM
-
-

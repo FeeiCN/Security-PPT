@@ -1,56 +1,0 @@
-Threat Intelligence 
- 360  2014924
-China Internet Security Conference 2014 2014
-
-Threat Intelligence
-·  · ""
-­  ­  ­  ­  ­  ­  ­  ­ 
-
-
-·  ·  ·  ·  · 
-
-
-·  · 
-
-
-·  · 
-
-
-·  · 
-
-
-· FireEye DTI
-­ Web 
-· FireEye ATI
-­ + 
-· FireEye ATI+
-­ + 
-
-
-·   
-­  ­  ­ 
-
-
-·  · Wifi · BYOD ·  ·  ·  · ......
-
-
-·  
-·  · IPS · IDS · UTM · VPN · 
-
-
-
-
-·
-­ PC ­  ­ 
-· 
-­  ­  ­ 
-· 
-
-
-·  · 
- ·  · SAAS
-
-
-Thanks!
-
-

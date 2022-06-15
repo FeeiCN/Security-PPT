@@ -1,101 +1,0 @@
-
-wooyun
-
-
-·    ·    ·    ·    · Q/A  
-
-
-· web   ·    ·    · 80sec/wooyun  
-
-   
-
-
-·   
-­ ____ ____  
-
-
-·   
-­ ____ ____  
-
-
-·   
-­ ___   
-
-
-·   
-­ top10 xss  
-
-
-·   
-­ ________   
-
-
-·   
-
-
-·    ·    ·   
-
-  
-·    ·    · 
-
-top1
-· 
-
-1
-
-2
-· zbbixsogou&sohu   
-· h;p://www.wooyun.org/bugs/ wooyun--2010--022537
-
-top2
-· /
-
-top3
-· xss/csrf
-
-
-
-top4
-· 
-
-
-· 
-
-top5
-· SQL
-
-
-· SQL h;p:// www.wooyun.org/bugs/wooyun--2010--021894
-
-top6
-· /
-
-· Nginx   · Tomcat   · Jboss   · IIS   · ......  
-
-
-
-top7
-· /  
-­    ­   
-
-
-· tom   · h;p://www.wooyun.org/bugs/
-wooyun--2010--036446
-
-top8
-· /
-
-
-·    · h;p://www.wooyun.org/bugs/
-wooyun--2010--023503
-
-
-·   
-­    ­    ­    ­ IT  
-·   
-­    ­    ­   
-
-Q/A
-· J
-
-

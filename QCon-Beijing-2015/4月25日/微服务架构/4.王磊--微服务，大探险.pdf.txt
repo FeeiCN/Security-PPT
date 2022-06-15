@@ -1,598 +1,0 @@
-
-
-
-
-
-  @ThoughtWorks      wldandan.github.com
-
- 
-2
-
-3
-
-
-
-30
-
-3X
-
-10X
-
-4
-
-......
-5
-
-10
-
-3.5
-6
-
-4
-
-?????
-7
-
-4
-
-53
-8
-
-CRM
- CRM 
-9
-
-CRM
-
-400K Loc
-
-10+members
-
-30%
-
-50mins
-
-3Day
-
-10
-
-
- 
-
-11
-
-
-1  2  3  4 
-12
-
-......
-13
-
-10
-
--71
---
-
-1
-
-3.5
-
--30 CRM  IT
-
-
-
-10
-
-7
-
--64 +
-
-
-
-50
-
-18
-
-
-
-- 91
-
-3
-
-2
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-   
-
-
-
-   
-
-CRM
-     
-
-15
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-   
-
-
-
-   
-
-CRM
-     
-
-16
-
- 
-
-
-
-19
-
- ,        
-
-20
-
-
- ?  
-21
-
-
-22
-
- ( APL )
-life    {             1  .3  4=+/,¯1  0  1.¯1  0  1.   }
-23
-
-
- ?  
-24
-
-
-
-
-   
-
-
-   
-
-25
-
-
-
-
-   
-
-
-   
-
-
-
-26
-
- ,        
-
-27
-
- 
-28
-
-   
-29
-
- ,        
-
-30
-
-
-   
-31
-
- ,        
-
-32
-
-
-
-  
-
-
-
-
-
-
-
-
-33
-
-
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
- ,        
-
-35
-
- ......
-36
-
-1 - 
-37
-
- - BAMBOO
-38
-
-stack
-Elastic     Load   Balancer
-
- - AWS
-
-EC2   Instance
-EC2   Instance
-
-Launch     Configuration
-AMI Auto  Scaling
-
-39
-
-- Splunk
-40
-
-- Nagios
-41
-
-42
-
-2 - `Stencil' ()
-43
-
-'Stencil' ()
-
-SOURCE SPEC
-CONFIG
-WEB SERV LOG MONITORING ALERT
-DEPLOYMENT CI
-44
-
-
-
-
-
-
-
-Stencil
-
-
-
-
-
-/
-
-'Stencil' ()
-45
-
-Stencil
-
-  
-
-  /
-
-'Stencil' ()
-46
-
-
-
-
-
-
-
-
-Stencil
-
-
-
-
-
-'Stencil' ()
-
-   47
-
-
-
-
-
-
-
-Stencil
-
-
-
-
-
-/
-
-'Stencil' ()
-
-
-48
-
-3 - 
-49
-
-Representational State Transfer
-50
-
-H A L YPERTEXT PPLICATION ANGUAGE
-
-1
-
-2
-
-3
-51
-
-{  
-
-_links         "
-
-":  {  
-
-                "self":        {  "href":  "/customers?page=3"  },   "prev":    {  "href":  "/customers?page=2"  }}  
-
-_embedded         "
-
-":  {  
-
-                [  
-
-    {"_links":  
-
-      {  "self":  {  "href":  "xx"  }  },  
-
-                          "name":    "Peter"},  
-
-......  
-
-                ]  }  
-
-52
-
-HAL BROWSER
-
-1
-3
-
-2
-53
-
-
-......
-54
-
-
-
-Integration  tests  are  a     scam  ­  A  self--replicating     virus  that  threatens  to     infect  your  code  base,  your     project  and  your  team  with   endless  pain  and  suffering.  
-        ----  J.  B.  Rainsberger
-55
-
-  
-56
-
-1 Record
-2 Replay
-4 - (PACT)
-57
-
-{  
-
-provider     "
-
-1 ":          {    "name":  "Service  Provider"      },  
-
-consumer     "
-
-2 ":  {  "name":  "Service  Consumer"  },  
-
-    "interactions":  [  
-
-3
-
-        {  
-
-            "request":  {  
-
-                    "method":  "get",  
-
-                    "path":  "/customers"  },  
-
-            "response":  {  
-
-                    "status":  200,  
-
-                    "headers":  {  "Content--Type":  "application/json"  },  
-
-                    "body":  {......}                
-
-              }  
-
-        }  
-
-    ],  
-
-    "metadata":  {  "pactSpecificationVersion":  "1.0.0"  }  
-
-}
-
-{  
-
-provider     "
-
-":          {    "name":  "Service  Provider"      },  
-
-consumer     "
-
-":  {  "name":  "Service  Consumer"  },  
-
-    "interactions":  [  
-
-3
-
-        {  
-
-            "request":  {  
-
-                    "method":  "get",  
-
-                    "path":  "/customers"  },  
-
-            "response":  {  
-
-                    "status":  200,  
-
-                    "headers":  {  "Content--Type":  "application/json"  },  
-
-                    "body":  {......}                
-
-              }  
-
-        }  
-
-    ],  
-
-    "metadata":  {  "pactSpecificationVersion":  "1.0.0"  }  
-
-}
-
-{  
-
-provider     "
-
-":          {    "name":  "Service  Provider"      },  
-
-consumer     "
-
-":  {  "name":  "Service  Consumer"  },  
-
-    "interactions":  [  
-
-3
-
-        {  
-
-            "request":  {  
-
-                    "method":  "get",  
-
-                    "path":  "/customers"  },  
-
-            "response":  {  
-
-                    "status":  200,  
-
-                    "headers":  {  "Content--Type":  "application/json"  },  
-
-                    "body":  {......}                
-
-              }  
-
-        }  
-
-    ],  
-
-    "metadata":  {  "pactSpecificationVersion":  "1.0.0"  }  
-
-}
-
-5 - -TMI
-                     
-61
-
--TMI
-     
--->  deploy  [APP]  [VERSION]
-62
-
-
-
-Router
-
-SERVICE--1.3 SERVICE--1.4
-63
-
-
-
-Router
-
-SERVICE--1.3 SERVICE--1.4
-64
-
-  DevOPS DOCKER
-......
-65
-
-    
-
-Isolated Environment Stencil HAL PACT IMBT
-
-
-66
-
-THANK YOU
-  @ThoughtWorks      wldandan.github.com
-67
-
-

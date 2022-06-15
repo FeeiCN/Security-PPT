@@ -1,116 +1,0 @@
-http://www.xfyun.cn/
-
-
-
- 
-
-YARN
-
- 
-
-
-
-Apache Hadoop Ecosystem
-Doug Cutting Cloudera & Apache
-
-Maple
-
-Maple 
-
-Evolution
-
-MapleSDK
-
-
-
-MapleBDWS
-
--
-
-Maple-BDWS
-Maple-SDK
-
-
-
-
-
-
-
-
-
-Apps
-
-Flume-ng ETL
-
-Sqoop
-
-Hive&Pig Storm&Spark Hadoop(&)
-
-Hbase
-
-Redis
-
-
-
-MapleBDWS
-
-Maple-SDK
-
-SDK For Integration Technical
-MapleSDK
-
--DataSource
-
-
-
- Avro
-
- 
-
-HDFS LocalFs
-
-DataBase Memory
-
--Data Source
-
-DataSourcceAPI
-MERGERS & JOIN
-
-HiveQL On Source
-
-Spark Load Source
-
-SharkQL On Source
-
-Impala On Source
-
-Pig On Source
-
-Avro
-
-    
-
-   
-
-
-
-
-·  15+ ·  
-
-http://www.xfyun.cn/services/analysis/mobileapp
-
-
-
-50 
-
-
-2PV 
-
-
-MapleReport
-
-Maple
-
-http://www.xfyun.cn/
-
-

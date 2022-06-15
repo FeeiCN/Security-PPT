@@ -1,773 +1,0 @@
-360 HBASE    
-      2015/4/24  
-
-  
-·    ·    ·   
-
-  Page  2    
-
-  
-· RK
-­  ­ /
-· RK · RK ­ scan
-· 
-­ DNS 
-­   
-  Page  3    
-
-  
-· 
-­  ­  ­ 
-·  · 
-­ 
-·  ·  ·   
-  Page  4    
-
-  
-·    ·    ·   
-
-  Page  5    
-
-  
-·  ·  ·  ·  ·  ·  ·  ·  ·  ·   
-
-  Page  6    
-
-  
-
-rowkey RK1 RK2 RK3 RK4
- c21 c22 c23 c24
-
-cf1  cf1 
-
-
-
-c21
-
-
-
-c22
-
-
-
-c23
-
-
-
-c24
-
-cf1:col2=c22 
-
-
-RK1
-
-RK2
-
-rowkey
-
-cf1  cf1 
-
-RK3 RK1
-RK4 RK2
-
-
-
-c21
-
-
-
-c22
-
-RK3
-
-
-
-c23
-
-RK4
-
-
-
-c24
-
-  Page  7    
-
-  
-
-
-
- 
-/
-
-Region1
-
-Region2
-
-Region3
-
-Region4
-
-TableA
-
-RegionServer
-
-RegionServer
-
-  
-
-
-
-  Page  8    
-
-  
-rowkey RK1 RK2
-RK3 RK4
-
-INDEX=>cf1:col2->Int
-
-cf1:col1 cf1:col2
-
-
-
-cf1 Region1 c21
-
-
-
-c22
-
-
-
-cf1 Region2 c23
-
-
-
-c24
-
-  Page  9    
-
-  
-
-rowkey
-
-INDEX=>cf1:col2->Int cf1:col1 cf1:col2
-
-INDEX:col
-
-Region1
- 
- Region1
- 
-
-
-RK1
-
-
-
-cf1 c21
-
-RK2
-
-
-
-c22
-
-INDEX Region1  
-
-Region2.
- 
- Region2
- 
-
-
-RK3
-
-cf1
-
-
-
-c23
-
-RK4
-
-
-
-c24
-
-INDEX Region2  
-
-
-
-
-
-
-
-  Page  10    
-
-  
-
-rowkey
-RK1 RK2
-
-cf1:col1 cf1:col2
-
-
-
-c21
-
-
-
-c22
-
-INDEX1=>cf1:col2->Int 
-  
- 
-INDEX2=>cf1:col1->Int,cf1:col2->Int
-
-  
- 
-
-
-
- 
- 
-
-  Page  11    
-
-  
-· schema
-­ {NAME => 'whitelist_dsv', FAMILIES => [{NAME => 'INDEX', BLOOMFILTER => 'INDEXROW', COMPRESSION => 'LZO', VERSIONS => '1', INDEX=>{IDX_CERT=>value:cert_sha1# IDX_SIGN=>value:sign_corp#IDX_SHA1=>value:sha1} }, {NAME => 'value', BLOOMFILTER => 'ROW', VERSIONS => '1', COMPRESSION => 'LZO'}]}
-· 
-  Page  12    
-
-  
-   Char   Byte   Short   Int   Long   Float   Double   String   Text     
-
-   2   1   2   4   8   4   8   -   -   -  
-
-                                
-  Page  13    
-
-  
- 
-1
-
-
-Put
-
-2
-
-Put
-
-RegionServer Region
-Region
-MemStore
-4
-
-3
-HLog
-
-  Page  14    
-
-  
-
-get col1 where col2=c21 | col3=c31
-
-create indexScanner IndexFamily
-OR
-
-Region
-
-
-
-createScanner
-
-condition 
- 
-  
- 
-
-Leaf
-
-startRow: SK+IDX1+c21 endRow: SK+IDX1+c21' ss
-
-Leaf
-startRow: SK+IDX2+c31 ss endRow: SK+IDX2+c31'
-
-  Page  15    
-
-  
-
-next 
-
-IndexFamily next
-OR
-
-Leaf
-
-Leaf
-
-ss
-
-ss
-
-RK list seek
-
-
- 
-
-Region dataFamily
-
-ss
-
-sfs
-
-sfs
-
-  Page  16    
-
-  
-
-parent 
- parent 
-
-
- 
-
-INDEX
-
-Parent Region
-
-splitKey RK1 RK2
-
-
-
-cf1 c21
-
-
-
-c22
-
-  Page  17    
-
-  
-
-parent 
-
-
-
-
-daughterA INDEX Region
-
-cf1
-
-RK1
-
-
-
-c21
-
-daughterB 
-
-
-
-
-INDEX
-
-daughterB Region
-
-cf1
-
-RK2
-
-
-
-c22
-
-  Page  18    
-
-  
-
-parent 
- parent 
-
-
- 
-
-INDEX
-
-Parent Region
-
-splitKey RK1 RK2
-
-create indexScanner startRowparent.SK+IDX+c22 endRow parent.SK+IDX+c22'
-
-
-
-
-
-cf1 c21
-
-
-
-c22
-
-create indexScanner startRowdaughterB.SK+IDX+c22 endRow daughterB.SK+IDX+c22'
-
-daughterB 
-
-
-RK2
-
-
-
-c22
-
-
-
-INDEX
-
-daughterB Region
-
-cf1
-
-  Page  19    
-
-  
-
-· 
-­ version value
-· 
-­  ­  ­ 
-
-· 
-­ INDEXTABLE
-
-  Page  20    
-
-  
-
-· 
-
-· 
-
-· 
-­ (A | B) & (C | D) ó (A&C) | (A&D) | (B&C) | (B&D)
-
-· New Bloomfilter type ·  · TODO
-
-  Page  21    
-
-New BloomFilter Type  
-
-INDEX1=>cf1:col2->Int
-   
-
-),'(&. ),'(&.
-
-rowkey
-RK1 RK2
-
-cf1:col1 cf1:col2
-
-
-
-c21
-
-
-
-c22
-
-Simple Case;
-get cf
-"
- 
-386-;
- 
-  ! # $ 
-7*1/;
-  
-
-! # $
-
-386-1/%452: +0999
-
-  Page  22    
-
-New BloomFilter Type  
-· INDEXROW · 
-­  ­ 
-· RowKey BF
-­ StartKey+INDEX+value+RowKey ­ RowKeyBF
-· BF
-  Page  23    
-
-New BloomFilter Type  
-
-INDEX1=>cf1:col2->Int
-   
-
-/3,-)5 /3,-)5
-
-rowkey
-RK1 RK2
-
-cf1:col1 cf1:col2
-
-
-
-c21
-
-
-
-c22
-
-Simple CaseG
-get cf
-$ 
- 
-<B@4G
-!!  
-    !#"% & 
-A086G
-" 
-
- !#"% &
-
-<B@486(>?:!F" 17EEE
-
-86+*9F=62'86;C86G   
-
-<B@49F=62')5.D86G 
-
-  Page  24    
-
-  
-· a' < A < a'' & b' < B < b'' · 
-­ A(a', a'')RKRKS1 ­ B(b', b'')RKRKS2 ­ RKS1RKS2
-· 
-­ AB ­ 
-· 
-­ AB ­   
-
-  Page  25    
-
-  
-
-2col%&)& *
-SK+IDX+1+1+RK1 SK+IDX+1+2+RK2 SK+IDX+1+3+RK3 SK+IDX+1+4+RK4 SK+IDX+1+5+RK5 SK+IDX+1+6+RK6 SK+IDX+2+1+RK7 SK+IDX+2+2+RK8 SK+IDX+2+3+RK9 SK+IDX+2+4+RK10 SK+IDX+2+5+RK11 SK+IDX+2+6+RK12 SK+IDX+3+1+RK13 SK+IDX+3+2+RK14 SK+IDX+3+3+RK15 SK+IDX+3+4+RK16 SK+IDX+3+5+RK17 SK+IDX+3+6+RK18
-
-#("*  
-
-
- 
-
-($)
-
- 
-
- 
-
-($)
-
- 
-
-('!)
-
-  Page  26    
-
-  
-
-·   
-
-INDEX1=>cf1:col2->Int
-   
-
-,/*+(2 ,/*+(2
-
-rowkey
-RK1 RK2
-
-cf1:col1 cf1:col2
-
-
-
-c21
-
-
-
-c22
-
-Simple CaseI
-get cf
- 
- 
-7A=0I
- 
-  ! " 
-?-53I
- 
-
-! "
-
-CFI #87AE@$%9G
-.B:4'H6)D&<;1>
-
-  Page  27    
-
-  
-
-INDEX1=>cf1:col2->Int
- 
-
-cf1:col1
-
-$%"#!'
-
-
-
-$%"#!'
-
-
-
-rowkey
-RK1 RK2
-
-cf1:col1 cf1:col2
-
-
-
-c21
-
-
-
-c22
-
-Simple Case-
-get cf  
-
-*,+& )(-
-
-
-
- 
-
-· 
-­ scan ­ IO
-
-· 
-­   
-
-  Page  28    
-
-  
-· coprocessor · 
-­ Count
-·  · 
-­ groupBy
-· 
-· 
-­ region   
-  Page  29    
-
-  
-· 
-­ term ­  ­ */?
-· 
-­ LuceneHBase ­ TextRK
-=>=>RK ­ Lucene
-RKRK  
-  Page  30    
-
-  
-
-360  
-
-   YES  
-
-  
-
-YES  
-
-  
-
-YES  
-
-  
-
-YES  
-
-  
-
-YES  
-
-  
-
-YES  
-
-  
-
-NO  
-
-Region   NO  
-
-   NO  
-
-  
-
-YES  
-
-  
-YES   YES   NO NO NO NO YES YES YES NO
-
-  Page  31    
-
-  
-·    ·    ·   
-
-  Page  32    
-
-  
-· 
-­  ­  ­ 
-· 
-­ (A | B) & (C | D) ó (A&C) | (A&D) | (B&C) | (B&D)
-  Page  33    
-
-  
-  Page  34    
-
-  
-
-70 {CPU2664GB12*4TB}
-
-           
-
-CASE1  
-
-CASE2  
-
-19 + 17
-
-10 + 10
-
-500018KV 40008KV  
-
-500+TB
-
-200+TB
-
-   (A|B) & (C|D)   
-
-  
-
-        
-
-5.5s   5000   70000+  
-
-6s   3000+   2400+  
-
-  Page  35    
-
-Thanks!
-
-

@@ -1,143 +1,0 @@
-
-
-
-  Trusted Computing's Successful Application-- Tenant Self-servicing Defined and Managed Trusted LAN in the Cloud
-
-
-
-
-
-
-ß  ß  ß LAN ß Tenant
-Self-servicing Defined and Managed Trusted LAN ß  ß  ß 
-
-3
-
-
-
-ITmulti-tenancy
-
-IT
-
-ß  = IT
-
-ß IT
-
-
-
-
-ß LAN 1. IP/MAC
-2. IP/MAC 
-
-CPUsLAN
-
-c
-
-
-
-
-4
-
-1
----- 
-ß 1 ß 2 ß 3
-PK
-3
-OSOS OS LinuxSELinuxPK
-OS OS
-
-5
-
-2
- Virtual Private Cloud (VPC)
-IT Legacy Infrastructure, LAN VPN + CIDR LAN  LAN
-ß LAN LAN
-ß LAN ß LAN ß  ß 
-
-6
-
-
-----
-ß IT ß CiscoVDCVirtual Device ContextsVN-TagHPVEPA
-VLAN ß ""Not
-in Software Defined Network, SDN ß 
-"" 
-""
-ß "" IT ß 
-"" ...
-
-7
-
-SDN
-Software Defined Networking
-ITCPUCPU ""SDN 
-ß OpenFlow, OpenvSwitch, VXLAN, NVGREOpenStackQuantum VLANVLAN// 
-ß VLAN4K-L2- 
-ß IP IP 
-SDN20 
-ß VLAN LANVLAN VLAN
-ß 
-
-
-8
-
-‡LAN
-
- 
-
-IBMsHype LAN
-
- 
-
-IBMsHype LAN
-
-IPsecIPpayload
-
-
-9
-
-
-
-10
-
-1
-ß crypto credential 
-ß SDN ß 
-20 ß IPpayload
- ß Proxy EntityPENAT, gateway, firewall
-  ß Internet  ß LAN Virtual Private LANPVL ß VPL  ß  crypto + LAN latency < 1.5x LAN latency without crypto
-
-11
-
-2
-VPLVPL {vm1, vm3, ..., vm19} {vm2, vm4, ..., vm10} {vm12, vm14} {vm16, vm18} {vm20}CXO 
-Bell-LaPadulaBLPBLP-i  BLP-j, i < j
-{vm1, vm3, ..., vm19}BLP-1 {vm2, vm4, ..., vm10}BLP-0 {vm12, vm14}BLP-0 {vm16, vm18}BLP-1 {vm20}CXO BLP-2
-
-12
-
-OS
-OSOS OSLinuxSELinuxPK 
- ß OS
-ß OS OS 
-ß OS ß OS OS 
- 
-VPLOSOS 
-
-13
-
-
-  ß LAN
- ß  ß IT
-"" ß LAN
- ß 
- ß OS ß Virtual Private
-LAN
-OSOS  
-
-14
-
-
-
-
-

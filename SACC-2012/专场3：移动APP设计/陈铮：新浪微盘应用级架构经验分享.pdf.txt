@@ -1,138 +1,0 @@
-
-
-
- 
-
-
- --  4000W+ 
-·  ·  ·  · PC ·  ·  ·  · "" · API 
-
-
-·  ·  ·  · 
-
-API
-Open Api API
-Web 
-PC  windowsmac  
-
-
-1. 2.OPEN API 3.
-
-
-·  · 
-
-
-· 
-- APIWeb -  - DBA - 
-
-
-
-
-WEB
-DB
-
-
-S3  RESTful API 
-
-
-StorageCDN 
-
- 
-
-
-
-
-SinaTrans/  /
-
-
- 
-
-API
-
-
-
-API
-Open API
-
-API 
-
-OAuth 
-
-API
-
-- - -Basic -OAuth
-
-API
-· AppKeyAppSecret · SDKAPI
-
-API 
-
-API RESTful API
-
-API
-/metadata 
-· URLhttps://openapi.vdisk.me/2/metadata/<root>/<path>
-- root basic / sandbox - path : 
-· GET · 
-- hash304 (Not Modified)
-- list 
-·  -
-
-API
-/metadata 
-
-API 
-
-
-   WebView Bridge
-
-
-
-·  ·  ·  ·  · 
-
-
-
- SD  
-
-
-
-     - 
-
-
- -- LevelDB
-key-value  ()   DB /
-
-
-LevelDBiOS
-
-
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-WebView Bridge
-  html
-
-Web
-
-
-
-androidiOS  
-
-
-
-
-Weibo: @
-
-

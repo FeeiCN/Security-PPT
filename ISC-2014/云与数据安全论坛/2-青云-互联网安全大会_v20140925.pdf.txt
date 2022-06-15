@@ -1,112 +1,0 @@
-
-  / William
-Software Engineer william@yunify.com
-China Internet Security Conference 2014 2014
-
-
-
-·  · IaaS  ·  ·  IT 
-
-
-
- 
-
- 
- 
-
-
-·  Security & Safety ·  SDN  ·  ·  ·  ·  · 
-
-
-· 
- IT  
-·  / 
- IP   IT 
-·  ­ 
-100% 
-·  ­ 
-VPNGRE 
-
-
-·  100% 
-  
-· 
-  API
-· 
- 
-
-
- IP
-
-
-· 
-  
-· 
-85000 IOPS128 MB/s  0 - 5T
-· 
- 
-
-
-· 
-  
-· 
- 
-· Snapshot 
- 
-
-
-· 
- 
-· 
- bot  controller  workload    Device Credit 
-· 
- trigger SDN 
-
-
-· SSH 
-   VPN 
-· 
-  IP  
-· 
-  API 
-
-
-· XSS  · SQL  · CSRF  ·  · 
- IT 
-
-
-· Challenge Collapsar 
-CC  
-· SYN Flood
- syn cookiesnet.ipv4.tcp_syncookies = 1  syn backlognet.ipv4.tcp_max_syn_backlog = 8192  syn ack net.ipv4.tcp_synack_retries = 2
-· 
- HTTP Timeout 
-
-
-·  IP  ·  ·  · 
-  IP 
-
- I
-· 
-CPU  /  /  / 
-
- II
-· 
- HTTP / TCP  /   / URL
-
- III
-· 
- 
-·  API 
- API   console  API   API  SDK    API 
-
-
-·  ·  ·  Refactoring ·  ·  · 
-
-
- Linux / Python / C Web / JavaScript / HTML5  /  /  /  william@yunify.com
-QingCloud-IaaS QingCloud www.qingcloud.com
-
-Thanks!
-
-

@@ -1,356 +1,0 @@
-Advanced Threat Hunting and Anomaly Detection with Splunk UBA
-Tom Smit
-Staff Sales Engineer | Splunk
-
-Forward-Looking Statements
-
-© 2019 SPLUNK INC.
-
-During the course of this presentation, we may make forward-looking statements regarding future events or the expected performance of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results could differ materially. For important factors that may cause actual results to differ from those contained in our forward-looking statements, please review our filings with the SEC.
-The forward-looking statements made in this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, this presentation may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements we may make. In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionality described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Listen to Your Data, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-#whoami
-Tom Smit
-smitty@splunk.com Staff Sales Engineer @tsmit ­ Twitter @tsmit5050 ­ IG
- Working at Splunk for almost 5 years  Security and UBA SME  BOTS v3 and v4 content creator / UBA overlord  Previous life at Core Security, Mimecast, Symantec, and Raytheon
- #2hourstobeer OR #ivebeendrinkingsincebreakfast
-
-© 2019 SPLUNK INC.
-
-Sooooo.....
-Everyone knows what UBA is, right?
- Yes, I know I used this meme last year
- UBA is an amazing piece of technology
- It's exceptional at finding all the things that you forgot to look for
- It can find the things you want to look for
- It is not great at finding Bob logging into your server for the first time (actually, it really is good at that, but you did pay money for this tool, don't you want it to do what it's supposed to do?)
-
-© 2019 SPLUNK INC.
-
-Based on BOTS!
- But wait... what is BOTS?  Ohhh... let me tell you a story...
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-How Big Was BOTS?
-
-811 335
-
-56
-
-Players that Answered a
-Question
-
-Teams Played
-
-Questions Attempted per Minute
-
-© 2019 SPLUNK INC.
-
-Question Stats!
-
-© 2019 SPLUNK INC.
-
-17548 10601 6947 3873
-
-Question Attempts
-
-Correct Answers
-
-Incorrect Answers
-
-Hints Purchased
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Mateo's phone rang 86 times
-Monday night!
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Advanced Threat Detection
-
-UBA IS AWESOME!
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-What is this suspicious directory?
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Click!
-
-Click!
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-1 Click!
-
-© 2019 SPLUNK INC.
-2
-Click!
-
-Back in ES Asset Investigator
-1 3
-Click!
-
-© 2019 SPLUNK INC.
-2
-Click!
-
-© 2019 SPLUNK INC.
- The exe passkey triggered in UBA  Threat associated with it due to
-suspicious location of process (c:\windows\system32\printdrv)
-· agrady-l is the associated workstation · frothly_helpdesk is the associated user
- Looking further into agrady-l, we see previous IOCs of tar.exe and hostname.exe
- tar.exe has been used to extract printdrv.tar and create kennwort.tar.gz and leckereien.tar.gz
- A Google search of kennwort shows it's German for "password"  A Google search for leckereien shows it translates to "goodies"
-
-Anomaly Hunting
-
-© 2019 SPLUNK INC.
-
-Start inside Enterprise Security
-
-© 2019 SPLUNK INC.
-
-Click!
-
-How about we find a weird one?
-
-© 2019 SPLUNK INC.
-
-Click!
-
-Switch to UBA!
-
-© 2019 SPLUNK INC.
-
-List those Anomalies!
-
-© 2019 SPLUNK INC.
-
-SD Anomaly List
-
-© 2019 SPLUNK INC.
-
-Click!
-
-SD.EXE Details
-
-© 2019 SPLUNK INC.
-
-SD Threats
-
-© 2019 SPLUNK INC.
-
-Click!
-
-Rdputil Threats
-Click!
-
-© 2019 SPLUNK INC.
-
-Wait a second!!!
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
- sd.exe was executed (unknown executable)
- rdputil.exe was executed (unknown executable ­ MS is mstsc.exe)
- That suspicious directory is C:\Windows\system32\printdrv
-Because "C:\Windows\System32\printdrv" is totally a place I would execute files from!!!!
-
-Rdputil Threats
-
-© 2019 SPLUNK INC.
-
-Click!
-
-SVC_PRINT User Threats
-
-© 2019 SPLUNK INC.
-
-Malware Threat
-Click!
-
-© 2019 SPLUNK INC.
-
-Oh this isn't good...
-
-© 2019 SPLUNK INC.
-
-Decrypted PS Commands
-
-© 2019 SPLUNK INC.
-
- sd.exe was executed (unknown executable)
- rdputil.exe was executed (unknown executable ­ MS is mstsc.exe)
- That suspicious directory is C:\Windows\system32\printdrv
- NEW
- svc_print user is involved in a bunch of threats/anomalies
- svc_print apparently executed encrypted powershell commands
- Those encrypted PS commands were malicious and involved scheduled tasks
-
-© 2019 SPLUNK INC.
-
-Where do we go from here?
- svc_print account should be disabled  sd.exe should be removed  rdputil.exe should be removed  msfont.ps1 which was a scheduled task? Yah, that was meterpreter  printdrv.ps1 is the beaconing software out to imperialstout.org
-
-© 2019 SPLUNK INC.
-
-NOT Mike Dupuis
-Best/Worst Practices
-
-© 2019 SPLUNK INC.
-
-Quick Synopsis
- Each Section Here · First Slide: Bad things we've seen in the field · Subsequent Slides: How to combat those things
-1. Pre-everything! 2. Architecture 3. Usage
-
-© 2019 SPLUNK INC.
-
-Pre-Installation
-These are things NOT to do...
-
-© 2019 SPLUNK INC.
-
- Size UBA for 1000 accounts when there's 15,000 accounts
- Assure us all data is CIM compliant and on-boarded into Splunk
- IOPS of 800? No problem!
- Limit data or decrease logging
- Block basic networking ports (80/443)
-
- Need UBA because it's UBA!
-
-Best Practices
-Meet all the pre-requisites
- Indexed Real Time Required  DHCP, Windows Security Logs,
-Proxy, and Firewall required
- DNS is preferred  Asset information  IOPS at 1200+  Network ports open  Use cases well defined  For more information:
-https://docs.splunk.com/Documentati on/UBA/latest/Install/Requirements
-
-© 2019 SPLUNK INC.
-
-Architecture
-What not to do!
- When sized at 10 servers, create 12
- Install on shared infrastructure (VM)  Try to install on AIX, Windows,
-SELinux Kernel, or one of the other 20 different distributions that aren't supported
- Just add some extra servers for HA/DR
- Position your UBA cluster in a data center across the country from your Splunk installation
-
-© 2019 SPLUNK INC.
-
-Architecture
-
-© 2019 SPLUNK INC.
-
- Size appropriately! More on next slide
- Used dedicated resources (CPU and Memory)
- Install on approved and supported OSes
- Follow docs for HA/DR: https://docs.splunk.com/Documentati on/UBA/latest/Admin/WarmStandby
- Try to place your UBA install as close to Splunk as Possible! Network latency is a thing!
-
-Best Practices
-Sizing and Configuration
-
-© 2019 SPLUNK INC.
-
- Sizing exercise with you Splunk SME to verify data load
- 16 Core/64 RAM is set ­ throwing 96 cores at it will not affect data processing
- 50 GB/1 TB/1 TB drives are required ­ SSD preferred
- AMI and OVA are available
-
-Usage
- Try to replace ES and SSE with UBA  Creating a bunch of basic rule
-searches inside of UBA  Trying to integrate everything in UBA
-that you already have integrated in Splunk  Treat UBA as a stand-alone platform in your environment
-
-© 2019 SPLUNK INC.
-
-Usage
-
-© 2019 SPLUNK INC.
-
-ES Notable
-Event
-
-Phantom
-
-UBA UML
-
-ES
-
- Pull in correlation notable events from ES
- Send anomalies back to ES and the ES risk framework ­ see RBA deck for more!
- Send threats back to ES as notable events
- Reactions and responses to UBA data should be done through Splunk
- Take the online training!
- Use in conjunction with SSE, ES, and Phantom!
-
-Where to go from here?
-
-© 2019 SPLUNK INC.
-
- Product Page: https://www.splunk.com/en_us/software/user-behavioranalytics.html
- UBA White Papers · https://www.splunk.com/pdfs/product-briefs/splunk-uba.pdf
-· https://www.splunk.com/pdfs/technical-briefs/using-splunk-uba-to-detect-cyber-
-attacks.pdf
-· https://www.splunk.com/pdfs/technical-briefs/using-splunk-uba-to-detect-insider-
-threats.pdf
- UBA Demo ­ reach out to your Splunk rep!  UBA Test Drive ­ reach out to your Splunk rep!  Coming soon!!!! ­ Threat Hunting on UBA Workshop v4 (new year)
-
-Ask me anything!
-Well, not anything, it should be about Splunk or UBA
-
-© 2019 SPLUNK INC.
-
-Thank You!
-
-© 2019 SPLUNK INC.
-
-Go to the .conf19 mobile app to
-RATE THIS SESSION
-
-

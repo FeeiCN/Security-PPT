@@ -1,436 +1,0 @@
-  
-@ | 2014.10  
-
-
- VP JavaScript Python  ...
-
-
-evilcos.me
-
-
-Web  scanv.com zoomeye.org ...
-
-  
-· 
-­  ­  ­ 
-·  ·   
-
-  
-
-
-  
-
-  
-
- :)
-
-...->->->->...
-
- 
-
-  
-
-
-1.  
-2. / 
-
-3.  
-
-  
-
-...     -> 
-
-  
-
-
- 
- ->  ->   ->  -> 
-
- 
- 
-
-  
-
-1 2
-
-1 2
-
- object
-
-n n
-
-:)
-
-  
-· 
-­    
-
-  
-
-1
-
-
-
-LinuxBash
-
-OS
-
-; rm -rf /;
-
-2
-
-
-
-SQL
-
-SQL
-
-' union select user, pwd, 1, 2 from users--
-
-3
-
-3. Webnginx
-
-nginx
-
-DoS
-
-%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./%20
-
-  
-
-4
-
-4. WebWeb
-
-
-
-
-
-eval($_REQUEST['x']);
-
-5
-
-5. Web
-
-JS
-
-XSS
-
-'"><script>alert(/cos./)</script>
-
-:)
-
-
-  
-
-  
-· 
-­  ­ 
-
-
-
-  
-
-· 
-
-­ 
-
-­   
-
-· 
-
-­ 
-· 
-
- 
-
-­ 
-
-· WebXYZ...
-
-  
-· MySQL
-­ IP
-· bind-address = 10.1.1.10 #  · bind-address = 127.0.0.1 #  · bind-address = 0.0.0.0 # ......
-­ Web
-·  · GRANT ALL PRIVILEGES ON mydb.* TO xxx@10.1.1.11
-IDENTIFIED BY 'yyy';
-­ infile/outfile
-· load data infile '/etc/passwd' into table foo; · select * from foo into outfile 'd:\www\backdoor.php';
-­ WebWebshell ­ Web
-
-  
-· 
-­ 
-·  == Yes/No == 1/0 ·  ==  == 
-Read/Write/eXecute
-­ 
-· OAuth......
-­ 
-· 
-
-  
-· Bypass
-
-
-
-
-
-
-
-  
-· Bypass
-
-  
-
-· Linux
-
-­ 
-
-· vi /etc/ssh/sshd_config -> PasswordAuthentication no
-
-· 
-
-­ 
-
-· 
-
-· truecrypt
-
-­ 
-
-­ 
-· VPN -> 
-
- 
-
-  
-
-· 
-
-­ 
-
-· 
-
-­  
-
-­  & RWX
-
-· RWX
-
-· Webshell
-
-­  ­  ­ Webshell
-
- 
-
-  
-· 
-­  ­ 
-· ......
-­  -> bugs -> 
-· SVN/Git · 
-
-  
-· 8
-­ SQL
-· SQL
-­ MySQL root
-· MySQL
-­ IP
-· MD5
-­ IPSVN
-·  · SVN......
-­ Game Over  
-
-Cookie  
-
-· Cookie
-
- 
-
-name Cookie
-
-value Cookie
-
-domain Cookie
-
-path Cookie
-
-expires Cookie
-
-httponl CookiehttponlyJavaScript
-
-y
-
-
-
-secure
-
-CookiesecureCookieHTTPS 
-
-Cookie  
-· Cookie name Hack
-­ Cookie ­ 
-· isLogin=0 · isAdmin=0
-
-Cookie  
-· Cookie value Hack
-­  ­ 
-· CMSSQLHash · CookieHash  
-
-Cookie  
-· Cookie domain Hack · WebCookies
-
-Cookie  
-· Cookie domain Hack · WebCookies
-­ HTTPSwx.qq.comCookies .qq.com
-· Cookie · wxuin=1326569820; wxsid=z3yWKhIfXNkRTxCP
-­ XSSCookies
-
-Cookie  
-· Cookie path Hack
-­ Cookie ­ Cookie
-· JavaScript Cross-Iframe  
-­   
-
-Cookie  
-· Cookie expires Hack
-­  ­ 
-· :)  
-
-Cookie  
-· Cookie httponly Hack
-­ Cookie JavaScript
-­ Bypass
-· PHPphpinfo() · Django · Apache Http Server 400 · 
-­ httponly ­ http://drops.wooyun.org/tips/2834
-
-Cookie  
-· Cookie secure Hack
-­ CookieHTTPS ­ Bypass
-· 
-
-  
-· 
-­ 
-· www.foo.com
-­ mail.foo.com | shop.foo.com | bbs.foo.com | blog.foo.com
-­ 
-· *.fooimg.com | *.foousercontent.com
-· XSS
-
-  
-· 
-­ proxy.html
-· 
-­ document.domain='foo.com'; //   
-· JavaScript  
-­ crossdomain.xml
-· <allow-access-from doamin="*" /> · flash
-
-
-  
-
-  
- 
-
-  
-· 
-­ 
-·  · 
-­ 
-·  ·  ·  -> 
-
-
-
-  
-
-1  
-· 
-­ /COPY ­   
-· 
-­ 2012.1 Putty ­  >1w   
-
-2  
-· 
-­  ­ MD5 ­ 
-· Out of Control
-­   
-
-3  
-· GitHub Hack
-­ GitHub
-· smtp @163.com · insert password extension:sql size:>1000 · svn co username password
-
-4  
-· Hack
-­ 
-·  ·  ·  ·   
-· 
-­ XSS ­ ......  
-
-5  
-·   
-­ HeartbleedShellShock
-
-  
-
-  
-1. ...->->->->...
-­ 
-2. 
-­ Bugs
-3. 
-­   
-4. 
-­ 
-
-  
-5. 
-­ diff
-6. Code Review
-­ 
-7. 
-­ 24
-8. 
-­ 
-
-  
-
-9. 
-
-
-
-
-
-
-
-splunk, logcheck, logwatch
-
-/
-
-snort, iptables, ipfw, fail2ban, portsentry, tripwire, ossec
-
-
-
-rkhunter, chkrootkit, lynis
-
-
-
-Nagios, Cacti, Zabbix
-
-
-
-chroot
-
-WebD/CC
-
-jiasule.com
-
-  
-EOF. 
-Lazy-Thought
-
-

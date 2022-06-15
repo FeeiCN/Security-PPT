@@ -1,341 +1,0 @@
-Defense Against the Dark Arts: Splunk Edition
-Melisa Napoles | Erika Strano
-Wednesday October 23, 2019
-
-© 2019 SPLUNK INC. © 2019 SPLUNK INC.
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-Agenda
-
-© 2019 SPLUNK INC.
-1. Why is the magic of Machine Learning
-(ML) essential to Defense Against the Dark Arts?
-2. How are we seeing organizations detect
-the presence of dark wizards?
-3. Let's journey into the dark forest and hunt
-down the death eaters!
-4. Close your spell book and get
-ready to duel.
-5. Concepts behind ML magic
-***Muggle version of the agenda in the Appendix***
-
-© 2019 SPLUNK INC.
-
-Melisa Napoles
-Sales Engineer | Splunk
-
-Erika Strano
-Sales Engineer | Splunk
-
-© 2019 SPLUNK INC.
-You're a wizard, Splunker!
-
-© 2019 SPLUNK INC.
-Why is the magic of Machine Learning (ML) essential to Defense Against the Dark Arts?
-
-Machine Learning
-
-© 2019 SPLUNK INC.
-
-can help you ...
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-...so you can find your bears!
-
-How Does Machine Learning Work?
-Do you believe in magic?
-
-© 2019 SPLUNK INC.
-
-Use mathematical models to learn patterns in information
-
-Catalog the patterns (and in some cases, iterate them as new data is received)
-
-Use learned patterns to understand and interpret
-new data or make predictions
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Machine learning doesn't solve cyber security, but it
-can help!
-
-© 2019 SPLUNK INC.
-How are we seeing organizations detect the presence of dark wizards?
-
-© 2019 SPLUNK INC.
-Who Finds Anomalies Like This Today?
-One search with a static threshold
-Alert me!
-
-How About Like This?
-One search with a dynamic threshold
-
-Alert me!
-
-Alert me!
-
-© 2019 SPLUNK INC.
-
-ML = Stats OR ML != Stats?
-
-© 2019 SPLUNK INC.
-
-Check Out SSE For a Jump Start with 17 Use-cases
-Thanks Splunk Security Essentials (SSE)!
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Is this scalable?
-You're running your anomaly search on all your data every time...
-
-© 2019 SPLUNK INC.
-Instead, try...
-fit first and then, apply
-
-© 2019 SPLUNK INC.
-...and make sure your data fits the model...
-not the other way around.
-
-Enter Splunk Machine Learning Toolkit (MLTK)
-Extends Splunk with new tools and guided modeling environment
-Experiments and Assistants: Guided model building, testing, and deployment for common objectives
-Showcases: Interactive examples for typical IT, security, business, and IoT use cases
-Algorithms: 80+ standard algorithms (supervised & unsupervised)
-ML Commands: New SPL commands to fit, test, score and operationalize models
-ML-SPL API: Extensibility to easily import any algorithm (proprietary / open source)
-Python for Scientific Computing Library: Access to 300+ open source algorithms
-Apache Spark MLLib: Support large scale model training via Spark Add-on for MLTK (LAR)
-Tensorflow Container: Supports NN and GPU accelerated
-
-© 2019 SPLUNK INC.
-
-In Fact, ESCU is Now Doing This with MLTK!
-Check out the "New: Machine Learning in Splunk Enterprise Security Content Update" blog! DNS Query Length Outliers SMB Traffic Spike Unusually Long Command Line
-
-© 2019 SPLUNK INC.
-
-Anomalies in the Context of MITRE
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Let's journey into the dark forest and hunt down the death eaters!
-
-© 2019 SPLUNK INC.
-Who In My Network is Executing Unusual DNS Query Lengths?
-Which looks more unusually long to you?
-ec2-13-193-103-139.us-west-1.compute.amazonaws.com OR
-p4-csddrc45xqiym-xmvtplcdqchjqs5r-322917-i2.anycast-stb.metric.gstatic.com
-
-Why Should You Care?
-A look at our sample dataset
-
-A lot of DNS query length anomalies
-
-Static threshold
-
-273 anomalies
-
-Standard Deviation
-
-38 anomalies
-
-With new ES searches using fit & apply
-
-© 2019 SPLUNK INC.
-
-ML Can Help Add Context to Events
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Close your spell book and get ready to duel.
-
-Trusty ESCU Has Us Covered
-Exfiltration Use Cases at our Fingertips
-
-© 2019 SPLUNK INC.
-
-fit
-
-apply
-
-Creating a Model For Our Dataset
-First the fit...
-
-© 2019 SPLUNK INC.
-
-Notice we're building a model called "dns_query_pdfmodel"
-
-Notice Your Model is Saved In MLTK!
-Bigger, stronger models to scale
-
-© 2019 SPLUNK INC.
-
-Applying the Model to Our Dataset
-...then the apply!
-
-© 2019 SPLUNK INC.
-
-Notice our 38 anomalies
-
-Operationalize It!
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Concepts behind ML magic
-
-Normal Distribution
-How likely is the data found within a population?
-99.7% of data 95% of data 68% of data
-Values found over here are probably outliers
-
-© 2019 SPLUNK INC.
-Values found over here are probably outliers
-
--3 stdev -2 stdev -1 stdev Average +1 stdev +2 stdev +3 stdev
-The percentages designate the area under the curve
-
-© 2019 SPLUNK INC.
-Look What Happens When We Assume Our Data is Normally Distributed...
-
-Your Data May Not Always be So "Normal"
-
-© 2019 SPLUNK INC.
-
-2 SD below
-
-1 SD below
-
-Average
-
-1 SD above
-
-2 SD above
-
-3 SD above
-
-When viewing our data as a histogram, the average may not be so "average"
-
-What If We Could Follow the Shape of Our Data?
-We can with the DensityFunction algorithm!
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Want to know more about the density function?
-Go check out Eurus Kim's .conf19 talk:
-The Two Most Common Machine Learning Solutions Everyone Needs to
-Know
-
-© 2019 SPLUNK INC.
-Which is Why ESCU is Upgrading Some Numeric Outlier Detection Use-cases!
-The DNS Query Length with High Standard Deviation search turned into
-the fit ESCU - Baseline of DNS Query Length -MLTK search +
-the apply DNS Query Length Outliers - MLTK search
-
-If You Have ES, It Looks Like This
-
-© 2019 SPLUNK INC.
-
-Newer way/the apply Older way
-Newer way/the fit
-
-Anomalies Using High Standard Deviation Search
-
-© 2019 SPLUNK INC.
-
-Notice our 273 anomalies
-
-Anomalies Using Density Function
-
-© 2019 SPLUNK INC.
-
-Notice our 38 anomalies
-
-Oculus Reparo!
-Fit the model to your data.
-
-Normal curve
-
-© 2019 SPLUNK INC.
-
-KDE curve
-
-Key Takeaways
-Hogwarts has served you well!
-
-© 2019 SPLUNK INC.
-1. ML can positively impact your security
-practice!
-2. You too can do data science; be a citizen
-data scientist.
-3. Split one search into two with fit and
-apply concepts to make ML scale.
-4. Download ESCU, MLTK and SSE for
-free!
-
-Special Thanks!
-
-© 2019 SPLUNK INC.
-
-Ryan Kovar
-
-David Veuve
-
-Rico Valdez
-
-Eurus Kim
-
-Splunk Principal Security Strategist
-
-Splunk Principal Security Strategist
-
-Splunk Principal Security Research
-Engineer
-
-Splunk ML Architect
-
-"Datasciencery by the Splunk Field" DEFCON AI Village presentation. "New: Machine Learning in Splunk Enterprise Security Content Update" blog. "The Two Most Common Machine Learning Solutions Everyone Needs to Know".conf19 session.
-
-© 2019 SPLUNK INC.
-Q&A
-Melisa Napoles | Splunk Sales Engineer Erika Strano | Splunk Sales Engineer
-
-© 2019 SPLUNK INC.
-
-Thank
-
-You
-
-!
-
-Go to the .conf19 mobile app to
-
-RATE THIS SESSION
-
-Agenda
-
-© 2019 SPLUNK INC.
-1. What is Machine Learning (ML) and why
-talk about it in Security?
-2. How are organizations detecting
-anomalies today?
-3. Example ML Security Detection in ESCU
-4. How can you try this at home?
-5. Concepts behind anomaly detection
-
-

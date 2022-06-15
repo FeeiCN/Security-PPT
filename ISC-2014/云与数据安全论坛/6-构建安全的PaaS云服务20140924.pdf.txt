@@ -1,194 +1,0 @@
-PaaS
-   2014/09/25
-China Internet Security Conference 2014 2014
-
-PaaS
-­ PaaS ­ PaaS ­ PaaS
-· Forget servers · Run Anything · See Everything · Trust & Manage
-
-PaaS
-­ 
-·  ·  ·  · 
-
-PaaS
-
-PaaS
-
-PaaS
-
-­  ­  ­  ­ 
-
-
-·WAF ·VM
-
-
-
-
-
-  
-
- 
-
-
-
-
-
-· ·
-
-IAAS 
-
- 
-Portal & API
-
-
-
-­ PDR+Defense in depth
-­ SD3+C
-· Secure by Design · Secure by Default · Secure in Deployment and Communication
-­ SDL
-
-    
-
-  BUG
-
- 
-
- API 
-
-  
-
-  
-
-
-·DDOS ·Elevation of Privilege ·Information Disclosure ·Tampering
-
-PaaS
-­ 
-· 
-­  ­ [/] ­ [/] ­ NODE ­ Container
-· 
-
-Service-A
-
-Service-B
-
-
-
-OVS
-
-Floodlight
-
-Container APP-1
-
-Container APP-2
-
-Container APP-3
-
-PaaS
-­ Node()
-· Agent ·  · 
-
-PaaS
-­ Container()
-· Cgroup · Capabilities
-( Docker Container Breakout Proof-of-Concept Exploit)
-· rootfs · sys/proc · 
-
-(sandbox)
-­  ·  / ·  / ·  / ·  / · CPU CPU
-
-(sandbox)
-
-­ /(VM)/POSIX
-· (/)// 
-· 
-· 
-java: Security Manger+Policy/Javaagent+Instrument 
-
-A-A
-
-
-B-B
-
-
-
-
-
-
-
-
-
-
-
-
-(sandbox)
-­ /(VM)/POSIX
-· 
-­  ­ 
-CVE-2012-1171 CVE-2013-1493 / CVE-2013-2465 ­ 
-
-
-//
-
-//
-
-(sandbox)
-­ 
-· 
-· Cgroup+NameSpace+SDN
-· 
-­  ­ 
-
-
-//
-
-//
-
-
-
-­ MySQL
-App-A App-B App-C
-
-
-
-DBProxy
-
-
-
-db-A
-
-db-B
-
-db-C
-
-· · · · · · · ·SQL
-
-XXX:9084->XXXX:3306 | readonly :XXX | 2014-06-25 13:49:35 sql: select * from XXX_account where dirname='XXX'; WAITFOR DELAY '0:0:5';--' | COMMENT:Multiple queries found
-
-
-­  ­ 
-·  · 
-­ 
-·  · 
-
-
-­ -
-­ DDOS ­ WAF
-· 
-­ 
-· WEB · 
-­ 
-· 
-
-
-­  ­ 
-·  · 
-­ 
-·  · XSS · 
-
-
-­  ­ 
-
-Thanks!
-
-

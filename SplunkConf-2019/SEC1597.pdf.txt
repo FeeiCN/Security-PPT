@@ -1,279 +1,0 @@
-© 2019 SPLUNK INC.
-Build a JARVIS for Your SOC
-Jonathan Pagett, Peter Littler
-Cyber Defence Centre, Bank of England
-
-Build a JARVIS for Your SOC
-
-© 2019 SPLUNK INC.
-
-Jonathan Pagett
-Head of Cyber Defence Centre
-
-Peter Littler
-DevOps, Cyber Defence Centre
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information.We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information aboutour roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries.All other brand names,productnames, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-Overview
-
-© 2019 SPLUNK INC.
-1. Our operating model and the challenges
-it introduces
-2. Share some of our initial ideas for
-addressing them and how we built them
-3. Introduce JARVIS 4. We will share all the code!
-
-© 2019 SPLUNK INC.
-Who are the Bank of England?
-Founded 1694
-
-© 2019 SPLUNK INC.
-
-Gold reserves
-
-Monetary stability
-
-Financial stability
-
-Print banknotes Run payments services
-
-Provide "risk free" banking services
-
-© 2019 SPLUNK INC.
-
-Payments
-
-Analytics
-
-Cyber
-
-Technology that sits at the heart of the UK financial sector
-
-Bank of England
-In numbers . . .
-
-Daily payments
-
-UK GDP everyday
-
-$1T
-
-1/3
-
-Staff
-4,000
-
-© 2019 SPLUNK INC.
-
-Hosts
-10,000
-
-CDC staff
-12
-
-© 2019 SPLUNK INC.
-"Detect and respond to cyber-attacks against the Bank of England"
-Cyber Defence Centre
-
-© 2019 SPLUNK INC.
-Our operating model
-And the challenges it introduces...
-
-© 2019 SPLUNK INC.
-
-ADVERSARY TACTICS,
-T ECHNIQUES AND
-PROCEDURES
-THREAT OPERATIONS
-
-DATA ANALYTICS
-
-ALERTS
-
-THREAT HUNTING
-
-INCIDENT RESPONSE
-
-Continual improvement model
-
-© 2019 SPLUNK INC.
-
-Repeatable analytic
-
-Data ingest
-
-· Research and intelligence based
-
-· Scheduled saved search made for analytic
-
-01
-
-· Ingest data
-· Update logging requirements based on incident findings
-
-· Continual improvement at heart ­ 80% of team time
-
-02 04
-
-· Data and adversary led
-· 331 analytics developed
-· Supported by team structure
-
-Threat hunting
-· Statistical · Correlation · Machine learning
-
-03
-
-Create hypothesis
-· Research · Threat intelligence · Business engagement
-
-© 2019 SPLUNK INC.
-"Nobody gets up in the morning to triage alerts"
-
-© 2019 SPLUNK INC.
-
-Issues with our operating model
-
-1. Everything is constantly changing!
-2. Managing feedback ­ people triaging
-alerts are not always the author of searches
-
-© 2019 SPLUNK INC.
-Our first go at fixing these problems - 2018
-Dashboards, workflows
-
-© 2019 SPLUNK INC.
-Search change log
-"Git" within Splunk
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-How it's made
-Techniques we found useful
-
-© 2019 SPLUNK INC.
-1. REST is your friend
-Schedule a search to monitor REST API and save results to an index
-| rest splunk_server=local /servicesNS/-/APP/saved/searches | search NOT
-[search index=use_case_changelog | table title, updated]
-| eval _time=now() | collect index=use_case_changelog
-
-How it's made
-Techniques we found useful
-
-© 2019 SPLUNK INC.
-2. _internal is also your friend!
-Contains a lot of data on interactions between users and Splunk
-| join type=left title max=1 usetime=true earlier=true [ search index=_internal file=* file!=notify method=POST
-user!="splunk-system-user" "*/APP/saved/searches/*" | rex field=uri "/APP/saved/searches/(?<rex_file>.*)/" | eval file = coalesce(rex_file, file) | eval file = urldecode(urldecode(file)) ... | sort - submission_epoch]
-
-© 2019 SPLUNK INC.
-Use case feedback Managing feedback between analysts
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-How it's made
-Techniques we found useful
-
-© 2019 SPLUNK INC.
-1. Dashboard > KV store
-Use JavaScript to write dashboard inputs to KV stores Tutorial on Splunk dev website
-
-© 2019 SPLUNK INC.
-Introducing JARVIS
-Dashboards are so 2018
-
-© 2019 SPLUNK INC.
-Context aware information within our normal workflows"
-JARVIS
-
-© 2019 SPLUNK INC.
-
-Our requirements
-
-1. Reminding you of things
-2. Keep an eye out for things you may have
-forgotten or not realised
-3. Anticipating your needs
-
-What the boss asked for...
-
-© 2019 SPLUNK INC.
-
-...what we thought
-
-© 2019 SPLUNK INC.
-
-Interactive options
-
-© 2019 SPLUNK INC.
-1. JavaScript persona
-- Passive information
-2. Modal popups
-- Urgent information requiring your attention
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-How it's made
-Some techniques we found useful
-
-© 2019 SPLUNK INC.
-1. Scheduled, Dashboard, and JS initiated
-searches.
-2. KVStore and JS callbacks to allow pop-
-ups in any dash, anytime.
-3. Enhanced Modals to show search results.
-4. 3rd party JavaScript implementation of
-Clippy.
-5. PREDICT function for estimating future
-events.
-
-Takeaways
-
-© 2019 SPLUNK INC.
-1. Think about how to make information
-more accessible to your users within their normal workflows (without pivoting to other tools)
-2. Splunk contains a lot of data about how
-we interact with it ­ use that to streamline your operations
-
-References
-Some sources we used
-
-© 2019 SPLUNK INC.
-KVStores & Dashboards:
-http://dev.splunk.com/view/webframework-tutorials/SPCAAAEZT
-Modals:
-https://www.hurricanelabs.com/splunk-tutorials/splunk-custommodal-view-creation-part-1-revealing-a-path-toward-enhancedvisibility-and-functionality
-JavaScript Clippy:
-https://www.smore.com/clippy-js
-
-© 2019 SPLUNK INC.
-Thank You!
-Go to the .conf19 mobile app to
-RATE THIS SESSION
-
-

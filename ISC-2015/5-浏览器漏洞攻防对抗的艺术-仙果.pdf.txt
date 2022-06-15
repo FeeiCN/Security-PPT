@@ -1,132 +1,0 @@
-
-
-ID  
-
-  
-
-   
-
-    
-
-   
-
-  
-
-    
-
-7  
-
-  
-     
-20158  
-
-  
-
-  
-
-         
-
-*~2008
-
-2009-2010
-
-2011-2012
-
-2013-2014
-
-2015
-
-ActiveX   CVE-2009-1492
-
-Win 7  NO_ASLR& CVE-2010-3971 CVE-2010-3654
-
-Java
-
-IEUAF
-
-Flash Plyaer CVE-2013-2551
-
-CVE-2011-2110
-
-CVE-2014-0322
-
-CVE-2012-0779
-
-HackingTeam yuange_vbscript, Flash Player 
-
-  
-
-ASLR
-
-SEHOP
-
-Cookies 
-
-EAF
-EMP 
-
-DEP 
-
-IE6/7-REALPLAYER  
-RealPlayer  10.0/10.5/11  ierpplug.dll  ActiveX  Control  Import  Playlist   Name  Stack  Buffer  Overflow  Vulnerability  
-  
-
-     ---              
-  XP  
-CVE-2009-1537-QuickTime  Movie  Parser  Filter  in   quartz.dll  in  DirectShow  
-
-  
-
-  
-
-WIN7-CVE-2010-3971  
-  
-
-ASLR-CVE-2010-3654  
-3654&
-          
-
-DEMO  
-
----  
-
-2011-2013:JAVA  
-  
-JAVASecurityManager=  
-
-CVE-2012-0779-  
-
-  
-
-CVE-2014-0322:IE+FLASH  
-
-CVE-2013-2551-LEAK_ADDRESS  
-
--CVE-2014-6332  
-
-System:   Browser:
-
-  Win95-Win10     ie3~ie11  
-
-  
-
-&&  
-Hacking  Team  :Flash  0day&Font  0day  
-X32/X64
-
-DEP
-IE/FireFox/Chr ome
-
- EPM&CF CFG G 
-
- ASLR
-
-Windows/Mac OS/Linux
-
-IE  
-
-  
-
-&QA  
-
-

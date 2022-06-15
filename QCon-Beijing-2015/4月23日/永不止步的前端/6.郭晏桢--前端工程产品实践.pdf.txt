@@ -1,221 +1,0 @@
- ---- 
-QCon 2015 
-
-
-@cloudwater  
- ·  · 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-spmjs.io
-
-......
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-X
-
-......
-
-
-
-
-
-·  ·  ·  · 
-
-
-
-1.0
- ·  · 
- ·  ·  · 
-
-
-·  ·  ·  · spm · ......
-
-"  "---- 
-
-""
-
-
-
-
-
-CDN 
-
-
-
-
-
-CMS 
-
-
-
-
-
-
-
- ...
-
- 
-
-
-
-
-
-GitLabzPaaSACP 
-
-
-
-
-
-Java 
-
-JS 
-
-H5 
-
-CMS 
-
-2.0
-
- -  ·  · 
-
- 2.0
-
-web
-
-cli
-
- ·  ----  ·  ---- ""
-
-
-
-
-
-""
-
-
-
-
-
-
-
-node.jsweb ·  · web
-
- chair  web 
-
-MySQL, tair, ...
-
-sofa core
-
-web chair
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-chair cmsiconefcoampnpantpagins.xf.xxxo.xcxx.xxciq.xccx.p.xnooxx..exnxnm.ctxfxeoxo.tnm.ncedtot.ecmmno.xxxx.com
-
-chair
-
-
-
-
-
-
-
-
-
-
-
-· gitlab 
-· Paas · Saas · 
-
-·  · test ·  · beta · 
-
-
-
-
-·  ·  · 
-
-
-
-
-
-
-
-CDN 
-
-
-
-
-
-CMS 
-
-
-
-
-
-
-
- ...
-
- 
-
-
-
-
-
-GitLabzPaaSACP 
-
-
-
-
-
-Java 
-
-JS 
-
-H5 
-
-CMS 
-
- 
-""  
-
-
-
- · 
-
-

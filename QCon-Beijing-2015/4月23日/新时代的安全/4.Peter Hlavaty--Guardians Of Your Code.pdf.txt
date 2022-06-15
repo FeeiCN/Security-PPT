@@ -1,302 +1,0 @@
-case  :  kernel  
-
- Peter  Hlavaty,  @zer0mem  
- Senior  security  researcher  at  @K33nTeam  
- Pwn2Own  2015  winner    Wushu  player  J  
- Speaker  :      syscan360  13    zeronigths  13--14      nosuchcon  14    xcon  14    tetcon  15    syscan  15  
- Bloging  :    zer0mem.sk    k33nteam.org/blog  
- github.com/zer0mem    MiniHypervisor  project,  DbiFuzz  framework,  html5  heap  spray,  ...    Developer  for  cc--shellcoding  framework  (github.com/k33nteam)  
-
- stack  canaries    Pool  separation    NonPagedPoolNx    SMEP    (SMAP)  
- CFG    bug  classes  
- Sal  conventions    Boogie    C++  &  compiler
-
- 3rd  party  software  becomes  more  and  more  attractive   attack  vectors  nowdays  
- Antivirus  software,  3rd  party  drivers,  ...  
- Security  awareness  of  developers  should  be  obligatory!  
- Vulnerability  types    Mitigation  mechanisms    Security  features  
- Non--secure  software  is  backdoor  for  attacker  
- Easy  bugs    Abandoned  security  features  
-
-Stack     OVERFLOWS  
-1. Local  buffer  on   stack  
-2. Not  sufficient   boundary   checks    
-3. memcpy  
-4. Return  address   pwned  
-5. Kernel  pwn
-http://en.wikipedia.org/wiki/Buffer_overflow_protection   http://en.wikipedia.org/wiki/Stack_buffer_overflow    
-
-..  by  default  ..
-
-Stack     CANARIES  
-1. Psuedo--random   value  placed   between  local   variables  &   return  
-2. Bad  memcpy   results  into   rewriting  canary  
-3. Canary  check   before  using   return  address  
-4. Pwn  detected,   bsod  instead  of   windows  pwn
-
-protect
- You  can  not  overwrite   return  or  args  without   altering  canary  
- You  should  not  be  able   to  guess  canary  
- Means  you  can  not   attack  stack  so  easy   anymore
-
-bypass
- Target  local  vars    Target  args  by  inner  
-non--canary--protected   method    Canary  leak
-
-http://www.hiew.ru/  
-
-DATA                                   vs  
-            CODE  
-1. Code  is  special  case   of  data  
-2. If  creating  data  with   EXEC    
-3. any  data  shipped   from  user  mode  to   kernel  can  be   executed  
-4. Unless   NonPagedPoolNx   take  place  at   ExAllocatePool  
-
-protect
-
-bypass
-
- You  can  not  execute   data  anymore  (unless   executable  ­  but  then   should  not  be  data  J)  
- Stack  is  not  executable,   you  have  to  find  another   target  
-
- Find  RWE  page    Use  ROP    Alter  page  tables    Force  creation  RWE  
-page  +  leak    
-
-http://blogs.msdn.com/blogfiles/willy--peter_schaub/windowslivewriter/ unisachatteroperatingsystemconceptspart2_875b/system%20call.jpg  
-
-cpl3                                   vs  
-                cpl0  
-1. User  mode  
-2. Kernel  mode  
-3. Interaction  via   syscalls  
-4. Needed  to  read   passed  input  
-5. No  need  to   execute  user   mode  code  with   kernel  mode   privilages
-
-SMEP  
-1. X86_CR4_SMEP  
-2. Execute  user   mode  code  with   kernel  mode   privilages  cause   BSOD  
-3. Previously   heavily  used  as   exploitation   shortcut
-
-SMAP  
-1. X86_CR4_SMAP  
-2. In  syscall  user   pass  arguments   as  well  
-3. Those   arguments  have   to  be  readed  
-4. No  unified   method  for   read  /  write   those  inputs  is   problem  for   enabling  SMAP
-
-protect
-
-bypass
-
- Exec  on  cpl3  data  in   supervisor  mode  will   BSOD  
- Access  on  cpl3  data  in   supervisor  mode  will   BSOD  as  well  
- In  exploitation  you  have  to   use  only  kernel  mode  data  
- That  means  you  should  to   have  some  sort  of  info  leak  
-
- SMAP  not  enabled  on   windows  yet  
- ROP  or  alternatives  
- Disable  features  (cr4)  
- Use  pool  overflows  
- Information  leaks  &   controlled  data  in  kernel  
- Or  do  not  step  to  kernel,   just  use  RW  capabilities
-
-https://software.intel.com/en--us/isa--extensions  
-
-KASLR  
-
-Ø Randomization   of  module   addresses  
-
-Ø Randomization   of  pool   addresses  
-
-Ø When  you  do   not  know  where   your  target  is   then  is  hard  to   attack  
-
-protect
- You  can  not  predict   where  kernel  modules   resides  
- You  can  not  hardcode   ROP  chain  anymore  
- You  are  not  able  to   predict  base  of  pools
-
-bypass
- Info  leak    Timing  attack    Target  pool  overflows    Target  stack  corruption  
-
-http://www.alex--ionescu.com/?p=246  
-
-PooL  separation                                 &           x64  addr  space  
-1. different  pools  in   kernel  address   space  
-2. Pools  are   placeholders  for   different  objects  
-3. X64  virtual   address  space  >   physical  space  
-4. Can  not  touch   unused  virtual   space,  BSOD   otherwise
-
-            Alloc  &  Free                                   vs   pool  managment  
-1. Randomized  allocs  
-2. Big  pools  not  
-3. A  lot  of  times  direct   control  for  alloc  &   free,  from  user   mode  
-4. Epic  when  data  :                     1  :  1     user  :  kernel
-
-protect
-
-bypass
-
- Separation  of  different   object  ­  you  can  not  touch   object  from  different  pool   with  pool  overflow    
- x64  address  space   introduce  a  lot  of  gaps   (PAGE_NOACCESS),  and   environment  for  better   usage  of  KASLR  
- Pool  spray  far  less  effective   than  before
-
- Leak  base  of  pool  &     Pool  spray  
- Timing  attacks  &     pool  spray  
- Pool  overflow  
- Object,  on  the  pool,   address  leak  
- Pool  layout  
-
-UAF           &                    vtable  
-
-Freed  object  A  
-
-Meanwhile  changed  state   ­  another  object  (/  data)   take  freed  objects  A  place  
-
-But  someone  is  still  hold   reference  to  object  A  
-Object  A  used   afterwards  
-
-Many  objects  contains   pointers  ­  especially   *function  pointers*  
-
-ROP  overview  
-
-1. Attacker  thinks  at   assembly  level  
-2. Reuse  of  existing   code  
-3. Need  to  setup  right   context  
-4. stack  &  registers  &   memory  
-5. Many  code  reused  
-6. Need  to  find  good   pieces  of  code  
-
-1. Used  for  bypassing  non--exec   stack  
-2. Widely  used  nowdays    
-http://seclists.org/bugtraq/1997/Aug/63  
-
-CFG  overview  
-
->>  Implementation
-
-ROP                                 vs  
-                    CFG  
-1. Indirect  calls  check  
-2. in  kernel  mode  not   so  widely  used   anyway  ..  yet,   unfortunately  ...  
-3. bitmap  &   registered   functions
-
-http://blog.trendmicro.com/trendlabs-- security--intelligence/exploring--control--
-
-http://www.powerofcommunity.net/  
-
-  
-
-  poc2014/mj0011.pdf    
-
-flow--guard--in--windows--10/    
-
-protect
-
-bypass
-
- Protect  virtual  calls  (and   some  others)  against   direct  ROP  technique  
- You  have  to  use  valid   function,  in  f.e.  UAF  bug  
-
- regular  functions  driven   attack  
- Stack  pivoting    Stack  hooking
-
-auto  Pools    SMEP    KASLR  
-
-Code  &/  Compiler  
- Stack  canaries    NonPagedPoolNx    SMAP    cfg
-
-Even  when  mitigation  in  place,  treat  every  bug  as  exploitable!  Every   mitigation  has  its  own  weak  point!  Maybe  we  do  not  know  how  to   exploit  it  now,  but  someone  else  might  know  ...
-
- We  are  humans  and  making  mistakes    Many  bugs  in  code,  especially  in  large  codebase    OS  introduce  many  defensive  mechanism  for  
-effectively  mitigating  techniques  for  exploiting  bugs    But  every  mitigation  has  its  own  limitation  
- Biggest  limitation  is  bug  &  developer  itself    Every  developer  should  be  aware  of  software  security  
-problems  :  
- mitigation  techniques,  vulnerability  classes,  auditing   tools,  security  features  
-  
-
-www.slideshare.net/PeterHlavaty/   racing--withdroids  
-
-RACE   conditions  
-1. Shared  resource   2. Multiple  thread  access  
-at  same  time   3. out--of--lock  access  
-4. Convertable  to  another   vulnerability  class!  
-5. Easy  to  make  this  bug   6. Hard  to  avoid  
-
-www.slideshare.net/PeterHlavaty/   attack--on--the--core  
-
-Out  of  Boundary  
-1. Insufficient   boundary   checks,  or  not   present  at  all  
-2. Integer  over/ under  flows  in   boundary  check  
-3. Arbitrary  read  /   write    for   attacker  
-
-j00ru.vexillium.org/?p=1695  
-
-TOCTOU  
-1. In  syscall  is   provided  pointer   to  user  mode   memory  
-2. This  memory  is   first  checked  and   pass  by  kernel  
-3. Another  user  /   kernel  thread   change  memory  at   that  pointer  
-4. Kernel  accessing   changed  memory  
-
-http://confidence.org.pl/en/agenda/lecture/ when--something--overflowing/  
-
-Buffer  overflows  
-1. One  of  the  most   common   vulnerability   class  
-2. One  of  the  most   powerful  
-3. Can  break   {  SMEP  &  SMAP   &  KASLR  }  by   nature  ­  ofc  not   every  overflow
-
-Use  SAL  
-1. Specify   arguments  
-
-2. Boost  static   checks!  
-
-3. Avoid  *ANY*   warning!  
-
-4. Can  detect  a  lot!  
-
-{    
-
-uninitialized,    
-
-overflows,    
-
-out--of--bounds,  
-https://msdn.microsoft.com/en--us/library/ms182032.aspx   nulls,  ..  
-
-https://technet.microsoft.com/zh--cn/subscriptions/  
-
-}  
-
-ms235402(v=vs.100).aspx  
-
-BOOGIE  
-1. Verification  language   2. C#  (C)  
-3. Way  to  go!     4. Use  boogie  or  Develop  
-your  own  VL  ?   5. C++  ?  
-http://research.microsoft.com/en-us/projects/boogie/
-
- Compiler  can  be  your  best  friend    Language  is  continuously  evolving  
- C++11    common  libraries:  boost  &  stl  
- Even  windows  kernel  itself  is  moving  (+--)  towards  c++    Effective  &  clean  architecture    Maintaining  large  code  base  ++  
- Make  use  of  design  patterns    
- Rethink  every  time,  but  it  does  not  mean  to  use  them   every  time  as  well...  
-
- C++  :    http://www.bogotobogo.com/cplusplus/multithreaded4_cplusplus11.php    http://simhttp://www.bogotobogo.com/cplusplus/ multithreaded4_cplusplus11.phppleprogrammer.com/2012/12/01/why--c--is--not--back/   (another  point  of  view,  good  to  read)  
- design  patterns  :      https://sourcemaking.com/design_patterns  
- programmers  :      http://neilscomputerblog.blogspot.gr/2014/06/destroying--rop--gadgets--with--inline-- code.html?spref=tw    http://danluu.com/new--cpu--features/    http://blog.llvm.org/2011/05/what--every--c--programmer--should--know.html?m=1    http://www.akkadia.org/drepper/cpumemory.pdf    http://stackoverflow.com/questions/2794016/what--should--every--programmer-- know--about--security  
- Boogie  :      http://www.rosemarymonahan.com/specsharp/papers/SBMF2010.pdf    http://www.zvonimir.info/2010/12/a--tutorial--for--running--boogie--and--z3--on--linux/    http://www4.in.tum.de/~boehmes/hol--boogie--tphols--talk.pdf    http://webcourse.cs.technion.ac.il/236800/Winter2010--2011/ho/WCFiles/Boogie.pdf  
-
- In  company  reviews  
- First  make  design  &  measure,  then  optimize    Do  multiple  reviews  of  design  &  production  code  
- In  company  audits  &  fuzzing  
- Unit  testing    White--box  fuzzing  
- Audit  companies  &  consulting  
- Let  security  guys  to  pinpoint  problems  which  you  could   likely  to  overlook  
- Bug  bounties  
- Let  more  people  boost  security  of  your  product
-
-@K33nTeam
- We  are  hiring!  
-ü Kernel  &  app  sec   ü A  LOT  of  research   ü mobile,  pc   ü M$,  android,  OSX  ..  
-
-http://pencil.evolus.vn/     SPEICAL  THANKS  TO  SKETCHES  I  was  able  to  made  J  
-
-

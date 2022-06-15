@@ -1,673 +1,0 @@
-   
-
-  
-
-wyxu@zju.edu.cn
-
-7/13/15  
-
-1  
-
-Privacy  is  not  a  new  concern  
-
-7/13/15  
-
-Source:  3M  privacy  filter  for  laptops  promo=onal  campaign  
-2  
-
-Smartphone Usage
-· How many people use smartphones?
-
-Source:  Business  Insider  
-
-· Shipment of smartphone is increasing every year.
-75%  of  the  mobile  phones  are   smartphones  and  highly-- featured  phones  
-
-Thousands  of  Units  
-
-2,250,000   2,000,000   1,750,000   1,500,000   1,250,000   1,000,000  
-750,000   500,000   250,000  
-0  
-
-7/13/15   ReferenceAnupam  Das  
-
-Source:  Gartner  
-PC(Desktop  &  Notebook)   Tablet   Mobile  Phone  
-
-2012  
-
-2013  
-
-2014  
-
-Year  
-
-2015  
-3  
-
-Smartphones  are  used  everywhere  
-
-Source:  mylookout.com  
-
-7/13/15  
-
-4  
-
-Privacy  expecta=ons  of  mobile  users  
-
-A Closer Look at Smartphones
-· Today, smartphones come with a wide range of sensors. All of which are useful for a variety of tasks.
-· Mo=on  detec=on   · Gesture  detec=on   · Audio  Genre  detec=on   · Loca=on  detec=on   · Interac=on  with  nearby  
-devices   · Compass  
-
-7/13/15   ReferenceAnupam  Das  
-
-6  
-
-Most  apps  use  mo=on  sensors  
-
-7/13/15  
-
-7  
-
-Most  apps  use  accelerometer  
-
-7/13/15  
-
-8  
-
-What can smartphone sensors do?
-1. Side channels for sensing environment 2. Potential sources for device fingerprints.
-Should  sensors  be   accessed  freely?
-
-7/13/15  
-
-9  
-
-Sensors:    Side  Channels
-1. Accelerometers   2. Gyroscopes  
-
-7/13/15  
-
-10  
-
-(sp)iPhone:  Decoding  Vibra=ons   From  Nearby  Keyboards  Using   Mobile  Phone  Accelerometers    
-
-Philip  Marquardt,  Arunabh  Verma,   Henry  Carter  and  Patrick  Traynor  
-CCS2011  
-  
-
-7/13/15  
-
-11  
-
-Decoding  Keyboards  Keystrokes  Using   Mobile  Phone  Accelerometers  
-
-7/13/15  
-
-12  
-
-Keystrokes  Sensed  by  Accelerometers
-Keystrokes
-
-7/13/15  
-
-13  
-
-Keystrokes  Sensed  by  Accelerometers
-
-Single  char  "a"
-
-Single  char  "I"  
-
-7/13/15   Character  pair  "nm"
-
-Character  pair  "pq"
-
-14  
-
-A`ack  scenarios
-
-Install  a  malicious  app 7/13/15  
-
-SMS,  hi   Alice
-Record  accelerometer  data  and     recover  keystrokes
-15  
-
-Results  USA  Today
-
-7/13/15  
-
-16  
-
-Gyrophone:  Recognizing  Speech   From  Gyroscope  Signals  
-Anupam  Das,  Nikita  Borisov,   Ma`hew  Caesar   CCS  2014  
-
-7/13/15  
-
-17  
-
-Gyroscope  in  Smartphones
-· Device used to measure or maintain orientation · Works on the principals of angular momentum
-
-7/13/15   MEMS
-
-18  
-
-MEMS
-
-7/13/15  
-
-19  
-
-Acous=c  Vibra=on
-· Gyroscopes  are  sufficiently  sensi=ve  to  measure   acous=c  vibra=ons.    
-· It  is  possible  to  recover  speech  from  gyroscope   readings;  turn  gyroscope  into  a  crude  microphone.    
-
-7/13/15  
-
-20  
-
-Results
-· 50%  success  rate  for   speaker  iden=fica=on  
-· 65%  success  rate  for   number  recogni=on
-
-7/13/15  
-
-21  
-
-Device  Fingerprints
-
-7/13/15  
-
-22  
-
-Why Fingerprint Smartphones?
-Ø Smartphones can be fingerprinted for: · Targeted Advertisement · Secondary Authentication factor
-Ø Software based approaches: · Browser based features, Cookies · Different Firmware and Device drivers
-
-7/13/15  
-
-23  
-
-How  can  free  app  developers  earn   money?  
-· Adver=sement  
-­ Adver=sers  provide  prepackaged  developer  kits   ­ Developers  insert  a  few  lines  of  code  into  their  
-apps   ­ Display  adsà  side  effect,  collect  data  from  
-devices  
-
-· Targeted  adver=sement  
-­ Track  users  
-
-7/13/15  
-
-24  
-
-Some  apps  are  sneaky  
-
-· Exchanging  IDs  without  consent  is  rampant  
-­ IMEI  (device  id),  IMSI  (subscriber  id),  or  ICC--ID   (SIM  card  serial  number)  help  track  users  
-
-· Solu=on:    TaintDroid  
-­ Real=me  filtering  of  exchange  of  device  IDs  
-
-· UDID  for  Apple  devices  has  been  removed   since  May  1,  2013  and  IMEI  for  an  Android   Device  requires  explicit  permission.  
-
-7/13/15  
-
-25  
-
-Our  finding:  Accelerometers  have  fingerprints  
-
-7/13/15  
-
-26  
-
-What  if  accelerometers  have  fingerprints?  
-Users  can  be  tracked  across  apps   Fingerprint  matches...  It's  the  
-same  phone!  
-
-IMEI  
-Traffic   App  
-
-ICC_ID  
-Health   App  
-
-Bob's  phone  
-
-Bob's  phone  
-
-7/13/15  
-
-@  8  AM  
-
-@  6  PM  
-27  
-
-Why  is  this  an  important  threat?  
-· Enables  tracking  of  users  across  apps  
-­ Without  an  explicit  cookie  
-· Fingerprint  is  intrinsic  to  the  hardware    
-­ Somware  update  won't  erase  it  
-· A  slice  of  sensor  data  can  iden=fy  device  
-­ New  wearable  devices  send  more  sensor  data  
-
-7/13/15  
-
-28  
-
-Accelerometers  are  dis=nct  
-
-7/13/15  
-
-29  
-
-Experimental  setup  
-
-· Six  stand--alone   accelerometer  chips  (used   in  many  mobile  devices   such  as  Galaxy  S  III  and   Kindle  Fire)  
-· S=mula=on  with  an  external   vibra=on  motor  (used  in   most  smartphones)  
-· Arduino  to  control  vibra=on   and  collect  accelerometer   readings  
-
-7/13/15  
-
-30  
-
-Accelerometers  are  dis=nguishable  
-
-15!
-
-A"
-
-B"
-
-10!
-
-RSS of Accl. Value!
-
-5!
-
-15!
-
-C"
-
-D"
-
-10!
-
-5!
-
-15!
-
-E"
-
-F"
-
-10!
-
-5! !!!!!4!!!!!!!!!!!!!!!!!6!!!!!!!!!!!!!!!!!8!!!!!!!!!!!!!10! !!!!!4!!!!!!!!!!!!!!!!!6!!!!!!!!!!!!!!!!!8!!!!!!!!!!!!!10!
-Time (s)!
-Accelerometers  yield  dis=nct  responses  for  the  same  vibra=on  
-
-7/13/15  
-
-31  
-
-Accelerometers  are  dis=nguishable  
-
-B"
-7/13/15  
-
-RSS of Accl. Value!
-RSS of Accl. Value!
-
-15!
-
-A"
-
-A"
-
-B"
-
-10!
-
-5!
-
-15!
-
-F" C"
-
-D"
-
-E"
-
-10!
-
-5!
-
-15D! 10!
-
-E"
-
-15!
-
-F" A"
-
-B"
-
-10!
-
-C"
-
-5!
-
-15!
-
-C"
-
-D"
-
-5!
-
-10!
-
-!!!!!4!!!!!!!!!!!!!!!!!6!!!!!!!!!!!!!!!!!8!!!!!!!!!!!!!10! !!!!!4!!!!!!!!!!!!!!!!!6!!!!!!!5!!!!!!!!!!!8!!!!!!!!!!!!!10!
-
-Time (s)!
-
-15!
-
-E"
-
-F"
-
-10!
-
-5! !!!!!4!!!!!!!!!!!!!!!!!6!!!!!!!!!!!!!!!!!8!!!!!!!!!!!!!10! !!!!!4!!!!!!!!!!!!!!!!!6!!!!!!!!!!!!!!!!!8!!!!!!!!!!!!!10! Time (s)!
-32  
-
-Accelerometers  are  dis=nguishable  
-
-Skewness
-RSS of Accl. Value!
-
-C 1.2 D
-1
-
-B" D
-
-A" F" E"
-C"
-
-0.8 0
-
-10
-
-20
-
-30
-
-40
-
-Experiment Number
-
-50
-
-15!
-
-A"
-
-B"
-
-10!
-
-5!
-
-15!
-
-C"
-
-D"
-
-10!
-
-5!
-
-15!
-
-E"
-
-F"
-
-10!
-
-5! !!!!!4!!!!!!!!!!!!!!!!!6!!!!!!!!!!!!!!!!!8!!!!!!!!!!!!!10! !!!!!4!!!!!!!!!!!!!!!!!6!!!!!!!!!!!!!!!!!8!!!!!!!!!!!!!10! Time (s)!
-
-Why  are  accelerometers  dis=nct?  
-
-7/13/15  
-
-34  
-
-Accelerometers  are  based  on  MEMS  
-
-7/13/15  
-
-35  
-
-Internal  structure  of  an  accelerometer  
-Accelerometer  Chip  
-
-Structure  of  MEMS   accelerometer  
-
-7/13/15  
-
-36  
-
-Internal  structure  of  an  accelerometer  
-
-7/13/15  
-
-37  
-
-Reasons  for  difference  in  accelerometers  
-
-· Manufacturing   imperfec=ons  
-­ Slight  gaps  between   structural  parts  can   change  the  capacitance    
-· Subtle  imperfec=ons  do   not  alter  the  rated   func=onality  
-­ Apps  (display  rota=on,   fitness  monitoring,   mo=on  based  games)   work  as  expected  
-· Produced  at  low  cost  
-­ No  need  to  be  more   precise  than  app   requirements  
-
-7/13/15  
-
-38  
-
-How  to  extract  the  fingerprint?    
-
-7/13/15  
-
-39  
-
-Fingerprinting Accelerometers
-
-Smartphone     Data  collec=on
-
-Feature   Extrac=on  
-
-Fingerprint     Crea=on  
-
-Fingerprint     Matching  
-
-7/13/15  
-
-40  
-
-Can  we  dis=nguish  between   an  alien  phone  from  a  registered  phone?  
-
-1
-
-Classification Score
-
-0.8
-
-0.6
-
-0.4
-
-0.2 0 0
-
-Alien Phones Pre-registered Phones
-
-20
-
-40
-
-60
-
-80
-
-100
-
-Trace Number
-
-7/13/15  
-
-41  
-
-When  to  extract  a  fingerprint  in  prac=ce?  
-
-· Opportunis=cally  under  similar  condi=ons  
-­ e.g.  when  vibra=on  motor  on,  CPU  load  moderate  
-
-  
-
-Still
-
-On Car
-
-Accl. Z axis Actual Duty Cycle
-Algo output
-
-Walk
-
-Run
-
-7/13/15  
-
-42  
-
-How  robust  are  the  fingerprints?    
-
-7/13/15  
-
-43  
-
-Evalua=on  Setup  
-
-· Devices  
-
-· 80  stand--alone  accelerometer  chips  
-
-· 27  Android  smartphones/tablets  of  6  models  
-
-· Metrics  
-
-·
-  
-
-Average  Precision:  
-
- 1 k TPi
-k i=1 TPi + FPi
-
-· Average  Recall:  
-
- 1 k TPi
-k i=1 TPi + FNi
-
-· Accuracy:        1n    (    i =k 1    T   P   i  +      j  =l 1   T    N    j  )      
-
-7/13/15  
-
-k  trained  classes,  l  alien  classes,  and  n  test  traces   44  
-
-Overall  likelihood  of  misclassifica=on  
-
-Actual Device Number
-
-100
-80
-60
-40
-20
-0 0
-7/13/15  
-
-20
-
-40
-
-60
-
-80
-
-Classified Device Number
-
-100
-45  
-
-Does  the  fingerprint  manifest  only  at   faster  sampling  rates?  
-1 Precision Recall
-0.8
-
-Precision/Recall
-
-0.6
-
-0.4
-
-0.2
-
-0 Normal
-
-UI
-
-Game
-
-Sampling Mode
-
-Fastest
-
-· Even  at  slower  sampling  rates,  devices  exhibit  discrimina=ng  features   · Likelihood  of  dis=nguishing  devices  improves  with  faster  sampling  rates    
-
-7/13/15  
-
-46  
-
-Sensors  offering  side  channel  not  new    
-
-· Sniffing  for  side  channel  a`ack  for  inferring  key-- strokes  like  TouchLogger,  ACCessory,  Taplogger   etc.  
-­ Keyboard  acous=c  analysis                                                                                                                                
-­ Time  Events  
-­ Somware  specializa=on  
-
-· Fix:  disable  accelerometer  during  sensi=ve   opera=on  
-
-· A  small  slice  of  sensor  data  adequate  for   fingerprin=ng  
-
-7/13/15  
-
-47  
-
-Summary  
-· Sensors  can  create  side  channel  to  leak   sensi=ve  informa=on  
-­ Accelerometers  to  sense  keystrokes   ­ Gyroscope  as  a  coarse  microphone  
-
-· Due  to  the  imperfec=on  of  sensors,  sensors   have  their  fingerprints  
-­ Accelerometers  possess  fingerprints   ­ Can  act  like  a  cookie  in  tracking  users  
-
-7/13/15  
-
-48  
-
-

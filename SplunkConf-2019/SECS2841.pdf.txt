@@ -1,307 +1,0 @@
-Best Practices for Rapid Containment of Incidents
-Noam Syrkin
-Sr. Technical Marketing Engineer, RedSeal
-
-Forward-Looking Statements
-
-© 2019 SPLUNK INC.
-
-During the course of this presentation, we may make forward-looking statements regarding future events or the expected performance of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results could differ materially. For important factors that may cause actual results to differ from those contained in our forward-looking statements, please review our filings with the SEC.
-The forward-looking statements made in this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, this presentation may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements we may make. In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionality described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Listen to Your Data, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-Agenda
- The importance of network terrain  The shifting terrain  Splunk ES and RedSeal  Summary  Q&A
-
-© 2019 SPLUNK INC.
-
-Defending a City
-What do you need to know?
-
-© 2019 SPLUNK INC.
-
-What is in the city? Where is the valuable stuff? How would attacker get in? How would the attacker move around?
-
-How We Try to Identify Cyber Terrain Today...
- What is in the city? · Hosts, routers, switches, firewalls, etc. · CMDB · Vulnerability Scans · Endpoint Protection
- Where is the valuable stuff? · Data Discovery · Tagging · Tribal knowledge?
- How would an attacker get in? · Security Awareness · Pen Testing
- How would an attacker move around? · Traceroute, Ping · Live Traffic
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-RedSeal Helps You Understand All Your Cyber Terrain
-Across public cloud, SDN and physical environments
-Inventory
-
-Connections
-
-Vulnerabilities
-
-Knowing what you have and how it's all connected
-
-The Platform
-Ingest Information to Create a Model
-
-L2, L3, L4 & L7 modeling
-
-Model Public Cloud
-
-© 2019 SPLUNK INC.
-Model Private Cloud
-
-Routers
-
-Host and Vulnerability data
-
-Firewalls
-Switches Load Balancers
-Cloud "configs"
-
-Network Configuration
-Managers
-
-As-built Network Model
-
-DISCOVER
-
-INGEST & CALCULATE
-
-OUTPUT
-
-Model On-Prem Networks
-
-The Shifting Terrain
-
-© 2019 SPLUNK INC.
-
-Why Is The Terrain Shifting?
-
-© 2019 SPLUNK INC.
-
- Software defined everything  Digital transformation  Hybrid datacenters  Internet of things  Shadow IT
-
-Skills Shortage
-82%
-of global IT leaders report significant labor
-shortages in cybersecurity
-Source | April 2016 TechCrunch CIO Report
-
-What Should Be One
-Integrated World ...
-
-© 2019 SPLUNK INC.
-
-Is Really a Complex Ecosystem
-
-© 2019 SPLUNK INC.
-
-Your Fabric
-
-Cloud & SDN
-
-HP ArcSight
-Security Technologies
-
-Network Engineers Access & Policy
-
-Security Auditor
-
-Security Engineers
-
-Audit & Compliance Prioritization & Speed
-
-With Serious Gaps
-
-© 2019 SPLUNK INC.
-
-Your Fabric
-
-Cloud & SDN
-
-Separate Worlds
-
-Incomplete Information
-HP ArcSight
-Too Many Interfaces
-
-Security Technologies
-
-Network Engineers Access & Policy
-
-Security Auditor
-
-Security Engineers
-
-Audit & Compliance Prioritization & Speed
-
-Splunk + RedSeal
-Minimizing the time to contain incidents
-
-© 2019 SPLUNK INC.
-
-Observe
-Point Products
-
-Integration with RedSeal
-
-Orient
-Analytics
-
-Decision Making
-
-© 2019 SPLUNK INC.
-Acting
-
-Understand your network
-terrain
-
-Valuable Threat Source Data
-
-Where is it located? Both logically and physically? What other assets can it reach? What is the access path and the source to the target?
-
-Accelerate Containment
-
-© 2019 SPLUNK INC.
-Model & Understand Hybrid Environments
-Bring all your assets into one place...
-
-© 2019 SPLUNK INC.
-Model & Understand Hybrid Environments
-Bring all your assets into one place...
-
-Incident Investigation
-A threat is detected, now what?
-
-© 2019 SPLUNK INC.
- Top 4 questions:
-· What are the details of Threat Source? · Where is it located? Both logically and
-physically?
-· What other assets can it reach? · What is the access path and the devices
-from Threat source to the destination target?
-
- Can you answer these questions within minutes?
-
-How does RedSeal Help?
-
-© 2019 SPLUNK INC.
-
-Reachable Targets
-IoC
-
-1
-
-Model and understand hybrid environments, compute access paths
-
-2
-
-Rapidly provide data on IoC ­ location, OS, services, switch port, etc.
-
-3
-
-Identify top reachable target groups
-
-4
-
-Details on access path and devices along the path
-
-Access Path Details
-
-5
-
-Identified all needed information to implement containment of IoC
-
-© 2019 SPLUNK INC.
-
-IoC IP Address
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Adaptive Response Actions
-
-© 2019 SPLUNK INC.
-RedSeal Adaptive Response Actions
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-RedSeal AR Reports
-
-Basic host details
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Host Details: Attack Depth Port ,Switch, Access to Critical Assets
-
-© 2019 SPLUNK INC.
-Reachable Groups from IoC
-
-© 2019 SPLUNK INC.
-Reachable Groups
-
-Launch RedSeal
-
-© 2019 SPLUNK INC.
-
-What is it?
-
-IP of IoC
-
-Where is it at?
-
-© 2019 SPLUNK INC.
-
-Where can they go?
-
-© 2019 SPLUNK INC.
-
-Where can they go?
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-How do they get there?
-
-A
-
-B
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Observe
-Point Products
-
-Integration with RedSeal
-
-Orient
-Analytics
-
-Decision Making
-
-© 2019 SPLUNK INC.
-Acting
-
-Understand your network
-terrain
-
-Valuable Threat Source Data
-
-Where is it located? Both logically and physically? What other assets can it reach? What is the access path and the source to the target?
-
-Accelerate Containment
-
-© 2019 SPLUNK INC.
-Thank You!
-Go to the .conf19 mobile app to
-RATE THIS SESSION
-
-

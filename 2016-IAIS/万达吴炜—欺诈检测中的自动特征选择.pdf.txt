@@ -1,100 +1,0 @@
-
-
-
-Mac,ip,
-
-
-
-
-
-,,
-
-
-
-(),
-
-
-
-
-
-,,, ,,...
-
-
-
-50,8000
-
-
-
-
-
-
-
-1%
-
-50,8000
-:,gbdt
-
-DL
-
-w2v
-
-G2V
-
-:graphx,titan
-
-Machine 1
-
-Machine 2
-
-Machine 3
-
-Balanced Vertex-Cut
-
-Y Spans 3 Machines Z Spans 2 Machines
-
-YY
-
-Z
-
-Not cut!
-
-Machine 1
-
-Machine 2
-
-Gather Apply 1 +
-Scatter 3
-
-YYYY
-
-''''
-
-+
-
-+
-
-Master
-
-Y
-
-Mirror
-
-Machine 3
-
-2
-
-Mirror
-
-4
-Mirror
-Machine 4
-
-:parameter server
-
-:,docker
-
-: 1: 2: 3:
-
-Thanks _
-
-

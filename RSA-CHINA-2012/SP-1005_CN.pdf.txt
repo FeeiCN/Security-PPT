@@ -1,153 +1,0 @@
-·  · (SDL) ·  · (BlueHat Prize) ·  · 
-
-"   2011  5.13  "   31.6% "   41%  30  "   19.8  "   3.64 
-
-
-Windows  
-Windows 
- ·  100 / 6  ·  2.8  Hotmail  · Microsoft Security Essentials ­  30  ·  2011 / 47  · Bing  · 
-Trustworthy Computing
-
- Internet Explorer 6  
-  Internet Explorer 6
- IE6  Windows XP
-Windows XP  Windows 7  6 
-2011  
-
-From: Bill Gates Sent: Tuesday, January 15, 2002 2:22 PM Subject: Trustworthy Computing
-...Trustworthy Computing is the highest priority for all the work we are doing. We must lead the industry to a whole new level of Trustworthiness in computing...Every week there are reports of newly discovered security problems in all kinds of software, from individual applications and services to Windows, Linux, Unix and other platforms. We have done a great job of having teams work around the clock to deliver security fixes for any problems that arise. Our responsiveness has been unmatched ­ but as an industry leader we can and must do better.
-
-à 2004 SDL
-
-
-
-
-
-
-
-
-
-Office 
-
- 
-
-=
-
-
-
-
-
-X
-
--
-
-
-
- +
-
-
-  
-
- /GS: Stack cookies 
-ASLR:  /DYNAMICBASE 
-(DEP) /NXCOMPAT SetProcessDEPPolicy()
-16
-
-
-
- 38.7%
-
- 25.8%
- 35.5%
-
-
-
- 41.4%
-
- 17.2%
- 41.4%
-
-
-
-
-
- 36.4%
-
- 24.2%
- 
-39.4%
-
-
-
- 35.5%
-
- 22.6%
- 41.9%
-
-
-
- 72.7%
-
- 27.3%
-
-
-
- 78.3%
-
- 21.7%
-
-
-
-
-
- 72.0%
-
- 28.0%
-
-
-
- 73.9%
-
- 26.1%
-
-·  
-· 
-· DEP · SEHOP ·  ·  · ...
-"   "  DEMO
-
-EMET
-
-SDL  
-· 
-·  
-· 
-
-· 
-· (Runtime),  
-· 2011  8  3  ­ 2012  4  1  ·  2012  7  ·  · EMET3.5
-
- 
-
-·  · 50,000 325,000
-
-· IT 
-· SDL 
-·  · 
-· 
-· SDL · (compiler flags, DEP, ASLR)
-· 
-· Windows Update · IE6IE8, IE9
-
-SDL 
-http://www.microsoft.com/sdl
-SDL 
-http://blogs.msdn.com/sdl
-MSDN SDL 
-http://msdn.microsoft.com/en-us/library/ cc307748.aspx
-Microsoft SDL 
-http://go.microsoft.com/?linkid=9708425
-
-: · http://blogs.technet.com/b/twcchina/
-: · t.qq.com/MicrosoftTwC · weibo.com/MicrosoftTwC
-
-

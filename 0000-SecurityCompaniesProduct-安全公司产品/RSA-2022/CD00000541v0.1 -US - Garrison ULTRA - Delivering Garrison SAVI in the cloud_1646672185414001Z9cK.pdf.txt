@@ -1,20 +1,0 @@
-Garrison ULTRA®
-Delivering Garrison SAVI® in the cloud
-Garrison ULTRA® brings the power of Garrison SAVI® delivered as a multitenant cloud service, meeting commercial and unclassified government needs for Web Isolation. In Garrison ULTRA®, Garrison SAVI® hardware appliances are deployed and managed by Garrison, with Web Isolation delivered to the customer as a service.
-In government cross-domain and enterprise network deployments, Garrison SAVI® is deployed as a physical perimeter device, with physical separation between the "high" network (connected to the Client network interface of the Garrison unit) and the "low" network (connected to the Remote network interface of the unit). In Garrison ULTRA®, a different approach is taken. For Garrison SAVI® Isolation Appliances (GIAs), both the Client and the Remote network interfaces are connected to the Internet.
-With this deployment model, separation between the trusted endpoint and the untrusted Internet depends on the encrypted tunnel that Garrison maintains between the endpoint and the GIA unit. In fact, this encrypted tunnel is established between the endpoint and the individual CCP chip allocated to the user session: the session key for that tunnel is not shared with any other part of the GIA unit. Furthermore, Secure Reboot and Guaranteed Clean Node technologies in the GIA ensure that the CCP unit to which the user establishes the tunnel is cleanly booted and cannot have persistent malware left by a previous user.
-www.garrison.com
-
-Garrison ULTRA®
-Delivering Garrison SAVI® in the cloud
-In Garrison ULTRA®, GIA units are stacked in Garrison data centers and connected to the Internet in this way. But to make Garrison ULTRA® work, it is also necessary to replicate the "Connection Broker" functionality delivered ­ for the on-premises Garrison SAVI ® solution ­ by the Garrison Connection Broker (GCB) software. The GCB software was not designed for a multi-tenanted environment. Garrison has instead developed the ULTRA Connection Broker (UCB) service, implemented within AWS. The UCB uses ephemeral AWS Lambdas to validate REST API calls, thus protecting against UCB compromise from either anonymous threats or authenticated users.
-
-Garrison ULTRA® also deploys the Garrison SACS ® Transfer Appliance (GTA) to support copy and paste. Since Secure Reboot and Guaranteed Clean Node technologies are not available in the GTA, the Client interface of the GTA is deployed behind the AWS-based UCB, with API sanitization to protect against both anonymous attacks and pivot attacks between Garrison ULTRA ® customers.
-An Alpha-level Garrison ULTRA ® service is available today for trials with selected customers. Full commercial availability is anticipated for the first half of 2022. Contact Garrison for further details including the anticipated pricing model.
-
-Email info@garrison.com US Telephone +1 (646) 690-8824 UK Telephone +44 (0) 203 890 4504
-© Garrison Technology Ltd 2021
-
-CD00000541v1.0 ­ July 2021
-
-

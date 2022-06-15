@@ -1,128 +1,0 @@
-RSA2015 
-20156
-
-RSA 2015 
-
-
-
-Change
-----Challenges today's security thinking.
-
- 500+
-
- 30000+
-
- 100+
-
-Keynote 15
-
- 50
-
- 23
-
-DevOps  //
-
-
-1 asd-w04-containers-vs-vms-forsecure-cloud-applications.pdf
-
-
-IT
-
-
-
-
-
- 
-
-SDN 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RSA10
-
-RSA2015
-
-
-· 3
-­ FortscaleSecuritydoVECTRA
-· 2
-­ cybereasonSentinelone
-· bugcrowd · Nexdefense · ticto · Trustinsoft · waratek
-
-Waratek
-· RASPRuntime Application Self Protection 
-­ JavaJava Java  
-
-Waratek
-· 0day 
-· SQL
-
-Ticto
-·  
-­  
-
-VECTRA+ 
-· 
-­  Netflow
-· - 
-
-FortScale+
-·  · 
-­  
-­  
-­  
-­ Hadoop
-
-Securitydo
-· +Flow 
-· 
-­  ­ 
-
-
-Cybereason+
-·  
-· 
-­  500MB
-­  
-­  
-
-Sentinelone+
-· 
-­  ­  ­ 
-  ­  
-
-Nexdefense
-· IDS+FlowEye
-­  ­ 
- ­ 
-  ­ 3D
-
-Bugcrowd
-· 
-­  ­ 16000
-
-· 
-­   
-­  
-
-
-1. 
-2. 
-3.   4.  +   5.  
-
- 
-
-

@@ -1,246 +1,0 @@
-
-Win10
-
- (Henry Tsui)
-,(MTEC) , 
-,  ,   ,   
-_______________________________________________ · EnCase(EnCE)EnCase · ISC2(CCFP) · (MCE) · (HTCIA) · (ACFE)
-
-
- WIN10    
-
-WINDOWS
-WIN10
-Win10
- Windows 10Windows 10 Home  Windows 10Windows 10 Pro  Windows 10Windows 10 Enterprise  Windows 10Windows 10 Education  Windows 10Windows 10 Mobile  Windows 10Windows 10 Mobile Enterprise  Windows 10 IoT Core
-
-WINDOWS
-
-
-
-Windows 7
-Windows 7  Windows 7 
-
- PC
-
-Windows 7  Windows 7 
-
-Windows 7 
-
-Windows 8
-
-Windows 10
-
-Windows 8  Windows 10 
-
-Windows 8  Windows 8 
-
-Windows 10  Windows 10 
-
-N/A
- Windows Phone 8.0  N/A
-
-Windows 8  Windows 10 
-
-Windows Phone 8.1 Windows 10 
-
-Windows RT
-
-Windows 10 
-
-N/A
-
-Windows 10 IoT Core
-
-WINDOWS
-Cortana 
-· 
-
-WINDOWS
-Windows Hello
-· 
-
-WINDOWS
-OneDrive 
-· Win10OneDrive 
-
-WINDOWS
-Skype
-· Win10Skype
-
-WINDOWS
-Edge
-· 
-
-WINDOWS
-
-·
-
-WINDOWS
-Continuum
-·  2  1   
-
-
- WIN10    
-
-
-1. 
-Win10500MB (Boot loader)
-
-
-2. ($Recycle.bin)
-Win10Win7/8/8.1 $R$I
-
-
-2. ($Recycle.bin)
-Win10Win7/8/8.1$I
-
-
-2. ($Recycle.bin)
-
-Windows 8.1
-01
-
-Windows 10
-02
-
-24 520
-
-28 244 
- 
-
-
-3. (Thumb cache)
-WinXPthumbs.db Win7thumbcache*.db Win8/8.1thumbcache*.db thumb.dbWin10Win7 thumbcache*.db
-
-
-3. (Thumb cache)
-%systemdrive%\Users\<USERNAME>\AppData\Local\Microsoft\ Windows\Explorer
-
-
-4. OneDrive
-%systemdrive%\Users\<USERNAME>\Appdata\Local\Microsoft \Windows\OneDrive\logs
-
-
-4. OneDrive
-\Users\<USERNAME>\OneDrive
-
-
-5. Prefetch
- %systemdrive%\Windows\Prefetch
-
-
-5. Prefetch
-Win7/Win8/Win8.1PF  SCCA
-
-
-5. Prefetch
-Win10Prefetchpf LZXPRESS MAMWin8SuperPrefetchAg*.db Win10PF
-: http://forensicswiki.org/wiki/Windows_SuperFetch_Format
-
-
-5. Prefetch
-Nirsoft WinPrefetchviewWin10pf 
-: http://www.nirsoft.net/utils/win_prefetch_view.html
-
-
-6. Edge
-
-Win10Edge (Spartan)  
-
-
-
-
-
-Microsoft Edge (Win10)
-
-2015.07.29
-
-Internet Explorer 11 (Win8.1)
-
-2013.10.17
-
-Internet Explorer 10 (Win8)
-
-2012.10.26
-
-Internet Explorer 9
-
-2011.03.14
-
-Internet Explorer 8 (Win7)
-
-2009.03.19
-
-Internet Explorer 7 (Vista/Win2008)
-
-2006.10
-
-Internet Explorer 6 (WinXP/Win2003)
-
-2001.8.27
-
-Internet Explorer 1
-
-1995.08.16
-
-EDGE
-Microsoft Edge (Extensible Storage EngineESEJetBlue)   %systemdrive%\Users\%user%\AppData\Local\Microsoft\Windows\ WebCache
-ESE 1MB1TB ESE
-WindowsESE Windows MailWindowsExchange Server (Active Directory)Windows Live Messenger
-
-EDGE
-
-Microsoft Edge
-
-
-
-
-
-ESE 
-
-WebCacheV01.dat V01.chk
-
-  
-
-V01.log V01res#####.jrs V01res#####.jrs
-
-
-
-V01#####.log
-
-EDGE
-NirsoftESEDatabaseView ESE
-
-EDGE
-
-
-7. CORTANA
-
-\Users\user_name\AppData\Local\Packages\Microsoft.windows.Cortana_xxxx\AppD ata\IndexedDB\IndexedDB.edb
-\Users\user_name\AppData\Local\Packages\Microsoft.windows.Cortana_xxxx\LocalS tate\ESEDatabase_CortanaCoreInstance\CortanaCireDb.dat
-
-CORTANA
-
-
-8. 
-
-\Users\%username%\AppData\Local\Comms\Unistore\
-
-
-9. QQ (Windows APP)
-\Users\%username%\AppData\Local\Packages\903DB504.QQ_a99ra4d2cbcxa\LocalState \User\########
-
-
- WIN10    
-
-
-
-· ESE ·  · (QQ) · 
-
-
-Email: xuzq@300188.cn QQ: 539328659 digitalforensics
-
-
-
-

@@ -1,241 +1,0 @@
-""""---- 
-  2015.4
-
-
-WHY   
-
-
-
-· 66 ·  · ...
-
-
-
-
-
-
-
-
-WHY   
-
-
-· Hadoop · HBase · Spark · Storm · Impala · ML
-
-
-
-
-
-
-
-
-
-----
-
-
-
- 
-
- 
-
- 
-
- 
-
-
-WHY   
-
-
-
-
-
-INCR
- 
-LogM
-
-
-
-
-Acre
-Cell
-
-
-NoahArk
-
-
-
-Data One & SQL One
- 
-Data Insight
-
-CharmiBoard
-
-
-Data ONE
-
-  SQLJOINNoSQLHadoop
-
-· 
-
-SQL Query Optimizer
- 
-
-Data One Interface
-
-
-
-APIs
-
-Data One Core Services
-
-MiningLamp SQL One
-
-
-
-
-
-
-
-  · 
-  · 
- · 
-
-
-Data ONE
-
-Acre
-
-·HiveImpalaMySQL  
-
- 
-
-·cellACL/RBAC  Cloudera
-
-ETL
-
-LDAP
-
-WEB UI
-
-
-
-  
-
-
-
-Provider
-
-Request      Operator  Resource
-
-
-
-Required      Operator  Resource
-
-Query
-
-Parse
-
-Check
-
-Append Where Claus
-
-Acre----
-
-Data Insight
-
-
-
-   
-
-· Decision Tree · Logistic Regression · Support Vector Machine · Multinomial Naive Bayes · Regression Tree · Linear Regression · Lasso Regression · Ridge Regression · K-Means ·...
-
-DI----
-
-DI----DSL
-· DataInsight 
-· DSL 
-­  ­ GroupBy ­  ­  ­  ­ Map ­ 
-
-DI----
-
-
-· SVM · Logistic Regression · Native Bayes · Decision Tree · Random Forest
-
-· PCA
-
-
-
-
-
-· K-means · DBScan
-
-
-· Lasso Regression · Ridge Regression · Linear Regression · Gradient Boosted
-Regression · Regression Tree
-
-
-· LDA · Word2Vec
-
-· FPGrowth · BIDE
-
-Spark
-
-
-· Item based CF · User based CF · Alternating Least
-Squares
-
-· Correlation Analysis · Distribution Statistics
-
-BI
-OLAP CUBE
-
-BI
-· ----DATA GRAVITY
-· ----OLMP
-· ---- 
-
-BI
-DATASTAX Stratio
-http://velvia.github.io/presentations/cassandra-spark-olap-2014/index.html#/25/2
-
-BI
-
-· GDELT dataset, 117 million rows, 57 columns,
-
-~50GB
-
-· Spark 1.0.2, AWS 8 x c3.xlarge, cached in memory
-
-· Adhoc 
-
-0.49
-
-· TOP K
-
-1.51
-
-· TOP Group By 2.69
-
-http://velvia.github.io/presentations/cassandraspark-olap-2014/index.html#/25/2
-
-
-WHY   
-
-----
-·   
-· DBScan 
-· 300  
-
-----
-·  
-·  
-· 
-­  ­  ­  ­ 
-
-
- gap IT IT  
-
-
-@
-
-
-
-

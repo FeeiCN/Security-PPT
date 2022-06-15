@@ -1,513 +1,0 @@
-© 2019 SPLUNK INC.
-Getting Started with Risk-Based Alerting and MITRE
-Bryan Turner
-IT Security Analyst | Publix
-
-ForwardLooking Statements
-
-© 2019 SPLUNK INC.
-During the course of this presentation, we may make forward-looking statements regarding future events or plans of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results may differ materially. The forward-looking statements made in the this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, it may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements made herein.
-In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only, and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionalities described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Turn Data Into Doing, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2019 Splunk Inc. All rights reserved.
-
-© 2019 SPLUNK INC.
-Introduction
-So what are we getting into?
-
-Previous .conf Presentations
-Check These Out!
-INTRO
-If you want to know more about:
-Building and Enriching Correlation Searches
-· The Art of Detection - Doug Brown
-Risk Framework
-· Say Goodbye to Your Big Alert Pipeline, and Say Hello to Your New Risk-Based Approach - Jim Apger, Stuart McIntosh
-Testing Your Detections
-· Simulating the Adversary to Test Your Splunk Security Analytics - Dave Herrland, Kyle Champlin, Tim Frazier
-
-© 2019 SPLUNK INC.
-
-Putting It All Together
-
-Risk
-
-© 2019 SPLUNK INC.
-
-Searches
-
-Testing
-
-Agenda
-What's to come
-
-1. What is Risk-Based Alerting? 2. Creating a Risk Matrix 3. Building Search Inventory 4. Developing Targeted Detections 5. Operationalizing Alerting 6. Ongoing Maintenance
-
-© 2019 SPLUNK INC.
-
-Terminology
-What are we talking about?
-
-© 2019 SPLUNK INC.
-1. Alert: search that requires an action 2. Search: correlation searches 3. Entity: system or user 4. Asset: system 5. Identity: user 6. Fidelity: measurement of accuracy
-of an alert
-
-© 2019 SPLUNK INC.
-What is Risk-Based Alerting?
-Deriving value from atomic alerts
-
-The Coffee Filter Problem
-Moving Past a Messy Solution
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Background
-What is the old model and why doesn't it work?
-
-One to One Alert Model
-·Alert fatigue ­ difficulties scaling ·Over-zealous Exclusions ·Little to no correlation ·Unanswered Questions
-
-The Unanswered Questions
-
-© 2019 SPLUNK INC.
-
-"So what's going on?"
-­ Every Manager Ever
-
-"Were there any "Where did it
-
-other alerts?"
-
-come from?"
-
-­ The Concerned Manager
-
-­ The Curious Manager
-
-Problem/Solution
-Problem:
-Alerts that provide little context and are not efficiently utilizing analyst's time.
-
-© 2019 SPLUNK INC.
-Solution: Build a risk-based alerting system that increases accuracy of alerts and provides a readily available "alert narrative."
-
-© 2019 SPLUNK INC.
-"The Risk Analysis framework provides the ability to identify actions that raise the risk profile of
-individuals or assets."
-Risk Analysis framework in Splunk ES
-
-© 2019 SPLUNK INC.
-Insert your own screenshot here. For best results, use an image sized at 1450 x 850
-
-Risk Alerting Pipeline
-
-Correlation Searches
-
-Risk Profile Increases
-
-© 2019 SPLUNK INC.
-Risk Alerts
-
-How Does This Look in Practice?
-
-© 2019 SPLUNK INC.
-
-7:55 AM
-Suspicious Subject in Email - 20
-
-8:02 AM
-Outlook Opening Office ­ 20
-
-8:03 AM
-Office Opening Browser - 20
-
-8:03 AM
-Blocked IDS Event Outbound - 40
-
-Total Risk Score= 120
-
-*Note: None of these searches had enough accuracy to be included in old model.
-
-"Were there any other alerts?"
-Insert your own screenshot here.
-"So whatF'sor best results, use an image sized at 1450 x 850 going on?"
-"Where did it come from?"
-
-© 2019 SPLUNK INC.
-
-Recap
-
-© 2019 SPLUNK INC.
-
-One-to-One Model
-Small inventory of high accuracy searches
-Does not give context to related activity
-Analysts investigate each alert
-Does not scale smoothly
-· More searches typically means more tickets and analyst hours.
-
-Risk-based Model
-Large inventory of both high and low accuracy searches
-Does give context to related activity
-Analysts perform investigations on high risk entities
-Scales smoothly
-· More searches doesn't mean more investigations. Conditions still must be met.
-
-Phases of Development
-Building an Search Inventory
-
-Creating a Risk Matrix
-
-Building a Search
-Inventory
-
-Developing Targeted Detections
-
-© 2019 SPLUNK INC.
-
-Operationalize Alerting
-
-Ongoing Maintenance
-
-© 2019 SPLUNK INC.
-Creating a Risk Matrix
-"Begin, the rest is easy"
-
-Recommended Prerequisites
-Things we had in place prior to starting the move to risk-based alerting... or wish we had.
-Splunk Enterprise Security
-Identity Management
-· Systems (assets) · Users (identities)
-Search Inventory Lookup
-· Contain all correlation searches · Need to be easily scalable
-
-© 2019 SPLUNK INC.
-
-Alert Matrix
-Getting Started
-
-Risk
-
-Critical Moderate Low
-
->50% High High Low
-
-Fidelity
-10%-50% Low Low Informational
-
-<10% Informational Informational Informational
-
-Fidelity is a historical measurement of the alert's capability to successfully detect malicious activity
-Potential Risk is a categorical measurement based on a confluence of data sensitivity, business impact, and likelihood.
-
-© 2019 SPLUNK INC.
-
-Risk Matrix
-Getting Started
-Severity Informational
-Low High
-
-Base Value 20 50 100
-
-· Risk is assigned through the Risk Analysis Alert action · Risk is assigned to a user or system · Set with threshold of 100 in mind
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Insert your own screenshot here. For best results, use an image sized at 1450 x 850
-
-Sendalert
-Customer Alert Actions
-Use the sendalert command to: Create notable events Add or Subtract risk scores Generate tickets And more!
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Alert Matrix
-
-Base Value
-
-Severity
-
-Base Value
-
-Informational
-
-20
-
-Low
-
-40
-
-Medium
-
-60
-
-High
-
-80
-
-Critical
-
-100
-
-© 2019 SPLUNK INC.
-
-Getting Fancy
-
-Fidelity
-Low <10%
-Medium 10%-50%
-High >50%
-
-Multiplier .50 .75 1.00
-
-Criticality
-
-Asset/Identity Multiplier
-
-Normal
-
-1
-
-Elevated
-
-2
-
-Enterprise
-
-3
-
-*Note: Use values that work best for YOUR environment
-
-Inline Coding
-More Flexibility
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Building a Search Inventory
-Laying the foundation
-
-Search Inventory Sources
-So where is all this information going to come from?
-Existing Search Inventory MITRE ATT&CK Security Essentials Content Update
-
-© 2019 SPLUNK INC.
-
-MITRE ATT&CK
-
-© 2019 SPLUNK INC.
-
-MITRE
-Techniques In-Depth · Description of technique · Mitigations · Examples · Detection · References
-© 2019 SPLUNK INC.
-
-MITRE
-Techniques In-Depth
-· Use examples to identify search terms · Split into different severity alerts by fidelity · Focus on threat actors that are the greatest risk
-© 2019 SPLUNK INC.
-
-Security Essentials
-
-© 2019 SPLUNK INC.
-
-Content Update
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Using MITRE for Targeted Detections
-Building your narratives
-
-Prioritizing Alert Creation
-What tools do you need? MITRE ATT&CK ATT&CK Navigator Malware Archaeology OSINT
-
-© 2019 SPLUNK INC.
-
-ATT&CK NAVIGATOR
-· List techniques by threat actor or malware · Layer different views to form a heat map
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Insert your own screenshot here. For best results, use an image sized at 1450 x 850
-
-© 2019 SPLUNK INC.
-Insert your own screenshot here. For best results, use an image sized at 1450 x 850
-
-Building a Heat Map
-Identifying Priority
-High Priority Items
-· Command-Line Interface · Scripting · Credential Dumping · Remote Desktop Protocol · Data Compressed
-© 2019 SPLUNK INC.
-
-Malware Archaeology
-https://www.malwarearchaeology. com/logging
-Log sources by Tactic>Technique Highlights whether coverage is:
-· Good · Incomplete · None
-© 2019 SPLUNK INC.
-
-Malware Archaeology
-https://www.malwarearchaeology .com/logging
-Recommended Sources: · Event Code 4688
-­ Process Execution ­ Process CMD Line
-· PowerShell · Sysmon
-© 2019 SPLUNK INC.
-
-OSINT
-Digging Deeper
-SANS Talos Microsoft Twitter Google Personal Research
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Operationalizing Alerting
-Reading the narrative
-
-Walkthrough
-Astaroth ­ Known Techniques
-· Astaroth · Delivered via email · Downloads additional payloads · Installs a trojan to steal information
-© 2019 SPLUNK INC.
-
-Walkthroug h
-Astaroth - OSINT
-Microsoft Write-up
-1. Arrival 2. WMIC abuse, part 1 3. WMIC abuse, part2 4. Bitsadmin abuse 5. Certutil abuse 6. Regsvr32 abuse 7. Userinit abuse
-© 2019 SPLUNK INC.
-
-Walkthroug h
-Astaroth ­ Building Detections
-Shortcut Modification
-· Malicious LNK
-shortcuts Obfuscated Files or Information
-· Obfuscated jscript
-Deobfuscate/Decode Files or Information
-· Uses
-fromCharCode()
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-
-Walkthroug h
-Building a Dashboard
-· Searches Risk and Notable indexes · Aggregates Risk Score · Identifies: ­ Phase ­ Count ­ Tactic ­ Technique ­ Threat Actor
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Insert your own screenshot here. For best results, use an image sized at 1450 x 850
-
-© 2019 SPLUNK INC.
-Insert your own screenshot here. For best results, use an image sized at 1450 x 850
-
-Walkthroug h
-Incident Review · Search by risk object and severity · Add all events to the same investigation
-© 2019 SPLUNK INC.
-
-Walkthroug h
-Building Investigations
-· Add risk objects as artifacts · Automate Data Gathering ­ Vulnerabilities ­ Risk Profiles ­ Web Activity
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Ongoing Maintenance
-Where do we go from here?
-
-Next Steps
-Maintenance
-
-© 2019 SPLUNK INC.
-Risk Score Adjustment Search Review Threat Intelligence Test Detections
-
-ONGOING MAINT.
-Set values that make sense
-
-Risk Score Adjustment
-1. Calculation of fidelity
-· Changes lowered or raised percent
-2. Criticality of entity
-· Do you need additional levels
-3. Search weight
-· Is this causing too much noise · Is it not raising risk score fast enough
-
-© 2019 SPLUNK INC.
-
-ONGOING MAINT.
-Is this still doing what I think it's doing?
-
-© 2019 SPLUNK INC.
-Search Review
-1. Validate logic
-· Log format changes · Additional / Removed systems
-2. Identify additional or deprecated
-search terms
-3. Research additional detections
-· Is this search still needed?
-
-ONGOING MAINT.
-Primary Source for New Search Development
-
-Threat Intelligence
-1. Efficient, Repeatable Process
-2. Dedicated, Ongoing Investment
-· Sporadic research is not enough · More searches = better!
-3. Re-evaluate Past Actors
-· We mature and so do they
-
-© 2019 SPLUNK INC.
-
-© 2019 SPLUNK INC.
-Test Detections
-Otherwise how do you know they work?
-Internal Pentest
-· Red Canary ­ Atomic Red Team
-­ https://github.com/redcanaryco/atomic-red-team/tr ee/master/atomics
-External Pentest
-· Simulate threat differently
-Annual Testing
-· Things change!
-
-© 2019 SPLUNK INC.
-
-Key Takeaways
-Why do I care again?
-
-1. Risk-based alerting will save you time
-and improve detection accuracy
-2. Use MITRE to build an "alert narrative" to
-understand the context around an event
-3. Investing more time in building a
-comprehensive risk framework will garner better results
-
-RBA Related Sessions
-
-© 2019 SPLUNK INC.
-
-SEC 1556 ­ Building Behavioral Detections: Cross-Correlating Suspicious Activity with the MITRE ATT&CK Framework
-­ Tuesday, October 22, 1:45 PM ­ 2:30 PM
-SEC1803 ­ Modernize and Mature Your SOC with Risk-Based Alerting
-­ Tuesday, October 22, 3:00 PM ­ 3:45 PM
-SEC1908 ­ Tales from a Threat Team: Lessons and Strategies for Succeeding with a Risk-Based Approach
-­ Wednesday, October 23, 3:00 PM ­ 3:45 PM
-Birds of the Feather ­ The RBA Community ­ join the RBA slack channel
-­ SUGARCANE Raw Bar Grill ­ Tuesday 6:30 ­ 8:30
-
-© 2019 SPLUNK INC.
-Q&A
-Bryan Turner | IT Security Analyst
-
-© 2019 SPLUNK INC.
-
-Thank
-
-You
-
-!
-
-Go to the .conf19 mobile app to
-
-RATE THIS SESSION
-
-

@@ -1,395 +1,0 @@
-  
-DAVI OTTENHEIMER
-FLYINGPENGUIN
-ID !  
-
-!
-§  §  § !
-
-  
-
-!
-
-2  
-
-!
-   3!!
-
-FLYIN!GPENGUIN  
-
-flying\fly"ing\, a. [ flyv.i.]
- 
-penguin\pen"guin\, n.
- !
-
-  
-
-!
-
-4  
-
-!
-   !
-
-1. 
-""" "
-2. 
-" "
-3. 
-!
-http://www.hhs.gov/ocr/privacy/hipaa/administrative/breachnotificationrule/ index.html!
-5  
-
-!
-" ..."
-- Electronic Frontier Foundation2012 !
-
-   ! https://www.eff.org/press/releases/eff-wins-protection-time-zone-databa6s e  !
-
- Davi  O-enheimer!
-
-/!
-
-§ Trustwave
-
-§ Ponemon
-
-§ Verizon § Trend Micro § Sophos § McAfee § Dell SecureWorks
-
-§ US States (NCSL) § privacyrights.org §  § HHS.gov
-
-§ AlienVault
-
-§ Secunia
-
-" HITECH  13402(e)(4) 
-
-
-
-500 
-
-"!
-
-http://www.ncsl.org/issues-research/telecom/security-breach-notification-laws.aspx, http://www.hhs.gov/ocr/privacy/ hipaa/administrative/breachnotificationrule/breachtool.html!
-
-  
-
-!
-
-7  
-
-TRUSTWAVE SPIDERLABS
-2012  WP  § 300  § 18 / § 20%  § 33% !
-
-  
-
-!
-
-8  
-
-VERIZON
-
-2011 
-§ 834 40% 25% 
-22% 
-§ 33,000 
-§ 54 /
-§ 
-§ 3% 50% § 65% § 19% § 12%
-
-  
-
-!
-
-9  
-
-TREND MICRO
-
-2011 
-§ ""
-§ 
-§ CVE-2011-3402 ­ CVSS 9.3 ­ TrueType win32k.sys § CVE-2011-3544 ­ CVSS 10.0 ­ JRE § CVE-2011-3414 ­ CVSS 7.8 ­ ASP.NET HashTable
-§ ""
-§  3.5 
-§  18% 15%
-"Lurid" Downloader2002  Enfal!
-
-  
-
-!
-
-10  
-
-SOPHOS
-2012  § 80%  § 67%  § 
-" [Conficker]  "
-§  12% 8% §  45% 26% §  PC !
-
-  
-
-!
-
-11  
-
-MCAFEE
-McAfee 2011  4  §  4  40  §  §  §  URL  2011  8  § 73% !
-
-  
-
-!
-
-12  
-
-!
-   13!!
-
-!
-§ 1854  
-§  "Ghost map" 
-§  !
-
-http://secretldn.wordpress.com/2011/09/10/the-broad-street-pump/!
-
-  
-
-!
-
-14  
-
-!
-· = 
-= !
-
-http://www.udel.edu/johnmack/frec480/cholera/cholera2.html!
-
-  
-
-!
-
-15  
-
-!
-
-  !
-
-   !
-
-!
-16  
-
-!
-
-  830    
-
-"    "!
-
-"...   (AHRQ)   []     830    --     23%"!
-
-http://www.darkreading.com/insider-threat/167801100/security/attacks-breaches/232200606/healthcare-data-in-critical-condition.html! http://www.thefiscaltimes.com/Articles/2010/08/19/The-Cost-of-Diabetes.aspx!
-
-  
-
-!
-
-17  
-
-!
- ! 830  ! !
-
-77%
-
-0%
-23%
-
-diabetes other breaches
-
-  
-
-!
-
-18  
-
-!
-
-
-§ 1911  § 1911  § 1921 4  § 1924  § 1932  § 1952  § 1956!
-
-https://truthaboutmornings.wordpress.com/2011/12/02/things-your-rearview-mirror-doesnt-show-you/ http://www.msnbc.msn.com/id/43074652/ns/business-autos/t/top-indycar-technologies/!
-
-  
-
-!
-
-19  
-
-!
-
-1983  1996    50%!
-
-!
-
-http://www.cdc.gov/motorvehiclesafety/seatbeltbrief/, http://www.nhtsa.gov/people/injury/airbags/Archive-04/PresBelt/ america_seatbelt.html!
-  
-
-!
-
-20  
-
-!
-
-" 50%"!
-
-§  500  = 3% §  = 8% §  = 10-25%
- 297  12 !
-
-50 %  
-
-http://www.cdc.gov/Features/VitalSigns/SeatbeltSafety/, http://www.nhtsa.gov/people/injury/airbags/208con2e.html!
-
-  
-
-!
-
-21  
-
-!
-   22!!
-
-TRUSTWAVE SPIDERLABS
-§ 78%  +  § 89%  § 76%  §  5  § 88% 12%  § SQL  § Password1 b/c " AD "
-
-  
-
-!
-
-23  
-
-VERIZON
-
-§   92% 99% 
-§   17% 1% 
-§ 85%  § 22% /
-§   0%2010  22%
-§ 
-§  49% §  50% §  29%
- 5%!
-
-  
-
-!
-
-24  
-
-VERIZON
-§  5-6  8-9   =  10%
-§ 85%  §  60%   2  §    5  §  4.7   
-!
-
-  
-
-!
-
-25  
-
-!
-http://www.datavis.ca/gallery/historical.php   http://www.pedropinto.org.s3.amazonaws.com/publications/locating_source_diffusion_networks.pdf!
-   !
-
-!
-
-1. 
-2. 
-§ VPN §  (BYOD) §  § 8044325 § /
-3.   4.  !
-
-  
-
-!
-
-27  
-
-!
-1.  2.  3.  4. 
-
-  
-
-!
-
-28  
-
-!
-
-1. 
-§ / § 
-2.  SQL  3.  4. 
-
-  
-
-!
-
-29  
-
-
-§ ... §  §  § 
-
-  
-
-!
-
-30  
-
-1200  Twitter 2011  10  12 !
-
-http://www.wired.co.uk/news/archive/2012-01/27/africa-twitter-traffic? utm_source=twitter&utm_medium=socialmedia&utm_campaign=twitterclickthru!
-  
-
-!
-
-31  
-
-!
-§ Black Hole RAT !
-
-   !
-
-!
-
-!
-
-32  
-
-!
-§  nmap nessus  metasploit !
-
-   !
-
-!
-33  
-
-!
-§  §  § 
-"[Koobface]   "
-
-http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-746.pdf http://www.nytimes.com/2012/01/17/technology/koobface-gang-that-used-facebook-to-spread-worm-operates-in-the-open.html?_r=1!
-
-  
-
-!
-
-34  
-
-!
-1.  2.  3.  4.  5. 
-
-  
-
-!
-
-35  
-
-  
-DAVI OTTENHEIMER
-FLYINGPENGUIN
-ID !  
-
-

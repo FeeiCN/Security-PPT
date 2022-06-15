@@ -1,234 +1,0 @@
- 
- | 2022.03.05
-
-
-
-20217 
-
-
-
- 
-
-
-
-5
-
-8
-
-12.9106App
-
-7
-
-11.24100+APP
-22218 120APPSDK
-
-
-
- APP  
-
-01 
-02  
-03  
-
- 
-  
-
-CONTENTS
-
-01 
-
-02 
-
-03 
-
-04 
-
-
-
-01 ""  
-02  
-
-01  App 
-02 API API
-03 API 
-
- 
-sdk 
-xxsdkxxsdkandriodId  xxsdkandriodId 
-
- 
-01 APP 02 APP 03 
-
-
- 
-API 
-
-
- API
-
-01  02 
-
-API
-  
-
-CONTENTS
-
-01 
-
-02 
-
-03 
-
-04 
-
-
-HTTPS
-HTTPSSSL/TLS+HTTP  HTTP HTTPS""
- HTTPS  HTTPS
-
-
-  
- filter  
-
-
- 
-
-CONTENTS
-
-01 
-
-02 
-
-03 
-
-04 
-
-
-
-     
-
-     
-
- 
-
-  Namespace 
-
- 
-
- 
-
- 
-
-
-
- KV
- Keycenter 
-
-
-
-01
-   
-03
- 
-
-02
- 
-04
- 
-
- 
-
-
- 
-
-qps10W+
-
-qps1w+
-
-
-20G
-
-KeycenterKeycenter
-
-KeyCenter
-
-
-
-
- 
-
-
-AES-CBCAES-GCM SM4
-
-
-RSArsawithsha256 SM2 ( ECIESECIESwithAES-CBC  ECIES
-
-MYSQL
-
-
-
-
-
-
-
-
-
-CONTENTS
-
-01 
-
-02 
-
-03 
-
-04 
-
-
- 
-    
-
-KAuth 
-
-/  10+ 
-
- Push
-
-IM 
-
- 
-
-
-
-: 1500 +: 3,300,000+ QPS 1.70+300+
-
-KAuth 
-
-
-  IM 
-
- QPS 3M+  P995 300us
-
- 
- > 95%
-
-
-
-
- 
-/  
-
-
-
-  
-  HSM   HSM
-HSM Keycenter
- 
-
-/
-  
-
- ­ HSM  ­ PCI-DSSEMVGDPR   ­ 
-
-Thanks !
-
-

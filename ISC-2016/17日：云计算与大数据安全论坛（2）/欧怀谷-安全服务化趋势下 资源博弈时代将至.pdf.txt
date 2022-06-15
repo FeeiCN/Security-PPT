@@ -1,131 +1,0 @@
-   
-
-
-
-·  ·  ·  · CDN ·  · 
-
-20192.1
-Juniper research recently predicted that the rapid digitization of consumers' lives and enterprise records will
-increase the cost of data breaches to $2.1 trillion
-globally by 2019, increasing to almost four times the estimated cost of breaches in 2015.
-
-T
-
-
-    
-
-----Web
-
-----DDoS
-
-
-
-
-
-
-
-
-
-
-
-
-
-ISP/IDCMSSP 
-CDN
-CDN
-
-CDN
-
- 
-
- 
-
- 
-
-CDN+IDC+
-
-----
-
-WEB
-
-
-· Anti-DDoS · DNS  · WAF ...
-
-
- 
-
-
-
-
-
- /  
-
-
-
-
-
-· 
-
-· 
-
-·  · 
-
-· 
-
-· 
-
-· 
-
-· 
-
-·  · 
-
-· 
-
-· 
-
-· 
-
-· 
-
-· 
-
-·  · 
-
-· 
-
-· 
-
-· 
-
-·  · 
-
-·  ·  · 
-
- 500Gbps DDoS
-· 2006-6-25250GbpsDDoS25 469Gbps28491Gbps
-· SYN floodHTTP 
-
-
-
- ·  ·  · CDN · G · BGP Anycast
-
- · DDoS · Web ·  · 
-
- ·  ·  ·  · 
-
-
-
-
-Smart Service
-
-
-
-
-
- 1H2016
-· DDoS · <50GbpsDDoS · >400GbpsDDoS · HTTPSWeb · SQLWebTop3 · IoTDDoS · CC
-
-THANK YOU
-
-

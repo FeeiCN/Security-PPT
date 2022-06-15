@@ -1,215 +1,0 @@
-       
- TBsoft
-
-    
-              
-
-  
-
-  
-· 3GWi-Fi 
-·  · 315MHz · 433MHz
-
-ISM  
-· ISM   ­ 433MHz   ­ 915MHz   ­ 2.4GHz   ­ 5.8GHz  
-· ITU-R  
-
-  
-·    ­ 315MHzITU-R 433MHz    · 80   · 70   · ASK   ­ 2.4GHz5.00  
-
-  
-·    ­   
-· 1s   ­   
-·    ­ ASKFSKGFSK......  
-
-  
-
-  
-
-  
-
-50--60DIY  
-
-  
-
-     
-
-  
-
-LC  
-
-     
-
-  
-
-     
-
-  
-
-  
-
-  
-
-IF  
-
-  
-
-LNA  
-
-     
-
-  
-
-     
-
-OSC  
-
-     
-
-  
-  
-·    · ----LC
-   ·    · ----  
-  
-· ----  
-
-  
-
-LNA  
-
-AD  
-
-     
-
-AD300MHz     
-
-  
-
-   IF     
-
-LNA  
-
-  
-
-AD  
-
-     
-
-OSC  
-
-   70MHzAD  
-
-  
-
-  
-  
-·AD  
-·DSP  
-· FPGA  
-
-  
-  
-·FFT   
-·  
-·  
-
-  
-
-  
-  
-
-     
-
-  
-
-     
-
-  
-  
-
-   
-
-  
-
-  
-
-  
-AD     
-
-LNA  
-
-  
-
-AD  
-
-   
-
-OSC  
-
-FFT        
-
-ISM   
-ADISM   70MHz     
-
-LNA  
-
-  
-
-AD  
-
-  
-
-OSC  
-
-FFT        
-
-  
-
-  
-
-     
-
-  
-
-     
-
-DSP  
-
-""  
-· GNU  Radio   ­ http://gnuradio.org   ­    ­   
-
-""433MHz  ISM  
-PC  
-
-BPF  
-
-USB  2.0   CY7C68013A  
-
-LNA      LPF&IF  Amp.   AD  
-
-FPGA  
-
-UPC1651   NE602  
-
-AD812   AD9226   EP3C25E144  
-
-OSC  
-
-RAM  
-
-  
-
-  
-      SDMA     
-
-  
-
-  
-  
-""  
-   ""99%   1%1%  
-
-     
-tbsoft@antiy.com  
-
-

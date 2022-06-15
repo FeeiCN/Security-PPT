@@ -1,60 +1,0 @@
-Web
-Safe3 http://wangzhan.360.cn
-
-
-· Web · Web · Web
-
-
-· 
-­ web(Discuzphpmyadmin) ­  ­ Web server ­ () ­ () ­ Web(Struct2) ­ DNS
-
-1
-· Struts2
-http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0394 jsp 
-
-2
-· DDOS
-
-
-· web :
-1. web 2.0 js worm  2. web 3. http flood 4. DNS ddos 5. webshellwebshell
-
-
-· Web · Web · Web
-
-WAF
-· Barracuda Imperva  · ModSecurity  · Cloudflare · phpidsdotnetids
-
-WAF
-· 
-DDOS
-· 
-DDOS
-· 
-DDOS
-· 
-DDOS
-
-· 
-
-WAF
-
-Cloudflare(1035PV12% )
-
-360 
-
-
-· Web · Web · Web
-
-
-· 
-1. ddos 2. ip 3. 0day 4. 
-
-Q&A
-
-
-71D1 100025
-Block 1, Area D, Huitong Times Plaza No.71 JianGuo Road, ChaoYang District Beijing 100025, P.R.C.
-Tel: +86 10 5878 1000 Fax: +86 10 5878 1001
-
-

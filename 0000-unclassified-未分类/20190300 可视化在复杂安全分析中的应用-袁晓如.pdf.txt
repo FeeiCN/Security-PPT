@@ -1,299 +1,0 @@
-   
-
-Commissioner Garrets Investigation Board
-
-
-·
-
-
- Data
- Image
-
- Insights
- Mental Model
- Visualization
-
-
-Cleveland & McGill's Results
-
-·
-Positions
-
-1.0
-
-1.5
-
-2.0
-
-2.5
-
-3.0
-
-Log Error
-
-Crowdsourced Results
-
-Angles
-Circular areas
-Rectangular areas
-(aligned or in a treemap)
-
-[Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design. Heer and Bostock. Proc ACM Conf. Human Factors in Computing Systems (CHI) 2010, p. 203­212.]
-
-1.0
-
-1.5
-
-2.0
-
-2.5
-
-3.0
-
-Log Error
-
-VAST Challenge 2017
-· 
-­ Rose-crested Blue Pipit Boonsong Lekagul  
-­  Mitch 
-
-VAST Challenge 2017
-· 
-­  ­  ­ 
-· 
-­  ­  ­ 
-· 40 · 13 · 17 · 18,708
-
-Mitch
-
-VAST Challenge 2017
-·  Mitch · 
-
-
-VAST Challenge 2017
-· ""
-
-
-
-
-
-
-
- 
-
- 
-
-VAST Challenge 2017
-
-· 
-­  ·  ·  ·  40*18708 
-­  ·  t-SNE  · 
-­  ·  · 
-
-Vehicle ID Car_1 Car_2 Truck_1 Truck_2 Truck_3
-
-Sensor_1 3 4 16 18 20
-
-Sensor_2 10 14 0 1 0
-
-Sensor_3 0 1 8 6 9
-
-
-
-VAST Challenge 2017
-· 
-
-""
-
-
-·   
-­ ""
-
-VAST Challenge 2017
-· ""
-­  ­  Gate 
-
-
- 
-
-VAST Challenge 2017
-
-· ""
-­  ·   Gate  · 
-­  ­  
-·  
-
-
-
-
- 
-
-VAST Challenge 2017
-· ""
-­ 23 ­ 
-· 1~3 · 2~5 · 1 ­  ·  ·  
-·   
-
- 
-
-VAST Challenge 2017
-
-· 
-
-­ 
-
-
-
-·  Methylosmolene 
-
-­ 
-
-·  Methylosmolene 
-
-­ 
-
-·  
-
-· 
-­ 
-
- ""
-
-­ 
-
-­ 
-
-­ 
-
-
-·  (Visual analytics is the science of analytical reasoning facilitated by interactive visual interfaces)
-·  (Synthesize information and derive insight from massive, dynamic, ambiguous, and often conflicting data)
-·  (Detect the expected and discover the unexpected) ·  (Provide timely, defensible, and
-understandable assessments) ·  (Communicate assessment effectively
-for action)
-
-
-·  · 
-
-
-Sacha, D.; Senaratne, H.; Kwon, B.C.; Ellis, G.; Keim, D.A., "The Role of Uncertainty, Awareness, and Trust in Visual Analytics," in IEEE Transactions on Visualization and Computer Graphics,VAST2015,
-
- ­ 
-(a)  (b) IP (c)  (d)  (e)  (f )  (g) 
-
- ­ Treemap
-· 
-­   IP
-­ IP 
-­  IP
-­  
-· 
-­ 2008511 120    SSH 
-
- ­ 1 VizAlert
-· 3W
-­ What
-·  
-­ Where
-· IP
-­ When
-· 
-· 
-­  ­  ­ 
-Foresti, S.; Agutter, J.; Livnat, Y.; Moon, S. & Erbacher, R. F. Visual Correlation of Network Alerts IEEE Computer Graphics and Applications, 2006, 26, 48-59
-
-
-
-   IP IP IP 
-
-AnNetTe - Collaboration oriented visualization of network data Siming Chen, Fabian Merkle, Hanna Schaefer, Cong Guo, Hongwei Ai,
-Xiaoru Yuan, Thomas Ertl In Proceedings of the Eleventh Workshop on Visualization for Cyber Security (VizSec'14).
-
-1--DDoS
-· DoS1
-­  IP  
-­  
-­ 
-· DoS2
-­ IP IP IP
-
-1--DDoS
-· DoS3
-­ 80 ­ DDoS
-
-2--
-
-· (a)
-· (b, c)-E1IP  IPDoS
-· (d)-E2DoS IP SSH10.0.3.77 C&C)
-· (e, f)-E3 IP  IP 
-· (g)
-
-
-
-
-
-
-
-
-
-
-
-Tim Draper Auction
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-·      
-
- 
-
- 
-
-
-
-
-
-
-Top Ten Challenges of Extreme Scale Visual Analytics
-1. In situ interactive analysis  2. User-Driven Data Reduction  3. Scalability and Multi-Level Hierarchy  4. Representation of Evidence and Uncertainty  5. Heterogeneous Data Fusion  6. Data Summarization and Triage for Interactive Query 
- 7. Analytics of Temporally Evolving Features  8. The Human Bottleneck  9. Design and Engineering Development  10.The Renaissance of Conventional Wisdom 
-Pak Chung Wong, Han-Wei Shen, Christopher R. Johnson, Chaomei Chen, and Robert B. Ross, "Top Ten Challenges in Extreme-Scale Visual Analytics," IEEE Computer Graphics and Applications, 32(4):63-67, July 2012.
-
-  AIVIS
-
-  ARVIS
-
-
-http://chinavis.org/2018/ 201872628 
-
-
-· http://vis.pku.edu.cn/wiki xiaoru.yuan@pku.edu.cn/ ""
-
-

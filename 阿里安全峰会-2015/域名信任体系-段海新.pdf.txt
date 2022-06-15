@@ -1,570 +1,0 @@
-     
-----DNS
-     
-2015
-
-
-·    · DNS   · ICANNDNSSEC   ·   
-
-Cyberspace
-·    
-·  
----- 20155
-
-Trust
-
-·    ­Truth   ­Reliability   ­Ability   Strength  
-
-Trust  Fall
-
-Firm belief in the reliability, truth, ability, or strength of someone or something-oxford dictionary
-
-
-
-
-
-
-
-
-
-
-
-Trust  Anchors
-· DNS  
-­ IP   ­    ­    ­   
-· CerAficate  Authority,  CA  
-­    ­    ­ CA  
-
-DNSCA
-
-DNS  :  
-
-CA
-
-  CA?  
-
-
-·    · DNS   · ICANNDNSSEC   ·   
-
-DNS  
-
-/  
-­ Cache,  Recursive  
-
-
-UDP AuthoritaAveRoot,   TLD,  ...      
-
-Recursive   (Cache)  
-
-www.tsinghua.edu.cn  
-ccTLD   CN  
-
-.  
-gTLD   NET  
-
-Stub   resolver  
-hNp://www.tsinghua.edu.cn  
-
-edu.cn     tsinghua.du.cn     www.tsinghua.du.cn    
-
-cernet.net    
-
-DNSaNack  surface
-
-   
-5.   
-Recursive   (Cache)  
-
-3.  
-
- 
-4.  
-.    Root  
-
-cn  
-
-gTLD  
-
-Stub   resolver  
-
-2.  /
-
-1.  /DoS
-
-
-
-edu.cn  
-
-DNS
-//Server,   Root     
-
-/Root
-· US  GOV  -->  NSF  -->  Network  SoluAons  Inc.(NSI)    
-­   
-· ccTLD  =>  Jon  Postel,  RFC  1591(1994)  
-­      ­ IAB  Review  CommiNee     ­ .IQ    
-· Hijacking  of  Root  by  Jon  Postel,  1998  
-­ 8rootIANANSI   ­ Jon  Root    
-IQ     hNp://netsec.ccert.edu.cn/duanhx/archives/1850
-
-Root  Servers  (anycast  instances)
-
-Root    
-
-a.root--servers.net.   (198.41.0.4)  
-AS  
-ISP1  
-
-ISP3  
-AnyCast
-
-a.root--servers.net.   (198.41.0.4)  
-AS  
-
-ISP2  
-
-a.root--servers.net.   (198.41.0.4)  
-
-Stub   resolver  
-
-Stub   resolver  
-
-14  
-
-Root  CERNET  &  Europe,  2012  
-
-· Root  DNS  delay  in   CERNET  
-
-· Root  Delay  in  Europe    
-
-M(300ms)Root  <  30ms
-
- 100--200ms
-
-J.  Liang,  J.  Jiang,  H.  Duan,  K.  Li,  and  J.  Wu,  "Measuring  query  latency  of  top  level  DNS   servers,"  presented  at  the  PAM'13:  Proceedings  of  the  14th  internaAonal  conference  on   Passive  and  AcAve  Measurement,  2013.
-
-DNS
-  
-
-...
-
-From:Paul  A  Vixie[SMTP:paul@vix.com]   Sent:Thursday,  October  31,  1996  12:56  PM   To:newdom@vrx.net   Subject:requirements  for  parAcipaAon      I  have  told  the  IANA  and  I  have  told  InterNIC  ----   now  I'll  tell  you  kind  folks.      If  IANA's  proposal  stagnates  past  January  15,   1997,  without  obvious  progressand  actual   registries  being  licensed  or  in  the  process  of  being   licensed,  I  will  declare  the  cause  lost.    At  that   point  it  will  be  up  to  a  consorAum  of  Internet  
-providers,  probably  through  CIX  if  I  can   convince  them  to  take  up  this  cause,  to  tell   me  what  I  ought  to  put  into  the  "root.cache"   file  that  I  ship  with  BIND.  
-hNps://www.iet.org/mail--archive/text/iet/ 1996--11
-
-Paul  Vixie   Author  of  BIND   Chair  of  SAC  of   ICANN  
-ORSN  (2002--2008,  2013--)   (Open  Root  Server  Network)
-As  a  long  Ame  supporter  of  the   universal  namespace  operated  by   IANA,  it  may  come  as  a  surprise  that  I   have  joined  the  Open  Root  Server   Network  project  (ORSN).  I'll  try  to   explain  what's  going  on  and  what  it  all   means.
-
-DNS  
-
-ISPNXDOMAIN
-N.  Weaver,  V.  Paxson,  and  C.  Kreibich,  "RedirecAng  DNS  for  Ads  and  Profit,"  presented  at  the   Proceedings  of  the  20th  USENIX  Security  Symposium"s  Workshop  on  Free  and  Open   CommunicaAons  on  the  Internet  (FOCI  "11),  2011.
-
-DNS
-  
-
-[dDnNsS--o-pOepreaAraotnios]n  Os dRde  bpeohrat v(i2o4urM  oanrc  ohne2  0n1o0d)e  in   I  root--server   (facebook,  youtube  &  twiNer)
-Hi there! A local ISP has told us that there's some strange behavior with at least one node in i.root-servers.net (traceroute shows mostly China) It seems that when you ask A records for facebook, youtube or twitter, you get an IP and not the referral for .com
-It doesn't happen every time, but we have confirmed this on 4 different connectivity places (3 in Chile, one in California)
-This problem has been reported to Autonomica/Netnod but I don't know if anyone else is seeing this issue.
-This is an example of what are we seeing:
-$ dig @i.root-servers.net www.facebook.com A ; .... ANSWER SECTION: www.facebook.com. 86400 IN A 8.7.198.45
-Mauricio Vergara Ereche Santiago CHILE
-hNps://lists.dns--oarc.net/pipermail/dns--operaAons/2010--March/005260.html
-
-facebook.com   
-
-Root  Servers  in  China  
-2013:    4(BJ)  +  5(HK)  +  3(TW)  =  12                         2013:    4(BJ)  +  5(HK)  +  3(TW)  =  12                        
-
-
-
-simdee-$fiton  d-eliidgve  nm(saT n T  cyLeR)rnRvealttu.ynepeeastn. d @Sspaoem.cgietfiltdcya-p-lsleey-,rspvAeecraisnfi.dcnet   asso;c;i  AatUe Ta HnaOmReITwYit  hSEIPCvT4IOanNd: I  Pv6 addresses; egatecsearnseubt.-nzoente. to o  NneS or  nms2or.enenta.meeduse.crvne.r  s.
-
-cernet.net. net.edu.cn.
-
-namcer(ntyepti.cnaellty. its A  NrSeco  drdn)si.nevdoulv.ecsna. client
-
-edu.cn.
-
-sending a DNS query to a recursive resolver
-
-hort$),  dwighi  nchs   t ehdenu.ictenra   tively goes through the y. As;s;u  AmNinSgWaEnRe m SEpCtyTcIOacNhe:,   the resolver starts ndthtehenedcufoo.rlclrnoews.pson  tNhdeSingna  Samu6te.he'sodrdiutea.lcteinvge.a  tsieornvecrhs,aifnrotmo lverefidnua.lclyn.get s NaSnsw  NerS.2.CUHK.EDU.HK.   nt de...ta.i.l   is that DNS delegation is designed by
-
-dfn.de. tu-berlin.de.
-
-cuhk.hk. cuhk.edu.hk. hk.
-
-cn. dns.cn.
-
-meanesduth.ecnd.ele g NaStion  DrEecNoErdB.(Di.eF.N,.DNES. record)
-
-g zone (i.e. , the parent zone) only gives names
-
-de.
-
-win-ip.dfn.de.
-
-hkirc.net.hk.
-
-dresses of authoritative servers of the delegated
-
-child zone). While in some cases, the resolver other round of iteration to resolve an NS name;
-
-nic.de.
-
-de.net.
-
-pch.net.
-
-hkdnr.hk.
-
-me is under the child zone, this is infeasible
-
-denic.de.
-
-net.
-
-lf-loop. For example, if zone example.com
-
-hkdnr.net.hk.
-
-ns.example.com, since the name is under the
-
-olving example.com requests the address of
-
-gtld-servers.net.
-
-.
-
-.com wJ.h  Jiicahnigs,c   i Lrc. u Jlinarjliyn,d  e  Dpe.,n  Hdeanitxoinn, r   eAsnolavl-ysis  and  Measurement  of  Zone  Dependency  in  the  
-
-.com. IDnothmisacians e Ntahme pea r Seynsttzeomne,m    2u0s1t p3r  ovide Fig. 1. Dependency graphs of cernet.net. Gessential includes the
-
-source node, bold nodes and edges; Gcritical includes Gessential plus solid
-
-.CN  
-$  dig      ns      ac.cn         ;;  QUESTION  SECTION:   ;ac.cn.            IN   NS      ;;  ANSWER  SECTION:   ac.cn.         86400   IN   NS   d.dns.cn.   ac.cn.         86400   IN   NS   cns.cernet.net.   ac.cn.         86400   IN   NS   a.dns.cn.   ac.cn.         86400   IN   NS   e.dns.cn.   ac.cn.         86400   IN   NS   b.dns.cn.   ac.cn.         86400   IN   NS   c.dns.cn.     
-
-
-   '16 
-
- 117
-
-ezdns.pm. ezdns.la. ezdns.ms.
-ezdns.gs.
-
-ezdns.so.
-
-ezdns.re.
-
-so.
-
-ezdns.me.
-
-ezdns.yt.
-
-ezdns.es.
-
-nic.es.
-
-es. cesca.es.
-
-ezdns.wf.
-
-ezdns.pl.
-
-switch.ch.
-
-rediris.es.
-
-zoink.it.
-
-fccn.pt.
-
-ezdns.sx. ezdns.it.
-
-pl. sx.
-
-dns.br.
-
-ms.
-
-nlnetlabs.nl.
-
-pt.
-
-it.
-
-ns.sx.
-
-dns.pt.
-
-dns.it.
-
-ezdns.tf.
-
-uoregon.edu.
-
-br.
-
-mninet.ms.
-
-tednet.nl.
-
-inesc.pt.
-
-nic.it.
-
-arizona.edu.
-
-lsu.edu.
-
-domain-registry.nl.
-
-linkcom.pt.
-
-inescn.pt.
-
-cnr.it.
-
-me. cctld.afilias-nst.org.
-
-uits.arizona.edu.
-
-purdue.edu.
-
-sidn.nl.
-
-nl.net.
-
-link.pt.
-
-ge.cnr.it.
-
-nic.cl.
-
-la.
-
-u.arizona.edu.
-
-rice.edu.
-
-surfnet.nl.
-
-gs.
-
-nl.uu.net.
-
-cl.
-
-nic.la.
-
-edu.
-
-dyn.com.
-
-nl.
-
-re.
-
-communitydns.net.
-
-wf.
-
-surf.net.
-
-nic.gs.
-
-ripe.net.
-
-uu.net.
-
-tf.
-
-yt.
-
-pm.
-
-nic.me.
-
-afilias-nst.org.
-
-cctld.afilias-nst.info.
-
-isc.org. org.
-
-dnsnode.net. netnod.se.
-
-centralnic-dns.com.
-
-edu-servers.net.
-
-nstld.net.
-
-inone.com.
-
-uk.
-
-pch.net. centralnic.net.
-
-mydyndns.org. ns13.net.
-
-icb.co.uk.
-
-dynect.net. dynamicnetworkservices.net.
-
-dyntld.net.
-
-ja.net.
-
-apnic.net.
-
-apnic.com.
-
-arin.net.
-
-nic.fr. fr.
-
-hkg1.afilias-nst.info.
-
-afilias-nst.info.
-
-org.afilias-nst.info.
-
-nstld.com.
-
-nic.uk.
-
-nettica.com.
-
-net.
-
-org.afilias-nst.org.
-
-se.
-
-com.
-
-sea1.afilias-nst.info.
-
-mia1.afilias-nst.info.
-
-info. info.afilias-nst.org.
-
-ch. .
-
-gtld-servers.net.
-
-yyz1.afilias-nst.info.
-
-info.afilias-nst.info.
-
-ams1.afilias-nst.info.
-
-
-·    · DNS   · ICANNDNSSEC   ·   
-
-ICANN:  DNSTrust  Anchor  
-ICANN
-
-Department  of  Commerce:   RelaAonship  with  ICANN,  2000
-hNp://www.gao.gov/new.items/og00033r.pdf
-
-XXXGovICANN
-· 2000,  ICANN  TLDPOC   · 2000,  ICM  Registry    .kids      .xxx   · 2003,  ICM  ICANNsTLD   · 2005,  ICANNXXX   · ...   · 2010,  ICANN  ICMXXX  
-[0]  .xxxicanncase:  hNp://netsec.ccert.edu.cn/duanhx/ archives/1881   [1]  DelegaAon  of  the  .XXX  top--level  domain   hNp://www.iana.org/reports/2011/xxx-- report--20110407.pdf   [2]  Accountability  and  Transparency  at  ICANN  An  Independent  Review.  Appendix  D:   The  .xxx  Domain  Case  and  ICANN  Decision--Making  Processes  hNp://cyber.law.harvard.edu/ pubrelease/icann/pdfs/AppendixD_xxx.pdf
-
-ICANNGAC
-· ICANNRoot  DNSTrust  Anchor   · GAC  
-­ GACICANN   
-­  GACGAC   
-ICANN  hNps://www.icann.org/resources/pages/ bylaws--2012--02--25--zh#XI
-
-   DNSSEC  :  DNS  
-
-
-DNSSEC  
-
-· Clients(resolvers)   validate  the  signature   with  their  public  keys  
-
-· Servers  sign  all  the  DNS   records  with  their   private  Keys  
-
-User  Trust  Root  servers,  the  only  trust  anchor    
-
-.  
-
-Recursive   Cache  
-
-example.net  NS  a.iana--servers.net.  
-
-NET  
-
-example.net  RRSIG  bFhV....0Y3NI  
-
-DNSSEC  enabled  
-
-Stub  resolver  
-
-examle.net    
-
-Paul Vixie, November 2002:
-
-Paul Vixie, June 1995:
-This sounds simple but it has deep reaching consequences in both the protocol and the implementation-- which is why it's taken more than a year to choose a security model and design a solution. We expect it to be another year before DNSSEC is in wide use on the leading edge, and at least a year after that before its use is commonplace on the Internet.
-BIND 8.2 blurb, March 1999:
-[Top feature:] Preliminary DNSSEC.
-BIND 9 blurb, September 2000:
-[Top feature:] DNSSEC.
-
-We are still doing basic research on what kind of data model will work for DNS security. After three or four times of saying "NOW we've got it, THIS TIME for sure" there's finally some humility in the picture
-"Wonder if THIS'll work?"
-It's impossible to know how many more flag days we'll have before it's safe to burn ROMs It sure isn't plain old SIG+KEY, and it sure isn't DS as currently specified. When will it be? We don't know.
-2535 is already dead and buried. There is no installed base. We're starting from scratch.
-
-DNSSEC    
-
-Trusted  Community  RepresentaAves
-
-Crypto  Officers  for  the  US  East  Coast  Facility  
-
-· Alain  Aina,  BJ  
-
-· Anne--Marie  Eklund  Löwinder,  SE  
-
-· Frederico  Neves,  BR  
-
-· Gaurab  Upadhaya,  NP  
-
-· Olaf  Kolkman,  NL  
-
-· Robert  Seastrom,  US   · Vinton  Cerf,  US  
-  
-Crypto  Officers  for  the  US  West  Coast  Facility   · Andy  Linton,  NZ   · Carlos  MarAnez,  UY   · Dmitry  Burkov,  RU   · Edward  Lewis,  US   · João  Luis  Silva  Damas,  PT   · Masato  Minda,  JP  
-
-Recovery  Key  Share  Holders  
-   · Bevil  Wooding,  TT   · Dan  Kaminsky,  US   · Jiankang  Yao,  CN   · Moussa  Guebre,  BF   · Norm  Ritchie,  CA   · Ondej  Surý,  CZ   · Paul  Kane,  UK
-
-· Subramanian  Moonesamy,  MU
-
-hNp://www.root--dnssec.org/index.html
-
-DNSSEC  ValidaAon  Rate  by  country  (%)
-hNp://stats.labs.apnic.net/dnssec
-
-DNSSEC
-· .CN   
-·    
-
-
-·  DNS  
-·  DNS  
-·    
-·    
-
-Do  you  trust  what  you  think  you   can  trust  ?  
-  
-duanhx@tsinghua.edu.cn
-
-

@@ -1,74 +1,0 @@
-An MSSP's Guide to ATT&CK
-Scott McKean ­ Chief Security Officer ­ Interactive
-
-Scott McKean Chief Security Officer - Interactive
-
-smckean@interactive.com.au @cyb3rsqu1ddy
-https://www.linkedin.com/in/scott-mckean-cyber/
-
-Agenda
-· The problem · So what? · Utilising ATT&CK · What does the customer see? · Kaizen (Continuous improvement) · The result · How do I start?
-
-The problem
-· MSSP's have done a poor job helping customers understand:
-· Their current risk profile / business context · How they should start addressing these risks · How to measure the effectiveness of their security program
-
-So what?
-· Customers see Cyber Security as a 'Black Box' · Making it hard for MSSP's to demonstrate value · Organisations believe "That won't happen to us!" so it lacks focus
-
-Utilising ATT&CK
-· Focus our efforts on what 'matters most' to our customers · Validating data ­ increasing confidence of detections · Demystifying 24x7 Security Operations
-
-What does the customer see?
-
-Customers don't need it dumbed down ­ they need context.
-Threats common in their industry APT Groups and `modus operandi' TTP's used by APT's
-
-NIST Cyber Security Framework Maturity
-9
-
-Develop a Risk Register
-10
-
-Now for ATT&CK
-
-Techniques common for this customer's context APT19
-This is the beginning of our Heatmap
-
-Kaizen - Improving detection capability utilising ATT&CK
-
-Mapping data sources to Event Logs
-https://docs.google.com/spreadsheets/d/1ow7YRDEDJs67kcKMZZ66_5z1ipJry9QrsDQkjQvizJM/edit#gid=0
-
-Prioritise based on Top15 + Customers context
-https://github.com/Cyb3rWard0g/ATTACK-Python-Client/tree/master/notebooks
-
-Focus on what is important
-Customer specific Heatmap
-
-Track progress over time
-
-The result
-· We can prove we will deliver exactly what we say we will deliver 'No smoke and mirrors'
-· Our customers can understand how we prioritise effort
-· Our customers can hold us to account
-· Our customers are engaged and invested in the process
-
-How do you start?
-· Have a process to understand the quality of your customers data
-· Help your customer understand how to increase the effectiveness with ATT&CK
-· Help your analyst's understand the value that you are delivering
-· Develop a process to engage your customer on what is important to THEM!
-
-The future
-· No longer a 'Black Box' · Demonstrable value · Build confidence and trust
-
-Thank you ­ The shoulders of the giants we've stood on.
-· @Cyb3rWard0g · @olafhartong · @Neo23x0 · @darkoperator · And many more....
-
-Scott McKean Chief Security Officer - Interactive
-
-smckean@interactive.com.au @cyb3rsqu1ddy
-https://www.linkedin.com/in/scott-mckean-cyber/
-
-

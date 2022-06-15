@@ -1,694 +1,0 @@
-
-
-
-Rethinking of mobile app architecture
-Presented by Geek-Zoo Studio 2015 @ QCON
-
- | @ https://github.com/gavinkwoe
-The creator of BeeFramework & samurai-native. from Geek-Zoo Studio. A coder, a geek, a ghost of samurai in human shell.
-
-Review the history
-
-1994
-- 20 years ago - Netscape navigator was released. - People can build web page using HTML+CSS.
-
-2008
-- 7 years ago - Apple iOS was released. - People can build iOS native app using C/OC.
-
-2011
-- 4 years ago - Adobe PhoneGap was released. - People can build iOS hybrid app using HTML+CSS.
-
-2013
-- 2 years ago - GeekZoo BeeFramework was released. - People can build iOS hybrid app using XML+CSS.
-
-2015
-- 1 month ago - Facebook react-native was released. - People can build iOS hybrid app using JS+CSS.
-
-Today
-We need to re-thinking about app architecture ...
-
-Problem
-
-?
-Native
-
-Hybrid
-
-We try to build native apps, over times get more complicated and more people to the team, it breaks down.
-
-Native
-· Well · Good user experience · Low level API
-· Less well · Hard to deploy · High learning cost
-
-Native
-
-?
-Hybrid
-
-We try to build web apps using thin native API wrappers, but it doesn't work. The problem is the user experience.
-
-Hybrid
-· Well · Cross platform · Easy to deploy
-· Less well · Bad user experience · Low learning cost
-
-The Fish & Bear problem
-User experience
-Human/Time cost
-
-Native + Hybrid ?
-
-?
-
-Native
-
-Hybrid
-
-The Fish & Bear answer
-User experience
-Human/Time cost
-
-Semi-Hybrid solution
-
-Native
-
-HTML5
-
-Native
-
-React Native
-
-The reason why we built React-Native. We want to get the best part of native and web.
-
-The mission is to build a good enough native framework + web-core.
-
-We call it `Semi-Hybrid'
-
-Hybrid vs Semi-Hybrid
-
-Your application Web-View Web-Core
-Hybrid
-
-Your application Web-Core
-Semi-Hybrid
-
-Traditional hybrid app
-
-URL
-
-Loader
-
-HTML, CSS
-
-Parser
-
-DOM, StyleSheet
-
-Renderer
-
-Render tree
-
-Painter
-
-Display
-
-Traditional hybrid app
-
-WebView
-
-Your application Bridge
-
-Semi-hybrid app
-
-URL
-
-Loader
-
-HTML Parser
-
-DOM, StyleSheet
-
-Renderer
-
-Render tree Builder
-
-Native view
-
-Semi-hybrid app
-
-Your application
-
-Module
-
-Module
-
-Module
-
-iOS/android
-
-Module
-
-The key difference
-
-UIML + ...
-Input
-
-Web-Core
-Process
-
-Native View
-Output
-
-The key difference
-
-Stylesheets
-styleshee styleshee styleshee
-
-Dom tree
-htm
-
-hea
-
-bo
-
-a
-
-a
-
-h1
-
-h1
-
-"hell
-
-Render tree
-Render
-
-View tree
-UIScroll
-
-Render
-
-Rende
-
-Rende
-
-Rende
-
-UIView UIView UILabel
-
-Well
-· Good user experience · Good performance · Good expansibility · Rapid development (HTML+CSS) · Easy to deploy, and easy to share · Low level API
-
-Less well
-· High R&D costs (WebCore) · High maintenance costs (WebCore) · Stack is too deep · Need to learn basic front-end & basic iOS knowledge
-
-Features of Semi-Hybrid
-· Support HTML/CSS or other UIML syntax · Support native components · Support gesture handling · Remote update & live reload
-
-New things
-
-2015
-
-2015
-
-The similarity
-· Private Web-Core (No WebView)
- · Support HTML+CSS or UIML
- · Support native components
- · UIKit as a backend
-
-react-native
-
-JS/JSX +
-ReactJS
-Input
-
-Process
-
-Native View Tree
-Output
-
-React UIML = JS/JSX + CSS-layout
-
-samurai-native
-
-XML/CSS +
-Objective-C
-Input
-
-Process
-
-Native View Tree
-Output
-
-Samurai UIML = Standard HTML + Standard CSS
-
-3 pillar
-
-Style & Layout
-
-Touch Handling
-
-Native Components
-
-Style & layout
-
-JSX + CSS-layout
-
-HTML + CSS2/3
-
-Style & layout
-
-· Box-model
- · Absolute/Relative positioning
- · ShadowNode / css_node
- · FlexBox layout
-
-· Box-model
- · Absolute/Relative positioning
- · WebKit architecture
- · Fluid layout
-
-Style & layout
-
-No DOM
-
-Shado w
-
-View
-
-DOM
-
-DOM
-
-Render
-
-View
-
-css node
-
-Style
-
-Touch handling
-
-UIView mask
-<TouchableHighlight/> : RCTView
-<Text/> : RCTText
-
-Gesture recognizer
-UIView + iOS gesture recognizer
-
-Touch handling - react-native
-
-Window
-Root ViewController
-RCTRootView
-
-Your application
-
-Timer 60 fps
-
-Event Queue
-
-RCTTouchHandler
-
-RCTBridge
-
-_onPress
-JS Part
-Native Part
-
-Touch handling - samurai-native
-
-View Controller
-
-handleSignal:
-
-Root View
-
-Sub View
-
-Signal Bus sendSignal:
-
-touchesBegan : withEvent:
-
-Responder chain
-
-Native components
-
-Custom components
-
-Native components
-
-The difference
-· Do you want <Text> or UILabel ? · Do you want <List> or UITableView ? · Do your want RCTView(drawRect) or AttributedString ? · Do you want <TouchableHighlight> or onClick = `' ? · Do you want Fluid-layout or Flex-Box layout ? · Do you want native gesture recognizer ? · Do you want ResponderChain ? · Do you want Xcode or Sublime ? · Do you want iPhoneSimulator or Chrome?
-
-The difference
-
-Chrome +
-XCode
-
-ReactJS JS VM
-OC
-
-OC Runtime
-
-OC OC Runtime
-
-XCode
-
-To front-end developer
-Learning cost
-HTML + CSS + JS/JSX + RectJS/RectNative + iOS/Android
-
-To iOS developer
-Learning cost
-XML + CSS + Objective-C + BeeFramework + iOS/Android
-
-
-
-
-More native? or more web? Your team decide.
-
-Yet another Semi-Hybrid framework.
-https://github.com/hackers-painters/samurai-native
-
-Demo
-
-The advantages
-· Simple, more native, using XCode/iPhoneSimulator.
- · Browser architecture.
- · Full decoupling UI, data and business logic.
- · Good alternative to WebView.
- · Good native implementation.
- · Low learning cost to native developers.
- · Low learning cost to front-end developers.
-
-Architecture
-Your application UI
-Network Storage Event Core
-iOS/android
-
-Service
-
-Architecture
-
-HTML extension
-
-UI system
-
-XML extension
-
-View-Component UIButton UILabel
-UIImageVie
-
-View-Query
-
-View-Core View-Store
-
-DOM
-
-StyleSheet
-
-Render
-
-Gesture
-
-ViewDocument
-...
-
-View-Controller Activity Router Stack
-
-Key modules
-· Gumbo parser, from Google, pure C99
- · Katana parser, from GeekZoo, pure C99
- · samurai-native WebCore from GeekZoo, Objective-C
-
-Workflow
-
-View Create
-
-Relayout
-
-View-Template
-
-Use
-ResourceFetcher
-
-View Tree
-
-Memory model
-
-Stylesheets
-stylesheet 1 stylesheet 2 stylesheet 3
-
-Dom tree
-html
-
-head
-
-bod
-
-y
-
-a
-
-a
-
-h1
-
-h1
-
-"hello "
-
-Render tree
-Render
-
-View tree
-UIScrollView
-
-Render
-
-UIView
-
-Render
-
-Render
-Render Text
-
-UIView UILabel
-
-View model
-
-ViewPort
-
-UIScrollView
-
-Html
-
-UIView
-
-Body
-
-UIView
-
-Div
-
-UILabel
-
-Standard HTML
-
-Easy API
-
-HTML (1)
-· Support standard HTML tag (see html.css)
- · <p> -> UILabel
- · <div> -> UIView
- · <img> -> UIImageView
- · <span> -> UILabel
- · and more ...
-
-HTML (2)
-· Support native components
- · <UILabel> -> UILabel
- · <UIImageView> -> UIImageView
-
-· Support container / reusable components
- · <UICollectionView> -> UICollectionView
- · <UICollectionViewCell> -> UICollectionViewCell
- · and more ...
-
-HTML (3)
-· Support link style
- · <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
- · <link rel="stylesheet" type="text/css" href="../css/main.css"/>
-
-· Support <style media="all"></style>
- · Support inline style
-
-· <p style="color:red"/>
-
-HTML (4)
-· Support gesture events
- · <div onclick="signal(`switch-tab1')"/>
- · <div onswipe="signal(`test')"/>
- · <div onswipe-left="signal(`prev-tab')"/>
- · <div onswipe-right="signal(`test')"/>
- · <div onswipe-up="signal(`test')"/>
- · <div onswipe-down="signal(`test')"/>
- · <div onpinch="signal(`test')"/>
- · <div onpan="signal(`test')"/>
-
-HTML (5)
-· Support inline text
- · <p>Hello, <span>Samurai</span></p>
-
-· Support inline DOM
- · <b><p><i><span>Hello</span></i></p></b>
-
-· Support quirks mode
- · Hello<br>, Samurai
-
-CSS (1)
-· Support CSS 2.0 / 3.0 syntax
- · tag { color: red; }
- · #id { color: red; }
- · .class { color: red; }
-
-· Support CSS 2.0 / 3.0 selector
- · <UIScrollView id="list"/></UIScrollView>
- · <UIScrollView class="style1 style2"/></UIScrollView>
-
-CSS (2)
-
-· Support custom function
- · { width: equals( height ); }
- · { height: equals( width ); }
-
-· Support media query
- · @media ( device-width: 320px ) { }
-
-· Katana powered
-
-device-width:
-
-320px
-
-min-device-width:
-
-320px
-
-max-device-width:
-
-320px
-
-device-height:
-
-320px
-
-min-device-height:
-
-320px
-
-max-device-height:
-
-320px
-
-scale:
-
-1.0
-
-min-scale:
-
-1.0
-
-max-scale:
-
-2.0
-
-orientation:
-
-landscape
-
-CSS (3)
-· User agent stylesheet html.css · -samurai-render-model:
- · element · container · hidden · inline · -samurai-render-class:
-
-Native component (1)
-· Only 3 steps
- · MyView.h
- · MyView.m
- · <MyView/>
-
-Native component (2)
-· Implement native view (MyView.m)
- · @implementation MyView
- · - (void) html_applyDom :(SamuraiHtmlDomNode *)dom {}
- · - (void) html_applyStyle :(SamuraiHtmlRenderStyle *)style {}
- · @end
-
-Native component (3)
-· Import native component in web page (XXX.html)
- · <body>
- · <MyView id="id" class="style1 style2"/>
- · </body>
-
-Data binding/query (1)
-
-Data binding/query (2)
-
-{ "key" : "value", "key" : "value", "key" : "value", "key" : "value"
-}
-
-Store tree
-Store Store Store Store
-
-Render tree
-Render Render Render Render
-
-View tree
-UIView UIView UIView UILabel
-
-View binding/query (1)
-· Property auto binding
- · IVAR auto binding
-
-View binding/query (2)
-· NativeQuery
- · OC version of jQuery
-
-Live load
-
-Plan
-· 2015-Jun
- · Write more test-cases, give out good enough compatibility.
-
-· 2015-Sep
- · AppStore top 100 UI template, all free, and easy to use. 
-
-· 2015-Dec
- · Android version, JS support.
-
-· 2016-Mar
- · Support chrome/safari.
-
-github.com search `samurai-native`
-
-Finally
-· Positioning of your team
- · Transition from a web-app developer
- · Transition from a native-app developer
-
-· Architecture of your app
-
-Fin.
-Presented by Geek-Zoo Studio 2015 @ QCON
-
-Author
-@ @Qfish
-Special thanks
-www.geek-zoo.com
-Material provider
-https://www.thenounproject.com/
-
-

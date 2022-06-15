@@ -1,113 +1,0 @@
-Determining Evil from Benign in the Normally Abnormal World of InfoSec
-Rick McElroy Principal Security Strategist @infosecrick
-
-Know normal. Find evil.
-
-VISION
-A World Safe from Cyber Attacks
-3 I © 2018 Carbon Black. All Rights Reserved. I CONFIDENTIAL
-
-NORMAL
-
-ABNORM AL
-
-MITRE ATT&CKTM
-
-"There aren't necessarily clear points of difference between what's normal and abnormal.
-Abnormal behavior may
-just be an exaggeration of
-normal behavior."
-- Professor David Watson
-
-Levels of Abnormal
-
-Process Memory System
-User Team Department Company Industry Country Global
-
-Evil
-
-CAucrtrueanltTTaabbllee
-
-Normal Benign
-(Lawful Good)
-
-FrNeoqrumeanltEGvOil OD!!
-(Chaotic Good)
-
-Abnormal Evil
-(Chaotic Evil)
-
-AInbnfroerqmuaelnBtenign BAD!! (Lawful
-Evil)
-
-Evil..or not Evil?
-
-Evil..or not Evil?
-Normal Benign
-
-Normal Evil
-
-Abnormal Evil
-
-Abnormal Benign
-
-Evil..or not Evil?
-Normal Benign
-
-Normal Evil
-
-Abnormal Evil
-
-Abnormal Benign
-
-Evil..or not Evil?
-Normal Benign
-
-Normal Evil
-
-Abnormal Evil
-
-Abnormal Benign
-
-Evil..or not Evil?
-Normal Benign
-
-Normal Evil
-
-Abnormal Evil
-
-Abnormal Benign
-
-Evil..or not Evil?
-
-Normal Benign
-
-Normal Evil
-
-¯\_()_/¯
-
-Abnormal Evil
-
-Abnormal Benign
-
-Know normal. Find evil.
-
-15 I © 2018 Carbon Black. All Rights Reserved. I CONFIDENTIAL
-
-Find Evil Faster Contribute data back to MITRE Share NORMINT Help teach developers to do the right thing Reduce false positives for everyone
-
-Acknowledge your good fortune by shari IT.
-Stephen King
-
-19 I © 2018 Carbon Black. All Rights Reserved. I CONFIDENTIAL
-
-Know normal. Find evil.
-
-Question s? Rick McElroy
-Principal Security Strategist @infosecrick
-
-"We cannot change the cards we are dealt, just how we play the hand."
- Randy Pausch
-22 I © 2018 Carbon Black. All Rights Reserved. I CONFIDENTIAL
-
-

@@ -1,330 +1,0 @@
- 
- Trust Model and Threats of Internet Infrastructure
- duanhx@tsinghua.edu.cn
-Tsinghua University 201410
-
-
-∑  
- ∑ BGP !"# RPKI ∑ DNS $%# DNSSEC ∑ PKI &'#() ∑ *+
-
-
-Applications
-
-DNS
-
-PKI
-
-AS BGP
-
-BGP
-
-AS
-
-AS
-
-BGP
-
-AS
-
-,-. 
-/.0012.001
-∑ 34,-.256 789:;<=>? ∑ 6@ABCDE FPeer-PeerG ∑ HIJ KLMNO
-
-1.0/16, AS1
-AS1 BGP
-1.0P16
-
-AS2
-BGP
-AS3
-
-1.0/16, AS2, AS1 BGP
-
-AS4
-4
-
-DNS 
-/QR+S
-∑ QRTUVWKXY KFrootG ∑ Z[\]WK^D_`abcIK ∑ 34DNSHI:;<=de
-fgA#Lhi
-5
-
-PKI/CA 
-/jkl+S
-∑ mnopqrstuRoot CAEvw
-≠ VeriSign , CNNIC, Google, Apple...
-∑ xtRoot CAuyz{CA?|R} Q ∑ xtCAu~ 
-y?| u
-
-
-∑  
- ∑ BGP !"# RPKI ∑ DNS $%# DNSSEC ∑ PKI &'#() ∑ *+
-
-BGP prefix Hijacking incidents
-∑ April 1997: The "AS 7007 incident" ∑ December 24, 2004: TTNet in Turkey hijacks the
-Internet ∑ May 7, 2005: Google's May 2005 Outage ∑ January 22, 2006: Con-Edison hijacks big chunk of the
-Internet ∑ February 24, 2008: Pakistan's attempt to block YouTube ∑ November 11, 2008: The Brazilian ISP CTBC route leaked ∑ April 8, 2010: Chinese ISP hijacks the Internet ∑ February, 2014: Canadian ISP used to redirect data
-
-YouTube Hijacked by Pakistan Telecom
-
-Youtube: 208.65.152.0/22
-
-Pakistan Telecom Announce 208.65.153.0/24
-
-ISP !"201048
-∑ 15%^D ∑ 170 ∑ "18M
-the scattershot nature of the hijack suggests a random mistake, not a deliberate attack on anyone in particular
-http://www.renesys.com/2010/11/chinas-18-minute-mystery1/0
-
- !"AD
-The New Threat: Targeted Internet Traffic Misdirection
-11
-http://www.renesys.com/2013/11/mitm-internet-hijacking/
-
-RPKI(Resource PKI) and BGPSEC
-∑ :;A 4->?  !"
-≠ X.509 certificate with RFC3779 extensions for IP resources (IP Address and ASN)
-≠ Route Origin Attestation (ROA) signed object
-12
-
-RPKI and BGPSEC Hierarchy
-13
-
-
-∑  
- ∑ BGP !"# RPKI ∑ DNS $%# DNSSEC ∑ PKI &'#() ∑ *+
-14
-
- 
-  
-∑      ∑       ∑    !"# $ ∑  %& '()*+,-./012 ∑  $3"  4 ∑  5  6   
-7 ∑ 8    6"$ ∑ 8 &% 3  ./09: ∑ ; &  <4  
-
-Brazillian ISP's DNS cache poisoned 2011
-"To access the new Google.com you need to install Google Defence"
-http://www.securelist.com/en/blog/208193214/Massive_DNS_poisoning_attacks_i 16
-n_Brazil
-
-Cache Poisoning: Kaminsky Bug,2008
-
-Recursive Resolver
-
-srcPort, TXID Q: Noexistent.example.edu A?
-?
-srcPort, TXID A: www.example.edu A 1.2.3.4 Authority: example.edu ns.example.edu Additional: ns.example.edu 4.3.2.1
-
-ns.example.edu Ns.attacker.com
-
-Noexistent.example.edu
-∑ In additional section, to poison a domain instead of an A record ∑ ith a predicted TXID, flood forged DNS replies with guessed srcPort (1/2^16) in a
-TTL ∑ How to improve the attack?
-
-6DNS !"u]ta
-
-Forwarder (cache)
-Stub resolver
-
-Recursive (Cache)
-
-.
-
-CN
-
-NET
-
-edu.cn tsinghua.du.cn
-
-Cernet.net
-
-http://www.tsinghua.edu.cn
-18
-
-6DNS !"u]
-
-.
-
-.
-
-Resolver
-
-.
-
-.
-
-19
-
-xt°¢[\£u!"
-∑ [\A°¢B§Au•¶ß®B ∑ ©™6100´¨Æ[\°¢iØ∞±M ∑ ≤≥°¢46¨°¢117
-20
-
-¥[\µ∂o∑∏MN
-πAnyCast ∫DNSªºΩæøtROOT¿¡¬√
-
-ƒ≈∆/DNSSEC
-
-∑ Clients(resolvers)
-validate the signature
-with their public keys
-
-∑ Servers sign all the
-DNS records with their private Keys
-
-User Trust Root servers, the only trust anchor
-
-.
-
-Recursive Cache
-
-example.net NS a.iana-servers.net.
-
-NET
-
-example.net RRSIG bFhV....0Y3NI
-
-DNSSEC enabled
-
-Stub resolver
-
-examle.net
-22
-
-Current Status of DNSSEC
-
-∑Client Validation
-≠ DNSSEC enabled Resolver:
-< 5%
-
-∑ Server : Signature
-≠ Almost ready
-
-23
-
-nternet governance: multi stakeholder model Trust Community, Not Government
-
-
-∑  
- ∑ BGP !"# RPKI ∑ DNS $%# DNSSEC ∑ PKI &'#() ∑ +«
-
-Problems of trust model of Web PKI
-
-∑ mno/OS»…pq± stCA ¥?| ∑ xtCAuyÀI?|ÃÕŒ ∑ YtCAœ–ÀI…∂—“u•”‘
-
-VeriSign
-
-Google
-
-Cert. of Gmail.com, Issued by Google
-
-Cert. of Gmail.com,
-
-Man in the Middle attack with faked certificate
-27
-
-Comodo ∑∏’\4÷ CA
-2011◊ÿŸ ⁄Yt€‹“›y ±9tµ∂o?|/ Google, Yahoo!, Skype Mozilla, MS Live
-
-ﬁﬂCA: DigiNotar, œ~‡œ·
-∑ CA , Root CA, issue commercial and gov cert. ∑ June,20, 2011, COO :"We believe that DigiNotar's
-certificates are among the most reliable in the field." ∑ July. 10, 2011, issued a certificate for *.google.com ,
-used in multiple Iranian ISPs ∑ DigiNotar belatedly admitted dozens fraudulent
-certificates, including Yahoo!, Mozilla, Wordpress, and Tor ∑ DigiNotar detected intrusions, but did not disclose to browser vendors. ∑ Microsoft, Mozilla, Google, Apple and Opera browser revoke Root Certificate of DigiNotar
-
-DANE and TLSA
-
-Hybird of CA and DNSSEC for Web
-
-DNSSEC
-
-PKI
-
-Yt—“(w]u‚PKI#DNSSECr
-
-Cyber Trust  
-„
-∑ BGP -> BGPSEC: IANA‰ÂÊ>ÁË
-≠ ÈÍÎÏL} ≠ Cisco, Juniper, ÌÓÔ≥" ≠ Ò ISPÌÚÁËA>
-∑ DNS -> DNSSEC:
-≠ ICANN10+, ÌÚÛ
-ÁË ≠ y\Ù}ıˆ>?ÁË˜¯˘F5%G
-∑ CA -> DANE/DNSSEC
-≠ ÈÍR}± ≠ Ò DNSÓÔÏ"FBINDG ≠ —“ÓÔ¡"
-
-Concerns
-∑ IETF˙˚Ø:;¸)„
-≠ Pervasive Monitoring Is an Attack(RFC7258, 2014) ≠ The IETF will strive to produce specifications that
-mitigate pervasive monitoring attacks
-∑ :;Û
-˝“°¢PKI ∑ J˛Ò  KFTrust AnchorGˇ
-¡u ∑ ¡u•œIB=}Y
-tK
-33
-
-Solutions/b
-∑  
-DNSSEC   !"
-∑ #$%&'()*+,- .
-DNSSEC /0123456
-∑  *+789:;,Û
- #CcK“ TØKK
-
- 
-
-= "  >?@ABCDEFGHI9:JKL MNOPQRSHTUVWXY
-<=>?@Ghost Domain
-
-
-
- Z[\]^2_`abcdef g 
- hiijklmnoHp qrstuvwxqr\yz{
- hi|}~`a = " `a 
- 
-
-[September, 2012]
-
-WORKING GROUP 4 Network Security Best Practices
-
-e. S C 008  F(INAL Report≠) DN* SB est Practices
-:;8;= 5 (' !&$#(
-In February 2012, a new, quite effective technique for maintaining a suspended domain that has been removed from its TLD zone was discovered. Such an attack has been given the moniker of a "ghost domain".40 An attacker can easily set up a legitimate domain (e.g. hacker.com) and control the domain's authoritative name server. The attacker will then submit DNS queries for www.hacker.com through several recursive name servers (which their botnets can query successfully from any ISP or network they reside), forcing the DNS servers to resolve www.hacker.com and cache the results, including nameserver information for that domain, and the IP address (controlled by the attacker) for the nameservers. Once hacker.com is identified as a malicious domain, remediation action will occur that will lead to the top-level domain registry (for .com in this example) removing hacker.com from their zone file. However, the recursive name servers will not query the top-level domain authoritative server (and subsequently remove hacker.com from their own records) until their cached TTLs for hacker.com and its authoritative nameservers expire. Consequently, by querying each targeted recursive name server regularly for new hostnames under hacker.com, those recursive nameservers will query the cached authority nameservers for the domain, which remains cached. The attacker will refresh the
-
-3 5 http://tools.ietf.org/html/bcp38 36 http://tools.ietf.org/html/bcp84 37 http://tools.ietf.org/html/bcp140 38 http://www.icann.org/en/groups/ssac/documents/sac-004-en.pdf 39 http://www.icann.org/en/groups/ssac/dns-ddos-advisory-31mar06-en.pdf 40 http://,,--- 
-.,
-Page [42] of [55]
-
-36
-
-DNS#≤
-πA>#CERNETÁËM NO≤6DNSµ∂ ∞Ø∞±ÕM#Ê
-13t¥[\µ∂o] 
-40%µ∂oHI&˛¨¥ab
-
-2014/01/21: DNS Hijacking in China
-
-7?|#PKI≤
-HeartBleed µ∂o
-∑∏˝“I7 ?|_ 9%
-
-∞CA#HTTPS
-∑ u?|/78% 100% ∑ >?EV?|: 14%, 51%
-
-HTTPS]CDN&'
-
-User
-
-CDN
-
-Backend
-
-Website
-
-∑ ˝“HTTPi¡>??| ∑ CDN ßº
-∑ ?|&' ∑ «]TOP 1 )IEEE S&P ∑ CloudFlare@tCDN»…±
-iNSAÛ
-
-
-Q & A
-Haixin Duan duanhx@tsinghua.edu.cn
-Tsinghua University
-42
-
-

@@ -1,181 +1,0 @@
-
-
- 
-
-
-         
-
-
-        
-
-
- IT    
-
-
-        
-
-
-1. 2. 3. 4.
-
-
-No 1. OS
-2. SSH 3.  4.  5.  6.  7. ...
-
-
-        
-
-
- 
-Cool  Anytime , you can do !
- Anywhere , you can do !  Anybody , you can do !
-
-
-
-        
-
-
-
-KVM
-Win2008
-NIC
-
-Docker
-
-CentOS_7.0 RHEL_6.5
-NIC
-
-... ...
-
-iptables
-
-ebtables
-
-NIC
-
-PXE
-
-
- (Pre-boot Execution Environment)Intel
- Client/Server  
-  PXE   PXE NIC  PXE Client
-
-Kickstart
-
-
-   
-ks.cfg   ,  kickstart
-
-puppet
-
-
- LinuxUnixWindows 
- puppet cron
-  
-
-zabbix
-
-
- WEB 
- zabbix serverzabbix agent agent 
- zabbix serverSNMPzabbix agent ping 
-
-WDS
-
-
- Windows (Windows Deployment Services,WDS)
-   
-  (tftpftp
-)
-
-Docker
-
-
-    Linux (
-)  
-  (tftpftp
-)
-
-
-
-IP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-OS
-
-
-
-OS
-
-
-
-
-
-ebtable s
-
-iptables
-
-D
-
-
-
-H
-
-IP
-
-C
-
- 
-
-
-Docker 
-
-T
-
-P
-
-F
-
-T
-
-P
-
-
-
-OS
-
-puppet
- 
-
-zabbix
-
-
-        
-
-
-
-   OS  
-
-     
-
- ...
-
-
-
-

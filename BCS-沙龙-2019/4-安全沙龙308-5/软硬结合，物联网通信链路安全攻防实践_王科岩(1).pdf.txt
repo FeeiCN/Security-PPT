@@ -1,161 +1,0 @@
- 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-  OTA Zigbee    ...
-
-
-
-       ...
-
-  /   BLENFC ...
-
- DDoS SQL     ...
-      ...
- APP    APP/ ...
-
-
-
-
-
-
- OTA   
-
-
-
-   
-   
-
-OTA
-OTA
-  
-
-
-
- 
-  
-
-
-
-
-
-
-·  
-·  ·  · 
-
-
-
-·  · 
-CoAP NO-CON 
-
--
-·  
-·  
-·  
-
-
-·  
-·  
-
-
-
-ARMV8-M
-
-ARM
-
-ARMV8-M
-
- Microchip   NXP
- Nordic RealTek
-
- SAM L11 M2351 STM32L5 LPC5500 i.MX RT600 GD32E230 nRF9160(NB/LTE) ......
-
- M23 M23 M33 M33 M33 M23 M33
-
- 32MHz 64MHz 48MHz 100MHz 300MHz 72MHz 64MHz
-
- 16K 96K 256K 320k 4.5M
-256K
-
-Flash 64K 512K 512K 640K
-1M
-
-
-
-
-
-MCU
- Flash   UID/UCID      
-
-MCU
-   TrustZone          PUF    
-
-
-   /flash          
-
-
-
- 
-
-\
-     OTA  / 
-   
-
-
-         O O O O
-
-
-            
-
-
-
-
-TinyGate TinyGate TinyGate
-
-TinyGate
-
-TinyGate APIRPC 
-
-TinyGate
-
-TinyGate
-
-
-
-
- 
-
-
-2016/  ARM 36010 3 200TCL 2017 "IoT" AWE2017  IDCIDC2017 2017 20 &eNet2018100
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-THANKS
-
-

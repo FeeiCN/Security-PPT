@@ -1,133 +1,0 @@
-SSL/TLS
-Deep Learning-based Automated Testing of Certificate Verification in SSL/TLS Implementations
- 
-
-
-
-    
-
-
-
-HTTPS = SSL/TLS + HTTP
- = !!
- 
- = SSL/TLS
-
-
------BEGIN CERTIFICATE----MIIEOzCCA6SgAwIBAgISESHzPTkKg5YmQA 9zgj5zezCYMA0GCSqGSIb3DQEBBQUAMIG9 MSkwJwYDVQQFEyBmRkhxOGItaXRhenRHY URhT1BwNGFSUnViUk9xcGRXZzETMBEGA1 UECxMKR1QyMzc1MDkxNjExMC8GA1UECx MoU2VlIHd3dy5yYXBpZHNzbC5j ...... HSMEGDAWgBSWrfqwW7mDZCp2whyKadp C3P79KDANBgkqhkiG9w0BAQUFAAOBgQA Owxx8TYeDFyuXy7aWTxo3KKk584IvcUKKgf ViTunuc4aF+gAR7eVwM3qSxnFjV6OvakjI7NU 7JOVs9zF/KWo/FwN8gz6/bkCCu4iHq/08T6Ob oPAW/69NbXSSDezJuToGiaP2czu0czuIraadT+ mrtQLsyZJA0L1plwmgDZ9pLQ== -----END CERTIFICATE-----
-
-
-
-......
-SSL/TLS "" == ?
-
-SSL/TLS
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-...
-
-...
-
-Q: SSL/TLS  ? A:  + 
-Q: ?
-
-
-
-Frankencert  S&P 2014Chad Brubaker et al.
-
-Using Frankencerts for Automated Adversarial Testing of Certificate Validation in SSL/TLS Implementation
-
-1 2
-
- , 
-
-
-
-3
-
-4
-
-Mucert FSE/ESEC 2015Yuting Chen et al. 
-
-Guided Differential Testing of Certificate Validation in SSL/TLS Implementations
-
-1
-
- 
-
-2
-
-3
-
-
-
-
-
- ? 
-
-
-. DRLgencertSSL / TLS .
-. X.509
-. SSL/TLSDRLgencert DRLgencert 
-
-
-
-
-
-
-
-
-
- 
-
-
- 
-
-GnuT Matri Mbe NSS Open Wolf
-
-LS xSSL dTLS
-
-SSL SSL 
-
- -2 -2 -4 -7
-
-
-
-
-
-1 -10 
-
-
-
- 
-
-
-
-
-6SSL/TLS 
-181,900 181,900 84,661  23
-
-
-
-23
-
-
-MatrixSSL
-
-1 if (psBrokenDownTimeCmp(&beforeTime, & timeNowLinger) > 0) 2 { 3 /* beforeTime is in future. */ 4 cert->authFailFlags |= PS_CERT_AUTH_FAIL_DATE_FLAG; 5 } 6 else if (psBrokenDownTimeCmp(&timeNow, & afterTimeLinger) > 0) 7 { 8 /* afterTime is in past. */ 9 cert->authFailFlags |= PS_CERT_AUTH_FAIL_DATE_FLAG; } 10
-
-1 /* The default value of allowed mismatch in times in X.509 messages and the local clock. The default value of 24 hours is mostly equivalent to old MatrixSSL behavior of ignoring hours, minutes and seconds in X.509 date comparison. */ 2 # define PS_X509_TIME_LINGER (24 * 60 * 60) 3 ... 4 memcpy(&timeNowLinger, &timeNow, sizeof timeNowLinger); 5 err = psBrokenDownTimeAdd(&timeNowLinger, PS_X509_TIME_LINGER);
-
-

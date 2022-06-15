@@ -1,239 +1,0 @@
- !
-Gunter Bitz MBACISSPCPSSE!
-SAP  / !
-
-Ø !
-
-Ø !
-
-Ø OSS!
-
-Ø !
-
-Ø
-
-!
-
-Ø !
-
-Ø
-
-!
-
-Ø
-
-!
-
-Ø
-
-OSS !
-
-!
-
- !
-!
-! O!SS
-
-!
-
-!
-
- !
-
-! !
-
-! !
-!
-
-!
-§ (OSS)
-§ ApacheBSDMIT! §  (Copyleft)/GPLLGPL!
-§  (Copyleft) !
-§  ! § !
-§ !
-§ ! § !
-§ Busy Box! !
-5!
-
-Westinghouse  GPL  90,000 !
-http://arstechnica.com/information-technology/2010/08/court-rules-gpl-part-of-a-well-pleaded-case/ 6  
-
-!
-§ ! § !
-§ ! § ! §  3 ! § ! § ! § // ! § bug!
-7!
-
-!
-
-!
-
-XML  !
-
-OSS https! XML !
-
-§ ! § ""!
-
- !
-
-8!
-
- !
-
-XML  !
-
-!
-
-https!
-
-Web  !
-
-http(s)!
-
-OSS XML !
-
- !
-
-§  Web ! § !
-
-9!
-
- !
-
-!
-
-!
-
-!
-
-!
-
-!
-
-!
-
-!
-
-!
-
-!
-
-!
-
-!
-
- !
-OS !
-
- !
-
- !
-
-!
-
-
-
-
-
-
-
-
-
- n-3 !  n-2 !  n-1 !  n !
-
- !
-
-!
-
-!
-
-    n-2 !  n-1!  n!
-
-  T1!
-
-  T2!
-
-OS  OS  OS  OS   OS  n-3 !  n-2!  n-1!  n! !
-
- !
-
- !
-
- 1 ! !
-
-!
-
-!
-
-
-! !
-
-!
-
-!
-
-OS  !
-
- !
-
-! 
-
-!  IP!
-!
-
- !
-§ --""!
-§ ! §  Web !
-§  ­ ! § !
-§ ! § !
-§ !
-§ ! § !
-§ !
-§ ! § !
-13!
-
- OSS !
-§ !
-§  OSS ! §  OSS ! § !
-§ !
-§ ! § CVE/MITRE! § SANS! § CERT/CC! §  (Bug Traq)! § NVD ­! § !
-14!
-
- !
-
-  
-
-     
-
-     
-
-   
-
-  OS     
-
- OSS !
-OSS !
-
-! !
-
-§ !
-§ !
-§ ! § !
-§  OSS !
-
-! !
-
-15!
-
-!
-§ ! §  OS !
-§ !
-§ ! § !
-§ !
-§ !
-16!
-
-! !
-Gunter BitzSAP!
-gunter.bitz@sap.com!
-
-

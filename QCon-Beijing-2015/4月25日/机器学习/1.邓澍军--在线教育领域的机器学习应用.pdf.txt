@@ -1,258 +1,0 @@
-
- dengsj@yuantiku.com
-2015.04.25
-
-
-
-
-
- 
-
-
- 
-
-
- 
-
-
-
-
-90-00 SVM Boosting 
-
-10 Deep Learning
-
-
-
-70-80 
-50-60 
-
-10   
-
-2012 
-
-90  
-
-00  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   CNN NLP  
-
- 
-
-
-  CNN NLP  
-
- 
-
-
- 
- 
-· 10
- 30%+
-· 
- 50%
-· 
-
-
-  CNN NLP  
-
- 
-
-
-
-
-  CNN NLP  
-
- 
-
-
-
- 
- CNN NLP
- 
-
- 
-
-
-
-   CNN NLP  
-
- 
-
-
-
-
-
-   CNN NLP  
-
- 
-
-
-
-   CNN NLP  
-
- 
-
-Softmax Full Connection
-Dropout ReLU
-Convolutions Max Pooling Convolutions Max Pooling Convolutions Max Pooling Convolutions
-
-
-
-   CNN NLP  
-
- 
-
- 
-   
-
-Deep Learning
-
-   CNN NLP  
-
- 
-
- Deep Learning  
-  
- SGDGaussNewton
-
-Deep Learning
-
-   CNN NLP  
-
- 
-
- GPU K40CPU 5-6
- GPU K40 2-4
-
-----NLP
-
-   CNN NLP  
-
- 
-
- 
-             l  1
-
-----
-
-   CNN NLP  
-
- 
-
- (SIFT )
-
-   CNN NLP  
-
- 
-
-
- 
-     
-· Learning to Rank: GBRT
-
-
-
-
-
-
- 
- Computer Vision
-·  ·  · 
- Deep Learning
-· 
- NLP
-· 
- Learning to Rank
-· 
-
-
-
-
-
-()
-
-
- (IRT)
- IRT
- b
-· 
- 
-· 
-
-
- 
- Offline model
-· Logistic Regression
- Online model
-· Follow-the-Regularized-Leader
-
-
- 
- 
-· ......
- 
-· ......
- 
-· ......
- 
-
-
-100 90 80 70 60 50 40 30 20 10 0     
-2014
-
- 
-
-
- 
- Item Response Theory
- 
- Offline model
-· LR (Logistic Regression)
- Online model
-· FTRL (Follow-The-Regularized-Leader)
-
-
-
-
-
-()
- 
- Content-Based  Item-Based Collaborative Filtering
- 
- Logistic Factorization Machine  Exploitation and Exploration(E&E)
-
-
- 
- Deep Learning  Computer Vision  Learning to Rank
- 
- IRT  LRFTRL
- 
-   LFME&E
-
-
- 
- 
- 
-     
- 
-   
-   ......
-
-Q&A Thanks!
-dengsj@yuantiku.com
-
-

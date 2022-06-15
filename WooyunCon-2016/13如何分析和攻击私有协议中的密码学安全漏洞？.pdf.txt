@@ -1,167 +1,0 @@
-  
-
-
-
-  
-Lab of Cryptology and Computer Security
-GoSSIP  
-Group of Software Security In Progress
-
-  
-    
-/  
-  Gossip  on  SSL  Security  by  GoSSIP_SJTU  
-
-
-
- 
-  
-0x00 0x26 0xe5 0x90 0x83 0xe4 0xba 0x86 ... 0xbc 0x9f   ...
-
-  ...
-
-IPIP...
-
-MAC...
-
-
-
-
-
-
-HTTPFTPSMTP...
-     APP                   ......
-
-
-
-Proprietary protocol
-                   QQ                                                      
-
-
-
-       ...            
-  
-
- ref1  
-
-          
- 
-Ref2
-
-Ref 1:http://intown.biz/wp-content/uploads/2014/04/gcm_explained.png
-   Ref2:Li, Tongxin, et al. "Mayhem in the push clouds: Understanding and mitigating security hazards in mobile push-messaging services." Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security. ACM, 2014.
-
-
-What we really focus on
-
-               
-
-
-
-
-
-
-
-
-       Authenticity                               
-Confidentiality
-                      
-Integrity
-
-
-
-
-Communications Protocol  
-
-
-Secure Data Transmission  
-
-
-Cryptographic Misuse  
-
-
-
-                    
-
-     
-     
-
-     
-     
-
-
-  
-     
-
-(PAP)  
-Password  Authentication  Protocol  
-
-
-   HTTPS  HTTPS  with  Pinning  
-
-
-  
-(Base64/Base32)   (MD5/SHA1/SHA256/...)      (AES/RC4/...)   (RSA)  
-
-
-
-  
-
-(Base64/Base32)   (MD5/SHA1/SHA256/...)     
-
-(AES/RC4/...)   (RSA)  
-
-
-  
-a.c = h.MD5("2989d4f8dcda393d1c1ca3c021f0cb10" + arg2.getPackageName().getBytes());  
-  
-String  v0  =  "134e3265829ff82daf16e7b740a600b5";                   if(this.b  ==  null)  {                           byte[]  v1  =  v0.getBytes();                           byte[]  v2  =  new  byte[16];                         ...                           this.b  =  new  SecretKeySpec(v2,  "AES");  
-
-
-RSA/ECB/NoPadding  
-  
-RSA/ECB/PKCS1Padding  
-  
-
-
-Google  Play  100APP   200APP  
-  
-
-
-  
-
-
-  
-SDK  
-  
-SDK  
-  
-  
-get            =      
-
-
-  
-     
-
-Diffie-Hellman  
-
-
-          ...   ECB  
-CBCIV  
-
-
-         Session           
-
-
-     MACwifiIMEI  
-       
-              app  
-
-
-                     HMAC        
-  
-
-
-         Security  by  Obscurity  
-
-

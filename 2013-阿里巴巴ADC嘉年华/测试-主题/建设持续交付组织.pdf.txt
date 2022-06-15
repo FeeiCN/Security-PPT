@@ -1,261 +1,0 @@
-
-
-
-c!J · 5IPVHIU8PSLT
-%FW0QT-FBE · 
- b aa aa%FW0QT 
-
-
-#V[[8PSE
-
-
-
-
-
-
-
-
- 00
-
-
-
-
-
-
-
-
- 
-
- 
-   11
-
-
- 
-
-
-*5a
-
-
-
-"Agile" team
-
-Customer Iteration
-
-Analysis + Design Development
-Testing + Showcase 01 234
-
-Centralized QA Integration + QA
-
-IT Operations Release and operation
-
-The "last mile"
-
-Customer Delivery team
-Constant flow of new features into production
-
-"Agile" team
-
-Customer Iteration
-
-Analysis + Design Development
-Testing + Showcase 01 234
-
-Centralized QA Integration + QA
-
-IT Operations Release and operation
-
-The "last mile"
-
-   
-
-Customer Delivery team
-Constant flow of new features into production
-
- 2"2" 
-
-
-
-?  
-
-
-
-
-
-
- 
-
-
-
-
-·  ·  ·  · 
-
-
-
-
-· 
-­  ­ 
-· 
-­  ­ 
-
-
-
-collaboration'
-
-Visibility'
-Deliver' faster,' Safer'
-automation'
-
-quality'
-
-
-
-
-·  · #%%5%% ·  ·  · op
-
-
-
-CP'
-
-AD'
-
-XML'
-
-DB'
-
-Mobile'
-
-ESB'
-
-Feeder'
-
-API' DS'
-
-XML'
-
-FAST'
-
-Widget'
-
-     
-
-
-
-
-  
-
-
-
-a2" 
-
-Eat'Your'Own' Dog'Food!!'
-
- ii
- a
-
-
-
-
-
-
-
-
-
-
-
-Vagrant' VirtualBox'
-
-Chef+packages'
-
-FogPAWS/ OpenStack'
-AWS'EC2/ OpenStack'
-
-Chef+packages' FogPvSphere'
-
-VMware'
-
-VMware'
-
-Nagios'
-
-
-
-
-
-
-
-
-
-·  · 8*1c8PSLJO1SPHSFTT
-­  ­  ­ 
-
-
-
-WIP is increasing
-
-WIP
-
-cycle time
-
-to do cycle time doing WIP
-done
-
-to do doing done
-
-Cumulative Flow Diagram
-
-
-
-Continuous(delivery(is(about(putting(the(release(schedule(in(the(hands(of(the( business,(not(in(the(hands(of(IT.(( ( Implementing(continuous(delivery(means(making(sure(your(software(is(( always(production(ready(throughout(its(entire(lifecycle(­(that(any(build(could( potentially(be(released(to(users(at(the(touch(of(a(button(using(a(fully( automated(process(in(a(matter(of(seconds(or(minutes.( ( (
-'
-P'Jez'Humble'(http://continuousdelivery.com/)'
-'
-
-
-
-·  ·  ·  ·  · ll
-
-
-
-
- 
-
-
- 
-
-
- 
-
-
-
-
-
-
-c c c c
-
-
-c c c c c
-
-
-c c
-
-
-·  · op ·  ·  ·  · 
-
-
-·  ·  ·  · 
-
-4BUJS
- a
-
- 
-
-
-
-
-
-
-·  ·  ·  · 
-
-
-
-

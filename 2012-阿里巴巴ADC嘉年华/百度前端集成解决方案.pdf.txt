@@ -1,521 +1,0 @@
-
-berg
-D2 2012.7.6,  
-1275
-
-Who's  berg?
-·(Aka:  berg) ·WebFE ·W3C
-1275
-
-About  berg
-·FIS ·
-1275
-
- 
-
-
-1275
-
-
-
-@cnberg @berg http://cnberg.com
-1275
-
-Outline
-· · · ·
-1275
-
-
-1275
-
-1275
-
-
-1275
-
-
-
-
-
-
-
-
-
-
-
-1275
-
-A
-
-
-
-
-
-1275
-
-
-
-
-
-1275
-
-
-1275
-
-base.css: .rc--block{}
-index.tpl: <div  class="rc--block"></div>
-1275
-
-base.css:
-
-.rc--block{} .rc--block--yellow{}
-
-
-
-index.tpl:
-
-<div  class="rc--block"></div> <div  class="rc--block  rc--block--yellow"></div>
-
-1275
-
-#body{font:12px/1.5 arial,'ËÎÌå',sans-serif;}.grid-m0e191 .l-main-wrap{margin-right:200px;}.grid-m0e191 .l-aside{margin-left:-191px;width:191px;}.grid-s202m0e191 .l-main-wrap{margin:0 200px 0 212px;}.grids202m0e191 .l-aside{margin-left:-100%;width:202px;}.grid-s202m0e191 .l-extend{background-color:#f1f1f1;margin-left:-191px;width:191px;}.l-grid-2 a:link,.l-grid-2 a:visited,.l-grid-3 a:link,.l-grid-3 a:visited{color:#133db6;text-decoration:none;}.l-grid-2 a:hover,.l-grid-3 a:hover{text-decoration:underline;}.rc-list-wrapper{float:left;overflow:hidden;width:570px;}.rc-list{width:2850px;}.rclist .show{float:left;padding-top:6px;width:570px;}.rc-list .pic{float:left;padding-left:6px;}.rc-list .pic img{border:1px solid #e4e4e4;height:170px;width:213px;}.rc-list .txt{color:#444;float:left;paddingleft:17px;width:330px;}.rc-list .hd h3{float:left;font-size:14px;padding-top:5px;}.rc-list .hd a{float:right;}.rc-list .hd .time{color:#888;float:left;padding-left:7px;padding-top:5px;}.rclist .bd{clear:both;padding-top:4px;}.rc-list .bd dt{padding-bottom:5px;}.rc-list .bd dd{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat -85px -251px;font-size:14px;line-height: 25px;padding-left:10px;}.rc-list .bd a.title{color:#333;font-family:'ºÚÌå';font-size:20px;}.rc-list .bd .author{color:#666;font-size:12px;padding-left:10px;}.rc-list .bd dd a{font-size:14px;}.rclist .answerer{color:#666;font-size:12px;padding-left:10px;}.rc-list .abstract{color:#666;padding-bottom:7px;padding-top:6px;}.subnews li{float:left;}.subnews li.last{padding-left:20px;*padding-left: 5px;}.subnews .pic{float:left;padding:0;}.subnews .pic img{border:2px solid #e5e6e8;height:36px;width:36px;}.subnews .txt{float:left;padding-left:4px;width:110px;}.subnews .txt a{color:#343434;}.subnews .txt .author{color:#133db6;padding:0;}.slider{border-left:1px solid #d6efc7;float:right;width:194px;}.slider li{border-bottom:1px solid #d6efc7;color:#327b00;cursor:pointer;font-size: 14px;padding:8px 0 7px 29px;zoom:1;}.slider li .special{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat 0 -256px;padding-left:27px;margin-left:10px;zoom:1;}.slider .current{backgroundcolor:#e6f4d0;border-left:5px solid #91d550;padding-left:24px;}.slider .hover{background-color:#e6f4d0;}.slider .last{border-bottom:none;}.notice{height:192px;background:#FFF;}.notice .hd{padding-left: 11px;padding-top:3px;}.notice .hd h3{color:#333;font-size:14px;float:left;line-height:26px;}.notice .hd a{float:right;line-height:26px;margin-right:6px;}.notice .bd{padding-top:1px;clear:both;}.notice ul{margin-bottom:11px;}.notice li{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat -85px -252px;font-size:14px;margin-left:12px;margin-top:3px;padding-left:12px;}.notice li.help a,.notice li.help a:link,.notice li.help a:visited{color:#46a226;}.notice li.help a:hover{text-decoration:underline;}.notice .new{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat -40px -439px;padding-left:24px;zoom:1;}.ad1{height:90px;margin-bottom:10px;overflow:hidden;}.ad2{margin:3px;}.ad2 img{border:1px solid #c2c2c2;}.qclist-box .bd{padding-top:12px;padding-bottom:7px;}.qclist-box .hd h3 a{color:#125908;}.qclist{margin-left:12px;padding-bottom:16px;}.qclist dt{font-size:14px;font-weight:bold;}.qclist dd a{color:#2b4ba4;margin-right:2px;}.qclist dd.s{margin-bottom:5px;}.qclist dd a.s{marginright:0;}.being-q .hd h3{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat 0 -136px;padding-left:24px;}.being-q .hd h3 a:link,.being-q .hd h3 a:visited,.voting-q .hd h3 a:link,.voting-q .hd h3 a:visited{color:#125908;float:none;text-decoration:none;}.being-q .hd h3 a:hover,.voting-q .hd h3 a:hover{text-decoration:underline;}.being-q #no_category,.being-q #no_keyword,.being-q #no_carefield{marginleft:14px;margin-right:9px;}.being-q #no_category a,.being-q #no_keyword a,.being-q #no_carefield a{text-decoration:underline;}.being-q #carefield_set{float:right;height:21px;width:104px;}.being-q .hd img{float:right;margin-right:2px;margin-top:2px;}.being-q .bd{padding-bottom:7px;padding-top:7px;}.being-q .concern-bd{margin-left:14px;margin-right:9px;}.being-q li{background:url(http://img.baidu.com/img/ iknow/home/bg.gif) no-repeat -84px -250px;font-size:14px;line-height:27px;margin-left:14px;}.being-q .concern-bd li{margin-left:0;}.being-q .core-user .ans-num{margin-right:0;}.being-q ul{padding-top: 6px;padding-bottom:6px;}.being-q .last{margin-bottom:0;}.being-q .price{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat 0 -231px;color:#d55111;font-size:12px;margin-left:8px;padding-left: 16px;width:33px;}.being-q .title{margin-left:8px;}.being-q .ans-num{color:#666;float:right;font-size:12px;margin-right:19px;}.being-q .push-del{float:right;margin-left:5px;background:url(http://img.baidu.com/ img/iknow/push/pushImproving.gif) no-repeat 0 -84px;height:25px;width:15px;display:inline-block;visibility:hidden;cursor:pointer;}.being-q .push-change{float:right;}#push_change{background:url(http:// img.baidu.com/img/iknow/push/pushImproving.gif) no-repeat 0 -56px;width:63px;height:19px;text-align:center;display:inline-block;color:#fff;}#push_change:hover{textdecoration:none;}.cle:after{content:".";display:block;height:0;clear:both;visibility:hidden;}.cle{display:inline-block;}/* Hides from IE-mac \*/ * html .cle{height:1%;}.cle{display:block;}.being-q .ft{fontsize:14px;}.being-q .ft-wrapper{background:url(http://img.baidu.com/img/iknow/home/bg.gif) repeat-x 0 -498px;margin:0 10px 0 9px;padding:5px 0;}.being-q .ft-wrapper .other{font-weight:bold;}.being-q .ftwrapper a{margin-right:14px;}.being-q .concern-hd{font-size:14px;font-weight:bold;height:30px;*height:26px;margin-left:14px;margin-right:9px;zoom:1;}.being-q .concern-hd a{background:url(http://img.baidu.com/ img/iknow/home/bg.gif) no-repeat 0 -457px;cursor:pointer;float:right;font-size:12px;font-weight:normal;line-height:18px;margin-top:7px;padding-left:13px;zoom:1;}.being-q .concern-hd a.push-title,.beingq .concern-hd a.push-title:visited,.being-q .concern-hd a.push-title:link{background:none;color:#133db6;float:none;font-size:14px;font-weight:bold;line-height:21px;text-decoration:none;padding-left:0;zoom: 1;}.being-q .concern-hd a.push-title:hover{text-decoration:underline;}.being-q .concern-hd .expanded{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat 0 -436px;cursor:pointer;font-size: 19px;margin-right:8px;padding-left:16px;zoom:1;}.being-q .concern-hd .collapsed{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat -72px -436px;cursor:pointer;font-size:19px;margin-right: 8px;padding-left:16px;zoom:1;}.being-q .concern-bd{background:url(http://img.baidu.com/img/iknow/home/bg.gif) repeat-x 0 -498px;}.being-q .concern-bd .ph{font-size:14px;line-height:30px;margin-right: 9px;}.being-q .concern-bd .ph a{margin-left:10px;margin-right:6px;}/* ´ý½â¾öÎÊÌâ */ .voting-q .hd h3{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat 0 -164px;padding-left:24px;}.votingq .bd{padding-bottom:7px;padding-top:7px;}.voting-q .bd li{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat -85px -250px;font-size:14px;line-height:27px;margin-left:14px;}.voting-q .bd li a{margin-left:8px;}.other-hot{background:url(http://img.baidu.com/img/iknow/home/bg.gif) repeat-x scroll 0 -498px;font-size:14px;font-weight:bold;margin:4px 14px 0;padding-top:7px;}.other-hot a{fontweight:normal;}.baike-word .hd h3{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat 0 -192px;padding-left:24px;}.baike-word .bd .pic{float:left;height:132px;margin:17px 26px 10px 9px;width: 200px;}.baike-word .bd .txt{color:#444;float:left;font-size:14px;line-height:24px;margin:11px 0 10px 0;width:322px;}.baike-word .txt .more{font-size:12px;}.baike-word .txt a.more:hover{textdecoration:underline;}.baike-word .ft-wrapper{background:url(http://img.baidu.com/img/iknow/home/bg.gif) repeat-x 0 -498px;margin:0 10px 0 9px;padding:5px 0;}.baike-word .ft-wrapper .other{fontweight:bold;}.baike-word .ft-wrapper a{margin-right:13px;}.baikeForIknow{font-size:14px;padding:11px 10px 0 9px;zoom:1;}.baikeForIknow strong a{font-size:14px;}.baikeForIknow .line strong a{font-size: 12px;}.baikeForIknow .line{background:url(http://img.baidu.com/img/iknow/home/bg.gif) repeat-x 0 -498px;padding:5px 0;}.baikeForIknow nobr a{font-size:12px;}.star .hd a.more{margin-top:2px;}.star .bd{paddingtop:4px;}.star .bd p{color:#666;margin-top:3px;}.star .bd .list-title{color:#000;margin-top:8px;}.star .bd li{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat -85px -255px;margin-top: 1px;padding-left:10px;}.star .bd li img{margin-right:5px;vertical-align:middle;}.ask-to-expert{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat 0 -473px;*background:url(http:// img.baidu.com/img/iknow/home/bg.gif) no-repeat 0 -475px;cursor:pointer;font-size:20px;*font-size:19px;padding-left:88px;zoom:1;}.rank .bd{padding-top:1px;}.rank li{background:url(http://img.baidu.com/img/ iknow/home/bg.gif) no-repeat;margin-top:10px;padding-left:20px;}.rank .no1{background-position:-61px -283px;}.rank .no2{background-position:-61px -314px;}.rank .no3{background-position:-61px -344px;}.rank .no4{background-position:-61px -375px;}.rank .no5{background-position:-61px -406px;}.rank .bd li span{color:#444;float:right;}.rank .up{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat 12px -281px;}.rank .new{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat 6px -298px;}.rank .down{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat 12px -314px;}.brand{margin-bottom:10px;border:1px solid #C2C2C2;margin:3px 3px 6px;}.brand .mod-outer{background:#fff;padding:6px 10px;}.brand .mod-outer{padding:6px 7px 11px 12px;}.brand .hd h3{float:left;fontsize:14px;}.brand .hd a{float:right;}.brand .bd{clear:both;padding-top:4px;}.brand .bd li{background:url(http://img.baidu.com/img/iknow/home/bg.gif) no-repeat -85px -254px;margin-top:5px;padding-left: 10px;}.brand .bd li img{margin-right:5px;vertical-align:middle;}.rank_data{font-size:12px;padding-left:30px;padding-right:40px;background:url(http://img.baidu.com/img/iknow/rank_icon.gif) 100% -200px norepeat;}.left-bottom-ad-wrapper{width:100%;zoom:1;}#left-bottom-ad{margin-left:auto;margin-right:auto;text-align:center;zoom:1;}.home-open{padding:14px 10px 0 12px;}.home-open .clear{font-size:0;}.homeopen .f-12{font-size:12px;line-height:16px;}.home-open .brown{color:#D55111;}.home-open .l-img a{display:block;width:76px;height:76px;line-height:76px;text-align:center;verticalalign:middle;position:relative;}.home-open .l-img p{position:static;+position:absolute;top:50%;}.home-open .l-img img{position:static;+position:relative;top:-50%;left:-50%;}.home-open .r-content{line-height: 18px;}.home-open .line{clear:both;padding:1px;}.home-open ul{padding:5px 0 0 0;}.home-open ul li{float:left;}.home-open .l-img{float:left;width:76px;height:76px;border:1px solid #e1e1e1;margin:12px 0 0 0;}.home-open .f-wrap{margin:12px 1px 2px 1px;}.home-open .f-wrap div{float:left;}.home-open .home-open-item{float:left;margin:6px 0 8px 0;}.home-open .r-wrap{width:453px;margin:6px 0 12px 12px;}.round-blockgray .rod2,.round-block-gray .rod3,.round-block-gray .rod1,.round-block-gray .rod4,.round-block-gray .rod{border-color:#e3e3e3;}.login-panel .rod,.rec .rod{padding:2px 2px 6px;}.ad-cpro .rod{padding:6px 8px 0;}.rec .title,.login-panel .title{padding:2px 5px;}.login-panel .title .rod,.login-panel .title .rod2,.login-panel .title .rod3,.login-panel .title .rod1,.login-panel .title .rod4{bordercolor:#e0f4e2;background:#e0f4e2;}.rec .title .rod,.rec .title .rod2,.rec .title .rod3,.rec .title .rod1,.rec .title .rod4,.rec .title .rod{border-color:#e3e3e3;background:#e3e3e3;}.rec .title .rod,.loginpanel .title .rod{padding:0 10px;}.login-kernel{margin:10px 7px 0;padding-bottom:8px;border-bottom:#e8e8e8 1px solid;}.login-kernel legend{display:none;}.login-kernel .operation{width: 84px;border:none;cursor:pointer;}.user-kernel{padding:12px 4px 0 10px;}.user-kernel .avarta{float:left;}.user-kernel .userlv{margin-left:10px;*margin-top:-20px;}.user-kernel ul li{padding-bottom:4px;}.userkernel .avarta{margin:0 10px 10px 0;display:inline;}.user-kernel .i-grade{vertical-align:2px;margin-left:-3px;}.user-kernel a.i-auth,.user-kernel span.i-auth{margin:0 0 0 3px;}.user-kernel li{font-size: 12px;padding-bottom:2px;}.user-kernel .uc-enter-btn{padding-top:10px;margin-top:4px;text-align:center;zoom:1;}.user-kernel .red a:link,.user-kernel .red a:visited{color:#D55111;}.pass-username,.passpassword,.pass-verifycode{font-size:12px;position:relative;padding:0 0 10px 3px;}.pass-username input,.pass-password input,.pass-verifycode input{border:1px solid #BEBEBE;height:21px;line-height:21px;paddingleft:2px;width:160px;}.pass-username input.text-focus,.pass-password input.text-focus,.pass-verifycode input.text-focus{border:1px solid #4cbe00;}.pass-username label,.pass-password label,.pass-verifycode label{margin-right:4px;}.pass-verifycode img{margin:8px 4px 0 56px;}.pass-mem_pass{font-size:12px;margin:0 0 0 4px;*margin:-2px 0 0 4px;}.pass-mem_pass label{margin-left:6px;_vertical-align:bottom;}.passsubmit{margin:9px 0 2px 4px;*margin:7px 0 2px 4px;}.pass-submit a{font-size:12px;margin-top:5px;}.pass-server-error{color:#D55111;}.reg{margin:13px 0 0;*margin:11px 0 0;text-align:center;}.loginpanel .content,.rec .content{margin:20px 0 0 10px;}.login-panel .content{padding-top:10px;text-align:left;}.rec .content li{list-style:inside disc;font-size:9px;color:#133db6;}.rec .content a{font-size: 12px;line-height:22px;}.freecode .rod{padding:4px 10px;font-size:12px;}.freecode hr{margin:4px 0;}.freecode .border-bottom{padding-top:2px;padding-bottom:4px;border-bottom:1px solid #eee;}.freecode p{color:#666;}.l-aside .login-panel .rod{overflow:hidden;height:180px;}.l-aside .login-panel{height:192px;}.l-grid-2 a.operation:link,.l-grid-2 a.operation:visited,.l-grid-2 button.operation{color:#589B00;}.lgrid-2 a.operation:hover,.l-grid-2 button.operation:hover{color:#7BBE24;text-decoration:none;}.join-kernel{margin:0 7px 0;padding-bottom:8px;border-bottom:#e8e8e8 1px solid;}.l-grid-2 .join-kernel a.joinzd{background:url("http://img.baidu.com/img/iknow/reg_bt_bg.png") no-repeat;width:96px;height:34px;color:#589B00;font:12px 'ËÎÌå';display:inline-block;text-align:center;line-height:34px;margin:8px 0 0 40px;}.l-grid-2 .join-kernel a.join-zd:hover{color:#7BBE24;text-decoration:none;}.join-kernel img{width:170px;height:90px;margin:0;border:none;}#loginStatus0,#loginStatus1,#loginStatus2{display:none;}.userhead-img{border:1px solid #E3E3E3;display:block;}.uc-enter-btn{border-top:none;}a.i-grade:link,a.i-grade:visited,a.i-grade:hover{color:#256E16;text-decoration:none;}.join-kernel a{display:inline-block;}.joinkernel img{width:170px;height:90px;}.ml6{margin-left:6px;}
-1275
-
-1275
-
-1275
-
-
-
-1275
-
-<script  src="http://i.bdimg.com/static/js/ base.js?20120621"></script>
-1275
-
-1275
-
-sh  upload.sh  fe--test01--tc.baidu.com
-1275
-
-Safari Firefox Opera IE5, 6, 7 Firefox Opera
-
-Macintosh
-
-Windows
-
-10,000+ UAs Linux, Unix, Mobile
-
-Data Transport
-data: custom, xml, json
-behavior: js mixed: new xhtml
-
-CSS
-
-(X)HTML
-
-DOM
-
-BOM API DOM API
-
-JavaScript
-
-Specification Implementation
-Bugs [ Theory / Practice ]
-server
-
-1275
-
-Safari Firefox Opera IE5, 6, 7 Firefox Opera
-
-Macintosh
-
-Windows
-
-10,000+ UAs Linux, Unix, Mobile
-
-knowClSeSdge areas: 7
-
-(X)HTML
-
-dimensiBoOMAnPI s: x 4
-
-DOM
-
-JavaScript
-
-DOM API
-
-platforms: x 3
-
-Specification
-
-Data Transport
-data: custom, xml, json
-behavior: js mixed: new xhtml,
-
-browsers pImeprlempelnatattifoonrm: x 4 Defects
-
-rend[ Tehreoinryg/ Pmractoiced]es: x 2
-
-s e r v=e67r2
-
-1275
-
-
-· · · ·
-1275
-
-1275
-
-    
-1275
-
-
-    
-1275
-
-
-1275
-
-
-
-FIS
-
-· · ·
-
-· · ·
-
-
-1275
-
-
-
- 
-1275
-
-
-1275
-
-  
-1275
-
-1275
-
- 
- 
-
-Index List View
-
-Index User credit
-
-Carrousel
-
-QList
-Notice Sub  system  A
-
-Badge
-
-UList
-Score Sub  system  B
-
-Tooltip
-1275
-
-Login
-
-Usercard Common
-
-Index List View
-
-Index User credit
-
-Carrousel
-
-QList
-Notice Sub  system  A
-
-Badge
-
-UList
-Score Sub  system  B
-
-Tooltip
-1275
-
-Login
-
-Usercard Common
-
-Index List View
-
-Index User credit
-
-Carrousel
-
-QList
-Notice Sub  system  A
-
-Badge
-
-UList
-Score Sub  system  B
-
-Tooltip
-1275
-
-Login
-
-Usercard Common
-
-Index List View
-
-Index User credit
-
-Carrousel
-
-QList
-Notice Sub  system  A
-
-Badge
-
-UList
-Score Sub  system  B
-
-Tooltip
-1275
-
-Login
-
-Usercard Common
-
-""
-1275
-
-1275
-
-·
-{%widget  name="sth"%}
-F.use("sth",  function(){});
-· ·
-
-Javascript CSS HTML Widget
-
-1275
-
-
-1275
-
-
-1275
-
-
-1275
-
-Index List View
-
-Index User credit
-
-Carrousel
-
-QList
-Notice Sub  system  A
-
-Badge
-
-UList
-Score Sub  system  B
-
-Tooltip
-1275
-
-Login
-
-Usercard Common
-
-Index List View
-
-Index User credit
-
-Carrousel
-
-QList
-Notice Sub  system  A
-
-Badge
-
-UList
-Score Sub  system  B
-
-Tooltip
-1275
-
-Login
-
-Usercard Common
-
-
-1275
-
-Raw Code
-
-FIS
-
-Online Code
-
-1275
-
-1275
-
-Syntax
-Package Build  Action
-User  Defined Actions FIS
-
-1275
-
-Syntax
-Package Build  Action
-User  Defined Actions FIS
-
-File  System
-
-Calculate  Fileinfo
-
-1275
-
-replace i18n
-compress
-...... Syntax JS  Syntax  Chain
-
-CSS  Syn tpl  Syn html  Syn po  Syn
-......
-
-1275
-
-Syntax
-Package Build  Action
-User  Defined Actions FIS
-
-Fileinfo
-
-Exclude  File Merge  File Generate Runtime  Env Recombination
-Package
-
-1275
-
-User Defined Actions
-
-100+  3--5  5 
-
-3  2 
-
-4  120000+
-2 
-1275
-
-FIS
-1275
-
-File  System  or  URL
-Calculate  Fileinfo
-Syntax  Loader
-Package  Config
-
-1275
-
-Syntax Package
-
-i18n
-1275
-
-·Fileinfo ·po ·
-1275
-
-} <t></t>  
-th.po
-
-
-
-th/page/.../index.tpl
-
-} _("")
-ar.po
-
-page/.../index.tpl
-1275
-
-ar/page/.../index.tpl
-
-
-1275
-
-
-1275
-
-1275
-
- 
-1275
-
- 
-...  hi
-1275
-
- ... ...
-
-1275
-
- 
-
-HTTP CLI
-
-Router
-
-
-Detect  file   change
-
-UI
-
-DoAction
-
-Preview
-
-FIS  kenrel
-
-Data
-
-1275
-
-Runtime
-
-
-1275
-
-·QA · ·
-1275
-
-1275
-
-1275
-
-1275
-
-
-1275
-
-· · · · ·
-1275
-
-· ·
-
-· · ·
-1275
-
-Thanks
-@berg
-1275
-
-Q&A
-@berg
-1275
-
-

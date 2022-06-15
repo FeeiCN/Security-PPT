@@ -1,129 +1,0 @@
-
-David Wang Fortinet China  Fortinet China D-Team 
-
-Agenda
-1 ---- 2  3 Fortinet Security Fabric in The Real World!
-
-© Fortinet Inc. All Rights Reserved.
-
-2
-
-
-
-
-/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-    
-
-+
- + 
-
-
-    
-
-
-
-
-
-AD OA OA IP  
-
- 
-
-WAF+Mail Gate+Sandbox+NGFW
-
-© Fortinet Inc. All Rights Reserved.
-
-4
-
-
-""
-
-
-
-
-
-
-
-NGFW UTM
-
-
-FABRIC
-
-
-1990
-
-2000
-
-2010
-
-2020
-
-2030
-
-© Fortinet Inc. All Rights Reserved.
-
-6
-
-Fortinet Security Fabric
-
- 
-
-AI 
-
-
-
-    
-
-© Fortinet Inc. All Rights Reserved.
-
-7
-
-
-
-
-
-Security Fabric in The Real World
-
-VM
-
-VM
-
-
-
-
-
-OPEN ECOSYSTEM
-
-MANAGEMENT-ANALYTICS
-
-MULTI-CLOUD
-
-ENDPOINT
-
-NETWORK
-
-WEB APPS
-
-UNIFIED ACCESS
-
-EMAIL
-
-ADVANCED THREAT PROTECTION
-
-

@@ -1,290 +1,0 @@
-scala/akka
-"
-
-
-· Akka--actor   ·    · Akka--Stream   · 
-
-AKKA
-
-AKKA
-· Message   · Nonblocking   · Actor
-Actor   · actormessage  
-
-Mailbox   ActorQues*oner  
-
-Message  
-
-ActorAnswerer Dispatcher  
-
-Actor  Model
-
-· Mailbox   · Behavior
-   · StateFSM   · Run: 
-
-Event--Driven Actor
-Behavior
-State
-
-Actor  System
-
-·   
-
-  Parent--Children  
-
-· Supervisor  Strategy    
-
-  One--For--One  
-
-/A
-
-  All--For--One  
-
-· Path  
-
-· Dispatcher     ThreadPool  
-
-/A/C C
-
-Actor  System Root
-
-A
-
-B
-
-D
-
-E
-
-/A/C/F F
-
-
-· NonBlocking   ·    · Actor         ·    · Message  
-
-
-
-
-·    ·   
-     ·   
-       
-
-
-
-
-
-cache
-
-Input
-
-Data--1 Data--2 Data--3
-
-· LucenecacheRPC...   · Input:    · Stream
-
-DataFlow  
-
-5VTGCO 2TQEGU
-U
-
-9QTM +PRWV
-
-9QTMGT 2QQN
-
-#EVKXG 9QTMGT
-
-Frontend Master
-
-... ...
-...
-
-2TQEGU U'PIKPG
-
-1n
-
-9QTMGT
-
-'ZGEW VQT
-
-'ZGEW VQT
-
-Backend
-
-Process
-
-A
-
-F
-
-B
-
-J
-
-D
-
-C
-
-ProcessEngine
-
-WorkAcOvity
-
-·   
-
-Worker  
-
-Executor  
-
-· In--Out  
-
-IN   1  
-
-Exec Exec utor utor ...
-
-Result  
-
-Worker
-
-2WorkInput  
-
-AcOvity
-
-Job  
-
-Job  Stream
-
-· Sessionjob  
-
-  JobSource(SessionId,  Timeout, ...)  
-
-  Job  ...  
-
-  Deadline(SessionId)  
-
-· JobSource  XOR  Deadline  =  0
-
-WorkAcOvity  
-
-   deadline ... job job jobSourc
-
-  
-deadline ... job job jobSourc
-
-XOR
-
-deadline ... job job jobSourc
-
-Worker  FSM
-
-Prepare
-
-Release
-
-Worker
-
-Ready
-
-Done
-
-Doing
-
-ExcepOon  PropagaOon
-
-Process
-
-Root ProcessEngine
-
-Worker
-
-· Worker--Executor:          One--For--One  Strategy  
-· Process--ProcessEngine--Worker:        ExcepOonMessage  
-
-Executor
-
-Time  Out
-· Process  Time  Out     ProcessDefiniOon.Omeout(5  seconds)     Supervisor  StreamProcess  
-· Session  Time  Out     JobSource(sessionId,  2  seconds,  OmeoutMsg)     SupervisorWorker     ExecutorOmeoutMsg
-
-
-
-
-
-Job...
-
-Sort
-
-Collect
-
-Collision
-
-Fork
-
-Join
-
-Result End
-
-Secondary
-10001~50   
-
-DSL
-import Flow.DSL._ val pd = Flow("sorted-secondary") {implicit builder =>
-~~ >>("collision", Creator[CollisionExecutor], 10)(routees => { case msg: Num1 => routees(msg.n / 5) case msg: Num2 => routees(msg.n / 5) })
-<+("f1") ~~
->>("sorted", Creator[SortedExecutor], 10)(routees => { case n: Int => routees(n / 5)
-}) >>("collect", Creator[CollectExecutor]) ~~ >>("secondary", Creator[SecondaryExecutor]) +>("j1") >>("result", Creator[ResultExecutor]) $ }
-!
-
-Collision  Executor
-
-Akka  Stream
-
-Akka--Stream
-From  h'p://akka.io  
-
-
-
-
-  
-
-dataflow
-AcOvity   ·   OnReady   ·   WorkAcOvity   · EndAcOvity   · ForkAcOvity/
-JoinAcOvity  
-
-Akka--stream
-Graph:Module/Shape   · SourceModule/SourceShape   · FlowModule/FlowShape   · SinkModule/SinkShape   · JuncOonModule/
-FanInShapeFanOutShape
-
-Executor  
-
-Stagemapfilter...
-
-ProcessDefiniOon  
-
-RunnableFlow
-
-Cluster  standalone   FlowMaterializer ActorFlowMaterializer  orElse
-
-  
-
-
-
-
-
-dataflow   WorkInput   Push  message
-< 20ms
-
-Akka--stream       Source  
-Back--pressure   DiymaOc  Push/Pull   > 100ms  
-
-
-
-DataFlow
-·      Local  > Remote     WorkInput  
-· Actor     Don't  Ask(NonBlocking)          
-
-
-· Executor     Behavior     NonBlockingakka--h_pscalaredis...     rouOng  
-· Streaming     job--Stream  
-· Thread     parallelism(fork--join--executor)  minmaxfactor  
-·        
-
-Q & A
-
-
-

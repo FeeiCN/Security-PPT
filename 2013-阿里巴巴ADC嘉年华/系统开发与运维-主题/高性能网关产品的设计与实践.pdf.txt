@@ -1,66 +1,0 @@
-
-() @-
-
- spanner
-SSL ·  ·  ·   LDC
-
-SSL
-
-SSL offload
-
-Load Balance
-
-
-
-
-GSLB
-
-F5
-
-F5
-
-lvs
-
-SpSap2na-1n1n-en1re-r- SpS-ap2n-a-12nn-e2nrer
-
-SpSap2na-2n1n-en1re-r-
-
-SpS-ap2n-a-22nn-e2nrer
-
-SpSap2na-4n1n-en1re-r- SpS-ap2n-a-42nn-e2nrer
-
- 2011
-
-2012
-
-2013
-
- SNB  15w qps
-   5w qps
-
-  AMD64 core  
-
-
-
-     
-
-
-
-   
- Openssl
-
-
-
-CLI/Http/Rest/SNMP
-
-SpSapnannenre-1r--11-1 SpSapnannenre-1r--12-2
-
-SpSapnannenre-2r--21-1 SpSapnannenre-2r--22-2
-
-Spmaster
-
-Spcenter Web
-
-Q&A
-
-

@@ -1,429 +1,0 @@
-
-
-
-
-       
-
-
-
-  
-
-
-
-
- 1
-   MD5SHA-1  Dawn SongFireEye CMU 360 
-
-
-
-1 2 3 4
-
-
-2
- GeohotGeorge Hotz) tombkeeperTK  yuange  wushi
-
-Geohot
-· 2007iPhone iPhone17
-· 2009 iPhone 3GS iPhone 3GS"purplera1n"
-· 20091011iOS3.1 Blackra1n
-· 2009PS3 · 2010Windows Phone 7 · 2013Pwn2Own Mobile 
-Android · 2014Android RootTowerRoot · 2014Pwnium
-ChromeOS15 · 20149
-
-
- tombkeeper
-·  ·  · 0212 
- · 2013
- · 2013Bypass
-10James Forshaw · 20154.5  ZDI
-
-yuange
-·  ·  · 2000 · 20123602015 · 2016  · windows
-Windows9x IIS Unicode   · 2013 DVE 
-
-wushi
-· KeenTeam 
-· KeenTeam 
-· 
-· 
-· 2010 "200735 IESafariChrome 100...... ZDIiDefense "
-· 20157BlackHat ""-- Pwnie 
-
-
-
-
-1 2 3 4 5
-
-
-
-
-
-
-1 2 3 4
-
-
-
-
-1
- 
-2
-  
-3
- 
-
-
-   
-
-         
-
-
-
-  
-  ASLRDEP
-  
-  ......
-
-
-
-
-
-   + 
-
-
-1 2 3 ---> ---> 
-  
-
-
- Geohot
- 
-
-­-- ­--
-
-
-       
-
-
-20129 "" 20139 "" 25 20149 15
-
-
- 201569 ""
- "" 
-
-
- 20121019 
-   ""
-
-
- ""
-"e""i", "i" VIP"e" 
-
-- 
-    
-
-- 
-    "" 
-   
-  
-
-(1)  2014.10
- ""   CSA
- "" 
-   
-   
-
--
-
--
-
--
-
-(2): 
-
- """"
-
-
-
-Keam Team
-
-
-
-  Keen Team
-
- Keen Team:  Pwn2Own  Project Zero GeekPwn
-
-(3): 
-: "---"
- ""   "" 
- ""50 6  
- "" "XCon" "XFocus"
-
---
-
-
-(4): (AV) 2015.5
-
-1  AV :
-
-·  
-
-(4): (AV) 2015.5
-
- 1986IBM PCBRAIN
-
-  
-  30
-
-(4): (AV) 2015.5
-
-(5): (AV)
-
-(4): (AV)
-
-(5): (AV)
-
- 2015.6.27
- --
-   
-
-           
-
-
-1995-2005 2005
-:  2013
- 
-
-
- ----  20 40 
-
---
-
---
-
---
-
---
-
---
-
- 2015.10.17
-
-  
-
-       
-
-
- 
-  BlackhatCanSecWest  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 2015.11.21
-
-Fooying 
-
-
-
-
- Web   Web 
- Web Web  
- KConWOT2014ISF   
-
-: 
-  
- 
- ZoomEye  Sebug  
- 
-
- 2015.12.12
-
- 360  
-
-
-   
-
-
-360UnicornTeam360 Wireless NFC
-2015315WiFi"" 360-WIPSNFC DEFCONPOC XCONISCDEFCON23 
-
-: 
-  360UnicornTeam
- & GPSZigbee  
-360DEFCON23 
-
-Lancet
-2015
-
-Lancet
-2016
-
-Lancet
-201744
-
- XCTF-XMan
-lancet
-
-""
-lancet
-
-""
-lancet
-
-""""
-lancet20161027
-
-""
-12160 17301210
-
-""
-8Lancet evalsafe2400 1200  1100
-
-(X-NUCA)2016
-()()
-
-XCTFZCTF
-Lancet5
-
-
-Tencent Capture The FlagTCTF
-CTFTCTF"GEEK " 0ops
-·
-   
-
-
-Tencent Capture The FlagTCTF
-TCTFLancet10 2102 
-
-
-Tencent Capture The FlagTCTF
-TCTFLancet10 2102 
-
-
-Tencent Capture The FlagTCTF
-Lancet12""
-
-GMIC-XCTF
-Lancet
-2017-04-29GMIC-XCTF G-Stage Lancet12913.63
-
-"360"
-SS
-427"360"6 Outp0st"360" SS 
-
-i1517 XCTF CTFTIMEDCUA
-
-360 
-
-2016
-lancet
-
-""
-lancet
-
-XCTFXMan--
-  
-XCTF-XMan2017731--820 --
--- 
-  XCTF   360
-
-XCTFXMan
-   
-
-XCTFXMan---
-
-XCTFXMan---
-
-XCTFXMan---
-
-XCTFXMan---
-
-XCTFXMan---
-KITCTFXMan 13CephalopodDating in Singapore hack in the card I 
-
-TendaCVE
-
-
- 1. CIMCO DNC-Max Server(CNVD-2016-03281) 2. Schneider Electric M580 FTP(CNVD-2016-01609) 3. Schneider Electric M580 FTP(CNVD-2016-01610) 4. Schneider Electric M580/M340 Modbus(CNVD-2016-01608) 5. iTNC 530(CNVD-2016-04084) 6. 140NOE77101IP(CNVD-2016-07838) 7. OMRON CP1W-C1F41HTTP(CNVD-2016-03455) 8. CIMCO DSS-MAXSQL(CNVD-2016-04060) 9. DSS-MAXSQL(CNVD-2016-06994) 10. Moxa NPort5110 TCP/IP(CNVD-YCGN-201612097602) 11. 140NOE77101Land(CNVD-2016-11364)
-......
-
-
-
-
-
-
-
-
-
-
-
-
-
--- 360
-WindowsRootkit 
-IRP HookNDIS HOOKRootkit 
-1Rootkit 2RootkitRootkit 3IRPHookIRP HookAnti-Rootkit 4 5NDIS HOOK
-
--- 360
-VMWare 360Android
-360Android 20 BlackHat, CanSecWest, SysCan360, PHDays, PacSec, MoSec Pwn2Own Mobile 2015N6
-
--- 360
-20151111Mobile Pwn2Own360 Android 2016Pwn0rama8Nexus 6P Galaxy Note 5LG G4 Pwn2Own 2016360360Vulcan TeamChrome 20161111360Pixel xl 
-
--- 360
-SyScan360 Pwn0rama360 8Nexus 6PGalaxy Note 5 LG G4
-
--- 360
-20161110-11POC (Power of Community)   PwnFest  11360Alpha Team Pixel xl360  pixel xl"" pixel xl pixel xl360 
-
--- 360
-
--- 360
-360MoSec
-
--- 360
-PHDaysChromeNexus  ChromeJavaScript V8 RCE,Goolge
-
-2016 PHDays
-
-360
-
-2017
-
-
-201681
-   
-
-THANKS
-
-

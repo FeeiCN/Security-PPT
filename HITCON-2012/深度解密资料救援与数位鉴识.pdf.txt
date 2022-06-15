@@ -1,253 +1,0 @@
-
-: thx ()
-1
-
-?
- 
-  ...   
-2
-
-
-EncaseWinhexR-Studio FTK imager ,Helix Live CD  ,,  File System  .
-3
-
-
- : 
-
-   
-4
-
-
-, ,, .
- 1.. 2. 3.HASH. .
-5
-
-
-   .
-   
-6
-
- :ATA 
- ATA ATA   32 User Password  Master Password Master Password  User Password  
-ATA  ATA Protocol "Security SetPassword"  Security Set Password  
-ATA Password  (+). 
-ATA  ATA ,  ATA  
-7
-
-ATA 
- ATA  1.BIOSLBA   2. ABRT  3. BIOS   DOS    Xbox 1  8 GB Seagate   ATA 
-8
-
- ATA 
- ACELab PC3000 UDMA
-Acelab    1991 Data Recovery
-9
-
- ATA 
-. ATA Command .HBA AHCI .IDE  . .Victoria for windows+MHDD in dosATA Command 
-10
-
- ATA 
-MHDD   
-11
-
- ATA 
-ATA Command   21.bin  22.bin 
-
-12
-
- ATA 
- UltraEdit 22.bin
-13
-
- ATA 
- . 0x137  07 ATA  User Password Master Password +.  Victoria in Windows
-14
-
- ATA 
-PIO
-15
-
- ATA 
-F
-16
-
- ATA 
-ATA Password
-17
-
-:28 bit ATA Command Set
-18
-
-
-.
-   . . 1.ATA Hardware Reset
-2.ATA Software Reset
-3.Power Reset
-4. Zone 
-19
-
-UDMA DE 
-20
-
-
-21
-
-
-22
-
-Flash 
-23
-
-SD Card PCB 
-24
-
-8GB Nand Flash
-25
-
-
-26
-
-IOS 
-IOS  IOS android .
-27
-
-iOS 
-HFS+HFS PLUS (HFS)Mac os iphone
-System1G iOS
-User 15G31G64G User iPhone3Giphone3G 
-28
-
-iOS Raw Disk 
-IOS 4 + A4 CPU ,.NAND Flash AES .
-
-
-
-
-*
-29
-
-IOS 
-5-40  Sogeti Iphone data protection   http://code.google.com/p/iphonedataprotection/ 
-30
-
-ramdisk
-IOS kernel AES . IOS A4 CPU,bootrom exploit , Kernel NAND Disk Image Dump .
-iOS  DFU Redsnow ,Redsnow DFU bootrom exploit ,  ramdisk,RAM DISK ,, ramdisk iOS   Logo 
-*
-31
-
-A4 CPU 
- iOS Kernel RAM DISK User   iOS 4. User   iPhone3G iPhone 3G iOS 4.XUser 
-*
-32
-
-Keykeychain
-keychain data DFU ramdisk keykeychain data
-iOSDFUUser keychainkeysramdisk  iOS  EscrowiOS Escrow iOSEscrow fileUUID Escrow win xp %ALLUSERSPROFILE%\Application Data\Apple\Lockdown\ win 7 %ALLUSERSPROFILE%\Apple\Lockdown\
-*
-33
-
-
-ramdisk 
-iOSDFU.ramdisk , 44 1030 
-*
-34
-
-
-   key iOS 
-  
-*
-35
-
-
- , ?
-./win32/itunnel_mux.exe --decrypt --wtf common/WTF.8900 --ibss common/iBSS.n82 --kernelcache common/kernelcache.n82 --devicetree common/DeviceTree.n82 --ramdisk common/ramdisk-4.dmg .\win32\ssh.exe -c null -m hmac-md5-96 -p 2022 root@localhost dd bs=1M if=/dev/rdisk0s1s1 | .\win32\dd.exe bs=1M of=output-file -progress
-36
-
-
-DOS,
-37
-
-
-wx python   
-38
-
-
-     Whatsapp .
-39
-
-Wifiapple ID
-wifiAPPLE ID keychain.txtiOS wifiAPPLE ID:
-*
-40
-
-key.plist
-  
- key.plists
-iOSEscrow 
-*
-41
-
-AFC
-iosAFC (Apple File Connection) iPod (2001)  , usbmux
-iOS  AFC2  . AFC2  /System/Library/Lockdown/Services. plist  root 
-42
-
-JB  AFC
-iOS   AFC  iOS  
- /private/var/mobile/Library/AddressBook   /private/var/mobile/Library/CallHistory   /private/var/mobile/Library/SMS   /private/var/mobile/Library/Calendar 
- AFC2 ,cydia  . openssh server ,root password A5 IOS 
-43
-
-SMS
- /private/var/mobile/Library/SMS  sms.db  sqllite  
-*
-44
-
-
- /private//var/wireless/Library/CallHistory call_history.db  sqllite 
-*
-45
-
-
- /private//var/mobile/Library/AddressBook AddressBook.sqlitedb   sqllite 
-*
-46
-
-
- /private//var/mobile/Library/Calendar  Calendar.sqlitedb  sqllite 
-*
-47
-
-Browser
- /private/var/mobile/Library/Safari  Bookmarks.db  sqllite  
-*
-48
-
-
- /private/var/mobile/Library/Safari  History.plist  
-*
-49
-
-
-  /private/var/mobile/Media  DICM 
-photo  PDF
- /private/var/mobile/Media/Books   epub  PDF  
- /private/var/mobile/Recordings  
-*
-50
-
-Whatspp 
-51
-
-
-IOS  Windows ,  embedded system.  iOS  ( embedd system ) "" , whatsapp embedded   "" 
-52
-
-libimobiledevice+usbmuxd
- :
-, http://www.osslab.com.tw/ 
-53
-
-

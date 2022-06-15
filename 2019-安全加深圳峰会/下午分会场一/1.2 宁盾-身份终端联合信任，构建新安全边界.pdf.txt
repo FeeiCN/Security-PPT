@@ -1,294 +1,0 @@
-+
- www.nington.com
-
-
-20091000 ""+""""
-  ISO9001/27001
-
-2010
-
- 
-2012
-
- 
-2014
-
-  600
-2016
-
- 
-2018
-
-2009  
-
-2011
-
-2013   
-
-2015  400 
-
-2017  
-
-
-
-
-
-
-
-
-
-
-
- 
-
- Token
-
-/ H5
-
-
-
-
-
- 
-
-
-2.0  
-
-
-SM32.0 
-
-
-
-
-/
-
-
-
-
-/+
- 
-
-RSAGoogle
-
-Google RSA SecurID
-
-
-
-Google Google
-
-
-
-802.1X
-
-+
-
-
-
-
-
-
-
-
- + AAA
-
- 
-
-  
-
-
- 
-
- 
-
-
-015 /
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
- +  + 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-windowsADUser Connector · WindowsAD · IoT
-Windows Mac Linux
-
-Mac/Linux
-Mac Linux
-
-IoT
-1IPMACIoT 2IoTIoT
-
-
-
-IPIP IoT
-
-
-· ACAPVLAN 
-· AC
-
-
-
-MAC Tag
-
-
-
-VlanIPTag
-VLAN
-
-
-
-
-
-ATD  
-
-
-
-EMM
-
- 
-
-
-
-
-BYOD 
-
-
-
-IoT
-
-
-
-
-
- 
-
- 
-
-
-
-OKTA
-3
-1AD/LDAP 
-2C/SB/S
-3"+" SSO
-
-
-
-
-
-
-B/S
-
-NC 
-
-
-Easy SSO Java.NetPHP
-
-
-
-C/S
-C/SUser ConnectorB/SC/SSAPIe C/S 
-
-SAP
-
-PM
-
-AM
-
-
-
-
-
-AD/TDS
-
-
-
-
-
-
-
-
-
-RBAC
-
-OA(HR -> ADTDS -> 
-
-
-
- +  
-
-    
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-·ADLDAPTDS; · · ·
-
- AD LDAP
-RADIUS HTTP POP3 ......
-
-VPN    Web/App
-ERP OA 
-
-Cisco Confidential
-
-Next > 2
-
-
-SAP VPN
-
-
- 1.6
-
-
-Wi-Fi + SSO 1 
-
-Okcoin
-""  "MAC"3 
-
-   + 
- 
-
- +"" 
-
-
-400 ­ 658 -2855 www.nington.com
-
-
- www.nington.com
-
-

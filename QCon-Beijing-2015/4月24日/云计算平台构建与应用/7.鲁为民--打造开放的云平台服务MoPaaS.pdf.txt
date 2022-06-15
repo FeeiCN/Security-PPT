@@ -1,252 +1,0 @@
- MoPaaS
-(QCon ­  2015)
- Anchora 2015.4.24
-
-Anchora
-· 
-­  PaaS  ­ 
-­  ­  ­  ACCP
-­ 
-· 
-­  Cloud Foundry  Docker  ­  Cloud Foundry 
-· 
-­  Cloud Foundry  ­ 2013  ­ 2013 
-Page 2
-
-
-Page 3
-
- ...
- UBIQUITOUS & FLEXIBLE) 
- PORTABLE & INTEROPERABLE  
- VIBRANT & GROWING 
-Page 4
-
-
-Page 5
-
-IaaS, PaaS, & SaaS
-Page 6
-
-
-Page 7
-
-
-Page 8
-
-
-
-
-
-PaaS $3.8B
-
-· 
-· DevOps  IT  · 
-
- $78B
-App Dev & Deploy.
-
-· 
-· 
-·  · 
-
- $93B
-System Infra.
-
- $168B
-Applications
-
-· : IoT
-
-
-
-·  30% IDC)
-
-IDC: 
-
-· 2017 IaaS Forrester
-
-Page 9
-
- (PaaS) 
-· 
-­ 
-·  ·  · 
-­ 
-·  ·  · 
-­ 
-·  · 
-· 
-­ 
-· 
-­ 
-· 
-
-Page 10
-
-PaaS  ... 
-
-
-
-
-
-
-
-IT
-
-
-
-
-
-
-
-
-
-
-
-
-
- IT
- 
-
-Page 11
-
-PaaS  I: 
-· 
-­  ­  APIs ­ 
-· 
-­ CRM:  Force.com ­  (BPM) ­ ()  (MBaaS) ­ DevOps/CI
-· 
-­  ­ 
-
-Page 12
-
-PaaS  II: 
-· 
-­ APIs ­  ­  GAE,  SAE, Cloudify
-· 
-­  ­  ­ 
-Page 13
-
-PaaS  III: 
-
-· 
-­  ­  ­  ­ Heroku, AppFog  Cloud Foundry (MoPaaS v1) 
-· 
-­  ­  ­  IaaS  ­ 
-
-
-2015-4-25
-
-Page 14
-Page 14
-
-PaaS /IT 
-
-Page 15
-
- Cloud Foundry  PaaS
-Page 16
-
-Cloud Foundry v2 
-Page 17
-
-Cloud Foundry 
-·  ·  ·  ·  ·  ·  Bosh · 
-
-Page 18
-
- ...
-Page 19
-
-Cloud Foundry Diego
-· Diego  Cloud Foundry   SchedulerRunner  Health manager
-·  Docker, Warden, Rocket  .  Kubernets  Mesos  Orchestration
-Page 20
-
- Cloud Foundry (I)
-Page 21
-
- Cloud Foundry (II)
-Page 22
-
- Cloud Foundry (III)
-Page 23
-
-
-Page 24
-
-
-   
-   / CI/CD)        /
-
- IT  IT
-Page 25
-
-
-· IaaS  PaaS 
-­ IaaS vs. PaaS ­ VMs vs.  vs.  ­ 
-· ""PaaS 
-­  ­  ­  ­ Auditing 
-Page 26
-
-Microservice) 
-Page 27
-
-MoPaaS
-· 
-­ 
-·  ·  · 
-­ 
-·  API  ·  · 
-· InPaaS
-­ : IaaS & PaaS; Cloud Foundry & Docker ­  ­  ­ 
-
-Page 28
-
-MoPaaS 
-Page 29
-
-MoPaaS 
-Page 30
-
-MoPaaS 
-
-MoPaaS 
-Page 32
-
-
-Page 33
-
- Warden 
-Page 34
-
- Docker  MySQL 
-Page 35
-
-MoPaaS 
-Page 36
-
-MoPaaS 
-· 
-     
-· 
-     
-· 
-     
-· 
-   
-
-Page 37
-
-
-  MoPaaS:
- http://www.mopaas.com
- 
- marketing@anchora.me
- 
- wmlu@anchora.me
-
-Page 38
-
-

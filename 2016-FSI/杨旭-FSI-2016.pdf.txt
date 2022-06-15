@@ -1,391 +1,0 @@
-IoT-
- 
-
-Agenda
-IoT &  IoT & Botnet IoT 
-
-IoT & 
-Who
-
-Why
-
-How
-
-Where
-
-   
-
-Who
-
-
-IoT
-
-
-
-
-
-
-
-
-
-
-
-· DVRDigital video recorder · CCTVClosed-Circuit Television · Security Camera · Network Camera
-
-Why
-
-
-1. 
-
-weak password of some DVRs
-
-weak password built-in mirai
-
-2. 
-
-3. OEM
-
-4. 
-
-
-
-root
-
-5. 
- telnet
-ssh
-
- 
-
-
-  
-
-
-
- 
-
-
-
-
- 
-
-
-6. 
-
-
-
-
-
-
-
-
-
-
-IoT  BoT
-
-How
-
-
--IoT Search Engine
-
-
--
-
- ""  "cc " 
-
-
- ­ 11w
-1.  mirai  IP 
-2. telnet  banner 
-3.  banner 
-
-Where
-
-
- 
-92,500,000.
-
-
-
-
-IoT & Botnet
- botnet
-  
-
-IoT 
- IoTbotnet
-
-
-
-IoT-botnet attack against Krebs
-
-Brian Krebs 
-krebsonsecurity.com vDoS
-
-vDoS DDoS
-60W
-
-921 krebsonsecurity.com
-620G
-
-620G
-
- googleproject shield 
-
-
-akamai 
-DDoS
-
-IoT-botnet attack against OVH
-1T
-
-IoT-botnet attack against DYN
- The First DDoS attack began at 7:00 a.m. (EDT) and was
-resolved by 9:20 a.m.
- A second attack was reported at 11:52 a.m. and Internet users
-began reporting difficulties accessing websites.
-
-A third attack began in the afternoon, after 4:00 p.m.At 6:11 p.m., Dyn reported that they had resolved the issue.
-
-IoTBotnet
-
-IoT-botnet 
-
-·  
- 
-
-· 1T  100Gso easy
-
-
-7*24
-·   
-
-
-·   
-
-IoT botnet
-mirai
-
-· botnet
-
-luabot
-
-· botnet
-
-luabot  mirai mirai  other mirais ·
-
-Mirai
-· malwaremustdie  mirai
-2016.09.01
-· krebsonsecurity620GDDoS 2016.09.21 · OVH1TDDoS
-2016.09.22
-· githubmirai
-2016.09.30
-· DDoS
-2016.10.20
-
-mirai-botnet
-
-bot client
-
-report server
-
-attack server
-
-botnet
-
- bot client report  
-
- ddos  bot client
-
-report server
-
-1. report the scan resultip/port/user/passwd
-
-2. login the device and download the sample
-
-attack server
-
-mirai-bot 
-
-bot
-
-mirai-bot 
-22 23 80malware
-
-
-mirai --
-
-1. 232323 2. IP 3. SYN TCP_SEQ = DST_IP
- report 
-ip|port|user|passwd
-
-mirai --DDoS 
-
-cmd type duration vector targs_len targets
-opts_len opts
-
-cmd lengthByte 4 1 1 targs_len
-1 opts_len
-
-description attack duration
-attack type target count the targets to be attacked attack opts count attack opts
-
-SYN ACK UDP
-
-DDoS
-
-HTTP DNS
-
-GRE
-
-IoT botnet
-mirai
-
-· botnet
-
-luabot
-
-· botnet
-
-luabot  mirai mirai  other mirais ·
-
-luabot
-· malwaremustdie  2016.09.05 email: luabot@yandex.ru
-Mid of · 
-September
-· 
-now
-
-luabot 
-· 
-
-· 
-arm_lsb arm_lsb_oabi
-
-lua 
-
-
-
- 22
-23
-· malware mirai 
-
-  
-
-
-· js  javascript 
-
-luabot HTTP Flood -  cloudflare
-
-luabot
-
-Web server
-
-Get index.html
-503 (javascript code)
-javascript cookie
-Get index.html (cookie: cf_clearance=xxxxx)
-
-Get index.html
-
-IoT botnet
-mirai
-
-· botnet
-
-luabot
-
-· botnet
-
-luabot  mirai mirai  other mirais ·
-
-luabot  mirai
-luabot
-
-mirai
-
-luabot
-
-mirai
-
-luabot  mirai 
-luabotmirai, miraiCCIP
-
-luabotddos
-
-luabotmirai
-
-mirai  other mirais
-
-    
-
-    
-
-ftp.xenonxxxxx.xyz hightxxxxxx..club
-
-loaxxxxxure.pw
-
-mirai  other mirais 
-IP
-CCIP
-
-IoT 
-
-IoT
-
-IoT
-
-
-
-
-
-
-
-
-- - -
-
--
-
-telnet ssh
-
-
-  
-
-
- 
-
- 
-
-
- 
-
-
- 
-12345 
-
-
-
-
-
- 
-
-
--
- 
-
- / 
-
- 
-
- 
-
- 
-  DDoS
-  ADS mirai
-
--
-
- 
-
-

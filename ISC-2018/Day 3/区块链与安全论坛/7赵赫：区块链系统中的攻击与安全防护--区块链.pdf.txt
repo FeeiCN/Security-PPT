@@ -1,179 +1,0 @@
-
-
-
-
-
- () Eric Zhao
-ZHAOH@HFCAS.AC.CN
-
-     CTO
- cnLedger 
-
-  
-
-
-
- & 
-
-"2025GDP10%
-
-"
-
-­ WEF 2017
-
- & 
-
- & 
-
-  
-
-
-   ==
-
-
-1 
-2 
-3 P2P
-
-1 
-
-MyEtherWallet 
-
-PC
-
- & /
-201612VC  (Bo Shen)    ETH   Augur       $300,000
-
-
-
-· 2016DAO "(Not So) Smart Contract"
-
-360ETH72
-
-...
-
-· 2017Parity
-
-15.3ETH93ETH
-
-
-
-· 20184BECtoken Bug64
-
-· 20187Bancor 2.5ETH
-
-2 
-
-
-· 
-· Bitfinex, Poloniex, Bithumb, Youbit, CoinCheck, GateCoin, Bitcoinica, BitGrail ...
-·  or 
-· Mt. GoxShapeShift, CoinSecure, Bit LC, Bitcoin7, ...
-· Bug
-· CoinbaseMt. Gox, ...
-
-
-· 
-· Tether (USDT) · Blockchain.info
-· CoinDash ICO · Steem.it (STEEM)
-· ()
-· BitPay
-· 
-· Slush Pool
-
-3 P2P
-
-"1 RETURN"Bug
-
-· 20107ArtForz Bug
-· Bug 
-·    
-"         Bug        Bug1 Return"
-· Bug 
-· ArtForzBug 
-
-case OP_RETURN: {
-pc = pend; } break;
-OP_1 OP_RETURN
-Digital Gold : Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money
-
-
-· 20108Jeff Garzik #74638 3 1800BTC
-·  
-· Bug 
-· #74691  BTC  
-
-51%/ 
-We propose a solution to the double-spending problem using a peer-to-peer network.
-
-
-· BitcoinGold
-· 201851.3
-· ZenCash
-· 20186340
-· Verge
-· 2018451900
-· Monacoin
-· 2018562
-· LitecoinCash, Krypton, Shift ... · Who will be next?
-·  ETC: $5  -> $10 
-
-
-https://www.ccn.com/bitcoin-transaction-malleability/
-
-
-Hijacking Bitcoin: Large-scale Network Attacks on Cryptocurrencies
-
-IOTA
-
-· 20175IOTAMIT 
-
-· 7MITIOTA IOTACurl IOTAPOW 
-
-· 8IOTASHA-3 Curl
-
-· 9MIT
-
-IOTAMIT 
-
-
-
-"MIT "
-
-IOTA
-
-
-·    
-
-·    1 2""
-·  
-
-SECURITY BLOCKCHAIN
-
-
-
- 
-·  · "" ·  · 2FA · SSL
- · "" ·  ·  ·  · 
-
-
-Bitcoin ­ The Halving by Crypto Art
-
-  
-· Don't Trust. Verify! · "" ·  ·  ·  ·  · Library · BTC/ETH
- ·  ·  · 
-""
-
-Ethereum `Abstractions' by Frankreddit5
-
-  
-·  ·  · 
- ·  ·  ·  · Bug Bounty ·  ·  · 
-
-
-Strategy of Blockchain Painting by Daniel Loveday
-
- 
-zhaoh@hfcas.ac.cn
-
-

@@ -1,269 +1,0 @@
-
-
---
-
-· 
-
-
-
-
-
- 
-· 30 · 10 · 
-
-
-· · ·query ·SNS
-
-
-UGC  
-
-
- 
-
-
-
-
-
-
-
- 
-
-
-
- 
-
-
-
-SNS/
-
- 
-
-/
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
-
-
- 
-
-
-
- 
-
-
-
-KNN
-
-Kmeans
-
-SVM/ANN//
-
-
-
-U
-
-UE
-
-
-:     
-
-
- 
-
-
- ""
-
-
-
-24  12 B\3I5 U9V0\q\uery\18  V\18--25\25-35
-  
- BI 
-
---
-
-
-
-
-.:
-
-
- 
-
- 
-
-
-list +list  list Combo Shortcut ...
-
-
-
-+
-
- 
-
- 
-
-
-  
-
-
-
-  CRF
-
-         
-
-     B E B E B E BE BM E
-
-
-·  · 
-
-
-
-Hidden Markov ModelHMM Maximum Entropy ModelMEM conditional random fieldsCRF
-
-
-
-
- Iphone4S 
-
-
-
-
-
-
-
-...
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-List
-
- 
-
-...
-
- 
-
-  
-
-...
-
-  
-
-
-
-  
-
-
-   
-
-
-   
-
-   
-
-
-·  ·  · 
-
-
-U Query 
-
-
-·  ·  · 
-
-
-·  ·  · 
-
-
-  head-rule, lexicalize, grammar-based un-lexicalize
-  memory basedclassifier-based,
-feature-verification
-
-
-
-
-·  · 
-
-
-
-
-
-
-
-t3
-DD911
-
-DD13 0
-
-Q
-
-t2 DD78
-
-D1 D5
-DD4 2 D6
-
-
-
-d1
-
-d3
-
-dm
-
-C1
-
-C2
-
-C3
-
-C4
-
-C5
-
-C6
-
-C7 ... Cn
-
-
-
-
-·  ·  · 
-
-
-
-
-
-
-
-
-
-
-
-

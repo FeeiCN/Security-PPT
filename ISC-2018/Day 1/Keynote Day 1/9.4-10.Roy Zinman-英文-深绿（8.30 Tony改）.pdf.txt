@@ -1,104 +1,0 @@
-THE 3RD REVOLUTION IN OSINT
-Roy Zinman
-
-The Third Revolution in OSINT
-OSINT and Cyber Security OSINT - The 1st and 2nd Revolutions The Challenges of OSINT The Third Revolution Case Study
-
-OSINT & Cyber Security
-OSINT (open source intelligence) - data that is collected from publicly accessible sources such as blogs, social media and discussion groups OSINT is an essential component of cyber security
-Situational Awareness Risk Assessment Threat Detection Attack Surface Analysis
-
-The Third Revolution in OSINT
-OSINT and Cyber Security OSINT - The 1st and 2nd Revolutions The Challenges of OSINT The Third Revolution Case Study
-
-The First and Second Revolutions in OSINT
-2005 - 2010 - The Social Media Revolution
-
-The First and Second Revolutions in OSINT
-2010 - 2015 - The Mobile Revolution
-
-The Third Revolution in OSINT
-OSINT and Cyber Security OSINT - The 1st and 2nd Revolutions The Challenges of OSINT The Third Revolution Case Study
-
-The Challenges of OSINT
-
-Real Time
-
-Geo-tagged
-
-Collect Mobile Information
-Process Big Data
-Privacy Protection
-
-Authentic
-
-Diverse
-
-Vast
-
-Validate Online Data
-Understand Multiple Formats & Languages
-
-Track Dynamic Sources
-
-The Third Revolution in OSINT
-OSINT and Cyber Security OSINT - The 1st and 2nd Revolutions The Challenges of OSINT The Third Revolution Case Study
-
-AI - The Third Revolution in Open Source Intelligence
-Advancements in AI are rapidly transforming OSINT once again, and untapping a huge potential by:
-Handling vast amounts of data by automated processing Automatically identifying risk patterns (unknown ­ unknown) Separating authentic and counterfeit data Using open source for predictive analysis Tackling privacy and commercial issues
-
-AI Solutions Impacting OSINT
-
-Machine Translation
-
-Image Processing / Generation
-
-Predictive Analytics
-
-Natural Language Processing / Generation
-
-Sentiment Analysis
-
-Audio and Video Processing
-
-Pattern Recognition
-
-Connection Analysis
-
-Screenshots from VARIS -- Open Source Intelligence Platform for public safety and customs real cases
-
-The Third Revolution in OSINT
-OSINT and Cyber Security OSINT - The 1st and 2nd Revolutions The Challenges of OSINT The Third Revolution Case Study
-
-OSINT Importance For the Security of Israel
-2020
-2000
-
-Threats are secretive, Intelligence is in closed systems
-
-Threats are developing and culminating in cyberspace
-
-OSINT Importance For the Security of Israel
-
-Tracking the Development of ISIS
-
-Cyber Threat Intelligence
-
-The "Arab Spring" & Regional Stability
-
-Boycott Movements
-
-Monitoring the Situation in Neighboring Syria
-
-Case Study - The "Lone Wolf" Wave of Attacks - 2015
-A wave of knife and ramming attacks starting in 2015 after an incitement campaign in Social Media (Facebook) Inciting content becomes viral, affects mainly teenagers Actors are unknown to the security forces of Israel Traditional intelligence gathering is useless Large amounts of data to process Low "Noise" ratio is a must High level linguistic capability is required
-
-Case Study - The "Lone Wolf" Wave Attacks - 2015
-
-Summary
-OSINT has become an essential part of contemporary business and national security intelligence requirements, specifically cyber security The exponential growth in complexity and scale of data created numerous challenges for fulfilling OSINT potential AI advancements provide answers to many of the challenges in collecting and analyzing vast amount of data to create timely and actionable insights AI is going to transform both the way we create, share and consume data, and the way we create intelligence Harnessing advancements in AI to augment existing OSINT platforms and analysts will give an edge over competitors and adversaries
-
-THANKS
-
-

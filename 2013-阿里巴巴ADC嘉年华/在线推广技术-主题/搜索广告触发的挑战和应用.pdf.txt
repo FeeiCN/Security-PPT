@@ -1,381 +1,0 @@
- 
-- 
-
-
-· 
-­ 
-· 
-­ 2012 ­ 2007~2012MSRA ­ 2003~2006MSRA
-· 
-­  ­ wugou.hyh@taobao.com
-2
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-· 
-
-
-
-
-
-
-
-· 
-
-­ Query Rewriting ­ Bid-Ads Ranking ­ First RankingCTR
-
-
-
-First Ranking
-
-Query Rewriting
-
-· 
-
-Bid-Ads Ranking
-
- P(a | q)  i P(bi | q)P(a | bi , q)
-qba
-
-· 
-­ bi ­ 
-
-
-
-
-
-
-
-
-
-
-
-· >5*6
-
-
-
-· 
-
-
-
-
-
-­ 
-
-­ Query Rewritingquery clustering+Bid
-
-­ Bid-Ads RankingCTR
-
-­ First Ranking  
-
-· CTR2%
-
-· 
-
-­ 
-
-­ 
-
-
-· 1
- P(a | q)  i P(bi | q)P(a | bi , q)
-
-!
-
-P(a | bi , q)  P(a | bi )
-!
-
-
-
-
-
-
-
-· 2
- P(a | q)  i P(bi | q)P(a | bi , q)    1nP(bi | q)P(a | bi , q)  n1 P(bi | q)P(a | bi , q)
-­  n=10
-­  
-­  
-
-
-
-
-
-2
-
-· 
-
- P(a | q)  i P(bi | q)P(a | bi , q)
-
-  
-
-n 1
-
-P(bi
-
-|
-
-q)P(a
-
-|
-
-bi
-
-,
-
-q)
-
-
-
-n1 P(bi | q)P(a | bi , q)
-
-n10200
-
-
-
-· 
-Top n 
-
-
-n  c (e.g.,c 10)
-
-
-· 
-­  ­  ­ 
-
-
-
-
-
-· 
-­ queryAds  Top n
-
-
-
-
-
-
-queryAds Ads
-AdsAds
-
-
-
-· queryAds 
-
-­ 
-· query-adsCTR 
-
-­ 
-
-· query
-
- 
-
-­ 
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-·  Bid
-
-· Bid
-
-·  Firstrank 
-· CTR 
-
-Bid 
-· 2012matching Bid
-· Bid 
-
-1Bid
-
-· Bid Bid
- 
-
-· bidword pair  (ad group )
-· bidword pair 
-
-  
-
-2
-·  
-· ML=1 ML
-· ML
-
-
-
-
-
-
-
-
-
-·  Bid
-
-· Bid
-
-·  Firstrank 
-· CTR 
-
- Bid
-· 2012 CTR
-· Bid CTR
-
-3CTR
-· Case, CTR · QueryTop 15w
-
-3CTR
-· Case CTR · QueryTop 5w~10w
-
-
-
-
-
-
-
-
-
-·  Bid
-
-· Bid
-
-·  Firstrank 
-· CTR 
-
- Firstrank
-· Top M NCTR
-· firstrank:
-­     
-P(a | q)  f1(c, q)* f2 (c, a)* f3(q, a)
- P(a | q)  i P(bi | q)P(a | bi , q)
-
-
-
-
-
-
-
-
-
-
-·  Bid
-
-· Bid
-
-·  Firstrank 
-· CTR 
-
-Matching
-· 2012matchingCTR 
-· MatchingMatching 
- CTR10%+
-
-
-
-
-
-
-
-
-
-·  Bid
-
-· Bid
-
-·  Firstrank 
-· CTR 
-
-
-
-
-· 
-­ 
-· QueryBid
-­ Bidword
-· BidAds
-­ cfop
-· QueryAds
-­ 
-
-(1) 
-· PVQuery · QueryAd · QueryAdsTop NAds · 
-
-(2) QueryBid
-· 
-­ Bidword ­ qcbidword ­ Simrankquery ­ Translation modelquery ­ QRquery
-query
-· 
-­ Ads
-
-(3) BidAds
-· FirstRank 
-· Query-BidCTR 
-· Top N 
-
-(4) QueryAds
-·   
-· Top N 
-
-
-
-
-· 
-­ QuerySimRank+QR ­ Top 200 querytop 8000 ads
-
-Top n 
-
-
-
-
-
-
-
-· 
-
-CTR PPC RPM
-
-Top
-+4.4% +0.0% +4.4%
-
-Tail
-+5.2% +1.1% +6.3%
-
-All
-+4.7% +0.3% +5.0%
-
-Thanks! Q & A
-
-

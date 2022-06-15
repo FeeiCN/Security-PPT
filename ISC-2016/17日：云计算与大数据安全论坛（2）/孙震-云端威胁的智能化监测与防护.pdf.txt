@@ -1,207 +1,0 @@
-  Ixia China
-
-
-AGENDA
-   IP  LAB
-
-
-
-
-
-Cloud Lens MGR.
-
-Network Operations
-
-Application Operations
-
-Security Admin
-
-Forensics
-
-Vision 
-
-ATIP
-
-IP
-
-
-
-
-
-
-
-1:
-Encrypted Traffic
-ATIP Decrypt
-
-Clear Traffic
-
-
-
-ATIP Analysis
-
-
-
-2:
-Source Data
-SSN: 123-45-6789 Credit Card: 1234 567890 12345 Name: John Smith Birthday: 03/19/1963
-
-ATIP Data
-SSN: XXX-XX-XXXX Credit Card: XXXX XXXXXX XXXXX Name: XXXX XXXXX Birthday: XX/XX/XXXX
-DATA Masking
-
-IP
-
-" 21,000 "
-Ponemon Institute2015 
- "" 
-
-
-
-
-
-
-
-
-
-
-
-
- IP
- IPs 
-
- IPs 
-
-
-
-
-
-
-
-ThreatArmor
-
-5IP
-
- 30%   6,300 ;
-30
-
-Internet
-
-
-
-
-
-IP IP
-
-Malicious IP IP
-
-IP
-
-IP
-
-1. Source Feeds 2. Internet Scanning 3. Honeypots 4. SPAM 5. Binaries 6. Sandboxes
-......
-
-Analysis
-
-BAD
-
-Whitelist DB
-Check
-
-BAD RapSheet Database
-
-Re-check Daily
-
-AV Detection
-
-Sandbox Execution
-
-Phishing Engine
-
-Ixia Signatures
-
-
-· Source Feeds
-
-· Internet Scanning
-7×24
-· Honeypots
-SSH, FTP, RDP, VoIP, HTTP
-· SPAM
-...
-· Binaries Analysis
-malwareAPP Stores...
-· Sandboxes
-Malware...
-
-
-7×24 
-ixia 
-
-Site  AV, ,  ...
-ixia
-
-IP
-1. 100%  2.  3.  4.  5. IP ......
-
-
-· Alexa/Quantcast 10,000 : Facebook, Google, YouTube, etc.
-· : Amazon AWS, Microsoft Azure, Salesforce, etc.
-·  Root DNS servers, NTP servers, etc.
-· IT () Office 365, AV/OS update, CDN,
-
-IP
-
-0day
-1. Office 2. Locky 3.  79.170.44.88 4. IP...... 5. IP
-Detail https://www.ixiacom.com/company/blog/ixia'sati-research-center-protects-customers-another-zeroday-ransomware
-
-LAB
-
-
-·  · 
-
-LAB
-·  ·  ......
-330+ 3500  ATI Aug 2016
-· Markov
-
-
-
-Interesting Strikes
-
-CVE-2014-0422 OSVDB-101997 BID-64921
-
-This strike exploits a sandbox bypass vulnerability that exists in Oracle Java
-
-CVSS-10.0 (AV:N/AC:L/Au:N/C:C/I:C/A:C)
-CVE-2014-0286 OSVDB-103184 MSB-MS14-010
-
-This strike exploits a HP Dataprotector service vulnerability.
-This strike exploits a use after free error triggered when Microsoft Internet Explorer handles DOM rewrites when proccessing certain web pages.
-
-CVE-2013-6040
-
-This strike exploits buffer overflow vulnerability within the MW6 Technologies ActiveX Control.
-
-url-http://www.honeynet.org/node/138 E97-g5601 Retail Store BlackPOS Attack Simulation US12330 OSVDB-101195 CVE-2013-6810
-
-This strike simulate the DNS fast flux attack DNS Cache Poisoning Attack Creatinve POS attack an NTP Mode 7 Reflection Distributed Denial of Service Attack This strike exploits a EMC Connectrix Manager Converged Network Edition SAN management suite
-
-URL-http://www.exploit-db.com/exploits/30063/ CVSS-7.8 (AV:N/AC:L/Au:N/C:C/I:N/A:N)
-
-This strike exploits a vulnerability inside the DZS Video Gallery WordPress plugin which allows remote users to access the contents of local and remote files
-
-7000+ StikesBO3T0N0E0T0+ DMDalOwSare100I+PEvationsATI Aug2016
-
-
-75
-
-ATI
-APPLICATION AND THREAT INTELIGENCE
-
-
- 
-
-

@@ -1,143 +1,0 @@
-360 
-2017
-
-· 2008   360
- //
-
-
-
-
-·     360
-
-· · · · ·
-
-
-
-
-
-
-
-· 
-
-· 
- 
-
-
-
-
-
--v1
-
--v1
- 60
- IO 
- Gearman
-
-
-
--v2
-
--v2
-
-  
-
-scanner1
-
-client
-
-scanner2
-
-Result
-
-scanner3
-
- 
-   
-
-
-
-
-   
-
-
-
-
-        
-
-
-
-
-
-
-Monitor
-   dispatcher 
- mysql  thriftRPC
-
-
-Frontend
-  taskdispatcher task
-
-Monitordispatcher ScanFlag
-
-
-
-
-
-
-
-
-
-
-Dispacher
- taskunit batchsingle   
-  unit
-
-
-Unit
-  windows / linux / andriod  SDK 
- xen,kvm ramdisk windowscygwin pythoncpy
-
-
-
-monitor
-
-
-
--
-N
-
-JobToken
-
--
-
-TOKEN
-
--
-JobToken
-1.  2.  3. Redo 4. 
-
--
-
-  
- kv thriftRPC
-
- TB  PB 10
-
-
-
-
- MRstreaming 
-
-  
-
-
-
-
-1.  2.  3. 
-
-
-
- !
-
-
-

@@ -1,128 +1,0 @@
-Onboard security in software companies 
-Wenjun Wang() Hewlett Packard Enterprise software security lead
-
-Self introduction
-­Hewlett Packard Enterprise software security lead, responsible for BU security with $1B revenue
-­10+ years enterprise software then security ­CSSLP & CISSP ­Co-author Web
-
-Vulnerabilities
-
-
-Adhoc solution
-What should do
-
-The fact
-
-Cost to fix these issues
-
-RnD's voice to security
-Revenue driven
-
-Legacy
-
-I'm a developer
-
-Security scanner
-
-RnD's impression to security guys
-
-RnD's expectation to security guys
-
-Security guys' challenge
-Product team
-
-Security architect
-
-Security as a quick start
-
-1. Create security bug type
-
-Security bug
-· Severity · Impact · Released
-version
-
-Verify success
-· Meet release criteria
-· Mitigation is provided
-
-Damage Reproducibility Exploitability Affected users Discoverability
-
-2. Security user story
-
-User story
-· Agile · Attacker
-view
-
-Verify success
-· In backlog · Test cases
-
-"As an [operator], I want to [do something] so that I can [derive a benefit]" "As an [attacker], I want to [do something] so that I can [damage the system]"
-
-3. Security dashboard
-
-Dashboard
-· Aggregation · Drill down
-
-Verify success
-· Stakeholders are aware
-· Business decision
-
-So evolve
-On board security program Low hanging fruit Adhoc solution
-
-Security awareness training
-
-Diversity
-· Management · Dev · QA
-
-Options
-· Instructor based · Web based · Event
-
-Security release criteria
-
-Risk
-· DREAD · CVSS3
-
-Criteria
-· Threshold · Business balance
-
-Threat modeling and security design review
-
-Threat
-· Threat list · Refresh list
-
-Review
-· Security pattern · Security user story
-
-Security assessment
-Automatic
-· Static · Dynamic
-
-Manually
-· Check list · Pen test
-
-Risk response
-
-Pre-event
-· 3rd party lib scan · Subscription
-
-Post-event
-· Action plan · Risk tracker
-
-Apply what you learnt today
-
-3 days
-· Know security methodology in this document
-
-3 weeks
-· Handle low hanging fruit in your company
-
-3 months
-· Start onboarding security program
-
-To be continued
-
-Thank you
-22
-
-

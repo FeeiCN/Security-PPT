@@ -1,106 +1,0 @@
-
-
- - 
-- 
-
-
-
- 
- 
-
- 
-·  · 
-
-·  ·...
-
-
-
-
-
-
-
-
-
-
-
-
-/
-
-
-
-
-
-/
-
-
-
- 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-<
-
-
-
-
-
-Less is More  +  +   + 
-
-
-· 
-­ DCNNmulti-patch+multi-task/
-· 
-­ FDDB300-WLFW ­ 2015 99.6%LFW99.47% ­ 2014Top3Face++97.27%Facebook DeepFace97.25%
- GaussianFace98.52%
-· 
-­ 0.01%
-· 
-­ 97%
-· 
-
- "A"="A"
-
-""
-
-""
-
-
-
-
-
-
--
-
- 
-
-
-
-2500+ 4core 160T 40PB
-
-
-~10P/ ~5/ <150 /
-
-
-CPU GPU  
-
-for your attention
-
-

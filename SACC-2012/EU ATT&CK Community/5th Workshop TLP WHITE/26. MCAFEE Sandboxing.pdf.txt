@@ -1,102 +1,0 @@
-Applying MITRE to malware sandbox systems
-EU ATT & CK Community
-Marc Rivero López ­ McAfee ATR Team
-
-McAfee Confidential
-
-Marc Rivero López Threat Researcher - McAfee ATR Team
-Focused on: Threat Intelligence Malware analysis
-@seifreed
-
-McAfee Confidential
-
-Why you need the MITRE ATT & CK Framework?
-· Expand the knowledge of the network defenders and assists in prioritizing network defense by detailing the tactics, techniques, and procedures (TTPs) cyberthreats used to gain access
-· Correlate specific adversaries and the techniques they have used by providing a library that details adversary groups and the campaigns they have conducted
-· Gain an understanding of the specific techniques used by adversaries for named campaigns so you can evaluate and strengthen your security architecture and strategy
-· Upgrade skills of junior analysts through training, which is one important step enterprises have taken to address the global cybersecurity skills shortage. The ATT&CK framework has been incorporated into many security certification courses offered by the SANS Institute and other organizations to help junior analysts better understand adversary tactics, techniques, and processes (TTPs) and apply that knowledge to improve the efficacy of their threat hunting processes.
-McAfee Confidential
-
-ATT & CK and the Pyramid of Pain
-
-https://www.mbsecure.nl/blog/2019/5/dettact-mapping-your-blue-team-to-mitre-attack
-
-McAfee Confidential
-
-All the great histories starts someday...
-McAfee Confidential
-
-MITRE integrated in sandbox systems
-McAfee Confidential
-
-McAfee Sandbox & MITRE techniques
-McAfee Confidential
-
-Malware behavior map to MITRE techniques
-McAfee Confidential
-
-The day to day of a Threat Researcher
-McAfee Confidential
-
-New malware family to research
-McAfee Confidential
-
-How this threat affect my customers? How can I improve my detection capabilities?
-How can I improve my internal products?
-McAfee Confidential
-
-Analyzing one single case
-McAfee Confidential
-
-Triage phase
-Public Sources
-
-Internal data
-
-Threat Researcher
-
-Analysis phase
-Static analysis
-Dynamic analysis
-McAfee Confidential
-
-Trickbot
-Account Discovery Commonly used port Credentials in Web Browsers
-Credentials in files Credentials in Registry Custom cryptographic protocol Data from local system Deobfuscate/Decode files o rinformation Disabling Security tools Domain trust discovery
-Email collection
-
-techniques
-Files and directory discovery Hooking
-Man in the browser Modify registry
-Obfuscated files or irnformation Process injection Registry Run Keys Remote file copy Scheduled task Scripting
-Executable Code Obfuscation
-McAfee Confidential
-
-Hunting for an unknown hash in our dataset of detonations
-McAfee Confidential
-
-Finding "unknown" threats, based on malware behavior
-Dynamic analysis
-
-Threat Researcher
-
-Static analysis
-McAfee Confidential
-
-An example mapping MITRE for each attribute
-McAfee Confidential
-
-Malware Behavior Catalog
-McAfee Confidential
-
-What is coming in the following months?
-McAfee Confidential
-
-McAfee Confidential
-
-Questions?
-Marc Rivero López @seifreed
-
-McAfee Confidential
-
-

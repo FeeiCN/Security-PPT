@@ -1,444 +1,0 @@
-
- &  JS SDK
- & 
-2012-07-07
-
-1. 
-1.1  1.2  1.3  1.4 
-
-
-
-http://weibo.com/carffuca
-08 Java 
-
-
-
-1.1 
-
-
-
-
-
-HTML /CSS
-
-JS
-
-
-
-
-
-
-
-
-
-
-
-
-HTML /CSS
-
-JS
-
-
-
-
-
- ()
-
-
-1.2 
-
-
- 
-
-
- URL    
-
-
-  VS 
-
-
-  VS 
-· "" · 
-
-
-
-
-HTML /CSS
-
-JS
-
-
-
- 
-
-
-
-
-1.3 
-
-
-
-
-   CSS    ......
-
-
-
- CSS
-
- 
- 
- 
-
-· [0,2,0,0]<w<[0,3,0,0] · [0,1,0,0]<w<[0,2,0,0] · w<[0, 1, 0, 0]
-
-
- CSS
-
-
-
- 
-
-
-zindex <100
-
-
-
-z- 
-
-index
-
-< 200
-
-z-index >200
-
-
- 
-
-
-
- 
-
-
-
-
-
-HTML CSS
-
-HTML CSS
-
-
-HTML CSS
- 
-
-
-
-HTML /CSS
-
-JS
-
-
-
- 
-
-
-
-
-1.4 
-
-JS
- J_TWidgetclass hookdata-* 
-<div class="J_TWidget" data-type="Slide" data-cfg="{...}"> <!-- code -->
-</div>
-
-JS
- Cookie      ......
-
-JS
-
- JS
-  
- 
-
-iframe 3 5 1 5 5 / 4
-
-ADSafe 4 2 3 4 4 2 1
-
-Caja 5 4 4 2 3 4 3
-
-JS
- google-caja  JS  Kissy DOMEventAPI
-
-
-+
-
-+
-
-
-
-
-JS
-
-
-var el = document.getEle  mentById("id")
-;
-
-
-
-moduleResult___ = IMPORTS___.w___('el', (x0___ = IMPORTS___.document_v___?
-IMPORTS___.document: ___.ri(IMPORTS___, 'document'),
-x0___.getElementById_m___? x0___.getElementById('id'): x0___.m___('getElementById',
-[ 'id' ])));
-
-
-
-JS
-
-moduleResult___ = IMPORTS___.w___('el', (x0___ = IMPORTS___.document_v___?
-Caja.JS IMPORTS___.document:
-___.ri(IMPORTS___, 'document'), x0___.getElementById_m___? x0___.getElementById('id'): x0___.m___('getElementById',
-[ 'id' ])));
-
-
-Kissy
- DOM  Event  Anim  log  ......
-
-
-   JS
-
-HTML /CSS
-
-JS
-
-()
-
- ()
-
-
-1.5 
-
-
-
-2  JS SDK
-2.1  2.2  2.3  2.4 
-
-
-
-fool2fish.cn weibo.sina.com/fool2fish
-07 08 
-
- JS SDK
-2.1 
-
-2.1.1 
-
-1.  2. 
-
-
-
-2.1.2 
-
-
-
-
-
-1.  4. 
-
-
-
-2. 
-
-3. 
-
-
-
-
-
-
-2.1.3 
- 
-·  · 
- 
-·  · 
-
-2.1.4 
-
-JAVA SDK JS SDK
-
-  
-
- JS SDK
-2.2 
-
-2.2.1 
-       
-
-2.2.2 Oauth2 
-
-
-
-1.  2. 
-
-
-
-3.  4.  5.  6. 
-
- 
-
-2.2.3 
-
-
-
-1. 
-
-2.  &
-
-
-
-3. &  API 
-4. 
-
-
-
-2.2.4 
-
-
-
-1. frame
-
-2.  3. Ajax
-
-
-
-4. 
-
-iframe
-
- JS SDK
-2.3 
-
-2.3.1 
-
-
-
-
-
-
-
-          
-
-
-
-2.3.1 API
-TOP.api({ method:'taobao.user.get',  nick:'fool2fish',  app_key:'', session:'', sign:'', timestamp:''
-}, callback);
-
-2.3.2 API 
-
-
-
- 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
- 
-
- 
-
- 
-
-2.3.3 API
-TOP.api({ method:'taobao.user.get', nick:'fool2fish',
-}, callback);
-
-
- JS SDK
-2.4 
-
-2.4.1 
-
-2.4.2 
- iframe  CSS   
-
-2.4.3 
-
-
-
-DOM Iframe
-
-
-
-2.4.3 
- TOP.ev.add ( el, event, fn );  TOP.ev.fire ( el, event, data );
-
-TOP.ev
-
-postMessage
-
-html5PostMessage flashPostMessage
-
-2.4.3 
-
-
- 
-
-
-TOP.ev.fire 
-
-
-
-
- 
-
-
-
-
-
-
- JS SDK
-2.5 
-
-2.5.1 JS SDK 
-
-UI ( TOP.ui )
-
-api ( TOP.api )
-
-UI
-
-
-
- ( TOP.auth )
-
-
-
- langdomeventio...
-
-TOP
-
- 
-......
-
-2.5.2 
- SDK   SDK     ......
-
-2.5.3 
- facebook  oauth  kissy  self updating scripts
-
-
-Q&A
-
-

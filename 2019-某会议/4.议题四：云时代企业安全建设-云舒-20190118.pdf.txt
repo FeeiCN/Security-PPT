@@ -1,216 +1,0 @@
-
-  2018.12
-
-
-· 
-· 2020100 · 100
-· 
-· 2020100% · 60%
-· SaaS
-
-
-·  · 
-
-
-
-
-
-
-IAAS
-
-
-
-·  · 
-
-
-
-·  · IDC
-
-
-
-· openstackOVS · VPC
-
-
-
-
-· 
-·  ·  · WAFDDoSagentSaaS
-· 
-· 
-·  · 
-· 
-
-
-
-
-
-
-
-
-
-· 
-· SLA
-·  · 
-· VPC
-· 
-·  · kvmopenvswitchopenstack
-
-
-· IDC
-·  ·  ·  ·  · ......
-
-
-· 
-· DDoS ·  · 
-
-
-· 
-· VPC · 
-· 
-·  · 
-
-
-· 
-·  · WAFIPS
-· 
-· agent · SaaS
-
-
-
-
-
-
-
-web
-
-
-
-
-
-
-
-DB
-
-&
-
-1
-
-Agent   
-
-VM
-
-
-
-VM
-
-&
-
-
-
- 2
-
-Agent   
-
-VM
-
-
-
-VM
-
-&
-
-AI 
-
-W eb
-
-
-
-  ... Kafka
-
-
-
-n
-
-Agent   
-
-VM
-
-
-
-VM
-
-&
-
-Public
-
-Public
-
- WEB API  SDN  
-
-Public
-
-
-
-
-
-
- 
-  VPC
-
- 
- AWS
-
-
-
- 
- 
-
- 
- webDNS......
-
-API server VM
-
- 
-
-
-
-
-DevOPSDevSecOPS
-
-DevOPS
-
-DevSecOPS
-
-
-
-
- 500  
- 
-
-
-SaaS
-
-
-
-AI
-
-SaaS SaaS SaaS
-
-DLP
-· Agent · 
-
-CASB
-·  · WEB API
-
-APT
-
-
-
-
-    
-
- 
-
-
-
-

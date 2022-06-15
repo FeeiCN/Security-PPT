@@ -1,234 +1,0 @@
-Wing  --  
- QE   2015--04--21
-
-
-· QueryEngine  
-­ QueryEngine 1.0 -> 2.0
-  
-· Wing  
-­ HQL + CQuery
-  
-·   
-­  ­ 
-·   
-­ runtimehive30% ­ query4
-·   
-­ Tears
-
-QueryEngine
-
-· QueryEngine  
-­ (HQL,  Pig  La8n)   ­ 
-· QueryEngine  
-­ Hive/Pig   ­ Spark  SQL/Dremel/Impala/Apache  Drill   ­ Storm  
-· QueryEngineMR/Tez/Spark  
-­    ­   
-  
-
-Apps(Ad,  Search)
-
-ETL
-
-QueryEngine  
-
-(Hive/Wing)
-
-MapReduce   (HCE)
-
-Storage   Meta   Resource     (HDFS) (UdwMeta) (Ark)
-
-QueryEngine
-· QueryEngine  
-­ session: 14~15w ­ 2P ­ HQL
-· QueryEngine  1.0Hive  
-­ Hive 0.8Hive 0.14 ­  ­  ­ bugfix
-· QueryEngine  2.0Wing  
-­  ­ HQLCQuery ­ llvm ­ QueryEngine
-
-QueryEngine
-
-   Client
-
-Master
-
-Worker     
-Wing Hive
-
-Worker     
-Wing Hive
-
-Worker     
-Wing Hive
-
-Hadoop/Spark
-
-Query
-
-HQL
-
-·  · HQL  -->  AST
-
-Query ·Meta DAG ·
-
-· ·Par88on
-IR  · ·Local
-
-IR
-
-·    ·   
-
-·  
-MR   ·  
-
-Output
-
-Query
-· HQL:  
-­ select  a  from  t  where  a  >  1;  
-· QueryDAG:  
-­ LOAD(t)  -->  FILTER(a  >  1)  -->  PROJECT(a)  -->  OUTPUT(stdout)  
-· IR:  
-­ SOURCE(t  {  a,  b  ,  c})  -->  Filter((a  >  1),  {a,  b,  c})  -->  PROJECT(a  {a})  -->   OUTPUT(stdout,  {a},  serde)  
-· IR:  
-­ SOURCE(t  {a}  (a  >  1))  -->  SINK(stdout,  serde)  
-· MR:  
-­ Map  only  
-
-Wing
-· IR():   
-· PASS():   partition Local
-· Runtime()  
-
-HQL
-· hive  0.8HQL  
-­ SQL:    filter/aggregate/join/lateral  view/dynamic  par88on   ­ DDL:  create/drop/show/alter/set   ­ UDFUDAFUDTFTransform  
-·   
-­ Namespace,  Database,  Table,  Par88on,  Bucket   ­ liststructmapenum  
-· Message  TreeNode  {  op8onal  TreeNode  led    =  1;  op8onal  TreeNode  right  =  2;  }  
-·   
-­ Meta   ­ (SessionDB)session   ­ Implicit  Join  
-
-HQL
-· Meta  
-­    ­ Hive  =  DATABASE  `...';   ­ UDW  =  DATABASE  `...'   ­ MYSQL  =  DATABASE  `...'   ­ select  *  from  Hive.t1  join  UDW.t2  on  cond1  join  MYSQL.t3  on  cond2;
-·   
-­ session  =  DATABASE  'session:/';     ­ use  session;   ­
-create  table  cnt_dis8nct_20130310  as  select  count(dis8nct  baiduapp_uid)  from  default. udwetl_bd_input  where  event_day=20130310;  
-
-CQuery
-· Table   · Load/Sink/Filter/SelectAggregate/Join/Transform  
-· CUDF  
-·   
-
-
-· CPU  
-­ llvm   ­ /  
-· /  
-­ Par88on   ­    ­ LocalDag   ­ Shuffle  
-·   
-­ MetaSplitJNI  
-  
-
---LLVM
-· LLVM(low  level  virtual  machine):    JIT   ·   
-­ llvm   ­ Select  a  +  b  from  t;  
-·   
-­   
-· 3  
-­ PB  
-· HQLprotollvm  IRPbMessage   · Message   · Map1  
-
---/Par88on/
-· 
-   · Partition
-­    · /tables/event_ac8on=8eba_view/event_day=20140802/event_hour=12/...   · /tables/event_ac8on=8eba_view/event_day=20140802/event_hour=13/...  
-­ Par88on   ·  -->    
-· 
-­    ­   
-
---
-·    ­ sql   ­ sqlUnion  
-·   
-­ Table   ­ Par88onevent_day  =  `20130104'  
-·    ­ QueryPlanPlan   ­ Query   ­ Par88on   ·  (event_day  =  `20140203'  and  is_not_null(event_client_type))  
-·   
-­ MapQuery   ­ PBTiebaquery1/10map   ­ HQLQuery
-
---
-ALocal  
-1.   (select  a  from  t(10M)  where  a  >  10);   2.   (select  a  from  t(1T)  limit  10;  
-  
-BDAG  
-hdfs  (e.g.  Join  +  Agg)
-
---IO
-
-·   
-­ Varint   ­ Null  bitbyte   ­ caseshuffle  
-· Select  a,  b,  count(  c  ),  count(  d  )  from  t  group  by  a,  b;  
-
-null       bit
-
-has   more
-
-:
-· Meta  
-­ Wing:  ppd  -->  GetPar88ons()  -->  filter   ­ Hiveppd  -->  get_par88on_names  -->  filter  -->  get_par88on_by_name()  
-· Split  
-­ MagiszwgHadoopnmg   ­ Wing  64split   ­ Hive1
-
-JNI
-· JNI  
-­ javaInputFormatOutputFormatHive  udf  
-· BatchJNI  
-   ­ 1C++JavaJNI0.2us   ­    ­ casereduce2  
-   · javaStringbyte[]  
-­ 0.2  ­  0.3us   ­ JNIStringhive  
-
-QueryEngine
-· 1.transform/udf  
-­   
-· 2.Outer  join  
-­ Select  *  from  A  led  outer  join  B  where  f(B.event_day);  
-· 3.  
-­ AB  
-· 4.cross  join,  order  by
-
-6Query
-
-Query
-
-
-·   
-­ 17w   ­ 62000   ­ 85%11w85%   ­ 3  ~  4      1.5  
-·   
-­ featurebug  fix   ­    ­  -->   -->  review  -->    
-· diff  
-­ diff  case   ­    ­ diff  
-
-Tears
-· C++Hadoop  
-­ Jni  
-  
-· Join  
-­ A  inner  join  B  on  A.a  =  B.a  and  A.a  >  1     ­ and  B.a  >  1
-   · llvm  
-­ CpullvmSSE   ­ Signal  Handlersigprocmask  
-
-          Wing----
-·   
-­ Session  dbCQuery  
-   ·   
-­ localMRSpark  
-·   
-­ llvm  
-·   
-­    ­   
-
-Thanks  &&  QA
-
-@InfoQ  
-
-infoqchina  
-
-

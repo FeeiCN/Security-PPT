@@ -1,515 +1,0 @@
-
-VULNHUNT
-
-   _alert7_
-
-
-· / · /APT/ ·  ·  · / · 
-
-/
-
-· 2010 /
-· 
-· 
-· IDS/IPS
-· WAF
-· Firewall · 
-· 2010 APT
-APT0day 
-
-
-APT
-
- 
-
- 
-
-0day 
-
-
-· / · /APT/ ·  ·  · / · 
-
-APT
-·  
-· APTadvanced persistent threat , 
-· APTAPT /
-
-APT
-
-2010 2011
-
-2009
-
-
-
-
-
-
-
- 
-
-2011RSA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-2012
-
--1
-· 
-­ 2013320 ­   ­ (MBR)48700
- ­  ­ C&C
-
--2
-· ATMtyupkin
-­ 2014 ­ 50ATM ­ ATMATM ­ 
-
--2
-· 50ATM VirusTotal 
-
--3
-· POSbrutpos
-­ 2014-7 ­ POS  ­  ­ 
-
--4
-· 5600 
-­ 20144 ­   ­ 5600 ­ APT
-
--5
-· Inputs.io 
-­ 201372 ­ Inputs.io ­ 
-Inputs.io 4100130 ­ APT
-
-1 ­ RSA SecurID
-· RSA SecurID(2011)
-­ 20113EMCRSASecurID 
-­ SecurIDVPN 
-
-1 ­ RSA SecurID
-· RSA SecurID
-­ 20113
-­ RSAEMC4 ­ Adobe Flash
-Player0day(CVE-2011-0609) ­ C&C
-ITIT ­ RSA
- ­ SecurIDSecurID
-
-· RSA
-­ SecurIDVPN-  
-
-·
-
-
-
-2 ­ DigiNotar
-· DigiNotar
-­ 20119
-­ DigiNotar ­ 531GoogleTwitter
-Facebook
-­ DigiNotar ­ DigiNotar
-
-1 ­ Stuxnet
-· Stuxnet(2010)
-­ 201074 30day
-­  WinCC2
-­  
-
-1 ­ Stuxnet
-· (Stuxnet)
-­ "" MS10-060
-­ RPC(MS08067)MS10-061 
-­ WinCC
-
-Duqu
-· Duqu2011
-­ Duqu  
-­ "Duqu "
-­ Windows0dayCVE-2011-3402Word 
-
-Flame
-· Flame(2012):
-­ 20125 Stuxnet20
-­  ­  ­ 
- ­ windows0day ­ 7
-
-2HavexICSSCADA
-· Havex(2014)
-­ 2013-214 ­ 22
-11   ­ 
-· ICS/SCADA · OPCServer · OPCServer
-­ APT
-
-1Winnti
-· 
-­ 2013-4 ­ 
-302 1422 ­ Winnti
-
-
-· APT0day 
-·  · 0dayIPS
- ·  · 
-
-
-APT?
- 2014 IT168
-
-APT
-·  ·   · 
-
-
-APT/2010
-
- biger than biger
-
-
-· / · /APT/ ·  ·  · / · 
-
-
-
- CodeRedII (Blaster) (Sasser) Zotob
-
-2000
- 200183 2003811 2004430 2005813
-
- 200183 2003812 200451 2005816
-
- Stuxnet Duqu Flame
-
-2010
-
- 20096 20072008 200712
-
- 20107 20118 20125
-
-APT
-
-
-· 
-· /IPS/IDS · AV
-...
-· APT 
-
-APT
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-· / · /APT/ ·  ·  · / · 
-
-
-· 
-­  ­ IPS/IDS
-· 
-­  ­  ­  ­ 
-
-
-· / · /APT/ ·  ·  · / · 
-
-
-
-APT0day  / 0day
-
-
-APT
-
- 
-
- 
-
-0day 
-
-
-
- 
-1  /IDS/IPS /
-
-
- 
-2 
-
- 
-3 
-
- 
-4 
-
- 
-·  VS 
-­ 
-·  ·  · 
-­ 
-·  ·  · --
-
- 
-· 
-· shellcodeC&C
-· 
-· C&C,url
-· (C&C
-· 
-·  ·  ·  · 
-
-
-· / · /APT/ ·  ·  · / · 
-
-1WPS 0day
-· 201312WPS 0day 
-
-1WPS 0day
-· WPSOFFICE WORD WPS
-
-1WPS 0day
-· WPS 2012/2013 RTF fchars 0day · 
-
-
-
-1WPS 0day
-
-1
-· inst.exeC&C tencent168.bizIP162.144.55.235
-
-1
-· a) 2014.doc WPS
-· b) inst.exepile.dll · c) pile.dllPIVY · d) win32_453B.dll
-
-
-1WPS 0day
-· C&Ctencent168.biz
-· 
-
-1
-
-2014-12-1 
-
-2014-12-1 0day 
-
-2014-12-2  
-
-2014-12-3  
-
-2014-12-3 blog 
-
-2014-12-3  C&C
-
-·  · 
-­  ­ C&C
-· C&C
-
-2
-· 20143 FlashCVE-2014-0502 
-
-2
-· C&Chk.msfcli.epac.to · )!eThddt4 · 
-­ C:\Documents and Settings\User\Application Data\mydesktop.ini
-· DNS
-­ 115.23.172.151
-
-2
-· qohub.info
-ayastark@hotmail.com
-
-2
-· 
-­ 2012 ­ ()JavaFlash
-
-
-3
-· 20147
-­ defencetalk.com 
-­ FlashCVE-2014-0515
-­  
-
-3
-· Intel
-
-3
-· PAYLOAD PAYLOAD,
-
-3
-· C&C
-
-4APT
-· 2014/10/14 isightpartnersAPT
-­  ­ windows 0day- WINDOWS OLE
-· 
-
-4APT
-· 
-­ 2014/10/14 isightpartnersAPT& ­ v1.0 2014/10/14 22:01  
-
-4APT
-· 
-­ v1.1 2014/10/14 (22:48  
-· 94.185.85.122 ·windows ole CVE-2014-4114
-­ slidel.gifslides.inf ­ slides.inf
-»UAC
-
-4APT
-· 
-­ v1.2 2014/10/15 08:50 
-
-4APT
-· 
-­ v1.4 2014/10/16 07:25 ()
-· BlackEnergyBlackEnergy3 · "BlackEnergy2007"F-
-Secure"Quedagh"BlackEnergy 0day  · slide1.gifPE ·C&C http://95.143.193.131/aG91c2VhdHJlaWRlczk0/dirconf/check.php
-Dune
-
-4APT
-·  timeline
-­ 2014/10/14 isightpartnersAPT& ­ v1.0 2014/10/14 22:01   ­ v1.1 2014/10/14 22:48  ­ v1.2 2014/10/15 08:50  ­ v1.3 2014/10/15 14:05  ­ v1.4 2014/10/16 07:25  ­ 20141018APT
-
-4APT
-· 
-­  ­  ­ (
- ­ APTSCADA
-­ 
-· APT
-
-5 Wormsharp
-· 13514338080 .NET 
-· ftp
-· 
-­ lib32wati.exeWatiSvcC:\tcpz-x86.sys 
-­ 
-
-5 Wormsharp
-
-APT
-·  · 
-­ 2012 ­ 
-
-APT
-
-
-
-Web
-
-
-
- 
-
-
-
-
-  
-
-
-
-
-
- APT
-· 
-­ 
-· 360Mcafee
-­ 
-· VPCVMWare
-­ 
-· 
-­ 
-· 
-­ 
-·  WORDEXCELPPTPDF
-­ 
-
-
-
-APT
-· APT group
-
-APT
-· B https://b-chao.com
-
-APT
-· C&C
-­  ­  ­ 
-
-/APT
-· 
-· 
-
-/APT
-· 
-­ 
-·  · 
-­ 
-·  ·  · payload · 
-­ 
-· 
-­ 
-· 
-
-APT--
-
-Q&A
-   _alert7_
-
-

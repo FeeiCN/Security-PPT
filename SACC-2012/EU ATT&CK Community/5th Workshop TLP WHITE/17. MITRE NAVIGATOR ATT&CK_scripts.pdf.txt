@@ -1,111 +1,0 @@
-ATT&CK Scripts
-Navigator Layer Update
-Caleb Little @MITREattack
-©2020 The MITRE Corpor©a2ti0o2n0. ATllhreighMtsITrResEerCveodr.pAopraptrioovne.dAflol rripguhbtslicreresleeravseed. D. Aistprpibruotvioend ufonrlimpuitbeldic2r0e-l0e0a8s4e1.-3.
-
-| 1|
-MITRE
-
-| 2|
-ATT&CK Scripts
- Python scripts to improve user interaction with ATT&CK content
-· Compare two versions of ATT&CK · List and visualize techniques associated with a data source · Jupyter Notebooks for ATT&CK Training · ATT&CK Navigator layer utilities (NEW)
-https://github.com/mitre-attack/attack-scripts
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-3|
-ATT&CK Navigator Layers
-Master: https://mitre-attack.github.io/attack-navigator/ Sub-techniques Beta: https://mitre-attack.github.io/attack-navigator/beta/
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-| 4|
-Navigator Layer Scripts
-
-· Overall objective: Make it easier to generate and manipulate layers programmatically
-
-· Core module
-· Python classes facilitating Layer IO and format validation
-· Uses Layer File Format Version 3.0 (subtechniques Beta support)
-
-· Manipulators module · LayerOps manipulator allows lambda manipulations of layer files
-More coming soon...
-
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-| 5|
-Layer IO Methods
-
-Method [x = Layer()] x.from_str() x.from_dict() x.from_file() x.to_file() x.to_dict() x.to_str()
-
-Functionality Loads layer from string Loads layer from dictionary Loads layer from filepath Saves layer to filepath Retrieves dictionary representation Retrieves string representation
-
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-| 6|
-Examples ­ Layer IO
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-| 7|
-LayerOps
- Python implementation of existing Navigator Interface
-("create Layer from other layers")
- Allows users to combine layer files  Example use cases:
-­ Average scores between multiple layers ­ Concatenate comments ­ Boolean operation, e.g output 1 where the score is >75
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-| 8|
-LayerOps
- User inputs lambda functions to define operations  LayerOps is a python class
-­ Instantiate a LayerOps with a defined operation, e.g "average scores"
-­ Run same LayerOps instance on different sets of layers, e.g average layers A, B, and then separately X, Y, Z with the same LayerOps instance
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-| 9|
-Visual Example
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-LayerOps API
-Constructor Lambda Inputs Score Comment Enabled Colors Metadata Name Description
-Example Usage x = LayerOps(score=lambda x: ...) x.process([layer1, layer2...])
-
-| 10 |
-Functionality Processes Technique Scores Processes Technique Comments Processes Technique Enabled Status Processes Technique Colors Processes Technique Metadata (Metadata objects) Processes Layer Name Processes Layer Description
-Functionality Defines Operating Lambdas Applies lambda to input
-
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-| 11 |
-Examples ­ LayerOps (1)
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-| 12 |
-Examples ­ LayerOps (2)
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-| 13 |
-Examples ­ LayerOps (3)
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-| 14 |
-Examples ­ LayerOps (4)
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-| 15 |
-Future Layer Scripts
- Layer exporters:
-­ Renderer (layer to SVG) ­ Excel Exporter (represent matrix layout in excel) ­ CSV Data
- Layer Generators:
-­ Technique usage by a specific group/software ­ Summary of groups using each technique
- Open an issue if you have any ideas!
-­ https://github.com/mitre-attack/attack-scripts/issues/
-©2020 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 20-00841-3.
-
-©2020 The MITRE Corporation. All rights reserved. Approved for public release.
-
-| 16 |
-
-| 17 |
-attack@mitre.org @MITREattack
-© 2019 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 18-03730-18. ©2020 The MITRE Corporation. All rights reserved. Approved for public release.
-
-

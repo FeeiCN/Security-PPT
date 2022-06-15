@@ -1,72 +1,0 @@
- a
-
-
-·  · 
-·  ·  ·  ·  · 
-
-
-·  ·  100%    ·  · 
-
-<
-
-<
-
-<
-
-
-
-MySQL
-
-
-
-HA
-
-RDS
-Replic a
-
-MySQL   Cluster
-
-PXC
-
-MHA
-
-HotD CDS B
-
-MM
-
-M
-
-Singl e
-
-
-
-
-
-·  ·  · 
-
-?
-
-
-
-
-
-
-?
-
- 
-
- ORA
-
-
-
-Oracle
-
-z3 ­ SQL
-
-zData ­ 
-
-BayMax
-
- 
-
-

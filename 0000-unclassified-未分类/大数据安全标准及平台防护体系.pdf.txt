@@ -1,170 +1,0 @@
-  
-
-
-NIST
-·Variety ·Velocity ·Volume ·Variability
-
- 
-
-
-2012 2013 2014"" 2015"
-" 2016""""
-  2016 " "
-
-
-
-·ISO/IEC 
-
-
- 29100:2011   29101:2013   29190:2015  29191:2012  27018:2014PIIPII
-
-
-
- 29134   29151 
-
- 29184   27550   27551ISO/IEC 27001
-
-
-
-·ISO/IEC WG9
-
- 20546   20547 
- 20547-1  20547-2  20547-3  20547-4  20547-5
-
-·ITU-T 
- Y.3600  Big data ­ Cloud computing based requirements and capabilities
-  Big data exchange framework and requirements
-  Functional architecture of Big data as a Service
-  Requirements of big data-driven networking
- DPI Framework of big data driven networking based on DPI
-  Mechanism of deep packet inspection applied in networking big data context
-  ­  Big data - Requirements for data provenance
-
-
-·NIST
-·2015SP 1500 NIST
-
- SP 1500-1  NIST Big Data Interoperability Framework: Volume 1, Definitions
- SP 1500-2 NIST Big Data Interoperability Framework: Volume 2, Big data Taxonomies
- SP 1500-3 NIST Big Data Interoperability Framework: Volume 3, Cases and General Requirements
- SP 1500-4 NIST Big Data Interoperability Framework: Volume 4, Security and Privacy
- SP 1500-5 NIST Big Data Interoperability Framework: Volume 5, Architectures White paper Survey
- SP 1500-6 NIST Big Data Interoperability Framework: Volume 6, Reference Architecture
- SP 1500-7 NIST Big Data Interoperability Framework: Volume 7, Standards Roadmap
- SP 1500-8(  SP 1500-9
-
-·
-
-
-          
-
-
-
- 
-   
- 
-
- 
-
- ->  - 
-PIPEDA
-
-
-  
-
-1
-
-
-
-2
-
-
-
- 
-  
-
-
-
-   
-
-
-
-
-
-
-
-
-
-   
-
-
-       
-
-
-·
-· · ·
-
-· ·
-
-
-·
-·
-· ·
-
-· ·  · ·
-
-
-· ·
-·
-·
-
-·  ·/ ·/
-
-
-· · ·
-·
-
-· ·
-
-
-
-
-
-   
-
-
-
-  
-/
- 
-
-
- 
-
-
-
-  
-k-anonymityl-diversityt-closeness
- 
-  
-
-
-
-· ·BLP ·
-·
-
- 
-
- 
-
-
-
-
-
-
-
-  
-
-   
-
-

@@ -1,223 +1,0 @@
-
-  
-
-
-·  ·  ·  ·  ·  ·  · 
-
-
-· 20  
-·  IPv4
-·     ......   
-
-
-· 201064.24 2009360031.8%2009 2.9
-
-
-2010 ·  ·  ·  · 
-20106  33.8%30.5%29.1% 1.421.281.2231.4% 36.2% 29.9%
-
-
-
-
-
-  
-
- 
-
-Web
-
-
-
-
-
-
-
-
-
-
-·  2010 · 59.2% · 30.9% · 89.2%
-86.9% 
-·  !
-
-
-·  ·  ·  · Web2.0
-
-·  
-· """ """ 
-· -->
-
-
-·  ·  ·  ·  ·  ·  · 
-
-
-· Cloud Computing  
-
-
-  SaaS( ) PaaS() IaaS()MSP  
- ""  ""
-   
-
-
-
-7
-· Gartner 7
-· 1.
- IT""  
-· 2.
-   
-
-7
-· 3.   
-· 4.   
-· 5.    
-
-7
-· 6. 
-   
-· 7. 
-  
-
-
-
- GoogleAmazonGoogle  · 20092Google Gmail4 · 20093GoogleGoogle
-Google Docs  · 20093Azure22 · 200927"(simple storage service)"  76  · Gartner 2009 74%CTO  
-
-
-2008GoogleGmail 10%2000 
-  Gmail      
-
-
-·  ·  ·  ·  ·  ·  · 
-
-
-·     
-·    
-
-
-·   
-· Hakan Hacigumus2002" Databases as a ServiceDaaS"  
-· DaaS  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1 
-2 
-3 
-
-
-· DaaS        
-·   
-·   
-
-
-·  
-· google Yahoo   
-·   
-
-
-1  
-2  
-3  
-
-
-·  ·  ·  ·  ·  ·  · 
-
-
-  1  · 
-  · PEKS scheme Boneh   
-
-
-· 2005 Baek PEKSSecureChannel-Free PEKS PEKS
-· 2007 C. GuPEKS  
-· 2009 Rhee  Byun  PEKS 
-· Rhee 
-· PEKS Random OracleRO ZhangPEKS  RO 
-
-
-2
-· Ostrovsky Skeith Public-Key Obfuscation  
-·  " Platform-As-a-Service"  "" 
-3  · Private Information RetrievalPIR
-  
-
-
-·  
-·    
-·  "" 
-·  1  2  3 IBE 
-
-
-·  ·  ·  ·  ·  ·  · 
-
-
-·  
-·  
-·     
-
-
- · 
- Token Token  ·    
-
-
-·   
-·  
-
-
-·  ·  ·  ·  ·  ·  · 
-
-
-
-·  
-·   
-·     
-
-
- E m ee = E(m)  fFF(e) = E(f(m)) F(E(m)) = E(f(m)) E  f 
-f FE Fully Homomorphic Encryption
- , 
-
-
-· 1978 , R. RivestL. Adleman M.Dertouzos "" 
-·  RSA  FPaillier  
-· 2009 C.Gentry   
-
-
-· 2010 , N. P. Smart  C. Gentry  
-· M. van Dijk  C. Gentry  
-· 2011 J. Loftus N.P. Smart  IND-CCA1 
-· IND-CCA2 
-
-
-·    
-·   
- 1
- 2 3
- 4
-
-
-
-1 
-2 
-3 ,  
-4 
-5  IND-CCA2 
-
-
-
-

@@ -1,273 +1,0 @@
- WAF
-
-
- @
- 2013-4-25
-
-
-
-
-· 2005 - Alibaba
- · 2012 - 
- · Web
- · 
-IDtaosay
-
-
-WAF
-
-· Web Application Firewall
- · Web
-XSSSQL
-
-
-WAF
-
-· Web -
- · CC - Web Server
- · 
-
-
-WAF
-
-· 2008WAF
- · 2011WAF
- · 
-
-
-PCI DSSWAF
-
-· 2008630
-WAF
-
-· 
-
-
-WAF
-
-· 
- · PCI DSS18.7%
- · 
-
-
-WAF
-
-· mod-security, phpids
- ·  trustwave
- ·  Cloudflare, 
-
-
-Mod Security 
-
-
-WAF
-
-· 
- ·  - 
- ·  - 
- · 
-
-
-WAF
-
-What the fuck?
-
-· <![CDATA[REQUEST_URI^^[r](\/\*[\s\r\n\v\f]|([^\-
-&])%23[\s\r\n\v\f]|\-\-[\s\r\n\v\f]|([^\-&])#[\s\r\n\v \f])]]>
-
-<![CDATA[(?:\({2,}\+{2,}:{2,})| (?:\({2,}\+{2,}:+)|(?:\({3,}\++: {2,})|(?:\$\[!!!\])]]>
-
-
-WAF
-
-
-
-
-
-WAF
-
-· DNS - 10
- · 
- · 
- · 
-
-
-!
-
-· (70%
-60% )
-
-· D110GD
-
-
-· Web
-
-
-taosay.net
-
-· linode vps2-4
-
-
-WAF
-
-
-
-
-
-DDOS
-
-· 
-
-
-· 
-
-
-
-
-· IP
-
-
-SEO
-
-· 
- · IP
-
-
-
-
-· IDC
- · ""
- · D
-
-
-
-
-· 
- · 
-
-
- 
-
-· WAF
-
-
-· 
-
-
-
-idea 
-
-
-WAF
-
-
-WAF 
-
-· 
- · 
-
-
-
-
-
-
-
-· Alibaba B2B
-
-
-
-
-· 
- · 
-
-
-· 
-
-
-
-
-· DOS
- · 3CPU
- · (.+[\\/].+)*
-
-
-
-
-· ""
-
-
-· 
-
-
-
-
-· 
- · 
- · 
-
-
-
-
-· 1/100
- · 
-
-
-
-
-· 
-
-
-CMS
-
-· 
- · 
- · POST
-
-
-
-
-· 
- · 
- · 
-
-
-0day
-
-
-2012Web
-
-
-Dedecms 0day
-
-· 0day
-
-
-· 
-10 
-
-
-
-
-
-
-
-· 
-
-
-
-
-·  
- ·  
-
-
-Thanks!
-
-
-a
-
-@InfoQ
- infoqchina
-
-47
-
-

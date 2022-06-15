@@ -1,216 +1,0 @@
- 
-
-!
-Cesare Garlati
-! Trend Micro, Inc.
- 
-
-IT !
-" 10    IT   "
-Gartner
-§ ! § IT 
-! § IT 
-!
- 2001  CSC D. Neal  J. Taylor !
- 
-
- !
-
-2011 
-60%
-
-50%
-
-40%
-
-30%
-
-20%
-
-10%
-
-0%
-
-Android 38%
-
-iOS 17%
-
-Win Ph 3%
-
-RIM Symbian 
-
-12% 26%
-
-3%
-
-
-
-2015 *
-
-9
-
-Android iOS Win Ph RIM Symbian 
-
-52% 19% 21%
-
-6%
-
-0%
-
-2%
-
-
-
- 2012 Android  IOS  70% 2013  Microsoft  Research In Motion!
-
- Trend Micro  GartnerForrester  IDC  -- 2012  2  28 !
-$POTVNFSJ[BUJPO3FQPSU
-
- 
-
- !
-
-BYOD  
-
-  
-
-  
-
-
-
-23%  
-
- 76%  
-
-""!
-
-100%  
-
- BYOD    
-
-80%  
-
-60%  
-40%   77%   83%   69%   86%   73%  
-20%  
-
-0%     1,000       1,500       2,500       5,000     5,000+  
-
-$POTVNFSJ[BUJPO3FQPSU
-
- 
-
- !
-
- 
-
-$POTVNFSJ[BUJPO3FQPSU
-
-!
-Raimund Genes!
-Trend Micro ! http://trendmicro.com/our-contributors/raimund-genes!
-!
-Chris Ilg!
-Altimeter Group ! http://www.altimetergroup.com/about/team/chris-silva!
-! Nigel Stanley !
-Bloor Research ! http://www.bloorresearch.com/about/people/nigel-stanley.html!
-! Philippe Winthrop!
-Enterprise Mobility Foundation ! http://www.ge.com/index.html! !
- 
-
-!
- 
-
-!
- 
-
-!
- 
-
-!
- 
-
-!
- 
-
-!
-
-Android
-
-Apple iOS
-
-§ CVE-2011-3874 --  !
-§ CVE-2011-1823 --   root  (Gingerbreak)
-§ CVE-2011-1149 --   (KillingInTheNameOf)
-§  Adobe Flash !
-
-· CVE--2011--3246  --   URL   !
-· CVE­2011--3439  --   !
-· CVE--2011--3442  --   !
-· CVE--2011--3255  --  Apple  ID   !
-
- 
-
- Apple iOS !
-
-60  
-
-50   40   30   20   10  
-0   2007   2008   2009   2010   2011   2012  
-
-Dos                                                         
-
-  CVEDetails.com  --  2012  6  20 !
-
- 
-
-!
- 
-
- -- !
- 
-
- iOS 5.1.1!
-! Xxxx v2.0.4 MacOSX (10.5, 10.6, 10.7) Xxxx v2.0.4 Windows (XP/Vista/Win7) Xxxx v2.0.4 Linux (x86/x86_64)!
- Xxxxx 2.0! 1.  iTunes """
-"! 2.  Xxxxx  USB ! 3. ""...! 4.  iTunes !
-Xxxxx 2.0  5.1.1! iPad 1iPad 2iPad 3 Xxxxx 2.0.4  iPad2! iPhone 3GSiPhone 4iPhone 4S iPod touch iPod touch !
- 
-
-Android !
- Trend Micro Inc.  Trend  --  2012 !
- 
-
-Android !
-
- Google http://developer.android.com/resources/dashboard/platform-versions --  2012  8  1 !
- 
-
-!
-§ 2011  3  -- 58  250,000 
-§ 2011  5  -- 24  120,000 
-§ 2011  12  -- 27  14,000 
-§ 2012  2  -- 37 "" 
-§ 2012  8  -- ...
- 
-
-!
- 
-
-Android !
- 
-
-!
-§   !
-! § 
-!
-§   !
- 
-
-1 ! 2 ! 3 !
-
-!
-Cesare_Garlati@TrendMicro.com http://BringY!ourOwnIT.com Twitter @C!esareGarlati!
- 
-
-

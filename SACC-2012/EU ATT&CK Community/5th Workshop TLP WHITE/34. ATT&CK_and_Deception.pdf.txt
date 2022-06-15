@@ -1,131 +1,0 @@
-ATT&CK Community Workshop
-ATT&CK and Deception
-Agostino Panico van1sh@protonmail.com
-@Van1sh_BSidesIT
-
-Agenda
-· Quick intro to cyber deception · Common deception issues and risks · Attacker targeting mindset · Modern deception key points · Conclusions · Q&A
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 2
-
-Deception Introduction
-"Men are so simple of mind, and so much dominated by their immediate needs, that a deceitful man will always find plenty
-who are ready to be deceived." Niccolò Machiavelli
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 3
-
-What's Cyber Deception
-The goal of cyber deception is to more effectively detect attacks that have infiltrated an organization's network, to confuse and misdirect the attacker, and to understand what assets have been compromised.
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 4
-
-What's Cyber Deception
-Common Deception Focus Point: - Manipulating the One Thing that Cyber Attackers Count On; - Providing Instant Gratification; - Going Beyond Common Security Implementation; - Simplifying the implementation and the maintenance.
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 5
-
-Cyber Deception Issues
-Manipulating the One Thing that Cyber Attackers Count On.
-­ Relies on the common misconception that the attack is not correctly planned, and the Offensive Cyber Operation relies only on information gathered from the attack itself.
-­ Limited application: · Script kiddies; · Hacktivist(??).
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 6
-
-Cyber Deception Issues
-Providing Instant Gratification.
-- Let's focus on the term Gratification: The definition of gratification is satisfaction or pleasure you feel when you get something you wanted or worked for.
-- To correctly evaluate the gratification, we need to know the target of a specific Offensive Cyber Operation
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 7
-
-Advanced Persistent Threat Mindset
-· Advanced
-­ Logistics, Planning, Organization;
-· Persistent
-­ Focus on the long run goal, and not immediate gratification;
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 8
-
-MITRE (PRE)-ATT&CK Framework
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTesetcineg pantdioEtnhical Hacking 9
-
-Targeting Cycle
-
-Assessment
-
-End state & Commander Objectives
-
-Targets Development
-and Prioritization
-
-Mission Planning and
-Force Execution
-
-Commander Decision and
-Force Assignment
-
-Capability Analysis
-
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 10
-
-Targeting Cycle with ATT&CK Framework in OODA Loop Style
-
-Tactical Perspective
-Lateral Movement
-
-Collection
-
-Command & Control
-
-Discovery
-
-Exfiltration
-
-Assessment
-
-Operational Perspective
-
-End state & Commander Objectives
-
-Target Development
-and Prioritization
-
-Credential Access
-
-Initial Access
-
-Defense Evasion
-
-Persistence
-
-Execution
-
-Mission Planning and
-Force Execution
-
-Commander Decision and
-Force Assignment
-
-Capability Analysis
-
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 11
-
-Threat Model and Deception Path Example
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 12
-
-Modern Deception Key Points and Attacker Mindset
-· Evaluating Offensive Cyber Operation merging OODA, ATT&CK and Targeting we have a clear picture of the key points of a deception system:
-­ driving the attacker on a deceive target, according to the real target; ­ cannot be general purpose but should be threat aware; ­ integrated in the production environment, but should represent a
-preferential path to reach the deceive target; ­ constantly maintained and updated to match the threat TTPs and the
-threat target.
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 13
-
-ATT&CK and Deception: Issues and Risks
-Deception: ­ is based on the Threat Model; ­ to be effective should be design as Threat-Aware; ­ relies on common Security Mechanism; ­ is an extension of the Attack Surface;
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 14
-
-Conclusion
-· Deception is a key feature in you arsenal as Threat Hunter; · The Enterprise Maturity level should be correctly evaluated,
-because you need to:
-­ Extend Attack Surface; ­ Integrate in your current Cyber Defense Infrastructure; ­ Understand who is the threat you are facing.
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 15
-
-Q&A
-"Never attempt to win by force what can be won by deception." Niccolò Machiavelli
-Contact: email: van1sh@protonmail.com twitter: @Van1sh_BSidesIT github: poppopjmp
-SEC560 | ANeTtwTo&rkCPeKnetarantidonDTeestcineg pantdioEtnhical Hacking 16
-
-

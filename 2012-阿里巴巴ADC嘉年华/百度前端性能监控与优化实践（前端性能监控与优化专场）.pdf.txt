@@ -1,115 +1,0 @@
- 
-welefen ­  2012.7.7
-
-
-* welefen /  / welefen@gmail.com * Bloghttp://www.welefen.com * Twitter/@welefen * @ * Githubhttps://github.com/welefen * 
-
-
-*  *  * 
-
-
-
-
-* 
-*  *  * 
-
-
-* JS * headttidomload * performance api * log * log * 
-
-
-
-
-
-
-
-
-
-Performance Api
-
-
-* A/B Test *  *  * ...
-
-
-
-
-* URL *  *  *  *  * 
-
-
-* phantom js v1.5har *  * json *  * harviewer * render
-
-
-
-Diff
-
-
-
-
-
-
-
-&
-* 2011 *  *  *  *  * 
-
-
-*  *  * CDN * / * CSS Sprites * icon
-
-
-* 60ms * 1.3s ·  ·  · 
-
-
-JS
-
-
-50%50K
-
-
-
-
-* SmartyHTML * JS * CSS * JS
-
-HTML
-* FL
-html/css/js https://github.com/welefen/Fl
-* 
-
-* Gzip5%
-
-FL v2.0
-http://www.flkit.org/test/
-
-JS
-* tangram *  * tangram * YUI76K->29K62% * Gzip25K->9.8K61%
-
-CSS
-* css * cssclass * htmljsclass * css
-
-CSS
-* htmljsclass *  * class * CSS
-
-
-* FIS * F.use, F.module, require * F._fileMap * require
-
-
-
-
-* A/B TestJS * CSS * CSS *  * JS
-
-
-
-
-
-http://www.baidu.com/p/welefen
-
-
-*  *  * 
-
-
-BigPipeAjaxBigPipe BigPipeAjax20% 20%83%
-
-
-*  ->  ->  ->  *  *  * 
-
-Q&A
-Welefen ­ 
-
-

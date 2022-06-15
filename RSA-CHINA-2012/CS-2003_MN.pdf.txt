@@ -1,1124 +1,0 @@
-
-SDN
-
-
-
-
-§      SDN  
-
-
-§  §  §  §  § 
-4
-
-
-
- 
- 
-
- 
-  
-()
-  
-()
-
-5
-
-
-
- 
- 
- b
-
- 
-  
-()
-  
-()
-
-6
-
- 
-
-
-
- /
-
-     
-   
-   
-   
-
-
-
-/
-
-/
-
-
- 
-
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-  
-
- 
- 
-
-   
-   
-
-
-
-   
-      
-
-
-
-
-
-
-
-   
-        
-
-
-
-
-
-UTM   ERP    
-    
-     
-   
-  
- 
- 
-
-
-
-
-
-
-
-
-
- / 
-
-
-
-
-
-
-
-
-
-    
-  
-  
-    
-  
- 
-
-
-
-
-
-
-
-
- / 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-   
- 
-
-/
-
-/ 
-
-    
-    
-
-
-
-/
-
-//
-
-     
-   
-    
-
-/
-
- 
-
- 
-
-   
-
- 
-       
-
-
-
-
-
- 
- /
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-
-
- 
-
-   
-
-/ 
- /  
-
-
- 
- 
-
-
-
- 
-
-/ 
-
-
-
-  
-
-
-  
-
-
-
- 
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-  
-
-ERP
-
- 
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
-  
-
-
-
-  
-
-
-  
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  UTM 
-
-
-
-
-
- 
-
-
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
- 
-
-  
-
-
-
-
-
-   
-
-
- 
-
-  
-
-
- 
-  
- 
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-
-
-   
-
-
-
-
-  
-
-  
-
- 
-/
-
-
- 
-
-
-
-  /
-/
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/
-
-
-
- 
-
- 
-
-
-
- 
-
-   
- 
-
-
-
-/
-
- 
-
- //
-
-
-
-
-
- "TTFU
-
- 4BGFHVBSE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
- 
-
- 
- 
-
-
-
-
-
- 
-
-    
-
- 5ISFBU
-
-
-
-
-
-
-
-
-
-...
-§  §  § PPT §  § PDRPDCERF §  §  § Zachman(nW1H, ) § 
-§ +
-§ ...
-
-§  §  §  §  §  §  §  §  § APT §  § ...
-
-
-
- 
- 
-
- 
-  
-()
-  
-()
-
-12
-
-
-§  
-§  §  §  §  § QQ § ...
-13
-
-""...
-
-
-
-
-a 
-
-
-
-§ vertex,point § ,,,edge,link
-
-14
-
-
-
-§ 
-§ 
-§ 
-§ DTN
-§ 
-§ 
-15
-
- 
-
-
-
- 
- 
-
- 
-  
-()
-  
-()
-
-16
-
-
-
- 
- 
-
- 
-  
-()
-  
-()
-
-17
-
-
-
-@
-
-
-
- 
- 
-
- 
-  
-()
-  
-()
-
-20
-
-
-
-§  §  §  §  § 
-
-
-
-
-
-
-
-
-
-
-
-
-     
-
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-21
-
-
-
-   
-
-   
-·   
-
- 
-·  
-
- 
-·  SDN/ Openflow
-
- 
-· 
-
-22
-
-
-
-   
-
-   
-·   
-
- 
-·  
-
- 
-·  SDN/ Openflow
-
- 
-· 
-
-23
-
--
-
-§ VM
-
-VM
-
-§ L2vSwitchLinux BVrLidAgNe
-
-
-§  §  § §  § 
-
- 
-
-VM
-
-VM
-
-VM
-
-1
-
-2
-
-3
-
- 
-
-
-
-
-
-
-
-
-
- 
-
- 
-
- 
-
- 
-
-7.. 
-
-
-
-VM
-§ SPANRSPANnetflow
-§ VEPAVN-TAG
-
-
-
-§ 
-Tenant A
-! ! ! !
-v Switch1
-
-Public Network
-vSwitch2 Hypervisor
-
-Tenant B
-! ! ! !
-vSwitch3
-
-§ 
-
-26
-
-
-27
-
--
-
-§ 
-
-§ Vmware vDSCisco 1KVOpenvswitch
-
-§ 
-
-§ VLAN
-
-§ 
-
-
-
-§ MAC § 
-
-! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
-
-!
-
-!! !
-
- 
-
-
-
-
-
-IDS
-
-
-
-Tenant A (VLAN101)
-
-APP
-OS
-
-APP
-OS
-
-SPAN/RSPAN
-
-public network
-vDS1 vDS2
-
-ESX1
-
-IDS
-
-Tenant B (VLAN102)
-
-APP
-OS
-
-APP
-OS
-
-SPAN/RSPAN
-
-ESX2
-
-29
-
-
-
-   
-
-   
-·   
-
- 
-·  
-
- 
-·  SDN/ Openflow
-
- 
-· 
-
-30
-
-
-
-
-
- / 
-
-  
-
-  
-
-  
-
- 
-
-·  · VLAN · 
-
-     
-
-
-
-Ø c"1* Ø c."$*17. Ø c Ø c7-"/ Ø c
-
-
-
- 
-
- / 
-
-//  
-
-  
-
-  
-
-· 
-
-!
-
-· 
-
-Network Hypervisor!· VM
-
-   
-
-·  · 
-
--
-§   
-§ L2 
-§  
-§  
-
-SDN/Openflow
-
-App   App   App  
-
-
-
-Network  Opera8ng    System  
-
-
-
- SDNApp   App   App   
-
-Opera8ng   System  
-
-Specialized  Packet   Forwarding  Hardware  
-
-App  
-
-App  
-
-App  
-
-Opera8ng   System  
-
-App  
-
-App  
-
-App  
-
-Opera8ng   System  
-
-Specialized  Packet   Forwarding  Hardware  
-
-App  
-
-App  
-
-App  
-
-Opera8ng   System  
-
-Specialized  Packet   Forwarding  Hardware  
-
-App  
-
-App  
-
-App  
-
-Specialized  Packet   Forwarding  Hardware  
-
-Opera8ng   System  
-
-Specialized  Packet   Forwarding  Hardware  
-
-SDN/Openflow
-36
-
-SDN/openflow
-
-Controller
-
-OpenFlow Switch
-
-OpenFlow Protocol
-
-PC
-
-OpenFlow Switch
-
-OpenFlow Switch
-
-
-
-L2OverL3   Tunnel
-VXLAN NVGRE
-
-VM1
-
-VM2
-
-Controller
-
-Host1
-
-1
-PC
-
-OpenFlow vSwitch
-
-OpenFlow Protocol
-
-2
-
-niciraNVP N1KV-VXLAN
-
-
-OpenFlow vSwitch
-Host2
-
-VM3
-
-VM4
-
-
-§ 
-§ controller controller
-§ AppAppapp § controller § APPApp
-
-§ 
-§  § PDP+PEP
-39
-
-
-§  § 
-§ Proactiveopenflow § Reactive openflow
-40
-
-Reactive
-
-·  ·  ·  · 
-
-·  ·  ·  · 
-Openflow Security Apps
-
-Switch Host B
-
-Switch
-
-Switch Host A
-
-Switch 41
-
-
-
-HTTP, 80
-
-Web Server
-
-HTTP, 8080
-
-App Server
-
-TDS, 443
-
-
-VM2 1.1.1.2
-
-DB Server
-VM3 1.1.1.3
-
-
-1. Allow any to access WebServer at Port 80 with HTTP
-2. Allow WebServer to access AppServer at 8080 with HTTP
-3. Allow AppServer to access DBServer at 443 with TDS
-4. Deny all
-
-FlowTable
-
-FireWall  App Controller
-
-openflow
-VM1 (1.1.1.1)
-
-FlowTable
-
-Global  Network   View
-
-
-
-   
-
-   
-·   
-
- 
-·  
-
- 
-·  SDN/ Openflow
-
- 
-· 
-
-43
-
-
-
-
-
-
-
-
- 
- 
-
-
-     
-
-
-
-

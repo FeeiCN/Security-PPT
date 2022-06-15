@@ -1,210 +1,0 @@
-  
-  
-
-.    
-
-1.    
-   
-
-2.  
-SDk 
-
-3.    
-
-
-4. OS
-hook  
-
-      1. App          2.     
-
-.    
-
-  
-·      ·  
-·  
-·  
-·  
-
-   Web  
-
-  
-
-  
-
-  
-            Web  Web  
-
-11  
-
-12  
-
-1  
-
-  
-
-1 2 3 4 5 6 7 8
-
-  /
-  Hook Token 
-
-
-21  
-
- - HOOK  hook   
-
-apksmali Listcom.logansoft.zcbao.view.a.n aList
-
-22  
--POC
-   Ø Ø Ø
-
-22  
- ­
-     
-
-22  
-
-""ActTsfInsideabActTsfInsidePwdae
-1Hook Hook ab.onClickActTsfInside Hook ActTsfInsidePwd.onCreate"" TextView tv2 = (TextView) ((Activity)param.o).findViewById(2131362459); TextView tv3 = (TextView) ((Activity)param.o).findViewById(2131361806); Tv2.setText(strActInof[0]); Tv3.setText(strActInof[1]); 2"" for (int n = 0; n < messages.length; n++) {
-smsMessage[n] = SmsMessage.createFromPdu((byte[]) messages[n]); strOrigAdrs = smsMessage[n].getOriginatingAddress(); if(strOrigAdrs.contains("96198")){ ... } }  
-
-22  
-  
-
-2  
-    
-
-
-
-
-
-1
-
-
-
-2
-
-
-
-3
-
-
-
-4
-
-
-
-5
-
-
-
-3  
-400 100
-
-3  
- 
-
-31  
-
-    
-
-2. cusNo  cusNo2000098909
-
-1.   URL **cusNo 
-
-32  
-
-33  
-
-34  
-
-4  
- App 
-
-41  
-
- -/
-      SDk     
-
-apk, 
-
-42  
-apk2.0.1
-
-42  
-parand 
-
-42  
-1 360LBE
-
-42  
-2Root
-
-42  
-4
-3(), (VoateService)
-
-42  
-5 http://www.muimerpni.biz:8888
-
-4  3  
-app
-
-5  
-Cenzic Mobile  2013
-Mobile app, 30%mobile app 
-2 22% 3 20% 4 session  15% 5 13%
-
-5 1  
-
-5 1  
-ssl
-
-5 2  
-
-.  
-
-  
-· Android
-· 
-· 
-·  · 
-· 
-· ptrace · /proc
-· 
-· Xposed (https://github.com/rovo89/Xposed) · Substrate (http://www.cydiasubstrate.com) · Ddi (http://www.mulliner.org/android/)
-
-  
-
-     
-
-     
-
-   
-§    §   
-§   
-§   
-§    
-§    
-
-    
-§   
-- Java/C  
-§   
-§   
-- Xml  
-§   
-- Html5   - unity3d  
-  
-
-     
-   
-§    §    § 
-  
-
-    
-   ·   ·   ·   ·   ·  
-  
-·//   ·   ·  
-
-

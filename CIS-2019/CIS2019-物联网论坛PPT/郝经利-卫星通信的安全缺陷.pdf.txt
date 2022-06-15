@@ -1,195 +1,0 @@
-
- 360
-
- 
-
-
-    
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-Satellite spaceway3 wildblue Anik-F2/F3 Viasat-1 Inmarsat-5 Hotbird-6 Hylas Ka-sat 03b WINDS iPSTAR-5 Yahsat1A/1B
-
-Operator HNS Wild-blue Telesat Viasat Inmarsat Eutelsat Avanti Viasat 03b Networks JAXA Thaicom Yahsat
-
-Transponders            
-
-
-
-
-
-
-
-
-
-
-· 
- · 
-
-6125MHz 6125MHz
-6125MHz
-
-4675MHz 4675MHz
-
-
-
-C
-: 5.85GHz -- 6.75GHz : 3.4GHz ­ 4.2GHz : 2.225GHz
-Ku
-: 14.0GHz ­ 14.5GHz : 11.7GHz ­ 12.2GHz
-Ka
-: 27.5GHz ­ 31.0GHz : 17.1GHz ­ 21.2GHz
-
-:1.748GHz,1.750GHz :9.80GHz
-
-
-
-?
-
-%
-
-4120MHz
-
-"
-
-#
-
-# = " ± %
-", ; #, ; %,  C2225MHz
-Ku1750/1748MHz Ka9800MHz
-# = 4120 =>  -   => % = 2225 => " = 4120 + 2225 = 6345
-
-
-
-
-
-
-
- 
-
-
-
-ip Hacker
-
-
-
-
-
-
-
-ip
-
-ip sniffer software: skynet skygrabber dvbsnoop
-
-LNB
-
-Lo signal
-
-ip data
-
-Antenna
-
-Satellite ip card
-
-PC
-
-software
-
-image video rar ...
-File
-
-
-Satellite Modems
-Comtech EF Data ORBCOMM ViaSat Gilat Satellite Networks Novelsat Newtec Datum Systems Teledyne Paradise Datacom Hughes Network Systems Advantech Wireless WORK Microwave Ayecka Communication Systems Amplus Communication
-
-
-
-011101001101··· input
-011101001101··· output
-
-output input
-
-BUCBUC LNB 
-
- r
-Control Center
-
-Unattended Stations
-
-EDMAC 
-
-EDMAC/EDMAC 2 Master
-
-Slave A Slave B Slave C Slave D
-
-EDMAC
-
-
-QPSK
-
-
-BPSK
-
-
-
-
-
-
-
-
-
-Modem A
-
-Modem B
-
-AABB
-
-
-
-Modem A
-
-Modem B
-
-AABBBAA C
-
-
-
-BlockStream5   Telstar 18VC4057.5MHz
-
-
-
-TELSTAR 11N
-TELSTAR 18V :4057.5MHz  = 4057.5MHz+2225MHz=6282.5MHz
-
-EUTELSAT 113 GALAXY 18
-TELSTAR 18V
-
-Telstar 18V
-
-
-· 
-· "" 
-· 
-· 64% 
-
-    Mircosoft
-
-

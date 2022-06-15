@@ -1,364 +1,0 @@
- 
-Yan Li DCSG 
-Xin LiuNationz
-
-
-§  §  §  § 
- 
-§  TPM  §  § 
-3
-
-
-
-
-
- 
-
-
-
- 
-FedRAMP  (PCI)  
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-IT Pro 
-57%
- 1
-
-61%
-
-1
-
-1 McCann 2012 2012  2 
-
-55%
-1
-
-
-
-
-
-1234 5391 0294 3751
-
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
-
- 1
- 2
- 3
-
-*
- 1 h#p://www.outlookseries.com/A0995/Security/3817_Homeland_Security_Hearing_Cloud_CompuDng_ImplicaDons.htm  2 h#p://www.itbusinessedge.com/cm/blogs/lawson/mulD--tenant--soluDons--the--pros--the--quesDons--and--integraDon--concerns/?cs=45181&page=2  3 h#ps://cloudsecurityalliance.org/csaguide.pdf  
-
-
-
-
-
-
-
-
-
-
-
- 
-
-Mebromi BIOS Rootkit1
-
- 
-
-NIST  BIOS 2
-
- 
-
-  (BAA)BAA 11-023
-
-*
- 1 h#p://www.outlookseries.com/A0995/Security/3817_Homeland_Security_Hearing_Cloud_CompuDng_ImplicaDons.htm  2 h#p://www.itbusinessedge.com/cm/blogs/lawson/mulD--tenant--soluDons--the--pros--the--quesDons--and--integraDon--concerns/?cs=45181&page=2  3 h#ps://cloudsecurityalliance.org/csaguide.pdf  
-
-
-
-
-TXT
-§  
-§ 
-§   
-§   
-
-
-
-
-
-
-
-  
-
-  
-
-Internet
-
-  
-
-TXT 
-  (SMX) 
- AC Module 
-VT-d   DMA
-
-
-CPU
-
-
-SINIT AC Module BIOS AC Module
-
-Intel 
-
-
-TPM
-
- TPM 
-
-
-BIOS/ BIOS AC Module 
-
- VMM/OS  TXT 
-
-
-
-§  §  §  § 
-
-§ §  § 
-
-11
-
-Root of Trust
-· 
-
-· RTM  RTS 
-· 
-
-·  
-
-·  RTM 
- Trusted Platform Module
-
-
-·  RTM  · ""
-
-BIOS
-
-Option ROM
-
-OS 
-
-· 
- Trusted Platform Module
-
-PC 
-§ BIOS  (PCR) 
-
-BIOS PCR[0]
-
-Option ROM PCR[2]
-
-OS  PCR[4]
-
- Trusted Computing Module
-
-
-SRK=
-
-· · ·
-
- TPM  
-
-AlgID objectID cmd  ordinal
-
- Trusted  Pla.orm   Module   
-
- Trusted  Pla.orm   Module
-
-SRK
-
-SRK
-
-SRK
-
-
-
-
-RSA--SHA1
-
-
-RSA--SHA1
-
-· · ·
-
- Trusted  Pla.orm   Module
-PCR  Bank PCR[0] PCR[1]
-PCR[N]
-
-
-
- 
-SM2--SM3
-
-
-SM2--SM3
- Trusted  Pla.orm   Module
-PCR  Bank PCR[0] PCR[1]
-PCR[N]
-
-· · ·
-
-
-
-
-
-RSA--SHA1
-
-
-
-
-
-RSA--SHA1
-
-SM2--SM3
-
-
-RSA--SAH1
-
-
-
-RSA--SHA1
-
-SM2--SM3
-
-
-SM2--SM3
-
- Trusted  Pla.orm   Module  
-
-PCR  Bank
-
-PCR  Bank
-
-PCR[0] PCR[1]
-
-PCR[0] PCR[1]
-
-· · · · · ·
-
-PCR[N]
-
-PCR[N]
-
- 
-SM2--SM3
-
- Trusted Platform Module 2.0
-§  §
-Trusted Platform Module 
-§ 
-· 
-§ 
-· Trusted Platform Module 
-
-
- NV 
-·  2 
-·  · 
-C 
-§  3  TPM 
-·  ·  ·  C  ·  3  C 
-§  4  C 
-·  NV  ·  TPM  TPM 
-­  --  
-·  4 
-
- 4   3   3   2 
-
-
-
-Specification.docx
-
-
-
- +
-Perl 
-
-  +  Perl 
-
-
-.h 
- 
-.c 
- 
-
-ReadClock.c Rewrap.c 
-
-Object.c
-
-
-
-TPM.lib Crypto.Lib
-Platform.Lib
-
-TPM.exe
-
-TPM 
- PowerOn() PowerOff() PPOn() PPOff()
-
-Tpm.lib CryptoLib PlatformLib TPM.exe
-
-­ Vanilla c  OS  ­  ­ OS ... ­  TCP 
-
-
-§  §  §
- §
-
-§  §  § 
-23
-
-
-
-Tboot OAT TSS OpenSSL ODCA
-
-*
-
-/
-§ 
-§ 
-§ Intel  Nationz 
-§  IntelNationz*  
-
-
-
-

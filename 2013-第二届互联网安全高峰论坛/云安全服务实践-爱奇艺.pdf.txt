@@ -1,130 +1,0 @@
-
- 
-
-
-· " " "++ +QA" 
-· " "  
-
-
-·  
-·   
-·   
-·  
-
-
-· SecaaS ­  ­  ­ 
-·  ­  ­ 
-
-
-
-DNS DNS
-nginx
-
-
-
-CDN CDN
-
-
-
-
-
-
-
-
-
-
-
-
-
- MapReduc
-e 
-
-
-
-
-
-
- 
-
-
- 
-
-...
-
-
- Client SDKs
-
-
-
- 
-
-
-·  ·  ·  · WEB
-
-
-·  · 
-
-
-
- 
-
- 
-
-
-
- 
-
-ssh proxy
-
-
-
-
-
- 
-
- 
-
-
-· xsssql · 
-
-
-Nginx
-
-WEB Server WEB Server
-
-M Q
-
-Compute Node Task Task
-
-Mesos Compute Node
-Task Task
-
-Compute Node Task Task
-
-NoSQL Cluster
-MongoDB MongoDB MongoDB
-
-
-· HIDS · 
-
-
-
- 
-
-agent
-
-agent agent agent
-
- 
-
- 
-
-WEB
-· URL · 
-
-WEB
-
-
-·  ·  · DDOS 
-
-

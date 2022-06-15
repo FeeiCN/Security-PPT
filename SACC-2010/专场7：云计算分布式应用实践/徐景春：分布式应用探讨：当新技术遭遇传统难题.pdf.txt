@@ -1,70 +1,0 @@
- 
-
- 2010.7.1
-
-
-
-
-
-
-
-
- ­ The Objective
-
- 
-
-Web Web
-
-
-
-
-
- 
- 
-Web
-
-1G  
-CDNTCP 
-
-
-
-CDN 
-
- 
-
-15Web 
-100% 
-100% 
-
-<<Oracle_VMware10>>
-
-?
-
-
-
-
-
-,
-
-why so difficult
-
-DFS
-  ""
- , 
-
-DFS
- insert,update insert,
-
-DFSDB?
-
-BBS
-Amazon EBS Volume Performance The latency and throughput of Amazon EBS volumes is designed to be significantly better than the Amazon EC2 instance stores in nearly all cases. You can also attach multiple volumes to an instance and stripe across the volumes. This is one way to improve I/O rates, especially if your application performs a lot of random access across your data set. The exact performance will depend on the application (e.g. random vs. sequential I/O or large vs. small request sizes), so the best measure is to benchmark your real applications against the volume. Because Amazon EBS volumes require network access, you will see faster and more consistent throughput performance with larger instances. This is particularly helpful for database style applications that frequently encounter many random reads and writes across the dataset.
-
-DFS
- DVD
-
- ?
-
-Thank You!
-
-

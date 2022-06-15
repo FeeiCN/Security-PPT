@@ -1,582 +1,0 @@
-© 2017 SPLUNK INC.
-Pull Up Your SOCs!
-A Splunk Primer on Building Your Security Operations
-Matthew Valites & Dimitri McKay
-CONF18
-image compliments of harperandjane on etsy
-
-Forward-Looking Statements
-
-© 2017 SPLUNK INC.
-
-During the course of this presentation, we may make forward-looking statements regarding future events or the expected performance of the company. We caution you that such statements reflect our current expectations and estimates based on factors currently known to us and that actual events or results could differ materially. For important factors that may cause actual results to differ from those contained in our forward-looking statements, please review our filings with the SEC.
-The forward-looking statements made in this presentation are being made as of the time and date of its live presentation. If reviewed after its live presentation, this presentation may not contain current or accurate information. We do not assume any obligation to update any forward-looking statements we may make. In addition, any information about our roadmap outlines our general product direction and is subject to change at any time without notice. It is for informational purposes only and shall not be incorporated into any contract or other commitment. Splunk undertakes no obligation either to develop the features or functionality described or to include any such feature or functionality in a future release.
-Splunk, Splunk>, Listen to Your Data, The Engine for Machine Data, Splunk Cloud, Splunk Light and SPL are trademarks and registered trademarks of Splunk Inc. in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners. © 2017 Splunk Inc. All rights reserved.
-
-© 2018 SPLUNK INC.
-If I said we have the expressed written permission of Marvel Entertainment, Fox and Disney...
-
-© 2018 SPLUNK INC.
-If I said we have the expressed written permission of Marvel Entertainment, Fox and Disney...
-I'd be lying.
-
-© 2018 SPLUNK INC.
-If I said we have the expressed written permission of Marvel Entertainment, Fox and Disney...
-I'd be lying. :)
-
-@matthewvalites
-
-© 2017 SPLUNK INC.
-@dimitrimckay
-
-@matthewvalites
-
-© 2017 SPLUNK INC.
-@dimitrimckay
-
-© 2018 SPLUNK INC.
-Dimitri McKay | Staff Security Architect | Splunk | CISSP | CCSK | LOLZ
-
-@dimitrimckay
-
- 21 years of net/system security experience.
- Former pen-tester, corporate security slacker for a search engine and plus sized hand model.
- Enjoys making poor decisions, breaking things and disappointing my parents.
- Current role on the Global Security Specialist team focuses on security strategy for the fortune 50, evangelism and asking dumb questions.
- Currently interested in machine learning for home automation products, which will eventually become self aware and enslave humanity.
- If you read this far, you get 10 cool points. 
-
-@matthewvalites
-
-© 2018 SPLUNK INC.
-
-I came to bargain!
-
-© 2018 SPLUNK INC. Image courtesy of sensacine.com
-
-© 2018 SPLUNK INC.
-WHAT IS A SOC?
-
-© 2018 SPLUNK INC.
-
-PEOPLE
-
-© 2018 SPLUNK INC.
-
-TECH
-
-© 2018 SPLUNK INC.
-
-PROCESS
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-
-DETECT
-
-RESPOND
-
-© 2018 SPLUNK INC.
-PREVENT
-
-WHAT IS A SOC?
-
-DETECT
-
-RESPOND
-
-© 2018 SPLUNK INC.
-PREVENT
-
-WHAT IS A SOC?
-
-DETECT
-
-RESPOND
-
-© 2018 SPLUNK INC.
-PREVENT
-
-WHAT IS A SOC?
-
-WHAT IS YOUR CHARTER?
-
-Data Breaches Law Enforcement Investigation Human Resources investigation Legal investigation Revenge Compromised systems Denial of Service Credential compromise Phishing Vulnerability management Avenge parents murder Lost device Stolen device Malware infection Malware outbreak Romance DoX Cloud Partner compromise External vulnerability notification Nation State attacks Fraudulent use of services Supply chain compromise Secure funding Insurance mandate Regulatory compliance Growth Boardroom conversation
-
-© 2018 SPLUNK INC.
-
-+25 cool points?
-WHAT IS YOUR CHARTER?
-image credit compliments of shutterstock.com
-
-Data Breaches Law Enforcement Investigation Human Resources investigation Legal investigation Revenge Compromised systems Denial of Service Credential compromise Phishing Vulnerability management Avenge parents murder Lost device Stolen device Malware infection Malware outbreak Romance DoX Cloud Partner compromise External vulnerability notification Nation State attacks Fraudulent use of services Supply chain compromise Secure funding Insurance mandate Regulatory compliance Growth Boardroom conversation
-
-© 2018 SPLUNK INC.
-
-WHAT DO WE KNOW?
-
-© 2018 SPLUNK INC.
-
-Photo compliments of https://www.deviantart.com/endock-cepl0k
-
-© 2018 SPLUNK INC.
-
-SOC Maturity
-Insert Security Maturity Wheel Here
-
-© 2018 SPLUNK INC.
-
-Image compliments of http://marvelcinematicuniverse.wikia.com/wiki/Captain_America%27s_Shield
-
-© 2018 SPLUNK INC.
-
-Insert Security Maturity Wheel Here
-
-Buy Tech
-
-Image compliments of http://marvelcinematicuniverse.wikia.com/wiki/Captain_America%27s_Shield
-
-© 2018 SPLUNK INC.
-Insert Security Maturity Wheel Here
-Hire People
-Image compliments of http://marvelcinematicuniverse.wikia.com/wiki/Captain_America%27s_Shield
-
-© 2018 SPLUNK INC.
-
-Insert Security Maturity Wheel Here
-
-Add Process
-
-Image compliments of http://marvelcinematicuniverse.wikia.com/wiki/Captain_America%27s_Shield
-
-© 2018 SPLUNK INC.
-
-Insert Security Maturity Wheel Here
-
-Rinse & Repeat
-
-Image compliments of http://marvelcinematicuniverse.wikia.com/wiki/Captain_America%27s_Shield
-
-People
-
-© 2018 SPLUNK INC.
-
-HIRE SMART PEOPLE
-
-© 2018 SPLUNK INC.
-PEOPLE
-image compliments of voydkessler on deviantart
-
-HIRE SMART PEOPLE
-
-© 2018 SPLUNK INC.
-PEOPLE
-image compliments of voydkessler on deviantart
-
-HIRE SMART PEOPLE
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-HIRE SMART PEOPLE
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-HIRE SMART PEOPLE
-
-© 2018 SPLUNK INC.
-PEOPLE
-Image compliments of 20th Century Fox
-
-HIRE SMART PEOPLE
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-HIRE SMART PEOPLE
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-© 2018 SPLUNK INC.
-outsourcing...
-
-HIRE SMART PEOPLE
-
-© 2018 SPLUNK INC.
-PEOPLE
-Image compliments of 20th Century Fox
-
-© 2018 SPLUNK INC.
-PEOPLE
-But... security people are hard to find...
-
-HIRE SMART PEOPLE
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-HIRE SMART PEOPLE ...and train them
-
-© 2018 SPLUNK INC.
-PEOPLE
-Photo Compliments of https://www.deviantart.com/artofbarbs
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-TRAINEE
-
-HIRE SMART PEOPLE ...and train them
-
-Photo Compliments of https://www.deviantart.com/artofbarbs
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-JOURNEY STAGE 1
-
-SEC401: Security Essentials Bootcamp Style FOR610 for malware analysis. FOR578: Cyber Threat Intelligence MGT517: Managing Security Operations: Detection, Response, and Intelligence SEC504: Hacker Tools, Techniques, Exploits, and Incident Handling MGT414: SANS Training Program for CISSP® Certification FOR572: Advanced Network Forensics and Analysis SEC511: Continuous Monitoring and Security Operations SEC555: SIEM with Tactical Analytics
-
-HIRE SMART PEOPLE ...and train them
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-JOURNEY STAGE 2
-
-SEC401: Security Essentials Bootcamp Style FOR610 for malware analysis. FOR578: Cyber Threat Intelligence MGT517: Managing Security Operations: Detection, Response, and Intelligence SEC504: Hacker Tools, Techniques, Exploits, and Incident Handling MGT414: SANS Training Program for CISSP® Certification FOR572: Advanced Network Forensics and Analysis SEC511: Continuous Monitoring and Security Operations SEC555: SIEM with Tactical Analytics
-
-HIRE SMART PEOPLE ...and train them
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-JOURNEY STAGE 3
-
-SEC401: Security Essentials Bootcamp Style FOR610 for malware analysis. FOR578: Cyber Threat Intelligence MGT517: Managing Security Operations: Detection, Response, and Intelligence SEC504: Hacker Tools, Techniques, Exploits, and Incident Handling MGT414: SANS Training Program for CISSP® Certification FOR572: Advanced Network Forensics and Analysis SEC511: Continuous Monitoring and Security Operations SEC555: SIEM with Tactical Analytics
-
-HIRE SMART PEOPLE ...and train them
-
-PARTNERS
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-PARTNERS
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-PARTNERS
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-PARTNERS
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-PARTNERS
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-PARTNERS
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-© 2018 SPLUNK INC.
-
-PROCESS
-
-© 2018 SPLUNK INC.
-
-STANDARDS
-
-© 2018 SPLUNK INC.
-PROCESS
-
-STANDARDS
-
-© 2018 SPLUNK INC.
-PROCESS
-
-© 2018 SPLUNK INC.
-
-Wonderful thing about standards?
-There are so many to
-choose from!
-
-© 2018 SPLUNK INC.
-
-HOST NETWORK ACCEPTABLE USE PASSWORD/AUTHENTICATION MINIMUM REQUIREMENTS
-STANDARDS
-
-© 2018 SPLUNK INC.
-PROCESS
-
-PREPARE FOR THE INEVITABLE
-
-© 2018 SPLUNK INC.
-PROCESS
-
-PREPARE FOR THE INEVITABLE
-
-© 2018 SPLUNK INC.
-PROCESS
-
-INCIDENT RESPONSE HANDBOOK
-
-© 2018 SPLUNK INC.
-PROCESS
-
-CRISIS COMMS
-
-© 2018 SPLUNK INC.
-PROCESS
-
-VS.
-CRISIS COMMS
-
-© 2018 SPLUNK INC.
-PROCESS
-
-SECURITY MONITORING PLAYBOOK
-
-© 2018 SPLUNK INC.
-PROCESS
-
-© 2018 SPLUNK INC.
-PROCESS
-1.WHAT ARE YOU TRYING TO PROTECT? 2.WHAT ARE THE THREATS? 3.HOW DO YOU DETECT THEM? 4.HOW DO YOU RESPOND?
-THE PLAYBOOK METHODOLOGY
-
-THREAT-BASED MONITORING PLAN
-
-© 2018 SPLUNK INC.
-PROCESS
-Image compliments of - on aminoapps.com
-
-PLAYBOOK
-
-© 2018 SPLUNK INC.
-PROCESS
-
-© 2018 SPLUNK INC.
-PROCESS
-playbook plbk (n)
-A prescriptive collection of repeatable queries (reports) against security event data sources that lead to incident detection and response.
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-
-Tech
-
-© 2018 SPLUNK INC.
-
-UNDERSTAND YOUR ENVIRONMENT
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-
-ASSET VISIBILITY
-
-© 2018 SPLUNK INC.
-TECH
-
-USER VISIBILITY
-
-© 2018 SPLUNK INC.
-TECH
-
-SYSTEM OF RECORD
-
-© 2018 SPLUNK INC.
-TECH
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-TECH
-
-© 2018 SPLUNK INC.
-
-AI / ML
-Image courtesy of ClipartXtras
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-AI / ML
-Machine Learning is a technology, which enhances people and process,
-it does not replace them.
-Image courtesy of ClipartXtras
-
-Awe...
-Image courtesy of ClipartXtras
-
-© 2018 SPLUNK INC.
-
-Awe...
-Sorry buddy.
-Image courtesy of ClipartXtras
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-
-SOAR
-
-© 2018 SPLUNK INC.
-TECH
-Image compliments of movieplayer.net
-
-© 2018 SPLUNK INC.
-TECH
-SECURITY ORCHESTRATION and AUTOMATED RESPONSE SECURITY OPERATIONS, ANALYTICS, AND REPORTING
-SOAR
-Image compliments of movieplayer.net
-
-Automation
-· Automate repetitive tasks to force multiply team efforts. · Execute automated actions in seconds versus hours. · Pre-fetch intelligence to support decision making.
-Orchestration
-Coordinate complex workflows across your SOC.
-SOAR
-
-© 2018 SPLUNK INC.
-TECH
-
-SHOWING VALUE
-Image compliments of wooser on pinterest
-
-© 2018 SPLUNK INC.
-
-© 2018 SPLUNK INC.
-
-SHOWING OPERATIONAL VALUE
-
-© 2018 SPLUNK INC.
-Time to detect Time to contain Time to eat lunch Time to close Time to analyze by play/analyst Detection efficacy by play/analyst Operational availability Incidents by category Incidents according to HR Incidents by source country, group, exec, environment... Incidents involving prior exceptions Incidents involving sensitive data Incidents by policy violation Number of tickets closed by analyst Repeat infections Repeat offenders Vulnerability posture across incidents Trending detections Hot Threats Operational improvement via automation Quantity of data consumed Unused data Detections by threat intel category/source
-
-SHOWING OPERATIONAL VALUE
-
-© 2018 SPLUNK INC.
-Time to detect Time to contain Time to eat lunch Time to close Time to analyze by play/analyst Detection efficacy by play/analyst Operational availability Incidents by category Incidents according to HR Incidents by source country, group, exec, environment... Incidents involving prior exceptions Incidents involving sensitive data Incidents by policy violation Number of tickets closed by analyst Repeat infections Repeat offenders Vulnerability posture across incidents Trending detections Hot Threats Operational improvement via automation Quantity of data consumed Unused data Detections by threat intel category/source
-
-SHOWING STRATEGIC VALUE
-
-© 2018 SPLUNK INC.
-Outstanding Audit Events Project status (on time | within budget) or not Compliance status over time Number of events collected Critical application vulnerabilities Patch status over time Cost savings via automation Cost of paper towels used in mens room CAPEX vs. OPEX costs when migrating to cloud Internal security training status SLA's not being met Corporate phishing tests Fantasy Football Winner Analyst accuracy Number/type of externally reported issues Number of Firewall Blocks Cost of Incidents Number of handicap spots in the parking lot
-
-SHOWING STRATEGIC VALUE
-
-© 2018 SPLUNK INC.
-Outstanding Audit Events Project status (on time | within budget) or not Compliance status over time Number of events collected Critical application vulnerabilities Patch status over time Cost savings via automation Cost of paper towels used in mens room CAPEX vs. OPEX costs when migrating to cloud Internal security training status SLA's not being met Corporate phishing tests Fantasy Football Winner Analyst accuracy Number/type of externally reported issues Number of Firewall Blocks Cost of Incidents Number of handicap spots in the parking lot
-
-© 2018 SPLUNK INC.
-
-Industry Participation
-
-Publications
-
-Bake Sales
-
-Conference hosting
-
-Executive Briefings
-
-Threat Data Contribution
-
-Foosball Championships
-
-SHOWING
-
-Showcase SOC
-
-SECURITY
-
-Release open source tools
-
-COMMUNITY VALUE
-
-© 2018 SPLUNK INC.
-
-Industry Participation
-
-Publications
-
-Bake Sales
-
-Conference hosting
-
-Executive Briefings
-
-Threat Data Contribution
-
-Foosball Championships
-
-SHOWING
-
-Showcase SOC
-
-SECURITY
-
-Release open source tools
-
-COMMUNITY VALUE
-
-© 2018 SPLUNK INC.
-
-FULLY BALANCED SOC
-
-© 2018 SPLUNK INC. Image compliments of Disney
-
-© 2018 SPLUNK INC.
-PEOPLE
-Rate presentation slide
-A BIG THANKS
-
-© 2018 SPLUNK INC.
-PEOPLE
-Rate presentation slide
-A BIG THANKS
-
-© 2018 SPLUNK INC.
-PEOPLE
-Rate presentation slide
-A BIG THANKS
-
-© 2018 SPLUNK INC.
-PEOPLE
-Rate presentation slide
-A BIG THANKS
-
-© 2018 SPLUNK INC.
-PEOPLE
-Rate presentation slide
-A BIG THANKS
-
-© 2018 SPLUNK INC.
-PEOPLE
-Rate presentation slide
-A BIG THANKS
-
-Thanks for rating the session!
-
-© 2018 SPLUNK INC.
-
-A BIG THANKS
-
-Fox Disney Marvel Ryan Reynolds Mom Brodsky Aguero
-
-© 2018 SPLUNK INC.
-PEOPLE
-
-

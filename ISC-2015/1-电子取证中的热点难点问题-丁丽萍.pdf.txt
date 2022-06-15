@@ -1,492 +1,0 @@
-Institute of Software,Chinese Academy of Sciences
-
- 
-
-
-     
-
-Institute of Software,Chinese Academy of Sciences
-2
-
-OROR
-
-Institute of Software,Chinese Academy of Sciences
-
- preservation(collection) validationidentificationanalysis interpetationdocumentation presentation 
-
-""P37 P22
-
-3
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
- 1991
-Computer Forensics
- 1993199519961997
-
-
-.
-
- 
-     
-
-Institute of Software,Chinese Academy of Sciences
-
-2000
-2000 
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
- 1984  
- FBICART
- (SWGDE) latent evidence on a computer,
- TWGDE"" 
- SWGs
- 
-199548% 
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
- 
- 
- EncaseGuidance 
- DIBS 
- Flight ServerVogon 
- LISTDRV DISKIMAG FREESECS
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
-     
-         
- 
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
- 20012003131415FIRSTForum of
-Incident Response and Security Teams    Windows 
-
- DFRWSDigital Forensics Research Workshop
-
-
- E-forensic2008
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
- 
-
- 
-
- 2008e-
-forensics
- 1995""
-19971999 2000 ""  
-
-Institute of Software,Chinese Academy of Sciences
-
-20054    30
-200762-3  
-2013119 
- 
-
-Institute of Software,Chinese Academy of Sciences
-
-200411  
-     
- 100
-  32   
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
-20068
-
-
-     
-
-
-201111  
-   
-
-Institute of Software,Chinese Academy of Sciences
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
- 2014111416      
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
- 2015112022      
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
-2012921-2012923    CITDC  MeiYa  ISFS 
-
-Institute of Software,Chinese Academy of Sciences
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
- "" 
-
-----
-
- 863
-
-----
-
-2002
-
- 863
-
-----2002
-
- 863
-
-
-
-----2014
-
-7
-
-Institute of Software,Chinese Academy of Sciences
-
-1.  2. 
-
-3.  4.  5.  6.  7. 
-
- -- 
-
-Institute of Software,Chinese Academy of Sciences
-
- 
-
- 
-BIOS 
- 
-  
-
-
-     
-
-Institute of Software,Chinese Academy of Sciences
-22
-
-
-               
-
-Institute of Software,Chinese Academy of Sciences
-23
-
-
-     
-
-Institute of Software,Chinese Academy of Sciences
-24
-
-
-           
-
-Institute of Software,Chinese Academy of Sciences
-
-Institute of Software,Chinese Academy of Sciences
-
-26
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
- 2014  6 National Institute of Standards and Technology, NIST  Draft NISTIR 8006NIST      65 
- 
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
-   BIOS 
-    
-     
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
-     
-
-Institute of Software,Chinese Academy of Sciences
-
----
-30
-
-Xen
-
-Institute of Software,Chinese Academy of Sciences
-
-Hypervisor
-
-Institute of Software,Chinese Academy of Sciences
-
- Hypervisor 
-  CPU 
- Hypervisor  guest hypercall
-linux 
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
- RFC3227(Guidelines for Evidence Collection and
-Archiving , February 2002 , http://www.ietf.org/rfc/rfc3227.txt) (collection)(extraction) (analysis)(presentation)(documentation) ""
-
- 
-
-
-
-
- 
-
- 
-
-33
-
-
-
-Domain0
-
-FVM
-
-      
-
- 
-
- 
-
-      
-
- 
-
- 
-
-        
-
-XenoLinux
-
-XenoLinux
-
-Institute of Software,Chinese Academy of Sciences
-
-
-
- 
-
- 
-
-   
-
-......
-
- 
-
-   
-
- 
-
-  XenoLinux Windows
-
-
-
-Xen Hypervisor
-
-    ((CCPPUU             )) 34
-
-Institute of Software,Chinese Academy of Sciences
-
-
-1
-
-KVM
-
-2 
-
-3 
-
-4
-
-
-
-35
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
-IaaS FVM
- 
-  
-
-36
-
-Institute of Software,Chinese Academy of Sciences
-
-37
-
-
-
-Institute of Software,Chinese Academy of Sciences
-App
- 
-  
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
-  Android  
- 2001-2007  
- 2007 
-  iOS  Android  
-  
-
-Institute of Software,Chinese Academy of Sciences
-NIST'S Guidelines on Mobile Device Forensics 
-
-Institute of Software,Chinese Academy of Sciences
-
-
-
-1
-
-2
-
-Institute of Software,Chinese Academy of Sciences
-
-3
-
-4
-
- Preserve evidence
-
- Acquisition
-
- Examination and Analysis
-
- Reporting
-
-Evidence preservation is the process of securely maintaining
-custody of property without altering or changing the contents of data that reside on devices and
-removable media.
-
-Acquisition is the process of imaging or otherwise
-obtaining information from a mobile device and its associated media.
-
-The examination process uncovers digital evidence, including that which may be hidden or obscured. The analysis process differs from examination in that it looks at the results of the examination for its direct significance and probative value to the case.
-
-Reporting is the preparing a detailed summary of all
-the steps taken and conclusions reached in the investigation
-of a case.
-
-Institute of Software,Chinese Academy of Sciences
- Mobile Devices Forensics
-
-
-
-    
-
-Institute of Software,Chinese Academy of Sciences
-
-MobileForensicsTools  Device Forensics Tools
-
-Institute of Software,Chinese Academy of Sciences
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
-       
-
-Institute of Software,Chinese Academy of Sciences
-
-47
-
-1
-
-Institute of Software,Chinese Academy of Sciences
-
- Sleuthkit on Hadoop Sleuthkit onHadoop
- Hadoop   Sleuthkit Sleuthki t   Sleuthkit  Hadoop Ingest AnalysisReporting  
-
-2
-
-Institute of Software,Chinese Academy of Sciences
-
-  Nick Pringle
- DFRWS  2014   FUSE  Fclusterfs   FUSE Virtual File System 
-
-3
-
-Institute of Software,Chinese Academy of Sciences
-
-  Simson L.Garfinkel
-  html word  
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
-  
- 
-     
- 
-
-Institute of Software,Chinese Academy of Sciences
-
-52
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
- 
- SSD BIOS  U IPv6   
- 
- SSD
- TRIM  
- BIOS  IPv6  IPv6  IP  IPv4 
- IPv6 
-
-Institute of Software,Chinese Academy of Sciences
-
-54
-
-
-
-Institute of Software,Chinese Academy of Sciences
-
-   
-  
-  MTD(Moving Target Defence)  
-
-Institute of Software,Chinese Academy of Sciences
- Thanks
-
-

@@ -1,401 +1,0 @@
- 
-
- Security-as-a-Service in Action
-CISSP
-McAfee
- 
-
-
-§  @McAfeeZhenglin
-§ McAfee § 2001CodeRed II
- § 2006 § 2011SaaS
-Web
-3
-
-
-§  §  §  § ----
-4
-
-
-§ 
-§ 
-§ 
-§  §  § 
-§ 
-§  § 
-§ ----
-5
-
- 
- 
-6  
-
-
-
-  
-8,000,000   6,000,000   4,000,000   2,000,000  
-0  
-
-  6,000,000       5,000,000       4,000,000       3,000,000       2,000,000       1,000,000    
-  --        
-
-  
-
-Q1--09   Q2--09   Q3--09   Q4--09   Q1--10   Q2--10   Q3--10   Q4--10   Q1--11   Q2--11   Q3--11   Q4--11   Q1--12  
-
----- McAfee Labs
-7
-
-""
-
-1,000,000   800,000   600,000   400,000   200,000   0  
-
-URL  
-
-  
-1,200,000   1,000,000  
-800,000   600,000   400,000   200,000  
-0  
-
----- McAfee Labs
-8
-
-
-2.5   2  
-1.5   1  
-0.5   0  
-
- c/
- 
-
----- McAfee Labs
-
-
-§ 201011003400 § 80%65%
-75%80% § 45%
-40%
-op2011
-CNNIC, 2011 10
-
-
-890
-
-           
-
-   
-11
-
-
-----CNCERT
-
-
-   
-
-  
-
-
-
-
-   
-
-  
-
-
-
- ----
-§  §  §  §  § 
-14
-
- ----
-
- 
-
-
- 
-
-  
-
-
-
-
- 
- 
-16  
-
- ----
-§ 
-§  
-§ 
-§ 
-§ 
-§ IT
-§ 
-§ 
-The Cloud Changing the Business Ecosystem (KPMG2011)
-
- ----
-
- 
-
-
- 
-
-  
-
-
-
-
- ----
-
- 
-
-
-
-  
-
-
-
-
-§ cSecurity as a Service, Security from the cloud  § 
-§ cCloud Computing Security, Security for the cloud § 
-§ cCloud Security Intelligence, Security in the cloud § 
-
-Augu
-
-20
-
-st 29, 2012
-
-SaaS
-§ Infonetics ResearchSaaS2015 80CAGR23%
-§ SaaS b
-
-SaaS
-§ 201525%SaaS WebGartner2010
-§ SaaS 33.18% MXIntelligence.net, 2012
-22
-
-SaaS
-Forrester, 2010
-
-
- 
-24  
-
- SaaS
-cGTI  
-
-SaaS    
-
-On-Premise
-
-
-25
-
-h"p://  
-!
-
-Web  
-
-
-
-
-
-
-
-   
-
-Web 
-
-PCI       
-
- 
-
-,  
-
-August 29, 2012
-
- SaaS
-
-
-
-
-SaaS Web Protection SaaS Email Security SaaS Endpoint Protection
-
- 
-
-26  
-
- SaaS
-
-
-
-· a 
-·  · 5
-
-
-
-· 60 · Web · 
-
-  h"p://   
-
-·  ·  · 
-·  ·  ·  · 
-· PC ·  · 
-
-
-
- ----
-§ 
-§  
-§  § 
-· 
-§ 80 §  § 
-
-
- ----
-
-  ----
-§ :
-§ ("") NikeAdidas 600
-§ 
-§    PC""
-§ 
-"b" 
-30
-
- ----
-31
-
-SaaS
-§ 25%SaaS  38%IDC, 2010
-§  § inbound Outbound §   §  § IT
-32
-
-SaaS Lulzsec
-33
-
-SaaS ---- 
-
-Inbound
-
-Blocks spam and threats in the cloud
-
-99.9% good email
-
-SaaS Email Protection
-
-Email
-
-DLP
-
-Encrypted email Non-encrypted email
-
-Outbound
-
-SaaS ---- Web
-
-Corporate Office
-
-Web Gateway Appliance
-?
-
-Internet
-
-Browser MCP
-Passive
-35  
-
-August 29, 2012
-
-SaaS ---- Web
-Corporate Office
-On-Network Web Gateway
-?
-
-Off Network
-
-? Internet
-
-Browser MCP
-Active
-36  
-
-SaaS Web Protection
-August 29, 2012
-
-SaaS ----AT&T
-
-With McAfee
-since 2004
-
-§ 
-§  § 
-§ 
-§ 
-§ 
-§  
-§ OEM
-
-37
-
- 
-§  b
-§ 
-§  § a
-b
-§  SaaSb
----- Forrester, 2010.3
-
-
-§ 
-
-
- ----
- 
-40  
-
-----
-
-
-Network IPS
-300M IPS attacks/mo.
-
-Firewall
-300M IPS attacks/mo.
-
-Web Gateway
-2B Botnet C&C IP
-Reputation Queries/mo.
-
-Mail Gateway
-20B Message Reputation Queries/mo.
-
-Host AV
-
-Host IPS
-
-2.5B Malware Reputation Quer.ies/mo.
-
-300M IPS Attacks/mo.
-
-3rd Party Feed
-Geo location feeds
-41
-
-
-§ 
-§ http://qing.weibo.com/mcafeezhenglin
-§ ""
-§ 
-§ 
-§ CNNIC, 2011
-§ Hybrid Messaging Security Solutions: Enhanced Security and Business Flexibility
-§ IDC, Feb. 2010
-§ Surviving Lulz: Behind the Scenes of LulzSec
-§ Matthew Prince RSA Conference 2012, San Francisco
-42
-
-
-
-

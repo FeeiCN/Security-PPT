@@ -1,140 +1,0 @@
-#RSAC
-
-SESSION ID: AFD-M02
-One-Time Password "OTP" Bot Attacks
-
-Kelsey Dean
-Global Intelligence Manager Coinbase
-
-Kristen Spaeth
-Senior Investigator, Global Intelligence Coinbase
-
-#RSAC
-Disclaimer
-Presentations are intended for educational purposes only and do not replace independent professional judgment. Statements of fact and opinions expressed are those of the presenters individually and, unless expressly stated to the contrary, are not the opinion or position of RSA Conference LLC or any other cosponsors. RSA Conference does not endorse or approve, and assumes no responsibility for, the content, accuracy or completeness of the information presented. Attendees should note that sessions may be audio- or video-recorded and may be published in various media, including print, audio and video formats without further notice. The presentation template and any media capture are subject to copyright protection.
-©2022 RSA Conference LLC or its affiliates. The RSA Conference logo and other trademarks are proprietary. All rights reserved.
-2
-
-#RSAC
-OTP Bot Attacks
-
-#RSAC
-Telegram OTP Bots
-Began services in early 2021, popularized in July 2021 Sells on average for $500-700 USD Targets financial services Bot makes a robocall to the victim, tricking them into providing their OTP OTP is sent back to the bot user Threat actor then commits ATO
-4
-
-#RSAC
-Telegram OTP Bots
-5
-
-Telegram OTP Bot Architecture
-
-1 Cyber Criminals
-
-2
-
-Criminal enters ANI and Bank to spoof
-
-API
-
-3
-Criminal Server (OTPBot, SMS Ranger)
-
-Telegram Bot (OTPBot, SMS Ranger)
-
-OTP automatically 7 passed back to the
-Telegram Bot
-
-4 Automated Call Spoofing Bank Number
-6
-
-OTP Sent Back to Criminal Server
-
-Fraudulent Funds Transfer
-
-#RSAC
-Victim 5 Victim Enters OTP
-
-Cyber Criminal use 8 OTP to bypass business
-processes requiring step up
-
-Enroll in mobile wallet Change Email \ Phone
-
-#RSAC
-Telegram OTP Bot Example
-Source: https://www.youtube.com/watch?v=GNXhHAh67DQ
-7
-
-#RSAC
-Notable Threat Actors ­ SMSRanger
-8
-
-#RSAC
-Notable Threat Actors ­ SMSRanger
-9
-
-#RSAC
-Notable Threat Actors ­ SMSRanger
-10
-
-#RSAC
-Notable Threat Actors ­ SMS Ranger
-11
-
-#RSAC
-Notable Threat Actors ­ SMS Ranger
-12
-
-#RSAC
-Notable Threat Actors ­ SMSRanger
-Easy to use Those who pay for access can use the bot by entering commands similar to how bots are used on popular workforce tools, like Slack Entering commands enables various modes, scripts aimed at services and specific institutions
-Once a target phone number has been entered, the bot does the rest of the work 80% efficacy rate if the victim answers the call (Intel 471)
-13
-
-#RSAC
-Telegram OTP Bot Detection
-Hard to proactively prevent attacks Hard to retroactively identify takeovers Bot is sold as a service to threat actors by threat actors; can lead to thousands of suspects and victims Not every attempt is successful
-­ The tool is widely promoted in Telegram channels, but scammers occasionally use false advertisement of successful takeovers
-14
-
-#RSAC
-OTP Bots and Coinbase
-Coinbase has been the target of many OTP Bots, especially in Telegram and WhatsApp advertisements
-Most activity seen on the platform has been in relation to the purchasers of the bot for attacks on other institutions Identified bot attacks on Coinbase accounts have not been successful financially
-Purchasers have typically been using their Coinbase account to buy access to the bot, then committing ATO's at other traditional financial institutions
-15
-
-#RSAC
-Payment Infrastructure
-The public ledger creates a big intel gathering opportunity to trace and identify attackers buying the OTP bot and the OTP architects selling their bot Typical purchase amount is $500-$700 USD, accepted in BTC, ETH and LTC Can be multiple transfers of crypto to numerous exchanges before cashout
-Proceeds of takeover are sent in crypto and then usually withdrawn to fiat currency
-16
-
-#RSAC
-Payment Infrastructure
-17
-
-#RSAC
-Issues to FinTech
-Victim association
-­ Hard to determine users that are victims of these specific attacks ­ Credentials usually obtained in darknet market dumps, not always leading
-to active and valuable accounts
-Attack anticipation Identification of attack patterns
-­ Pattern of sending activity ­ Pattern of login activity ­ Timing of password cracking
-18
-
-#RSAC
-Industry Best Practices
-Enabling and familiarizing users with security keys Use a different method of 2FA, such as biometrics Consistent monitoring of attack patterns by confirmed data Pro-active threat landscape monitoring Communication between financial institutions Educating users about current threat landscapes
-­ Coinbase Earn campaign regarding account safety
-19
-
-#RSAC
-Gathering Intel on OTP Bots Targeting Your Company
-Keywords: "OTP bot" "SMS bulk" "SMS%" "authenticator"
-­ "Bot" may be too broad ­ These keywords are typical of PURCHASERS of the bot ­ Further analysis can be made from those accounts, using IP and device
-data
-Telecos can search for spammed landlines or spammed nonworking numbers Analysis on user accounts that have customer service outreach
-20
-
-

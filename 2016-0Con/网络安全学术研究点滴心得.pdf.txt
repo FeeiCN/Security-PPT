@@ -1,226 +1,0 @@
-
-
-
-
-·  ·  ·  ·  · 
-
-
-1. 2012: DNSGhost DomainNDSS'12
-2. 2014: HTTPS in CDN , Oakland'14
-3. 2015: HTTPSCookie Usenix Security15
-4. 2016: CDN, NDSS 2016 
-
-1.DNS Ghost Domain, NDSS 2012
-
-    
-    Cache 
-  
-
-Ghost Domain
-
-The Communications Security, Reliability and Interoperability Council III
-
-Working Group [#4]
-[SEPTEMBER, 2012]
-
- 1) BCP 38/RFC 2827 Network Ingress Filtering: Defeating Denial of Service Attacks which employ IP Source Address Spoofing35 2) BCP 84/RFC 3704 Ingress Filtering for Multihomed Networks36 3) BCP 140/RFC 5358 Preventing Use of Recursive Nameservers in Reflector Attacks37 4) SAC 004 ­ Securing the Edge38 5) SAC 008 ­ DNS Distributed Denial of Service (DDoS) Attacks39
-
-The primary recommendations from all of these documents boil down to these two points:
-
-  NDSS 2012
- 10DNS 
-
- 1) Do not allow open recursive DNS servers if possible.
-2) Employ ingress filtering on your network to defeat IP spoofing.
-
-FCC 5.4.1.1 Recommendations 1) ISPs should implement BCPs and recommendations for securing an ISP's recursive DNS infrastructure against Reflective DNS Amplification DDoS attacks that are
-
-enumerated in the following documents:
-
-a. BCP 38/RFC 2827 Network Ingress Filtering: Defeating Denial of Service
-
-[Septemb.beABtCrta,Pc2k8s40/wR1hFi2cCh]3e7m0p4loInygIrPesSsoFuirlcteerAindgdrfoerssWMSuploOtoihfRoinmgKed INNetwGorkGs ROUP 4
-
-c.
-
-BCP 140/RFC Attacks
-
-5358
-
-PreventNingeUtswe oof rRkecuSrseivce NuarmiteyservBeres sintRPeflreactcortices
-
-d. SAC 004 ­ Securing the Edge
-
-e. SAC 008 - DNS DistFribIuNtedADLeniaRl oef pSeorvricte­(DDDoSN) ASttaBcksest Practices
-
-5.4.2 Ghost Domains
-
- FCC Ghost domain2012 Best Practice 
-
-In February 2012, a new, quite effective technique for maintaining a suspended domain that has been removed from its TLD zone was discovered. Such an attack has been given the moniker of a "ghost domain".40 An attacker can easily set up a legitimate domain (e.g. hacker.com) and control the domain's authoritative name server. The attacker will then submit DNS queries for www.hacker.com through several recursive name servers (which their botnets can query successfully from any ISP or network they reside), forcing the DNS servers to resolve www.hacker.com and cache the results, including nameserver information for that domain, and the IP address (controlled by the attacker) for the nameservers. Once hacker.com is identified as a malicious domain, remediation action will occur that will lead to the top-level domain registry (for .com in this example) removing hacker.com from their zone file. However, the recursive name servers will not query the top-level domain authoritative server (and subsequently remove hacker.com from their own records) until their cached TTLs for hacker.com and its authoritative nameservers expire. Consequently, by querying each targeted recursive name server regularly for new hostnames under hacker.com, those recursive nameservers will query the cached authority nameservers for the domain, which remains cached. The attacker will refresh the
-
-35 http://tools.ietf.org/html/bcp38 36 http://tools.ietf.org/html/bcp84 37 http://tools.ietf.org/html/bcp140 38 http://www.icann.org/en/groups/ssac/documents/sac-004-en.pdf 39 http://www.icann.org/en/groups/ssac/dns-ddos-advisory-31mar06-en.pdf 40 http://www.isc.org/files/imce/ghostdomain_camera.pdf
-Page [42] of [55]
-
- Ghost Domain   
-20152   
-
-2. HTTPSCDN (HTTPS in CDN, Oakland 2014)
-
-User  CDN 
-
-CDN  
-
-Website
-
-· HTTPSCDN · CDN
-­ CDNNSAGoogle ­  ­ DANE
-
-HTTPS-in-CDN
-·   CDN   (Akamai  CloudFlare  Amazon)CloudFlare Strict SSLKeyless SSL
-· IETFCDNCDNI CDNCDNI 
-
-3. HTTPSCookie Cookie Integrity: Usenix Security 2015
-
-Browser
-
-Set-Cookie: UID=Alice; Secure
-
-Bank.com HTTPS Only
-
-Cookies
-UUIDID==AMlicaellory
-
-HTTP HTTPSCookie
- 
-
-
-
-Cookie Integrity 
-· Google  Chrome
-
-IETF HTTPbis HTTP RFC 6265
-
-4. CDN CDN LoopNDSS 2016
-CDN     CDN 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CDN
-
-
-
-
-
- 16 
-
-
-
-
-
-
-
-
-
-Content routing: Forwarding-loop attack in CDN
-
-POST / Host: example.com
-
-example.com -> B
-
-Attacker (Malicious customer)
-
-Attacker
-
-CDN A
-
-example.com -> A
-
-POST
-
-example.com -> C
-
-CDN C
-
-CDN B
-
-Jianjun Chen, Jian Jiang, Xiaofeng Zheng, Haixin Duan, Jinjin Liang, Tao Wan, Kang Li, Vern15 Paxson, Forwarding-Loop Attacks in Content Delivery Networks, NDSS 2016 Distinguished Paper Award
-
- CDN
-
-We believe the attacks you mentioned are valid and can be a great danger to CDNs and Internet in general. This is indeed something we take very seriously
-We wonder if you are willing to coordinate the effort of communicating with different CDNs to...
-
-
-·  ·  · 
-
-
-·  ·  ·  ·  · 
-
-idea 
-· 
-· critical thinking
-­  ­ 
-
-idea 
-· 
-­  ­ 
-· 
-­ BIG4InForSec ­  ­ 
-· 
-
-Idea 
-· HTTPS in CDN
-­ DNS ­ Google plus ­ 
-· Cookie Injection
-­ S&P ­ HTTP407
-
- 
-· ---- · ---- · ----
-: Inforsec.org :InForSec
-360
-
-
-·  · 
-­  ­ 
-
-
-·  ·  ·  · 
-­  ­ 
-· 
-­  ­ 
-· CDN
-­ : 
-
-
-· 
-­ CDN Forwarding Attack
-·  · 
-­  ­ 
-
-===== Paper strengths ===== (1) The paper exposes a real problem, and fairly comprehensively explores its prevalence in practice. (2) The authors were careful about contacting CDNs before performing certain experiments, and limiting the impact of the experiments, e.g., by putting a "regulator" node in the loops that they created. (3) The paper provides sensible and practical suggestions for mitigating the vulnerabilities. ....
-===== Paper strengths =====
-* Interesting attack and thorough survey of its efficacy on various CDN providers. * Not just an attack paper; describes defenses. * Responsibly contacted (and received responses!) CDN providers.
-
-
-· critical thinking ·  ·  · 
-
-  
-
-

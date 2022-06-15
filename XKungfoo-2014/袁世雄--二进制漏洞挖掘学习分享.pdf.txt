@@ -1,204 +1,0 @@
-
-CString of code audits lab 
-
-Who am i
-· ,  CString.
-· 
-­  ­ 
-
-
- 
-
-   
-
-
-
-
-
-
-
-
-
-  
-
- 
-
-IoCode
-
-
-
-ActiveX
-
-
-
-URL
-
-
-
-Api hook
-
-
-
-
-
-ida, od, windbg... 
-
-API
-
-·recv, recvfrom, WSARecv, WSARecvFrom
-
-· ReadFile
-
-· MapViewOfFile
-IoCode
-· DeviceIoControl
-......
-
-
-
-
-·  · fuzz
-
-fuzz
-
-· 
-
-
-
-
-
-
- 
-
-
-
-fuzz 1
-· 
-
-fuzz 2
-· 
-
-
- 
-
-
- 
- 
-
-
-fuzz 3
-· 
-
-
-
-XXX XXX XXX  
-
-
-
-..........................................
-
-FUZZ ?
-
-fuzz
-· 
-
-4 
-0x29031320
-
-2 
-
-
-4  -0x20
-
-· 
-
-inline hook fuzz
-· 
-
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-inline hook fuzz
-· 
-
-
-
-
-· fuzz
-· IAT hook
-­ 
-
-
-· 
-­ hook ­  ­ 
-
-
-· hook
-­  ­  ­ 
-· lua
-­ C
-
-
-
-
-
-call_prev_func
-
-call_prev_func
-
-API
-
-call_back_func
-
-call_back_func
-
-
-· luaC
-­ CreateProcess ­  ­  ­  ­ ............
-
-
-
-
-·  · 
-
-fuzz
-
-
-· 
-­ 
-·  · 
-­ 0x00 ­ 0x40 ­ 0x7f ­ 0x80 ­ 0xff
-
-lua 
-
-
-· 
-
-
-
-DoS
-
-
-· 
-­ 
-· hook,
-
-fuzz
-· 
-
-
-
-Q&A
-
-

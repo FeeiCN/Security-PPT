@@ -1,146 +1,0 @@
-58 
-58  2012-09-10
-
-
-
-58 -  -  58 . 58 
-sina@58
-
-
- 58.com() Gaea()
-: 1.  2.  3. 58.com 4. Gaea
-
-
- =>    (json, xml, binary ...)
-() =>  7*24 => HA () () 
-......
-
-
-.net => WCF, Remoting Windows (Windows Communication Foundation) Windows 
-Java => EJB, RMI Enterprise JavaBean sun 
-WebService ­ XML ­ SOAP ­ HTTP
-RestFull ­ HTTPHTTPgetpostputdelete ­ api ­  ­  URI
-netflix, dubbo, Hessian, JBoss-Remoting, xxxRPC.....
-
-
-facebook => Thrift Thrift Facebook20072008Apache thrift() RPC
-google => Protocol buffer PB Google RPCPB
-
-58
-  
- demo    QPS     HA  58java, c++, .net()
-
-
-
- =>   HA   
- => 
-
-·  ·  ·  · 
-
-
-
-Gaea Client()
-
-
-
-
-
-
-
-Gaea Serializer ()
-
-Gaea Protocol ()
-
-
-
-
-
-Gaea Server()
-
-
-& 
-
-
-
-
-
-Gaea 
-
-
-JavaGaea
-
-Java client serializer protocol
-
-C & C++ client serializer protocol
-
-TCP
-
-.NET client serializer protocol
-
-XXX client serializer protocol
-
-Gaea
-SFP()
-SDP()  RequestProtocol ( lookup, methodName, paramKVList)  ResponseProtocol ( result, outParam)  ExceptionProtocol (toIP, fromIP, errorCode , errorMsg)
-
-Gaea
-.  =>  .  =>  .  . RDRD (pb?)
-
-Gaea Client 
-
-
-java.lang.reflect.InvocationHandler
-
-(WaitWindow)
-
-
-Server node(+1 -1)
-(Client) a. gaea.config b. 
-
-(Server)
-
-HA & 
-
-. Clientnode
-. ClientServer Node
-. Client
-.  gaea_restart.sh ->  -> clientserver -> server -> clientserver
-
-Server
-IP IP(ip) 
- ()
-
-Server Filters
- 1. Geae Server 2. MonitorFilter 3. IP
-
- telnet
-
-
-
-Gaeademo
-Just try it~
-
- 
-
-
-Done!!! 
-
-Client
-Done!!! 
-
-Gaea
-58.comGaea(100 )   (58.com) QPS: 1.4W
- QPS: 8K
- 58
-
-
-Gaea RoadMap EclipseEclipsetomcat   
-
-
-Gaea Gaea() 58.com SPAT  WF(web) github: https://github.com/58code/Gaea
-
-Q&A
-
-
-
-

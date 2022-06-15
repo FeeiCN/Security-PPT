@@ -1,251 +1,0 @@
- !
-
-
- !
-Robert W. Griffin !
-RSA, The Security Division of EMC
- !
-
- §  §  §  § !
- !
-
-!
- 
-!
- 
-!
- 
-!
- !
-
-!
-§  §  §  §  §  §  §  § 
- !
-
-!
-
-· !
-
-·  -- !
-
-· !
-
-· 
-
-· 
- !
-
-John Doe SSN425-79-0053 Visa 4456-8732...
-John Doe SSN425-79-0053 Visa 4456-8732...
-
-CSA !
-§  1 §  2 API §  3 §  4 §  5 §  6 §  7!
-http://www.cloudsecurityalliance.org/topthreats/ csathreats.v1.0.pdf!
- !
-
- 1!
-  (IaaS)  
- · IaaS  Zeus InfoStealer  Microsoft Office
- Adobe PDF  ·  IaaS  ·  --  IaaS  !
- !
-
- 2 API
-  API    /  API 
- !
-
- 3!
-" "!
- !
-
- 4
-Tom Ristenpartristenpart-invited-csc2011.pdf
- !
-
- 5!
-· Microsoft  2009  80 
- 
-·  Microsoft  · !
- !
-
- 6!
- !
-
- 7!
-
- !
-
- §  §  §  § !
- !
-
-   !
-
-SaaS
-
-!
-
-PaaS
-
-IaaS
-
- !
-
-CSA !
-§  I  §  1 §  II  §  2 § §  I  §  1 §  II  §  2 §  3 §  4 §  5 §  6 §  III  §  7
- 8
-http://www.cloudsecurityalliance.org/guidance/csaguide.v2.1.pdf!
- !
-
-CSA !
-  
-  !
-ü /  ü IaaS 
-http://www.cloudsecurityalliance.org/guidance/ csaguide.v2.1.pdf!
-!
-
-CSA !
-ü  ü ü  !
-http://www.cloudsecurityalliance.org/guidance/ csaguide.v2.1.pdf!
- !
-
-!
-·  ·  ·  · 
- !
-
-!
- · 
- ·  CSP
-CSP ·  CSP 
- !
-
- 1!
-! 
-
-CSP 
-
- !
- 
-
-vSphere!
-
-HSM !
- IT!
- !
-
-!
-
-CSP !
-
-!
-
-vSphere!
-
-!
-
-TrendMicro SecureCloud
- SaaS !
-
-!
-
- !
-
-Andy_Dancer_Trend Micro.pptx!
-
- 2!
- !
-
-CSP 
-
- 
-HSM !
- IT!  !
-
-!
-vSphere!
-
-!
-
-!
-
-Afore CloudLink
-AFORE CloudLink Product Brief.pdf!
- !
-
- 3CSP !
-
-!
-
-CSP 
-
- !
-
-!
-
-!
-
-vSphere!
-
- 
-
-HSM !
-
-Azure Trust Services!
-
-Trust Services !
-
-!
-
-TS 
-!
-
- TS API 
-!
-
- !
-
- §  §  §  § !
- !
-
-OASIS  (KMIP)!
- 29!  
-
- CSP  KMIP!
-
-!
-
-CSP 
-
- !
-
-!
-
-!
-
-vSphere!
-
-KMIP
-
- 
-
-HSM !
-
- §  §  §  § !
- !
-
-!
- !
-
-!
-
- !
-
-lee_badger_KMWJune09_clouds_keys.p df!
-
-!
-Giuseppe AtaniensePDP1.pdf
- !
-
-!
-robert.griffin@rsa.com
- !
-
-

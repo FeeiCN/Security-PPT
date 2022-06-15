@@ -1,394 +1,0 @@
-
-
-
-
-· 
-­  ­  ­ 
-· 
-­  ­ 
-· 
-­  ­ 
-
-
-·  ·  ·  ·  · ELB · MVT
-
-
- · Elong ·  ·  · 
- ·  · 
-
-MQLog MVC Framework
-
- Framework
-
-V
-
-
-
-C
-
-M
-
-
-
-JS Framework
-
-Cookie Manager SessionManager
-
-CMS
-
-OrderFormAys
-
-WebContext
-
-Service
-
-
-
-DB
-
-WCF
-
-Inside Service
-Cache
-
-
-
-AOP
-
-MVT
-
-Config
-
-3L Cache Framework MQ Framework Elong.Common
-
-
-· :ElongFramework · 20+ · *3  · *2  · 20+ · Web300+ 
-
-
-js ajax DOM
-
-js
-·  · js ·  · 
-·       
-
-
-
-Bs-WebServer
-·  · AJAX
-
-
-
-js
-
-AJAX
-
-
-
-
-·   ·  ·  · ELB · MVT
-
-
-· CI ·  · 
- ·  ·  ·  · 
-
-
-· 
-
-
-Engineers
-
-
-
-End Users
-
-CI
-
-
-
- 
-
- 
-
-...
-
-
-
- 
-
-API 
-
-
-
-...
-
-
-
-js 
-
- 
-
-
-
-
-
- 
-
-
-
-
-
-
-
-  
-
-
-
-· · · ·
-Eapd
-
-Hudson
-·CI ·AOS · ·
-
-· · ·
-CI
-
-AOS
-· ·
-
-FinalBuild
-
-
-·  ·  -AsynJob ·  · ELB · MVT
-
- JOBDB
-
-JOB
-
-
-
-MSMQ
-
-· B/S ·  · 
- ·  ·  · Job
- · JOB
-
-
-
-JOB
-
-22
-
-JOB
-· 
-
-
-
-
-
-JOBDB
-
-
-
-JOB
-
-JOB
-
-23
-
-
-· JOB
-· 
-24
-
-MQ
-
-
-
-
-
-
-
-JOBDB
-
-
-
-1.
-
-JOB
-
-JOB 25
-
-ELog
-
-STJ
-
-Snooper
-
-MQ
-
-CTJ MQJob
-
-· Snooper:  · ELog Elong · STJ  · CTJ  · MQJOb: job
-
-Elong MSMQ Framework
-
-26
-
-
-·  ·  ·   · ELB · MVT
-
-
-· DaoServiceUrlEnv ·  ·  · IDC
-
-
-·  ­ env.xml ­ IDC ­  · IDC ·  ­ Env.xml   · idc=elongIdc · Configurl=cmapi1.vip.elong.com
-
-Config
-
-
-
- 
-
-
-
- 
-
- 
-
- 
-
-  
- 
-
-
-· 
-­  ­  ­ 
-
-
-·  ·  ·  ·  ELB · MVT
-
-
-
- 
-
-
-
- 
-
-
-
- 
-
-
-
- 
-
-IP 
-
-
- ,
-
-
-IP 
-
-
-ELB 
-
-Elong LoadBalance
-·   (
-·  
-·  
-·  
-·  
-·  Server
-·  
-·  
-
-ELB Agent
-
-ELB
-
-ELB Server
-
-CFG Agent
-API
-LB Agent
-API
-Client
-
-CFG Agent
-API
-LB Agent
-API
-Client
-
-APP Server
-
-APP Server
-
-
-·  ·  · -AsynJob ·  · ELB MVT
-
-Abacus Experimentation Lifecycle
-
-Ideation
-Experiment idea Discuss and Decide
-
-Setup and Dev
-Experiment setup POD development
-
-Launch and Monitor
-
-Test End
-
-Feature release
-Test turned on and monitored
-
-Data pulled from EDW
-Analyzed and communicated
-
-Confidential
-
-38
-
-MVT
-
-MVT Abacus
-
- GUID Rundom
-  
- 
-
-MVT Nginx SiteSpect
-
-
-netscaler Nginx1 Nginx2 Nginx3 Nginx4
-
- GUID   
-responseStream 
-
- 
-
- 
-
-web 
-
-4
-
-4
-
-40
-
-MVT subs_filter 'id="m_search"' '{"id":3,"name":"m3","buckets":[{"id":1,"value":"id=\'m_search\' style=\'color:green\' ","rate":50},{"id":2,"value":"id=\'m_search\' style=\'color:red\' ","rate":50}]}' r;
-
-MVTReview
-   
-MVT WIN 0.61%
-43
-
-
-·  · 
-
-Thanks!
-
-

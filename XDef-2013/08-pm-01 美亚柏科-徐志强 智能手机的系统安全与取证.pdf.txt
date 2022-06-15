@@ -1,224 +1,0 @@
-
- 
-
-
-      (MTEC)  
-                                                                 
-           
-u   u   u   u   u   u(CCF)   u(HTCIA)  
-
-
-·  ·  ·  · 
-
-
-· 2013717 CNNIC32 
-­ 201364.64  78.5%(PC) 
-
-
-
-
-
-
-· 
-
-
-· AndroidWindows PhoneiOS
-
-
-·  ·  ·  · 
-
-Android 
-11/38
-
-
-· Android APP 
-
-iOS
-· iOS APP  
-· iOSAndroid  
-· iOS 
-
-
-·  ·  ·  · 
-
-Android
-·  ·  (Root) · (PIN) · 
-
-
-·   
-­ Android  1.6-4.2Galaxy  S4999 %  
-·   
-­   
-·   
-­     
-
-
-
-
-
-
-
-XSS
-· Cross Site Scripting  Android Webkit XSS
-­ Android4.0 40%
-
-XSS
-
-XSS
-
-XSS
-
-XSS
-
-Android Root
-· root
-­ 2.3.6PsneuterSuperZergRushroot ­ 4.0.xTPSparkyRestoreMempodroidExynosAbuse
-root
-· Recoveryroot
-­ (Cellebrite ) RecoveryRecoveryroot 
-
-Android Root
-
-· Androidroot
-
-  
-
-  
-
-         OPPO                       
-
-S8600   A790e   U88120   R807   U970   C8826  
-M2   N719   MC002   GN708  
-GT-I9500  
-
-  
-Android2.3.4   Android2.3.5   Android2.3.6   android2.3.6   Android4.0.3   Android4.0.4   Android4.1.1   Android4.1.2   Android4.2.1   Android4.2.1   Android4.2.2  
-
- 
-DC-4500               
-
-QQ     
- × × ×  × × × × × ×
-
-   
-            ×
-
-   
- ×         ×
-
-Android
-· USBAndroid adb 
-
-Android
-· / ( )
-
-Android
-· / ( )
-
-Android
-· /
-  
-ü    ü 1.5-4.2   ü USB   ü root   ü 
-  
-ü 
-SHA-1 5     
-
-Android
-· JTAGdump
-­ ORT Box ­ Riff Box ­ Medusa Box
-
-Android
-· 
-
-Android
-
-Android
-  
-   
-root  
-root   root  
-
-   Android  Recovery  
-
-Android    
-
-Android    
-
-  
-
-iOS
-·  (Jailbreak) ·  · 
-
-iOS
-· iOS2013 7 · iPhone "Mactans")
-
-iOS
-· 
-­ Apple
-· 
-­  ­ App
-
-iOS
-· (PASSCODE)
-­ iPhone4 ­ iPhone 3GS ­ iPAD1 ­ iPod Touch3 ­ iPod Touch4
-
-iOS
-· DFU
-­  ­ 
-
-iOS
-· iOSPCPC  
-
-Touch ID
-·           iPhone 5S  
-·            
-
-Touch ID
-· iPhone 5S  Chaos Computer Clu b  "" iPhone 5STouch I D  iPhone 5S
-
-iPhone
-· iPhone4S/iPhone5/5c/5s Passcode 
-· DFU  
-
-iTunes
-· i O S       i T u n e s      iPhoneiPADiPod Touch 
-· Win 7/Win 8
-Users/(username)/AppData/Roaming/Apple Computer /MobileSync/Backup
-· Mac OSX
-~/Library/Application Support/MobileSync/Backup/
-
-iTunes
-· i O S       i T u n e s      iPhoneiPADiPod Touch 
-· Win 7/Win 8
-Users/(username)/AppData/Roaming/Apple Computer /MobileSync/Backup
-· Mac OSX
-~/Library/Application Support/MobileSync/Backup/
-
-iTunes
-· iTunes  
-­ Passware Kit Forensic ­ Elcomsoft Phone Password
-Breaker
-
-(SQLite)
-· SQLite
-­ SQLite 
-­ Android OSiOSWindows/MacOSX ­  (FirefoxChrome
-Skype)SQLite
-
-SQLite
-· SQLite 
-
-SQLite
-· SQLite  
-
-
-·  ·  ·  · 
-
-
-·  ·                 
-  ·                  
-
-THANK YOU
-@   QQ:    7850350  
-
-

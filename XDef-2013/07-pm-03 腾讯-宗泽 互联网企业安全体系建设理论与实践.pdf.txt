@@ -1,273 +1,0 @@
-
- 
-
-
-· 
-· ""
-
-
-  
- &  Q & A
-
-
- N 
-
-
-
-
-
-
-
-
-
- 1
-
-
-
-
-
- 
-
- 
-
- 2
-
-
-
-Agent 
-
- 3
- 
-
-IDC
-
-
-
- Web
-
-DDoS
-
-
-
-IDC
-
-
-
- 
-
-
-
-DDoS 
-
-
-
-
-
-
-
-VP
-
-
-
-IT
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2006 
-
-
-2008 
-
-2007   
-
-
-
-
-
-·  · 
-
- 
-
-·  · 
- 
-
-·  · 
-
- 
-
- 
-
-·  · SOC
-
-
-
-
-2005-2006 
-
-2010
-
-2007-2009 
-
-
-TSDL
-
-
-
-
-
-PCMobile 
- 
-Web
-
- 
- 
-Web 
-
-
-
- 
-
-
-
-
-
-
-DDoS
-
-
-DNS
-1Local DNS Local DNS 2DNS DNS
-
-
-
-
-
-
-
-
-Agent
-
-·  
-
-
-
-·  · 
-
-·  · 
-
-
-
-·  · 
-
-
-
-
-
-Web/Server
-
-SQL Injection XSS CSRF JSON Hijacking OS Injection ....
-
-·  · 
-Web
-
-·  · 
-Server
-
-high-risk port low version remote overflow danger config weak pwd ....
-
-
-
-
-danger func danger COM DLL Hijacking overflow ....
-
-·  ·  · 
-
-PC
-
-·  ·  · 
-Mobile
-
-danger func storage transmission  ....
-
-
-WAF
-
-struts 0day
-
-
-
-
-
-
-
-
-
-
-
-10:00  struts 0day
-
-10:40  
-
-10:50  
-
-11:40 struts  
-
-18:30  
-
-&
-
-WAF 0dayagent
-
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-Q&A
-·   
-
-Q&A
-·  
-
-Q&A
-·  
-
-Thanks!
-
-

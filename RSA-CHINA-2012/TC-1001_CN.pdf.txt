@@ -1,643 +1,0 @@
-!
-
-
---  "
- Intel  Corp.  Byoso/  Ltd."
-!
-
- root  ......!
-  
-  (VM  
-Escape)  
-
-
-(Jail-- Break)  
-
-
-
-   "
-
-Rootkit  
-
-!
-
-/BIOS     "
-
-Bootkit  APT"
-
-!
-
-4
-
-"
-§ " § " §  ­  "
-§ /"
-§ " § "
-
-!
-
-5
-
- BIOS  
-§  ­     "
-§  ROM   BIOS" § BIOS  ­  /"
-§  20   80  " § 
-" §  POST
- CPU  "
-
-" "
-"
-
-!
-
-6
-
- BIOS  ­   BIOS   UEFI"
-
-§  BIOS  " §  BIOS  à UEFI" § "
-§ 1981  ­  IBM  "IBM  PC"" § 1982  ­  BIOS  " § 1997  ­   IPF   EFI " § 1998  ­  Tiano  "BIOS  in  C"" § 2003  ­  Intel   Tiano   EFI  " § 2005  ­  UEFI  " § 2006  ­  UEFI  EDK--II  UEFI  2.0  " § 2006  --    UEFI  EDK  8.6.1  " § 2010  ­   UEFI  2.3   UDK--2010   " § ......"
-
-UEFI  IA  PlaGorms  Shipment  ProjecKon  
-100  
-
-50  
-
-0  
-
-2005
-
-2010
-
-2015
-
-!
-
-7
-
- UEFI  "
-
-UEFI  "
-
-CPU//"  UEFI   UEFI  " PCI/ISA/USB/"  ACPI/SMBIOS  "  UEFI  "
-
-UEFI  "
-
- UEFI   UEFI  "  UEFI  "
-
-"
-
- UEFI   GetMemoryMap  ()" GDTX86    IDT"  UEFI  ExitBootServices  ()  "
-
-"
-
- UEFI  " / ACPI/SMBIOS  /"
-
-!
-
-8
-
-"
-§  "
-§ "
-§ SMM  " § "
-§ " §  " §  --   " § /" § /" § ......"
-§ "
-
-!
-
-9
-
-/BIOS"
-
-§ "
-
-§ " § TXTATAMTIPT......"
-
-§ "
-
-§  UEFI  BIOS  "
-
- ­     ......  
-
-§ "
-
-§ " § " § "
-
-"
-"
-
-"
-
-Internet  
-"
-
-!
-
-"
-
-!
-
-11
-
-"Bootkit       rootkit    bootkit   " ......" "   BIOS   ""  2012    " "
-!
-
-& "
-"""
-" "
-!
-!
-
-"
-
-"
-" "
-
-"
-" "
-
-"
-
-"
-
-VMM/" SMM/BIOS  
-
-"
-
-CPU  
-
-" !
-
-" """
-
-DMA  
-
-!
-
-!
-
-14
-
-BIOS /   VMM   "
-  "
-   CPU/ "
-
-"
-§ § STRIPED"
-§S ­  " §T ­  " §R ­  " §§I ­  "
-PE­  ­  0  " AV  (SMM)  " §
-
-!
-
-15
-
-"
-§  ­   ==  "  ­  
-§  ==  " §  ­   API  " §  ­  " §  ­  " §  ­"
- ­  BORE    
-
-BIOS  !
-
-!
-
-16
-
- "
-!
-· " ·  3  "
-· "
-!
-· " ·  3  "
-
-!
-· S" · T" · R"
-!
-· S" · T" · R"
-
-!
-
-17
-
-"
-"
-· " ·  3  "
-
-" "
-"
-· " · " · "
-
-!
-
-18
-
-"
-!
-
-"  3  "
-" "
-" "
-
-CIH  ­  "
-·  1999   2000  Chernobyl   CIH
- Chen  Ing  Hau  ()  "
-· Chernobyl  
-"
-· 3   --  100  PDoS  ­  
-"
-"
-!
-
-Apple  "
-· BlackHat  2009K.  Chen
- Apple   "
-· "
-­  rootkit  " ­ 
-"
-"
-"
-!
-
-· 2011Ang  Cui HP  
-­ "   
- ­  1984   1    
-"
-"
-!
-
-Groundworks topo'  MuñizGrroooutnkditworks  Technologies    rootkit   Cisco  IOS   "
-"
-· "
-­ /" ­  1500  
-Cisco   92%  71% "
-"
-!
-
-"
-!
-
-"  3  "
-" "
-" "
-
-Mebromi  (BMW)"
-· 2007   Icelord   xfocus   "
- 3  "
-!
-
-Mebromi  (BMW)  
-·  2011  CIH  " · "
-­ ......" ­  50,000 " ­  Award--BIOS"
- 3  "
-!
-
- Intel  "  Intel  "
-· *BlackHat  20IN0T9EL--SRAa-f-0a0l0  W21ojtcINzuTkEL--SJAo--a0n00n3a0  RutkoInwteskl  a"
-   Intel    (Invisible  Things  L"ab)
-·  (SMM)   SMM  
-· " ·­ "
-"
- 3  "
-!
-
-  BIOS   BIOS
-""
-· Computrace  BIOS   BIOS
-   rootkit"
-· "
-­ " ­ 
-Computrace  BIOS  Dell"
- 3  "
-!
-
-"
-!
-
-"  3  "
-" "
-" "
-
-" · BlackHat "" Intel  RafalW"ojtczuk
-·  "
-­  SMRAM XEN   "
-­    "
-­  Intel   BIOS"
-"
-"
-!
-
-"
-!
-
-"  3  "
-" "
-" "
-
-­  BIOS  "
-
-Tereshkin  (Invisible  Things  Lab)
-
-   BIOS  BMP   BIOS"
-
-· "
-­  BMP   BIOS" ­  BIOS  " ­  Intel   BIOS"
-
-"
-!
-
-"
-!
-
-"  3  "
-" "
-" "
-
- --  " · DefCon  --  "
- BIOS    2008Jonathan  Bro"ssard  (Toucan  System)   PBA  
-· "
-­ " "
-"
-!
-
-"
-!
-
-"  3  "
-" "
-" "
-
-Apple  " ·A pple    2011Charlie"  Miller  (Accuvant
-
-· "
-­ "
-­   "
-
-  Labs)  
-
-"
-"
-
-"
-
-"
-!
-
-"
-§ "
-§ AppleCiscoDellHPIntelLenovoSiemens......"
-§ "
-§ RootKit" §  BIOS   "
-!
-!
-
-"
-
-§ "
-§
-"
-§  CIH
-§ "
-
-§ "
-
-§ CStIHuxne3t   --  100  " § Mebromi/BMW50,000 "
-
-§
-
-"
-
-!
-!
-
-& "
-"""
-"
-!
-!
-
-"
-"
-
-!
-
-40  
-
-Intel  " !
-
- UEFI  "
-
-§ ......" hUiEp:F//Iw  ww.uefi.org"
-
-h§i p://lanocore.sou"rceforge.net"
-§ ......"
-§ hip://www.uefi.org hip://lanocore.sourceforge.net"
-
-!
-
-41
-
-"
-§  TCG  " § 
-" §  TPM  "
-§   ­    "
-§  "
-
-!
-
-42
-
-UEFI  "
-§ UEFI   3   § "
-§ IT  "
-§ § IT/  " § "
-"
-§ "" """ § Authenlcode* "Windows  
-§
-
- Windows  PE     "
-
-MS--DOS  2.0  "
-
-PE  "
-
-"
-
-"
-
-" " Windows  "
-
-"" "
-
-" "
-
-"
-
-" "
-
-"
-
-" " " "
-
-" "
-
-"
-
-"
-
- 1  "
-
- 2  "
-
-.  .  .  
- N  "
-" bCerKficate 
-"
-
-" "
-
-"
- "
-"
-
-"
-PKCS#7   contentInfo
-
- SPCIndirectDataConten 
-
-PE   ""
-
-"
-
-"
-
-
-
-"
-
-· X.509  "
-
-·X.509  "
-
-""
-
-"
-
-"
-
-"SingnerInfo  
-
-SignerInfo     
-
-
-
-        ContentInfo  
-
- URL 
-
-                                                          
-
-" ""
-
-
-
-PKCS#9   
-Signerinfo  " 
-UTC   " 
- " " " ""
-
-!
-
-43  
-
-UEFI  "
-
-§  (UEFI  2.3)"
-§ " §  ­  SHA256" §  ­  RSA--2048"
-§  (UEFI  2.3.1)"
-§  EFI_TIME  " §  ­  MD5/SHA1/SHA224/SHA256" §  ­  X.509  "
-§  X.509  " § "
-
-!
-
-44
-
- ­  UEFI  "
-
-§ Microson  Windows  8   §
-
-1.  "
-
-M*i"croson  Windows  8   §
-
-
-
-
-
-§ ­  UEFI  " 
-
-TianoCore   2B.  "
-
-PEI  FV  
-
-"
-
-"
-
-2C.  
-
-"PK  
-
-
-
-"
-
-"
-
-"KEK  
-
-"
-
-" "db  
-
-"
-
-"
-
-dbx   "
-
-"
-DXE  FV  
-""
-
-OpRom.efi   " +  "
-2A.  "
-OsLoader.efi  
-""
-+  "
-
-!
-
-45
-
-NIST  "
-§ NIST   BIOS  "
-§ SP800--147  --  " § SP800--147B  ­  " § SP800--155  --  "
-§ 3  "
-§ /BIOS  " § BIOS  " § BIOS  "
-
-!
-
-46
-
-"
-§  ...   "
-§  ­  " §  UEFINIST  "
-§ " § " § "
-
-!
-
-47
-
-"
-!
-
-

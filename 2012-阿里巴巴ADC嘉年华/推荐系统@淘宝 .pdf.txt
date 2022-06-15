@@ -1,141 +1,0 @@
-@
-() 2012.7 http://weibo.com/skyhope kongwang@taobao.com
-
-
-·  ·  ·  ·  · 
-
-·  ·  ·  ·  · 
-
-
-· form or work from a specific type of information filtering system technique that attempts to recommend information items (item, music, books, news, images etc.) or social elements (e.g. people, events or groups) that are likely to be of interest to the user.
-
-
-· 
- 
-· 
- 
-·  
-
-
-·  · 
-
-
-· 
-
-· 
-   
-
-
-· 
-­ 
-· 
-­  ­ 
-
-SNS
-·  
-· 
-
-
-
-
-
-
-
-
-
-
-·  ·  ·  ·  ·  · etc
-
-
-·  · online & offline · Messaging system · Search engine · NoSQL ·  · 
-
-
-· explicit 
-
- 
-· Implicit
-
- 
-
-
-·     
-·  · 
-
-Messaging system
-·  · 
-
-Search engine
-·   ·  
-
-
-NoSQL
-·  ·  · 
-
-
-·  · ETL
-MapReduce , HiveHadoop
-
-
-·  ·  ·  ·  · 
-
-
-·      ...... ·      
-
-
-·  ·  ·  ·  · 
-
-
-60
- Detail            EDM    list  api  
-
-
-·  ·  · 
-
-
-·  ·  ·  ·  · 
-
-
-·   
-·  content-basedcollaborative-based Association Rules
-
-
-·  logistic  
-·    
-·   
-
-
-· 
-Tag   , ,
-
-
-·   
-
-
-·  
-
-
-·  Offline:  Online : ABTest
- CTR GMV 
-
-
-·  ·  ·  ·  · 
-
-
-·  ·  · AbTest · 
-
-
-
-Treasure
-· hadoop 
-·  · ABTest · 
- · 
-
-
-· hadoop ·  ·  
-
-
-· Zookeeper ·  ·  · Job
-
-·  · 
-
-

@@ -1,67 +1,0 @@
-
- 2014/9/18 zhouwei04@baidu.com
-
-
-·  · ObjectStore · 
-
-
-   
-      
-SDK  
-
-ObjectStore
-· object · 
-­ 
-· 
-­ EC
-· 
-­ Put(UINT128 key, BYTE* value) ­ Get(UINT128 key, BYTE* value) ­ Delete(UINT128 key)
-
-Object
-
-ObjectStore
-
-PIS
-
-RBS
-
-EC
-· Reed-Solomon Coding : RS(k,m)
-­  ­ kdata,mparity ­ k+mm
-· k,m
-­ 3 ­ k/m ­ k+m ­ kIO
-
-
-· PISRBS · Intel X86
-­ (12*3T SATA, 64GB Mem)
-
-
-· ARM
-­ 2U6(4*3T SATA, 8GB Mem, 4 Core) 10Gbps ­  ­ 75%TCO25%
-
-
-· Intel Avaton
-­ 1U(18 * 4T SATA, ) ­  ­ 50%TCO40%
-
-RBS
-· 
-­ S.M.A.R.T ­ S.M.A.R.T ­ partEC
-
-
-IDC
-· 
-­ 
-· 
-­  
-­ 
-· 
-­ objectobject ­ objectobject
-
-IDC
-· CDN ·  ·  ·  ·  · 
-
-yun.baidu.com
-
-Q&A
-
-

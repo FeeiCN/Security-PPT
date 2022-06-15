@@ -1,206 +1,0 @@
-X  
---  
-
-  
-3  
-
-  
-4  
-
-X  
-
-X  
-6  
-
-X  
-·  ...  
-7  
-
-X  
-8  
-
-()  
-·   
-· -->   · -->2B   · -->x  
-·   
-·    ·    · ""   ·     
-9  
-
-""  
-·   "X"""   · ()   · ""  
-· ""  VS  ""  
-· """"   · "php"  
-10  
-
-  
-·    ·   
-11  
-
-  
-·   >    
-·    ·    · ()   · ...  
-· ""   
-12  
-
-""     
-13  
-
-· ""   ·    ·   
-· -->()   · -->()  
-·       
-·    
-14  
-
-     
-15  
-
-· ""   · ""  
-·      · General  Mass  Threat  
-16  
-
-""  
-·    
-·  ( )  
-17  
-
-18  
-
-  
-· """" """""" ""  
-·   
-· "" ""  
-· ""  
-19  
-
-  
-· ",?"    --  @tombkeeper  
-·   
-·   
-· :  
-·    ·   
-20  
-
-  
-·   
-21  
-
-· index.php.bak  apachephp  
-22  
-
-· 1  
-
-  
-
-· hPp://www.pengyou.com/frame.html? frame=javascript:alert(1);//  
-23  
-
-· 2  
-
-· hPp://www.pengyou.com/frame.html?
-
-frame=hPp://www.baidu.com/?
-
-%23www.qq.com/  
-
-24  
-
-· 3  
-· hPp://www.pengyou.com/frame.html? frame=hPp://t.qq.com.80vul.com/  
-25  
-
-· OSweb   
-·    ·   
-· """poc "  
-26  
-
-  
-· hPp://www.zoomeye.org/   Elas`cSearchCVE--2014--3120  
-27  
-
-28  
-
-· Elas`cSearch""java  CVE--2014--3120-->  
-·   
-· -->--> CVE--2015--1427  
-· ES   
-· CSRFES                   
-29  
-
-  
-·    · ""   ·    ·     ...  
-30  
-
-·   
-·    ·    · """"  
-31  
-
-  
-32  
-
-  vs    
-33  
-
-  
-·    
-·     
-34  
-
-  
-·   
-·    
-·    · /
-   · ""
-""  
-35  
-
-  
-· """"   · """"  
-·    · ""   · ""    
-· ""   
-· ""  
-36  
-
-  
-·   
-·    ·   
-37  
-
-  
-·    
-·   
-·   
-·    
-· SDL   · SDLThe  Security  Development  Lifecycle  
-38  
-
-  
-· hPp://www.microsog.com/en--us/sdl/ default.aspx  
-· SDL  
-·   
-· SDL  
-·   
-· SDL  
-·   
-39  
-
-  
-·   
-·    ·   
-· ()   
-· General  Mass  Threat      
-·    ·   
-40  
-
-  
-·    ·   
-·    
-41  
-
-  
-·   
-·    · CDNDDos  
-42  
-
-  
-
-

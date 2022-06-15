@@ -1,204 +1,0 @@
-¢sBfx<¤¢
-Tim Yang! ²x< ¤¢k
-
-<^4x<
-
-<^
-· 7Ú
-­?à ­±ä ­½æ
-· Content Manager System!
-
-<^
-· , LAMP!
-­MySQL master/slave" ­Memcached" ­PHP" ­CDN"
-
-x<
-· x<I
-­Real-time" ­,°,Í
-­&|ÙD
-
-&|ÙD
-
-&|ÙD
-· x<Ã&|ÙDéç©v
-­Push()" ­Pull()"
-
-Push
-· x<Â(ù
-­Inbox: 4¾x< ­Outbox: i?àx<
-· ?à[4Ìinbox(ü)! · ¥ÂÁêÿInbox(ò)!
-
-Push(Figure)
-User A UpdateAction
-
-Followers of User A = 1, 2, 3
-
-Inbox (Append to 1s home timeline)
-
-Inbox (Append to 2s home timeline)
-
-Inbox (Append to 3s home timeline)
-
-Push
-· ¶]¸Ê;õ · Ô¶0?ý
-
-Pull
-· ?à[4Ûhoutbox(ò)! · ¥Â,°bíInbox(ü)!
-
-Pull
-
-User I Get home_timeline
-
-User Is Following List
-= A, B, C
-
-Outbox
-
-Outbox
-
-Outbox
-
-(statuses sent by A) (Statuses sent by B) (Statuses sent by C)
-
-Pull
-· ¶ÜÎ[) · Ô¶çËýV
-
-· x< ´|0?ÍÑ · Bû@}¾v]¸
-
-¤¢~g'
-- YTÜ
-
-ìý
-· Y£?àý5,000
-/W · nQ578¡/Ä · éçÍÑ_ý2,000?!
-
-IOº
-· g'5,000 ­ 10,000?! · 100,000?!
-
-F£
-· Latency! · DB read timeout! · 5Çtimeout (503 error)! · å/§
-
-u«éç
-· E«Éw · c´|[+´|2(Message
-Queue)! · òýÏ¾?à
-
-MQ products
-· Kestrel by twitter" · RabbitMQ, an Erlang Queue
-Server" · Memcacheq!
-­O²x<ÀVã©#¼
-
-Memcacheq
-· RBerkeley db, Æ\B · Memcached protocol, a¾
-client library! · _¿(stats queue)! · A2Hget/set!
-
-ø*;¶
-¦y9ø*;· ¯
-1. #¼UMemcacheq® 2. Get": ñë9J 3. Set": õ   -S ¤¢éç
-
-MQvö¼¾ ¶
-· Offline work! · p¼ìýQß · åØ · u«öè · >3
-
-#¼MQ>3 çËtþV´|0?tþ
-
-¤¢~]{
-
-îüâ¾îl]{
-
-The value of the tweet decreases exponentially with http://t.sina.com.cn/pub/star#a_ty time!
-"
-John Kalucki, Twitter"
-
-å/zï Cachey:
-Ram is the new the disk!
-
-· Local Cache! · Memcached! · Database buffer/cache!
-
-· LAMPcache=Bõe · Cachey:F¾ÿ
-
-_ýÿ
-· TBÏ · zï=Ó
-­QuickLZ" ­LZO" ­¼gzip"
-
-;¶ÿ
-· ;¶, SIGSEGV! · Y!pb
-­1. Consistent hash" ­2. Read-through cache"
-
-Consistent hash
-· >¹ · ¶
-­Ýd
-
-Read-through cache
-
-Read-through and Writethrough
-· Products or projects!
-­MySQL memcached UDF" ­Cache money for Ruby on Rails"
-· Or wrap a proxy for the db driver, in any language!
-
-Evictionsÿ
-· Evections: cacheáð · {Ú¾K¨ · Latency»¾µX 
-
-Y!ø*evictions
-· ã1cache_ý · c¬0t · #¼ZÈ"key!
-
-Multigetÿ
-When memcached servers are CPU bound, adding more memcached servers doesn't help serve more requests.!
-!
-- Jeff Rothschild, Vice President of Technology at Facebook"
-
-Cache~multiget hole
-Application Max RPS of application < (A and B and C)
-Multiget (keys...)
-
-Multiget
-
-Multiget
-
-Multiget
-
-Multiget
-
-Memcached (Max RPS: A)
-
-Memcached (Max RPS: B)
-
-Memcached (Max RPS C)
-
-å/¯
-· Memcached replication!
-
-¤¢~³ý[)
-
-¤¢~ N.ÕÐm`ÿ
-
-P¹0j
-· ×Þ4>Lâ0jv úÖ
-­êÿ÷r ­IDCB¼ ­
-· 0j¾¦y0j
-
-P¹0j>¹
-· Master-slave! · Master-master" · 2PC/3PC! · Paxos! · http://timyang.net/data/multi-
-idc-design/ !
-
-P¹0j¾§
-· MySQL master/slave! · Dynamo/Cassandra! · PNUTS!
-
-¤¢~APIêÿý
-
-²x<tnC$
-· REST API!
-­ÒÅÊ;librarya
-·B¼curl, javascript]¸ client"
-­Ô¶;Gëÿv
-· Y!å/ñë=6
-
-å/§Sina App Engine
-· Sina App Engine p¼nC %x<APIqe
-· oBhostx<app!
-
-· x<, Web 2.0¦y  · ôU¾¤¢~Éwå/ · ªó8+²x<M
-
-Q&A!
-²x<@ TimYang! Twitter: @ xmpp!
-Email: iso1600 @ gmail.com! !
-
-

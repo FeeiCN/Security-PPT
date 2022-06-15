@@ -1,268 +1,0 @@
-When threat hunting fails
-Identifying malvertising domains using lexical clustering
-Tucson, January 9th, 2018
-
-Authors
-Matt Foley
-
-kitty David Rodriguez
-
-Dhia Mahjoub
-2
-
-Agenda
-
-Background Ad Network Profiling and Filtering Lexical Clustering Hosting space and top talkers
-3
-
-Background
-4
-
-Exploit Kits
-
-Victim
-
-Compromised Site
-Step 1.
-
-Compromised Site
-
-Gets lander (proxy)
-
-Malvertising
-
-Ad Net. Publisher
-
-Staged Site (Ad)
-
-EK Server
-5
-
-What is Malvertising
-
-Visitors
-
-Publishers
-
-Ad Networks
-
-Ad Exchanges
-
-DSPs
-
-Ad Agencies
-
-Ad Servers
-6
-
-7
-
-Ad Campaign Flow
-
-User visits publisher site
-
-Publisher Site
-
-Publisher site includes ad network javascript
-
-Compromised Ad Net.
-
-Compromised Ad Net.
-
-Examples: Tech support scam Rig Exploit Kit Fake flash/java update
-Ad network fingerprints and sends user to malvertisement
-8
-
-Exploit Kits
-9
-
-Tech Support Scams
-10
-
-Fake Flash and Java Updates
-11
-
-Ad Network Profiling and Filtering
-12
-
-Filtering on non-residential IP Address
-13
-
-Proxy Network
-
-Squid Proxy
-
-Choice of region
-
-403
-Rotating IPs
-14
-
-Filtering on non-residential IP Address
-
-GET
-
-Ad Network Returns a 403
-
-403
-
-Browsing with DigitalOcean
-proxy
-
-Ad Network
-
-15
-
-Attempts with other VPS providers
-16
-
-Attempts with other VPS providers
-17
-
-18
-
-19
-
-Lexical Clustering
-20
-
-Attention to Details
-21
-
-Fake Flash and Java Updates
-22
-
-23
-
-More or Less Traveled Roads
-24
-
-Consider the almighty RegeX Keywords
-
-content free
-apple
-
-safe build
-click
-
-Known Keywords
-
-Synonyms Typos
-
-UnKnown Keywords
-
-25
-
-Consider the almighty RegeX
-grep "*.fake.*"
-26
-
-Traffic Pattern of Fake Update Sites
-27
-
-Traffic Pattern of Fake Update Sites
-Look for burst in traffic
-28
-
-For one word, many
-29
-
-Shingling Fake Flash and Java Update
-Trigram host name contentfreeandsafe4update {`con', `ont', `nte', `ten', `ent', ..., `ate'}
-30
-
-Shingling Fake Flash and Java Update
-Trigram host name contentfreeandsafe4update {`con', `ont', `nte', `ten', `ent', ..., `ate'}
-MinHash LSH
-31
-
-Locality Sensitive Hashing Fake Flash
-
-contentfreeandsafe4update contentfreeandforupdate content4freeandsafeupdate
-
-3 Domains with a lot of shingles in common
-con tent fre and saf dat
-32
-
-On to production
-33
-
-Clustering Pipeline Realtime/Batch
-
-goodnewcontentssafe.download
-
-pipeline
-
-hasher
-
-Count min-sketch
-
-Out pipeline
-
-Cluster DB
-
-Analyst Dashboard
-34
-
-Payday
-35
-
-Fake Flash and Java Update Lexical Clustering
-
-cluster_1: goodnewcontentssafe.download goodnewfreecontentsload.date goodnewfreecontentall.trade ...
-cluster_3: artificialintelligencesweden.se artificialintelligencechip.com artificialintelligence.net.cm ...
-
-cluster_2: call-mlcrosoftnw-err81711102.win call-mlcrosoftnw-err99817109.win call-mlcrosoftnw-err81711101.win ...
-cluster_4: mkto-sj220048.com mkto-sj220146.com mkto-sj220162.com ...
-
-36
-
-We need help
-37
-
-Simple Flask App Dashboard
-38
-
-Hosting space and top talkers
-39
-
-Where are these hosted? Any patterns?
- Take 1 week's worth of detections and their hosting space; Jan 1-7
- Some hosters are consistently abused
-AS12876, FR AS14618 Amazon AWS and more Some IPs are actively hosting thousands of domains for months
- Some hosters are highly infested with shady, toxic content; dedicated?
-AS202023, LLHOST, RO; phishing, tech support scams, fake updates, porn
-40
-
-Who is querying these domains?
- Take 1 week's worth of detections; Jan 1-7 and user IPs
- 10 busiest hours
-20000+ user IPs querying 2000+ malvertising domains
- Some top talker clusters emerge
-Security companies owned ranges querying hundreds of domains Some rogue networks querying hundreds of domains
-41
-
-Summary
-42
-
-grep "*.fake.*"
-Look for burst in traffic
-
-user IPs
-
-hosting IPs
-
-43
-
-Current and Future Work
-
-NLP on misspellings and common typos Models to categorize clusters Identifying malicious file hosts using belief propagation
-
-44
-
-Thank you Questions? We are hiring
-
-Matt Foley, matfoley@cisco.com David Rodriguez, davrodr3@cisco.com Dhia Mahjoub, dmahjoub@cisco.com
-45
-
-
