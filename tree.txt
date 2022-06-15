@@ -1,4 +1,218 @@
 .
+├── 0000-SecurityReport-安全报告
+│   ├── 2017企业安全威胁统一应对指南.pdf
+│   ├── 2021上半年勒索病毒趋势报告及防护方案建议-2021.pdf
+│   ├── 2021年上半年 DDoS攻击威胁报告-2021-腾讯-绿盟.pdf
+│   ├── 5G安全白皮书-2019.pdf
+│   ├── 5G网络安全标准化白皮书-2021.pdf
+│   ├── AISecOps智能安全运营技术白皮书-2020-绿盟.pdf
+│   ├── APP隐私合规产品白皮书-腾讯.pdf
+│   ├── App违法违规收集使用个人信息监测分析报告-2021.pdf
+│   ├── CISO_Handbook.pdf
+│   ├── CISSP官方认证学习指南-v8.pdf
+│   ├── DDoS威胁报告-2020.jpg
+│   ├── DOD Zero Trust Reference Architecture_v1.1（零信任参考架构）-2021.pdf
+│   ├── Docker容器安全最佳实践白皮书V1.0.pdf
+│   ├── Gartner2022
+│   │   ├── sec28 - 58490 - abnormal security_2443732.pdf
+│   │   ├── sec28 - 58493 - altr_2443718.pdf
+│   │   ├── sec28 - 58494 - arcon_2443384.pdf
+│   │   ├── sec28 - 58496 - area 1 security_2443712.pdf
+│   │   ├── sec28 - 58497 - at t cybersecurity_2445966.pdf
+│   │   ├── sec28 - 58499 - attackiq, inc._2443713.pdf
+│   │   ├── sec28 - 58501 - auditboard_2443714.pdf
+│   │   ├── sec28 - 58502 - aviatrix_2495714.pdf
+│   │   ├── sec28 - 58505 - axiad_2427329.pdf
+│   │   ├── sec28 - 58507 - axonius_2440403.pdf
+│   │   ├── sec28 - 58509 - beyond identity_2440201.pdf
+│   │   ├── sec28 - 58515 - bluevoyant_2443394.pdf
+│   │   ├── sec28 - 58517 - checkmarx inc_2444029.pdf
+│   │   ├── sec28 - 58520 - colortokens_2443704.pdf
+│   │   ├── sec28 - 58521 - contrast security_2445843.pdf
+│   │   ├── sec28 - 58522 - northstar.io, inc_2445278.pdf
+│   │   ├── sec28 - 58523 - crowdstrike_2444030.pdf
+│   │   ├── sec28 - 58525 - cybelangel_2443694.pdf
+│   │   ├── sec28 - 58526 - cyberark software_2444279.pdf
+│   │   ├── sec28 - 58527 - cybereason_2509732.pdf
+│   │   ├── sec28 - 58528 - cybergrx_2410691.pdf
+│   │   ├── sec28 - 58530 - cybervista_2410706.pdf
+│   │   ├── sec28 - 58532 - cymulate_2443665.pdf
+│   │   ├── sec28 - 58533 - cyware_2440385.pdf
+│   │   ├── sec28 - 58535 - data443_2450370.pdf
+│   │   ├── sec28 - 58536 - deep instinct_2443719.pdf
+│   │   ├── sec28 - 58537 - dragos, inc._2450371.pdf
+│   │   ├── sec28 - 58657 - atos_2468230.pdf
+│   │   ├── sec28 - 58658 - palo alto networks_2467950.pdf
+│   │   ├── sec28 - 58660 - ping identity_2440396.pdf
+│   │   ├── sec28 - 58661 - pkware_2441141.pdf
+│   │   ├── sec28 - 58662 - plainid_2443379.pdf
+│   │   ├── sec28 - 58663 - processunity_2403333.pdf
+│   │   ├── sec28 - 58664 - proofpoint_2440400.pdf
+│   │   ├── sec28 - 58665 - pwc_2411960.pdf
+│   │   ├── sec28 - 58666 - radiant logic_2405325.pdf
+│   │   ├── sec28 - 58673 - recorded future_2449677.pdf
+│   │   ├── sec28 - 58678 - riskiq, inc._2449681.pdf
+│   │   ├── sec28 - 58684 - safebreach_2509733.pdf
+│   │   ├── sec28 - 58685 - sailpoint technologies_2456458.pdf
+│   │   ├── sec28 - 58687 - sath, inc._2509734.pdf
+│   │   ├── sec28 - 58688 - saviynt_2456460.pdf
+│   │   ├── sec28 - 58696 - securityscorecard._2509742.pdf
+│   │   ├── sec28 - 58697 - securonix_2456461.pdf
+│   │   ├── sec28 - 58698 - seczetta_2456462.pdf
+│   │   ├── sec28 - 58699 - sentinelone inc_2509735.pdf
+│   │   ├── sec28 - 58701 - shiftleft_2456463.pdf
+│   │   ├── sec28 - 58702 - cyber ranges by silensec_2509736.pdf
+│   │   ├── sec28 - 58705 - sonatype_2456464.pdf
+│   │   ├── sec28 - 58707 - sophos_2456465.pdf
+│   │   ├── sec28 - 58714 - synack_2509743.pdf
+│   │   ├── sec28 - 58715 - synopsys _2456457.pdf
+│   │   ├── sec28 - 58716 - tanium inc._2447844.pdf
+│   │   ├── sec28 - 58717 - telos_2443389.pdf
+│   │   ├── sec28 - 58718 - tenable, inc._2443684.pdf
+│   │   ├── sec28 - 58719 - terranova security_2444567.pdf
+│   │   ├── sec28 - 58720 - tessian_2443381.pdf
+│   │   ├── sec28 - 58724 - threatlocker_2431565.pdf
+│   │   ├── sec28 - 58725 - traceable ai_2443383.pdf
+│   │   ├── sec28 - 58726 - trustwave_2495447.pdf
+│   │   ├── sec28 - 58727 - varonis_2449792.pdf
+│   │   ├── sec28 - 58728 - vectra ai_2495734.pdf
+│   │   ├── sec28 - 58733 - yubico_2445049.pdf
+│   │   ├── sec28 - 58735 - zscaler_2503875.pdf
+│   │   ├── sec28 - 58763 - code42_2443387.pdf
+│   │   ├── sec28 - 58764 - bitsight_2443393.pdf
+│   │   ├── sec28 - 58766 - egress_2443390.pdf
+│   │   ├── sec28 - 58767 - epam_2468409.pdf
+│   │   ├── sec28 - 58768 - ermetic_2509388.pdf
+│   │   ├── sec28 - 58769 - esentire_2468385.pdf
+│   │   ├── sec28 - 58770 - exabeam_2458465.pdf
+│   │   ├── sec28 - 58771 - extrahop_2450381.pdf
+│   │   ├── sec28 - 58772 - fasoo_2445581.pdf
+│   │   ├── sec28 - 58774 - fischer identity_2497784.pdf
+│   │   ├── sec28 - 58782 - hitachi id_2445823.pdf
+│   │   ├── sec28 - 58785 - hypr_2509967.pdf
+│   │   ├── sec28 - 58820 - imprivata_2445828.pdf
+│   │   ├── sec28 - 58833 - keyfactor_2466566.pdf
+│   │   ├── sec28 - 59123 - mimecast_2440211.pdf
+│   │   ├── sec28 - 59129 - open systems_2498451.pdf
+│   │   ├── sec28 - 59153 - onetrust_2509968.pdf
+│   │   ├── sec28 - 59182 - okta_2445602.pdf
+│   │   ├── sec28 - 59341 - aqua security_2411650.pdf
+│   │   ├── sec28 - 59436 - critical start_2443377.pdf
+│   │   ├── sec28 - 59512 - jupiterone_2445832.pdf
+│   │   ├── sec28 - 59530 - diligent_2440275.pdf
+│   │   ├── sec28 - 59569 - securiti_2509737.pdf
+│   │   ├── sec28 - 59580 - anvilogic_2458467.pdf
+│   │   ├── sec28 - 59591 - iriusrisk_2445833.pdf
+│   │   ├── sec28 - 59687 - perception point_2467907.pdf
+│   │   ├── sec28 - 59695 - kiteworks_2438450.pdf
+│   │   ├── sec28 - 59714 - safeguard cyber_2509738.pdf
+│   │   ├── sec28 - 59867 - island_2445834.pdf
+│   │   ├── sec28 - 59906 - sysdig_2509744.pdf
+│   │   ├── sec28 - 59920 - threatwarrior_2510297.pdf
+│   │   └── sec28 - 59954 - sdg_2509739.pdf
+│   ├── MSI-2021.pdf
+│   ├── MTrends-2020.pdf
+│   ├── MTrends-2021.pdf
+│   ├── MTrends-2022.pdf
+│   ├── OTGv4.pdf
+│   ├── OWASP-安全编码规范参考指南.pdf
+│   ├── SecDevOps.pdf
+│   ├── T-Sec CCGP跨链协同治理平台技术白皮书v1.0-2021-腾讯.pdf
+│   ├── Threat_Report-2021.pdf
+│   ├── api-security-2020.pdf
+│   ├── best-practices-for-enterprise-security.pdf
+│   ├── 中兴通讯网络安全白皮书-2019-英文.pdf
+│   ├── 中兴通讯网络安全白皮书-2019.pdf
+│   ├── 中兴通讯网络安全白皮书-2021-英文.pdf
+│   ├── 中兴通讯网络安全白皮书-2021.pdf
+│   ├── 中国互联网地下产业链分析白皮书.pdf
+│   ├── 中国互联网网络安全报告-2020.pdf
+│   ├── 中国手机网民网络安全状况报告-2015.pdf
+│   ├── 中国数据保护年度报告-2018.pdf
+│   ├── 中国网民信息安全状况研究报告-2013.pdf
+│   ├── 中国软件供应链安全分析报告-2021.pdf
+│   ├── 云原生架构安全白皮书-2021.pdf
+│   ├── 云服务安全治理白皮书-2021.pdf
+│   ├── 云计算标准体系介绍3.0版本.pdf
+│   ├── 京东云安全白皮书-2018.pdf
+│   ├── 人工智能安全标准化白皮书-2019.pdf
+│   ├── 人工智能行业发展报告-2017.pdf
+│   ├── 企业上云安全白皮书v1.0-2021.pdf
+│   ├── 企业信息安全框架V5.0白皮书.pdf
+│   ├── 信息安全国家标准目录-2017.pdf
+│   ├── 信息安全国家标准目录-2018.pdf
+│   ├── 全球中文钓鱼网站趋势分析报告-2014.pdf
+│   ├── 全球银行业受黑客组织攻击分析报告.pdf
+│   ├── 公有云安全报告-2021-腾讯.pdf
+│   ├── 勒索攻击特征与趋势研究白皮书-2021-腾讯.pdf
+│   ├── 华为云 CSA CCM 合规性说明v1.0-2020.pdf
+│   ├── 华为云 ISO:IEC 27001 合规性说明v1.0-2021.pdf
+│   ├── 华为云 MPA 合规性说明——应用程序及云端分布式环境安全指南v1.0-2021.pdf
+│   ├── 华为云 MPA 合规性说明通用指南v1.0-2021.pdf
+│   ├── 华为云 NIST CSF 实践指南v1.0-2022.pdf
+│   ├── 华为云 PCI DSS 实践指南v1.0-2020.pdf
+│   ├── 华为云 Stack 安全白皮书v1.0-2021.pdf
+│   ├── 华为云可信白皮书v1.0-2019.pdf
+│   ├── 华为云安全基线配置指南v2.0-2021.pdf
+│   ├── 华为云安全白皮书-2020.pdf
+│   ├── 华为云安全白皮书v3.2-2020.pdf
+│   ├── 华为云数据安全白皮书v1.0-2018.pdf
+│   ├── 华为云金融网络安全白皮书v1.0-2022.pdf
+│   ├── 华为云隐私保护白皮书v2.0-2021.pdf
+│   ├── 华为云零信任能力成熟度模型白皮书-2021.pdf
+│   ├── 华为城轨云安全白皮书v1.0-2021.pdf
+│   ├── 大数据安全标准化白皮书-2017.pdf
+│   ├── 大数据安全标准化白皮书-2018.pdf
+│   ├── 大数据安全白皮书-2018.pdf
+│   ├── 安全态势权威指南Definitive-Guide-to-Security-Posture.pdf
+│   ├── 安全架构实践的公理-2020.pdf
+│   ├── 实战攻防之紫队视角下的实战攻防演习组织-2019.pdf
+│   ├── 实战攻防之红队视角下的防御体系突破-2019.pdf
+│   ├── 实战攻防之蓝队视角下的防御体系构建-2019.pdf
+│   ├── 我国互联网网络安全态势综述报告-2018.pdf
+│   ├── 我国互联网网络安全态势综述报告-2020.pdf
+│   ├── 挖矿木马年度报告-2020.pdf
+│   ├── 数字安全产业大数据白皮书-2022.pdf
+│   ├── 数据安全治理白皮书-水印版.pdf
+│   ├── 数据安全治理白皮书v4.0-2022.pdf
+│   ├── 数据安全能力实施指南v1.0-2018.pdf
+│   ├── 数据泄密-2017.pdf
+│   ├── 数据泄漏成本研究-2016.pdf
+│   ├── 数据泄漏成本研究-2017.pdf
+│   ├── 数据泄漏成本研究-2018.pdf
+│   ├── 数据防泄露（DLP）技术指南-2022.pdf
+│   ├── 新一代SOC研究报告(17-08-C2-ZN)-1.pdf
+│   ├── 新一代SOC研究报告.pdf
+│   ├── 构建安全可靠的系统-谷歌2020.pdf
+│   ├── 汽车电子网络安全标准化白皮书-2018.pdf
+│   ├── 浪潮产品安全白皮书-2021.pdf
+│   ├── 海思网络安全白皮书-2020.pdf
+│   ├── 游戏安全白皮书-2021-腾讯.pdf
+│   ├── 物联网安全指南v2.0-2017.pdf
+│   ├── 物联网安全标准化白皮书-2019.pdf
+│   ├── 电子认证2.0白皮书-2018.pdf
+│   ├── 知道创宇区块链安全风险白皮书v1.0-2018.pdf
+│   ├── 网络安全前瞻调研报告-德勤-2021.pdf
+│   ├── 网络安全实施框架指南.pdf
+│   ├── 网络安全态势感知技术标准化白皮书-2020.pdf
+│   ├── 网络安全框架.pdf
+│   ├── 腾讯云DDoS威胁白皮书-2020.pdf
+│   ├── 腾讯云安全白皮书-2019.pdf
+│   ├── 薅羊毛产业报告.pdf
+│   ├── 谷歌云安全白皮书-2018.pdf
+│   ├── 谷歌云安全白皮书-2022.pdf
+│   ├── 谷歌安全白皮书-2019.pdf
+│   ├── 谷歌移动安全报告-2017.pdf
+│   ├── 车联网数据安全体系建设指南-2021-腾讯.pdf
+│   ├── 软件开发包（SDK）安全研究报告-2021-信通院-腾讯.pdf
+│   ├── 钉钉安全白皮书v1.0-2016.pdf
+│   ├── 钉钉安全白皮书v2.0-2018.pdf
+│   ├── 钉钉安全白皮书v3.0-2021.pdf
+│   ├── 阿里云安全白皮书4.0-2019.pdf
+│   ├── 隐私计算白皮书-2021.pdf
+│   ├── 零信任接口应用白皮书-2021-腾讯.pdf
+│   ├── 零信任的发展及其在安全远程访问中的应用-腾讯.pdf
+│   └── 飞书安全白皮书v1.3-2020.pdf
 ├── 0000-unclassified-未分类
 │   ├── 2-安恒大数据智能分析（态势感知）平台.pdf
 │   ├── 20130512 Defcon-CTF交流_publish.pdf
@@ -1933,6 +2147,7 @@
 │   ├── 软件定义边界（SDP）实践探索-CSA.pdf
 │   ├── 金融企业安全的十大盲区-张涛.pdf
 │   └── 面向实战运营的安全人才培养.pdf
+├── BCS-2020
 ├── BCS-沙龙-2019
 │   ├── 1-安全沙龙308-4
 │   │   ├── iphonexs_bcs(1).pdf
@@ -2579,6 +2794,122 @@
 │   ├── us-20-Ziolkowski-Routopsy-Modern-Routing-Protocol-Vulnerability-Analysis-And-Exploitation.pdf
 │   ├── us-20-vanderWalt-Virtually-Private-Networks-wp.pdf
 │   └── us-20-vanderWalt-Virtually-Private-Networks.pdf
+├── BlackHat-US-2021
+│   ├── US-21-David-Greybox-Program-Synthesis-wp.pdf
+│   ├── US-21-David-Greybox-Program-Synthesis.pdf
+│   ├── hAFL1.html
+│   ├── us-21-5G-IMSI-Catchers-Mirage.pdf
+│   ├── us-21-A-Broken-Chain-Discovering-OPC-UA-Attack-Surface-And-Exploiting-The-Supply-Chain.pdf
+│   ├── us-21-A-New-Class-Of-DNS-Vulnerabilities-Affecting-Many-DNS-As-Service-Platforms (1).pdf
+│   ├── us-21-A-New-Class-Of-DNS-Vulnerabilities-Affecting-Many-DNS-As-Service-Platforms (2).pdf
+│   ├── us-21-A-New-Class-Of-DNS-Vulnerabilities-Affecting-Many-DNS-As-Service-Platforms.pdf
+│   ├── us-21-A-Survivor-Centric-Trauma-Informed-Approach-To-Stalkerware (1).pdf
+│   ├── us-21-A-Survivor-Centric-Trauma-Informed-Approach-To-Stalkerware.pdf
+│   ├── us-21-ALPACA-Application-Layer-Protocol-Confusion-Analyzing-And-Mitigating-Cracks-In-TLS-Authentication.pdf
+│   ├── us-21-Action-Bias-And-The-Two-Most-Dangerous-Words-In-Cybersecurity.pdf
+│   ├── us-21-Anatomy-Of-Native-Iis-Malware-wp.pdf
+│   ├── us-21-Anatomy-Of-Native-Iis-Malware.pdf
+│   ├── us-21-Another-Road-Leads-To-The-Host-From-A-Message-To-VM-Escape-On-Nvidia-VGPU.pdf
+│   ├── us-21-Bam-The-Bam-Electromagnetic-Fault-Injection-And-Automotive-Systems.pdf
+│   ├── us-21-Breaking-Secure-Bootloaders.pdf
+│   ├── us-21-Bridging-Security-Infrastructure-Between-The-Data-Center-And-Aws-Lambda (1).pdf
+│   ├── us-21-Bridging-Security-Infrastructure-Between-The-Data-Center-And-Aws-Lambda.pdf
+│   ├── us-21-Can-You-Hear-Me-Now-Remote-Eavesdropping-Vulnerabilities-In-Mobile-Messaging-Applications.pdf
+│   ├── us-21-Can-You-Roll-Your-Own-Siem.pdf
+│   ├── us-21-Certified-Pre-Owned-Abusing-Active-Directory-Certificate-Services (1).pdf
+│   ├── us-21-Certified-Pre-Owned-Abusing-Active-Directory-Certificate-Services.pdf
+│   ├── us-21-Chip-Chop-Smashing-The-Mobile-Phone-Secure-Chip-For-Fun-And-Digital-Forensics.pdf
+│   ├── us-21-Cloudy-With-A-Chance-Of-APT-Novel-Microsoft-365-Attacks-In-The-Wild.pdf
+│   ├── us-21-CnCHunter-An-MITM-Approach-To-Identify-Live-CnC-Servers-wp.pdf
+│   ├── us-21-CnCHunter-An-MITM-Approach-To-Identify-Live-CnC-Servers.pdf
+│   ├── us-21-Come-To-The-Dark-Side-We-Have-Apples-Turning-MacOS-Management-Evil.pdf
+│   ├── us-21-Coote-Im-A-Hacker-Get-Me-Out-Of-Here-Breaking-Network-Segregation-Using-Esoteric-Command-Control-Channels.pdf
+│   ├── us-21-Crashing-Your-Way-to-Medium-IL-Exploiting-The-PDB-Parser-For-Privilege-Escalation (1).pdf
+│   ├── us-21-Crashing-Your-Way-to-Medium-IL-Exploiting-The-PDB-Parser-For-Privilege-Escalation.pdf
+│   ├── us-21-DBREACH-Database-Reconnaissance-And-Exfiltration-Via-Adaptive-Compression-Heuristics.pdf
+│   ├── us-21-Deepfake-Social-Engineering-Creating-A-Framework-For-Synthetic-Media-Social-Engineering (1).pdf
+│   ├── us-21-Deepfake-Social-Engineering-Creating-A-Framework-For-Synthetic-Media-Social-Engineering-wp (1).pdf
+│   ├── us-21-Deepfake-Social-Engineering-Creating-A-Framework-For-Synthetic-Media-Social-Engineering-wp.pdf
+│   ├── us-21-Deepfake-Social-Engineering-Creating-A-Framework-For-Synthetic-Media-Social-Engineering.pdf
+│   ├── us-21-Defeating-A-Secure-Element-With-Multiple-Laser-Fault-Injections.pdf
+│   ├── us-21-Demystify-AI-Security-Products-With-A-Universal-Pluggable-XAI-Translator.pdf
+│   ├── us-21-Demystify-Ai-Security-Products-With-A-Universal-Pluggable-Xai-Translator-wp.pdf
+│   ├── us-21-Disinformation-At-Scale-Using-Gpt-3-Maliciously-For-Information-Operations (1).pdf
+│   ├── us-21-Disinformation-At-Scale-Using-Gpt-3-Maliciously-For-Information-Operations.pdf
+│   ├── us-21-Diving-Into-Spooler-Discovering-Lpe-And-Rce-Vulnerabilities-In-Windows-Printer.pdf
+│   ├── us-21-Elsayed-Do-You-Speak-My-Language-Make-Static-Analysis-Engines-Understand-Each-Other.pdf
+│   ├── us-21-Error-Badalloc-Broken-Memory-Allocators-Led-To-Millions-Of-Vulnerable-Iot-And-Embedded-Devices (1).pdf
+│   ├── us-21-Error-Badalloc-Broken-Memory-Allocators-Led-To-Millions-Of-Vulnerable-Iot-And-Embedded-Devices.pdf
+│   ├── us-21-Everything-Has-Changed-In-IOS-14-But-Jailbreak-Is-Eternal.pdf
+│   ├── us-21-Exploiting-Windows-COMWinRT-Services.pdf
+│   ├── us-21-Fixing-A-Memory-Forensics-Blind-Spot-Linux-Kernel-Tracing-wp.pdf
+│   ├── us-21-Fixing-A-Memory-Forensics-Blind-Spot-Linux-Kernel-Tracing.pdf
+│   ├── us-21-Fragattacks-Breaking-Wi-Fi-Through-Fragmentation-And-Aggregation-wp.pdf
+│   ├── us-21-Fragattacks-Breaking-Wi-Fi-Through-Fragmentation-And-Aggregation.pdf
+│   ├── us-21-Government-Mandated-Front-Doors-A-Global-Assessment-Of-Legalized-Government-Access-To-Data.pdf
+│   ├── us-21-Grana-Siamese-Neural-Networks-For-Detecting-Brand-Impersonation.pdf
+│   ├── us-21-Hack-Different-Pwning-IOS-14-With-Generation-Z-Bug-wp.pdf
+│   ├── us-21-Hack-Different-Pwning-IOS-14-With-Generation-Z-Bug.pdf
+│   ├── us-21-Hacking-A-Capsule-Hotel-Ghost-In-The-Bedrooms.pdf
+│   ├── us-21-Hafl1-Our-Journey-Of-Fuzzing-Hyper-V-And-Discovering-A-0-Day.pdf
+│   ├── us-21-Han-Alcatraz-A-Practical-Hypervisor-Sandbox-To-Prevent-Escapes-From-The-KVMQEMU-And-KVM-Based-MicroVMs.pdf
+│   ├── us-21-Hpe-Ilo5-Firmware-Security-Go-Home-Cryptoprocessor-Youre-Drunk.pdf
+│   ├── us-21-Internal-Affairs-Hacking-File-System-Access-From-The-Web (1).pdf
+│   ├── us-21-Internal-Affairs-Hacking-File-System-Access-From-The-Web.pdf
+│   ├── us-21-Kettle-HTTP-The-Sequel-Is-Always-Worse.pdf
+│   ├── us-21-Kettle-HTTP2-The-Sequel-Is-Always-Worse-wp.pdf
+│   ├── us-21-Leecraso-Put-In-One-Bug-And-Pop-Out-More-An-Effective-Way-Of-Bug-Hunting-In-Chrome.pdf
+│   ├── us-21-Legal-Pitfalls-To-Avoid-In-Security-Incidents (1).pdf
+│   ├── us-21-Legal-Pitfalls-To-Avoid-In-Security-Incidents.pdf
+│   ├── us-21-MFA-Ing-The-Un-MFA-Ble-Protecting-Auth-Systems-Core-Secrets.pdf
+│   ├── us-21-Michaels-Use-And-Abuse-Of-Personal-Information (1).pdf
+│   ├── us-21-Michaels-Use-And-Abuse-Of-Personal-Information-wp (1).pdf
+│   ├── us-21-Michaels-Use-And-Abuse-Of-Personal-Information-wp.pdf
+│   ├── us-21-Michaels-Use-And-Abuse-Of-Personal-Information.pdf
+│   ├── us-21-Mobius-Band-Explore-Hyper-V-Attack-Interface-Through-Vulnerabilities-Internals.pdf
+│   ├── us-21-Next-Gen-DFIR-Mass-Exploits-And-Supplier-Compromise.pdf
+│   ├── us-21-Nguyen-Zero-The-Funniest-Number-In-Cryptography (1).pdf
+│   ├── us-21-Nguyen-Zero-The-Funniest-Number-In-Cryptography.pdf
+│   ├── us-21-Over-The-Air-Baseband-Exploit-Gaining-Remote-Code-Execution-On-5G-Smartphones-wp.pdf
+│   ├── us-21-Over-The-Air-Baseband-Exploit-Gaining-Remote-Code-Execution-On-5G-Smartphones.pdf
+│   ├── us-21-PCIe-Device-Attacks-Beyond-DMA-Exploiting-PCIe-Switches-Messages-And-Errors.pdf
+│   ├── us-21-ProxyLogon-Is-Just-The-Tip-Of-The-Iceberg-A-New-Attack-Surface-On-Microsoft-Exchange-Server.pdf
+│   ├── us-21-Qualcomm-WiFi-Infinity-War.pdf
+│   ├── us-21-Reverse-Engineering-The-M1.pdf
+│   ├── us-21-Rope-Bypassing-Behavioral-Detection-Of-Malware-With-Distributed-ROP-Driven-Execution-wp.pdf
+│   ├── us-21-Rope-Bypassing-Behavioral-Detection-Of-Malware-With-Distributed-ROP-Driven-Execution.pdf
+│   ├── us-21-Safeguarding-UEFI-Ecosystem-Firmware-Supply-Chain-Is-Hardcoded (1).pdf
+│   ├── us-21-Safeguarding-UEFI-Ecosystem-Firmware-Supply-Chain-Is-Hardcoded.pdf
+│   ├── us-21-Securing-Open-Source-Software-End-To-End-At-Massive-Scale-Together.pdf
+│   ├── us-21-Security-Analysis-Of-Cheri-Isa.pdf
+│   ├── us-21-Sleight-Of-ARM-Demystifying-Intel-Houdini (1).pdf
+│   ├── us-21-Sleight-Of-ARM-Demystifying-Intel-Houdini.pdf
+│   ├── us-21-Small-Wonder-Uncovering-Planned-Obsolescence-Practices-In-Robotics-And-What-This-Means-For-Cybersecurity-wp.pdf
+│   ├── us-21-Small-Wonder-Uncovering-Planned-Obsolescence-Practices-In-Robotics-And-What-This-Means-For-Cybersecurity.pdf
+│   ├── us-21-Smashing-The-Ml-Stack-For-Fun-And-Lawsuits-wp.pdf
+│   ├── us-21-Smashing-The-Ml-Stack-For-Fun-And-Lawsuits.pdf
+│   ├── us-21-Symbexcel-Bringing-The-Power-Of-Symbolic-Execution-To-The-Fight-Against-Malicious-Excel-4-Macros (1).pdf
+│   ├── us-21-Symbexcel-Bringing-The-Power-Of-Symbolic-Execution-To-The-Fight-Against-Malicious-Excel-4-Macros.pdf
+│   ├── us-21-Tervoort-Zerologon-From-Zero-To-Domain-Admin-By-Exploiting-A-Crypto-Bug-Zerologon.pdf
+│   ├── us-21-The-Case-For-A-National-Cybersecurity-Safety-Board.pdf
+│   ├── us-21-The-Dark-Age-Of-Memory-Corruption-Mitigations-In-The-Spectre-Era (1).pdf
+│   ├── us-21-The-Dark-Age-Of-Memory-Corruption-Mitigations-In-The-Spectre-Era.pdf
+│   ├── us-21-The-Devil-Is-In-The-Gan-Defending-Deep-Generative-Models-Against-Adversarial-Attacks.pdf
+│   ├── us-21-The-Kitten-That-Charmed-Me-The-9-Lives-Of-A-Nation-State-Attacker.pdf
+│   ├── us-21-The-Mass-Effect-How-Opportunistic-Workers-Drift-Into-Cybercrime.pdf
+│   ├── us-21-The-Ripple-Effect-Building-A-Diverse-Security-Research-Team (1).pdf
+│   ├── us-21-The-Ripple-Effect-Building-A-Diverse-Security-Research-Team.pdf
+│   ├── us-21-The-Unbelievable-Insecurity-of-the-Big-Data-Stack-An-Offensive-Approach-To-Analyzing-Huge-And-Complex-Big-Data-Infrastructures.pdf
+│   ├── us-21-Timeless-Timing-Attacks.pdf
+│   ├── us-21-Tsarfati-Bypassing-Windows-Hello-For-Busniess-And-Pleasure (1).pdf
+│   ├── us-21-Tsarfati-Bypassing-Windows-Hello-For-Busniess-And-Pleasure.pdf
+│   ├── us-21-Typhoon-Mangkhut-One-Click-Remote-Universal-Root-Formed-With-Two-Vulnerabilities.pdf
+│   ├── us-21-Whoops-I-Accidentally-Helped-Start-The-Offensive-Intel-Branch-Of-A-Foreign-Intel-Service.pdf
+│   ├── us-21-Wibbly-Wobbly-Timey-Wimey-Whats-Really-Inside-Apples-U1-Chip.pdf
+│   ├── us-21-Windows-Heap-Backed-Pool-The-Good-The-Bad-And-The-Encoded (1).pdf
+│   ├── us-21-Windows-Heap-Backed-Pool-The-Good-The-Bad-And-The-Encoded.pdf
+│   ├── us-21-With-Friends-Like-EBPF-Who-Needs-Enemies.pdf
+│   └── us-21-Xing-How-I-Use-A-JSON-Deserialization.pdf
 ├── Blackhat-EU-2015
 │   ├── eu-15-Bai-Authenticator-Leakage-Through-Backup-Channels-On-Android.pdf
 │   ├── eu-15-Balduzzi-Cybercrmine-In-The-Deep-Web-wp.pdf
@@ -6379,6 +6710,285 @@
 │       ├── 2020_USA20_MBS1-F03_01_API Abuse Through Mobile Apps New Attacks New Defenses.pdf
 │       ├── 2020_USA20_MBS1-W02_01_Mobile MFA Madness Mobile Device Hygiene and MFA Integrity Challenges.pdf
 │       └── 2020_USA20_MBS2-W02_01_Building a Comprehensive IoT Security Testing Methodology.pdf
+├── RSAC-2022
+│   ├── 2022_USA22_AFD-M02_01_OTP-Bot-Attacks_1654098506189001emn9.pdf
+│   ├── 2022_USA22_AFD-M03_01_BEC-&-Ransomware-Two-Sides-of-the-Same-Cybercrime-Coin_1654098902815001gKMP.pdf
+│   ├── 2022_USA22_AFD-R02 _01_Combatting-Cyber-Combatting-Cybercrime-&-Fraud-with-Threat-Intelligence_1654098964120001g319.pdf
+│   ├── 2022_USA22_AFD-R03_01_How-Fraudsters-Scale-Payment-System-Attacks_1654099090184001KNGY.pdf
+│   ├── 2022_USA22_AFD-R06_01_The-Science-of-Scams-Deconstructing-How-Criminals-Steal-Cash_1654099198701001I0ke.pdf
+│   ├── 2022_USA22_AFD-W01_01_Connecting-the-Dots-Identifying-and-Mitigating-Synthetic-Identity-Fraud_1654099441558001gwWI.pdf
+│   ├── 2022_USA22_AFD-W02_01_Hydra-Marketplace-Where-Crypto-Money-Laundering-Trail-Goes-Cold_16547271523240014Cqx.pdf
+│   ├── 2022_USA22_AFD-W08_01_Knowing-The-Robocallers-Illegal-Call-Centers-And-Efforts-To-Stop-Them_1654099501787001g9ZP.pdf
+│   ├── 2022_USA22_AIR-M03_01_Cyber-Invisibility_Developing-a-Security-Incident-Notification-Regime_1654105550741001GktI.pdf
+│   ├── 2022_USA22_AIR-T01_01_Best-Teacher-is-Last-Mistake-Improving-and-Applying-Incident-Response-Plan_16541070108470019lvb.pdf
+│   ├── 2022_USA22_AIR-T02_01_Cyber-Range-on-a-Budget_1654107664439001KznO.pdf
+│   ├── 2022_USA22_AIR-T08_01_ISACs-Critical-Role-in-Increasing-Regulatory-Environment-for-Cybersecurity_1654612197268001ls2f.pdf
+│   ├── 2022_USA22_AIR-W01_01_Evaluating_Indicators_Composite_Objects_1654108013925001AsD1.pdf
+│   ├── 2022_USA22_AIR-W02_01_Dissecting-The-Ransomware-Kill-Chain-Why-Companies-Need-It_1654727895990001LaFc.pdf
+│   ├── 2022_USA22_AIR1-M06_01_Using-Critical-Threat-Intelligence-Strategically_1654105325543001gm5f.pdf
+│   ├── 2022_USA22_AIR2-M06_01_Automated-threats-The-Rise-of-Bots-and-What-to-Do-About-It_1654560058142001l0b1.pdf
+│   ├── 2022_USA22_AIR_M05_01_Importance-of-Cyber-Diligence-in-Third-Party-Risk-Management_1654105227269001e9aE.pdf
+│   ├── 2022_USA22_CLGD-R01_01_RSAC-2022-College-Day-Sponsor- Panel_1654809584703001Ry76.pdf
+│   ├── 2022_USA22_CRYP-R03_01_Proofs-Without-Evidence-Assurance-on-the-Blockchain-and-Other-Applications_1654797240962001V6ay.pdf
+│   ├── 2022_USA22_CSCS-R02_01_It's-Getting-Real-&-Hitting-the-Fan!-Real-World-Cloud-Attacks_1654784899182001XjS0.pdf
+│   ├── 2022_USA22_CSCS-R05_CloudTrail-Logging-Internals-Investigating-AWS-Security-Incidents_1654531434146001vQjA.pdf
+│   ├── 2022_USA22_CSCS-R06_01_The-Road-to-Cloud-Is-Paved-with-On-Prem-Integrations_1654287078042001B7gg.pdf
+│   ├── 2022_USA22_CSCS-T02_01_Security-Industry-Call-to-Action-We-Need-a-Cloud-Vulnerability-Database_1654560191495001bAZt.pdf
+│   ├── 2022_USA22_CSCS-T09_01_Continuous-Security-Integrating-Pipeline-Security_1654287214775001tkJN.pdf
+│   ├── 2022_USA22_CSCS-W01_01_Shift-left!-Scanning-for-Security-Compliance-from-Day-Zero_1654287260454001qVwo.pdf
+│   ├── 2022_USA22_CSCS-W08_01_The-Cloud-Gray-Zone-Vulnerabilities-Found-in-Azure-Built-in-VM-Agents_1654465618255001IuNp.pdf
+│   ├── 2022_USA22_CSCS-W09_01_Service-Mess-to-Service-Mesh_1654543872430001qIBY.pdf
+│   ├── 2022_USA22_CXO-M03_01_The-Reason-Companies-Fall-Victim-to-Ransomware-Isn’t-What-You-Think_1654302009380001DhMM.pdf
+│   ├── 2022_USA22_CXO-M05_01_Integrity-Matters_165410887936500142U4.pdf
+│   ├── 2022_USA22_CXO-R03_01_Its-Not-About-Awareness-Its-About-Managing-Human-Risk_1654385807369001kdLT.pdf
+│   ├── 2022_USA22_CXO-R05_01-Can-You-Handle-The-Truth_Lawyers-Can-Be-CyberPros-Best-Friend_1654108983044001Ai5D.pdf
+│   ├── 2022_USA22_CXO-R06_01_Cyber-Insurance-is-Changing-Cybersecurity_How-We Got-Here-and-Whats-Next_1654814724440001RFoQ.pdf
+│   ├── 2022_USA22_CXO-W02_01_Business-Information-Security-Officer-A-Cybersecurity-Secret-Weapon_16541090438340014Hbf.pdf
+│   ├── 2022_USA22_CXO-W08_01_Open-for-Business- How-to-Build-a-Security-Program-as-the-First-CISO_1654645314031001B9kz.pdf
+│   ├── 2022_USA22_DSO-M01_01_The-Practicalities-of-Pentesting_16541852917350014DZf.pdf
+│   ├── 2022_USA22_DSO-M02_01_Elite-Security-Champions-Build-Strong-Security-Culture-In-a-DevSecOps-World_1654465021670001Iw7c.pdf
+│   ├── 2022_USA22_DSO-M03_01_Tooling-up-Getting-SBOMs-to-Scale_1654301833390001t8kN.pdf
+│   ├── 2022_USA22_DSO-M06_01_Is-Secure-Supply-Chain-Possible_1654094362955001yQMT.pdf
+│   ├── 2022_USA22_DSO-R01_01_Top-10-Privacy-Risks-in-Web-Applications_1654094392123001y2K3.pdf
+│   ├── 2022_USA22_DSO-R02_01_What-Executives-Need-To-Know-About-CICD-Pipelines-And-Supply-Chain-Security_1654094421371001mi23.pdf
+│   ├── 2022_USA22_DSO-R03_01_Can-AppSec-Be-Fixed_1654094455580001yesW.pdf
+│   ├── 2022_USA22_DSO-T02_01_What-Could-Possibly-Go-Wrong_1654094506024001yJZc.pdf
+│   ├── 2022_USA22_DSO-W01_01_Security-Automation-for-DevOps-at-the-Scale-of-Dell_1654094536617001TEqT.pdf
+│   ├── 2022_USA22_DSO-W02_01_CI-CD-Top-10-Security-Risks_1654202415338001eteV.pdf
+│   ├── 2022_USA22_DSO-W08_01_Site-Reliability-Engineering-and-the-Security-Team-They-Love_1654306338690001BupQ.pdf
+│   ├── 2022_USA22_DSO-W09_01_Product-Security-at-Scale-Lessons-from-Comcast_1654095129298001Tj5Y.pdf
+│   ├── 2022_USA22_HT-M01_01_ESPecter-Showing-the-Future-of-UEFI-Threats_1654098813782001estI.pdf
+│   ├── 2022_USA22_HT-M02_01_All-Your-Macs-Are-Belong-To-Us-Again_1654041634128001ZTKe.pdf
+│   ├── 2022_USA22_HT-M06_01_Breaking-Prometheus_16541997414470015tUP.pdf
+│   ├── 2022_USA22_HT-R01_01_Zero-to-Full-Domain-Admin_16540989801790019x08.pdf
+│   ├── 2022_USA22_HT-R05_01_Token-Theft-Hip-Kids-Are-Doing-It_1654708668657001BoOl.pdf
+│   ├── 2022_USA22_HT-R06_01_Goodbye-Credential-Leaks_1654699926853001BUUE.pdf
+│   ├── 2022_USA22_HT-T01_01_Bypassing-Windows-Hello-For-Business-And-Pleasure_1654202267882001n6LT.pdf
+│   ├── 2022_USA22_HT-T09_01_Malicious-Uses-of-API-Frameworks-and-Scanning-Tools_1654099043928001INTB.pdf
+│   ├── 2022_USA22_HT-W01_01_Botnets-Dont-Die_1654618043300001Ahe6.pdf
+│   ├── 2022_USA22_HT-W02_01_Pain-in-the-Apps_16542026619600016kE3.pdf
+│   ├── 2022_USA22_HT-W09_01_Machine-Learning-to-Ultimately-Defeat-Advanced-Ransomware-Threats_16540991911470017gOP.pdf
+│   ├── 2022_USA22_HTA-M03_01_OT-Reverse-Engineering-What-Can-Be-Automated_1654131335333001GZdQ.pdf
+│   ├── 2022_USA22_HTA-M05_01_Strong-Story-to-Tell-Top-10-Mistakes-by-Administrators-About-Remote-Work_1654099348955001KxG2.pdf
+│   ├── 2022_USA22_HTA-R02_01_Code-Blue-Medical-Devices-Under-Attack_1654642692489001qnSR.pdf
+│   ├── 2022_USA22_HTA-R06_01_Deconstructive-Take-Over-of-Mitsubishi-Electric-Ecosystems_1654099498818001RDCa.pdf
+│   ├── 2022_USA22_HTA-T02_01_My-Fuzzy-Driver_1654203480826001eHjj.pdf
+│   ├── 2022_USA22_HTA-T08_01_Defeating-Windows-Anti-Exploit-and-Security-Features-with-WHQL-Kernel-Drivers_16540993789230017BuK.pdf
+│   ├── 2022_USA22_HTA-W08_01_The-SaaS-RootKit-A-New-Attack-Vector-for-Hidden-Forwarding-Rules-in-O365_1654099410585001eU6k.pdf
+│   ├── 2022_USA22_HTA-W09_01_State-of-the-Hacks_1654719674925001w6GT.pdf
+│   ├── 2022_USA22_HTA_W09_01_State-of-the-Hacks-NSAs-Perspectives_1654643464905001kS8I.pdf
+│   ├── 2022_USA22_HUM-M01_01_Defeat-Your-Curse-of-Knowledge-&-Make-Security-Messaging-More-Impactful_16541099542940014nWo.pdf
+│   ├── 2022_USA22_HUM-M02_01_The-Transformation-of-Post-Pandemic-Mental-Health_1654110450758001GonU.pdf
+│   ├── 2022_USA22_HUM-M03_01_Stop-Chasing-Insider-Threats-Start-Managing-Insider-Risk_1654110620785001AsEW.pdf
+│   ├── 2022_USA22_HUM-R02_01_Lessons-from-Aviation-Building-a-Just-Culture-in-Cybersecurity_16541107757180010qnE.pdf
+│   ├── 2022_USA22_HUM-R05_01_Better-Bug-Bounties-Lessons-on-Disclosure-of-Security-Vulns-v-AI-Harms_1654639734006001zNUb.pdf
+│   ├── 2022_USA22_HUM-R06_01_Transforming-Security-Through-Design_165411086154000190Rv.pdf
+│   ├── 2022_USA22_HUM-T02_01_How-Behavioral-Economics-Can-Help-Make-Better-Security-Decisions.pptx_1654450968232001wn9s.pdf
+│   ├── 2022_USA22_HUM-T08_01_Users-Are-Not-Stupid-Eight-Cybersecurity-Pitfalls-Overturned_1654304932412001tVev.pdf
+│   ├── 2022_USA22_HUM-T09_01_Reaching-Gen-Z-Cybersecurity-Outreach-with-Viral-TikTok-&-YouTube-Content_16546339596610012YGv.pdf
+│   ├── 2022_USA22_HUM-W02_01_DANGER-Tips-for-Dealing-with-a-Panicked-C-suite-During-a-Ransomware-Event_1654728090568001wvze.pdf
+│   ├── 2022_USA22_HUM-W08_01_Security's-Holy-Grail-Predicting-Attacks-Before-They-Happen_16541114971280014i2H.pdf
+│   ├── 2022_USA22_HUM-W09_01_The-2-Sides-of-Social-Media-Organizational-Risk-and-Cyber-Intelligence _165411163815000144TP.pdf
+│   ├── 2022_USA22_IDY-R02_01_Defending- Agianst-Phishing-Attacks-that-Abuse-OAuth-Authorization-Flows_1654305073180001BcLe.pdf
+│   ├── 2022_USA22_IDY-R03_01_Can-You-Hear-Me-Now-Security-Implications-of-Voice-as-the-New-Keyboard_1654305139649001lTVD.pdf
+│   ├── 2022_USA22_IDY-R05_01_Demystifying-the-Identity-Capabilities-of-AWS-for-Enterprise-Practitioners_1654305104317001BhuC.pdf
+│   ├── 2022_USA22_IDY-W02_01_The-Many-Faces-of-Identity_1654287702160001jXBP.pdf
+│   ├── 2022_USA22_IDY-W08_01_Solving-the-Identity-Security-Crisis-A-Guide-to-Today’s-Top-Threats _1654475530181001b8pK.pdf
+│   ├── 2022_USA22_IDY-W09_01_Managing-De-Centralized-Identities-A-Relying-Party-Perspective_1654615523108001l7OG.pdf
+│   ├── 2022_USA22_IDY_R01_01_Operationalizing-Identity-IAM-for-Customer-Service1_1654725618399001bbGv.pdf
+│   ├── 2022_USA22_IDY_R01_01_Operationalizing-Identity-IAM-for-Customer-Service_1654387810796001gXeY.pdf
+│   ├── 2022_USA22_KEY-R01S_01_What-To-Do-When-Ransomware-Hits-Simulation-for-CEOs-CISOs-and-Directors_1654200450061001Of4p.pdf
+│   ├── 2022_USA22_KEY-R03S_01_The-Marie-Kondo-Approach-to-Security_1653330908432001AI3v.pdf
+│   ├── 2022_USA22_KEY-R05S_01_CMMC-Ch-Ch-Changes-Turn-and-Face-the-Revised-Cybersecurity-Maturity-Model_16536868171130012UmJ.pdf
+│   ├── 2022_USA22_KEY-R06S_01_Mapping-the-Cybercriminal-Ecosystem_1653686906596001hvTQ.pdf
+│   ├── 2022_USA22_KEY-T01S_01_Privacy-2022-Perspectives-from-the-Top_1653687039383001XAFD.pdf
+│   ├── 2022_USA22_KEY-T02S_01_Global-Threat-Brief-Hacks-and-Adversaries-Unveiled_1654798844936001XGrF.pdf
+│   ├── 2022_USA22_KEY-T08S_01_Cybersecurity-as-a-National-Security-Imperative_1653687183303001fYys.pdf
+│   ├── 2022_USA22_KEY-T09S_01_What-Matters-Most_1653687292095001Kv6a.pdf
+│   ├── 2022_USA22_KEY-W01S_01_Words-and-Actions-Matter-Leading-as-a-Change-Agent_1654198446018001e7Qy.pdf
+│   ├── 2022_USA22_KEY-W02S_01_Cyber-Civil-Defense-A-Coalition-to-Protect-our-Digital-Future_1654199430875001OnxI.pdf
+│   ├── 2022_USA22_KEY-W08S_01_Building-Trust-in-a-Zero-Trust-World-to-Confront-Tomorrows-Cyber-Threats_1653687563554001ferx.pdf
+│   ├── 2022_USA22_KEY-W09S_01_How-a-Musician-Used-Sheet-Music-Encryption-to-Help-Soviet-Defectors_16542000574520015UxR.pdf
+│   ├── 2022_USA22_LAW-M01_01_Victims-and-Vectors-Mitigating-Legal-Risks-of-Supply-Chain-Attacks_1654100434829001ADmz.pdf
+│   ├── 2022_USA22_LAW-M02_01_Data-Protection-and-Privacy-Development-Around-the-World_1654305235378001lnfR.pdf
+│   ├── 2022_USA22_LAW-M03_01_The-States-of-Cyber-Incentives_1654100489819001e2dj.pdf
+│   ├── 2022_USA22_LAW-M05_01_Hacker-Law-After-the-Supreme-Court-Ruling-Insider-Threats-Research_1654532414053001gtGe.pdf
+│   ├── 2022_USA22_LAW-M06_01_What-Have-the-Courts-Done-Now_1654533893148001kCA7.pdf
+│   ├── 2022_USA22_LAW-T01_01_Hacking-Back-To-Be-Or-Not-To-Be_1654385036404001kRLm.pdf
+│   ├── 2022_USA22_LAW-T02_01_Understanding-the-Role-of-Cybersecurity-Expert-Witnesses_16541006764170019PR4.pdf
+│   ├── 2022_USA22_LAW-T08_01_FaceOff-The-Battle-to-Authenticate-with Biometrics_1654385199756001kBVT.pdf
+│   ├── 2022_USA22_LAW-T09_01_Designing-a-Data-Ethics-and-Privacy-Program-for-AI-ML_1654615494358001ASQJ.pdf
+│   ├── 2022_USA22_LAW-W01_01_Defeating-Covert-Foreign-Influence-While-Protecting-Free-Expression_16547285767440014vKW.pdf
+│   ├── 2022_USA22_LAW-W02_01_The-Defence-Industrial-Base-CMMC-the-FCA-and-Insider-Threat_1654709380844001lz6y.pdf
+│   ├── 2022_USA22_LAW-W08_01_Are-You-Sure-You-Are-Doing-That-Right-A-Mock-Hearing_1654635628019001zq3q.pdf
+│   ├── 2022_USA22_MASH-M05_01_A Data-Driven-Topical-History-of-the-RSA-Conference_1654535840146001grBJ.pdf
+│   ├── 2022_USA22_MASH-M06_01_Ransomware_How-One-Company-Fought-Back_1654180297166001na0R.pdf
+│   ├── 2022_USA22_MASH-R05_01_EXPOSURE-The-3rd-Annual-RSAC-SOC-Report_1654810643991001iw4C.pdf
+│   ├── 2022_USA22_MASH-T09_01_A-Proven-Methodology-to-Secure-the-Budget-You-Need_1654557794303001XnCx.pdf
+│   ├── 2022_USA22_MASH-W01_01_Security-Smackdown_1654180675350001n0Bb.pdf
+│   ├── 2022_USA22_MASH-W02_01_Protecting-Traditional-and-Blockchain-Virtual-Economies_1654639186652001kamE.pdf
+│   ├── 2022_USA22_MASH-W08_01_Maximizing-Our-Cyber-Non-Profits_1654731766634001b3UE.pdf
+│   ├── 2022_USA22_MASH1-R03_01_Eat-Your-Vegetables-Using-Parenting-Skills-To-Run-A-Security Program_1654178079944001Gfyr.pdf
+│   ├── 2022_USA22_MASH2-R03_01_Bingo-10 Security-Standards-in-2022-You-Can’t-Live-Without_16541782855050015tPJ.pdf
+│   ├── 2022_USA22_MASH2-T09_01_Cyber-and-Modern-Conflict-The-Changing Face-of-Modern-Warfare_16541787096690014ACM.pdf
+│   ├── 2022_USA22_MLAI-M01_01_Assessing-Vendor-AI-Claims-like-a-Data-Scientist-Even-if-You-Arent-One_16541107013550014oOW.pdf
+│   ├── 2022_USA22_MLAI-M03_01_Privacy-and-Compliance-for-AI-Open-Source-Tools-and-Industry-Perspective_1654110739927001eNRa.pdf
+│   ├── 2022_USA22_MLAI-M05_01_Measuring-the-Difference-Metric-Development-at-NCCoEs-Securing-AI-Testbed_1654474567844001gSbF.pdf
+│   ├── 2022_USA22_MLAI-M06_01_Its-Not-Fair-Detecting-Algorithmic-Bias-with-Open-Source-Tools_1654553315678001ksaD.pdf
+│   ├── 2022_USA22_MLAI-T01_01_Red-Teaming-AI-Systems-The-Path-the-Prospect-and-the-Perils_1654553313926001XEay.pdf
+│   ├── 2022_USA22_MLAI-T02_01_Generative-Email-Attacks-and-How-to-Defend-Against-Them_16546235720890012g3h.pdf
+│   ├── 2022_USA22_MLAI-T08_01_AI-Legal-and-Policy-Considerations-and-Landmines-to-Avoid_1654457507252001gr7M.pdf
+│   ├── 2022_USA22_OST-M01_01_The-Challenges-of-Building-Safe-End-to-End-Encrypted-Services-for-Business_1654450882109001gqwA.pdf
+│   ├── 2022_USA22_OST-M05_01_Scalable-Confidential-Computing-on-Kubernetes-with-Marblerun_1654470820023001qm4f.pdf
+│   ├── 2022_USA22_OST-R05_01_xGitGuard-ML-Based-Secret-Scanner-for-GitHub_1654362311578001ouuU.pdf
+│   ├── 2022_USA22_OST-R06_01_Atomic-Red-Team-Where-Adversary-Emulation-and-EDR-Testing-Meet_1654305304341001jYZU.pdf
+│   ├── 2022_USA22_OST-T01_01_Sigstore-the-Open-Source-Software-Signing-Service_1654611740705001ko6t.pdf
+│   ├── 2022_USA22_OST-T08_01_CHRYSALIS-Age-of-the-AI-Enhanced-Threat-Hunters-&-Forensicators_1654305233999001Bpcs.pdf
+│   ├── 2022_USA22_OST-T09_01_Attacking-and-Defending-Kubernetes-Cluster-Kubesploit-vs-KubiScan_1654305270039001q9sI.pdf
+│   ├── 2022_USA22_OST-W09_01_Open-Source-Enterprise-Adoption-and-Overcoming-Barriers_1654305453355001Bel2.pdf
+│   ├── 2022_USA22_PART1-R01_01_Expect-More-Realizing-the-True-Impact-of-Your-Intelligence-Program_1654623597780001co3j.pdf
+│   ├── 2022_USA22_PART1-R02_01_Shift-left-Top-10-Most-Disruptive-Ideas-of-Modern-Cloud-Security_1654623688570001k1rz.pdf
+│   ├── 2022_USA22_PART1-R03_01_Is-Your-Passwordless-Really-Passwordless-How-to-Tell-and-Why-It-Matters_1653674629373001KYY2.pdf
+│   ├── 2022_USA22_PART1-R05_01_Cybersecurity-Strategic-Activity-Recent-Trends-Predictions_1654457713814001gWDm.pdf
+│   ├── 2022_USA22_PART1-R05_01_Cybersecurity-Strategic-Activity-Recent-Trends-Predictions_1654797325857001XAgq.pdf
+│   ├── 2022_USA22_PART1-R06_01_Another-Lock-More-Barbwire-Its-Time-to-Reimagine-Modern-Access-Security_1654810873416001REiv.pdf
+│   ├── 2022_USA22_PART1-T01_01_Cybersecurity-as-a-Business-Conversation_1654457718302001gSnn.pdf
+│   ├── 2022_USA22_PART1-T02_01_Never-Waste-a-Crisis-Identifying-and-Transforming-Digital-Risk-into-Reward_1654187827753001eh6O.pdf
+│   ├── 2022_USA22_PART1-T08_01_Why-Zero-Trust-Network-Access-is-Broken-and-How-to-Fix-It_1653681109470001hLCK.pdf
+│   ├── 2022_USA22_PART1-W01_01_Opening-the-Valve-on-an-Untapped-Human-Pipeline_16546376620110012PFY.pdf
+│   ├── 2022_USA22_PART1-W02_01_Ransomware-Reality-Checklist-5-Ways-to-Prevent-an-Attack_1654110877777001GUDB.pdf
+│   ├── 2022_USA22_PART1-W08_01_Open-XDR-A-Strategy-for-Evolving-Security-Needs_1653674654366001KyTe.pdf
+│   ├── 2022_USA22_PART1-W09_01_Multifaceted-Extortion-Insider-Look-at-Ransom-Payments-and-Cyber-Defense-_16547212650560014ltr.pdf
+│   ├── 2022_USA22_PART2-R02_01_Leveraging-AI-Deep-Learning-in-the-Battle-against-Zero-Day-Cyber-Attacks_1654490635972001G6cw.pdf
+│   ├── 2022_USA22_PART2-R03_01_Cybersecurity-What-role-do-you-play_16536746636650012dKu.pdf
+│   ├── 2022_USA22_PART2-R05_01_The-Rise-of-API-Security-Its-10pm-Do-You-Know-Where-Your-APIs-are_1654457743503001IiCR.pdf
+│   ├── 2022_USA22_PART2-T01_01_A-Sanity-Check-on-Technology-Viewpoints-from-Security-Professionals_1654111191226001KA30.pdf
+│   ├── 2022_USA22_PART2-T02_01_Evolving-Your-Defense-Making-Heads-or-Tails-of-Threat-Actor-Trends_1654457749465001g1EL.pdf
+│   ├── 2022_USA22_PART2-T08_01_Confessions-of-a-Sandbox-How-AI-is-Disrupting-Automated-Threat-Analysis_16545533331080012uzr.pdf
+│   ├── 2022_USA22_PART2-T09_01_Europe-Gets-its-Identity-Back_1654111216125001egXU.pdf
+│   ├── 2022_USA22_PART2-W01_01_Importance-of-Cybersecurity-Mesh-Platform-in-Securing-Digital-Acceleration_16546237002630012T83.pdf
+│   ├── 2022_USA22_PART2-W02_01_Being-Open-to-a-Zero-Trust-Future_1654702661601001l6xF.pdf
+│   ├── 2022_USA22_PART2-W08_01_The-State-of-Application-Protection-2022_1653674675412001XiBB.pdf
+│   ├── 2022_USA22_PART2-W09_01_Protect-Valuable-Data-as-Employee-Turnover-Rages_165463424783900127q9.pdf
+│   ├── 2022_USA22_PART3-R01_01_Privacy-Standards-in-the-Context-of-Information-Security_16541113413830019av7.pdf
+│   ├── 2022_USA22_PART3-R02_01_Measuring-the-ROI-of-Network-Security-Automation_1654457754814001gC1l.pdf
+│   ├── 2022_USA22_PART3-R05_01_Taming-Identity-Sprawl-to-Close-the-Cybersecurity-Exposure-Gap_1654814714302001iril.pdf
+│   ├── 2022_USA22_PART3-R06_01_State-of-Cybersecurity-2022-From-the-Great-Resignation-to-Global-Threats_1654457761105001wdyC.pdf
+│   ├── 2022_USA22_PART3-T01_01_A-Whole-Lotta-BS-Behavioral-Science-About-Cybersecurity_1654623712998001zuaH.pdf
+│   ├── 2022_USA22_PART3-T02_01_How-Modern-Bank-Heists-Are-Escalating-to-Hostage-Situations_1654490641871001vmQq.pdf
+│   ├── 2022_USA22_PART3-T08_01_Targeted-Consolidated-Coordinated-Services-For-Better-Risk-Reduction_1654457775306001g4Y6.pdf
+│   ├── 2022_USA22_PART3-T09_01_IOT-Fix-the-Bugs-That-Leave-Customers-Inconvenienced-Stranded-or-Dead_16541127305710014fYB.pdf
+│   ├── 2022_USA22_PART3-W01_01_Anticipate-and-Defend-Against-Advanced-Adversaries-Targeting-SaaS-and-IaaS_1654702719561001XlT3.pdf
+│   ├── 2022_USA22_PART3-W02_01_Practical-Learnings-for-Threat-Hunting-and-Improving-Your-Security-Posture_16547027664200014Nhv.pdf
+│   ├── 2022_USA22_PART3-W08_01_Can-A-Real-Security-Platform-Please-Stand-Up_16546352185120012qdy.pdf
+│   ├── 2022_USA22_PART3-W09_01_What-Will-it-Take-to-Stop-Ransomware_1654111372186001ArEh.pdf
+│   ├── 2022_USA22_PART4-R01_01_Can-the-Workforce-Shortage-Be-Fixed_16547060231420019u7Z.pdf
+│   ├── 2022_USA22_PART4-R02_01_Securing-the-Supply-Chain-What-Does-Compliance-Look-Like_1654457781223001gawy.pdf
+│   ├── 2022_USA22_PART4-R03_01_Extend-EDR-Visibility-by-Logging-Everything-Demo-with-Free-Integrations_1654796818855001vIR4.pdf
+│   ├── 2022_USA22_PART4-R05_01_Transform-and-Optimize-Your-Infosec-Team-with-Managed-Security-Solutions_1653674710707001hk49.pdf
+│   ├── 2022_USA22_PART4-W01_01_Voice-Authentication-Robinhood-and-Pindrops-Innovative-Methodology_1654634177128001Xkn8.pdf
+│   ├── 2022_USA22_PART4-W02_01_Digital-Trust-Cybersecurity-2025-A-Call-for-Openness-Interoperability_1654457809502001bGCR.pdf
+│   ├── 2022_USA22_PART4-W08_01_AI-ML-and-the-Gig-Economy-the-Only-Path-Forward-for-the-SOC_1653674714894001KiDD.pdf
+│   ├── 2022_USA22_PART4-W09_01_Modernizing-Cybersecurity-Through-a-Single-Solution-Approach_16536747240450012LSl.pdf
+│   ├── 2022_USA22_PDSC-M02_01_Validating-the-Integrity-of-Computing-Devices_1654301524761001Bzn1.pdf
+│   ├── 2022_USA22_PDSC-M03_01_Cutting-Through-Getting-Real-Answers-on-Supply-Chain-Security-Policy_16541119108220010nyV.pdf
+│   ├── 2022_USA22_PDSC-M05_01_What-the-Headlines-Dont-Tell-You-About-Exploited-Supply-Lines_1654128279945001AjMO.pdf
+│   ├── 2022_USA22_PDSC-M06_01_New-Guidelines-for-Enhancing-Software-Supply-Chain-Security-Under-EO-14028_165411196231500103IJ.pdf
+│   ├── 2022_USA22_PDSC-R02_01_Trust-but-Verify-Protecting-Your-Business-from-Supply-Chain-Attacks_16547009564380014qqh.pdf
+│   ├── 2022_USA22_PDSC-R06_01_Cyber-Resiliency-Through-Firmware-Protections-and-Supply-Chain-Security_1654112055491001gneD.pdf
+│   ├── 2022_USA22_PDSC-T01_01_Linked-Out-Security-Principles-to-break-Supply-Chain-Attacks_165411339950000142ym.pdf
+│   ├── 2022_USA22_PDSC-T01_Linked-Out-Security-Principles-to-Break-Supply-Chain-Attacks_16545375291380012GOx.pdf
+│   ├── 2022_USA22_PDSC-T02_01_By-Our-Powers-Combined-Critical-Infrastructure-Partners-for-Transparency_16541121727160019gsK.pdf
+│   ├── 2022_USA22_PDSC-T08_01_Addressing-Supply-Chain-Security-Risks-MITREs-System-of-Trust_1654112219810001Amgx.pdf
+│   ├── 2022_USA22_PDSC-T09_01_The-Missing-Supply-Chain-Link-A-Safe-Harbor-for-Risk-Information-Sharing_1654307259791001qHw9.pdf
+│   ├── 2022_USA22_PDSC-W01_01_DLP-An-Implementation-Story_1654112277374001GQvY.pdf
+│   ├── 2022_USA22_PDSC-W09_01_Too-Much-of-Good-Thing-The-Cost-of-Overusing-Encryption_16541123124760010Bm0.pdf
+│   ├── 2022_USA22_PNG-R01_01_Leveraging-Crowd-Forecasting-to-Improve-Our-Understanding-of-Cybersecurity_16546491858500012ch5.pdf
+│   ├── 2022_USA22_PNG-R02_01_Dangerous-Critical-Conversations-About-CISAs-Bad-Practices_1654786981392001wazY.pdf
+│   ├── 2022_USA22_PNG-R03_01_Due-Diligence-in-the-Time-of-Ransomware_16541124633840014nkr.pdf
+│   ├── 2022_USA22_PNG-R05_01_Stop-Being-Sitting-Cyber-Ducks-Adversary-Engagement-the-New-Cyber-Defense_1654112490933001G16f.pdf
+│   ├── 2022_USA22_PNG-T01_01_American-Labyrinth-Demystifying-Adversary-Use-of-Domestic-Infrastructure_1654112519420001A5dA.pdf
+│   ├── 2022_USA22_PNG-T02_01_Progress-in-the-Year-of-Ransomware-Analysis-with-the-Ransomware-Task-Force_1654303623691001Zra7.pdf
+│   ├── 2022_USA22_PNG-T08_01_Supply-Chain-Cyber-Readiness-Upping-Your-Game_1654562444448001b6I7.pdf
+│   ├── 2022_USA22_PNG-T08_01_Upping-Your-GameWV_1654476061116001EfUT.pdf
+│   ├── 2022_USA22_PNG-T09_01_Barbarians-at-the-Gate-Policy-Options-for-Combating-Ransomware-Attacks_16541127240450019Fcp.pdf
+│   ├── 2022_USA22_PNG-W01_01_Put-A Label-on-It-Protecting-IoT-by-Empowering-Consumers_1654699507948001zgEU.pdf
+│   ├── 2022_USA22_PNG-W02_01_Protecting-Our-Democracy-and-the-2022-Midterm-Campaigns_1654113058531001g16X.pdf
+│   ├── 2022_USA22_PNG-W08_01_The-Road-to-Adversary-Engagement-Get-Your-Organization-from-0-to-88-MPH_1654113086201001A83p.pdf
+│   ├── 2022_USA22_PNG-W09_01_Are-Data-Localization-Policies-Looming-Disaster-Cybersecurity_1654113112264001e2T8.pdf
+│   ├── 2022_USA22_PNG1-T01_01_DOJs-Role-in-Countering-Nation-State-Cyber-Threats_1654112374427001GBi8.pdf
+│   ├── 2022_USA22_PROF-M01_01_Transforming-Security-Champions_16541864454850014Jt5.pdf
+│   ├── 2022_USA22_PROF-M02_01_First-90-Days-In-the-CISO-Chair-A-Practitioners-Perspective_16541865777700015ppz.pdf
+│   ├── 2022_USA22_PROF-M06_01_Talent-Shortage-Fact-or-Myth-Resources-for-Finding-and-Growing-Talent_1654383905611001qMkv.pdf
+│   ├── 2022_USA22_PROF-R01_01_A-Practical-Framework-to-Hack-the-Cyber-Workforce-Talent Gap_v8_1654382361020001qXb3.pdf
+│   ├── 2022_USA22_PROF-R05_01_Digital-Transformation-Requires-a-Security-Transformation_1654188238820001n0tv.pdf
+│   ├── 2022_USA22_PROF-T01_01_Representation Matters_1654382808185001EKH0.pdf
+│   ├── 2022_USA22_PROF-T09_01_Making-the-Leap-Transform-from-Techie-to-CISO-Infosec-Leader_1654629468136001zXus.pdf
+│   ├── 2022_USA22_PROF-W01_01_Security-Leadership-Influence-without-Authority_1654188039932001GB0t.pdf
+│   ├── 2022_USA22_PRV-M05_01_Can-Innovation-and-Regulation-Coexist_1654474541826001kuzs.pdf
+│   ├── 2022_USA22_PRV-R01_01_The-Privacy-and-Blockchain-Paradox_16544906485420012xeu.pdf
+│   ├── 2022_USA22_PRV-R03_01_New-Way-of-Tackling-Privacy-Assessments_1654457879630001w1Y3.pdf
+│   ├── 2022_USA22_PRV-T08_01_Caterpillars-to-Butterflies-Transforming-the-Privacy-Workforce_1654111582751001A3y6.pdf
+│   ├── 2022_USA22_PRV-T09_01_The-Steps-to-Successfully-Baking-Privacy-into-an-IAM-Implementation_1654111587381001Kk3e.pdf
+│   ├── 2022_USA22_PRV-W01_01_Catch-Me-If-You-Can-Protecting-Mobile-Subscriber-Privacy-in-5G_1654457884589001buTu.pdf
+│   ├── 2022_USA22_PRV-W02_01_Adaptive-Assurance-Implementing-an-Automated-Control-Testing-Program_1654457890821001EEhf.pdf
+│   ├── 2022_USA22_RMG-M01_01_Supplier-Risk-Throw-Out-the-Old-Playbook!_1654305497627001jEbZ.pdf
+│   ├── 2022_USA22_RMG-M02_01_The-Zoom-Effect-A-Framework-for-Security-Program-Transformation_1654530587305001vfkm.pdf
+│   ├── 2022_USA22_RMG-M05_01_Benefit-from-Cybersecurity-Insurance-Taking-Advantage-of-Insurer-Panels_1654305523427001jYhd.pdf
+│   ├── 2022_USA22_RMG-M06_01_How-to-Win-with-Cyber-Insurance-and-Side-Step-the-7-Biggest-Pitfalls_1654459811421001IWC3.pdf
+│   ├── 2022_USA22_RMG-R02_01_Creating-and-Managing-an-Integrated-Behavioral-Cybersecurity-Program_16547910409970014pNG.pdf
+│   ├── 2022_USA22_RMG-R05_01_Leveraging-Issues-Management-as-a-Force-Multiplier-in-Cybersecurity_1654305655876001jQUy.pdf
+│   ├── 2022_USA22_RMG-R06_01_A-Data-Faustian-Bargain-An-Analysis-of-Government-Mandated-Data-Access_1654305861326001tcQA.pdf
+│   ├── 2022_USA22_RMG-T08_01_What-Actually-Specifically-Makes-Security-Programs-EVEN-MORE-Successful_1654305547928001jGYG.pdf
+│   ├── 2022_USA22_RMG-T09_01_Why-Does-Cyber-Tech-so-Often-Fail_1654388847857001Ehyw.pdf
+│   ├── 2022_USA22_RMG-W08_01_Risk-Management-Hindsight-is-2020_1654305605150001jfv1.pdf
+│   ├── 2022_USA22_RMG-W09_01_PCI-DSS-4.0-Evolution-Revolution-or-an-Omen-of-Extinction_1654305628452001B5c9.pdf
+│   ├── 2022_USA22_SAT-M01_01_Drones-and-Autonomous-Vehicles-Privacy-Security-vs-Surveillance_1654111708432001GXdK.pdf
+│   ├── 2022_USA22_SAT-M02_01_Be-Debt-Free-Using-Cyber-Informed-Engineering-to-Future-Proof-Technology_1654111714255001KaI9.pdf
+│   ├── 2022_USA22_SAT-M03_01_Hacking-and-Protecting-Distributed-Energy-Infrastructure_1654553367370001Ai3g.pdf
+│   ├── 2022_USA22_SAT-R01_01_How-Tamper-Resistant-Elements-TREs-Can-Secure-the-IoT_1654458039485001kBJI.pdf
+│   ├── 2022_USA22_SAT-R02_01_Uncovering-BadAlloc-Memory-Vulnerabilities-in-Millions-of-IoT-Devices_1654733071628001iDRw.pdf
+│   ├── 2022_USA22_SAT-R03_01_The-Non-Social-Distanced-Reality-of-the-Internet-of-Things_16541117360010010GW4.pdf
+│   ├── 2022_USA22_SAT-T01_01_Where-Humane-Technology-and-Secure-Technology-Meet_1654623727980001lmkL.pdf
+│   ├── 2022_USA22_SAT-T02_01_Thinking-Like-a-5G-Attacker_1654458061378001Ibmj.pdf
+│   ├── 2022_USA22_SAT-W01_01_Protecting-Against-Evolving-Threats-to-Global-Shipping-Infrastructure_1654623749844001l1Tg.pdf
+│   ├── 2022_USA22_SAT-W02_01_The-Cyber-Physical-War-Lessons-From-the-Digital-Front-Line_1654458069973001k2hT.pdf
+│   ├── 2022_USA22_SAT-W08_01_Understanding-the-Latest-Evolution-of-ICS-Malware_1654111788240001gwlH.pdf
+│   ├── 2022_USA22_SAT-W09_01_Time-is-Running-Out-Post-Quantum-Cryptography-Call-to-Action-SAFECode-NIST_1654553402061001l0Fc.pdf
+│   ├── 2022_USA22_SBX3-WIL7_01_Tube - A-Reverse-SOCKS-Proxy-for-Embedded-Systems-and-Offensive-Operations_1654480659893001k0T7.pdf
+│   ├── 2022_USA22_STR-M01_01_Cyber-Defense-Matrix PDF Version_1654470397213001wzdO.pdf
+│   ├── 2022_USA22_STR-M01_01_Cyber-Defense-Matrix_1654531947008001bhCP.pdf
+│   ├── 2022_USA22_STR-M02_01_Are-Low-Code-And-No-Code-Tools-A-Security-Risk_1654132029274001eE7v.pdf
+│   ├── 2022_USA22_STR-M03_01_Transformational-Security-Strategy-Developing-a-Plan-That-Works_1654531848396001G615.pdf
+│   ├── 2022_USA22_STR-M06_01_The-Jetsons-Are-Here-Now-What-Are-The-Security-Implications_165411898377700148ri.pdf
+│   ├── 2022_USA22_STR-R03_01_Epic-Journey-Of-An-Enterprise-Cloud-Transformation-While-Building-Security_1654119021668001G7KC.pdf
+│   ├── 2022_USA22_STR-R06_01_Defending-Security-is-Probabilistic-Not-Deterministic-Get-Over-It_165411906054400198AN.pdf
+│   ├── 2022_USA22_STR-T02_01_Electrons-to-Clouds-One-SDL-to-Rule-the-World-from-Hardware-to-the-Cloud_16545464542550012Co9.pdf
+│   ├── 2022_USA22_STR-W01_01_Four-Dimensions-Of-Building-A-Security-Program_16541191347660010Ba7.pdf
+│   ├── 2022_USA22_STR-W08_01_All-Hands-on-Deck-A-Whole-of-Society-Approach-for-Cybersecurity_1654710342367001BKpv.pdf
+│   ├── 2022_USA22_STR-W09_01_How-to-Introduce-Enterprise-Grade-Security-at-a-Startup_1654119208271001KPo0.pdf
+│   ├── 2022_USA22_STR1-T01_01_Novel-Swiss-Re-Framework-Shortens-800plus-Application-Multi-Cloud-Conversion_1654118863437001eGne.pdf
+│   ├── 2022_USA22_STR2-T01_01_CSF-Over-Time-Shifting-from-Identify-Protect-as-You-Grow_16545472084130012bzq.pdf
+│   ├── 2022_USA22_TECH-M01_01_Wells-Fargo-PQC-Program-The-Five-Ws_1654458220335001wHfF.pdf
+│   ├── 2022_USA22_TECH-M02_01_Securing-Entry-Points-and-Active-Directory-to-Prevent-Ransomware-Attacks_1654458225754001grPj.pdf
+│   ├── 2022_USA22_TECH-M03_01_Building-an-Enterprise-scale-DevSecOps-Infrastructure-Lessons-Learned_1654111932165001KKQw.pdf
+│   ├── 2022_USA22_TECH-M05_01_Securing-Medical-Devices-When-Cyber-Really-Is-a-Life-and-Death-Issue_1654111907465001KEma.pdf
+│   ├── 2022_USA22_TECH-M06_01_Network-Based-Threat-Hunting-Lessons-Learned-Techniques-to-Share_1654458265918001gLyD.pdf
+│   ├── 2022_USA22_TECH-R01_01_Power-of-DNS-as-an-Added-Defense-Against-Modern-Attacks_1654458243399001qHpf.pdf
+│   ├── 2022_USA22_TECH-R02_01_The-Time-is-Now-Criticality-of-Time-Synchronization-Information-Security_1654458248232001gK1j.pdf
+│   ├── 2022_USA22_TECH-R05_01_How-to-Secure-Private-5G-Networks_1654458255696001Etxf.pdf
+│   ├── 2022_USA22_TECH-T01_01_Building-a-Vulnerability-Management-Program-How-to-Eat-an-Elephant_1654623401161001qqRL.pdf
+│   ├── 2022_USA22_TECH-T02_01_Getting-The-Most-Out-Of-Sysmon_1654623777566001XRkB.pdf
+│   ├── 2022_USA22_TECH-T08_01_Know-Your-Environment-Better-Than-the-Enemy_1654490656755001vmIj.pdf
+│   ├── 2022_USA22_TECH-W09_01_M365-Threat-Hunting-How-to-Understand-Attackers-TTPs-in-Your-Tenant_1654458263739001qE0u.pdf
+│   ├── 2022_USA22_ZT-M01_01_What-is-Zero-Trust-What-ISNT-Zero-Trust-Lets-Make-Sense-of-This_16541192436560019Stt.pdf
+│   ├── 2022_USA22_ZT-M03_01_Inside-the-Making-of-a-Zero-Trust-Architecture_1654305891301001ooRu.pdf
+│   ├── 2022_USA22_ZT-M05_01_Bringing-Zero-Trust-to-Industrial-Control-Systems_16541193098080019NgD.pdf
+│   ├── 2022_USA22_ZT-M06_01_What-We-Learned-Implementing-Zero-Trust-Security_1654547503066001bcW9.pdf
+│   ├── 2022_USA22_ZT-R01_01_Protective-DNS-DNS-Encryption-and-Zero-Trust-Tackling-NSA-Guidance_1654202932513001JwB0.pdf
+│   ├── 2022_USA22_ZT-R02_01_Connecting-The-Dots-Using-SAFE_16547882253330019xRM.pdf
+│   ├── 2022_USA22_ZT-R03_01_Searching-for-the-Grail-Zero-Trust-Cryptographic-Keys-and-Services_16541194277670010UoB.pdf
+│   └── PDSC-T08_for website AddressingSupplyChainSecurityRisks-MITRE’sSystemofTrust™_16533197854350019jSV.pdf
 ├── SACC-2010
 │   ├── 专场1：可扩展平台架构设计
 │   │   ├── 张旭：基于大规模集群的运维架构设计.output.pdf
@@ -6714,101 +7324,6 @@
 │   └── 4APT针对恐怖主义的间谍活动剖析.pdf
 ├── SSC-2018
 │   └── 员工侧安全-一站式解决方案最佳实践-止介（Feei）.pdf
-├── Security-Report
-│   ├── 2017企业安全威胁统一应对指南.pdf
-│   ├── 5G安全白皮书-2019.pdf
-│   ├── 5G网络安全标准化白皮书-2021.pdf
-│   ├── App违法违规收集使用个人信息监测分析报告-2021.pdf
-│   ├── CISO_Handbook.pdf
-│   ├── CISSP官方认证学习指南-v8.pdf
-│   ├── DOD Zero Trust Reference Architecture_v1.1（零信任参考架构）-2021.pdf
-│   ├── Docker容器安全最佳实践白皮书V1.0.pdf
-│   ├── MSI-2021.pdf
-│   ├── MTrends-2020.pdf
-│   ├── MTrends-2021.pdf
-│   ├── MTrends-2022.pdf
-│   ├── OTGv4.pdf
-│   ├── OWASP-安全编码规范参考指南.pdf
-│   ├── SecDevOps.pdf
-│   ├── Threat_Report-2021.pdf
-│   ├── 中兴通讯网络安全白皮书-2019-英文.pdf
-│   ├── 中兴通讯网络安全白皮书-2019.pdf
-│   ├── 中兴通讯网络安全白皮书-2021-英文.pdf
-│   ├── 中兴通讯网络安全白皮书-2021.pdf
-│   ├── 中国互联网地下产业链分析白皮书.pdf
-│   ├── 中国互联网网络安全报告-2020.pdf
-│   ├── 中国手机网民网络安全状况报告-2015.pdf
-│   ├── 中国数据保护年度报告-2018.pdf
-│   ├── 中国网民信息安全状况研究报告-2013.pdf
-│   ├── 中国软件供应链安全分析报告-2021.pdf
-│   ├── 云服务安全治理白皮书-2021.pdf
-│   ├── 云计算标准体系介绍3.0版本.pdf
-│   ├── 京东云安全白皮书-2018.pdf
-│   ├── 人工智能安全标准化白皮书-2019.pdf
-│   ├── 人工智能行业发展报告-2017.pdf
-│   ├── 企业上云安全白皮书v1.0-2021.pdf
-│   ├── 企业信息安全框架V5.0白皮书.pdf
-│   ├── 信息安全国家标准目录-2017.pdf
-│   ├── 信息安全国家标准目录-2018.pdf
-│   ├── 全球中文钓鱼网站趋势分析报告-2014.pdf
-│   ├── 全球银行业受黑客组织攻击分析报告.pdf
-│   ├── 华为云 CSA CCM 合规性说明v1.0-2020.pdf
-│   ├── 华为云 ISO:IEC 27001 合规性说明v1.0-2021.pdf
-│   ├── 华为云 MPA 合规性说明——应用程序及云端分布式环境安全指南v1.0-2021.pdf
-│   ├── 华为云 MPA 合规性说明通用指南v1.0-2021.pdf
-│   ├── 华为云 NIST CSF 实践指南v1.0-2022.pdf
-│   ├── 华为云 PCI DSS 实践指南v1.0-2020.pdf
-│   ├── 华为云 Stack 安全白皮书v1.0-2021.pdf
-│   ├── 华为云可信白皮书v1.0-2019.pdf
-│   ├── 华为云安全基线配置指南v2.0-2021.pdf
-│   ├── 华为云安全白皮书-2020.pdf
-│   ├── 华为云安全白皮书v3.2-2020.pdf
-│   ├── 华为云数据安全白皮书v1.0-2018.pdf
-│   ├── 华为云金融网络安全白皮书v1.0-2022.pdf
-│   ├── 华为云隐私保护白皮书v2.0-2021.pdf
-│   ├── 华为云零信任能力成熟度模型白皮书-2021.pdf
-│   ├── 华为城轨云安全白皮书v1.0-2021.pdf
-│   ├── 大数据安全标准化白皮书-2017.pdf
-│   ├── 大数据安全标准化白皮书-2018.pdf
-│   ├── 大数据安全白皮书-2018.pdf
-│   ├── 安全态势权威指南Definitive-Guide-to-Security-Posture.pdf
-│   ├── 安全架构实践的公理-2020.pdf
-│   ├── 实战攻防之紫队视角下的实战攻防演习组织-2019.pdf
-│   ├── 实战攻防之红队视角下的防御体系突破-2019.pdf
-│   ├── 实战攻防之蓝队视角下的防御体系构建-2019.pdf
-│   ├── 我国互联网网络安全态势综述报告-2018.pdf
-│   ├── 我国互联网网络安全态势综述报告-2020.pdf
-│   ├── 数据安全治理白皮书-水印版.pdf
-│   ├── 数据安全能力实施指南v1.0-2018.pdf
-│   ├── 数据泄密-2017.pdf
-│   ├── 数据泄漏成本研究-2016.pdf
-│   ├── 数据泄漏成本研究-2017.pdf
-│   ├── 数据泄漏成本研究-2018.pdf
-│   ├── 新一代SOC研究报告(17-08-C2-ZN)-1.pdf
-│   ├── 新一代SOC研究报告.pdf
-│   ├── 构建安全可靠的系统-谷歌2020.pdf
-│   ├── 汽车电子网络安全标准化白皮书-2018.pdf
-│   ├── 浪潮产品安全白皮书-2021.pdf
-│   ├── 海思网络安全白皮书-2020.pdf
-│   ├── 物联网安全指南v2.0-2017.pdf
-│   ├── 物联网安全标准化白皮书-2019.pdf
-│   ├── 电子认证2.0白皮书-2018.pdf
-│   ├── 知道创宇区块链安全风险白皮书v1.0-2018.pdf
-│   ├── 网络安全前瞻调研报告-德勤-2021.pdf
-│   ├── 网络安全实施框架指南.pdf
-│   ├── 网络安全态势感知技术标准化白皮书-2020.pdf
-│   ├── 网络安全框架.pdf
-│   ├── 腾讯云安全白皮书-2019.pdf
-│   ├── 薅羊毛产业报告.pdf
-│   ├── 谷歌云安全白皮书-2018.pdf
-│   ├── 谷歌云安全白皮书-2022.pdf
-│   ├── 谷歌安全白皮书-2019.pdf
-│   ├── 谷歌移动安全报告-2017.pdf
-│   ├── 钉钉安全白皮书v1.0-2016.pdf
-│   ├── 钉钉安全白皮书v2.0-2018.pdf
-│   ├── 钉钉安全白皮书v3.0-2021.pdf
-│   ├── 阿里云安全白皮书4.0-2019.pdf
-│   └── 飞书安全白皮书v1.3-2020.pdf
 ├── SplunkConf-2015
 │   ├── conf2015-PPT-Grace-Sumner-EnerNOC-WED-Breakout-12.pdf
 │   ├── conf2015-attendee-terms-and-conditions.pdf
@@ -7594,4 +8109,4 @@
     ├── 3-4-杨锦峰-等保2.0下的全场景企业安全态势感知建设.pdf
     └── 3-5-李燕宏-“切尔诺贝利”之痛-情报驱动的安全运营.pdf
 
-593 directories, 7001 files
+597 directories, 7512 files

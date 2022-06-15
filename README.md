@@ -6,6 +6,10 @@ The repository contains the slides of the security conference, as well as all ki
 
 本仓库收录各安全大会、安全沙龙的演讲内容，以及各类安全白皮书、安全研究报告、安全免费图书、安全指南等。
 
+## Amount/统计
+
+- 597 directories, 7512 slides
+
 ## Download/下载
 
 - Clone repository `git clone https://github.com/FeeiCN/Security-PPT.git` or Clone special directory
