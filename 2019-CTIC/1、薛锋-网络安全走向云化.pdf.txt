@@ -1,0 +1,201 @@
+
+
+
+
+   
+
+
+alert tcp $EXTERNAL_NET any -> $HOME_NET 1024:65535 (msg:"ET EXPLOIT Computer Associates Brightstor ARCServe Backup Mediasvr.exe Remote Exploit"; flow:established,to_server; content:"|00 06 09 7e|"; offset:16; depth:4; content:"|00 00 00 bf 00 00 00 00 00 00 00 00|"; distance:4; within:12; reference:url,www.milw0rm.com/exploits/3604; reference:url,doc.abc.net/maindoc/2003518; classtype:attempted-admin; sid:2003518; rev:5;)
+
+
+
+f(garbage) = garbage
+
+...
+
+
+ IP APT
+
+
+
++
+
++
+
+
+
+
+
+
+
+
+ DNS  
+
+IDS is Dead ? 
+
+Assume Breach 
+
+
+100,000+
+
+
+
+
+
+5
+
+-Kill Chain
+
+DNS
+
+
+
+
+
+
+DNS   DNS   DNS  
+
+
+114.114.114.114/8.8.8.8
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+91.3% of malware uses DNS in attacks
+*Source: Cisco 2016 Annual Security Report
+
+94% of malware incidents were delivered via email
+*Source: Verizon 2019 Data Breach Investigations Report
+
+/ 
+  BEC
+
+
+  
+
+
+
+   
+
+  
+
+
+
+
+
+  
+
+
+ DNSOneDNS TIP TDP 
+
+API
+
+TDP/TDPS
+
+TIP
+
+OneDNS
+
+8 6 4 3 5
+
+OneDNS ­ DNS
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ - TIP(Threat Intelligence Platform)
+
+
+IPSWAF
+
+""
+ 
+
+
+IPIOC
+
+
+.
+
+·  · 
+
+
+·  · 
+
+
+     
+
+1. pcap
+
+2. 
+
+3.
+
+
+
+4.
+
+
+
+5. 
+
+6.
+
+
+
+7. 
+
+8.  
+
+
+ 
+
+TDP(Threat Detection Platform)
+ MDR
+
+
+
+
+
+ 
+
+API
+
+
+
+    
+
+ 
+
+Making Intrusion Detection Work, Whatever It's Called
+
+
+ 10,000,000
+
+
+
+

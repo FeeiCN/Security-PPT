@@ -1,0 +1,673 @@
+
+
+ 
+
+01|"" 
+
+  
+...
+
+""""
+
+1
+  ITSM / 
+2
+SQL   0day 
+
+2
+ >>  13 1.7
+
+ 110 SSODNS YY TR 
+
+1
+ socksDMZDMZ DMZ struts2 Vcenter  
+
+ FMS 
+
+""""
+
+
+
+
+
+
+
+1 2 3 4 ......
+
+1 Struts2 S2-045  2    3 SQL  5
+
+1 5   SOCKS  2   3  SOCKS 
+
+533
+
+
+ SQL Struts2Weblogic    26 33
+
+
+
+
+     
+
+
+     
+
+
+WAF   WEB  
+
+
+     
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+  
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+· Nmap ·  · Webshell · 
+
+· SQL Web
+·  
+·  CVE-20192729
+·  (rdpssh IP )
+
+·  ·  ·  · Jshell/JSPSPY
+ · Metasploit · CobaltStrike · 
+
+
+
+
+
+
+
+
+
+·  · 
+
+· - 
+· - Shell
+·  (rdpssh 
+· 
+
+· Metasploit shell
+· CobaltStrike shell
+· 
+
+· CVE2019-1040 DCSync
+· 
+
+· ( 
+· DNS
+
+·  · Web · bash
+
+
+
+· Metasploit shell
+· CobaltStrike shell
+· 
+
+· CVE2019-1040 DCSync
+· 
+
+· DNS · 
+
+02| --
+
+----
+
+
+
+ 
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+1
+
+2
+
+3
+
+
+
+
+  IOC 
+
+  
+  
+
+01
+
+04
+
+02
+
+03
+
+
+  
+ Webshellweb webshell
+
+    
+
+
+1
+ Web Webshell IP IP
+2
+ IP URL 
+
+
+
+1.  147624  712  webshell275
+2.  
+321  IP
+206
+
+03| -
+
+
+1. 
+
+2. 
+
+3. 
+/SQL
+4. 
+
+ 
+
+
+
+
+
+1 2 n··
+
+
+ 
+
+ 
+
+
+EDR
+
+ 
+
+ 
+
+1
+
+2
+
+  
+
+
+
+
+
+ 200  300100  40500
+
+   ""webshell
+
+
+APT          SQL  
+
+
+  ""
+
+  
+
+
+
+·  · MySQL
+
+04|  
+
+----
+
+ 
+
+
+ 
+DNS
+DNSDOS&DDOS
+
+/vpn/
+ 
+
+
+
+
+
+
+1
+
+2
+
+
+Mail 
+
+
+
+
+
+
+
+ 0day 
+
+
+PEPE APKAV8+ 
+ 
+
+APT  
+
+
+ 
+URL
+  url  url  
+
+ 
+
+
+-
+
+/SVN/VPN/
+
+
+
+
+
+
+
+VPN
+
+ 
+
+
+
+
+
+·
+
+
+···   ···
+
+
+
+
+
+ 
+ 
+
+
+· Kerberoasting · MS14068 ·  ·  ·  · Pass The Ticket · Pass The Hash · NtlmRelay · DCSync · DCShadow
+
+
+·  ·  · 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  PCAP DNS 
+
+  
+
+
+
+
+
+
+
+Web APT   ...
+
+ 
+
+
+
+
+
+20 
+
+
+ 
+
+  IP 
+
+
+
+ 
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+  
+
+ 
+
+
+
+/Web 
+
+  TIP
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+IP
+
+TSS
+
+TSS
+
+...
+
+TSS
+
+TSS
+
+TSS
+
+TSS
+
+...
+
+TSS
+
+tcp IP
+
+ 
+·  ·  · 
+ 
+· sip · tcp sip · sip · sip · sip
+rsp_status · file · url · host · packet_data
+
+
+ IP
+·  · ASN ·  · IDC ·  · web
+ddos 
+ 
+· IP  IP  
+
+----
+
+
+ 
+ 
+
+APT
+apt apt 
+
+1
+
+APT 
+
+2
+
+ 
+
+ · 
+
+ 3
+
+
+IOC IP 
+ webshell   IP
+
+
+ sql 
+
+ 
+
+4
+
+5
+
+
+  
+
+
+ftpsmboraclemysqlmssqlssh postgresqlpop3smtp IP
+
+
+--
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+WEB
+
+
+ 
+
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+
+ 
+
+
+
+--
+
+ A
+
+1.1.1.1
+
+DNS
+
+www.xxx.com APT
+
+ WEB  
+DNS 
+
+ TCP 
+
+
+ 
+
+IP
+
+
+ UDP 
+
+
+  
+
+
+  
+
+1.WEBagent  2.CC IP
+
+
+
+
+
+ 
+ 
+
+
+  
+
+   
+
+  
+     
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+Sql
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+...............
+
+ 
+
+ 
+
+
+
+1
+
+ 
+
+
+
+2
+
+ 
+
+
+
+..................
+
+ 
+
+
+
+
+  
+
+
+THANKS
+
+

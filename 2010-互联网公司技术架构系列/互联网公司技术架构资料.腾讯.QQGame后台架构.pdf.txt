@@ -1,0 +1,413 @@
+QQGame
+
+Agenda
+
+       
+
+QQGame
+!   !  32400 !   !  
+
+
+
+
+
+
+!   !   !   !   !   !   !   !   !   !  RTI !  
+
+  
+!  16AvatarDBSvr1 !  
+ !  ID
+
+  
+!    
+!     
+
+  
+!   
+!    
+!   
+
+  
+!    QQ
+!     !    
+!    
+
+ 
+!  
+
+ 
+!   !    !  
+
+ 
+
+!  
+449899634
+
+B449899634
+
+449899634
+
+** [0-9]*
+
+  
+
+zhongjiang
+
+
+!  
+
+ 
+!   QQAccountProxySvr
+!   1.  2.  3.  4. 
+
+ 
+!   1.  2. 
+!   1.  2.  8000 536871 8000*536871=4294968000 704
+
+
+!   !  DBSvrDBSvr
+
+
+!  crack
+!  "" MainSvr
+!  MainSvr MainSvr
+
+
+
+!  
+
+!  QQGame
+
+ ·  ·  ·  · 
+ 
+
+ ·  · 
+
+ --------- 
+
+ 
+
+RTI  Run Time Infrastructure
+!   1. XXXX 2. XXXX 3. XXXX
+!   
+ ·  · 
+
+RTI  
+!  RTI
+
+Client
+
+
+
+
+Logic1 Logic2
+Logic3
+
+
+
+OutPut
+
+OutPut 1
+
+RTI
+
+OutPut
+
+2
+
+Logic 1 Logic3 Logic2
+
+OutPut
+
+3
+
+RTI  
+!  RTI
+
+RTI  
+!  
+
+
+!  AccountSvrweb 
+1.  2.  3.  4.  5. Avatar
+
+
+!   !  dir !   !   !  MainSvr !   !  
+
+
+
+   
+
+ 
+ 
+
+ 
+!  Login
+!  400 
+!    DirSvr
+
+
+!  19DirSvr 
+
+
+
+
+!   1.  2. 
+!   1.  2. Epoll 3. 
+
+MainSvr
+
+Ctrl
+
+MainSvr
+
+Ctrl
+
+AUX Thread2 PIPE OUT
+PIPE IN AUX Thread1
+
+Data
+
+TCPSvr
+
+Data
+
+
+
+Room 0
+
+MainSvr
+
+Room 1 Room 2
+
+Zq.so Ddzrpg.so Ddzrpg.so
+
+
+!  MainSvr60 !   !  
+
+TCPProxySvr
+!   !   !   !  Key
+ !  Proxy
+
+TCPProxySvr
+
+Data
+
+
+
+DB1
+
+K1
+
+C1
+
+Analysis
+
+K2
+
+C1
+
+DB2
+
+Key
+
+KN
+
+CN
+
+DBN
+
+GameDBSvr
+!  400 !  2000 !  32 !  
+
+
+GameDBSvr
+
+
+          ......
+1 2 3 4 5
+
+ ...... 
+16
+
+MySQL MySQL MySQL MySQL MySQL
+
+     ......
+
+1
+
+2
+
+3
+
+4
+
+5
+
+MySQL ...... 
+16
+
+GameDBSvr
+!  Cache99%IO
+!  IO 
+!  Innodb
+
+
+!  64GameDBSvr !   group key = UIN>>16%256 !  TCPProxySvrMainSvr
+
+
+
+DB0
+
+DB0
+
+DB1
+
+DB0
+
+DB2
+
+DB1
+
+DB3
+
+
+
+DB
+!   !  
+
+III. 
+!  
+!   
+!   IDC
+!    
+
+
+!   !   !  
+
+
+!   !   !  
+
+
+!   !  
+
+ 
+
+       
+ 
+     
+
+
+
+!  
+
+ 
+      
+
+
+
+
+ 
+
+
+!   1.  2. 
+!   1.  2. 
+
+
+!  Dir8 !   !  CGXQQ.com
+
+
+!   !   !  20%80% !  
+
+  
+
+!  
+
+1 00:08:41   
+
+!   !  
+
+ 00:09:23   
+ 00:09:41 
+
+ 00:09:58
+!  IDC 
+ 00:16:12 10 
+
+  
+!     
+!   
+!   
+
+  
+!   !  P2P !  95
+
+26F
+
+
+
+ 26F
+
+
+
+
+
+IDC
+
+
+
+
+
+
+
+
+
+IDC
+!   !   !   !  
+
+
+!  9.11  !  IDC !  
+
+IDC
+!  MainSvr 
+!  dirsvr !   !   == QQGame
+
+
+
+QQGame
+!     1. 64GameDBSvr + 64
+GameDBSvr 2. 16AvatarDBSvr 3. 
+!     1. IDC 2. IDC
+
+IDC
+!  IDC 1. DB 2.  3. IDC
+
+IV. 
+!   !   !   !   !  
+
+  
+!   
+!  QQGame !   !  
+
+  
+!   !   !   
+
+ 
+!   !   !   !  
+
+
+!   !   !  
+
+ 
+!   
+!   !  
+
+
+!  
+!  Svr
+!  Svr 1. Svr 2.  3. svr
+
+
+Q & A
+
+

@@ -1,0 +1,543 @@
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+IoT
+
+ 
+
+5
+
+40
+
+2
+
+
+....
+
+
+
+
+
+
+3
+
+
+
+
+
+
+
+
+
+ 
+
+ SLA
+
+ 
+
+
+
+
+
+
+4
+
+
+
+ 
+
+1
+ ......
+
+VCPP Cloud
+
+VMware Cloud
+VCPP Cloud
+
+2
+
+
+·  · 
+
+·  · 
+
+·  · 
+
+5
+
+
+Internet
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+P rivate C lo ud IT O PS
+
+P ub lic C loud IT
+
+P ub lic C lo ud D eveloper
+
+B usiness A p p s Line ofbusiness
+
+
+
+DataCenter Extension
+
+
+
+
+
+
+
+PAS
+
+K8s
+
+PAS
+
+K8s
+
+  
+  
+
+SDDC 1
+
+VNET 1
+
+VPC 1
+
+/
+
+NSX 
+
+SDDC 1
+
+VNET 1
+
+VPC 1
+
+ / 
+
+7
+
+
+
+
+$
+
+Compute Storage Network
+Private Cloud
+
+Off-prem Data Center
+
+ 
+
+
+
+
+
+
+
+· ()  ( OTV, LISP)  (OTV) · /  · / 
+
+Public Cloud
+8
+
+
+
+
+NSX Data Center
+Compute Storage Network
+Private Cloud
+
+NSX Data Center
+Off-prem Data Center
+
+ 
+
+
+
+
+
+
+
+
+· 
+· 
+
+NSX Cloud
+
+Public Cloud
+9
+
+
+SDDC
+
+vSphere Storage Network
+
+NSX Hybrid Connect
+
+Legacy vSphere Data Center
+
+ 
+
+
+
+
+
+
+
+NSX Data Center
+vSphere vSAN NSX
+VMware SDDC
+
+·  
+NSX  NSX  -- --
+
+10
+
+VMC on AWS
+SDDC
+
+ 
+
+
+
+
+
+
+
+vSphere Storage Network
+
+NSX Hybrid Connect
+
+Legacy vSphere Data Center
+
+VMC on AWS vSphere vSAN NSX
+VMware SDDC
+
+·  
+NSX  NSX  -- --
+ ·  10, 
+ 
+11
+
+
+
+
+Primary Site
+
+Backup Site
+
+Compute Storage Network
+
+Manual Work Stream
+
+Compute Storage Network
+
+ 
+
+
+
+
+
+
+
+·  
+ · 
+
+On-premises Data Center
+
+Public Cloud Data Center
+
+
+
+12
+
+
+
+Primary Site
+Compute Storage Network
+On-Premises Data Center
+
+ 
+
+
+
+
+
+
+
+Backup Site
+
+NSX Data Center
+
+Compute Storage Network
+Public Cloud Data Center
+
+·  ·  ·  · /
+ · DR & SDDC
+
+13
+
+
+
+
+Site A
+
+Site B
+NSX Data Center
+
+Site C
+
+ 
+
+
+
+
+
+
+
+·  
+·  SLAs  QoS 
+·  
+·  
+
+14
+
+
+
+
+Site A
+
+Physical Data Center
+
+ 
+
+
+
+
+
+
+
+Site B
+
+Physical Data Center
+
+Public Cloud
+
+·  · 
+IP · 
+
+Manual Migration
+
+On-premises Data Center
+
+Secondary Data Center
+
+15
+
+
+
+
+ 
+
+
+
+
+
+
+
+Site A
+
+Private Cloud
+
+Site B
+NSX Data Center
+
+Public Cloud
+
+·  ·  · 
+
+VMware
+
+VMware
+
+On-premises Data Center
+
+Automated Migration
+
+Off-premises Data Center
+
+16
+
+
+
+
+ 
+
+
+
+
+
+
+
+Site A
+
+Physical Data Center
+
+Site B SDDC with NSX
+NSX Data Center
+NSX Hybrid Connect
+VMware
+
+vSphere Data Center
+
+Automated Migration
+
+VMware SDDC
+
+·  NSXSDD 
+·  ·   
+ · IP , 
+17
+
+VMC      
+
+
+
+
+
+
+Site A
+
+Physical Data Center
+
+Site B
+VMC on AWS
+NSX Hybrid Connect
+
+·  NSXVMW on public ·   
+
+· IP , 
+
+vSphere Data Center
+
+Automated Migration
+
+VMC on AWS
+
+18
+
+VMware 
+
+
+ 
+
+
+
+
+
+
+
+19
+
+
+
+ 
+ VPCs / VNETs
+
+NSX Manager
+
+Cloud Service Manager
+
+NSX Controller Cluster
+
+(VPN Gateway, DirectConnect, ExpressRoute) CLOUD / REGION 1
+
+CLOUD / REGION 2
+
+NSX cloud gateway
+
+NSX cloud gateway
+...
+
+NSX cloud gateway
+
+NSX cloud gateway
+...
+
+VNET -1
+
+VNET -N
+
+VPC -1
+
+VPC -N
+
+
+
+VPC 1
+Security Group 1
+
+, 
+
+VPC 2
+Security Group 1
+
+VNET 1
+Security Group 1
+
+Security Group 1
+Policy
+
+21
+
+Day 2
+VPCs Availability ZonesRegion 
+
+VPC 1
+
+VPC 2
+
+VNET 1
+
+22
+
+THANKS
+
+

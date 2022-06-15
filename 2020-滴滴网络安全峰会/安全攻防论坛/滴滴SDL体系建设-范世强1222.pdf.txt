@@ -1,0 +1,251 @@
+SDL
+--SDL0-1
+
+2020.12.17
+
+
+
+01 
+
+02 SDL
+
+03
+
+SDL
+
+04 SDL
+
+01 
+10
+· - · CNCERT- · - · -SDL
+2017SDL0-1
+
+02 SDL
+
+01 SDL
+
+SDLSecurity Development Lifecycle 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDL 2017
+
+
+
+
+
+
+
+SRC
+
+SDL 2018
+
+SDL 2019
+
+SDL 2020
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ SDK
+
+ 
+
+  
+
+03 SDL
+
+01 SDL 2017
+SDLSRC
+
+
+
+   ...
+
+
+
+
+
+
+
+
+·  · 
+
+
+
+
+
+
+  IP  ...
+
+02 SDL 2018
+
+ · SDL
+-- --
+· 
+--
+· 
+--
+· 
+--
+
+03 SDL 2019
+
+
+
+
+
+ · 
+--
+· 
+--
+· 
+
+
+ 
+
+ 
+
+
+SDL
+ 
+
+ 
+review
+
+
+
+
+
+SDL
+
+
+
+
+
+ 
+
+
+
+ 
+review
+
+04 SDL 2020
+
+
+
++
+n   
+n   CI/CD
+   / /
+
+
+n  
+n   
+  
+    
+
+SDK
+n  
+n   
+  SDK
+
+
+
+n  
+n   
+ NPS    SDL 
+
+05 SDL
+n  n  n  n  n  n SDL
+
+
+04 SDL
+
+02 SDL
+
+DEV OPS
+QA
+
+ 
+
+ 
+
+
+
+
+
+Gitlab
+
+
+
+ 
+
+
+
+
+
+
+&
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+agent
+ 
+
+
+
+03 SDL
+
+ + ...
+
+Devsecops  ...
+
+
+SDL SDL...
+fsqsec
+
+

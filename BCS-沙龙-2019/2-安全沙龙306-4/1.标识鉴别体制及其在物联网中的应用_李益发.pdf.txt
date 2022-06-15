@@ -1,0 +1,645 @@
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++
+
+
+
+ 
+
+
+
+=
+
+ 
+
+
+
+ 
+
+HANDLE
+
+HANDLE
+
+Handle               
+Handle               DNS  
+Handle Handle    
+
+ Handle TCP/IP  ""  Robert Kahn 1995  Robert Wilensky  CNRI
+ Handle    
+     
+
+HANDLE
+
+HANDLE
+Handle System GHRHandle    +LHS    Handle
+Handle         Handle     
+
+HANDLE
+ Handle Handle    GHR      Handle ASCII "/"
+ hdl:10.1045/may99-payette
+ Handle    Handle
+ GHR   GHR        Handle      GHR    LHS
+
+HANDLE
+HANDLE
+1GHR: 10.1045/MAY99-PAYETTE  2GHR 10.1045  3     LHS:   10.1045/may99-payette  handle  4LHS handle  
+
+HANDLE
+
+HANDLE 
+
+
+
+
+
+ 20 
+
+
+
+24Handle 
+
+
+
+ 
+
+  MAC
+
+
+
+HANDLE
+
+GHR
+
+GHR
+
+
+
+LHS
+
+
+
+ 10.1045/may99
+
+LHS
+
+ Hdl 10.1045/may99
+
+
+
+
+
+
+
+
+Nonce 
+
+ 
+
+
+
+ 
+
+
+
+Handle
+
+
+
+----
+
+A
+
+
+
+
+ IDA
+
+A
+
+ 
+
+B
+
+
+
+   
+
+  A 
+
+    
+
+
+
+A
+
+C
+
+1 2
+
+ 
+
+PKI
+
+
+1---- CA CA  2""  3  4  CA             5 CA  6
+
+(CA)
+
+
+
+RA
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ CA
+
+CA1
+
+CA11 ()
+
+CA12 ()
+
+CA2
+
+CA21 ()
+
+CA22 ()
+
+IBCSM
+
+
+1ID  2IBC     3 4 
+
+KGC
+
+skU1  s  H (ID1)
+
+s  skPKG pkPKG  s  P
+
+skUN  s  H (IDN )
+
+ID1
+
+IDN
+
+CPKSM2
+
+
+1ID  2     3    4   5   6SM2
+
+KGC
+
+H (ID1)
+
+H (IDN )
+
+t
+
+ skUID  xrj j mod n j 1
+
+ x11 x12  x1t 
+
+MK sec
+
+
+
+  
+
+x21 
+xs1
+
+x22 
+xs2
+
+  
+
+x2t 
+
+ xst
+
+ 
+
+pkUFC  xU' PxU' 
+
+pkU  pkUI D 
+
+pkU  pkUID  pkUFC 
+
+ID1
+
+yij  xij P
+
+ y11 y12  y1t 
+
+H (ID1) t
+pkUID  xrj j P
+
+PK
+mod n
+
+pub
+
+
+
+  
+
+y21 
+ys1
+
+y22 
+ys2
+
+  
+
+y2t 
+
+ yst
+
+ 
+
+j 1
+
+IDN H (IDN )
+
+HANDLE
+
+ 
+
+
+
+5 
+
+
+
+
+
+
+
+
+
+1PKIIBCCPK 
+2PKI   
+3  IBC             RA
+4CPK   CARA PKI
+
+
+
+PKI
+1. CA CA
+2.  
+3. CA 
+4.  5. 
+  6.             CA 
+
+CPK
+1.   
+2.    
+3.  
+4.   
+5. PKIIBC 
+6. 
+
+IBC
+1.  
+2.   
+3.   
+4.  
+5. PKICPK 
+6. PKI CA CPK
+
+
+
+PKI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CPKSM2
+    / × 
+
+    
+
+RSA
+
+ECC
+
+1024-3072b
+
+112-256b
+
++( 16-37B
+
+1.5-0.5 1.5-0.5
+
+80-39 40-19
+
+IBCSM9
+   × ×
+ECC, DLP, BLP 256b 33-64B 1 1
+
+ 
+
+HANDLECPK
+1 CPK CA
+CPK
+
+2CPK  
+
+CPK
+3CPK  CA
+
+CPK
+4 CA 
+
+5  
+
+----
+ CPK
+1.          CPK
+2. 
+
+CPK
+
+CPK
+
+CPK
+
+CPK
+
+CPK
+
+CPK
+
+----
+
+ 
+
+ A 
+CPK
+
+
+ 
+
+CPK C 
+
+ C  CPK
+
+A
+
+ HANDLE/CPK
+
+
+
+
+
+B
+
+ O 
+CPK
+
+C 
+ 
+
+ C  CPK
+
+ handle
+
+
+
+ xy.123* / ft.lhq.123*
+
+ xy.123* / ft.lhq.123*
+
+O
+
+C
+
+
+
+
+
+
+
+----
+
+
+1.  
+2. CPK
+
+    A
+
+IDA
+
+,
+
+app,{{IDB
+
+,
+
+N
+
+A}K
+
+B
+
+}K
+
+1 A
+
+IDB
+
+,{{IDA
+
+,
+
+N
+
+A
+
+,
+
+N
+
+B
+
+}K
+
+A}K
+
+1 B
+
+    B
+
+CPK K AB  H (N A, NB )
+
+1.  2. CPK
+
+IDA , IDB , N A , app
+
+A
+
+B
+
+IDB
+
+,
+
+pkBFC
+
+,{IDA
+
+,
+
+N
+
+A
+
+,
+
+N
+
+B
+
+}K
+
+1 B
+
+
+
+IDA ,
+
+pkAFC
+
+,{{IDB
+
+,
+
+N
+
+A',
+
+NB}KB}K
+
+1 A
+
+
+
+CPK BK AB  H (N A, NB )
+
+----CPK
+
+ CPK
+
+1. HANDLE
+
+
+
+
+
+2. CPK
+
+ 
+
+CPK
+
+CPK
+
+----
+
+CPKCA 
+
+
+1. HANDLE
+
+
+
+
+
+2. CPK
+
+ CA 
+
+CPK
+
+3.    CA 
+
+
+
+
+
+CA
+
+
+
+1.         HANDLE  
+2.  
+3.  
+4. 
+
+
+1.  2.  3.  4.  5.  6. 
+
+
+·  ·  ·  · CPK · HANDLE  
+
+THANKS
+
+

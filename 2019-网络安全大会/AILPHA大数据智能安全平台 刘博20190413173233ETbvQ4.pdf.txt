@@ -1,0 +1,284 @@
+AILPHA
+ 
+   bo.liu@dbappsecurity
+
+
+61  % APT 
+2012 IBM Global Reputational Risk & IT Study
+$3.5M
+
+2014 Cost of Data Breach, Ponemon Institute
+
+
+71%   
+2012 - 2013 Juniper Mobile Threat Report
+229
+ 
+Source: Mandiant 2014 THREAT REPORT
+
+
+83  %  
+2012 ESG Research
+
+67% 
+Source: Mandiant 2014 THREAT REPORT
+
+Internet FW IPS WAF
+
+
+
+
+
+  
+
+
+
+P2DR 
+
+/
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+...
+
+AILPHA
+
+01  02  03  04 
+
+
+
+
+
+
+
+
+
+
+
+Lambda
+
+Kafka
+
+Storm Spark
+ElasticSearch Python+ETL
+
+ 
+
+
+
+1 1  
+
+10000EPS
+
+10
+
+10000
+
+AILPHA
+
+
+
+WebShell      DDoS  ......
+
+
+
+0day     DGA   ......
+
+
+
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+16
+
+18
+
+20
+
+22
+
+24
+
+Time
+
+ - 
+
+
+
+Time
+
+Time
+
+
+
+
+
+
+
+May 10 06:03:40 yangjf sshd[28668]: Accepted password for root from 172.16.0.183 port 58915 ssh2 May 10 06:03:40 yangjf sshd[28668]: pam_unix(sshd:session): session opened for user root by (uid=0) May 10 08:56:27 yangjf sshd[13361]: Received disconnect from 172.16.5.195: 11: disconnected by user May 10 08:56:27 yangjf sshd[13361]: pam_unix(sshd:session): session closed for user root May 10 09:03:40 yangjf sshd[28668]: Accepted password for root from 172.16.0.183 port 58915 ssh2 May 10 09:03:40 yangjf sshd[28668]: pam_unix(sshd:session): session opened for user root by (uid=0)
+
+00
+
+06
+
+12
+
+18
+
+24
+
+
+
+May 10 06:03:40 yangjf sshd[28668]: Accepted password for root from 172.16.0.183 port 58915 ssh2 May 10 06:03:40 yangjf sshd[28668]: pam_unix(sshd:session): session opened for user root by (uid=0) May 10 08:56:27 yangjf sshd[13361]: Received disconnect from 172.16.5.195: 11: disconnected by user May 10 08:56:27 yangjf sshd[13361]: pam_unix(sshd:session): session closed for user root May 10 09:03:40 yangjf sshd[28668]: Accepted password for root from 172.16.0.183 port 58915 ssh2 May 10 09:03:40 yangjf sshd[28668]: pam_unix(sshd:session): session opened for user root by (uid=0)
+
+00
+
+06
+
+12
+
+18
+
+24
+
+00
+
+06
+
+12
+
+18
+
+24
+
+
+
+Y
+
+Y
+
+X
+
+X
+
+
+
+--
+ 
+ 
+
+ 
+ 
+
+May 2 18:18:236 yangjf Nkdenerstnmweoal:rskqvM[i1rab9nr2a00g:]e:Drur[o1sip3np9g5inl]og:c<TaiSlnOfao6d>dfer(eastshue1rse):sodnsielnyvcifceoernsuotnaCqtSueUacMlihfafiendagtenu:ar7em.-e>s 8 (reason 0)
+
+May 2 18:18:236 yangjf Nkdenerstnmweoal:rskqdM[e1av9ni2ca0eg]e:vrirr[e1ba3rd09-5/n]ei:ct<cei/nhftoes>rtesPdo-lp2icroyamdsdeisrtce'usesoteuhss1'm(eotdhe1) as default for IPv4 routing and DNS.
+
+May 2 18:18:236 yangjf Nkdenerstnmweoal:rskqvM[i1rab9nr2a00g:]e:srtr[ae1ra3tdi9n5/g]v:ua<srei/nrlfisbop/>alcAibecvtSiirTvtaP/tdfioannislme(dea,tshqs1/ta)drestufiancugcelkts.esarfdnudel,nl dhSeoTsvPticse- a0catdivdarteesds.es
+
+May 2 18:18:236 yangjf Nkdenerstnmweoal:rskqiMp[1_a9tn2aa0bg]le:rsr[:e1(a3Cd9)5/2]v:0a0<r0i/n-l2fibo0/>0l6AibcNvtieirvttaf/itdlitonensrm(Ceaotsrhqe1/)TdeeSatfmaugelt.5hosft5sf(ilIeP Configure Commit) complete.
+
+May 2 18:18:2367 yangjf Nkeertnweol:rk8EM0ba2tan1baqgl:eeasrd[v1d23i.n90g5r]Ve:Lg<AiisNntef0or>etdowHpaW_sfuilpteprlicoanndtesvtiacretevdirbr0
+
+May May
+
+2 2
+
+18:18:2567 18:18:2567
+
+yyaannggjjffaaddkkeeubnnrrtssnnotmmdeemaa:ll::ossIqqunlloo[-ni1dt::t9h[cDD12cori50psmo9]a[p:1p7bp9l]sei:t2natd0lgero]tP,:oTerkeSDiduvnOH,aptCvecf_ePyrr,iarenEstIaPgixudotrmnr_eeamnsa2nsi.asgni4isoen8tlneco1scero9a:p2ncl.oh1oe6Cks8Siu.zU1peM2(n12fi5.se20pal-tu-us1r)e9:.2c.o1u6l8d.n1't22lo.2c5a4te,lneias+setatibmlee
+
+auto.master 1h
+
+
+
+May 2 18:18:2360 yangjf ldpinoblsvkmiirttadds[:q2[C11o19u02]l0d:]s:ntouatsritfneignddldokaceeaylmtaaodbndfvrielesrs:ei/osenot0nc./ly9li6bfovurisriutn/ngkqraubua5tl.ihftoiaerbidt:ynNaiommspeulsechmfeinletaotriodnir`elcotcoarly' version `0.96'
+
+May 2 189:1485:26 yangjf kdenrsnmeal:sqBf[ur1si9de2gi0en]if:tir(eAwaPdaIilvnleignrg/sieortencg/7isr.te1es3ro)elvd.conf
+
+May 2 189:1485:26 yangjf kdsenarsnhmeoalr:sqev[-i1drb9ar2e00m:]:oDnuro[s2ipn2pg4in1n]ga:mTDSeNOsSe-frSevDaetriun2riet0is2a.ls1iizn0ac1te.i1on7no2f.Ca3iS5lUe#dM53: fDeaaetumroen. not running
+
+......
+
+
+80%
+
+
+90%
+
+
+
+
+
+
+
+
+
+
+
+
+
+NGSOC
+
+
+
+
+
+
+
+WannaCry
+
+Chance of Winning Presidency
+95% 80%
+
+50%
+
+20% 05%
+
+Time
+
+
+
+
+
+
+
+400-6059-110 http://www.dbappsecurity.com.cn/
+
+

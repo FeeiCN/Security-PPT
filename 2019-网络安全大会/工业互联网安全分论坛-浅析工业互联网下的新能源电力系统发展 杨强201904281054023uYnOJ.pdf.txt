@@ -1,0 +1,1500 @@
+   
+qyang@zju.edu.cn http://person.zju.edu.cn/qyang
+
+2019.4.21
+
+"   "
+  
+  
+  
+"+", 
+
+ 
+ 
+
+ 
+ 
+
+
+
+
+
+/ 
+
+
+
+
+
+
+
+IT
+
+/ 
+
+
+
+
+
+
+
+ OT
+
+
+
+
+ 
+
+APP
+
+PaaS 
+
+
+
+PaaS
+
+ ""
+
+
+
+IaaS
+
+ 
+
+
+
+
+
+ 
+
+
+
+"--"
+
+    ""  
+      
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+AI
+
+IDC80%90% 
+
+    
+  """
+"""
+ 
+
+
+
+
+
+   
+
+
+
+
+
+IEEE    IEEE 
+
+"  "          
+
+  
+
+ 
+
+  
+ 
+
+    2014    
+
+  
+ 
+
+ ""  
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+ 
+
+
+     
+
+  
+   
+
+  
+
+
+
+ "" [Bellman, 1978]  "" [Haugeland,1985]  "" [Winston, 1992]  "" [Nilsson1998]  "" [Stuart Russell, 2003]
+ 
+
+
+" "
+
+"--   "
+<>
+
+ 10 
+
+     
+
+
+2.0
+201735
+
+  
+
+ 
+
+ 
+
+
+
+
+
+:
+
+  
+
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+    
+
+
+
+
+
+
+
+  
+
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+   "DG-"DG 
+
+ 
+RTP
+
+ 
+
+
+
+ RTP
+
+"DG-
+
+-"DG
+
+
+
+6.5
+
+5
+
+  
+
+
+RTP
+
+Solar power
+
+6
+
+Wind power
+
+4
+
+5.5
+
+3
+
+HAN
+
+5
+
+2
+
+RTP (cents/KWh) DG Energy (KW)
+
+4.5
+
+1
+
+
+
+
+
+
+
+ 
+
+4
+
+0
+
+0:00 3:00 6:00 9:00 12:00 15:00 18:00 21:00 24:00
+
+Time (h)
+
+
+
+ (KW) SOC (%)
+
+
+
+6
+
+100
+
+4 80
+
+2 60
+
+0
+
+40
+
+-2
+
+
+
+-4
+
+
+
+20
+
+
+
+SOC
+
+-6
+
+0
+
+0:00 3:00 6:00 9:00 12:00 15:00 18:00 21:00 24:00
+
+ (h)
+
+
+
+
+ 1DGRTP DG DG
+ 2 
+
+
+
+ (/KWh)
+
+7 6.5
+6 5.5
+5 4.5
+4 3.5
+0:00
+
+ RTP RTP
+
+3:00
+
+6:00
+
+9:00 12:00 15:00 18:00 21:00 24:00  (h)
+
+8 
+
+7
+
+DGs
+
+DGs
+
+6
+
+5
+
+4
+
+3
+
+2 0:00
+
+3:00
+
+6:00
+
+9:00 12:00 15:00 18:00 21:00 24:00  (h)
+
+DG  (KW)
+
+8
+
+DG 
+
+7
+
+DG 
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0 0:00
+
+3:00
+
+6:00
+
+9:00 12:00 15:00 18:00 21:00 24:00  (h)
+
+DG
+
+ (KW)
+
+
+
+3  
+
+ (KW)
+
+1.5
+
+100
+
+90
+
+1
+
+80
+
+70
+
+0.5
+
+60
+
+50
+
+0
+
+40
+
+30
+
+
+
+-0.5
+
+
+
+20
+
+
+
+10
+
+SOC
+
+-1
+
+0
+
+0:00 3:00 6:00 9:00 12:00 15:00 18:00 21:00 24:00
+
+ (h)
+
+
+
+
+
+40
+
+35 95% =26.8
+
+30
+
+50% =19.0
+
+25
+
+ 
+
+50% =8.5
+
+95% =14.8
+
+20
+
+15
+
+10
+
+5
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+3(day1-day90)
+
+
+
+SOC (%)
+
+  
+
+ 
+
+  
+
+ 863""
+
+3.5 MW,  320kW, 1.7MW, 100kW, (ESS) 1MW 250KW
+
+  (GCR)5
+ (RAF) (SOC)3GCR 
+
+NB 1
+
+NS
+
+ZO
+
+PS
+
+PB
+
+0.5
+
+0 -400 1
+
+-300 L RAF
+
+-200
+
+-100
+
+0 M
+RAF
+
+100
+
+200
+
+300 H
+RAF
+
+400 ( Kw )
+
+0.5
+0 0
+1
+
+50 L
+SOC
+
+100
+
+M SOC
+
+150
+
+200
+
+( Ton ) 250
+H SOC
+
+0.5 0 0
+
+( % )
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+ 
+
+Control surface
+
+Efficiency of renewable energy (%)
+
+1000 800 600
+
+Solar energy Total renewable power Total generated power Baseline industrial demand Wind energy
+
+100 80 60
+
+Power ( KW )
+
+400
+
+40
+
+200
+
+0 00:00:00
+
+06:00:00
+
+12:00:00 Time
+
+18:00:00
+
+00:00:00
+
+
+
+-
+
+Membership functions
+Expected lower bound (70 Ton)
+
+20 0 00:00
+
+Energy efficiency improved with strategy Renewable energy use efficiency w/o stratety
+
+06:00
+
+12:00 Time
+
+18:00
+
+24:00
+
+
+
+LRAF 1
+0.8
+
+MRAF
+
+HRAF
+Expected upper bound (150 Ton)
+
+24:00 18:00
+
+0.6
+
+Real-time water
+
+12:00
+
+0.4
+
+level dynamics
+
+06:00 0.2
+
+0
+
+00:00
+
+0
+
+50 70
+
+100
+
+150
+
+200
+
+250
+
+Ton
+
+
+
+Time
+
+
+  60 SOC50%
+500kW
+
+()  
+
+ 1110 kV51.4 1000 73%
+ 2100201  
+
+  
+
+
+  () 
+  
+  
+
+
+
+
+
+
+
+ 
+
+   
+
+  
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+~76%
+
+~17.1%
+
+National Renewable Energy LaboratoryNREL
+
+ ......
+
+Electrical System Electrical Control
+Other Hydraulic System
+Yaw System
+
+LWK Failure Rate, approx. 5800 Turbine Years
+WMEP Failure Rate, approx. 15400 Turbine Years
+LWK Downtime, approx. 5800 Turbine Years
+WMEP Downtime, approx. 15400 Turbine Years
+
+Rotor Hub
+
+Mechanical Brake
+
+Rotor Blades
+
+Gearbox
+
+Generator
+
+Drive Train
+
+1
+
+0.75
+
+0.5
+
+0.25
+
+0
+
+Annual failure frequency
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+16
+
+Downtime per failure (days)
+
+20000 /
+
+ 
+
+ /
+
+s1 = (cos(2 f0t) + 1) * sin(2 f1t)
+
+s2 = (cos(2 f0t) + 1) * sin(2 f2t)
+
+s3
+
+=
+
+sisnin(2(2fs3fi(3nt((t-2-00.2f.355t)))))***eee---t,((tt0--00..52)5t,)
+
+ 0.25 , 0.25  t 0.5  t 
+
+ 0.5 0.75
+
+ sin(2 f3 (t - 0.75)) * e- (t-0.75) , 0.75  t  1
+
+s4 = sin(2 f4t)
+
+s5 = sin(2 f5t)
+
+2
+
+s 1
+
+0
+
+-2
+
+20
+
+s 2
+
+0
+
+-2
+
+20
+
+s 3
+
+0
+
+-2
+
+20
+
+s 4
+
+0
+
+-2
+
+20
+
+s 5
+
+0
+
+-2 0
+
+200 200 200 200 200
+
+1
+
+400
+
+600
+
+400
+
+600
+
+400
+
+600
+
+400
+
+600
+
+400
+
+600
+
+Sample point
+
+800 800 800 800 800
+
+1000 1000 1000 1000 1000
+
+0.8
+
+x 0.6
+2
+0.4
+
+0.2
+
+0
+
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+Frequency [Hz]
+
+Time [ms]
+
+700
+
+600
+
+500
+
+400
+
+300
+
+0
+
+100
+
+  
+
+ EMDSVDKK-means -C l1
+
+10 5
+x 10 -5 -10 0
+10 5
+x 20 -5 -10 0
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+200
+
+400
+
+600
+
+Sample point
+
+800
+
+1000
+
+-10 -20 -30
+
+2
+
+e0
+
+1
+
+-2
+
+20
+
+200
+
+e0
+
+2
+
+-2
+
+20
+
+200
+
+e0
+
+3
+
+-2
+
+20
+
+200
+
+e
+4
+
+0
+
+-2
+
+20
+
+200
+
+e
+5
+
+0
+
+-2
+
+0
+
+200
+
+-40
+200 300 400 500 Frequency [Hz]
+
+
+
+400
+
+600
+
+400
+
+600
+
+400
+
+600
+
+400
+
+600
+
+400
+
+600
+
+Sample point
+
+800
+
+1000
+
+800
+
+1000
+
+800
+
+1000
+
+800
+
+1000
+
+800
+
+1000
+
+ 
+
+Motor Coupling
+
+Accelerometer
+
+Shaft
+
+Load Module
+
+Four bearings
+
+BPFO
+
+=
+
+nfr 2
+
+1 -
+
+d D
+
+cos 
+
+ 
+
+BSF
+
+=
+
+D 2d
+
+ 1 
+
+-
+
+ 
+
+d D
+
+cos 
+
+2
+
+
+
+
+
+
+ 
+
+Ball passing frequency outer race (BPFO) and ball spin frequency (BSF)
+
+BPFO
+
+BSF1-~4 
+
+EaEMDSVM intrinsic mode function, IMF 
+
+EEMD-SVM training process Original sensor measurement
+...
+
+x1 f1 ={...}
+
+x2
+
+xn
+
+EEMD
+
+Feature construction
+
+f2={...}
+
+...
+
+fn={...}
+
+Model 1
+
+SVM training
+
+Model construction
+
+Model 2
+
+...
+
+Model n
+
+Online vibration signal collection
+Input f={...}
+Additional features
+Synthesis Diagnostic result
+
+Case Western Reserve University (CWRU) testbed
+
+ZJU testbed
+
+3IRF, ORF BF2 DE and FE
+
+P1
+
+P2 P3 B2 P4 G1 B1
+
+PWE1577
+
+P5 B3
+G2
+PWE1577PWE1577 (BPFI)(BPFO)(BSF)(FTF)
+
+ 2014-20202020 100GW1
+ 1 
+ 2  
+  3.8%-7%20%
+
+ 46+-210 4%1810%
+ 16% 25%55%
+ 1435 2014 250MW 30
+  >8%  
+   
+ EVA 3.3%
+
+
+
+/  
+
+
+EVA
+
+
+
+
+
+
+
+
+
+  (70%, 5880 samples)   (20%, 1680 samples)  (10%, 840 samples)
+
+1 ECPS
+220151223"" 
+
+ 1  
+ 2 
+ 3 "" 
+
+"  "
+
+ """""" """"""
+
+1201612----622Mbps 10Gbps641() 59.4%91.1%93.7%97.5%
+2 20175-62308000  99.81%99.97%41
+
+           
+
+    
+
+
+
+
+
+
+
+
+
+
+
+IP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ FDI
+
+Information flow Power flow
+
+Communication networks
+
+... ...
+
+PMU PMU
+
+PMU
+
+Local PDC
+PDC Archive
+
+Remote PDC
+PDC Archive
+
+PMU PMU
+
+G1 3
+G13
+14
+FDI
+Energy Management
+System (EMS)
+
+PDC StreamReader
+
+PDC StreamReader
+
+Other Monitors
+
+Record Analysis Software
+
+Simulation Programs
+
+
+
+Real-time Interface
+Deviation Impact coefficient
+
+G1
+
+G1
+
+4
+
+7
+
+G8
+
+6
+
+28
+
+29
+
+12
+
+16
+
+17 10 9 27
+
+30
+
+20
+
+G11
+
+19
+
+22
+
+21
+
+18
+
+15
+
+23
+
+24
+
+25
+
+26
+
+0.05 0.04 0.03
+
+54
+
+G3 G2 G1
+
+16
+
+17
+
+G6 18 19 20 21
+
+45 15 14 46
+
+13
+
+G12
+
+23
+
+44 48 49
+
+50
+
+26 24 22
+
+38
+
+25
+
+37 39 57
+
+36 40 56 41 11
+
+27 30
+
+33 35
+
+42 43
+
+28 31
+
+32 34
+
+7
+
+29 52
+
+G8
+
+53 54
+
+55
+
+G9
+
+10
+
+51
+
+
+
+1
+
+IEEE 14-bus
+
+IEEE 30-bus
+
+0.8
+
+IEEE 57-bus
+
+IEEE 118-bus 0.6
+
+IEEE 14-bus IEEE 30-bus IEEE 57-bus IEEE 118-bus
+
+0.02
+
+0.4
+
+0.01
+
+0.2
+
+0 0 12 24 36 48 60 72 84 96 108 118 Increased number of PMUs
+
+0 0
+
+12 24 36 48 60 72 84 96 108 118 Increased number of PMUs
+
+ vs. PMU
+
+ 
+
+ ""  
+   
+
+  
+ """"
+ 
+ 
+  ""
+  
+ ......
+
+
+
+  
+ -- 
+ 
+
+ 
+
+  
+
+  
+  
+  
+
+  
+   
+   
+ "--" 
+
+ 
+
+
+ 
+
+ 
+
+  
+
+  
+  
+  
+  
+  
+
+
+   
+
+
+THANK YOU
+
+
+
+
+
+
+
+
+
+

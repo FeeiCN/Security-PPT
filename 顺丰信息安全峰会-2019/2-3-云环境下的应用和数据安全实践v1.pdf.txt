@@ -1,0 +1,232 @@
+50% 
+
+Synergy Research Group, 2017
+
+Customers are responsible for securing the customer applications and content hosted in any cloud infrastructure ­ AWS, Azure, and others
+
+3
+
+Confidential
+
+
+
+· WEB
+
+
+
+  
+
+
+
+· DevOps
+
+­ ­ ­ ·
+
+
+
+
+
+ 
+5
+
+Confidential
+
+· · · · ·
+7
+
+·
+
+·
+
+·
+
+·
+
+·
+
+·
+
+
+
+DDoS 
+
+Name Server Protection
+
+Website Protection
+
+Infrastructure Protection
+
+Confidential
+
+
+WEB SSH, FTP, Telnet
+SIP SMTP UDP, TCP DNS
+
+
+
+Confidential
+
+Incapsula
+
+Amazon ELB
+
+Availability Zone 1
+
+Amazon ELB
+
+Web servers
+
+Amazon ELB
+
+Web servers
+
+Scaling Group
+
+Availability Zone 2
+
+  WAF  AWS
+·  · 
+
+      
+
+13
+
+Confidential
+
+ 
+
+ 
+
+DDoS
+
+
+
+
+
+15
+
+© 2016 Imperva, Inc. All rights reserved.
+
+ 
+Confidential
+
+
+
+
+
+
+
+5
+2018 Gartner Magic Quadrant for
+Web Application Firewalls
+16
+
+
+2018 Forrester New Wave
+Rue time application SelfPortection
+17
+
+Confidential
+
+·
+
+·
+
+·
+
+·
+
+·
+
+·
+
+·
+
+·
+
+·
+
+19
+
+· RDS
+· AgentRDSLog · OraclePostgreSQL · 
+
+RDS Instance
+
+SecureSphere GW Server
+
+Audit Files and Tables
+
+RDS Instance
+
+RDS Instance
+
+20
+
+Resources: Database & File Servers
+SecureSphere (cloud or on-prem)
+
+Behavior Analysis
+anomaly detection engine
+
+21
+
+Compromised Careless Malicious Privileged
+
+   
+
+Application
+or
+
+Interactive User
+
+
+
+Service Account
+
+Personal DB Account
+
+Metadata
+
+or
+
+Business Critical Data
+
++
+
+or
+
+=
+
+
+
+Transaction Processing
+
+Data Warehouse
+
+or
+
+22
+
+MAP  
+23
+
+REMOVE
+
+
+ACCELERATE
+ 
+
+DEV & TEST
+
+DATA ANALYTICS
+
+COMPLIANCE
+
+CLOUD
+
+OUTSOURCING
+
+AND MORE
+
+

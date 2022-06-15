@@ -1,0 +1,33 @@
+
+
+Bruce McConnell
+
+
+
+
+
+
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+·  ·  ·  · 
+
+
+·  ·  ·  · 
+
+
+·  · THE PLANET ·  · 
+
+!
+
+

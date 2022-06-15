@@ -1,0 +1,110 @@
+  
+
+1969ARPA(4)
+
+1970ARPA(13)
+
+1994
+
+1973·Vinton Cerf·Robert KahnTCP + IP 1990·(Tim Berners-Lee)WWW + URI 1983·Paul MockapetrisDNS
+
+  
+----"+"2017
+
+   
+   
++    
+
+DNS  1."" 2.
+
+
+ 201712 
+ 
+  201812
+5G 
+
+""
+  " " 
+""
+   
+""
+  APP  
+
+(CAICT) 
+
+ 
+
+ RFID   
+  
+   
+       
+
+ID- ID-
+ID-
+
+ ()
+
+A.  B.  C. 
+
+ /
+ 
+ 
+
+"" (Human-meaningful)
+
+ DNSSEC
+
+ (Decentralized)
+
+ (Secure)
+
+/
+
+
+
+
+
+
+
+   Q""  A +
+   Q""   A+ CADNSSECRPKI
+
+   Q  A1.IPsec2.DNSoverHTTP+HTTPs
+
+ 
+
+   Q   AKey
+
+   Q  AABAC 
+
+ 
+
+   Q   AP2PGNUname DHT
+
+          
+
+
+      
+
+    
+   
+
+ 1074
+
+  423 25 
+
+
+
+THANK YOU
+
+
+
+
+
+
+
+
+
+   liuyang7@caict.ac.cn
+
+

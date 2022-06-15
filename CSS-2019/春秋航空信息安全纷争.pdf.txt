@@ -1,0 +1,480 @@
+
+ --
+
+·  · 
+
+·  · 
+
+
+
+VS 
+
+VS 
+
+VS 
+
+
+ 
+
+
+ """" """"  
+   
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+   SMS
+
+(2008~2014)
+
+   
+SDLC
+(2015~2017)
+
+  PCI GDPR &
+
+(2017~)
+
+2008--2014
+ IT
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+SDLC(2015~2017)
+
+ 
+
+
+ 
+
+
+
+180+/
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 2        
+
+  
+
+SHELL
+   
+ && 
+
+
+
+
+
+
+
+
+
+(2017~)
+7
+
+ 
+
+GDPR
+
+DPO(Data Protection Officer)  6
+
+ 
+
+PCI 
+
+
+
+ 
+
+ 
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+   
+
+   
+
+  
+
+
+
+
+
+
+
+
+ 
+
+  
+
+
+
+
+
+  
+
+ APP
+
+
+HTTPs
+HTTPs
+WAF
+
+  ......  
+ CC  ......  0day
+
+
+
+PCI-DSS(Payment Card Industry Data Security Standard) 
+
+
+PCI-DSSSPCI-DSS 612200 6 1 ; 2 ; 3; 4  ; 5; 6 
+ 
+
+
+"""ZZ" """"
+
+
+
+
+
+
+
+·  · 
+
+
+·  · 
+
+ 
+
+ 
+
+
+
+
+·  ·  · 
+   
+
+
+·  ·  · RTO
+  
+
+
+
+Nagios 2010
+ 
+1 
+
+2 
+
+Zabbix 2014
+
+Open-Falcon
+
+ 
+
+2019
+
+A
+
+
+ 
+
+B C
+
+ 
+
+
+D
+3 
+
+4
+
+5 
+
+
+
+6
+
+
+
+
+
+7 
+
+
+
+
+
+ 
+ 
+
+
+
+1.  2.  3.  4. 
+
+
+1.  2. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+IDC
+
+CMDB
+
+
+
+
+
+
+
+
+
+---- 30 3. 
+
+----0
+
+---- 30 4.  ----
+
+
+
+
+
+
+
+
+
+
+
+Internet
+
+IDC
+
+FW IPS
+
+NLB
+
+Si
+
+Si
+
+IDC FW
+IPS/IDS
+
+WAF
+
+Si
+
+Si
+
+NLB
+
+MSTP
+
+Internet
+
+WAF WAF
+
+IDC
+
+FW IPS/IDS
+
+NLB
+
+Si
+
+Si
+
+OTN
+
+IDC FW IPS
+
+Si
+
+Si
+
+NLB
+
+MSTP
+
+IDC FW
+IPS
+
+MSTP
+
+ A
+
+WAF OTN
+
+IDC FW IPS/IDS
+
+Si
+
+Si
+
+NLB
+
+A
+
+OTN
+
+Si
+
+Si
+
+NLB
+
+
+
+
+
+ IDC   A
+
+ A
+
+ADSL
+
+F
+
+ADSL
+
+Internet
+IPSec VPN
+
+H I Y Z
+
+SDH SDH
+SDH SDH
+
+IDC
+
+Si
+
+Si
+ IPS/IDS
+
+IDC  IPS/IDS
+
+MSTP
+
+
+
+IP-VPN
+
+ARINC
+
+Si
+
+Si
+
+IP-VPN
+
+SITA
+
+ADSL
+
+Internet
+
+VPN
+
+F
+H I X Y
+
+SDWAN
+SDH MSTP SDH MSTP SDH MSTP SDH MSTP
+
+
+
+Si
+
+Si
+FW IPS/IDS
+
+IDC FW IPS/IDS
+
+OTN
+
+ 
+
+MPLS/IPVPN
+
+ARINC
+
+Si
+
+Si
+
+MPLS/IPVPN
+
+SITA
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+

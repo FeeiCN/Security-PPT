@@ -1,0 +1,138 @@
+AI
+ 
+
+AI
+
+
+l IoT l  l 
+
+
+l GPU l GPU l AI l  l bad case
+AI
+l CV 
+l  l NLP
+
+
+
+Black-box Attack
++perturbation Cloud-based
+Image Classification Service
+
+Class: Cat Score: 0.99 Original Image
+Class: Toaster Score: 0.99 Adversarial Image
+
+A FALSE sense of security !
+
+AI
+
+
+ 
+
+ 
+
+
+AI
+
+APIQPS
+
+(Img from: http://www.sohu.com/a/215163641_115479)
+
+
+
+
+
+Hossein Hosseini, Baicen Xiao, and Radha Poovendran. 2017. Google's Cloud Vision API is Not Robust to Noise
+
+
+
+
+
+Hossein Hosseini, Baicen Xiao, and Radha Poovendran. 2017. Google's Cloud Vision API is Not Robust to Noise
+
+
+
+
+95.5% 104342
+
+W,H,C= (224,224,3) RGB Format
+224*224*3*256 =38,535,168 !!!!
+
+Andrew Ilyas, Logan Engstrom, Anish Athalye, and Jessy Lin. Query-efficient black-box adversarial examples (superceded). arXiv preprint arXiv:1712.07113, 2017.
+
+
+
+
+
+Subject-based Local Search (SBLS) Attack.
+Google 98%576
+
+Xurong Li, Shouling Ji, Meng Han, Juntao Ji, Zhenyu Ren, Yushan Liu, Chunming Wu. Adversarial Examples Versus Cloud-based Detectors: A Black-box Empirical Study
+
+
+A BAB
+
+The cell (i, j) indicates the accuracy of the adversarial images generated for model i (row) evaluated over model j (column). Yanpei Liu, Xinyun Chen, Liu Chang, and Dawn Song. Delving into transferable adversarial examples and black-box attacks. 2016.
+
+
+
+Blackhat Asia 2019
+
+CV ImageNet
+
+K
+
+The Cost of Learning from the Best: How Prior Knowledge Weakens the Security of Deep Neural
+Networks
+
+
+KK 
+
+
+ 
+
+
+API100 86%
+
+
+
+Step1:API  Step2:  Step3:
+
+Step 3
+
+Step 1
+
+Step 2
+
+
+
+HITB +CyberWeekPGD(FFL-PGD)
+
+
+
+
+
+ 
+
+
+
+ 
++ 
+
+ 
+Top-N 
+
+
+Top1 vs. network. Top-1 validation accuracies for top scoring single-model architectures (Img from https://arxiv.org/abs/1605.07678v1)
+
+
+STOAPGD 
+
+
+90%
+
+
+Google
+
+
+
+

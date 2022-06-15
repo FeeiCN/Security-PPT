@@ -1,0 +1,116 @@
+
+ 
+
+WHOAMI
+· @cdxy_ · @ · / · /
+
+2015
+
+2016
+
+2019
+
+
+
+
+
+
+     
+...
+
+
+
+99% 
+
+0 
+
+200G 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[        ] 
+
+
+ 90%
+
+
+RPS 
+
+
+ 
+
+
+
+  
+
+  
+
+
+
+
+
+IP: x.x.x.x 
+IP: x.x.x.x
+
+IP: x.x.x.x
+   
+IP: x.x.x.x
+
+
+
+
+
+
+
+watchbog 
+
+JIRA(CVE-2019-11581) Solr RCE(CVE-2017-12629) CouchDB RCE(CVE-2018-8007)
+
+SSH
+
+
+
+WEBSHELLTop Top
+
+·  ·  · WordPress · SSH/RDP · Discuz
+· SSH/RDP · WebLogic RCE · Kubernetes API Server · Struts2 RCE · Hadoop YARN 
+
+0day
+
+01-30 04-17
+
+Jenkins RCE (CVE-2019-1003000)
+2019-01-30 15:45:22 - 115.236.5.58
+WebLogic RCE (CVE-2019-2725)
+2019-04-17 18:09:45 - 211.94.162.245
+
+
+
+
+/
+
+
+/
+
+
+Agent
+
+Q&A
+
+cdxy000
+
+cdxy_
+
+

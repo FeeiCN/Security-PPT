@@ -1,0 +1,300 @@
+
+ F5
+
+----
+89%
+· SSL/TLS
+SOURCE: F5.COM/LABS
+
+----
+68%
+
+93%
+
+https://www.f5.com/labs/articles/threat-intelligence/2018phishing-and-fraud-report--attacks-peak-during-the-holidays
+
+PFS----
+RSA
+
+DHE
+
+· 
+
+· 
+
+
+
+
+
+
+Next-Gen Firewall
+
+Web
+
+DLP
+
+Anti-
+
+Gateway
+
+Malware
+
+SSL/TLS 
+
+IPS
+
+Internet / Apps
+
+
+
+, , 
+
+, , 
+
+, , 
+
+, , 
+
+Users
+
+Next-Gen Firewall
+
+Web
+
+DLP
+
+Anti-
+
+Gateway
+
+Malware
+
+
+
+ 
+
+IPS
+
+Internet / Apps
+
+----&F5
+
+-- PRS-NTA --
+PRS-NTAAI  
+-- F5-SSLO --
+F5-SSLO/ 
+X
+
+
+
+
+HTTPS
+
+
+L7
+
+Internet Users
+
+Anti-DDoS
+
+Next-Gen
+
+IPS
+
+APT
+
+WAF
+
+Firewall
+
+·  ·  ·  · 
+
+ Apps
+
+
+SSL/TLS
+
+Next-Gen Firewall
+
+Next-Gen IPS
+
+Malware Protection
+
+Secure Web Gateway
+
+Data Loss Prevention
+
+Other
+
+
+
+SSLO
+
+Apps
+
+
+Inline Insertion (L3 Mode)
+
+Inline Insertion (L2 Mode)
+
+ICAP
+
+Transparent / Explicit Proxy
+
+NGFW
+
+IPS
+
+Anti-Malware
+
+DLP
+
+SIEM
+
+
+
+SSL Orchestrator
+/
+
+
+
+
+
+ / Apps
+
+
+
+ü 
+ü 
+ü 
+ü   
+
+1
+Firewall WAF PRS-NTA
+
+2
+Firewall WAF DLP PRS-NTA
+
+3
+Firewall IPS WAF DLP PRS-NTA
+
+
+
+
+
+
+
+ 
+
+Bypass, ,  
+
+
+
+
+
+
+
+IP. IP.  IP 
+
+IP URL 
+
+
+
+
+
+, 
+HTTP/ HTTPS
+
+
+Bypass
+
+
+
+NGFW (Pool)
+
+IPS (Pool)
+
+Anti-Malware (Pool)
+
+DLP (Pool)
+
+SIEM
+
+
+
+SSL Orchestrator
+/
+
+
+
+ / Apps
+
+SSL Orchestration:
+
+
+
+   
+
+
+
+
+ 
+1
+
+F5 BR + SSLO
+
+
+
+2
+
+WEB
+
+WAF IPS
+
+
+
+
+
+
+
+F5 LTM+GTM
+
+SSLO
+
+SSLO
+SSLO1
+1
+
+SSLO2
+3
+2
+
+
+
+1
+2
+
+
+4
+
+5
+
+WEB WEB
+
+
+
+WEB
+
+AWAF
+
+
+
+
+
+
+
+F5
+
+ 18930807668
+
+

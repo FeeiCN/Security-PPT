@@ -1,0 +1,458 @@
+·
+
+2014
+
+·
+
+·
+
+·
+
+·
+
+·
+
+2
+
+·
+
+·
+
+Shodan, ZoomEye, FOFA
+
+·
+
+·
+
+·
+
+·
+
+·
+
+· 2017
+
+58
+
+·
+
+CNCERT
+
+3
+
+·
+
+· ·
+
+·
+
+·
+
+·
+
+5000 +
+
+·
+
+700 TB+
+
+·
+
+1 TB+
+
+·
+
+·
+
+4
+
+Binary Similarity Binary Instrumentation Dataflow Analysis IPC Monitor & Analysis Security Data Analysis
+5
+
+1.
+6
+
+·
+· ·
+
+·
+
+· 2015.09 XcodeGhost
+
+· 2017.08 Xshell
+
+· 2017.09 CCleaner
+
+· 2018.03
+
+· 2018.12
+
+· 2019.03 ShadowHammer
+
+· 2020.12 SolarWinds Orion
+
+. Google SLSA 
+
+.
+
+7
+
+1 WinRAR RCE
+
+·
+
+·
+
+· Check Point
+
+·
+
+· UNACEV2.DLL
+
+·
+
+·
+
+8
+
+2 WhatsApp RCE
+
+·
+
+·
+
+Awakened
+
+·
+
+· android-gif-drawable
+
+·
+
+·
+
+UAF
+
+· ·
+· ·
+
+APK 10 + App 4 +
+
+9
+
+3 BucketShock
+
+· ·
+
+· ·
+
+·
+
+·
+
+SDK
+
+· ·
+
+·
+·
+· Android
+·
+·
+
+4 70%
+
+10
+
+·
+· ·
+Shellcode · Shellcode
+
+4 Xshell, CCleaner
+
+·
+
+
+
+·
+
+·
+
+
+
+XshellGhost, CCleanerBackdoor
+
+11
+
+5
+
+·
+
+·
+
+·
+
+·
+
+·
+
+·
+
+·
+
+· dtlupdate.updrv.com
+· globalupdate.updrv.com · dtl.update.updrv.com
+
+12
+
+2.
+13
+
+·
+· · 2019.01 · 2019.03 APP · 2019.05 · 2019.08 · 2019.12 · 2020.08 · 2020.08 · 2021.06 · 2021.08
+
+APP APP
+APP APP 2020 APP
+
+14
+
+SDK  SDK
+15
+
+17
+
+·
+
+·
+
+·
+
+·
+
+
+
+·
+
+·
+
+IP
+
+·
+
+·
+
+18
+
+SDK
+
+1. SDK 2. 3.
+
+1. 2. metadata
+
+1. 2. 3.
+
+SDK SDK
+
+SDK
+Android / iOS
+
+19
+
+· SDK · ·
+· SDK · ·
+
+SDK
+
+App
+
+SDK
+
+20
+
+· · · ·
+· App · SDK
+21
+
+1 SDK
+
+·
+
+· SDK
+
+·
+
+·
+
+App
+
+· App
+
+·
+
+·
+
+SDK
+
+· SDK
+
+·
+
+·
+·
+
+SDK App
+
+
+xxx SDK
+xxx 4
+
+18 xx xx xx
+
+22
+
+2 SDK
+
+· SDK
+
+SDK
+
+·
+
+·
+
+SDK
+
+·
+
+
+
+·
+
+SDK
+
+·
+
+SDK
+
+·
+
+
+ 
+
+·
+
+SDK
+
+23
+
+3 SDK
+
+·
+
+SDK
+
+· SDK · App
+· ·
+
+· SDK
+·
+
+·
+
+
+
+· FYI
+
+· · Google Play / Apple App Store
+
+at android.app.ApplicationPackageManager.getInstalledPackages(Native Method) at xx.xx.xx.android.utils.DeviceInfo.c(Unknown Source) at xx.xx.xx.android.utils.DeviceInfo.init(Unknown Source) at xx.xx.xx.android.api.JShareInterface.init(Unknown Source) at xx.xx.xx.toothbrush.XrushApp.onCreate(XrushApp.java:103) at com.tencent.xx.beta.xx.XxxPatchReflectApplication.onCreate(BUGLY:189) at com.wrapper.proxyapplication.WrapperProxyApplication.Ooo0ooO0oO(d) at com.wrapper.proxyapplication.WrapperProxyApplication.onCreate() at xx.xx.xx.toothbrush.MyWrapperProxyApplication.onCreate() at android.app.Instrumentation.callApplicationOnCreate()
+error SDK
+
+24
+
+3. App
+25
+
+App
+
+·
+
+·
+
+Android
+
+·
+
+· Android
+
+·
+
+· ·
+
+· ·
+
+· · ·
+
+26
+
+App
+·
+· ·
+·
+· 2019 237
+· 2019 3
+27
+
+App
+· · ·
+· · ·
+
+3800 +
+Android
+120 +
+iOS
+28
+
+App
+
+·
+
+·
+
+29
+
+App
+
+·
+
+
+
+·
+
+SDK
+
+·
+
+ID
+
+· ·
+
+·
+
+·
+
+30
+
+· ·
+·
+· · · ·
+
+IR Lifting
+
+Hook
+
+31
+
+KCon
+
+

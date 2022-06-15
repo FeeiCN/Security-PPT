@@ -3374,8 +3374,11 @@
 │       └── 爱康集团信息安全建设-吴洋1222.pdf
 ├── 2020-贝壳找房ICS安全技术峰会
 │   ├── 2.产业互联网安全，我们只是在探索-胡珀.pdf
+│   ├── 2.产业互联网安全，我们只是在探索-胡珀.pdf.txt
 │   ├── 4.小米AIOT安全思考与实践-王书魁.pdf
-│   └── 7.安全风控之客户端技术实践分享-李智(文字新增).pdf
+│   ├── 4.小米AIOT安全思考与实践-王书魁.pdf.txt
+│   ├── 7.安全风控之客户端技术实践分享-李智(文字新增).pdf
+│   └── 7.安全风控之客户端技术实践分享-李智(文字新增).pdf.txt
 ├── 2020-零信任十周年峰会
 │   ├── 1【黄国忠】零信任的落地实践：SDP.pdf
 │   ├── 2【严雷】微隔离在零信任架构中的价值与挑战--final(1).pdf
@@ -4534,6 +4537,7 @@
 │   └── 2020CIS基于安全切面实现银行级默认安全.pdf
 ├── CSS-2019
 │   ├── 2018企业信息安全头号威胁报告.pdf
+│   ├── 2018企业信息安全头号威胁报告.txt
 │   ├── IDC企业安全建设.pdf
 │   ├── web安全.pdf
 │   ├── 中国产业互联网安全发展报告.pdf
@@ -5049,45 +5053,85 @@
 │   └── presentation_first_2015_part2.pdf
 ├── FIRST-2017
 │   ├── 1-The-Official-Home-for-IPv6-Attacks.pdf
+│   ├── 1-The-Official-Home-for-IPv6-Attacks.pdf.txt
 │   ├── AIL-Framework-Analysis-Information-Leak-Framework.pdf
+│   ├── AIL-Framework-Analysis-Information-Leak-Framework.pdf.txt
 │   ├── APT-Log-Analysis-Tracking-Attack-Tools-by-Audit-Policy-and-Sysmon.pdf
+│   ├── APT-Log-Analysis-Tracking-Attack-Tools-by-Audit-Policy-and-Sysmon.pdf.txt
 │   ├── Active-Directory-How-To-Change-a-Weak-Point-Into-a-Leverage-for-Security-Monitoring.pdf
+│   ├── Active-Directory-How-To-Change-a-Weak-Point-Into-a-Leverage-for-Security-Monitoring.pdf.txt
 │   ├── Advanced-Incident-Detection-and-Threat-Hunting-using-Sysmon-and-Splunk.pdf
+│   ├── Advanced-Incident-Detection-and-Threat-Hunting-using-Sysmon-and-Splunk.pdf.txt
 │   ├── Building-a-Product-Security-Team_The-Good-the-Bad-and-the-Ugly-Lessons-from-the-Field.pdf
+│   ├── Building-a-Product-Security-Team_The-Good-the-Bad-and-the-Ugly-Lessons-from-the-Field.pdf.txt
 │   ├── Building-a-Threat-Hunting-Framework-for-the-Enterprise.pdf
+│   ├── Building-a-Threat-Hunting-Framework-for-the-Enterprise.pdf.txt
 │   ├── Collaborative-Information-Sharing-Model-for-Malware-Threat-Analysis.pdf
+│   ├── Collaborative-Information-Sharing-Model-for-Malware-Threat-Analysis.pdf.txt
 │   ├── Countering-Innovative-Sandbox-Evasion-Techniques-Used-by-Malware.pdf
+│   ├── Countering-Innovative-Sandbox-Evasion-Techniques-Used-by-Malware.pdf.txt
 │   ├── Defensive-Evasion-How-APT-Adversaries-Bypass-Security-Controls.pdf
+│   ├── Defensive-Evasion-How-APT-Adversaries-Bypass-Security-Controls.pdf.txt
 │   ├── Digital-Supply-Chain-The-Exposed-Flank-In-2017.pdf
+│   ├── Digital-Supply-Chain-The-Exposed-Flank-In-2017.pdf.txt
 │   ├── Disrupting-IoT-Worms-in-Finland-2016-Edition.pdf
+│   ├── Disrupting-IoT-Worms-in-Finland-2016-Edition.pdf.txt
 │   ├── Experiences-and-Lessons-Learned-from-a-Siemens-Wide-Security-Patch-Management-Service-for-Products.pdf
+│   ├── Experiences-and-Lessons-Learned-from-a-Siemens-Wide-Security-Patch-Management-Service-for-Products.pdf.txt
 │   ├── Experiences-in-Threat-Data-Processing-and-Analysis-Using-Open-Source-Software.pdf
+│   ├── Experiences-in-Threat-Data-Processing-and-Analysis-Using-Open-Source-Software.pdf.txt
 │   ├── FIRST2017-Conference-Program.pdf
+│   ├── FIRST2017-Conference-Program.pdf.txt
 │   ├── Going-Undetected-How-Cybercriminals-Hacktivists-and-Nation-States-Misuse-Digital-Certificates.pdf
+│   ├── Going-Undetected-How-Cybercriminals-Hacktivists-and-Nation-States-Misuse-Digital-Certificates.pdf.txt
 │   ├── Hajime-the-Mainline-DHT.pdf
+│   ├── Hajime-the-Mainline-DHT.pdf.txt
 │   ├── Handling-an-Incident-in-CERT-EU.pdf
+│   ├── Handling-an-Incident-in-CERT-EU.pdf.txt
 │   ├── Hey-You-Have-a-Problem-On-the-Feasibility-of-Large-Scale-Web-Vulnerability-Notification.pdf
+│   ├── Hey-You-Have-a-Problem-On-the-Feasibility-of-Large-Scale-Web-Vulnerability-Notification.pdf.txt
 │   ├── How-To-Ruin-Your-Weekend-And-Business-In-Few-Simple-Steps.pdf
+│   ├── How-To-Ruin-Your-Weekend-And-Business-In-Few-Simple-Steps.pdf.txt
 │   ├── Hunting-for-Threats-in-Academic-Networks.pdf
+│   ├── Hunting-for-Threats-in-Academic-Networks.pdf.txt
 │   ├── Implementing-a-Country-wide-Sensor-Infrastructure-for-Proactive-Detection-of-Malicious-Activity.pdf
+│   ├── Implementing-a-Country-wide-Sensor-Infrastructure-for-Proactive-Detection-of-Malicious-Activity.pdf.txt
 │   ├── Improving-Useful-Data-Extraction-from-Cybersecurity-Incident-Reports.pdf
+│   ├── Improving-Useful-Data-Extraction-from-Cybersecurity-Incident-Reports.pdf.txt
 │   ├── Lean-Gains-Small-Team-Effectiveness.pdf
+│   ├── Lean-Gains-Small-Team-Effectiveness.pdf.txt
 │   ├── Malicious-Proxy-Auto-Configs-Harvesting-Credentials-From-Web-Forms-Made-Easy.pdf
+│   ├── Malicious-Proxy-Auto-Configs-Harvesting-Credentials-From-Web-Forms-Made-Easy.pdf.txt
 │   ├── Medical-Device-Security-A-Sucking-Chest-Wound-That-Needs-Emergency-Medicine.pdf
+│   ├── Medical-Device-Security-A-Sucking-Chest-Wound-That-Needs-Emergency-Medicine.pdf.txt
 │   ├── Non-Formal-Everything-Out-of-Normal.pdf
+│   ├── Non-Formal-Everything-Out-of-Normal.pdf.txt
 │   ├── Ozon-Running-a-Gap-Bridging-Cybercrisis-Exercise.pdf
+│   ├── Ozon-Running-a-Gap-Bridging-Cybercrisis-Exercise.pdf.txt
 │   ├── Panel-Topic-Issues-Surrounding-Internet-of-Things-IoT-Security-Upgradibility-and-Patching.pdf
+│   ├── Panel-Topic-Issues-Surrounding-Internet-of-Things-IoT-Security-Upgradibility-and-Patching.pdf.txt
 │   ├── Practical-Workflow-for-Automation-and-Orchestration-of-Addressing-Cyber.pdf
+│   ├── Practical-Workflow-for-Automation-and-Orchestration-of-Addressing-Cyber.pdf.txt
 │   ├── PyNetSim-A-Modern-INetSim-Replacement.pdf
+│   ├── PyNetSim-A-Modern-INetSim-Replacement.pdf.txt
 │   ├── Rio-2016-Olympic-CSIRT-Creation-Operation-and-Lessons-Learned.pdf
+│   ├── Rio-2016-Olympic-CSIRT-Creation-Operation-and-Lessons-Learned.pdf.txt
 │   ├── Romeo-Chris-Appsec-Behaviors.pdf
+│   ├── Romeo-Chris-Appsec-Behaviors.pdf.txt
 │   ├── The-Arrr-in-PSIRT.pdf
+│   ├── The-Arrr-in-PSIRT.pdf.txt
 │   ├── The-Art-of-the-Jedi-Mind-Trick-Learning-Effective-Communication-Skills.pdf
+│   ├── The-Art-of-the-Jedi-Mind-Trick-Learning-Effective-Communication-Skills.pdf.txt
 │   ├── The-Ransomware-Odyssey-Their-Relevance-and-Their-Kryptonite.pdf
+│   ├── The-Ransomware-Odyssey-Their-Relevance-and-Their-Kryptonite.pdf.txt
 │   ├── Threat-Ontologies-for-Cyber-Security-Analytics.pdf
+│   ├── Threat-Ontologies-for-Cyber-Security-Analytics.pdf.txt
 │   ├── Web-as-ongoing-threat-vector-case-studies-from-Europe-and-Asia-Pacific.pdf
+│   ├── Web-as-ongoing-threat-vector-case-studies-from-Europe-and-Asia-Pacific.pdf.txt
 │   ├── You-Dont-Need-a-Better-Car-You-Need-to-Learn-How-to-Drive-On-the-Importance-of-Cyber-Defense-Line-Automation.pdf
-│   └── You-re-Leaking-Incident-Response-in-the-World-of-DevOps.pdf
+│   ├── You-Dont-Need-a-Better-Car-You-Need-to-Learn-How-to-Drive-On-the-Importance-of-Cyber-Defense-Line-Automation.pdf.txt
+│   ├── You-re-Leaking-Incident-Response-in-the-World-of-DevOps.pdf
+│   └── You-re-Leaking-Incident-Response-in-the-World-of-DevOps.pdf.txt
 ├── FIRST-2018
 │   ├── 01-APCERT_Presentation_2018.pdf
 │   ├── 02-SarojL-SecurityTrendsNepal.pdf
@@ -5147,12 +5191,19 @@
 │   └── Wilson-Doug_FIRST_20180629.pdf
 ├── FIRST-2019
 │   ├── AsianGames-first2019.pdf
+│   ├── AsianGames-first2019.pdf.txt
 │   ├── Blue-team-vs.-Red-team-Tabletop-Exercise-to-Train-the-Process-of-Attack-Investigation.pdf
+│   ├── Blue-team-vs.-Red-team-Tabletop-Exercise-to-Train-the-Process-of-Attack-Investigation.pdf.txt
 │   ├── FIRST-Annual-Report-2018-2019.pdf
+│   ├── FIRST-Annual-Report-2018-2019.pdf.txt
 │   ├── FIRST2019_OptimizePrime.pdf
+│   ├── FIRST2019_OptimizePrime.pdf.txt
 │   ├── Public-_Hunting-and-Automation-Using-Open-Source-Tools_FIRST.pdf
+│   ├── Public-_Hunting-and-Automation-Using-Open-Source-Tools_FIRST.pdf.txt
 │   ├── Threat-Detection-based-on-Deep-Learning-at-Scale_PUBLIC_presentationFirst2019-upload.pdf
-│   └── Vetterl_fingerprinting-honeypots_FIRST-19.pdf
+│   ├── Threat-Detection-based-on-Deep-Learning-at-Scale_PUBLIC_presentationFirst2019-upload.pdf.txt
+│   ├── Vetterl_fingerprinting-honeypots_FIRST-19.pdf
+│   └── Vetterl_fingerprinting-honeypots_FIRST-19.pdf.txt
 ├── FIT-2017
 │   ├── How Cybercrime Bypasses common security controls in the enterprises.pptx
 │   ├── poc链接的反分析.pptx
@@ -6112,39 +6163,72 @@
 │   └── 高级攻防演练下的Webshell.pdf
 ├── KCon-West-2016
 │   ├── VxWorks Fuzzing 之道——VxWorks 工控实时操作系统漏洞挖掘揭秘-吴少荣.pdf
+│   ├── VxWorks Fuzzing 之道——VxWorks 工控实时操作系统漏洞挖掘揭秘-吴少荣.pdf.txt
 │   ├── 一起跨国网络诈骗案件的始末-杨哲(Longas) .pdf
+│   ├── 一起跨国网络诈骗案件的始末-杨哲(Longas) .pdf.txt
 │   ├── 基于大数据的僵尸网络攻击监控-伤心的鱼.pdf
+│   ├── 基于大数据的僵尸网络攻击监控-伤心的鱼.pdf.txt
 │   ├── 多活的5年-Only_Guest.pdf
+│   ├── 多活的5年-Only_Guest.pdf.txt
 │   ├── 浅谈信息安全主战场的转移-Line.pdf
+│   ├── 浅谈信息安全主战场的转移-Line.pdf.txt
 │   ├── 网络空间对抗——基础决定成败-风宁.pdf
-│   └── 黑客游乐场-云技术带来的教育变革-张凯.pdf
+│   ├── 网络空间对抗——基础决定成败-风宁.pdf.txt
+│   ├── 黑客游乐场-云技术带来的教育变革-张凯.pdf
+│   └── 黑客游乐场-云技术带来的教育变革-张凯.pdf.txt
 ├── NSC-2014
 │   ├── SDP_Hackathon_Whitepaper.pdf
+│   ├── SDP_Hackathon_Whitepaper.pdf.txt
 │   ├── Software_Defined_Perimeter.pdf
+│   ├── Software_Defined_Perimeter.pdf.txt
 │   ├── 丁珂-移动互联网时代的安全新格局.pdf
+│   ├── 丁珂-移动互联网时代的安全新格局.pdf.txt
 │   ├── 刘安正-工控系统信息安全整体解决方案.pdf
+│   ├── 刘安正-工控系统信息安全整体解决方案.pdf.txt
 │   ├── 周晓波-自然语言处理和病毒防护技术在网购安全中的应用.pdf
+│   ├── 周晓波-自然语言处理和病毒防护技术在网购安全中的应用.pdf.txt
 │   ├── 夏良钊-Safe Zygote为移动支付安全护航.pdf
+│   ├── 夏良钊-Safe Zygote为移动支付安全护航.pdf.txt
 │   ├── 宋炎-复兴医院信息安全建设的实践与体会.pdf
+│   ├── 宋炎-复兴医院信息安全建设的实践与体会.pdf.txt
 │   ├── 曲博-下一代网络安全测试方法.pdf
+│   ├── 曲博-下一代网络安全测试方法.pdf.txt
 │   ├── 李炜-信息主管如何推动企业信息安全建设.pdf
+│   ├── 李炜-信息主管如何推动企业信息安全建设.pdf.txt
 │   ├── 李玉敏-工业控制系统信息安全标准化现状.pdf
+│   ├── 李玉敏-工业控制系统信息安全标准化现状.pdf.txt
 │   ├── 段海新-互联网基础设施信任模型.pdf
+│   ├── 段海新-互联网基础设施信任模型.pdf.txt
 │   ├── 汪德嘉-暗战：营销反欺诈攻防.pdf
+│   ├── 汪德嘉-暗战：营销反欺诈攻防.pdf.txt
 │   ├── 沈寓实-云安全大会演讲.pdf
+│   ├── 沈寓实-云安全大会演讲.pdf.txt
 │   ├── 王伟-那些企业网络中的未知威胁、未知攻击事件.pdf
+│   ├── 王伟-那些企业网络中的未知威胁、未知攻击事件.pdf.txt
 │   ├── 程鹏-两化融合保障实战固隔监.pdf
+│   ├── 程鹏-两化融合保障实战固隔监.pdf.txt
 │   ├── 章恒-构建云计算环境的安全检查与评估指标体系.pdf
+│   ├── 章恒-构建云计算环境的安全检查与评估指标体系.pdf.txt
 │   ├── 练晓谦-一洞观全球.pdfx.pdf
+│   ├── 练晓谦-一洞观全球.pdfx.pdf.txt
 │   ├── 苏海峰-全球移动安全趋势分析.pdf
+│   ├── 苏海峰-全球移动安全趋势分析.pdf.txt
 │   ├── 袁沈钢-互联网时代下的企业安全变革.pdf
+│   ├── 袁沈钢-互联网时代下的企业安全变革.pdf.txt
 │   ├── 许舟平-软件定义边界和安全行业趋势.pdf
+│   ├── 许舟平-软件定义边界和安全行业趋势.pdf.txt
 │   ├── 邵国安-国家电子政务外网情况及新技术带来的安全挑战.pdf
+│   ├── 邵国安-国家电子政务外网情况及新技术带来的安全挑战.pdf.txt
 │   ├── 金起荣-公共基础设施威胁与安全AhnLab EPS.pdf
+│   ├── 金起荣-公共基础设施威胁与安全AhnLab EPS.pdf.txt
 │   ├── 陆臻-全国信息安全产品检测现状与分析.pdf
+│   ├── 陆臻-全国信息安全产品检测现状与分析.pdf.txt
 │   ├── 陈天晴-关于银行信息系统安全可控的思考.pdf
+│   ├── 陈天晴-关于银行信息系统安全可控的思考.pdf.txt
 │   ├── 高磊-APP安全面临的新挑战与解决方案.pdf
-│   └── 齐亚卓-互联网时代制造业信息安全探索.pdf
+│   ├── 高磊-APP安全面临的新挑战与解决方案.pdf.txt
+│   ├── 齐亚卓-互联网时代制造业信息安全探索.pdf
+│   └── 齐亚卓-互联网时代制造业信息安全探索.pdf.txt
 ├── NSC-2015
 │   ├── 万涛-众声喧哗之没牙的老虎这些年.pdf
 │   ├── 云朋-让电商插上云安全的翅膀.pdf
@@ -6196,154 +6280,277 @@
 │   ├── 4月23日
 │   │   ├── 主题演讲
 │   │   │   ├── 1.赵海平-异步处理.pdf
+│   │   │   ├── 1.赵海平-异步处理.pdf.txt
 │   │   │   ├── 2.Ben Linders--Need for Continuous Improvement.pdf
-│   │   │   └── 3.David Pollak--scala clojure.pdf
+│   │   │   ├── 2.Ben Linders--Need for Continuous Improvement.pdf.txt
+│   │   │   ├── 3.David Pollak--scala clojure.pdf
+│   │   │   └── 3.David Pollak--scala clojure.pdf.txt
 │   │   ├── 云计算高可用架构设计与实践
 │   │   │   ├── 1.张献涛--热修复Xen高危安全漏洞.pdf
+│   │   │   ├── 1.张献涛--热修复Xen高危安全漏洞.pdf.txt
 │   │   │   ├── 2.傅翠云--异地多活数据流基础设施DRC.pdf
+│   │   │   ├── 2.傅翠云--异地多活数据流基础设施DRC.pdf.txt
 │   │   │   ├── 3.韦啸--云上大数据—生于战火的云端计算平台：ODPS与阿里PAI.pdf
-│   │   │   └── 4.刘刚--亲历互联网金融风口.pdf
+│   │   │   ├── 3.韦啸--云上大数据—生于战火的云端计算平台：ODPS与阿里PAI.pdf.txt
+│   │   │   ├── 4.刘刚--亲历互联网金融风口.pdf
+│   │   │   └── 4.刘刚--亲历互联网金融风口.pdf.txt
 │   │   ├── 互联网金融
 │   │   │   ├── 2.刘晓莹--蚂蚁去O实战剖析.pdf
+│   │   │   ├── 2.刘晓莹--蚂蚁去O实战剖析.pdf.txt
 │   │   │   ├── 3.张宁--移动大数据技术在互联网金融获客及经营中的应用.pdf
+│   │   │   ├── 3.张宁--移动大数据技术在互联网金融获客及经营中的应用.pdf.txt
 │   │   │   ├── 4.孔令欣--互联网金融.pdf
+│   │   │   ├── 4.孔令欣--互联网金融.pdf.txt
 │   │   │   ├── 5.姜克--区域性银行共享服务中心实践.pdf
-│   │   │   └── 6.况文川--如何重塑数字化银行的核心.pdf
+│   │   │   ├── 5.姜克--区域性银行共享服务中心实践.pdf.txt
+│   │   │   ├── 6.况文川--如何重塑数字化银行的核心.pdf
+│   │   │   └── 6.况文川--如何重塑数字化银行的核心.pdf.txt
 │   │   ├── 团队建设
 │   │   │   ├── 1.谢欣、董飞--中西对话-团队管理的五项理论和实战.pdf
+│   │   │   ├── 1.谢欣、董飞--中西对话-团队管理的五项理论和实战.pdf.txt
 │   │   │   ├── 2.刘平川--从工程师到团队Leader之路——建设优秀的技术团队.pdf
+│   │   │   ├── 2.刘平川--从工程师到团队Leader之路——建设优秀的技术团队.pdf.txt
 │   │   │   ├── 3.李云--打造高质效的技术团队.pdf
-│   │   │   └── 4.Barbara Horne--Project That Work.pdf
+│   │   │   ├── 3.李云--打造高质效的技术团队.pdf.txt
+│   │   │   ├── 4.Barbara Horne--Project That Work.pdf
+│   │   │   └── 4.Barbara Horne--Project That Work.pdf.txt
 │   │   ├── 技术创业
 │   │   │   ├── 1.江宏--从工程师到创业者.pdf
+│   │   │   ├── 1.江宏--从工程师到创业者.pdf.txt
 │   │   │   ├── 2.雷欣--一个Google系的创业公司如何在中国做人工智能.pdf
-│   │   │   └── 3.周哲--谷歌，投资，创业.pdf
+│   │   │   ├── 2.雷欣--一个Google系的创业公司如何在中国做人工智能.pdf.txt
+│   │   │   ├── 3.周哲--谷歌，投资，创业.pdf
+│   │   │   └── 3.周哲--谷歌，投资，创业.pdf.txt
 │   │   ├── 挑战全栈开发
 │   │   │   ├── 1.许晓斌--我在AliExpress是怎么做全栈的.pdf
+│   │   │   ├── 1.许晓斌--我在AliExpress是怎么做全栈的.pdf.txt
 │   │   │   ├── 2.王文沛--全栈工程师的自我修养.pdf
+│   │   │   ├── 2.王文沛--全栈工程师的自我修养.pdf.txt
 │   │   │   ├── 3.孙宇聪--全栈开发.pdf
-│   │   │   └── 4.庄恒飞--孢子团队全栈开发.pdf
+│   │   │   ├── 3.孙宇聪--全栈开发.pdf.txt
+│   │   │   ├── 4.庄恒飞--孢子团队全栈开发.pdf
+│   │   │   └── 4.庄恒飞--孢子团队全栈开发.pdf.txt
 │   │   ├── 新时代的安全
 │   │   │   ├── 1.宗泽--让安全飞.pdf
+│   │   │   ├── 1.宗泽--让安全飞.pdf.txt
 │   │   │   ├── 2.周景平--阉党、流氓、傻X.pdf
+│   │   │   ├── 2.周景平--阉党、流氓、傻X.pdf.txt
 │   │   │   ├── 3.祝建跃--互联网全球最大DDoS攻击防御实战分享.pdf
-│   │   │   └── 4.Peter Hlavaty--Guardians Of Your Code.pdf
+│   │   │   ├── 3.祝建跃--互联网全球最大DDoS攻击防御实战分享.pdf.txt
+│   │   │   ├── 4.Peter Hlavaty--Guardians Of Your Code.pdf
+│   │   │   └── 4.Peter Hlavaty--Guardians Of Your Code.pdf.txt
 │   │   └── 永不止步的前端
 │   │       ├── 2.韩凯、董晓庆--数据可视化.pdf
+│   │       ├── 2.韩凯、董晓庆--数据可视化.pdf.txt
 │   │       ├── 3.贺师俊--ES6实战.txt
 │   │       ├── 4.罗彧成--Android QQ音乐架构演进.pdf
+│   │       ├── 4.罗彧成--Android QQ音乐架构演进.pdf.txt
 │   │       ├── 5.李晶、邢舰--极致的Hybrid.pdf
+│   │       ├── 5.李晶、邢舰--极致的Hybrid.pdf.txt
 │   │       ├── 6.郭晏桢--前端工程产品实践.pdf
-│   │       └── 7.吕婷--与产品紧密前端工程师的成与责.pdf
+│   │       ├── 6.郭晏桢--前端工程产品实践.pdf.txt
+│   │       ├── 7.吕婷--与产品紧密前端工程师的成与责.pdf
+│   │       └── 7.吕婷--与产品紧密前端工程师的成与责.pdf.txt
 │   ├── 4月24日
 │   │   ├── 云计算与大数据应用选型
 │   │   │   ├── 1.刘诚忠--明略大数据产品演进实践.pdf
+│   │   │   ├── 1.刘诚忠--明略大数据产品演进实践.pdf.txt
 │   │   │   ├── 2.孙大伟--FreeWheel用户数据管理.pdf
+│   │   │   ├── 2.孙大伟--FreeWheel用户数据管理.pdf.txt
 │   │   │   ├── 3.刘艳凯--传统应用到云原生应用的重构.pdf
+│   │   │   ├── 3.刘艳凯--传统应用到云原生应用的重构.pdf.txt
 │   │   │   ├── 4.甘泉--青云存储实践.pdf
+│   │   │   ├── 4.甘泉--青云存储实践.pdf.txt
 │   │   │   ├── 5.杨博--面向混合云的容器服务实践.pdf
+│   │   │   ├── 5.杨博--面向混合云的容器服务实践.pdf.txt
 │   │   │   ├── 6.包彤--PaaS上部署和优化应用与数据库.pdf
-│   │   │   └── 7.孙利兵--Hadoop大数据开放平台建设.pdf
+│   │   │   ├── 6.包彤--PaaS上部署和优化应用与数据库.pdf.txt
+│   │   │   ├── 7.孙利兵--Hadoop大数据开放平台建设.pdf
+│   │   │   └── 7.孙利兵--Hadoop大数据开放平台建设.pdf.txt
 │   │   ├── 云计算平台构建与应用
 │   │   │   ├── 1.Chris Van Tuin--容器化思维(1).pdf
+│   │   │   ├── 1.Chris Van Tuin--容器化思维(1).pdf.txt
 │   │   │   ├── 2.肖德时--基于Docker容器的云计算平台搭建实战.pdf
+│   │   │   ├── 2.肖德时--基于Docker容器的云计算平台搭建实战.pdf.txt
 │   │   │   ├── 3.闫国旗--容器核心技术及SDN实践.pdf
+│   │   │   ├── 3.闫国旗--容器核心技术及SDN实践.pdf.txt
 │   │   │   ├── 4.章宇--从OpenStack视角看NFV.pdf
+│   │   │   ├── 4.章宇--从OpenStack视角看NFV.pdf.txt
 │   │   │   ├── 5.李道兵--分布式存储的元数据设计.pdf
+│   │   │   ├── 5.李道兵--分布式存储的元数据设计.pdf.txt
 │   │   │   ├── 6.李淼--QCon北京2015幻灯片.pdf
-│   │   │   └── 7.鲁为民--打造开放的云平台服务MoPaaS.pdf
+│   │   │   ├── 6.李淼--QCon北京2015幻灯片.pdf.txt
+│   │   │   ├── 7.鲁为民--打造开放的云平台服务MoPaaS.pdf
+│   │   │   └── 7.鲁为民--打造开放的云平台服务MoPaaS.pdf.txt
 │   │   ├── 亚马逊AWS技术应用实践
 │   │   │   ├── 1-1.代闻--基于AWS的DevOps实践指南.pdf
+│   │   │   ├── 1-1.代闻--基于AWS的DevOps实践指南.pdf.txt
 │   │   │   ├── 1-2.王琰--在AWS上的运维自动化实践分享.pdf
+│   │   │   ├── 1-2.王琰--在AWS上的运维自动化实践分享.pdf.txt
 │   │   │   ├── 2.张侠--搭建混合IT架构方法和案例.pdf
+│   │   │   ├── 2.张侠--搭建混合IT架构方法和案例.pdf.txt
 │   │   │   ├── 3.张荣典、陈峻--AWS云平台的移动应用服务与TCL通讯的移动应用后台架构最佳实践.pdf
-│   │   │   └── 4.费良宏--When Python meet AWS.pdf
+│   │   │   ├── 3.张荣典、陈峻--AWS云平台的移动应用服务与TCL通讯的移动应用后台架构最佳实践.pdf.txt
+│   │   │   ├── 4.费良宏--When Python meet AWS.pdf
+│   │   │   └── 4.费良宏--When Python meet AWS.pdf.txt
 │   │   ├── 可扩展、高可用架构
 │   │   │   ├── 1.秦迪-微博在大规模、高负载系统中的典型问题.pdf
+│   │   │   ├── 1.秦迪-微博在大规模、高负载系统中的典型问题.pdf.txt
 │   │   │   ├── 2.洪小军-美拍后端技术演进.pdf
+│   │   │   ├── 2.洪小军-美拍后端技术演进.pdf.txt
 │   │   │   ├── 3.么刚--搜狗商业广告流式计算实践.pdf
+│   │   │   ├── 3.么刚--搜狗商业广告流式计算实践.pdf.txt
 │   │   │   ├── 4.梁耀斌--分钟级故障恢复的高可用保障.pdf
+│   │   │   ├── 4.梁耀斌--分钟级故障恢复的高可用保障.pdf.txt
 │   │   │   ├── 5.梁宇鹏--指数级增长业务下的服务架构改造.pdf
+│   │   │   ├── 5.梁宇鹏--指数级增长业务下的服务架构改造.pdf.txt
 │   │   │   ├── 6.金自翔--商业产品的广告交互架构.pdf
-│   │   │   └── 7.楼方鑫--秒杀场景的SQL解决.pdf
+│   │   │   ├── 6.金自翔--商业产品的广告交互架构.pdf.txt
+│   │   │   ├── 7.楼方鑫--秒杀场景的SQL解决.pdf
+│   │   │   └── 7.楼方鑫--秒杀场景的SQL解决.pdf.txt
 │   │   ├── 新兴大数据处理技术与工具
 │   │   │   ├── 1.郭瑞杰--开放搜索服务.pdf
+│   │   │   ├── 1.郭瑞杰--开放搜索服务.pdf.txt
 │   │   │   ├── 2.连成--Catalyst——Spark SQL中的函数式关系查询优化框架.pdf
+│   │   │   ├── 2.连成--Catalyst——Spark SQL中的函数式关系查询优化框架.pdf.txt
 │   │   │   ├── 3.赵健博--奇虎360HBASE二级索引的设计与实践.pdf
+│   │   │   ├── 3.赵健博--奇虎360HBASE二级索引的设计与实践.pdf.txt
 │   │   │   ├── 4.钟翔--Gearpump：基于Akka的新一代流处理引擎.pdf
+│   │   │   ├── 4.钟翔--Gearpump：基于Akka的新一代流处理引擎.pdf.txt
 │   │   │   ├── 5.刘成--Wing-新一代百度大数据查询引擎.pdf
+│   │   │   ├── 5.刘成--Wing-新一代百度大数据查询引擎.pdf.txt
 │   │   │   ├── 6.闫剑锋--互联网数据仓库之路.pdf
-│   │   │   └── 7.丁海峰--今日头条User Profile系统架构实践.pdf
+│   │   │   ├── 6.闫剑锋--互联网数据仓库之路.pdf.txt
+│   │   │   ├── 7.丁海峰--今日头条User Profile系统架构实践.pdf
+│   │   │   └── 7.丁海峰--今日头条User Profile系统架构实践.pdf.txt
 │   │   ├── 移动开发最佳实践
 │   │   │   ├── 1.蔡润达--微信公众平台 – 移动轻应用之道.pdf
+│   │   │   ├── 1.蔡润达--微信公众平台 – 移动轻应用之道.pdf.txt
 │   │   │   ├── 2.徐凯--Native和Web融合.pdf
+│   │   │   ├── 2.徐凯--Native和Web融合.pdf.txt
 │   │   │   ├── 3.郭虹宇--Rethinking of mobile app architecture.pdf
+│   │   │   ├── 3.郭虹宇--Rethinking of mobile app architecture.pdf.txt
 │   │   │   ├── 4.马玉明--移动时代用户端问题高效诊断-终稿.pdf
+│   │   │   ├── 4.马玉明--移动时代用户端问题高效诊断-终稿.pdf.txt
 │   │   │   ├── 5.陈晓亮--美团移动平台背后的技术.pdf
+│   │   │   ├── 5.陈晓亮--美团移动平台背后的技术.pdf.txt
 │   │   │   ├── 6.陈浩然--移动开发网络性能优化实践.pdf
-│   │   │   └── 7.陈晔--Hybrid应用质量保证.pdf
+│   │   │   ├── 6.陈浩然--移动开发网络性能优化实践.pdf.txt
+│   │   │   ├── 7.陈晔--Hybrid应用质量保证.pdf
+│   │   │   └── 7.陈晔--Hybrid应用质量保证.pdf.txt
 │   │   ├── 编程语言实战
 │   │   │   ├── 1.章亦春--Lua在Nginx中的应用.pdf
+│   │   │   ├── 1.章亦春--Lua在Nginx中的应用.pdf.txt
 │   │   │   ├── 2.David Pollak--Scala与Clojure：完美协作.pdf
+│   │   │   ├── 2.David Pollak--Scala与Clojure：完美协作.pdf.txt
 │   │   │   ├── 3.张虎--基于Erlang OTP构建大规模实时系统.pdf
+│   │   │   ├── 3.张虎--基于Erlang OTP构建大规模实时系统.pdf.txt
 │   │   │   ├── 4.程显峰--Java字节码技术.pdf
+│   │   │   ├── 4.程显峰--Java字节码技术.pdf.txt
 │   │   │   ├── 5.惠新宸--PHP7-New engine for good old train.pdf
+│   │   │   ├── 5.惠新宸--PHP7-New engine for good old train.pdf.txt
 │   │   │   ├── 6.韩祝鹏--Go的应用及小众语言.pdf
-│   │   │   └── 7.谢辉--akka构建响应式流计算.pdf
+│   │   │   ├── 6.韩祝鹏--Go的应用及小众语言.pdf.txt
+│   │   │   ├── 7.谢辉--akka构建响应式流计算.pdf
+│   │   │   └── 7.谢辉--akka构建响应式流计算.pdf.txt
 │   │   └── 自动化运维
 │   │       ├── 1.罗韩梅--Gaia——万台规模的Docker应用实战 .pdf
+│   │       ├── 1.罗韩梅--Gaia——万台规模的Docker应用实战 .pdf.txt
 │   │       ├── 2.陆川--百度数据中心自动化平台演进.pdf
+│   │       ├── 2.陆川--百度数据中心自动化平台演进.pdf.txt
 │   │       ├── 3.崔华--赶集运维之九天探月.pdf
+│   │       ├── 3.崔华--赶集运维之九天探月.pdf.txt
 │   │       ├── 4.萧田国--专业运维的最佳实践探索.pdf
+│   │       ├── 4.萧田国--专业运维的最佳实践探索.pdf.txt
 │   │       ├── 5.王关胜--Sina JPool-微博平台自动化运维实践.pdf
+│   │       ├── 5.王关胜--Sina JPool-微博平台自动化运维实践.pdf.txt
 │   │       ├── 6.陈长城--云计算时代的数据库运维体系.pdf
-│   │       └── 7.房秀丽--从“救火”走向“防火”.pdf
+│   │       ├── 6.陈长城--云计算时代的数据库运维体系.pdf.txt
+│   │       ├── 7.房秀丽--从“救火”走向“防火”.pdf
+│   │       └── 7.房秀丽--从“救火”走向“防火”.pdf.txt
 │   └── 4月25日
 │       ├── 主题演讲
 │       │   ├── 2.Barbara Horne--让商务智能成为主导.pdf
-│       │   └── 3.Chris Van Tuin--论DevOps式思维方式.pdf
+│       │   ├── 2.Barbara Horne--让商务智能成为主导.pdf.txt
+│       │   ├── 3.Chris Van Tuin--论DevOps式思维方式.pdf
+│       │   └── 3.Chris Van Tuin--论DevOps式思维方式.pdf.txt
 │       ├── 微服务架构
 │       │   ├── 2.Ross Garrett--API优先策略如何帮助企业真正实现数字化？.pdf
+│       │   ├── 2.Ross Garrett--API优先策略如何帮助企业真正实现数字化？.pdf.txt
 │       │   ├── 3.李鑫--京东服务框架实践.pdf
-│       │   └── 4.王磊--微服务，大探险.pdf
+│       │   ├── 3.李鑫--京东服务框架实践.pdf.txt
+│       │   ├── 4.王磊--微服务，大探险.pdf
+│       │   └── 4.王磊--微服务，大探险.pdf.txt
 │       ├── 思考开源
 │       │   ├── 1.韩卿--Apache Kylin Open Source Journey.pdf
+│       │   ├── 1.韩卿--Apache Kylin Open Source Journey.pdf.txt
 │       │   ├── 3.陈本峰--如何打造一个成功的开源项目.pdf
+│       │   ├── 3.陈本峰--如何打造一个成功的开源项目.pdf.txt
 │       │   ├── Lessons Learned from the Open Source Community-杜玉杰QCon20150425.pdf
-│       │   └── 冯宏华--小米的开源参与之道.pdf
+│       │   ├── Lessons Learned from the Open Source Community-杜玉杰QCon20150425.pdf.txt
+│       │   ├── 冯宏华--小米的开源参与之道.pdf
+│       │   └── 冯宏华--小米的开源参与之道.pdf.txt
 │       ├── 敏捷
 │       │   ├── 1.李卓--开启成功的上半场.pdf
+│       │   ├── 1.李卓--开启成功的上半场.pdf.txt
 │       │   ├── 2.李鹏涛--行动学习.pdf
+│       │   ├── 2.李鹏涛--行动学习.pdf.txt
 │       │   ├── 3.袁店明--伤筋动骨一百天（大型组织转型实例剖析）.pdf
+│       │   ├── 3.袁店明--伤筋动骨一百天（大型组织转型实例剖析）.pdf.txt
 │       │   ├── 4.Ben Linders--Valuable Agile Retrospectives.pdf
+│       │   ├── 4.Ben Linders--Valuable Agile Retrospectives.pdf.txt
 │       │   ├── 5.吴穹--互联网+管理新范式.pdf
-│       │   └── 6.曾健--功能测试自动化在敏捷过程中的实践与技术展望.pdf
+│       │   ├── 5.吴穹--互联网+管理新范式.pdf.txt
+│       │   ├── 6.曾健--功能测试自动化在敏捷过程中的实践与技术展望.pdf
+│       │   └── 6.曾健--功能测试自动化在敏捷过程中的实践与技术展望.pdf.txt
 │       ├── 服务质量
 │       │   ├── 1.王海龙--手机客户端多级发布体系及云分析测试系统.pdf
+│       │   ├── 1.王海龙--手机客户端多级发布体系及云分析测试系统.pdf.txt
 │       │   ├── 2.黄闻欣--手Q专项测试最佳实践.pdf
+│       │   ├── 2.黄闻欣--手Q专项测试最佳实践.pdf.txt
 │       │   ├── 3.武海峰--美团网O2O业务质量保证实践.pdf
+│       │   ├── 3.武海峰--美团网O2O业务质量保证实践.pdf.txt
 │       │   ├── 4.黄小微--面向服务的质量保障.pdf
+│       │   ├── 4.黄小微--面向服务的质量保障.pdf.txt
 │       │   ├── 5.施佳樑--百度众测-基于众包的O2O服务质量保证.pdf
-│       │   └── 6.胡余峰--浅谈华为泛媒体性能测试.pdf
+│       │   ├── 5.施佳樑--百度众测-基于众包的O2O服务质量保证.pdf.txt
+│       │   ├── 6.胡余峰--浅谈华为泛媒体性能测试.pdf
+│       │   └── 6.胡余峰--浅谈华为泛媒体性能测试.pdf.txt
 │       ├── 机器学习
 │       │   ├── 1.邓澍军--在线教育领域的机器学习应用.pdf
+│       │   ├── 1.邓澍军--在线教育领域的机器学习应用.pdf.txt
 │       │   ├── 2.王栋--机器学习在美团：吃喝玩乐中的计算.pdf
+│       │   ├── 2.王栋--机器学习在美团：吃喝玩乐中的计算.pdf.txt
 │       │   ├── 3.王峰--计算广告技术之大数据下的短文本相关性计算.pdf
+│       │   ├── 3.王峰--计算广告技术之大数据下的短文本相关性计算.pdf.txt
 │       │   ├── 4.夏粉--大规模机器学习技术.pdf
+│       │   ├── 4.夏粉--大规模机器学习技术.pdf.txt
 │       │   ├── 5.陈超--B2B搜索领域的算法挑战.pdf
+│       │   ├── 5.陈超--B2B搜索领域的算法挑战.pdf.txt
 │       │   ├── 6.李成华--深度学习在自动问答系统中的应用.pdf
-│       │   └── 7.鹿晓亮--让机器学习得更快.pdf
+│       │   ├── 6.李成华--深度学习在自动问答系统中的应用.pdf.txt
+│       │   ├── 7.鹿晓亮--让机器学习得更快.pdf
+│       │   └── 7.鹿晓亮--让机器学习得更快.pdf.txt
 │       ├── 知名移动案例分析
 │       │   ├── 1.张博--科技让出行更美好.pdf
+│       │   ├── 1.张博--科技让出行更美好.pdf.txt
 │       │   ├── 2.马力--感觉设计.pdf
-│       │   └── 3.曹偲--网易云音乐.pdf
+│       │   ├── 2.马力--感觉设计.pdf.txt
+│       │   ├── 3.曹偲--网易云音乐.pdf
+│       │   └── 3.曹偲--网易云音乐.pdf.txt
 │       └── 移动开发平台与工具应用实践
 │           ├── 1.许志强--移动通讯的极致化追求.pdf
+│           ├── 1.许志强--移动通讯的极致化追求.pdf.txt
 │           ├── 2.赵庆华--一站式移动开发解决方案.pdf
+│           ├── 2.赵庆华--一站式移动开发解决方案.pdf.txt
 │           ├── 3.叶新江--基于大并发通信及大数据的O2O系统.pdf
+│           ├── 3.叶新江--基于大并发通信及大数据的O2O系统.pdf.txt
 │           ├── 4.陆兴海--移动App数据分析之道.pdf
+│           ├── 4.陆兴海--移动App数据分析之道.pdf.txt
 │           ├── 5.贾俊杰--云之讯融合通信云服务之路.pdf
-│           └── 6.杨凯--崩溃管理之实践.pdf
+│           ├── 5.贾俊杰--云之讯融合通信云服务之路.pdf.txt
+│           ├── 6.杨凯--崩溃管理之实践.pdf
+│           └── 6.杨凯--崩溃管理之实践.pdf.txt
 ├── QCon-Beijing-2017
 │   ├── 360病毒样本大规模异构实时扫描平台-360-冯鑫.pdf
 │   ├── API平台的安全实践-甲骨文-张梁.pdf
@@ -6814,66 +7021,126 @@
 │   └── spo2-t08_the_state_of_security_survey_2016_final.pdf
 ├── RSA-Asia-2015
 │   ├── cds-f01-optimizing-the-mobile-cloud-era-through-agility-and-automation.pdf
+│   ├── cds-f01-optimizing-the-mobile-cloud-era-through-agility-and-automation.pdf.txt
 │   ├── cds-f02-assume-breach-an-inside-look-at-cloud-service-provider-security.pdf
+│   ├── cds-f02-assume-breach-an-inside-look-at-cloud-service-provider-security.pdf.txt
 │   ├── cds-f03-know-your-risks-content-security-policy-report-aggregation-and-analysis.pdf
+│   ├── cds-f03-know-your-risks-content-security-policy-report-aggregation-and-analysis.pdf.txt
 │   ├── cds-f04-getting-serious-about-privacy-and-cyber-security-in-asia-pacific.pdf
+│   ├── cds-f04-getting-serious-about-privacy-and-cyber-security-in-asia-pacific.pdf.txt
 │   ├── cds-r01-validating-the-security-of-the-borderless-infrastructure.pdf
+│   ├── cds-r01-validating-the-security-of-the-borderless-infrastructure.pdf.txt
 │   ├── cds-r02_the-secret-life-of-data-protecting-sensitive-information-mobile-to-cloud.pdf
+│   ├── cds-r02_the-secret-life-of-data-protecting-sensitive-information-mobile-to-cloud.pdf.txt
 │   ├── cds-r03-security-lessons-learned-enterprise-adoption-of-cloud-computing.pdf
+│   ├── cds-r03-security-lessons-learned-enterprise-adoption-of-cloud-computing.pdf.txt
 │   ├── cds-r08-hot-topics-in-privacy-a-conversation-with-privacy-leaders.pdf
+│   ├── cds-r08-hot-topics-in-privacy-a-conversation-with-privacy-leaders.pdf.txt
 │   ├── cds-r09-debunking-myths-about-attribution-and-new-strategies-to-protect-your-data.pdf
+│   ├── cds-r09-debunking-myths-about-attribution-and-new-strategies-to-protect-your-data.pdf.txt
 │   ├── cle-f01-dns-in-the-crossfire-2-years-of-hijacks-and-defacements.pdf
+│   ├── cle-f01-dns-in-the-crossfire-2-years-of-hijacks-and-defacements.pdf.txt
 │   ├── cle-f02_building_blocks_of_operational_systems_cyber_worthiness.pdf
+│   ├── cle-f02_building_blocks_of_operational_systems_cyber_worthiness.pdf.txt
 │   ├── cle-f03-achieving-cyber-identity-resolution-via-electronic-warfare-techniques.pdf
+│   ├── cle-f03-achieving-cyber-identity-resolution-via-electronic-warfare-techniques.pdf.txt
 │   ├── cle-f04-ransomware-a-good-driver-for-backups.pdf
+│   ├── cle-f04-ransomware-a-good-driver-for-backups.pdf.txt
 │   ├── cle-r01-you_ve-done-everything-right-and-still-there_s-a-breach-now-what.pdf
+│   ├── cle-r01-you_ve-done-everything-right-and-still-there_s-a-breach-now-what.pdf.txt
 │   ├── cle-r03-unpacking-asia-pacific-cyber-maturity.pdf
+│   ├── cle-r03-unpacking-asia-pacific-cyber-maturity.pdf.txt
 │   ├── cle-r08-what-do-you-do-when-the-alarm-sounds-managing-cyber-crises.pdf
+│   ├── cle-r08-what-do-you-do-when-the-alarm-sounds-managing-cyber-crises.pdf.txt
 │   ├── cle-r09-illuminating-the-deep-dark-web-with-drugs-exploits-and-zero-days.pdf
+│   ├── cle-r09-illuminating-the-deep-dark-web-with-drugs-exploits-and-zero-days.pdf.txt
 │   ├── grm-f02-peer-collaboration-the-next-best-practice-for-third-party-risk-management.pdf
+│   ├── grm-f02-peer-collaboration-the-next-best-practice-for-third-party-risk-management.pdf.txt
 │   ├── grm-f03_the-enemy-you-know.pdf
+│   ├── grm-f03_the-enemy-you-know.pdf.txt
 │   ├── grm-r01-compliance-goal-implementing-segregation-of-duties-in-an-organization.pdf
+│   ├── grm-r01-compliance-goal-implementing-segregation-of-duties-in-an-organization.pdf.txt
 │   ├── grm-r02-hiring-the-right-person-for-the-most-challenging-security-role-of-all.pdf
+│   ├── grm-r02-hiring-the-right-person-for-the-most-challenging-security-role-of-all.pdf.txt
 │   ├── grm-r03-defending-zero-day-lessons-from-the-ebola-outbreak.pdf
+│   ├── grm-r03-defending-zero-day-lessons-from-the-ebola-outbreak.pdf.txt
 │   ├── grm-r08-the-psychology-of-info-sec.pdf
+│   ├── grm-r08-the-psychology-of-info-sec.pdf.txt
 │   ├── grm-r09-threat-forecasting-leveraging-big-data-for_predictive-analysis.pdf
+│   ├── grm-r09-threat-forecasting-leveraging-big-data-for_predictive-analysis.pdf.txt
 │   ├── mbs-f01-security-considerations-for-mobile-payment-devices-trends-risks-and-countermeasures_copy1.pdf
+│   ├── mbs-f01-security-considerations-for-mobile-payment-devices-trends-risks-and-countermeasures_copy1.pdf.txt
 │   ├── mbs-f02-the-android-developers-guide-to-3rd-party-sdk-assessment-and-security.pdf
+│   ├── mbs-f02-the-android-developers-guide-to-3rd-party-sdk-assessment-and-security.pdf.txt
 │   ├── mbs-f03-mobile-security-all-you-wanted-to-know-about-standards-but-were-afraid-to-ask.pdf
+│   ├── mbs-f03-mobile-security-all-you-wanted-to-know-about-standards-but-were-afraid-to-ask.pdf.txt
 │   ├── mbs-f04-mitigating-cybersecurity-threats-on-mobile-platforms.pdf
+│   ├── mbs-f04-mitigating-cybersecurity-threats-on-mobile-platforms.pdf.txt
 │   ├── mbs-r01-hackers-vs.-the-anti-malware-vendors-the-blue-pill-in-mobile-applications_copy1.pdf
+│   ├── mbs-r01-hackers-vs.-the-anti-malware-vendors-the-blue-pill-in-mobile-applications_copy1.pdf.txt
 │   ├── mbs-r02-mobile-app-security-mandates-identity-authenticity-and-trustworthiness.pdf
+│   ├── mbs-r02-mobile-app-security-mandates-identity-authenticity-and-trustworthiness.pdf.txt
 │   ├── mbs-r03-shadowos-modifying-the-android-os-for-mobile-application-testing.pdf
+│   ├── mbs-r03-shadowos-modifying-the-android-os-for-mobile-application-testing.pdf.txt
 │   ├── mbs-r08-mobile-malware-how-phones-get-hacked-and-how-to-analyze-the-malware-live.pdf
+│   ├── mbs-r08-mobile-malware-how-phones-get-hacked-and-how-to-analyze-the-malware-live.pdf.txt
 │   ├── readme.txt
 │   ├── sec-f01-_the-new-key-management-unlocking-the-safeguards-of-keeping-keys-private_copy1.pdf
+│   ├── sec-f01-_the-new-key-management-unlocking-the-safeguards-of-keeping-keys-private_copy1.pdf.txt
 │   ├── sec-f02-shadow-it-protecting-data-and-applications-outside-of-your-control.pdf
+│   ├── sec-f02-shadow-it-protecting-data-and-applications-outside-of-your-control.pdf.txt
 │   ├── sec-f03-does-fido-really-usher-the-death-of-passwords_copy2.pdf
+│   ├── sec-f03-does-fido-really-usher-the-death-of-passwords_copy2.pdf.txt
 │   ├── sec-f04-2015-industrial-control-systems-vulnerability-trends_copy1.pdf
+│   ├── sec-f04-2015-industrial-control-systems-vulnerability-trends_copy1.pdf.txt
 │   ├── sec-r01_security-risks-in-sdn-and-other-new-software-apps_copy1.pdf
+│   ├── sec-r01_security-risks-in-sdn-and-other-new-software-apps_copy1.pdf.txt
 │   ├── sec-r02-understanding-threats-using-big-data-and-contextual-analytics_copy1.pdf
+│   ├── sec-r02-understanding-threats-using-big-data-and-contextual-analytics_copy1.pdf.txt
 │   ├── sec-r03-effective-partnerships-security-and-privacy-in-smart-cities_copy1.pdf
+│   ├── sec-r03-effective-partnerships-security-and-privacy-in-smart-cities_copy1.pdf.txt
 │   ├── sec-r08-future-of-networking-technologies-incremental-change-or-disruptive-shift.pdf
+│   ├── sec-r08-future-of-networking-technologies-incremental-change-or-disruptive-shift.pdf.txt
 │   ├── sec-r09-how-apis-turned-cloud-security-on-its-head_copy1.pdf
+│   ├── sec-r09-how-apis-turned-cloud-security-on-its-head_copy1.pdf.txt
 │   ├── spo-f01_securing_dispersed_networks.pdf
+│   ├── spo-f01_securing_dispersed_networks.pdf.txt
 │   ├── spo-f02-ddos-barbarians-at-the-gate_way_.pdf
+│   ├── spo-f02-ddos-barbarians-at-the-gate_way_.pdf.txt
 │   ├── spo-f03-network-of-steel-designing-ultra-resilient-networks-to-counter-mega-scale-cyber-attacks.pdf
+│   ├── spo-f03-network-of-steel-designing-ultra-resilient-networks-to-counter-mega-scale-cyber-attacks.pdf.txt
 │   ├── spo-f04-outgunned-in-cyberspace_copy1.pdf
+│   ├── spo-f04-outgunned-in-cyberspace_copy1.pdf.txt
 │   ├── spo-r01-they-will-get_in-detect-and-respond-to-advanced-threats.pdf
+│   ├── spo-r01-they-will-get_in-detect-and-respond-to-advanced-threats.pdf.txt
 │   ├── spo-r02-crypto-segmentation-protecting-networked-applications-when-firewalls-fail.pdf
+│   ├── spo-r02-crypto-segmentation-protecting-networked-applications-when-firewalls-fail.pdf.txt
 │   ├── spo-r03-adaptive-trust-for-secure-enterprise-mobility.pdf
+│   ├── spo-r03-adaptive-trust-for-secure-enterprise-mobility.pdf.txt
 │   ├── spo-r08-understanding-the-data-breaches-of-2014-did-it-have-to-be-this-way.pdf
+│   ├── spo-r08-understanding-the-data-breaches-of-2014-did-it-have-to-be-this-way.pdf.txt
 │   ├── spo-r09_inside_of_apk_protectors.pdf
+│   ├── spo-r09_inside_of_apk_protectors.pdf.txt
 │   ├── spo2-f04-is-it-secret-is-it-safe-mining-the-globa-internet-for-early-warning.pdf
+│   ├── spo2-f04-is-it-secret-is-it-safe-mining-the-globa-internet-for-early-warning.pdf.txt
 │   ├── tta-f01-ssl-threats-are-here_is-your-architecture-ready.pdf
+│   ├── tta-f01-ssl-threats-are-here_is-your-architecture-ready.pdf.txt
 │   ├── tta-f02-malware-actors-and-espionage-a-shift-in-the-criminal-value-chain_copy1.pdf
+│   ├── tta-f02-malware-actors-and-espionage-a-shift-in-the-criminal-value-chain_copy1.pdf.txt
 │   ├── tta-f03-are-enterprises-in-a-losing-battle-against-targeted-attacks.pdf
+│   ├── tta-f03-are-enterprises-in-a-losing-battle-against-targeted-attacks.pdf.txt
 │   ├── tta-f04-high-dimensional-visualization-of-malware-families.pdf
+│   ├── tta-f04-high-dimensional-visualization-of-malware-families.pdf.txt
 │   ├── tta-r01-migration-of-malware-apac-targeting-threats.pdf
+│   ├── tta-r01-migration-of-malware-apac-targeting-threats.pdf.txt
 │   ├── tta-r02-nation-state-hacktivist-attacks-targeted-hits-on-asian-organizations_copy1.pdf
+│   ├── tta-r02-nation-state-hacktivist-attacks-targeted-hits-on-asian-organizations_copy1.pdf.txt
 │   ├── tta-r03-new-ways-of-emerging-apt-actors-india-south-africa-nigeria-and-indonesia_copy1.pdf
+│   ├── tta-r03-new-ways-of-emerging-apt-actors-india-south-africa-nigeria-and-indonesia_copy1.pdf.txt
 │   ├── tta-r08-good-bot-bad-bot-ugly-bot-battle-of-the-bots.pdf
-│   └── tta-r09-sophisticated-attacks-the-new-normal-for-security-programs_copy1.pdf
+│   ├── tta-r08-good-bot-bad-bot-ugly-bot-battle-of-the-bots.pdf.txt
+│   ├── tta-r09-sophisticated-attacks-the-new-normal-for-security-programs_copy1.pdf
+│   └── tta-r09-sophisticated-attacks-the-new-normal-for-security-programs_copy1.pdf.txt
 ├── RSA-CHINA-2011
 │   ├── 2011零天应用安全漏洞分析及趋势展望+范渊.pdf
 │   ├── Chenxi+Wang,+Forrester+Research,+Managing+Security+and+Privacy+Risks+o.pdf
@@ -6944,352 +7211,699 @@
 │   └── TH-2005_MN.pdf
 ├── RSA-US-2016
 │   ├── air-f01-stix-taxii-cisa-_impact-of-the-us-cybersecurity-information-sharing-act-of-2015.pdf
+│   ├── air-f01-stix-taxii-cisa-_impact-of-the-us-cybersecurity-information-sharing-act-of-2015.pdf.txt
 │   ├── air-f02-the-pivot.pdf
+│   ├── air-f02-the-pivot.pdf.txt
 │   ├── air-f03-iocs_are_dead_-_long_live_iocs.pdf
+│   ├── air-f03-iocs_are_dead_-_long_live_iocs.pdf.txt
 │   ├── air-r02-make-ir-effective-with-risk-evaluation-and-reporting.pdf
+│   ├── air-r02-make-ir-effective-with-risk-evaluation-and-reporting.pdf.txt
 │   ├── air-r03-your_secops_don_t_catch_bad_guys_and_waste_your_money._we_know_why_.pdf
+│   ├── air-r03-your_secops_don_t_catch_bad_guys_and_waste_your_money._we_know_why_.pdf.txt
 │   ├── air-r04-using_large_scale_data_to_provide_attacker_attribution_for_unknown_iocs-.pdf
+│   ├── air-r04-using_large_scale_data_to_provide_attacker_attribution_for_unknown_iocs-.pdf.txt
 │   ├── air-r05f-cloud_attack_illustrated_insights_from_the_cloud_provider.pdf
+│   ├── air-r05f-cloud_attack_illustrated_insights_from_the_cloud_provider.pdf.txt
 │   ├── air-t09-demystifying-security-analytics-data-methods-use-cases-final.pdf
+│   ├── air-t09-demystifying-security-analytics-data-methods-use-cases-final.pdf.txt
 │   ├── air-t10-roles_of_industry_and_government_in_cyber_incident_responses_.pdf
+│   ├── air-t10-roles_of_industry_and_government_in_cyber_incident_responses_.pdf.txt
 │   ├── air-t11-building-a-world-class-proactive-integrated-security-and-network-operations-center-snoc_copy1.pdf
+│   ├── air-t11-building-a-world-class-proactive-integrated-security-and-network-operations-center-snoc_copy1.pdf.txt
 │   ├── air-w02-the-rise-of-the-purple-team.pdf
+│   ├── air-w02-the-rise-of-the-purple-team.pdf.txt
 │   ├── air-w03r-the_incident_response_playbook_for_android_and_ios.pdf
+│   ├── air-w03r-the_incident_response_playbook_for_android_and_ios.pdf.txt
 │   ├── air-w04-dreaming-of-iocs-adding-time-context-to-threat-intelligence.pdf
+│   ├── air-w04-dreaming-of-iocs-adding-time-context-to-threat-intelligence.pdf.txt
 │   ├── air-w05-rise-of-the-hacking-machines.pdf
+│   ├── air-w05-rise-of-the-hacking-machines.pdf.txt
 │   ├── asd-f01-security-as-a-service-in-a-financial-institution-reality-or-chimera.pdf
+│   ├── asd-f01-security-as-a-service-in-a-financial-institution-reality-or-chimera.pdf.txt
 │   ├── asd-f02-open-source-security-mgmt-and-vulnerability-impact-assessment.pdf
+│   ├── asd-f02-open-source-security-mgmt-and-vulnerability-impact-assessment.pdf.txt
 │   ├── asd-f03-serial-killer-silently-pwning-your-java-endpoints.pdf
+│   ├── asd-f03-serial-killer-silently-pwning-your-java-endpoints.pdf.txt
 │   ├── asd-r02-understanding-http2.pdf
+│   ├── asd-r02-understanding-http2.pdf.txt
 │   ├── asd-r03-introducing-a-security-program-to-large-scale-legacy-products.pdf
+│   ├── asd-r03-introducing-a-security-program-to-large-scale-legacy-products.pdf.txt
 │   ├── asd-r04_agile_security_field_of_dreams.pdf
+│   ├── asd-r04_agile_security_field_of_dreams.pdf.txt
 │   ├── asd-t09r-product-security-at-internet-scale.pdf
+│   ├── asd-t09r-product-security-at-internet-scale.pdf.txt
 │   ├── asd-t10-devops-throw-down-with-chris_-gary_-caleb-and-shannon_copy1.pdf
+│   ├── asd-t10-devops-throw-down-with-chris_-gary_-caleb-and-shannon_copy1.pdf.txt
 │   ├── asd-t11-nothing-lasts-forever-a-talk-about-expired-security.pdf
+│   ├── asd-t11-nothing-lasts-forever-a-talk-about-expired-security.pdf.txt
 │   ├── asd-w02-intelligent-application-security-rsa.pdf
+│   ├── asd-w02-intelligent-application-security-rsa.pdf.txt
 │   ├── asd-w03-transforming-security-containers_-virtualization-and-softwarization.pdf
+│   ├── asd-w03-transforming-security-containers_-virtualization-and-softwarization.pdf.txt
 │   ├── asd-w04-makers-vs-breakers-on-exploit-development-and-software-engineering_copy1.pdf
+│   ├── asd-w04-makers-vs-breakers-on-exploit-development-and-software-engineering_copy1.pdf.txt
 │   ├── asd-w05-embedded-systems-security-building-a-more-secure-device.pdf
+│   ├── asd-w05-embedded-systems-security-building-a-more-secure-device.pdf.txt
 │   ├── ast1-r02-state-of-cybersecurity-2016-findings-and-implications.pdf
+│   ├── ast1-r02-state-of-cybersecurity-2016-findings-and-implications.pdf.txt
 │   ├── ast1-r05-cforum-a-community-approach-for-improving-cybersecurity-programs.pdf
+│   ├── ast1-r05-cforum-a-community-approach-for-improving-cybersecurity-programs.pdf.txt
 │   ├── ast2-r02-using-cybersecurity-career-lifecycle-to-get-in-and-stay-in-the-profession.pdf
+│   ├── ast2-r02-using-cybersecurity-career-lifecycle-to-get-in-and-stay-in-the-profession.pdf.txt
 │   ├── ast2-w02-diffusing-the-iot-time-bomb-security-and-privacy_trust_code_of_....pdf
+│   ├── ast2-w02-diffusing-the-iot-time-bomb-security-and-privacy_trust_code_of_....pdf.txt
 │   ├── ast3-r02-opportunities-and-challenges-to-securing-the-internet-of-things.pdf
+│   ├── ast3-r02-opportunities-and-challenges-to-securing-the-internet-of-things.pdf.txt
 │   ├── ast3-w02-the-data-behind-how-we-work-with-data.pdf
+│   ├── ast3-w02-the-data-behind-how-we-work-with-data.pdf.txt
 │   ├── bas-m01_introduction_and_a_look_at_security_trends_final.pdf
+│   ├── bas-m01_introduction_and_a_look_at_security_trends_final.pdf.txt
 │   ├── bas-m02-who-are-you-from-meat-to-electrons-and-back-again_final.pdf
+│   ├── bas-m02-who-are-you-from-meat-to-electrons-and-back-again_final.pdf.txt
 │   ├── bas-m03_innovation_in_network_security_final.pdf
+│   ├── bas-m03_innovation_in_network_security_final.pdf.txt
 │   ├── bas-m04_demystifying_a_malware_attack_final.pdf
+│   ├── bas-m04_demystifying_a_malware_attack_final.pdf.txt
 │   ├── bas-m06_crypto_101_encryption_codebreaking_ssl_and_bitcoin_final.pdf
+│   ├── bas-m06_crypto_101_encryption_codebreaking_ssl_and_bitcoin_final.pdf.txt
 │   ├── bas-m07_take_it_to_the_cloud_the_evolution_of_security_architecture_v3.pdf
+│   ├── bas-m07_take_it_to_the_cloud_the_evolution_of_security_architecture_v3.pdf.txt
 │   ├── bas-m08-new-iot-security-paradigm-hn-final.pdf
+│   ├── bas-m08-new-iot-security-paradigm-hn-final.pdf.txt
 │   ├── crwd-r02-using_deception_and_forensics_to_detect_threats_from_within.pdf
+│   ├── crwd-r02-using_deception_and_forensics_to_detect_threats_from_within.pdf.txt
 │   ├── crwd-r03-getting-scammed-a-security-ceos-firsthand-encounter.pdf
+│   ├── crwd-r03-getting-scammed-a-security-ceos-firsthand-encounter.pdf.txt
 │   ├── crwd-r04-top-10-security-hardening-settings-for-windows-servers-and-active-directory.pdf
+│   ├── crwd-r04-top-10-security-hardening-settings-for-windows-servers-and-active-directory.pdf.txt
 │   ├── crwd-r05-the_air_up_there-wireless_beyond_wi-fi_iot_from_dc_to_10ghz.pdf
+│   ├── crwd-r05-the_air_up_there-wireless_beyond_wi-fi_iot_from_dc_to_10ghz.pdf.txt
 │   ├── crwd-r08-crowdpatching_it_s_time_to_take_vulnerability_fixing_in_our_own_hands.pdf
+│   ├── crwd-r08-crowdpatching_it_s_time_to_take_vulnerability_fixing_in_our_own_hands.pdf.txt
 │   ├── crwd-r12-the_gamification_of_data_loss_prevention.pdf
+│   ├── crwd-r12-the_gamification_of_data_loss_prevention.pdf.txt
 │   ├── crwd-t10_artificial-intelligence-for-infosec_.pdf
+│   ├── crwd-t10_artificial-intelligence-for-infosec_.pdf.txt
 │   ├── crwd-t11-hide_and_seek-how_threat_actors_respond_in_the_face_of_public_exposure.pdf
+│   ├── crwd-t11-hide_and_seek-how_threat_actors_respond_in_the_face_of_public_exposure.pdf.txt
 │   ├── crwd-to9-from_pigtails-to-prom-to-a-cyber-career-what-about-your-daughter.pdf
+│   ├── crwd-to9-from_pigtails-to-prom-to-a-cyber-career-what-about-your-daughter.pdf.txt
 │   ├── crwd-w03-hacker_marketing_strategy-how_cybercriminals_promote_for_press_and_profit.pdf
+│   ├── crwd-w03-hacker_marketing_strategy-how_cybercriminals_promote_for_press_and_profit.pdf.txt
 │   ├── crwd-w04-security-tools-an-attackers-dream-come-true.pdf
+│   ├── crwd-w04-security-tools-an-attackers-dream-come-true.pdf.txt
 │   ├── crwd-w05-data-driven_app_sec.pdf
+│   ├── crwd-w05-data-driven_app_sec.pdf.txt
 │   ├── crwd-w09-breach_fixation._how_breaches_distort_reality_and_how_should_we_respond.pdf
+│   ├── crwd-w09-breach_fixation._how_breaches_distort_reality_and_how_should_we_respond.pdf.txt
 │   ├── crwd-w13-the-secrets-of-malware-success-on-google-play-store_.ppt.pdf
+│   ├── crwd-w13-the-secrets-of-malware-success-on-google-play-store_.ppt.pdf.txt
 │   ├── crwd-w16-cybersecurity_insurance_the_catalyst_weve_been_waiting_for.pdf
+│   ├── crwd-w16-cybersecurity_insurance_the_catalyst_weve_been_waiting_for.pdf.txt
 │   ├── cryp-f01-cryptanalysis_of_symmetric_key_encryption.pdf
+│   ├── cryp-f01-cryptanalysis_of_symmetric_key_encryption.pdf.txt
 │   ├── cryp-f02_message_authentication_code_and_prf-security_copy1.pdf
+│   ├── cryp-f02_message_authentication_code_and_prf-security_copy1.pdf.txt
 │   ├── cryp-r02_side-channel_attacks_on_elliptic_curve_cryptography_final.pdf
+│   ├── cryp-r02_side-channel_attacks_on_elliptic_curve_cryptography_final.pdf.txt
 │   ├── cryp-r03_hardware_attacks_and_security.pdf
+│   ├── cryp-r03_hardware_attacks_and_security.pdf.txt
 │   ├── cryp-r04_structure-preserving_signatures.pdf
+│   ├── cryp-r04_structure-preserving_signatures.pdf.txt
 │   ├── cryp-r05_lattice_cryptography.pdf
+│   ├── cryp-r05_lattice_cryptography.pdf.txt
 │   ├── cryp-t09_secure_key_exchange_schemes.pdf
+│   ├── cryp-t09_secure_key_exchange_schemes.pdf.txt
 │   ├── cryp-t10_authenticated_encryption.pdf
+│   ├── cryp-t10_authenticated_encryption.pdf.txt
 │   ├── cryp-t11_searchable_symmetric_encryption.pdf
+│   ├── cryp-t11_searchable_symmetric_encryption.pdf.txt
 │   ├── cryp-w02_digital_signatures_with_new_functionality.pdf
+│   ├── cryp-w02_digital_signatures_with_new_functionality.pdf.txt
 │   ├── cryp-w03_secure_multiparty_computation.pdf
+│   ├── cryp-w03_secure_multiparty_computation.pdf.txt
 │   ├── cryp-w04_how_to_verify_procedures.pdf
+│   ├── cryp-w04_how_to_verify_procedures.pdf.txt
 │   ├── csa_summit-rsac_website.pdf
+│   ├── csa_summit-rsac_website.pdf.txt
 │   ├── csv-f01-cloud_breach_preparation_and_response.pdf
+│   ├── csv-f01-cloud_breach_preparation_and_response.pdf.txt
 │   ├── csv-f02-bring_your_own_internet_of_things_byo-iot_.pdf
+│   ├── csv-f02-bring_your_own_internet_of_things_byo-iot_.pdf.txt
 │   ├── csv-f03-devsecops-baby-steps.pdf
+│   ├── csv-f03-devsecops-baby-steps.pdf.txt
 │   ├── csv-r02_rsac_2016_-_security_program_development_for_the_hipster_company.pdf
+│   ├── csv-r02_rsac_2016_-_security_program_development_for_the_hipster_company.pdf.txt
 │   ├── csv-r03-designing_virtual_network_security_architectures.pdf
+│   ├── csv-r03-designing_virtual_network_security_architectures.pdf.txt
 │   ├── csv-r04-security_recipes_for_the_new_digital_era.pdf
+│   ├── csv-r04-security_recipes_for_the_new_digital_era.pdf.txt
 │   ├── csv-t09_one_approach_to_rule_them_all_global_privacy_and_security.pdf
+│   ├── csv-t09_one_approach_to_rule_them_all_global_privacy_and_security.pdf.txt
 │   ├── csv-t10-aspirin_as_a_service-using_the_cloud_to_cure_security_headaches.pdf
+│   ├── csv-t10-aspirin_as_a_service-using_the_cloud_to_cure_security_headaches.pdf.txt
 │   ├── csv-t11-rock_the_casb-ah_advanced_use_cases_from_pioneers_of_cloud_security.pdf
+│   ├── csv-t11-rock_the_casb-ah_advanced_use_cases_from_pioneers_of_cloud_security.pdf.txt
 │   ├── csv-w02-devsecops-the-tao-of-security-science.pdf
+│   ├── csv-w02-devsecops-the-tao-of-security-science.pdf.txt
 │   ├── csv-w03f-docker-containing_the_security_excitement.pdf
+│   ├── csv-w03f-docker-containing_the_security_excitement.pdf.txt
 │   ├── csv-w04-saas_attacks_happen-how_cloud_scale_changes_the_security_game.pdf
+│   ├── csv-w04-saas_attacks_happen-how_cloud_scale_changes_the_security_game.pdf.txt
 │   ├── csv-w05r_cloud_security_essentials_2.0.pdf
+│   ├── csv-w05r_cloud_security_essentials_2.0.pdf.txt
 │   ├── cxo-f01-super-ciso-2020-how-to-keep-your-jobvf021616.pdf
+│   ├── cxo-f01-super-ciso-2020-how-to-keep-your-jobvf021616.pdf.txt
 │   ├── cxo-f02-how_to_steer_cyber_security_with_only_one_kpi_the_cyberrisk_resilience.pdf
+│   ├── cxo-f02-how_to_steer_cyber_security_with_only_one_kpi_the_cyberrisk_resilience.pdf.txt
 │   ├── cxo-f03-here_there_and_everywhere-how_to_harness_your_value_chain_security_beast.pdf
+│   ├── cxo-f03-here_there_and_everywhere-how_to_harness_your_value_chain_security_beast.pdf.txt
 │   ├── cxo-r03f-managing-complex-ma-security-risks-a-detailed-case-studyv8.pdf
+│   ├── cxo-r03f-managing-complex-ma-security-risks-a-detailed-case-studyv8.pdf.txt
 │   ├── cxo-r04-lessons_learned_from_real-world_cisos.pdf
+│   ├── cxo-r04-lessons_learned_from_real-world_cisos.pdf.txt
 │   ├── cxo-r05-data_breach_litigation_how_to_avoid_it_and_be_better_prepared_for_defense_copy1.pdf
+│   ├── cxo-r05-data_breach_litigation_how_to_avoid_it_and_be_better_prepared_for_defense_copy1.pdf.txt
 │   ├── cxo-t09-got_cyber-keep_calm_and_carry_on_at_network_speed.pdf
+│   ├── cxo-t09-got_cyber-keep_calm_and_carry_on_at_network_speed.pdf.txt
 │   ├── cxo-t10-my_life_as_chief_security_officer_at_google.pdf
+│   ├── cxo-t10-my_life_as_chief_security_officer_at_google.pdf.txt
 │   ├── cxo-t11-bringing_cybersecurity_to_the_boardroom.pdf
+│   ├── cxo-t11-bringing_cybersecurity_to_the_boardroom.pdf.txt
 │   ├── cxo-w02-real-world_examples_of_positive_security_roi.pdf
+│   ├── cxo-w02-real-world_examples_of_positive_security_roi.pdf.txt
 │   ├── cxo-w03-ciso_success_strategies_on_becoming_a_security_business_leader.pdf
+│   ├── cxo-w03-ciso_success_strategies_on_becoming_a_security_business_leader.pdf.txt
 │   ├── cxo-w04-10_easy_steps_to_building_a_successful_extended_security_team.pdf
+│   ├── cxo-w04-10_easy_steps_to_building_a_successful_extended_security_team.pdf.txt
 │   ├── cxo-w05f-how_to_prepare_for_cybersecurity_in_2020-a_panel_discussion.pdf
+│   ├── cxo-w05f-how_to_prepare_for_cybersecurity_in_2020-a_panel_discussion.pdf.txt
 │   ├── exp-f02_our_road_ahead-today_s_tech_developments_tomorrow_s_security_challenges-final.pdf
+│   ├── exp-f02_our_road_ahead-today_s_tech_developments_tomorrow_s_security_challenges-final.pdf.txt
 │   ├── exp-f03_codifying_the_brain-automation_alerts_and_a_human_resource_answer-final.pdf
+│   ├── exp-f03_codifying_the_brain-automation_alerts_and_a_human_resource_answer-final.pdf.txt
 │   ├── exp-r02_the_future_of_privacy-final.pdf
+│   ├── exp-r02_the_future_of_privacy-final.pdf.txt
 │   ├── exp-r03_advanced_persistent_security-final.pdf
+│   ├── exp-r03_advanced_persistent_security-final.pdf.txt
 │   ├── exp-r04_hacking_exposed_the_mac_attack.pdf
+│   ├── exp-r04_hacking_exposed_the_mac_attack.pdf.txt
 │   ├── exp-r05r_hacking_exposed_live_attacking_in_the_shadows.pdf
+│   ├── exp-r05r_hacking_exposed_live_attacking_in_the_shadows.pdf.txt
 │   ├── exp-t09r_the_seven_most_dangerous_new_attack_techniques-final2.pdf
+│   ├── exp-t09r_the_seven_most_dangerous_new_attack_techniques-final2.pdf.txt
 │   ├── exp-t11_investigative_journalists_speak_out_more_breaches-final.pdf
+│   ├── exp-t11_investigative_journalists_speak_out_more_breaches-final.pdf.txt
 │   ├── exp-w02_the_evolution_of_our_industry_25_years_of_rsa_conference-final.pdf
+│   ├── exp-w02_the_evolution_of_our_industry_25_years_of_rsa_conference-final.pdf.txt
 │   ├── exp-w03_securing_large-scale_socio-technical-final.pdf
+│   ├── exp-w03_securing_large-scale_socio-technical-final.pdf.txt
 │   ├── exp-w04_machine_learning_and_the_cloud-disrupting_threat_detection_and_prevention.pdf
+│   ├── exp-w04_machine_learning_and_the_cloud-disrupting_threat_detection_and_prevention.pdf.txt
 │   ├── exp-w05_a_conversation_on_collaboration_between_silicon_valley_and_the_department_of_defense-final.pdf
+│   ├── exp-w05_a_conversation_on_collaboration_between_silicon_valley_and_the_department_of_defense-final.pdf.txt
 │   ├── frm-r07-safeguarding-the-digital-frontier-balancing-security-and-security.pdf
+│   ├── frm-r07-safeguarding-the-digital-frontier-balancing-security-and-security.pdf.txt
 │   ├── frm-t07-the-evolving-landscape-of-cybersecurity-threats-opportunities-and-partnerships-in-a-changing-world.pdf
+│   ├── frm-t07-the-evolving-landscape-of-cybersecurity-threats-opportunities-and-partnerships-in-a-changing-world.pdf.txt
 │   ├── frm-w07-a-roundtable-with-three-cyber-wisemen.pdf
+│   ├── frm-w07-a-roundtable-with-three-cyber-wisemen.pdf.txt
 │   ├── getting_your_speaking_proposal_accepted_for_2016.pdf
+│   ├── getting_your_speaking_proposal_accepted_for_2016.pdf.txt
 │   ├── grc-f01-privacy_risk_and_control_design-nist_s_framework_for_managing_privacy_risk.pdf
+│   ├── grc-f01-privacy_risk_and_control_design-nist_s_framework_for_managing_privacy_risk.pdf.txt
 │   ├── grc-f02-cyberrisk_diligence_in_m_a_and_investing-negotiating_a_better_deal.pdf
+│   ├── grc-f02-cyberrisk_diligence_in_m_a_and_investing-negotiating_a_better_deal.pdf.txt
 │   ├── grc-f03-aligning_and_prioritizing_risk_efforts_across_the_enterprise.pdf
+│   ├── grc-f03-aligning_and_prioritizing_risk_efforts_across_the_enterprise.pdf.txt
 │   ├── grc-r02-habits_of_an_effective_ciso.pdf
+│   ├── grc-r02-habits_of_an_effective_ciso.pdf.txt
 │   ├── grc-r03f_-_effectively_measuring_cybersecurity_improvement_a_csf_use_case.pdf
+│   ├── grc-r03f_-_effectively_measuring_cybersecurity_improvement_a_csf_use_case.pdf.txt
 │   ├── grc-r04-the_measure_of_success-security_metrics_to_tell_your_story.pdf
+│   ├── grc-r04-the_measure_of_success-security_metrics_to_tell_your_story.pdf.txt
 │   ├── grc-r05_measuring_what_matters.pdf
+│   ├── grc-r05_measuring_what_matters.pdf.txt
 │   ├── grc-t09r-bridging_the_gap_between_threat_intelligence_and_risk_management.pdf
+│   ├── grc-t09r-bridging_the_gap_between_threat_intelligence_and_risk_management.pdf.txt
 │   ├── grc-t10r-the_newest_element_of_risk_metrics-social_media.pdf
+│   ├── grc-t10r-the_newest_element_of_risk_metrics-social_media.pdf.txt
 │   ├── grc-t11-partnerships_with_a_cfo-on_the_front_line_of_cybersecurity.pdf
+│   ├── grc-t11-partnerships_with_a_cfo-on_the_front_line_of_cybersecurity.pdf.txt
 │   ├── grc-w02-building_an_effective_supply_chain_security_program.pdf
+│   ├── grc-w02-building_an_effective_supply_chain_security_program.pdf.txt
 │   ├── grc-w03_integrating_cybersecurity_into_supply_chain_risk_management.pdf
+│   ├── grc-w03_integrating_cybersecurity_into_supply_chain_risk_management.pdf.txt
 │   ├── grc-w04-when_attackers_want_your_ip-valuing_and_guarding_prized_business_assets.pdf
+│   ├── grc-w04-when_attackers_want_your_ip-valuing_and_guarding_prized_business_assets.pdf.txt
 │   ├── grc-w05-how_to_measure_anything_in_cybersecurity_risk.pdf
+│   ├── grc-w05-how_to_measure_anything_in_cybersecurity_risk.pdf.txt
 │   ├── ht-f01-breaking_closed_systems_with_code-signing_and_mitigation_techniques.pdf
+│   ├── ht-f01-breaking_closed_systems_with_code-signing_and_mitigation_techniques.pdf.txt
 │   ├── ht-f02-cybersecurity_for_oil_and_gas_industries_how_hackers_can_steal_oil.pdf
+│   ├── ht-f02-cybersecurity_for_oil_and_gas_industries_how_hackers_can_steal_oil.pdf.txt
 │   ├── ht-f03-hacking_critical_infrastructure_like_you_re_not_a_n00b.pdf
+│   ├── ht-f03-hacking_critical_infrastructure_like_you_re_not_a_n00b.pdf.txt
 │   ├── ht-r02-understanding-malware-provenance-a-federal-view.pdf
+│   ├── ht-r02-understanding-malware-provenance-a-federal-view.pdf.txt
 │   ├── ht-r03-linguistic_passphrase_cracking.pdf
+│   ├── ht-r03-linguistic_passphrase_cracking.pdf.txt
 │   ├── ht-r04f-but_now_i_see_-_a_vulnerability_disclosure_maturity_model.pdf
+│   ├── ht-r04f-but_now_i_see_-_a_vulnerability_disclosure_maturity_model.pdf.txt
 │   ├── ht-r05-the_shadowy_cyber_attack_state_sponsors_of_terror_and_cyber_terrorists_.pdf
+│   ├── ht-r05-the_shadowy_cyber_attack_state_sponsors_of_terror_and_cyber_terrorists_.pdf.txt
 │   ├── ht-t10-bruh_-do-you-even-diff-diffing-microsoft-patches-to-find-vulnerabilities.pdf
+│   ├── ht-t10-bruh_-do-you-even-diff-diffing-microsoft-patches-to-find-vulnerabilities.pdf.txt
 │   ├── ht-t11-hacking-the-connected-car-thetfuturetof-vehicle-vulnerabilities.pdf
+│   ├── ht-t11-hacking-the-connected-car-thetfuturetof-vehicle-vulnerabilities.pdf.txt
 │   ├── ht-w02-autonomous-hacking-the-new-frontiers-of-attack-and-defense.pdf
+│   ├── ht-w02-autonomous-hacking-the-new-frontiers-of-attack-and-defense.pdf.txt
 │   ├── ht-w03-hacking_a_professional_police_drone.pdf
+│   ├── ht-w03-hacking_a_professional_police_drone.pdf.txt
 │   ├── ht-w04-malware-as-a-service-killing-the-supply-chain.pdf
+│   ├── ht-w04-malware-as-a-service-killing-the-supply-chain.pdf.txt
 │   ├── hta-f02-witness-the-russian-attack-live-demos-of-their-steps-tools-techniques.pdf
+│   ├── hta-f02-witness-the-russian-attack-live-demos-of-their-steps-tools-techniques.pdf.txt
 │   ├── hta-f03-from_ukraine_to_pacemakers_the_real-world_consequences_of_logical_attacks.pdf
+│   ├── hta-f03-from_ukraine_to_pacemakers_the_real-world_consequences_of_logical_attacks.pdf.txt
 │   ├── hta-r03-the_ultimate_reason_why_hackers_are_winning_the_mobile_malware_battle_.pdf
+│   ├── hta-r03-the_ultimate_reason_why_hackers_are_winning_the_mobile_malware_battle_.pdf.txt
 │   ├── hta-r04-dyre-times-into-the-mind-of-a-rat-operator.pdf
+│   ├── hta-r04-dyre-times-into-the-mind-of-a-rat-operator.pdf.txt
 │   ├── hta-r05-combatting_spoofed_gps_in_forensics.pdf
+│   ├── hta-r05-combatting_spoofed_gps_in_forensics.pdf.txt
 │   ├── hta-t09-collision-investigator-aftermath-of-the-auto-hacks.pdf
+│   ├── hta-t09-collision-investigator-aftermath-of-the-auto-hacks.pdf.txt
 │   ├── hta-t10r-threats_of_greatest_consequence_heading_into_2016.pdf
+│   ├── hta-t10r-threats_of_greatest_consequence_heading_into_2016.pdf.txt
 │   ├── hta-w02-dissecting-derusbi.pdf
+│   ├── hta-w02-dissecting-derusbi.pdf.txt
 │   ├── hta-w03f-let_s_play_doctor_practical_os_x_malware_detection_analysis.pdf
+│   ├── hta-w03f-let_s_play_doctor_practical_os_x_malware_detection_analysis.pdf.txt
 │   ├── hta-w04-understanding-the-attack-surface-and-attack-resilience-of-edgehtml.pdf
+│   ├── hta-w04-understanding-the-attack-surface-and-attack-resilience-of-edgehtml.pdf.txt
 │   ├── hta-w05-tracking_hackers_on_your_network_with_sysinternals_sysmon.pdf
+│   ├── hta-w05-tracking_hackers_on_your_network_with_sysinternals_sysmon.pdf.txt
 │   ├── hum-f01-train-like-you_re-going-to-fight-what-kind-of-exercise-meets-your-needs.pdf
+│   ├── hum-f01-train-like-you_re-going-to-fight-what-kind-of-exercise-meets-your-needs.pdf.txt
 │   ├── hum-f02_-_why-won_t-anyone-listen-to-us.pdf
+│   ├── hum-f02_-_why-won_t-anyone-listen-to-us.pdf.txt
 │   ├── hum-f03-using-behavioral-psychology-and-science-of-habit-to-change-user-behavior.pdf
+│   ├── hum-f03-using-behavioral-psychology-and-science-of-habit-to-change-user-behavior.pdf.txt
 │   ├── hum-r02-preventing-cyber-exposure-you-say-criminal_-_i-say-intractable.pdf
+│   ├── hum-r02-preventing-cyber-exposure-you-say-criminal_-_i-say-intractable.pdf.txt
 │   ├── hum-r03f-they_re-people-not-data-the-human-side-of-insider-cyberthreats.pdf
+│   ├── hum-r03f-they_re-people-not-data-the-human-side-of-insider-cyberthreats.pdf.txt
 │   ├── hum-r04-people-centric-security-transform-culture_-reduce-risk_-drive-success.pdf
+│   ├── hum-r04-people-centric-security-transform-culture_-reduce-risk_-drive-success.pdf.txt
 │   ├── hum-r05-securing-the-_weakest-link_.pdf
+│   ├── hum-r05-securing-the-_weakest-link_.pdf.txt
 │   ├── hum-t09-breaking-in-is-easy-breaking-bad-habits-is-hard.pdf
+│   ├── hum-t09-breaking-in-is-easy-breaking-bad-habits-is-hard.pdf.txt
 │   ├── hum-t10r-300_-cities_-millennials-and-a-mobile-workforce-a-security-gauntle.pdf
+│   ├── hum-t10r-300_-cities_-millennials-and-a-mobile-workforce-a-security-gauntle.pdf.txt
 │   ├── hum-t11-appsec_awareness-a_blue_print_for_security_culture_change.pdf
+│   ├── hum-t11-appsec_awareness-a_blue_print_for_security_culture_change.pdf.txt
 │   ├── hum-w02-trends-in-social-engineering-how-to-detect-and-quantify-persuasion.pdf
+│   ├── hum-w02-trends-in-social-engineering-how-to-detect-and-quantify-persuasion.pdf.txt
 │   ├── hum-w03-proactive-measures-to-mitigate-insider-threat.pdf
+│   ├── hum-w03-proactive-measures-to-mitigate-insider-threat.pdf.txt
 │   ├── hum-w04-_the-art-of-hacking-a-human.pdf
+│   ├── hum-w04-_the-art-of-hacking-a-human.pdf.txt
 │   ├── hum-w05rf-securing-today_s-online-kids_copy1.pdf
+│   ├── hum-w05rf-securing-today_s-online-kids_copy1.pdf.txt
 │   ├── idy-f01-alerts_for_digital_identity_system_operation_and_fraud_detection.pdf
+│   ├── idy-f01-alerts_for_digital_identity_system_operation_and_fraud_detection.pdf.txt
 │   ├── idy-f02-dont-use-two-factor-authentication-unless-you-need-it.pdf
+│   ├── idy-f02-dont-use-two-factor-authentication-unless-you-need-it.pdf.txt
 │   ├── idy-f03-are-you-worthy-the-laws-of-privileged-account-management.pdf
+│   ├── idy-f03-are-you-worthy-the-laws-of-privileged-account-management.pdf.txt
 │   ├── idy-r02-doing-something-smart-with-all-the-smart-things.pdf
+│   ├── idy-r02-doing-something-smart-with-all-the-smart-things.pdf.txt
 │   ├── idy-r03-deconstructing-identity-in-security.pdf
+│   ├── idy-r03-deconstructing-identity-in-security.pdf.txt
 │   ├── idy-r04f-umpires_-selfiesticks_-and-privacy-things-that-exist-but-shouldn_t.pdf
+│   ├── idy-r04f-umpires_-selfiesticks_-and-privacy-things-that-exist-but-shouldn_t.pdf.txt
 │   ├── idy-r05r-identity-standards-at-work-in-google_s-mobile-focused-future.pdf
+│   ├── idy-r05r-identity-standards-at-work-in-google_s-mobile-focused-future.pdf.txt
 │   ├── lab1-r07_securing_automobility_cyborgs_and_the_social_network_of_things_-_follow_up_copy1.pdf
+│   ├── lab1-r07_securing_automobility_cyborgs_and_the_social_network_of_things_-_follow_up_copy1.pdf.txt
 │   ├── lab1-w13_financial_sector_and_the_evolving_threat_landscape_live_cyber-exercise_-_follow_up.pdf
+│   ├── lab1-w13_financial_sector_and_the_evolving_threat_landscape_live_cyber-exercise_-_follow_up.pdf.txt
 │   ├── lab2-r07_developing_a_cyberstrategy_prepare_your_company_before_zero_day_strikes_-_follow_up.pdf
+│   ├── lab2-r07_developing_a_cyberstrategy_prepare_your_company_before_zero_day_strikes_-_follow_up.pdf.txt
 │   ├── lab2-r12_web_security_smackdown_put_your_offensive_skills_to_the_test_-_follow_up_copy1.pdf
+│   ├── lab2-r12_web_security_smackdown_put_your_offensive_skills_to_the_test_-_follow_up_copy1.pdf.txt
 │   ├── lab2-w07_live_cyber_exercise_responding_to_national_crisis_-_follow_up.pdf
+│   ├── lab2-w07_live_cyber_exercise_responding_to_national_crisis_-_follow_up.pdf.txt
 │   ├── lab3-r07_performing_advanced_incident_response_-_interactive_exercise-follow_up.pdf
+│   ├── lab3-r07_performing_advanced_incident_response_-_interactive_exercise-follow_up.pdf.txt
 │   ├── lab3-w07_transforming_your_security_culture_from_awareness_to_practice_to_maturity_-_follow_up.pdf
+│   ├── lab3-w07_transforming_your_security_culture_from_awareness_to_practice_to_maturity_-_follow_up.pdf.txt
 │   ├── lab3-w13_securing_the_industrial_internet_of_things_a_deep_dive_into_the_future_-_follow_up.pdf
+│   ├── lab3-w13_securing_the_industrial_internet_of_things_a_deep_dive_into_the_future_-_follow_up.pdf.txt
 │   ├── law-f02-got_coverage-cyber-insurance_realities_revealed.pdf
+│   ├── law-f02-got_coverage-cyber-insurance_realities_revealed.pdf.txt
 │   ├── law-f03-the_aftermath_of_a_breach-best_practices_for_working_with_law_enforcement.pdf
+│   ├── law-f03-the_aftermath_of_a_breach-best_practices_for_working_with_law_enforcement.pdf.txt
 │   ├── law-r02-cyberwar_games-enhancing_board_of_directors_cybersecurity_oversight.pdf
+│   ├── law-r02-cyberwar_games-enhancing_board_of_directors_cybersecurity_oversight.pdf.txt
 │   ├── law-r04-cybersecurity_the_view_from_washington_with_jim_lewis_and_stewart_baker.pdf
+│   ├── law-r04-cybersecurity_the_view_from_washington_with_jim_lewis_and_stewart_baker.pdf.txt
 │   ├── law-r05-preserving-the-privilege-during-breach-response.pdf
+│   ├── law-r05-preserving-the-privilege-during-breach-response.pdf.txt
 │   ├── law-t09-hot_topics_in_technology_law.pdf
+│   ├── law-t09-hot_topics_in_technology_law.pdf.txt
 │   ├── law-t10-flaming_toasters_to_crashing_cars_the_internet_of_things_and_mass_liability.pdf
+│   ├── law-t10-flaming_toasters_to_crashing_cars_the_internet_of_things_and_mass_liability.pdf.txt
 │   ├── law-t11-where_you_are_is_who_you_are-legal_trends_in_geolocation_privacy_security.pdf
+│   ├── law-t11-where_you_are_is_who_you_are-legal_trends_in_geolocation_privacy_security.pdf.txt
 │   ├── law-w02-the_100_million_question-were_reasonable_cybersecurity_measures_taken.pdf
+│   ├── law-w02-the_100_million_question-were_reasonable_cybersecurity_measures_taken.pdf.txt
 │   ├── law-w03-responses-to-state-sponsored-economic-espionage-3.pdf
+│   ├── law-w03-responses-to-state-sponsored-economic-espionage-3.pdf.txt
 │   ├── law-w04-global_cybersecurity_laws_regulations_and_liability.pdf
+│   ├── law-w04-global_cybersecurity_laws_regulations_and_liability.pdf.txt
 │   ├── law-w05-law_and_ethics_in_the_cyborg_age.pdf
+│   ├── law-w05-law_and_ethics_in_the_cyborg_age.pdf.txt
 │   ├── mash-f01-wake-up-call-do-industry-analysts-actually-stifle-security-innovation.pdf
+│   ├── mash-f01-wake-up-call-do-industry-analysts-actually-stifle-security-innovation.pdf.txt
 │   ├── mash-f02-teaching-our-kids-the-real-hacking-skillz.pdf
+│   ├── mash-f02-teaching-our-kids-the-real-hacking-skillz.pdf.txt
 │   ├── mash-f03-five_infosec_lessons_from_the_great_generals_of_the_ancient_world.pdf
+│   ├── mash-f03-five_infosec_lessons_from_the_great_generals_of_the_ancient_world.pdf.txt
 │   ├── mash-r03-on-the-ground-with-bullets-flying-by-tales-from-the-first-security-hire.pdf
+│   ├── mash-r03-on-the-ground-with-bullets-flying-by-tales-from-the-first-security-hire.pdf.txt
 │   ├── mash-r04_-_dissecting_bitcoin_security.pdf
+│   ├── mash-r04_-_dissecting_bitcoin_security.pdf.txt
 │   ├── mash-r05-this_doesn_t_end_well_the_tld_explosion.pdf
+│   ├── mash-r05-this_doesn_t_end_well_the_tld_explosion.pdf.txt
 │   ├── mbs-f01-national-cybersecurity-for-transport-networks-_nctns_.pdf
+│   ├── mbs-f01-national-cybersecurity-for-transport-networks-_nctns_.pdf.txt
 │   ├── mbs-f02-the-state-of-end-user-security.pdf
+│   ├── mbs-f02-the-state-of-end-user-security.pdf.txt
 │   ├── mbs-f03-android-serialization-vulnerabilities-revisited.pdf
+│   ├── mbs-f03-android-serialization-vulnerabilities-revisited.pdf.txt
 │   ├── mbs-r02-how-to-analyze-an-android-bot.pdf
+│   ├── mbs-r02-how-to-analyze-an-android-bot.pdf.txt
 │   ├── mbs-r03-building-an-android-scale.pdf
+│   ├── mbs-r03-building-an-android-scale.pdf.txt
 │   ├── mbs-r04-mobile-ca-state-of-the-union.pdf
+│   ├── mbs-r04-mobile-ca-state-of-the-union.pdf.txt
 │   ├── mbs-r05-what_it_professionals_need_to_know_about_sniffing_wireless_traffic_in_2016.pdf
+│   ├── mbs-r05-what_it_professionals_need_to_know_about_sniffing_wireless_traffic_in_2016.pdf.txt
 │   ├── mbs-t09-exploring-the-foundations-of-mobile-trust.pdf
+│   ├── mbs-t09-exploring-the-foundations-of-mobile-trust.pdf.txt
 │   ├── mbs-t10r-ghosts-in-the-network-ss7-and-rf-vulnerabilities-in-cellular-networks.pdf
+│   ├── mbs-t10r-ghosts-in-the-network-ss7-and-rf-vulnerabilities-in-cellular-networks.pdf.txt
 │   ├── mbs-t11-battling-daily-cyberattacks-a-day-in-the-life-of-orange-israel_s-ciso.pdf
+│   ├── mbs-t11-battling-daily-cyberattacks-a-day-in-the-life-of-orange-israel_s-ciso.pdf.txt
 │   ├── mbs-w02-current-state-of-privilege-escalation-on-android.pdf
+│   ├── mbs-w02-current-state-of-privilege-escalation-on-android.pdf.txt
 │   ├── mbs-w03f-upwardly-mobile-looking-at-evolving-cybercrime-tactics-in-mobile-malware.pdf
+│   ├── mbs-w03f-upwardly-mobile-looking-at-evolving-cybercrime-tactics-in-mobile-malware.pdf.txt
 │   ├── mbs-w04-finding-triggered-malice-in-android-apps.pdf
+│   ├── mbs-w04-finding-triggered-malice-in-android-apps.pdf.txt
 │   ├── mbs-w05-wireless-infusion-pumps-securing-hospitals_-most-ubiquitous-medical-device.pdf
+│   ├── mbs-w05-wireless-infusion-pumps-securing-hospitals_-most-ubiquitous-medical-device.pdf.txt
 │   ├── pdac-f01_place_your_bets_on_tokenization_to_improve_cyber_security_final.pdf
+│   ├── pdac-f01_place_your_bets_on_tokenization_to_improve_cyber_security_final.pdf.txt
 │   ├── pdac-f02_quantum_technologies_and_real_world_information_security_challenges_final.pdf
+│   ├── pdac-f02_quantum_technologies_and_real_world_information_security_challenges_final.pdf.txt
 │   ├── pdac-f03-encryption_without_key_management_-_its_like_icing_without_the_cake_final.pdf
+│   ├── pdac-f03-encryption_without_key_management_-_its_like_icing_without_the_cake_final.pdf.txt
 │   ├── pdac-r02-how-broken-is-our-crypto-really_final.pdf
+│   ├── pdac-r02-how-broken-is-our-crypto-really_final.pdf.txt
 │   ├── pdac-r03_data-classification_reclaiming_infosec_s_redheaded_stepchild_final.pdf
+│   ├── pdac-r03_data-classification_reclaiming_infosec_s_redheaded_stepchild_final.pdf.txt
 │   ├── pdac-r04_tls_certificates_on_the_web_the_good_the_bad_and_the_ugly_final.pdf
+│   ├── pdac-r04_tls_certificates_on_the_web_the_good_the_bad_and_the_ugly_final.pdf.txt
 │   ├── pdac-r05-leveraging-analytics-for-data-protection-decisions_final.pdf
+│   ├── pdac-r05-leveraging-analytics-for-data-protection-decisions_final.pdf.txt
 │   ├── pdac-t09_realities_of_data_security_final.pdf
+│   ├── pdac-t09_realities_of_data_security_final.pdf.txt
 │   ├── pdac-t10r_openssl_after_heartbleed_final.pptx.pdf
+│   ├── pdac-t10r_openssl_after_heartbleed_final.pptx.pdf.txt
 │   ├── pdac-t11_domain_knowledge_how_to_factor_dns_into_your_security_and_privacy_strategy_final.pdf
+│   ├── pdac-t11_domain_knowledge_how_to_factor_dns_into_your_security_and_privacy_strategy_final.pdf.txt
 │   ├── pdac-w02_applying_auto-data_classification_techniques_for_large_data_sets.pdf
+│   ├── pdac-w02_applying_auto-data_classification_techniques_for_large_data_sets.pdf.txt
 │   ├── pdac-w03f_end_island_hopping_hacker_vacation_in_your_information_supply_chain_final.pdf
+│   ├── pdac-w03f_end_island_hopping_hacker_vacation_in_your_information_supply_chain_final.pdf.txt
 │   ├── pdac-w04-how-poorly-managed-keys-and-certificates-impact-the-trust_model_final.pdf
+│   ├── pdac-w04-how-poorly-managed-keys-and-certificates-impact-the-trust_model_final.pdf.txt
 │   ├── pdac-w05_the_state_of_modern_password_cracking_final.ppt.pdf
+│   ├── pdac-w05_the_state_of_modern_password_cracking_final.ppt.pdf.txt
 │   ├── pdil-t09_learning_from_unicorns_while_living_with_legacy.pdf
+│   ├── pdil-t09_learning_from_unicorns_while_living_with_legacy.pdf.txt
 │   ├── pdil-t10_building_the_ultimate_security_rfp-final.pdf
+│   ├── pdil-t10_building_the_ultimate_security_rfp-final.pdf.txt
 │   ├── pdil-t11_the_disconnect_between_builders_buyers_a_vcs_perspective-final.pdf
+│   ├── pdil-t11_the_disconnect_between_builders_buyers_a_vcs_perspective-final.pdf.txt
 │   ├── pdil-w02f_understanding_the_security_vendor_landscape...-final_copy2.pdf
+│   ├── pdil-w02f_understanding_the_security_vendor_landscape...-final_copy2.pdf.txt
 │   ├── pdil-w03_how_to_build_or_buy_an_integrated_security-final.pdf
+│   ├── pdil-w03_how_to_build_or_buy_an_integrated_security-final.pdf.txt
 │   ├── pdil-w04_rsac_2016_cisos_guide_to_startups_third_drafti-final.pdf
+│   ├── pdil-w04_rsac_2016_cisos_guide_to_startups_third_drafti-final.pdf.txt
 │   ├── pdil-w05_successful_managed_security_services_relationships...-final.pdf
+│   ├── pdil-w05_successful_managed_security_services_relationships...-final.pdf.txt
 │   ├── png-f01_the_cybersecurity_risk_information_sharing_program-final.pdf
+│   ├── png-f01_the_cybersecurity_risk_information_sharing_program-final.pdf.txt
 │   ├── png-f02_is_rome_burning_while_nero_fiddles-final.pdf
+│   ├── png-f02_is_rome_burning_while_nero_fiddles-final.pdf.txt
 │   ├── png-f03_active_defense-defining_the_policy_technology_and_legal_landscape-final.pdf
+│   ├── png-f03_active_defense-defining_the_policy_technology_and_legal_landscape-final.pdf.txt
 │   ├── png-r02_laboratories_of_democracy_final.pdf
+│   ├── png-r02_laboratories_of_democracy_final.pdf.txt
 │   ├── png-r03f_confronting_cybercrime-exploring_the_legal_and_investigative_challenges-final_copy1.pdf
+│   ├── png-r03f_confronting_cybercrime-exploring_the_legal_and_investigative_challenges-final_copy1.pdf.txt
 │   ├── png-r04_evolving_security_operations-final.pdf
+│   ├── png-r04_evolving_security_operations-final.pdf.txt
 │   ├── png-r05_bridging_cybercrime_and_cybersecurity...-final.pdf
+│   ├── png-r05_bridging_cybercrime_and_cybersecurity...-final.pdf.txt
 │   ├── png-t09_2016-the_changing_face_of_cyber_in_the_federal_space-final.pdf
+│   ├── png-t09_2016-the_changing_face_of_cyber_in_the_federal_space-final.pdf.txt
 │   ├── png-t10_uploading_fear-terrorists_use_of_the_internet_social_media.pdf
+│   ├── png-t10_uploading_fear-terrorists_use_of_the_internet_social_media.pdf.txt
 │   ├── png-t11_encryption_and_information_sovereignty-final.pdf
+│   ├── png-t11_encryption_and_information_sovereignty-final.pdf.txt
 │   ├── png-w02_do_we_need_cyber-ratings_for_the_auto_industry-final.pdf
+│   ├── png-w02_do_we_need_cyber-ratings_for_the_auto_industry-final.pdf.txt
 │   ├── png-w03-one_team_one_fight-final.pdf
+│   ├── png-w03-one_team_one_fight-final.pdf.txt
 │   ├── png-w04_government_in_the_crossfire-final.pdf
+│   ├── png-w04_government_in_the_crossfire-final.pdf.txt
 │   ├── png-w05_how_the_usg_s_rule_for_intrusion_software_will_kill_global_cybersecurity-final_copy1.pdf
+│   ├── png-w05_how_the_usg_s_rule_for_intrusion_software_will_kill_global_cybersecurity-final_copy1.pdf.txt
 │   ├── prof-m01-so_you_want_to_run_your_own_security_business.pdf
+│   ├── prof-m01-so_you_want_to_run_your_own_security_business.pdf.txt
 │   ├── prof-m02-hackers-hiring-hackers-how-to-do-things-better.pdf
+│   ├── prof-m02-hackers-hiring-hackers-how-to-do-things-better.pdf.txt
 │   ├── prof-m03-bridging-the-great-minority-cyber-dividesocial-and-cultural-dynamics.pdf
+│   ├── prof-m03-bridging-the-great-minority-cyber-dividesocial-and-cultural-dynamics.pdf.txt
 │   ├── prof-m04-how_to_explain_cyber_security_to_the_board_using_a_simple_metaphor-_fire.pdf
+│   ├── prof-m04-how_to_explain_cyber_security_to_the_board_using_a_simple_metaphor-_fire.pdf.txt
 │   ├── prof-m06-should-i-stay-or-should-i-go-how-to-attract-and-retain-women-in-the-industry.pdf
+│   ├── prof-m06-should-i-stay-or-should-i-go-how-to-attract-and-retain-women-in-the-industry.pdf.txt
 │   ├── prof-m07-from-cave-man_to-business-man-the-evolution-of-the-ciso-to-ciro.pdf
+│   ├── prof-m07-from-cave-man_to-business-man-the-evolution-of-the-ciso-to-ciro.pdf.txt
 │   ├── prof-m08-cybersecurity-education-and-workforce-development-for-the-nation.pdf
+│   ├── prof-m08-cybersecurity-education-and-workforce-development-for-the-nation.pdf.txt
 │   ├── prv-t09-hot-topics-in-privacy-_a-conversation-with-adobe_-google-and-microsoft.pdf
+│   ├── prv-t09-hot-topics-in-privacy-_a-conversation-with-adobe_-google-and-microsoft.pdf.txt
 │   ├── prv-t10-privacy-primer-for-security-officers.pdf
+│   ├── prv-t10-privacy-primer-for-security-officers.pdf.txt
 │   ├── prv-t11-privacy-security_-it-and-the-new-european-general-protection-regulation.pdf
+│   ├── prv-t11-privacy-security_-it-and-the-new-european-general-protection-regulation.pdf.txt
 │   ├── prv-w02-investment-in-privacy-brings-security-results.pdf
+│   ├── prv-w02-investment-in-privacy-brings-security-results.pdf.txt
 │   ├── prv-w03-can-government-encryption-backdoor-and-privacy-co-exist-is-it-an-oxymoron.pdf
+│   ├── prv-w03-can-government-encryption-backdoor-and-privacy-co-exist-is-it-an-oxymoron.pdf.txt
 │   ├── prv-w04-privacy-and-cyberthreat-sharing-bridging-the-divide.pdf
+│   ├── prv-w04-privacy-and-cyberthreat-sharing-bridging-the-divide.pdf.txt
 │   ├── prv-w05-avoid-epic-fails-elements-of-successful-breach-notification-and-response.pdf
+│   ├── prv-w05-avoid-epic-fails-elements-of-successful-breach-notification-and-response.pdf.txt
 │   ├── rsac_2016_-_know_before_you_go_webcast.pdf
+│   ├── rsac_2016_-_know_before_you_go_webcast.pdf.txt
 │   ├── rsac_2016_securing_the_industrial_internet_of_things_a_deep_dive_into_the_future.pdf
+│   ├── rsac_2016_securing_the_industrial_internet_of_things_a_deep_dive_into_the_future.pdf.txt
 │   ├── rsac_submission_trends_2016.pdf
+│   ├── rsac_submission_trends_2016.pdf.txt
 │   ├── sbx1-r05-tactical-survival-tips-building-and-leveraging-iot-technologies.pdf
+│   ├── sbx1-r05-tactical-survival-tips-building-and-leveraging-iot-technologies.pdf.txt
 │   ├── sbx1-r07-top-10-things-to-be-fixed-at-ics-installations.pdf
+│   ├── sbx1-r07-top-10-things-to-be-fixed-at-ics-installations.pdf.txt
 │   ├── sbx1-r12-industrial-defence-in-depth.pdf
+│   ├── sbx1-r12-industrial-defence-in-depth.pdf.txt
 │   ├── sbx1-r15-encore-when-good-devices-go-bad-live-hacking-in-the-iot-sandbox.pdf
+│   ├── sbx1-r15-encore-when-good-devices-go-bad-live-hacking-in-the-iot-sandbox.pdf.txt
 │   ├── sbx1-w03-when-worlds-collide-iot-meets-ics.pdf
+│   ├── sbx1-w03-when-worlds-collide-iot-meets-ics.pdf.txt
 │   ├── sbx1-w05-how-to-get-into-ics-security.pdf
+│   ├── sbx1-w05-how-to-get-into-ics-security.pdf.txt
 │   ├── sbx1-w07-when-good-devices-go-bad-live-hacking-in-the-iot.pdf
+│   ├── sbx1-w07-when-good-devices-go-bad-live-hacking-in-the-iot.pdf.txt
 │   ├── sbx1-w09-industrial-cyberthreats-the-kaspersky-lab-view.pdf
+│   ├── sbx1-w09-industrial-cyberthreats-the-kaspersky-lab-view.pdf.txt
 │   ├── sbx1-w13-hacking-iot-why-security-in-iot-is-failing.pdf
+│   ├── sbx1-w13-hacking-iot-why-security-in-iot-is-failing.pdf.txt
 │   ├── sbx1-w16-cyber-situational-awareness-in-ics-scada-networks.pdf
+│   ├── sbx1-w16-cyber-situational-awareness-in-ics-scada-networks.pdf.txt
 │   ├── sbx3-r05-cryptoparty-an-introduction-to-secure-usable-encryption-tools-for-all.pdf
+│   ├── sbx3-r05-cryptoparty-an-introduction-to-secure-usable-encryption-tools-for-all.pdf.txt
 │   ├── sbx3-w05-cryptoparty-tutorial_learn-how-to-use-tor-to-be-anonymous-online.pdf
+│   ├── sbx3-w05-cryptoparty-tutorial_learn-how-to-use-tor-to-be-anonymous-online.pdf.txt
 │   ├── sem-m01_information_security_leadership_development_surviving_as_a_security_leader.pdf
+│   ├── sem-m01_information_security_leadership_development_surviving_as_a_security_leader.pdf.txt
 │   ├── sem-m02_advancing_information_risk_practices_seminar_copy1.pdf
+│   ├── sem-m02_advancing_information_risk_practices_seminar_copy1.pdf.txt
 │   ├── spo1-r03-random-numbers_the-key-to-security_v2.pdf
+│   ├── spo1-r03-random-numbers_the-key-to-security_v2.pdf.txt
 │   ├── spo1-r04-board-room-rodeo-how-to-align-the-c-suite-and-make-better-security-decisions.pdf
+│   ├── spo1-r04-board-room-rodeo-how-to-align-the-c-suite-and-make-better-security-decisions.pdf.txt
 │   ├── spo1-t09-disrupting-adversarial-success-giving-the-bad-guys-no-sleep.pdf
+│   ├── spo1-t09-disrupting-adversarial-success-giving-the-bad-guys-no-sleep.pdf.txt
 │   ├── spo1-t10-security-monitoring-in-the-real-world-with-petabytes-of-data.pdf
+│   ├── spo1-t10-security-monitoring-in-the-real-world-with-petabytes-of-data.pdf.txt
 │   ├── spo1-t11-converging-it-and-ot-for-secure-reliable-resilient-industrial-networks.pdf
+│   ├── spo1-t11-converging-it-and-ot-for-secure-reliable-resilient-industrial-networks.pdf.txt
 │   ├── spo1-w04-get-your-head-in-the-cloud-a-practical-model-for-enterprise-cloud-security.pdf
+│   ├── spo1-w04-get-your-head-in-the-cloud-a-practical-model-for-enterprise-cloud-security.pdf.txt
 │   ├── spo1-w05-using-cloud-scale-intelligence-to-address-security-challenges.pdf
+│   ├── spo1-w05-using-cloud-scale-intelligence-to-address-security-challenges.pdf.txt
 │   ├── spo2-r04-local-malware-for-local-people_the-regionalization-of-malware_copy1.pdf
+│   ├── spo2-r04-local-malware-for-local-people_the-regionalization-of-malware_copy1.pdf.txt
 │   ├── spo2-t09-2016-state-of-_vulnerability-exploits_v2.pdf
+│   ├── spo2-t09-2016-state-of-_vulnerability-exploits_v2.pdf.txt
 │   ├── spo2-t10-threat-modeling-the-minecraft-way.pdf
+│   ├── spo2-t10-threat-modeling-the-minecraft-way.pdf.txt
 │   ├── spo2-t11-what-is-the-right-approach-for-critical-infrastructure-protection.pdf
+│   ├── spo2-t11-what-is-the-right-approach-for-critical-infrastructure-protection.pdf.txt
 │   ├── spo2-w03-providing-first-rate-security-services-with-analytics-driven-security.pdf
+│   ├── spo2-w03-providing-first-rate-security-services-with-analytics-driven-security.pdf.txt
 │   ├── spo2-w04-build-it-in_a-proactive-approach-to-securing-applications.pdf
+│   ├── spo2-w04-build-it-in_a-proactive-approach-to-securing-applications.pdf.txt
 │   ├── spo2-w05-bots_fast-growing-bane-of-the-web-crawlers-scrapers-and-account-checkers.pdf
+│   ├── spo2-w05-bots_fast-growing-bane-of-the-web-crawlers-scrapers-and-account-checkers.pdf.txt
 │   ├── spo3-r04-the_virtual_patching_of_zero-day_vulnerabilities.pdf
+│   ├── spo3-r04-the_virtual_patching_of_zero-day_vulnerabilities.pdf.txt
 │   ├── spo3-t09-the-shift-to-a-24-7-security-landscape-why-cloud-security-is-the-answer.pdf
+│   ├── spo3-t09-the-shift-to-a-24-7-security-landscape-why-cloud-security-is-the-answer.pdf.txt
 │   ├── spo3-t10-intelligence-led-security_.pdf
+│   ├── spo3-t10-intelligence-led-security_.pdf.txt
 │   ├── spo3-t11-application-and-threat-intelligence-driving-security-offense-and-defense.pdf
+│   ├── spo3-t11-application-and-threat-intelligence-driving-security-offense-and-defense.pdf.txt
 │   ├── spo3-w04-more-books-you-should-have-read-by-now-the-cybersecurity-canon-project.pdf
+│   ├── spo3-w04-more-books-you-should-have-read-by-now-the-cybersecurity-canon-project.pdf.txt
 │   ├── spo3-w05-assessing-risk-csos-and-cyber-insurance.pdf
+│   ├── spo3-w05-assessing-risk-csos-and-cyber-insurance.pdf.txt
 │   ├── str-f01_techniques_for_security_scalability.pdf
+│   ├── str-f01_techniques_for_security_scalability.pdf.txt
 │   ├── str-f02-vendor_security_practices-turn_the_rocks_over_early_and_often.pdf
+│   ├── str-f02-vendor_security_practices-turn_the_rocks_over_early_and_often.pdf.txt
 │   ├── str-f03_integrated_security_operations_center_isoc_for_cybersecurity_collaboration.pdf
+│   ├── str-f03_integrated_security_operations_center_isoc_for_cybersecurity_collaboration.pdf.txt
 │   ├── str-r02-data_science_transforming_security_operations.pdf
+│   ├── str-r02-data_science_transforming_security_operations.pdf.txt
 │   ├── str-r03-separating_fact_from_fiction-the_real_risks_within_medical_device.pdf
+│   ├── str-r03-separating_fact_from_fiction-the_real_risks_within_medical_device.pdf.txt
 │   ├── str-r04-ghosts_in_the_shadows.pdf
+│   ├── str-r04-ghosts_in_the_shadows.pdf.txt
 │   ├── str-r05-thinking_digital_enablement_think_protection_think_process_re-engineering.pdf
+│   ├── str-r05-thinking_digital_enablement_think_protection_think_process_re-engineering.pdf.txt
 │   ├── str-t09r-adjusting_your_security_controls-it_s_the_new_normal.pdf
+│   ├── str-t09r-adjusting_your_security_controls-it_s_the_new_normal.pdf.txt
 │   ├── str-t10-automobiles_are_getting_hacked-what_s_next_for_transportation_security.pdf
+│   ├── str-t10-automobiles_are_getting_hacked-what_s_next_for_transportation_security.pdf.txt
 │   ├── str-t11-customer_centric_security_and_architecture_a_ciso_cto_study.pdf
+│   ├── str-t11-customer_centric_security_and_architecture_a_ciso_cto_study.pdf.txt
 │   ├── str-w02-the_three_principles_of_effective_advanced_threat_detection.pdf
+│   ├── str-w02-the_three_principles_of_effective_advanced_threat_detection.pdf.txt
 │   ├── str-w03-five-ways-to-drive-revenue-by-protecting-customer-privacy-koetzle_-_16feb16.pdf
+│   ├── str-w03-five-ways-to-drive-revenue-by-protecting-customer-privacy-koetzle_-_16feb16.pdf.txt
 │   ├── str-w04f_how_infosec_maturity_models_are_missing_the_point.pdf
+│   ├── str-w04f_how_infosec_maturity_models_are_missing_the_point.pdf.txt
 │   ├── str-w05-estimating-development-security-maturity-in-about-an-hour-final.pdf
+│   ├── str-w05-estimating-development-security-maturity-in-about-an-hour-final.pdf.txt
 │   ├── tech-f01-it_s-not-dead-yet-email-security-matters.pdf
+│   ├── tech-f01-it_s-not-dead-yet-email-security-matters.pdf.txt
 │   ├── tech-f02-looking-through-an-attackers-eyepicture-to-compromise-in-30-seconds.pdf
+│   ├── tech-f02-looking-through-an-attackers-eyepicture-to-compromise-in-30-seconds.pdf.txt
 │   ├── tech-f03-are-you-thinking-about-it-outsourcing.pdf
+│   ├── tech-f03-are-you-thinking-about-it-outsourcing.pdf.txt
 │   ├── tech-r02f-a-new_-radically-innovative-us_ccu-cyber-security-check.pdf
+│   ├── tech-r02f-a-new_-radically-innovative-us_ccu-cyber-security-check.pdf.txt
 │   ├── tech-r03-automation-and-virtualization-simplify-life-can-they-simplify-security.pdf
+│   ├── tech-r03-automation-and-virtualization-simplify-life-can-they-simplify-security.pdf.txt
 │   ├── tech-r04-debunking-soc-teams-vs-vendor-myths-in-cyber-firefights.pdf
+│   ├── tech-r04-debunking-soc-teams-vs-vendor-myths-in-cyber-firefights.pdf.txt
 │   ├── tech-r05_-what-is-next-generation-endpoint-security-and-why-do-you-need-it.pdf
+│   ├── tech-r05_-what-is-next-generation-endpoint-security-and-why-do-you-need-it.pdf.txt
 │   ├── tech-t09-smart-megalopolises.-how-safe-and-reliable-is-your-data.pdf
+│   ├── tech-t09-smart-megalopolises.-how-safe-and-reliable-is-your-data.pdf.txt
 │   ├── tech-t10-security-advantages-of-software-defined-networking.pdf
+│   ├── tech-t10-security-advantages-of-software-defined-networking.pdf.txt
 │   ├── tech-t11-detection_-prevention-and-response-strategy-the-return-of-the-endpoint_copy1.pdf
+│   ├── tech-t11-detection_-prevention-and-response-strategy-the-return-of-the-endpoint_copy1.pdf.txt
 │   ├── tech-w02-giving-the-bubble-boy-an-immune-system-so-he-can-play-outside.pdf
+│   ├── tech-w02-giving-the-bubble-boy-an-immune-system-so-he-can-play-outside.pdf.txt
 │   ├── tech-w03-attacks-on-critical-infrastructure-insights-from-the-big-board.pdf
+│   ├── tech-w03-attacks-on-critical-infrastructure-insights-from-the-big-board.pdf.txt
 │   ├── tech-w04-applying-top-secret-and-military-network-grade-security-in-the-real-world_copy1.pdf
+│   ├── tech-w04-applying-top-secret-and-military-network-grade-security-in-the-real-world_copy1.pdf.txt
 │   ├── tech-w05f-understanding-the-why-in-enterprise-application-security-strategy.pdf
+│   ├── tech-w05f-understanding-the-why-in-enterprise-application-security-strategy.pdf.txt
 │   ├── tv-r012_offense_defense_defense_in_depth_social_engineering_and_historical_lessons.pdf
+│   ├── tv-r012_offense_defense_defense_in_depth_social_engineering_and_historical_lessons.pdf.txt
 │   ├── tv-r03_myth_busting_the_security_landscape_and_development_cycle.pdf
+│   ├── tv-r03_myth_busting_the_security_landscape_and_development_cycle.pdf.txt
 │   ├── tv-r03_seven_software_security_myths_gary_mcgraw_final.pdf
+│   ├── tv-r03_seven_software_security_myths_gary_mcgraw_final.pdf.txt
 │   ├── tv-r04_gone_in_15_minutes_losing_your_privacy_while_standing_in_a_crowd_gallicchio_final.pdf
+│   ├── tv-r04_gone_in_15_minutes_losing_your_privacy_while_standing_in_a_crowd_gallicchio_final.pdf.txt
 │   ├── tv-r04_privacy_perspectives_how_it_s_lost_and_the_implications.pdf
+│   ├── tv-r04_privacy_perspectives_how_it_s_lost_and_the_implications.pdf.txt
 │   ├── tv-r05_protecting_organizations_emerging_threats_and_software_supply_chain_analysis_copy1.pdf
+│   ├── tv-r05_protecting_organizations_emerging_threats_and_software_supply_chain_analysis_copy1.pdf.txt
 │   ├── tv-r07_guiding_principles_to_defending_organizations.pdf
+│   ├── tv-r07_guiding_principles_to_defending_organizations.pdf.txt
 │   ├── tv-r07_predictive_techniques_to_catch_insider_threats_before_they_become_criminals_cappelli_final.pdf
+│   ├── tv-r07_predictive_techniques_to_catch_insider_threats_before_they_become_criminals_cappelli_final.pdf.txt
 │   ├── tv-r08_our_brave_new_connected_world_is_it_already_too_late.pdf
+│   ├── tv-r08_our_brave_new_connected_world_is_it_already_too_late.pdf.txt
 │   ├── tv-r08_your_part_in_securing_our_connected_world_are_you_ready_guel_final.pdf
+│   ├── tv-r08_your_part_in_securing_our_connected_world_are_you_ready_guel_final.pdf.txt
 │   ├── tv-t08_risks_harms_and_rewards_of_our_and_our_kids_online_lives_stephen_balkam.pdf
+│   ├── tv-t08_risks_harms_and_rewards_of_our_and_our_kids_online_lives_stephen_balkam.pdf.txt
 │   ├── tv-t09_dar-win_or_lose_the_anthropology_of_security_evolution_ottenheimer_final.pdf
+│   ├── tv-t09_dar-win_or_lose_the_anthropology_of_security_evolution_ottenheimer_final.pdf.txt
 │   ├── tv-t09_successful_security_practitioners_how_we_evolve_and_where_is_the_workforce.pdf
+│   ├── tv-t09_successful_security_practitioners_how_we_evolve_and_where_is_the_workforce.pdf.txt
 │   ├── tv-t10_it_s_personal_attacks_on_the_individual.pdf
+│   ├── tv-t10_it_s_personal_attacks_on_the_individual.pdf.txt
 │   ├── tv-t11_iot_breaks_all_the_rules_how_should_developers_and_organizations_react.pdf
+│   ├── tv-t11_iot_breaks_all_the_rules_how_should_developers_and_organizations_react.pdf.txt
 │   ├── tv-w03_a_futurist_s_look_at_nation-state_cyberespionage_vicente_diaz_final.pdf
+│   ├── tv-w03_a_futurist_s_look_at_nation-state_cyberespionage_vicente_diaz_final.pdf.txt
 │   ├── tv-w03_the_dark_web_and_cyberespionage_fact_fiction_and_future_copy1.pdf
+│   ├── tv-w03_the_dark_web_and_cyberespionage_fact_fiction_and_future_copy1.pdf.txt
 │   ├── tv-w05_critical_infrastructure_fails_are_we_doomed.pdf
+│   ├── tv-w05_critical_infrastructure_fails_are_we_doomed.pdf.txt
 │   ├── tv-w05_honey_i_hacked_the_scada_industrial_controlled_systems_heyen_final.pdf
+│   ├── tv-w05_honey_i_hacked_the_scada_industrial_controlled_systems_heyen_final.pdf.txt
 │   ├── tv-w07_security_issues_in_transportation_need_for_collaboration_for_solutions.pdf
+│   ├── tv-w07_security_issues_in_transportation_need_for_collaboration_for_solutions.pdf.txt
 │   ├── tv-w07_they_ll_get_you_on_the_go_how_and_why_transportation_is_a_target_baumgartner_final.pdf
+│   ├── tv-w07_they_ll_get_you_on_the_go_how_and_why_transportation_is_a_target_baumgartner_final.pdf.txt
 │   ├── tv-w09_hacks_happen.pdf
+│   ├── tv-w09_hacks_happen.pdf.txt
 │   ├── tv-w09_hour_by_hour_the_alarming_timeline_of_threat_actors_in_your_environment_cunningham_final.pdf
+│   ├── tv-w09_hour_by_hour_the_alarming_timeline_of_threat_actors_in_your_environment_cunningham_final.pdf.txt
 │   ├── tv-w13_privacy_in_europe_-_back_to_the_furure_ustaran_final.pdf
-│   └── tv-w13_privacy_regulatory_landscape_past_present_and_future_copy1.pdf
+│   ├── tv-w13_privacy_in_europe_-_back_to_the_furure_ustaran_final.pdf.txt
+│   ├── tv-w13_privacy_regulatory_landscape_past_present_and_future_copy1.pdf
+│   └── tv-w13_privacy_regulatory_landscape_past_present_and_future_copy1.pdf.txt
 ├── RSA-USA-2015
 │   ├── anf-f01_hunted-to-the-hunter(1).pdf
 │   ├── anf-f02_the-physics-of-security(1).pdf
@@ -9283,6 +9897,7 @@
 │   ├── 苑登凯-Android系统BOOT分区病毒检测与清除.pdf
 │   ├── 袁世雄--二进制漏洞挖掘学习分享.pdf
 │   └── 赵帅-安卓恶意app检测现状.pdf
+├── generate-tree-and-slide-text.sh
 ├── tree.txt
 ├── 计算机网络安全年会-2012
 │   ├── 0DAY与APT攻防.ppt
@@ -9443,4 +10058,4 @@
     ├── 3-4-杨锦峰-等保2.0下的全场景企业安全态势感知建设.pdf
     └── 3-5-李燕宏-“切尔诺贝利”之痛-情报驱动的安全运营.pdf
 
-599 directories, 8844 files
+599 directories, 9459 files

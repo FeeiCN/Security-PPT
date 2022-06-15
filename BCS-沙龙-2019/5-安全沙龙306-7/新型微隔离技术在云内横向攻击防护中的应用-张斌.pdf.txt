@@ -1,0 +1,270 @@
+ 
+ &
+
+/: 13439623544
+
+
+
+   
+
+IT
+
+Web SQL Auth
+
+Internet
+Untrust Zone
+
+Internet
+
+
+
+
+
+Trust Zone
+
+
+
+
+
+Restrict Zone
+
+IT
+
+
+
+Private Cloud
+
+
+
+
+
+ERP
+
+
+
+
+
+HR
+
+DB
+
+Public Cloud
+
+Data Center
+
+
+
+1. 
+·  ·  · 
+2. 
+· 20 ·  · 
+
+3. 
+·  
+· 
+4. 
+·  · 
+
+
+
+
+·  ·  · 
+
+· 20 ·  · 
+
+·  · 
+
+
+· 2.0 ·  · 
+
+
+·  ·  · 
+
+
+
+   
+
+----
+
+
+1VPN
+
+(1)
+
+2Web
+
+3
+
+4DB
+
+5
+
+6
+
+      
+
+(3)
+(2) (6)
+(4) (5)
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ ""
+     
+
+       
+
+
+
+  
+
+  
+
+  
+
+
+
+   
+
+ VS. 
+
+
+
+
+
+NGFW/NIPS
+
+
+
+·  · 
+
+ 
+
+·  · 
+·  · 
+
+VS
+
+
+Sandbox/Honeypot ·  ·  ·  ·  ·  ·  · 
+
+DL/AI
+ VS. 
+·  ""
+· "" · 
+ 
+
+
+
+·   
+·    
+
+03
+ 
+
+01
+ 
+
+·  ·  · 
+
+02
+ 
+
+·  · 
+
+
+
+
+ IP/ 
+  
+   IP
+  
+ 
+
+ 
+
+
+       ,
+  
+  
+
+
+
+
+
+   
+
+
+
+C&C()
+
+A
+
+A /tmp/hssB
+ /sbin/crond
+
+----- -----
+
+SSH
+B
+
+B /usr/bin/wgetC&C
+ /tmp/xxx.tmp
+ /bin/bash
+ /usr/sbin/sshd @A
+
+-----IP -----
+-----
+
+
+
+
+  
+Smart Center
+    SaaS
+
+   
+
+    
+
+
+
+ Agent
+ Agent
+
+ 
+
+
+ Agent
+
+
+
+
+
+ 
+ 
+
+
+   
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+THANKS
+
+

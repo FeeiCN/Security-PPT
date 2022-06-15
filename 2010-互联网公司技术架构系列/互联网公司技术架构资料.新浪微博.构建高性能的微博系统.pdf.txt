@@ -1,0 +1,285 @@
+Build High Performance Weibo System
+@TimYang
+
+· µQì · 140 · Ô66çÉ · ÚÏZWu*
+
+6
+· ü§_ÆµQQCon 2010 · µQşü`5WDC 2010
+
+Agenda
+
+3
+
+
+4
+
+
+
+
+ 2
+
+1
+
+
+Part 1
+3
+
+úã¯?¯\ï RçYëDJ(») +;
+
+MySQL
+· d3_âÌ?Æ · OE
+
+Ì?
+· Ò hash Ì? · ¥6 · ¬ user_timeline index
+
+
+· Pù»EÏÌ? · ¥ · Ä · 6 5  · ¦
+
+MySQL + cache 
+·  · » · cacheßÔy¡AN · ~¨ · IW0Û
+
+NoSQL
+"Databases are specializing ­ the "one size fits all" approach no longer applies."
+MongoDBo
+
+NoSQL?
+· Pùº · Redis · MongoDB · ?«º · Cassandra · HBase
+
+¨mFØú#ì4 (
+
+»
+· MongoDB · Redis · HBase · Cassandra
+
+Redis - Ïä«
+· ÏN3« · snapshot -  · vm - ,SÜª · diskstore - ,Sãäh · aof - §¿
+
+Redis - ßÔy
+· string: key value redisObject 16 bytes/item · list: Xh 40 bytes / item · hash: zipmap(<64) · set/sorted set
+
+Redis - Replication
+· rdbá# · P
+
+Redis - @
+
+Redis - (
+· : · ¶õ_åÁfailoverä · ólist/setßÔoeü(optional)
+
+3
+· MySQLOE3 · NoSQL{MySQLcache
+'ìódG
+
+Part 2
+ç
+
+µQşü
+()
+
+
+
+
+$
+*#(
+
+3
+4#
+
+0%
+
+,
+
+5)
+
+/.
+
+!0,
+
+
+
+86)&
+
+  
+
+" 52
+
+7
+
+1,
+
++'4 -
+
+ôJÕ]£
+
+
+?WebwcacheßÔ Uìi _cacheÜÅóß ÔßÔIæ¿
+· Æ · =Z
+
+"Web  json û3W cache 
+úµQ json ßÔoeüûÅ ó(MÎ,S/¼)2~5K a,  xml 10ka,  protobuf ¡A
+Ng^ó500"
+3ò6æ 00:47 Z(495) | (134)
+
+T
+RDBMS Key value (JSON) Protocol buffers(binary)
+
+JSON ½
+· DB · Cache · Message Queue · API
+
+PB $L
+· Numeric: varint, from 1 byte · &b&f · ÚÏJava, C++, Python...
+
+· Ş ·  cache ñoeıDoeı
+
+· "192.168.0.1"  "0xc0a80000"  varint
+
+Benchmark
+TTeexxtt
+(http://code.google.com/p/thrift-protobuf-compare/wiki/Benchmarking)
+
+"We would like to provide public APIs that accept protocol buffers as well as XML, both because it is more efficient and because we're just going to convert that XML to protocol buffers on our end anyway."
+- Google
+
+ßÔoeüRì
+
+©}
+· µQZì©} · `£|£6ßÔÙ
+,h©ä«
+· 7©Ù,
+
+
+|">"¾< |Vr²?ì¨Z j©}¥
+
+· & LAMP £P
+Ù,| W}ç|à*»±n
+· ©A}¡ 1ms }ç¦ _%¬Y£WJİ
+· çiÖA}»ÑÿßÔ
+
+©iÖ
+· MQ stat · MQ Processor stat
+
+
+èêÄ ßÔ+çÉ DÅóÄ? íó"1úã"¨SC óßÔ
+
+ç»»
+· Timeline¼ß6\ïJ WçÉÅóÄ
+· dHeôJÁ · ©} · : cache ßÔ¢?¨ · RAMN
+
+Z
+1. ØZ 2. 4A 3. A}¡> 4. :cacheWßÔ¢master 5. ßÔ¢replicationDÅó
+
+
+
+
+· 5xç»W»
+
+
+· 5xç»W» · Ûä
+
+
+· 5xç»W» · Ûä · ©}
+
+
+· 5xç»W» · Ûä · ©} · A?
+
+
+· RAM is the new disk · ÅóßÔID9
+
+ä
+"Percona Server now both SQL and NOSQL HandlerSocket, ÔôJp_!D 100rpsì12cores/24threads and 380GB of RAM, mysqlıì
+ RedisÅóßÔID9-NoSQLä« û"
+2010-12-25 00:22 Z(9) | (2)
+
+@jackbillow " 1. ØOPKlookup 2.ğ cache ä"
+@kobe " ìÁ÷)ĞinnodbVó 85"
+@TimYang "ı_!5Ü49 InnoDB%KC§
+Adaptive Hash Indexesz hash9¬!D9ßÔ¢»"
+
+ä
+· NoSQL®,ßÔ¢ ·  ¡[binlogÜ4Redis · jbinlog https://github.com/tangfl/jbinlog
+
+Part 3
+`Õ]
+
+ÀBOEZ\Nml \`lapp¹vl 
+
+Õ]
+· 5 · .Ë · spam · é · 
+
+5t?
+
+Õ]n£ç W_»
+
+Text
+
+iÖ
+
+7$N
+· ÇÕ] · GZIPU · ×Õ]
+
+Part 4
+ôJc
+
+µQñ>±n»Vrì
+
+"@Zheng:"|³Ï 1å|Â"zì ÏÊ| _)1" //@: şüH¤ìÖE
+@bianî"" http://t.cn/h0k4r Vá Z(49)|Vá(15)"
+2ò14æ 10:36 Z(22) | (10)
+
+cü
+· 2=sì2I · ãJ´
+VB
+
+c
+· @WiÖ · ö@öóŞiÖó · \¿¸( · J|@ûÓÃ
+
+cYâ
+· æ·lu°8Zc© · Õ]n£¥ · ¼}¥ · cachek · (G
+
+cq
+· P
+J¬ZYëÁà *}»
+· 
+J|IL¨6H
+
+% )
+Timeline
+! (
+
+
++ , * -&
+
+
+)$
+ '
+
+
+
+! 
+
+, 
+
+ #"
+
+Memcached
+
+
+
+
+
+
+Redis
+
+MySQL
+
+
+· 2=_!ï · ïßÔRAMN · ï?«ä«
+
+Q&A
+@TimYang
+I4ãµQÈøs õÍ
+
+ ·  20111020~22
+www.qconhangzhou.com6
+QCon
+www.qconbeijing.com
+
+

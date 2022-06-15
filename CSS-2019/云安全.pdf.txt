@@ -1,0 +1,158 @@
+ 
+Yale Li , Fellow/ CSA   [] 
+
+CSA
+
+
+
+
+
+
+
+
+  2019  2060  2018  1750 2017  1450  Gartner
+Synergy Research Group2018  2018 2500
+2 
+
+
+SaaS
+PaaS
+
+IaaS
+
+ Private
+
+ Hybrid
+
+ Public
+
+
+
+ Audit & Monitoring
+
+ Identity Management
+
+
+
+DATA
+
+
+
+Application
+
+
+Datalayer & development platform
+
+ Virtual Machines
+
+
+
+& OS security
+
+ Hypervisors Security
+
+Network & Data Center Security
+
+ Physical Security
+
+IaaS
+
+PaaS
+
+SaaS
+
+ Consumer responsibility
+ Provider responsibility
+
+
+
+CSA OCF
+
+---- CSA
+---- 
+CSACCM: CSA STARC-STAR ----
+CSA The Cloud Trust ProtocolCTP  
+
+ CSA C-STAR
+ Suitable for Digital Silk Road Countries
+
+ 
+GB/T 22080-2008 CSACloud Control Matrix29 GB/T 22239-2008-- GB/Z 28828-2012--  
+
+CCM 
+
+· 
+· 
+· 
+· 
+· 16133
+·  NIST, ISO 27001, COBIT, PCI, HIPAA, FISMA, FedRAMP ­ mappings growing virally
+· 
+
+
+1.  2.  3.  4. App 5.  6. 
+
+7.  8.  9.  10. 11.DoS 12.
+https://www.c-csa.cn
+
+
+
+·  
+·  
+·  
+·   
+·  
+
+·   
+·  
+
+· SLA  SLA
+ 
+
+--
+
+
+  CPUI/O SLA ......
+
+
+   SLA......
+
+CSA--
+
+https://cloud.tencent.com/service/compliance
+
+
+ü CISPE GDPR
+ü ISO 27001:2013 ü ISO9001 CNASANAB
+ ü ISO 20000-1:2018 
+
+ü  ü 20 ü  ü  ü ITSS
+
+ü CSA STAR   ü ISO 27018  ü ISO 27017  ü ISO 22301
+
+CSA() --AWS
+
+AI--
+
+Federated Learning
+1. You device download current model. 2. Improves it by learning from data on
+your phone. 3. Summarizes the changes as a small
+focused update. 4. Only the update to the model is sent
+to the cloud using encrypted communication. 5. The update is immediately averaged with other user updates to improve the shared model. 6. Use SGX, the secure area, to guarantee the strength of data encryption.
+
+IoT Blockchain
+ 
+
+--
+
+GCI 2018 2025 23201712.9 (GDP17.1%) 
+
+IDC  - 202250% 50%1.5
+
+   
+
+   
+
+   
+
+

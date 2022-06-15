@@ -1,0 +1,305 @@
+ 
+2012-05-15 07:56 CSDN   [CSDN.NET  /] ---- 10  5000 433   ...    2001 2005   QQ T4 
+(  CSDN ) ""        ()() ""    
+
+      99.95%  90%-95%    () ( )... 
+x  
+x   
+x  
+x  ""  
+----  
+ 
+
+LBS      8-10 
+----
+     XML   
+ 2005   KV   TLV 
+ 
+x Svrkit----Client/Server :10  
+x LogicServer---- x OssAgent----/ x ----/
+
+   20  5   4 
+
+ AB test   A B B  B    ()    
+ x 
+ x ()
+ x 
+ x   CMWAP  CMNET  WMWAP    QQ    5
+
+     
+Messaging And Presence Protocol 1)XMPP;2)SIP/SIMPLE1) 2)
+ SYNC  Activesyec            
+     GPRS   
+
+    3-10  " "     0-1        " "  
+       
+
+        
+SET   Master          Simple Quorum       SET  2G  200K             
+
+ GSLB  IP 
+    IP    
+""---- ""    10       
+----      
+ 
+  G  1      ""
+
+    0--1         
+
+      99.99%  10  IDC 
+
+   djt.qq.com
+ PPT
+
+
+ harveyzhou
+ NZZV JPZWWIUS
+
+
+KDUYH\]KRX   447 
+ NZZV JPZWWIUS
+
+
+    $SS6WRUH  
+ NZZV JPZWWIUS
+
+
+ NZZV JPZWWIUS
+
+
+  
+ NZZV JPZWWIUS
+
+
+  FoxmailQQ
+ NZZV JPZWWIUS
+
+
+  
+ NZZV JPZWWIUS
+
+
+Scrum 
+ NZZV JPZWWIUS
+
+
+ 
+  
+ NZZV JPZWWIUS
+
+
+    99.95%
+
+ NZZV JPZWWIUS
+
+
+
+You can do it !
+       
+
+ NZZV JPZWWIUS
+
+
+ /
+ NZZV JPZWWIUS
+
+
+ XML  ProtocolBuffer & TLV
+ KV or TLV  SQL
+ NZZV JPZWWIUS
+
+
+SvrkitClient/Server 10
+LogicServer 
+OssAgent/ 
+ /
+ NZZV JPZWWIUS
+
+
+ NZZV JPZWWIUS
+
+You can do it !
+>20/
+ NZZV JPZWWIUS
+
+
+  
+ NZZV JPZWWIUS
+
+
+
+ NZZV JPZWWIUS
+
+
+ NZZV JPZWWIUS
+
+
+   
+
+ NZZV JPZWWIUS
+
+
+CMWAP vs. CMNET  vs.    
+ NZZV JPZWWIUS
+
+
+
+Messaging And Presence Protocol XMPP SIP/SIMPLE
+
+ 
+
+  
+
+
+
+ NZZV JPZWWIUS
+
+SYNC
+ActiveSync Sync by SyncKey Notify & Client Pull
+
+ ...
+
+ NZZV JPZWWIUS
+
+
+
+   More important & 
+
+ @ 2011/11/26    GPRS 
+
+ NZZV JPZWWIUS
+
+
+   
+
+ NZZV JPZWWIUS
+
+
+ ... ...      0/1 = 60  
+ NZZV JPZWWIUS
+
+
+/ GSLB, LVS, IP redirect, Client Retry 
+ 
+
+ NZZV JPZWWIUS
+
+
+ 
+ 
+Example 
+
+ NZZV JPZWWIUS
+
+
+  
+ Example
+
+ NZZV JPZWWIUS
+
+SET
+SET1SET2  
+  Google FS
+Example /
+ NZZV JPZWWIUS
+
+Quorum
+ CAP Paxos Leslie Lamport ChubbyZooKeeper QuorumAmazon Dynamo R+W>N Vector Clock Merkle Tree
+ NZZV JPZWWIUS
+
+Simple Quorum
+SYNC  Vector Clock Merkle Tree
+SET2G200K
+ NZZV JPZWWIUS
+
+
+   
+
+ NZZV JPZWWIUS
+
+
+  
+
+
+ NZZV JPZWWIUS
+
+*6/%,3
+ NZZV JPZWWIUS
+
+
+ NZZV JPZWWIUS
+
+
+ 
+ NZZV JPZWWIUS
+
+
+   
+
+ NZZV JPZWWIUS
+
+
+G/ 1  
+ NZZV JPZWWIUS
+
+
+ != 
+   
+  ~ 
+90%
+ NZZV JPZWWIUS
+
+
+  AttrAPI 
+  OssLog  Hadoop
+
+ NZZV JPZWWIUS
+
+
+ NZZV JPZWWIUS
+
+LBS
+ NZZV JPZWWIUS
+
+
+ NZZV JPZWWIUS
+
+
+ NZZV JPZWWIUS
+
+
+([DPSOH$QGURLG&UDVK5HSRUW
+ NZZV JPZWWIUS
+
+
+ NZZV JPZWWIUS
+
+
+ NZZV JPZWWIUS
+
+
+ NZZV JPZWWIUS
+
+
+   
+    
+   
+
+ NZZV JPZWWIUS
+
+
+ &  330 20 99.95%
+ NZZV JPZWWIUS
+
+
+99.99% 10 IDC
+ NZZV JPZWWIUS
+
+
+
+ NZZV JPZWWIUS
+
+Q&A
+ NZZV JPZWWIUS
+
+

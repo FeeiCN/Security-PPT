@@ -1,0 +1,363 @@
+
+
+YC HOf
+ 
+
+
+{/KZ"XELu(
+
+
+mRbe
+· DevOps @Sina  Lamp  500+  10B+
+
+
+DhtYCVpw^
+ SOA · Memcached""  RDBMS  ""
+
+
+mR0!
+
+     ...  
+
+
+
+User
+
+Service 1
+
+Service 2
+
+Service 3 Service 6
+
+Service 4
+
+Service 10
+
+Service 8
+
+
+
+Service 5
+
+Service 7
+
+Service 9
+
+Ops Configuration Center
+
+Client DiscoveryNamingACLQuota
+ZooKeeper
+
+
+
+Service 1 Service 2 Service 2
+
+DNS
+Sync
+
+Update
+
+Status Update
+
+Monitor
+
+Updating API
+
+Purge Req
+
+Purge Service
+
+Apache
+
+Web Server
+DNS DNSMasq
+Query
+
+Worker Server
+
+Queue Subscriber
+
+DNS DNSMasq
+Query
+
+DNS Cache Purge
+
+Message Queue
+
+
+
+jxUT6n 
+· CPythonNode.JSPowerDNS
+DNSMasqMongoDB
+ DNS
+
+ API  API  A
+
+
+ 
+ 
+
+
+1vx *L ,i}
+ 50+1+4+2
+
+ 50X2+3  
+Memcached
+ Memcached
+...
+
+
+Legend Server Process Cluster Extension
+Zookeeper Cluster
+
+Updating Notification
+
+Web Front-End
+
+phpmeta-ext
+
+Apache
+php-mcext
+
+metad zk local cache
+
+Memcached Command
+
+Node Register &
+Heartbeat
+
+Cache Node Watcher
+
+MC
+
+MC
+
+MC
+
+Cache Node Watcher
+
+MC
+
+MC
+
+MC
+
+
+
+5%a>)6n
+· ThriftCC++Python
+ZooKeeper
+ ZooKeeper
+Metad
+   LRUPatch from SAE · Memcached-Like SDK
+
+
+5%a>)6n
+   IDC    FlashCached  
+
+
+,4W
+ MySQL...  Range  Hash    "" · Master HA
+
+
+ZooKeeper Management API
+
+FE Cluster
+
+Maya
+
+Maya
+
+Web/Command-line tools
+
+
+MySQL Cluster MySQL Cluster
+
+MySQL Cluster
+
+dFJA& 
+ Node.JCFlex  Bson
+Pthon
+         DD
+
+
+mR,  HOf
+ PHP100+
+ 3000+ 100+ Hits/
+ 45000+ 30G
+GZip
+ 3000+ 200+ 
+/
+ 6000+ MySQL 2P+
+
+
+=@+~7[$3 _,#GQ
+
+
+Make Disasters
+
+
+Manual
+
+
+/<{kSs
+         
+
+
+httpd-vhost.conf_tmpl
+; &3.5# # &3.5# # &3.5# # 
+
+
+
+FE Node
+/etc/httpd-vhost.conf
+
+vhost_config.pl
+;
+*%$#14,& 7+-8 # #  # # # # 9  
+
+
+
+&,2*',*.&:-<"!2&3.5!2# #
+<8 042)5)/23#$/.'*('*,& &3.5# #
+*%$#14,&8*%$98# #9 .&63 9&,2*',*.&:-<"!2&3.5!2# #
+<8 042)5)/23#$/.'*('*,& &3.5# #
+*%$#14,&8*%$98# #9 .&63 9&,2*',*.&:-<"!2&3.5!2# #
+<8 042)5)/23#$/.'*('*,& &3.5# #
+*%$#14,&8*%$98# #9 .&63 9 
+
+
+
+
+
+
+
+2y9Mr-, Iz]B
+      · INI VS YAML  Memcached!
+
+
+mc.conf
+[MBlog_Userinfo] ip=10.55.22.100:10000 10.55.22.101:10000 10.55.22.102:10000 10.55.22.103:10000 memsize=10.55.22.100:1G 10.55.22.101:1G 10.55.22.102:1G 10.55.22.103:1G conn_limit=10.55.22.100:1W 10.55.22.101:1W 10.55.22.102:1W 10.55.22.103:1W
+[MBlog_Counter] ip=10.55.22.100:10001 10.55.22.101:10001 10.55.22.102:10001 10.55.22.103:10001 memsize=10.55.22.100:1G 10.55.22.101:1G 10.55.22.102:1G 10.55.22.103:1G conn_limit=10.55.22.100:1W 10.55.22.101:1W 10.55.22.102:1W 10.55.22.103:1W
+
+MC Node
+/etc/init.d/memcached /etc/cron.d/check_mc
+
+
+Monitor Node
+/etc/monitor.d/check_mc.py
+
+Reporting Node
+/etc/reporting.d/get_mc_stats.py
+
+Automation
+
+
+uX;
+
+
+
+
+
+
+8/<NP
+         
+
+
+Framework
+
+
+mR3olg|'3.
+ ""    
+
+ 
+
+
+it's
+Revolution Of Martyred Elites
+
+
+
+
+ROME
+
+
+
+
+
+
+
+APIs
+
+get un-applied changes 1
+readRole( criteria={ 'applied': false }, fields={ 'included': true }
+)
+2 retrieve the related info
+
+3 create orchestration job
+createOrchestration( targets=[ '10.71.1.2', '10.71.1.3' ], commands=[ 'update vhost.conf', 'restart httpd' ]
+)
+
+Asset Inventory
+
+Configuration Management
+
+readAsset( 'criteria'={ 'cmdb': 'D2012887' }, 'fields'={ 'addresses.internal': true }
+)
+
+Orchestration 4
+ssh rome@10.71.1.2 "xxx"
+
+5 generate config
+readConfig( criteria={ 'cmdb': 'D2012887' } files=['vhost.conf']
+)
+
+Node
+
+
+
+Asset Inventory
+
+2 get the related info
+
+readAsset( 'criteria'={ 'cmdb': 'D20120601x' }, 'fields'={ 'addresses.internal': true }
+)
+
+1 some update
+createRole( name='D20120601x', includes=['mysql', 'xd'], ports=[3310, 3324]
+)
+
+
+3 create orchestration job
+
+Configuration Management
+
+createOrchestration( target='10.71.1.2', commands=[ 'update all', 'initialize' ]
+)
+
+Orchestration 4
+
+ssh rome@10.71.1.2 "xxx"
+
+5 generate config
+
+readConfig( criteria={ 'cmdb': 'D20120601x' }
+)
+
+Node
+
+mRxN`Q?c
+· HTTP-based RESTful API with JSON
+payload
+· A variety of MongoDB-like CRUD · Node.JS · Connect & Express · MongoDB
+
+
+mR\:I3
+· Ops->DevOps · Scrum · BDD · CI · Atlassian(Jira)
+
+
+qq
+Q&A
+
+
+

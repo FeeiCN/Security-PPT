@@ -1,0 +1,306 @@
+
+
+ 201904
+
+1  --
+
+   
+
+2  --
+   
+
+3 
+--IT
+
+ 
+
+/
+  
+   DDoS
+
+MEC
+
+ DN
+
+Internet
+DDoS  
+
+ 
+
+MEC
+
+HTTP
+
+HTTP
+
+
+
+5G 
+
+
+
+ 
+ 4A
+...
+
+B
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+KASUMI
+
+ 
+
+AES SNOW 3G
+ZUC
+
+
+
+AES
+
+...
+
+SNOW 3G ZUC
+
+2013 20183GPP
+
+2020
+
+19982001 2009
+
+20082009 2013
+· 2001AES
+
+· 256 
+
+· 1995128
+
+· 128
+
+· 
+
+· 2005
+
+· 2011ZUC
+
+· 2010
+
+· 2011
+
+· SNOW 3G
+
+
+
+19891991 1992
+A5
+· 198764
+· 1999
+·20163GPU9A5
+
+2/3/4G
+ 
+
+5G
+ SUPI
+
+
+
+
+ 
+
+2/3/4G
+
+
+
+IMSI 
+
+
+
+
+
+5G
+
+SUCI
+
+
+
+
+ 5G
+
+
+
+
+
+
+
+
+
+
+
+
+
+mMTC
+
+eMBB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uRLLC
+
+ 
+· SETEE ·  ·  · 
+
+ 
+
+MIRAI
+
+Securityweek: Over 500,000 IoT Devices Vulnerable to Mirai Botnet
+
+News.softpedia: Hackers Breach Sauna Camera, leak of nude videos
+
+Scmagazine: Hackers use Mirai botnet to slowly mine bitcoins with IoT devices
+
+ 
+·  ·  · 
+
+ NFV5G 
+
+
+
+3
+S-GW P-GW
+2
+1
+
+
+5G
+5G
+
+AMF
+
+SMF
+
+
+
+
+
+
+
+
+
+4 MANO
+NFVO
+VNFM
+
+
+
+VIM
+
+NFVI
+
+
+1  2 /DoS 3 
+ 4 MANO
+API
+
+ .
+
+EAP
+ EAP 
+AKMA
+  
+
+  
+
+EAPOL Supplicant
+
+Authenticator Radius/Diameter
+
+EAP
+
+Authentication Server
+
+Data Network
+
+
+
+
+
+HSS 
+
+BSF 
+
+ IoT 
+
+
+Smart phones
+Auto devices
+Massive IoT
+
+RAN
+
+Slice 1 Slice 2
+
+ 
+
+Slice n
+Common Infrastructure Layer
+
+9
+
+5G  uRLLC 
+... ...
+
+  mIoT 
+
+
+
+5G
+
+V2X
+
+... ...
+
+5G
+
+e2e
+
+F1
+
+V2X
+
+MEC
+
+... ...
+
+ 5G"" 
+ 5G 
+ 5G5G
+11
+
+
+12
+
+
