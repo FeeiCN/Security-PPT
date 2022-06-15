@@ -1,19 +1,6 @@
 .
-├── 0000-SecurityReport-安全报告
-│   ├── 2017企业安全威胁统一应对指南.pdf
-│   ├── 2021上半年勒索病毒趋势报告及防护方案建议-2021.pdf
-│   ├── 2021年上半年 DDoS攻击威胁报告-2021-腾讯-绿盟.pdf
-│   ├── 5G安全白皮书-2019.pdf
-│   ├── 5G网络安全标准化白皮书-2021.pdf
-│   ├── AISecOps智能安全运营技术白皮书-2020-绿盟.pdf
-│   ├── APP隐私合规产品白皮书-腾讯.pdf
-│   ├── App违法违规收集使用个人信息监测分析报告-2021.pdf
-│   ├── CISO_Handbook.pdf
-│   ├── CISSP官方认证学习指南-v8.pdf
-│   ├── DDoS威胁报告-2020.jpg
-│   ├── DOD Zero Trust Reference Architecture_v1.1（零信任参考架构）-2021.pdf
-│   ├── Docker容器安全最佳实践白皮书V1.0.pdf
-│   ├── Gartner2022
+├── 0000-SecurityCompaniesProduct-安全公司产品
+│   ├── Gartner-2022
 │   │   ├── sec28 - 58490 - abnormal security_2443732.pdf
 │   │   ├── sec28 - 58493 - altr_2443718.pdf
 │   │   ├── sec28 - 58494 - arcon_2443384.pdf
@@ -110,6 +97,1353 @@
 │   │   ├── sec28 - 59906 - sysdig_2509744.pdf
 │   │   ├── sec28 - 59920 - threatwarrior_2510297.pdf
 │   │   └── sec28 - 59954 - sdg_2509739.pdf
+│   └── RSA-2022
+│       ├── (ISC)2 Overview_1651203182201001Fgjb.pdf
+│       ├── 10 Reasons Why Business Need to Invest In Cloud Security_1651203182208001FKRr.pdf
+│       ├── 10 Steps to Eliminating Access Risks in AWS Whitepaper_165209698312300180rx.pdf
+│       ├── 10 Ways Asset Visibility Builds OT Cybersecurity Foundation - Dragos_16534118511850010lId.pdf
+│       ├── 10_Ways_to_Shield_and_Protect_Apps_Zimperium_1651881106084001dJmZ.pdf
+│       ├── 10x D3Security_CaseStudy_FinTech_16390919228010015BOG.pdf
+│       ├── 12 Steps To Protect Against Ransomware_1648745905627001FwCT.pdf
+│       ├── 12 ways to tell if your managed security provider wont suck next year_16464048391920018b2y.pdf
+│       ├── 14 Questions to Assess Your Software Vendor Supply-Chain Risk_1645109665716001InQm.pdf
+│       ├── 17 Best Practices to Protect Against Ransomware_1648439572072001p3SP.pdf
+│       ├── 2021 Buyers Guide to Pentesting_1651273712514001g5gj.pdf
+│       ├── 2021 Global DDoS Attack Landscape_1646637235419001bSTL.pdf
+│       ├── 2021 ICS OT Cybersecurity Year In Review - Dragos_16534118511810010Csy.pdf
+│       ├── 2021 Identities and security survey exec summary_1652449902789001F0yp.pdf
+│       ├── 2021 Phishing by Industry Benchmarking Report_1649441918447001GE39.pdf
+│       ├── 2021 Year in Review_1649708279345001E338.pdf
+│       ├── 2021-Devo-SOC-Performance-Report_1646857775390001THGc.pdf
+│       ├── 2021-Ponemon-Institute-State-of-Industrial-Cybersecurity-Report_165341185117800108es.pdf
+│       ├── 2021-Ransomware-Defense-Report_SpyCloud_1652379145635001nGOc.PDF
+│       ├── 2021-SANS-Survey-Vulnerability-Management_1647030652016001fmRT.pdf
+│       ├── 20211014_CISO's guide to SOAR_16390919228070015ddl.pdf
+│       ├── 20211208 - 10 Golden Rules for SOAR_163909192281200152dA.pdf
+│       ├── 2022 - Patch Management Buyers Guide_1650458789012001stRl.pdf
+│       ├── 2022 - The State of Attack Surface Management [Randori]_1644967005480001E4rT.pdf
+│       ├── 2022 Attack Resistance Report_1651273712485001gsHS.pdf
+│       ├── 2022 Cloud Security Threats Report_1645731537581001Yk6E.pdf
+│       ├── 2022 Cybersecurity Survival Guide_1652220223673001ri6R.pdf
+│       ├── 2022 Global Threat Report_16510961732460014r1U.pdf
+│       ├── 2022 Relyance AI Datasheet_1651181965021001a520.pdf
+│       ├── 2022 SecurityMetrics Guide to PCI DSS Compliance_1651165542861001pLjt.pdf
+│       ├── 2022 Software Supply Chain Management One Pagerdigital (1)_1651866339051001RtXX.pdf
+│       ├── 2022 SpyCloud Annual Identity Exposure Report_v4.0_1652379145640001n0bn.PDF
+│       ├── 2022 ZT Outlook Report Brief_1651269529846001j0gU.pdf
+│       ├── 2022 Zero Trust Outlook Report_1651269529850001jKDp.pdf
+│       ├── 2022-Ransomware-Flashcard-en_1653510230115001OdkF.pdf
+│       ├── 2022-State-Of-IT-Operations_1647030652012001f9rG.pdf
+│       ├── 2022-cloud-native-security-and-usage-report_1651032195301001CaFx.pdf
+│       ├── 22-052 Produktinformation-V9_e_1652706133994001g4U7.pdf
+│       ├── 22-052_Brosch-Features-V5-e_1652706134000001gL1P.pdf
+│       ├── 22-WC-458200_Tech_Portfolio_Flyer_5.5x8.5_final_16442615479550013yP6.pdf
+│       ├── 22-WC-514608_IST_Brochure_tagged_16442615479580013KGz.pdf
+│       ├── 3+_+6+_+12+Bundle+Program+with+The+Other+Society+Panel_1652129166283001x1PF.pdf
+│       ├── 4 Golden Rules of Linux Security_FINAL_1645565654874001ftWU.pdf
+│       ├── 5 Critical Capabilities for Modern Endpoint Security eBook_16510961732380014NeW.pdf
+│       ├── 5 Reasons Why You Need Application Security Testing for Business-Critical Applications_1652720124210001OhU7.pdf
+│       ├── 5 Reasons Why You Need Vulnerability Management for Business-Critical Applications_1652720124206001OfPl.pdf
+│       ├── 5 Steps to Streamline Security for your Hybrid Network_16443411290340012pCY.pdf
+│       ├── 5 Tips to Reduce Time Waste in your IT Department_1651513406221001izOB.pdf
+│       ├── 5 Ways Next-Gen Data Management Boosts Cyber Resiliency_1649108949267001VOOa.pdf
+│       ├── 5 Ways Ransomware Renders Backup Useless_1649108949273001VkzC.pdf
+│       ├── 5 ways to ensure business continuity in the wake of network disasters_1649182738497001Lrh9.pdf
+│       ├── 5-Levels-of-Autonomous-Security-WP_16516816272570016vjl.pdf
+│       ├── 5-steps-to-securing-multi-cloud-infrastructure_1651032195320001CE3I.pdf
+│       ├── 6 Core Principals for Establishing DevOps Security at Scale Ebook_16469359247290011Ez5.pdf
+│       ├── 6 Steps to Plan Your Route for SharePoint Migration Whitepaper DryvIQ_1648738587873001O9Ix.pdf
+│       ├── 9 Traits You Need To Succeed as a Cybersecurity Leader_1651203182205001FD2p.pdf
+│       ├── A CxO’s guide to network resilience_1644518801830001o6N9.pdf
+│       ├── A10-EB-2022-DDoS-Threat-Report_1652464249378001tBHF.pdf
+│       ├── A10-EB-Combating-the-Surge-of-Modern-Malware-and-Ransomware_1652464249366001t0JV.pdf
+│       ├── A10-EB-Encrypted-Traffic-Inspection-for-Cyber-Security-Report_1652464249372001tgP6.pdf
+│       ├── A10-EB-The-Application-Delivery-Experience-and-Security-People-Need-Now_1652464249338001tpNx.pdf
+│       ├── A10-EB-app-delivery-needs-to-evolve-the-state-of-cloud-application-delivery_1652464249346001t0gn.pdf
+│       ├── A10-IG-BuildingYourHybridCloudApplicationDeliveryInfrastructure_Infographic_1652464249353001tqu3.pdf
+│       ├── A10-WP-21163-EN_1652464249360001tcXQ.pdf
+│       ├── ABS's pf DNS, DHCO, and IPAM Security_1649182738504001L1HE.pdf
+│       ├── AMAX Overview_1652900674964001NatS.pdf
+│       ├── AMAX and INTEL Overview_1652900674969001NPKF.pdf
+│       ├── AMAX and NVIDIA Overview_1652900674973001NNE6.pdf
+│       ├── API and Modern Application Security-Whitepaper_1645387804383001RFZ0.pdf
+│       ├── APT41 Perfects Code Signing Abuse to Escalate Supply Chain Attacks Whitepaper-2022_1648745828941001cbub.pdf
+│       ├── ARI Fleet Case Study_1644511032700001W3vE.pdf
+│       ├── AWS VPC Flow Logs Solution Brief_1649370047449001um3U.pdf
+│       ├── About BSI_Information Page_1639675340832001nVUO.pdf
+│       ├── About FireMon-1P0125-EN (1)_1651613564279001wQy9.pdf
+│       ├── About Infosec_1643995401769001liHr.pdf
+│       ├── About_Futurex_1644334342689001lRBA.pdf
+│       ├── About_VirtuCrypt_1644334342694001lP0p.pdf
+│       ├── Accedian_Cyber-Resiliency-Services_1640026517964001HW50.pdf
+│       ├── Accedian_Next-Gen-Intrusion-Detection_guide_1640024769249001iOaG.pdf
+│       ├── Accedian_Next-Gen-Intrusion-Detection_new_security_approach_1640024769252001igv7.pdf
+│       ├── Accedian_Not-if-but-when_A-data-breach-story-in-two-parts_White-Paper_16400255740810011hs0.pdf
+│       ├── Accedian_Overprovisioning_Whitepaper_1640026651581001KLhb.pdf
+│       ├── Accedian_Skylight-Interceptor-Cloud-Native-Network-Detection-and-Response_Product-Overview_6-pager-1 (1)_1653928223264001IMPs.pdf
+│       ├── Accedian_Skylight_TLS_Decryption_16400255740930011Phv.pdf
+│       ├── Accedian_Zero-touch Cyber Resiliency Services For Managed Service Providers_flyer_1640026651591001KusQ.pdf
+│       ├── Acronis Cyberthreat Report 2022_1645109665727001IMaI.pdf
+│       ├── ActiveLock Data Sheet_1651075611068001acHo.pdf
+│       ├── ActiveRemediation_CaseStudy_RedCanary_1646338835322001Mgdh.pdf
+│       ├── ActiveRemediation_Infographic_RedCanary_16463381984610010olb.pdf
+│       ├── Adapting the incident management process flow for 5G_1654001814615001IbC1.pdf
+│       ├── Adaptive Shield Solution Brief_1648121480643001zsy4.pdf
+│       ├── Addressing 5 Gaps in DLP White Paper_1652818442522001jGVu.pdf
+│       ├── Advanced Guide to Incident Response and Remediation (1)_163907758278800197Mx.pdf
+│       ├── Aite Novarica 2021 innovation award in fraud_1648502886253001EHkc.pdf
+│       ├── AlgoSec Solution Brochure_16535241767030016QZb.pdf
+│       ├── Amedisys prescribes Microsoft Security and a password-free solution to support clinical teams_1652189886835001jS4x.pdf
+│       ├── Analysis of an Attack Surface RiskIQ Research_1646415911639001KmkH.pdf
+│       ├── Analyst Report - Data Loss Prevention - Radicati Market Quadrant 2021_1650573511879001c82m.pdf
+│       ├── Anatomy Failed Ransomware Attack_1653536723554001tODK.pdf
+│       ├── Anjuna Delivers a 77-1 Advantage Against the MITRE ATT&CK MATRIX_WhitePaper_1652488899880001D3sx.pdf
+│       ├── Anjuna Financial_CaseStudy_1652488899893001DO4e.pdf
+│       ├── Anjuna One Pager Cloud Security Overview_1652488899884001DkmA.pdf
+│       ├── Anjuna Privacy by Default with Anjuna and the NIST Framework White Paper_1652488899889001Dexh.pdf
+│       ├── Anjuna Solution Brief AWS_1652488899897001DIKS.pdf
+│       ├── Anjuna-IMOD-Case-Study_1652488899902001DYlY.pdf
+│       ├── Anomali Targeted Threat Monitoring_1639587996241001UoCu.pdf
+│       ├── Anomali-Platform-Brochure_1650468624911001U8Jy.pdf
+│       ├── Apiiro - 5 Steps to Build a World-Class Security Champion Program_1650039759099001lJk4.pdf
+│       ├── Apiiro - 6 Steps to Build & Scale a Risk-Based AppSec Program - eBook_1650039759102001lw3d.pdf
+│       ├── Apiiro - Infrastructure as Code - eBook_1650039759105001ltd3.pdf
+│       ├── Apiiro - The Key to Remediating Secrets in Code - eBook_1650039759108001lgAZ.pdf
+│       ├── Apiiro Data Sheet_1652104029744001eyEe.pdf
+│       ├── Appgate_ZTNA_Everything_eBook_2021_1651157161686001XcTe.pdf
+│       ├── Araali-least-privilege-for-Apps_1652993753330001D2Mk.pdf
+│       ├── Arista-NDR-WP_165168162726100168nh.pdf
+│       ├── Arista-White-Paper_ransomware_165168162726600166E3.pdf
+│       ├── Arista-Zero-Trust-Security-for-Cloud-Networking_16516816272690016xuZ.pdf
+│       ├── Armis Securing Patient Journey WP_1646335335958001o4J1.pdf
+│       ├── Armis Utilities WP 20200128_1646335335919001o3zx.pdf
+│       ├── Armis-ATT&CK-for-ICS-WP-20210713-2_1646335335941001ojCC.pdf
+│       ├── Armis-Agentless-Device-Security-Platform-SB-20210923-1 (Letter, English)_1646335335924001oHaU.pdf
+│       ├── Armis-Alignment-with-the-CIS-Critical-Security-Controls-SB-20210310-1 (A4, English)(1)_1646335335928001oeJm.pdf
+│       ├── Armis-Asset-Management-SB (2)_1646335335937001o8wv.pdf
+│       ├── Armis-Industrial-IoT-WP-20190528-1_1646335335950001osqH.pdf
+│       ├── Armis-as-a-Service-Findings Report-SB-20210124-1 (Letter, English)_1646335335932001oDf2.pdf
+│       ├── Armis-for-OT-SB (Letter, English) (1)_1646335335945001o7dr.pdf
+│       ├── Armorblox Datasheet at a Glance_1651878460783001Ou2Y.pdf
+│       ├── Armorblox Exchange Solution Brief_1646675154051001iqFc.pdf
+│       ├── Armorblox Google Workspace Solution Brief_1646675154056001iT0w.pdf
+│       ├── Armorblox Office 365 Solution Brief_1646675154061001i0kn.pdf
+│       ├── Armorblox ROI Whitepaper_1646675154035001i12X.pdf
+│       ├── Asset Management Solution Brief-20211201_1646335335954001oZ6I.pdf
+│       ├── Atlantic Constructors Case Study_1651002735408001FJ4w.pdf
+│       ├── Audit Management _1644291038959001xD2P.pdf
+│       ├── AuthLite Data Sheet_1639428135297001VbQ1.pdf
+│       ├── AuthN AuthZ and the Growning Menace of API Breaches-Whitepaper_1645387804388001RPrZ.pdf
+│       ├── Automating Employee Onboarding_1648140484915001btwO.pdf
+│       ├── Automating Phishing Response_1648140484908001bwBy.pdf
+│       ├── Automation for Fintech_1648140484884001b4tk.pdf
+│       ├── Automation for IT Teams_1648140484892001bnDP.pdf
+│       ├── Avanan-Security-for-Office-365_1643838884918001AeTo.pdf
+│       ├── Awake_7_Habits_WP_16516816272730016jww.pdf
+│       ├── Axis At a Glance_1644023421091001qswk.pdf
+│       ├── Axis as a VPN Alternative_1644283889339001Ot2Z.pdf
+│       ├── B=MAP - 3 steps to secure behaviour change_1650890562298001XUOY.pdf
+│       ├── BIS-3101-1_1650654129888001m3Fy.pdf
+│       ├── BSI Business Improvement Training Brochure_2021_16396728367860011k8z.pdf
+│       ├── BSI Core Management System Training Brochure_2021_16396728367800011JzF.pdf
+│       ├── BSI Information Security Training Brochure_2021_16396728367900011s6v.pdf
+│       ├── BSI-Connect_2021_1639685339816001X6az.pdf
+│       ├── Bang_Energy_Secures_Intellectual_Property_1651157161690001XwuB.pdf
+│       ├── Banking Meets Client-Side Security - Jscrambler_1651251019966001fyyQ.pdf
+│       ├── Beginner’s Guide to Compliance-Driven Pentesting_1649801491909001RTxs.pdf
+│       ├── Best Practices for Secure Infrastructure Access Teleport_1649976209339001mVtM.pdf
+│       ├── Best practices to enforce proper remote work_1649182738508001LZnQ.pdf
+│       ├── BeyondTrust Executive Summary (1)_1652220223665001rACx.pdf
+│       ├── Binary Defense Overview_1649357741857001g3ZW.pdf
+│       ├── Biometric authentication and intelligent fraud prevention solutions for contact centers_1648502886246001EWH7.pdf
+│       ├── Biometric authentication and intelligent fraud prevention solutions for digital channels_1648502886235001EEPC.pdf
+│       ├── BitSight Corporate Data Sheet_1652214615156001OAFo.pdf
+│       ├── Bitburger_Case_Study_1639570340923001rR2J.pdf
+│       ├── Bitdefender-BSG-GZ-BSEnterprise_1649250517579001AsMq.pdf
+│       ├── Bitdefender-BSG-GZ-EDRCloud-Datasheet_1649250517551001AGOo.pdf
+│       ├── Bitdefender-BSG-GZ-MDR-Datasheet_1649250517554001AUnU.pdf
+│       ├── Bitdefender-BSG-GZ-SecurityForContainers_1649250517557001AuyG.pdf
+│       ├── Bitdefender-Business-CaseStudy-CSB_1649250517565001A004.pdf
+│       ├── Bitdefender-Business-CaseStudy-Creditsafe_1649250517560001AD46.pdf
+│       ├── Bitdefender-Business-CaseStudy-Energizer_1649250517568001AnYh.pdf
+│       ├── Bitdefender-GravityZone-XDR-Datasheet_1649945255163001kfss.pdf
+│       ├── BlackBerry 2022 Threat Report_1646409541248001O9Z2.pdf
+│       ├── Blackstone-Case-Study-PDF (Letter @300dpi)_1645731537587001YyGF.pdf
+│       ├── Bloombase StoreSafe for Microsoft Azure Solution Brief_1638825054599001iJEE.pdf
+│       ├── Bloombase StoreSafe for VMware Solution Brief_1638825054603001iBAC.pdf
+│       ├── Bloombase Storesafe for Amazon Web Services (AWS) Solution Brief_1638825054595001iesa.pdf
+│       ├── Blueprint for endpoint management and a future-ready workforce_1649182738513001L89Q.pdf
+│       ├── Blumira Free Edition Data Sheet_1651002735428001F7r1.pdf
+│       ├── Blumira Overview 1 Page Data Sheet_1651002735433001F0mH.pdf
+│       ├── Blumira Ransomware Prevention SMB Guide_1651002735413001F4Dy.pdf
+│       ├── Blumira SIEM Eval Guide_1651002735443001FFVR.pdf
+│       ├── BrightCloud Mobile Security SDK_DS_AMER EN (1)_1644018033930001mA9z.pdf
+│       ├── BrightCloud Real-Time Anti-Phishing Service_Letter_DS_AMER EN_1644018033938001mSC3.pdf
+│       ├── BrightCloud Streaming Malware Detection_Letter_DS_AMER EN_1644018033927001msXh.pdf
+│       ├── BrightCloud Web Classification and Web Reputation_Letter_DS_AMER EN_1644018033934001mYuK.pdf
+│       ├── Build vs Buy Ebook (1)_1649720608348001hnH8.pdf
+│       ├── Build_or_buy_DPI_advisory_guide_1640050475242001TVql.pdf
+│       ├── Building a Security Awareness Program to Help Defend Against Cyber Extortion and Ransomware_1649441918443001GAKz.pdf
+│       ├── Building vs Buying Insider Threat Solutions_The Unbiased Guide_1646146325091001kVmU.pdf
+│       ├── Business Features for Users and Admins, LastPass Product Overview_1649428801560001sI8I.pdf
+│       ├── Business Leaders Need Industrial Cybersecurity_1649366137152001NMyD.pdf
+│       ├── Business continuity & disaster recovery handbook_1649182738518001L9Mo.pdf
+│       ├── Buy-In Navigator_1647300730893001uNjQ.pdf
+│       ├── Buyers Guide to Identity and Access Management Solutions in a Zero Trust Era_1646935924726001133X.pdf
+│       ├── Buyers_Guide_for_Log_Management_EBook_NewBrand_1646857775395001TkHb.pdf
+│       ├── CASE STUDY COLLECTION Certificate Use Cases_1652907142332001xC1B.pdf
+│       ├── CB121-VL_Datasheet_16534394321360012JOS.pdf
+│       ├── CD00000228v2.0 - US Garrison SAVI Use Cases Brochure - Digital_1646672185419001ZDCk.pdf
+│       ├── CD00000487v2.0 Garrison Cross-Domain Solutions for Government-US_1646672185424001ZAKf.pdf
+│       ├── CD00000541v0.1 -US - Garrison ULTRA - Delivering Garrison SAVI in the cloud_1646672185414001Z9cK.pdf
+│       ├── CD00000573v2.0  - US - Garrison ULTRA - The Strongest Web Isolation as a cloud service_1646672185408001ZNXW.pdf
+│       ├── CDMG-10th-Anniversary-at-RSAC-2022_1652105542733001JtT4.pdf
+│       ├── CDW Purple Teaming Services_16511737945160013rBi.pdf
+│       ├── CDW Security Incident Response_16511737945210013qAB.pdf
+│       ├── CDW vCISO Service_16511737945260013uum.pdf
+│       ├── CIO Study_CIOs Massively Underestimate SSH Risks - 300% Growth in SSH Malware-2022_1648745828946001cV4V.pdf
+│       ├── CIO Study_Certificate-Related Outages Continue to Plague Organizations-2022_1648745828929001cOQv.pdf
+│       ├── CIO Study_Digital Transformation Drives Massive Growth in Machine Identities-2022_1648745828937001cmGn.pdf
+│       ├── CIO's guide to rethinking compliance_1649182738523001LhjN.pdf
+│       ├── CIS Benchmarks Community Handout OFFICE_1644596620585001dUrU.pdf
+│       ├── CIS Controls v8 Implementation Groups Online.22.02_1644596620570001d2XB.pdf
+│       ├── CIS Hardened Images Sheet - All Providers v21.08 OFFICE_1644596620577001dcWK.pdf
+│       ├── CIS SLTT Services Online.22.01_1644596620591001d58E.pdf
+│       ├── CIS SecureSuite Overview 11x17 Online.22.01_1644596620597001dLLh.pdf
+│       ├── CISA Shields Up For Leaders_1649370047433001uDZ7.pdf
+│       ├── CISA Shields Up For Organizations_1649370047440001uiOI.pdf
+│       ├── CISO Guide to Selecting a MDR Partner_1644518801809001oARR.pdf
+│       ├── CISO Strategies for Proactive Threat Prevention Report_1652469663037001fuTJ.pdf
+│       ├── CISOs_Guide_O365__1__1651881106063001drcP.pdf
+│       ├── CS - Carta Chooses Banyan Security for Zero Trust Remote Access_1647460167336001hACS.pdf
+│       ├── CS - Lemonade Moves Up from VPN to Banyan Zero Trust Access Solution_1647460167331001hib2.pdf
+│       ├── CUE-Solution-Brief_1651103521171001Dymb.pdf
+│       ├── CYG03005_NDaaS_Datasheet_1648749630800001c0v3.pdf
+│       ├── CYG06003_Hybrid NDaaS_Datasheet_1648749630805001cEwl.pdf
+│       ├── CYG08003_Firewall Add-on Datasheet_1648749630809001chaD.pdf
+│       ├── CYG09002_Legal Case Study CyGlass (1)_1648749630828001cclI.pdf
+│       ├── Canva Case Study_1648140484900001bQzX.pdf
+│       ├── Case Study - Lionbridge_1644967005483001Ev8Y.pdf
+│       ├── Case Study - NOV_1644967005487001ENGW.pdf
+│       ├── Case Study Datawiza AMaaS Gives Medical Device Innovators Simple, Secure Path to Doctor, Patient, and Manufacturer Interactions_1644526476759001vKZz.pdf
+│       ├── Case Study on Use of Digital Twins for Assessing Cyber Resilience_1646695132235001Ov1b.pdf
+│       ├── Case Study_100+ IAM Team_Diagnostic_1650293961360001nUXV.pdf
+│       ├── Case study_Telia Company shores up its defenses with privileged access security from Nokia_1654001814619001IekB.pdf
+│       ├── Case-Study_-Apria-Healthcare-1 (1)_1646258250302001Pogm.pdf
+│       ├── Case_Study_Optimizing_Threat_Hunt_Final_1644254692197001q4ai.pdf
+│       ├── Case_study_Barracuda_Networks_utilizies_DPI_engine_RSPACE2_1640050475250001TR9z.pdf
+│       ├── Center for Threat-Informed Defense 2021 Impact Report_1644004394578001YQ7g.pdf
+│       ├── Centrilized_Log_Management_1652867268801001NRYi.pdf
+│       ├── Cequence-CatMouse-v2_1650398418791001tWKu.pdf
+│       ├── Cequence-Threat-API-Security_1650398418779001tro1.pdf
+│       ├── Cequence_Infographic_APIs-tool-of-choice-for-devops-target-of-choice-for-attackers_1650398418783001txdC.pdf
+│       ├── Cerberus 2pp A4 Brochure_2022v2.1_1651823608333001ScEF.pdf
+│       ├── Certificate_Lifecycle_Management_datasheet (6)_1651152203571001Fi9t.pdf
+│       ├── Channel+Sponsorship+3+Months+Program_1652129166288001xMGO.pdf
+│       ├── ChannelVision Media Kit 2022_1652982627238001xmkO.pdf
+│       ├── Checkpoint-data-center-firewall-ebook_1643840202045001F35I.pdf
+│       ├── Cisco vs DNSFilter Report_16536854637280013SBv.pdf
+│       ├── Cisco_Customer_Zero_ Case_Study_1650295154999001YrMm.pdf
+│       ├── Cloud Protect Overview_1649713039915001CWsO.pdf
+│       ├── Cloud Security Services Solution Brief final_1646326528756001aMDH.pdf
+│       ├── Cloud Threat Detection - Solution Brief_1649370047454001uuLu.pdf
+│       ├── Cloud-Security-Skills-Whitepaper_1651203182211001FJg9.pdf
+│       ├── CloudCA_1652790865300001em3P.pdf
+│       ├── Cloud_Payment_HSM_1644334342699001lGCc.pdf
+│       ├── Cloudguard-cloud-native-security-datasheet_1643840030955001TRks.pdf
+│       ├── Cobalt Platform Brief_1649801491901001R6mJ.pdf
+│       ├── Cobalt ROI of Modern Pentest Report 2021_1649801491898001RDsN.pdf
+│       ├── Cobalt-LogicHub Case Study_1646684243580001qlHQ.pdf
+│       ├── Cohesity's Solutions for Air-gap Data Protection_1649108949278001ViWI.pdf
+│       ├── Compliance Audit Prep Guide-SG0099-EN_1651613564251001wgGs.pdf
+│       ├── Compliance-Reporter-brochure-gov_163907758277200190oX.pdf
+│       ├── Compliance-Reporter-brochure_163907758277600190Ky.pdf
+│       ├── Computing at the Edge_1652455423314001d9DA.pdf
+│       ├── Continuous Endpoint, Container & Cloud Compliance with Uptycs_1645565654877001fJ4r.pdf
+│       ├── Contrast Security Solution Brief_1651178479104001kKFm.pdf
+│       ├── Cool_Vendors_in_Secu_746492_ndx_1644967005491001ExY4.pdf
+│       ├── Corporate Brochure - 2022_1650573511874001cE0l.pdf
+│       ├── Council Case Study_Generic_Final_1648749630823001cYih.pdf
+│       ├── Counter Ransomware Attacks with Cohesity_1649108949282001Vx52.pdf
+│       ├── Crescent City Case Study_1651002735418001F6gn.pdf
+│       ├── Cribl-Edge-Datasheet_1649105729866001YrPc.pdf
+│       ├── Cribl-LogStream-Datasheet (2)_1649105729861001YDA0.pdf
+│       ├── Cribl-Supercharge-SecOps-with-Cribl-LogStream-and-Google-Chronicle-SB_1649105729876001YxOo.pdf
+│       ├── Critical Network Defense ebook_1648749630814001c5ES.pdf
+│       ├── Critical Start Managed Detection and Response Overview_1639081292293001lwHJ.pdf
+│       ├── Customer Authentication_1647965258469001051g.pdf
+│       ├── Customer Success Story - Maturing Cybersecurity Infrastructure_1651270789194001QkYO.pdf
+│       ├── Customer engagement in an era of rising fraud white paper_1648502886249001E1YU.pdf
+│       ├── CybelAngel - Datasheet - Account Takeover Prevention_1643910432184001Z0xb.pdf
+│       ├── CybelAngel - Datasheet - Asset Discovery _ Monitoring_1643910432187001ZbsZ.pdf
+│       ├── CybelAngel - Datasheet - Dark Web Monitoring_1643910432190001ZFfZ.pdf
+│       ├── CybelAngel - Datasheet - DigitalRiskProtection_1643910432194001ZR5Q.pdf
+│       ├── CybelAngel - Datasheet - Domain Protection_1643910432196001ZUcn.pdf
+│       ├── Cyber Fusion Center White Paper_165170078848600102HI.pdf
+│       ├── Cyber Fusion Vulnerabilty Mgmt White Paper_16517007884900010Aqx.pdf
+│       ├── Cyber Investigation Prep Handout_1644253369996001rz3B.pdf
+│       ├── Cyber Range Cyber STX Case Study_1649191080310001SCz0.pdf
+│       ├── Cyber Range Poland Grid NetWars Case Study_1649191080305001S6Hz.pdf
+│       ├── Cyber Resilience - Uncovering Strategies and Technologies_1645109665731001I7gm.pdf
+│       ├── Cyber Resilience Security Framework - Going Beyond Zero Trust_1649108949286001V1qD.pdf
+│       ├── Cyber Risk Management_1652455423300001dyIN.pdf
+│       ├── Cyber Risk Monitoring_1644518801818001oxhM.pdf
+│       ├── Cyber Security Maturity Model_1648934428475001dmer.pdf
+│       ├── Cyber Task Forces Fact Sheet_1644253370002001rTMl.pdf
+│       ├── Cyber risk and vulnerability maturity model - Vulcan Cyber_1652774118011001se6t.pdf
+│       ├── CyberGRX Brochure_1647300730899001uCKl.pdf
+│       ├── CyberGRX Product Guide_1647300499988001nyxl.pdf
+│       ├── CyberGRX Ransomware Ebook_1652894601199001v9Ie.pdf
+│       ├── CyberGRX_CRI_Ebook_1653505365579001fXvj.pdf
+│       ├── CyberGRX_Forrester_TPCRM_Research_1652894601204001vSqa.pdf
+│       ├── CyberVista Product Offerings_1650293961350001nHXY.pdf
+│       ├── CyberVista Solutions Overview_1650293961355001nayl.pdf
+│       ├── CyberVista_Case Study_Palo Alto Networks_1650293961345001nwil.pdf
+│       ├── CyberVista_NICE Workforce Diagnostic_1650293961340001nRiO.pdf
+│       ├── CyberVista_Professional Services Overview_1650293961330001n3Ni.pdf
+│       ├── CyberVista_Redacted Cyber Insights Report_Sample_1650293961335001npfe.pdf
+│       ├── Cybercrime Intelligence Intel 471 (1)_1643906792941001inxZ.pdf
+│       ├── Cybereason - Ransomware Attackers Don't Take Holidays_1644267825647001FVyn.pdf
+│       ├── Cybereason Brochure_1643996839851001rEUf.pdf
+│       ├── Cybereason XDR Platform_1643996839855001rihx.pdf
+│       ├── Cybereason XDR powered by Google Chronicle_1643996839859001rEk2.pdf
+│       ├── Cybereason vs Ransomware_1643996839862001r5yz.pdf
+│       ├── Cybereason- The Definitive Guide To XDR_1643996839866001rWfr.pdf
+│       ├── Cybersecurity Under Stress Report_1651270789217001QaO6.pdf
+│       ├── CybersecurityCareerPursuers-Study_1651203182215001FmVG.pdf
+│       ├── Cynet 360 AutoXDR_Data_Sheet_1652867268806001NrMp.pdf
+│       ├── Cynet_MSSP_Partner_Program_1652867268811001NtRw.pdf
+│       ├── Cynet_Solution Provider_Partner_Program_1652867268816001NxEJ.pdf
+│       ├── Cyware CFTR Datasheet_16517007884670010nyk.pdf
+│       ├── Cyware CSAP Datasheet_16517007884710010bZv.pdf
+│       ├── Cyware CTIX Datasheet_16517007884740010Jde.pdf
+│       ├── Cyware CTIX LITE Datasheet_16517007884780010dRS.pdf
+│       ├── Cyware Endpoint Security White Paper_16517007884930010O0w.pdf
+│       ├── Cyware Orchestrate Datasheet_16517007884820010Fc5.pdf
+│       ├── D3 XGEN SOAR Event Pipeline_1646345336047001jC0e.pdf
+│       ├── D3Security_CaseStudy_Banking_16390919228220015vMj.pdf
+│       ├── D3Security_CaseStudy_Healthcare_163909192282700155LB.pdf
+│       ├── D3Security_CaseStudy_MSSP_16390919228310015ZGp.pdf
+│       ├── D3Security_CaseStudy_Public_Sector_16390919228360015mPS.pdf
+│       ├── D3_Security_SOC_Analyst_Guide_to_SOAR_16390919228170015jGn.pdf
+│       ├── DELPHINUS_Datasheet_16534394321400012rb4.pdf
+│       ├── DIB_Solutions_Brief_2021_Final_1644254692200001qQgu.pdf
+│       ├── DNSFilter Data_165368546373900136BZ.pdf
+│       ├── DNSFilter Threat Report_16536854637360013eKF.pdf
+│       ├── DPI_engine_R&SPACE2_service_and_support_1640050475246001Tsv0.pdf
+│       ├── DPI_engine_R&SPACE2_solution_guide_1640050475235001TxvR.pdf
+│       ├── DS - Banyan Security Zero Trust Remote Access Platform_1647459508930001Rq04.pdf
+│       ├── DS-expel-security-operations_16464048391960018jbY.pdf
+│       ├── DT-AppSec_Auto-Detects-Blocks_165221490610400172cW.pdf
+│       ├── DarkIQ 2pp A4 Brochure_2022v2.2_1651823608339001S3hk.pdf
+│       ├── DarkReading_HowDataBreachesAffectTheEnterprise_1653343333428001UOXZ.pdf
+│       ├── DarkReading_HowEnterprisesAreAssessingCybersecurityRisk_1653343333432001U7Ad.pdf
+│       ├── DarkReading_HowEnterprisesPlanToAddressEndpointSecurityThreats_1653343333436001UfZr.pdf
+│       ├── Darkowl Fraud Onesheet_16437434469390017Ka8.pdf
+│       ├── Data Sheet 0421_16516769831970017DNr.pdf
+│       ├── Data Sheet _ Morphisec Guard Lite _1643557688484001yWek.pdf
+│       ├── Data Sheet _scoutINSPECT 2021_1644254692183001qkLd.pdf
+│       ├── Data Sheet _scoutPRIME 2021 _vFINAL_1644254692190001q5aP.pdf
+│       ├── Data Sheet _scoutTHREAT 2021 _vFINAL_1644254692187001qePi.pdf
+│       ├── Data Tracing Datasheet_1652818442525001jLqD.pdf
+│       ├── DataLocker-DL4FE-DataSheet_1651119115564001YFzC.pdf
+│       ├── DataLocker-SafeConsole-DataSheet_1651119115568001Y4TK.pdf
+│       ├── DataLocker-SentryK350-DataSheet_1651119115572001YXYy.pdf
+│       ├── DataLocker_USB_policy_best_practices_guide_1651119115560001YwlP.pdf
+│       ├── DataSheet_IoTDeviceCertificatesCertInv_v1.13.21s_1651152203575001Fzpt.pdf
+│       ├── DataSunrise_DBS_Security_White_Paper_1639024573678001N2yT.pdf
+│       ├── DataSunrise_datasheet_1639024573674001Ny4k.pdf
+│       ├── Datadog Best Practice Series Cloud SIEM_16527098836750014Jy5.pdf
+│       ├── Datadog Product Brief - Application Security_165270988367100142z3.pdf
+│       ├── Datadog-Cloud Siem Brochure_165270988366800145wj.pdf
+│       ├── Datasheet -  Analytics and Reporting  Cloud_1650573837705001ay3Y.pdf
+│       ├── Datasheet 2022 (1)_1649976209333001mr4K.pdf
+│       ├── Datasheet ATS_1646757143713001J7E8.pdf
+│       ├── Datasheet NDR_1646757143718001J3Tl.pdf
+│       ├── Datasheet Next-Gen SIEM_1646757143723001JIrH.pdf
+│       ├── Datasheet Open XDR_1646757143728001J8rp.pdf
+│       ├── Datasheet SOAP_1646757143737001Jd3e.pdf
+│       ├── Datasheet SOAR_1646757143741001JR0u.pdf
+│       ├── Datasheet Securonix+Snowflake_1646757143732001JMRZ.pdf
+│       ├── Datasheet UEBA_1646757143746001JXHh.pdf
+│       ├── Datasheet_Partner_Program_Service_Providers (3)_1651152203564001Fvl3.pdf
+│       ├── Deep Instinct Beyond the Endpoint Datasheet_1650483471595001GdCZ.pdf
+│       ├── Deep Instinct Prevention Platform Solution Brief_1650483471599001G5cd.pdf
+│       ├── Defend Against Ransomware and Insider Threats with Data Isolation_1649108949291001VZTj.pdf
+│       ├── Defend Your Data from a Ransomware Attack_1649108949295001VwvT.pdf
+│       ├── Defense In Depth Whitepaper_16464387400470016klk.pdf
+│       ├── Delinea Cloud Suite Datasheet_1646357614216001bKhd.pdf
+│       ├── Delinea Corporate Brochure_1646357652512001OHLd.pdf
+│       ├── Delinea Privilege Manager Datasheet_1646326795113001Jlec.pdf
+│       ├── Delinea Privileged Access Cloud Security for Dummies ebook_1646326795109001Jp2b.pdf
+│       ├── Delinea Secret Server Datasheet_1646327296089001TON7.pdf
+│       ├── Delinea Server Suite Datasheet_1646325694150001iElC.pdf
+│       ├── Delinea Zero Trust Privilege for Dummies ebook_1646326795105001Jfwc.pdf
+│       ├── Dell'Oro SASE Market Share Leader Award_1651702050313001ROXJ.pdf
+│       ├── Deloitte Future of cyber survey_1648067193867001f0b5.pdf
+│       ├── Deloitte_ Advancing digital trust_1648067193874001fV2i.pdf
+│       ├── DemoBook_Q2_2022_digital_1651866339046001RoPb.pdf
+│       ├── Dev-facing Renovate (2)_1653907230955001u6tG.pdf
+│       ├── Devo Security Operations Solution Brief (1)_1646857775400001TvYn.pdf
+│       ├── DexGuard_fact_sheet_1653493722947001faae.pdf
+│       ├── Digital First Secops_16482481915260016oZ9.pdf
+│       ├── Digital.ai Application Protection (formerly Arxan)_16512635838050017mCO.pdf
+│       ├── Discover, manage, and automate the lifecycle of SSH keys with Keyfactor_1646325198568001hzkO.pdf
+│       ├── Discover, manage, and automate the lifecycle of SSH keys with Keyfactor_1646337822028001xa7N.pdf
+│       ├── DisruptOps Datasheet-DS0199-EN_1651613564235001wKhN.pdf
+│       ├── DoControl Cloud Data Loss Prevention (DLP)_1652899013573001TBJd.pdf
+│       ├── DoControl- Microsoft OneDrive and SharePoint brief_1652899013577001TvS6.pdf
+│       ├── DomainTools Hotlists and Feeds - Technical Brief (1)_1646341728030001ofQq.pdf
+│       ├── DomainTools-Report-Fall-2021-Edition (2)_1646341728027001ojzm.pdf
+│       ├── Dont_Pay_Prevent_CybelAngel_Guide_to_Ransomware_1643971425126001dJxz.PDF
+│       ├── DryvIQ Brief - Data Discovery_1649708674053001nkiX.pdf
+│       ├── DryvIQ Brief - Dryv Platform Overview_1649708674057001nDRv.pdf
+│       ├── DryvIQ Brief - Dryv Platform Snapshot_1649708674061001nq97.pdf
+│       ├── DryvIQ Brief - Govern_1649708674064001n1rK.pdf
+│       ├── DryvIQ Brief - Intelligent Migration_1649708674068001nlIB.pdf
+│       ├── DryvIQ Brief -Advanced Migration_1649708674071001n7Yv.pdf
+│       ├── Duraflame CaseStudy_1651002735452001FfSh.pdf
+│       ├── EB-AS-Digital-Ai-Application-Protection-For-Web_1653320134998001NFYx.pdf
+│       ├── EB-AS-Mobile-Gaming-Security-Ebook_1653320135003001NvAm.pdf
+│       ├── EBOOK-Planning-Before-the-Breach-You-Cant-Protect-What-You-Cant-See_1645032848767001xULV.pdf
+│       ├── EIT Compliance & Security Services_1651517845964001tS9R.pdf
+│       ├── EIT FedRAMP 3PAO Overview_1651517845968001tXke.pdf
+│       ├── EIT Healthcare Solutions Slick_1651517845972001t594.pdf
+│       ├── EMA_Impact_Brief-The_Anomali_Platform_1650468624905001UXS1.pdf
+│       ├── EN-Royal-Bolton-CS-4.10.21-2_1646258250313001PzKA.pdf
+│       ├── EN-South-Staffordshire-College-CS-4.10.21-2_1646258250308001P6Pl.pdf
+│       ├── EN_IoT_Edge_Enroll_V2_Data_Sheet_1651152203544001FUSG.pdf
+│       ├── ERMETIC REPORT - AWS S3 Ransomware Exposure in the Wild_16520969831350018QxR.pdf
+│       ├── ESG Whitepaper-HackerOne Addressing Security Gap_1651273712494001ggLH.pdf
+│       ├── Ebook – From Asset Management to Asset Intelligence Crossing the CAASM_1638999986214001awm7.pdf
+│       ├── Ebook – In Their Own Words_1638999986207001ayHE.pdf
+│       ├── Ebook – Why Asset Management Fails for Cybersecurity (and How to Fix it)_1638999986226001aYyE.pdf
+│       ├── Edge-Threat-Management-NG-Firewall-Micro-Edge-Datasheet_1651103521176001DuAm.pdf
+│       ├── Egress Defend datasheet_16397545302410010KK0.pdf
+│       ├── Egress Insider Data Breach Survey 2021_1639754588951001lxqe.pdf
+│       ├── Egress Prevent datasheet_163975453024700106jZ.pdf
+│       ├── Egress Protect datasheet_16397545302510010dD3.pdf
+│       ├── Egress report_Keeping pace with emerging threats_Summer 2022_1653987078981001BJMh.pdf
+│       ├── Egress report_Preventing email data loss in Microsoft 365_1639754751971001c2rw.pdf
+│       ├── Egress report_The real and rising risk of phishing_1639754751967001cajP.pdf
+│       ├── Elastic Applications and Securit Services Validation for Cloud Migration_1646695132249001OzHQ.pdf
+│       ├── Email Security Checklist | Email Security to Stop Targeted Attacks_1646675154040001iCTt.pdf
+│       ├── Embark on Your Risk-Based Alerting Journey With Splunk_1646250625316001yecb.pdf
+│       ├── EnCase Endpoint Security Product Overview_16443378706320010JEx.pdf
+│       ├── Encrypted_traffic_intelligence_DPI_R&SPACE2_1640050475254001TnpC.pdf
+│       ├── Endpoint Hardening Cheatsheet (1)_1647030652008001fjxF.pdf
+│       ├── Endpoint Protector Datasheet 5.5.0.0_1650444200632001cHPt.pdf
+│       ├── Endpoint Security Quickstart Guide_1650458789024001s4A8.pdf
+│       ├── Endpoint endgame_1649182738528001LInU.pdf
+│       ├── Enea Qosmos Encrypted Evasive Traffic Solution Brief_1649349391662001g5Lu.pdf
+│       ├── Enea Qosmos First Packet Processing Solution Brief_1649349418997001HZOr.pdf
+│       ├── Enea Qosmos Machine Learning Solution Brief_1649349442836001lSYW.pdf
+│       ├── Enea Qosmos Probe Datasheet_1649349470566001gHWX.pdf
+│       ├── Enea Qosmos ixEngine Datasheet_1649349457218001lnX7.pdf
+│       ├── Enea Qosmos ixEngine with Suricata Solution Brief_1649349358218001H4h3.pdf
+│       ├── Ensuring High-Performing SD-WAN _1646695132245001O7s7.pdf
+│       ├── Enterprise-Grade Application Security Made Simple - Jscrambler_1651251019970001ffIw.pdf
+│       ├── Entities-General-OneSheet-9.24.20_16437434469440017YgN.pdf
+│       ├── Ermetic Cloud Security Maturity Model - Whitepaper_16520969831270018EYY.pdf
+│       ├── Ermetic Overview white paper - Why managing cloud entitlements is nearly impossible_16520969831310018yc2.pdf
+│       ├── Ermetic-Case-Study-IntelyCare_165209698313900187aL.pdf
+│       ├── Ermetic-Case-Study-Latch_16520969831430018rJD.pdf
+│       ├── Ermetic_Cloud Security Platform_16520969831190018gpp.pdf
+│       ├── Evolution of Application Security and Where We Go Next-Whitepaper_1645387804402001R8qi.pdf
+│       ├── Excrypt_SSP_Enterprise_v2_1644334342705001lPDe.pdf
+│       ├── Expel-datasheet-Expel-Overview-073021_16464048391870018E80.pdf
+│       ├── Explo_1649720608374001hUru.pdf
+│       ├── F5-Distributed-Cloud-protecting-your-web-apps-and-apis-across-distributed-environments_1646250640547001ewRm.pdf
+│       ├── FBI Cyber Strategy_1644253370006001rAi1.pdf
+│       ├── FBI Jobs - Computer Scientist_1644270285668001amvF.pdf
+│       ├── FBI Jobs - Digital Forensic Examiner_1644270285664001aAUz.pdf
+│       ├── FEITIAN iePass FIDO MFi Certified FIDO Security Key Flyer_1652402925175001jsLA.pdf
+│       ├── FEITIAN_FIDO_Case_Reference_1652402925182001jbce.pdf
+│       ├── FINRA Case Study_1649708279353001EXTk.pdf
+│       ├── FWaaS-White-Paper_16443411290460012KJl.pdf
+│       ├── Fast Path to SASE eBrief by Enea Qosmos_16493493377950011KAw.pdf
+│       ├── Fast Track Your MA_1646342765380001eeiQ.pdf
+│       ├── Fastly Next-Gen WAF Architecture& Deployment Overview_1653601276913001aUzE.pdf
+│       ├── Fastly Next-Gen WAF Product Brief_1653601276909001ap7W.pdf
+│       ├── File Migration Success Without Getting Burned Whitepaper DryvIQ_1648738587881001OmbS.pdf
+│       ├── Filling-the-Gap-MacOS-Security (1)_16390775827840019080.pdf
+│       ├── Financial Quantification for Enterprise Cyber Risk Data Sheet_1644243884530001DVVs.pdf
+│       ├── Financial Services Case Study_16469359247190011jwZ.pdf
+│       ├── Financialforce Customer Case Study_1646146325095001kKIh.pdf
+│       ├── Finserv Discovery & Marketing (1)_1644511032705001WkWI.pdf
+│       ├── Five Security Intelligence Must-Haves For Next-Gen ASM RiskIQ White Paper_1646415911622001K6c1.pdf
+│       ├── Flashpoint Public-Sector_2022_1647370564827001P3iV.pdf
+│       ├── Flashpoint-Forrester-Executive-Summary_2020 (1)_1647370564811001PnFw.pdf
+│       ├── Flashpoint_Top-7-Cyber-Threats-to-the-Financial-Services-Sector_Final_03-09-22_1647370564822001P7m1.pdf
+│       ├── Flashpoint_TrustedIntelligence (1)_1647370564804001PhOH.pdf
+│       ├── Flow One Sheet_1652287462447001hPxp.pdf
+│       ├── Fluid_Attacks_Continuous Hacking Brochure_1644275969029001Y9q4.pdf
+│       ├── Fluid_Attacks_In Numbers Data Sheet_1644275969033001YM9k.pdf
+│       ├── Fluid_Attacks_OWASP Benchmark_1644275969040001YrWf.pdf
+│       ├── Fluid_Attacks_OWASP SAMM_1644275969036001YvMI.pdf
+│       ├── Fluid_Attacks_State of Attacks 2021 Annual Report_1639500629270001Gydl.pdf
+│       ├── Fluid_Attacks_eBook 2022_1644250010707001cXlx.pdf
+│       ├── Forbes Case Study Brief - DryvIQ_16488250387230010t8g.pdf
+│       ├── Forensic Investigations_1651165542889001pF7o.pdf
+│       ├── Forrester - Take Control Of Email Security With Human Layer Security Protection_1644283809819001gHsV.pdf
+│       ├── Forrester Consulting - Accelerate Threat Resolution with DNS_1651088476930001usa0.pdf
+│       ├── Forrester Consulting - The Total Economic Impact of Infoblox BloxOne Threat Defense_1651088476911001ull0.pdf
+│       ├── Forrester Total Economic Impact Report - Cost Savings And Business Benefits Enabled By ZeroFox_164513596465900176m1.pdf
+│       ├── Forrester Total Economic Impact of Juniper Connected Security_1646419837770001ib54.pdf
+│       ├── Fortress Information Security_1653494036288001pKco.pdf
+│       ├── Fortuna Düsseldorf scores highly secure virtual space with Microsoft Information Protection and Teams_1652189886831001judO.pdf
+│       ├── ForwardNetworks_CVEMitigation_UseCase_1650923930237001j1ZE.pdf
+│       ├── ForwardNetworks_DigitalTwinROI_eBook_1650923930241001jyMr.pdf
+│       ├── ForwardNetworks_IDGResearch_Whitepaper_1650923930245001j7oy.pdf
+│       ├── ForwardNetworks_Overview_Datasheet_1650923930256001jKRv.pdf
+│       ├── ForwardNetworks_SecureApplicationProvisioning_UseCase_1650923930263001j6tW.pdf
+│       ├── Fotinet Solution Brief_1652818941746001WThm.pdf
+│       ├── Free and open source cyber risk management tools - Vulcan Cyber_1652774118022001s9E6.pdf
+│       ├── Futurex_Excrypt Plus_1644334342715001lt1c.pdf
+│       ├── GATESCANNER API_1639403034290001ZlVU.pdf
+│       ├── GATESCANNER Application Server_1639403034294001Z83v.pdf
+│       ├── GATESCANNER DICOM_1639403034287001Ze7z.pdf
+│       ├── GATESCANNER Desktop_1639403034283001ZIe6.pdf
+│       ├── GATESCANNER Kiosk_1639403034273001ZTnS.pdf
+│       ├── GATESCANNER Mail Gateway_1639403034280001ZTwX.pdf
+│       ├── GATESCANNER Overview_1639403034270001ZuWr.pdf
+│       ├── GATESCANNER Security Dome_1639403034277001ZWg7.pdf
+│       ├── GATESCANNER Use Cases_1639403034297001Z5oE.pdf
+│       ├── GIAC Practical Testing Report_1649191355704001bMOT.pdf
+│       ├── GRC Overview _1644291038966001xQ3h.pdf
+│       ├── GTP_correlation_R&SGSRM_product_flyer_1640050475239001TnWy.pdf
+│       ├── GUIDE-External-Threats-Ransomware-Phishing-and-Malware_1645032848773001xx5t.pdf
+│       ├── GUIDE-The-5-Lies-Claims-a-SIEM-Vendor-Should-Never-Make_1645032848779001xGuO.pdf
+│       ├── GUIDE-Top-5-Benefits-of-Augmenting-Your-SIEM-with-Exabeam-Fusion-XDR_1645032848786001xa6f.pdf
+│       ├── Gain a 360-degree View of Risk with SecurityScorecard Ratings & Atlas Data Sheet_1648685921826001omlW.pdf
+│       ├── Gartner  Magic Quadrant for WAN Edge Infrastructure_1651701641823001nNkY.pdf
+│       ├── Gartner Magic Quadrant for Network Firewalls_1651701641828001nuFf.pdf
+│       ├── Gartner Magic Quadrant for Security Service Edge_1651701641832001njN1.pdf
+│       ├── Gateways, WAFs, and API Security_1652325195573001cka0.pdf
+│       ├── Geek-to-Guru-Guide-Eliminating-Network-Blind-Spots_1646694348746001JnvB.pdf
+│       ├── Geek-to-Guru-Guide-Offensive-Network-Security_1646694348741001JETJ.pdf
+│       ├── Genians Overview - 2022_16535237178230010zTc.pdf
+│       ├── Georgia's Cyber Industry Snapshot_1645451825549001dFYP.pdf
+│       ├── Getting the best out of your SIEM_1649182738534001LgbM.pdf
+│       ├── Giveway-Flier_165368546373200131I5.pdf
+│       ├── Global_Mobile_Executive_Brief_1651881106059001deFD.pdf
+│       ├── Go Passwordless with Azure AD and FEITIAN FIDO Security Keys_1652402925171001j54G.pdf
+│       ├── GoSecure Titan MDR Case Study Portfolio_1652365635392001PGuY.pdf
+│       ├── GoSecure_Advisory-Services_Brochure (3)_1652365635396001PUT7.pdf
+│       ├── GoSecure_Advisory-Services_Brochure (4)_1653588729762001iNe5.pdf
+│       ├── GoSecure_DataSheet_Breach-Readiness-Services (1)_1652365635401001PvRW.pdf
+│       ├── GoSecure_DataSheet_Inbox_Detection_Response (2)_1652365635405001PN9H.pdf
+│       ├── GoSecure_DataSheet_Penetration-Testing (1)_1652365635409001PyWm.pdf
+│       ├── GoSecure_DataSheet_SIEM_1652365635413001PYA5.pdf
+│       ├── GoSecure_DataSheet_Titan-MDR-and-Platform (1)_1652365635417001P9qv.pdf
+│       ├── GoSecure_DataSheet_Vulnerability-Scan-Assessment-Report (1)_1652365635421001PqHY.pdf
+│       ├── GoSecure_Overview_Brochure (1)_1653588729765001iAS1.pdf
+│       ├── Governance, Risk, and Compliance Use Case Guide_16476362537780013aR9.pdf
+│       ├── Great_Security_with_Small_Teams_solution_brief_1643755173411001NyXY.pdf
+│       ├── Guardian_Series_3_1644334342721001lNTT.pdf
+│       ├── Guide On How To Implement Risk-Based Vulnerability Management _1639158440193001oWz6.pdf
+│       ├── Guide The ROI Of Effective Vulnerability Managment_1639158440197001oID6.pdf
+│       ├── GuidetoROI_RedCanary_Infographic_1646345155623001obi2.pdf
+│       ├── H&R Block_1653582643404001GGVG.pdf
+│       ├── H2 2021 Financial Threat Report_1652213083568001b9fN.pdf
+│       ├── HBE Case Study_1644243884526001DhkJ.pdf
+│       ├── HIPAA Compliance Onsite Audit_1651165542877001ps3g.pdf
+│       ├── HackEDU Overview Brochure_1644291394173001QSsR.pdf
+│       ├── HackEDU PCI Software Fortune 500 Case Study_1644291394165001QNTD.pdf
+│       ├── Hacker Powered Security Report Industry Insights_1651273712490001gZ1h.pdf
+│       ├── Hackerone and AWS Solutions Brief_1651273712510001gbz6.pdf
+│       ├── Harmony-connect-sase-solution-brief_164383873465800102hk.pdf
+│       ├── HelpNetSecurity How to secure data one firewall at a time_1644526476766001vHrE.pdf
+│       ├── HivePro Uni5 Brochure _1653649597851001nT1h.pdf
+│       ├── How ETA Works - Whitepaper_164641921545200130aZ.pdf
+│       ├── How Incydr Works_A Technical Overview of the Incydr Product Architecture_1646146325099001kVTI.pdf
+│       ├── How SD Elements Automates and Scales Threat Modeling for DevSecOps_1649708279356001EDLn.pdf
+│       ├── How ThreatLocker Is Making Cybersecurity Easier For Businesses And Harder For Criminals_1648745905623001FxVA.pdf
+│       ├── How To Deal With Business Email Compromise - Osterman Research_1646425122931001GEnG.pdf
+│       ├── How Votiro Prevented a Zipped PW-Protected Attack_1650583071312001H57U.pdf
+│       ├── How You Can Become A Security_Hero-WhitePaper_1651203182225001FfuC.pdf
+│       ├── How a Global Law Firm Stopped Ransomware with Illumio_1653536723550001tTsu.pdf
+│       ├── How are Bots Skewing Marketing Analytics_1651257973288001CtsK.pdf
+│       ├── How the Right TIP can Change the Game Whitepaper_1651270789207001Q45F.pdf
+│       ├── How to Automate Threat Modeling in a DevSecOps World_1649708279360001EmT0.pdf
+│       ├── How to Master IT Documentation Ebook_1651513406217001iXlV.pdf
+│       ├── How to Prepare for an (ISC)2 Exam_1651203182222001Fqj3.pdf
+│       ├── How to adapt your security training when working from home_1650890562288001XE8e.pdf
+│       ├── How to manage Third Party Risks - Whitepaper - CybelAngel_1643971425131001d07q.PDF
+│       ├── How to motivate users to do security training_1650890562294001XmuS.pdf
+│       ├── How_Application_Shielding_Fits_in_DevSecOps_Framework_Zimperium (1)_1651881106092001djK7.pdf
+│       ├── Hunters SOC Platform Datasheet-2_1646319715088001AcxU.pdf
+│       ├── Hybrid Enterprise eBook_1651157161694001X3YY.pdf
+│       ├── Hybrid cloud security infographics - 6 must does_16535241767140016sOE.pdf
+│       ├── INKY Phish Fence Overview 2021 (1)_1646423446389001zHLl.pdf
+│       ├── IQ Training Module Catalog_1643915817306001UnrJ.pdf
+│       ├── IR&PreparednessGuide_RedCanary_1646338835331001M0yJ.pdf
+│       ├── ISMG_Securing_Healthcare_Against_Ransomware_Whitepaper_1650076605698001hmhm.pdf
+│       ├── ITRM_1644291038982001xbQ1.pdf
+│       ├── ITSPmagazine+-+Share+Your+Story+-+Options_1652129166293001xxxI.pdf
+│       ├── IdP Zero Trust Network Access White Paper_1651269529837001jkNj.pdf
+│       ├── Identity Security Why It Matters Ebook_16469359247130011QdD.pdf
+│       ├── Illumio CloudSecure - Protecting Cloud-Native Applications and Infrastructure_1648764351434001JnV7.pdf
+│       ├── Illumio Customer Stories - Better Cybersecurity Starts With Real-Time Visibility_1648764351442001JvBx.pdf
+│       ├── Illumio Edge - Endpoint Zero Trust_1648764351448001J7t6.pdf
+│       ├── Illumio Overview - The Leader in Zero Trust Segmentation_1648764351455001JPbp.pdf
+│       ├── Illumio vs Traditional Firewalls - Security Through Workload Segmentation_1648764351462001JsfR.pdf
+│       ├── Importance of Insurance-Validated Risk Models to Quantify Cyber Risk_16515691849610010kev.pdf
+│       ├── Incident & Breach Response _1644291038971001xYHf.pdf
+│       ├── Incident Response Overview_1639081833035001gg1W.pdf
+│       ├── Incydr Controls for Right-Sized Response_1646146325103001krkJ.pdf
+│       ├── Incydr Product Overview_1646146325087001kSF6.pdf
+│       ├── Indiana University Case Study Brief - DryvIQ_16488250387180010ncf.pdf
+│       ├── Industrial Cybersecurity for Executives - Dragos_165341185117400106E4.pdf
+│       ├── Industrial Internet Security Trend Report_1648620110279001OUOz.pdf
+│       ├── Industry Report-TAG Cyber-Intro to Axis Security Platform_1644283889333001OkBc.pdf
+│       ├── Infoblox - Datasheet - BloxOne Threat Defense Advanced_1651088476906001uFqk.pdf
+│       ├── Infoblox - Solution Note - Ecosystem Exchange_1651088476941001uLNo.pdf
+│       ├── Infoblox - Solution Note - Greater SecOps Effectiveness Through Greater Network Visibility_1651088476916001u7eP.pdf
+│       ├── Infoblox - Solution Note - Threat Intelligence_1651088476925001uL5k.pdf
+│       ├── Infoblox - White Paper - SANS Supercharge IR with DDI Visibility_1651088476921001uEjA.pdf
+│       ├── Infographic-The Great Disconnect State of Continious Security Report_1648304873860001ZqfD.pdf
+│       ├── Infosec IQ Product Overview_1651589962234001tmWa.pdf
+│       ├── Infosec Skills Course Catalog_1643145361344001T0f6.pdf
+│       ├── Infosec Skills Flyer_1651589962230001tpYC.pdf
+│       ├── Infosec Skills Train for Your Role_1651589962238001tYke.pdf
+│       ├── Infosec _1644291038976001xCrV.pdf
+│       ├── InsiderRisk Infographic DoControl_1652899013581001T7Y8.pdf
+│       ├── Intel 471 - Cobalt Strike WhitePaper v1 TLPW_1643907211663001bBU4.pdf
+│       ├── Intel 471 - Retail Threats Whitepaper_1643907211652001baRV.pdf
+│       ├── Intel Security Technology Infographic_16467663690010014inU.pdf
+│       ├── Intelligence Management for Splunk Enterprise and Enterprise Security_1646250625335001y1RH.pdf
+│       ├── Intelligence Management for Splunk SOAR_1646250625330001yeYL.pdf
+│       ├── Intelligence-Driven SOAR Whitepaper_1651270789212001QR2J.pdf
+│       ├── Intelligent-Infrastructure-Security-Cloud-PAM-IaaS_1648934428467001dpx4.pdf
+│       ├── Introduction to Shift Left API Security Testing_1652324230637001S4oC.pdf
+│       ├── Invest brochure - Flanders' 4 building blocks for cybersecurity success_1644254683858001lqvX.pdf
+│       ├── Invicti-AppSec-Indicator-Acunetix-Web-Vulnerability-Report_1644225250331001LSeW.pdf
+│       ├── Invicti-Report-New-Vulnerability-Found-Executive-Overconfidence_1644225250335001L25A.pdf
+│       ├── Invicti-White-Paper-Cover-APIs-Hidden-Attack-Surface_1644225250339001LlpR.pdf
+│       ├── Invicti_AppSec-Indicator_Security-and-the-Innovation-Imperative_1644225250327001LSqL.pdf
+│       ├── Invicti_WebAppSec_BuyersGuide_1644225250319001LDuD.pdf
+│       ├── Invicti_WebAppSec_BuyersGuide_Checklist_1644225250323001LxS3.pdf
+│       ├── Invicti_Welcome-to-Modern-WebAppSec__1644225250315001LPIu.pdf
+│       ├── Iris Detect Data Sheet (2)_1646341728038001oTNh.pdf
+│       ├── Iris Investigate Data Sheet_1646341728034001o6KE.pdf
+│       ├── J2024-06-35X_Datasheet_16534394321210012MUY.pdf
+│       ├── J5010-02-G4_Datasheet_16534394321250012FCD.pdf
+│       ├── JCI Case Study.pdf_1649708279364001EJOu.pdf
+│       ├── Jamf-Threat-Defense-brochure_16390775827800019xc7.pdf
+│       ├── Jamf-protect-brochure (1)_1639077276257001g18C.pdf
+│       ├── Jellyvision Case Study_1651157161698001XkiH.pdf
+│       ├── Joe-St-Sauver-dealing-with-short-search-terms_1646341728023001oeVz.pdf
+│       ├── JupiterOne Case Study - Auth0_16439084206410011HKO.pdf
+│       ├── JupiterOne Case Study - Databricks_16439084206360011bR5.pdf
+│       ├── JupiterOne Case Study - Esper_16439084206310011NmV.pdf
+│       ├── JupiterOne Cyber Asset Management Platform_16439084206470011Jkf.pdf
+│       ├── JupiterOne Smart Search and J1QL_16439084206520011FUx.pdf
+│       ├── K8s_cheat_sheet_square_v7_1649720608354001hzWU.pdf
+│       ├── KCM Overview_1649441918466001G1eF.pdf
+│       ├── KMES_Series_3_1644334342726001lgHC.pdf
+│       ├── Keeper-SelectingPM-WhitePaper_1646331211929001JCNX.pdf
+│       ├── Keeper-White-Paper-SSO_1646331211926001JLaw.pdf
+│       ├── Kenna.AppSec Data Sheet_1639158440189001ocLg.pdf
+│       ├── Kenna.VM Solution Brief_1639158440182001oR6U.pdf
+│       ├── Kenna.VM+ Data Sheet_1639158440185001oTUP.pdf
+│       ├── Keyfactor - IoT Identity Platform_1646325198572001hQqE.pdf
+│       ├── Keyfactor - IoT Identity Platform_1646337822033001xvan.pdf
+│       ├── Keyfactor - Seamless orchestration for every machine identity_1646325198575001h7uh.pdf
+│       ├── Keyfactor - Seamless orchestration for every machine identity_1646337822039001xFU9.pdf
+│       ├── Keyfactor Certificate Lifecycle Automation Buyers Guide_1646325198579001hIcO.pdf
+│       ├── Keyfactor Certificate Lifecycle Automation Buyers Guide_1646337822044001xPvg.pdf
+│       ├── Keyfactor Cloud PKIaaS Buyers Guide_1646325198583001hjRf.pdf
+│       ├── Keyfactor Cloud PKIaaS Buyers Guide_1646337822049001xeto.pdf
+│       ├── Keyfactor Command - Compare PKIaaS, CLAaaS and On-Prem_1646325198587001hWBj.pdf
+│       ├── Keyfactor Command - Compare PKIaaS, CLAaaS and On-Prem_1646337822054001xjo0.pdf
+│       ├── Keyfactor PKIaaS_1646325198591001hqU9.pdf
+│       ├── Keyfactor PKIaaS_1646337822058001x8qS.pdf
+│       ├── Keysight Case Study-Bank Improves Response Time by 30% with Visibility_1646695132240001OWNz.pdf
+│       ├── KnowBe4 Security Awareness Training Overview_1649441918451001GKS1.pdf
+│       ├── Kubos_case_study_1649720608381001hbEb.pdf
+│       ├── LGC-Federal-Team NXS Success Story_1644254692193001quCo.pdf
+│       ├── LGC-FinServ Case Study Oct 2021_1644254692207001q55Q.pdf
+│       ├── LS Powered by Fing- Infographic_blue_1640100712266001g19O.pdf
+│       ├── Lansweeper-for-cybersecurity_1640100712262001gTg3.pdf
+│       ├── Lansweeper_ITAM2.0_Foundation_for_Efficient_IT_Management_1640100712257001gGkk.pdf
+│       ├── LastPass Business Product Comparison_1649428801565001s9Le.pdf
+│       ├── LastPass Business, Solution Overview_1649428801570001s8Hz.pdf
+│       ├── LastPass Federated Login Overview_1649428801575001smb6.pdf
+│       ├── Lepide DSP Overview_1644329042758001Qv1K.pdf
+│       ├── Lepide Data Security Platform_1654023074771001uH5U.pdf
+│       ├── Leverage Corp Vulnerability_1653582643412001GL03.pdf
+│       ├── Leverage Corporation Contract_1653582643396001G4mZ.pdf
+│       ├── Link Capture Software for Napatech FPGA SmartNICs - Product Brief (DN-1202)_1648555951687001lun2.pdf
+│       ├── Link Inline Software for Napatech FPGA SmartNICs- Product Brief (DN-1203)_1648555951683001lx7O.pdf
+│       ├── Link Virtualization Software for Napatech FPGA SmartNICs - Product Brief (DN-1206)_1648555951691001lRkT.pdf
+│       ├── Live+Panel+Sponsorship++1+episode_1652129166298001xMO3.pdf
+│       ├── LiveAction Corporate Overview_1646320832001001oAch.pdf
+│       ├── LiveNX Datasheet_1646320832009001oVxo.pdf
+│       ├── LiveWire Datasheet_1646320832012001oXZU.pdf
+│       ├── Log4Shell Checklist_1645731537593001YPdL.pdf
+│       ├── Log4Shell Whitepaper_16464387400420016f2R.pdf
+│       ├── LogicGate Controls Audit Management_1651510864466001ldn1.pdf
+│       ├── LogicGate Risk Cloud Applications_1651510864456001lgLI.pdf
+│       ├── LogicGate Risk Cloud Integrations_1651510864451001ly3k.pdf
+│       ├── LogicGate Risk Cloud_1651510864446001lmtD.pdf
+│       ├── LogicGate_CaseStudy_1651088124294001OYLn.pdf
+│       ├── LogicHub MDR and MITRE ATT_CK-Final_1646684243591001qooE.pdf
+│       ├── LogicHub MDR for Community Banks and Credit Unions_1646684243594001qCi7.pdf
+│       ├── LogicHub MDR for Small and Medium Enterprises_1646684243598001qqg6.pdf
+│       ├── LogicHub SOAR+ Airline Case Study_1646684243584001qu8G.pdf
+│       ├── LogicHub for Healthcare-Final_1646684243587001q8Ww.pdf
+│       ├── LogicHub_SolBrief_MDRplusDiff_1646684243601001qo4c.pdf
+│       ├── LogicHub_SolBrief_SOARplusDiff_1646684243605001qWoE.pdf
+│       ├── Lumeta Datasheet-DS0029-EN_1651613564240001wYZE.pdf
+│       ├── Lyft Customer Case Study_1646146325107001kaRx.pdf
+│       ├── MDM_1650458789029001sZiw.pdf
+│       ├── MDRGuide_Datasheet_1646338835327001MhTg.pdf
+│       ├── MGM China Strengthens Defense Against Lateral Movement With Illumio_1648764351468001JV29.pdf
+│       ├── MONOLITH_MIDDLEWARE_MODERNIZATION_1652126326238001Z0oB.pdf
+│       ├── MSI_ACTIVEEYE_Solution_Brief final_1646326528746001aVOa.pdf
+│       ├── Making the Move to XDR 2022 White Paper_16510961732490014NnW.pdf
+│       ├── Malicious Life Podcast Poster_1643996839847001rutZ.pdf
+│       ├── Malwarebytes Threat Review_1652454973798001gFx3.pdf
+│       ├── Manage and Mitigate the High Cost of Ransomware_1650928118558001Acyb.PDF
+│       ├── Managing Subject Rights Request at Scale - Five Tips from Microsoft to Automate your SRRs eBook_1652963657683001wGNW.pdf
+│       ├── Managing-Microsoft-CA-Certificates-with-Sectigo-Final_1652790865305001efAZ.pdf
+│       ├── Mandiant owns cyber risk - Case study - Vulcan Cyber_1652774118038001sanP.pdf
+│       ├── Mary Kay, LastPass Case Study_1649428801580001szZS.pdf
+│       ├── Measuring the ROI of Security Orchestration and Response Solutions_1646250625326001yqA9.pdf
+│       ├── Meet_Sysdig_Secure_Your_Cloud_1651032195297001ClLU.pdf
+│       ├── Memorial Hermann_1653582643408001G4aI.pdf
+│       ├── Mend Application Security Platform (2)_16539108268150017I8b.pdf
+│       ├── Mend SAST (1)_16539108268230017wUm.pdf
+│       ├── Mend Supply Chain Defender (1)_16539108268190017GoL.pdf
+│       ├── Mezmo-Product-Overview_1653519846108001Ta5Z.pdf
+│       ├── Microsoft + Critical Start Overview (1)_1639081292281001lCLl.pdf
+│       ├── Microsoft + Tessian Comprehensive Email Security_1644283809823001gMXX.pdf
+│       ├── Mimecast Email Security - Datasheet_1646757649834001W1E7.pdf
+│       ├── Mimecast Netskope CrowdStrike Triple Play Integration_1646425122935001GmKh.pdf
+│       ├── Mitiga IR2 Solution Brief_1644270440757001Xob4.pdf
+│       ├── Mitiga Overview_1644270440762001Xett.pdf
+│       ├── Mobile Application Risk Report 2021_1644243884533001DOj0.pdf
+│       ├── Mobile Device Management Scenarios_1639570340906001rzJw.pdf
+│       ├── Mobile-Application-Security-Guide_1644242160141001565F.pdf
+│       ├── Mobile_Devices_Create_Information_Security_Risk_Solution_Brief_1021_1651881106071001du0B.pdf
+│       ├── Momentum Release 2022_1652894601193001vWxz.pdf
+│       ├── Morphisec - eBook - 10 Tips To Stop Ransomware & Boost Security with Microsoft Defender AV_1643557688487001yt0d.pdf
+│       ├── Morphisec Guard 5.0 datasheet_1643557688458001yDXZ.pdf
+│       ├── Morphisec-Scout-Vulnerability-Management_1643557688472001yyRi.pdf
+│       ├── Morphisec_White Paper_5-Cost-Free-Ways-for-Teams-with-Limited-Budgets-to-Improve-Security_1643557688469001yIu8.pdf
+│       ├── Morphisec_eBook_STOP RANSOMWARE AND OTHER ADVANCED ATTACKS FROM THE ENDPOINT TO THE CLOUD_1643557688465001yEGO.pdf
+│       ├── Mutare_COMPANY_28JAN2022_1650381341878001Ldvs.pdf
+│       ├── Mutare_COMPANY_MAY2022_1653418522685001emGg.pdf
+│       ├── Mutare_FOLIO_Voice-Traffic-Filter_DEC2021_1650381341865001LHJ2.pdf
+│       ├── Mutare_INFOGRAPHIC_Voice-Traffic-Filter_DEC2021_1650381341873001LXTt.pdf
+│       ├── Mutare_INFOGRAPHIC_Voice-Traffic-Filter_MAY2022_1653418522696001erS3.pdf
+│       ├── Mutare_Voice-Traffic-Assessement_FOLIO_08DEC2021_1650381341869001LTv1.pdf
+│       ├── Mutare_Voice-Traffic-Filter_FOLIO_MAY2022_1653418522690001eCvd.pdf
+│       ├── NC brochure_1651719008270001QF1J.pdf
+│       ├── Napatech Link SmartNIC Hardware - Product Overview (DN-0251)_1653049522761001lC2A.pdf
+│       ├── NatWest Group fights fraud and improves customer experiences case study_1648502886231001EuUK.pdf
+│       ├── National AI Engineering Initiative_1652455423307001dZPy.pdf
+│       ├── Netacea_bot_management_brochure_1651257973276001CU89.pdf
+│       ├── Network Detection & Response_1644518801813001os4K.pdf
+│       ├── Network vs Application Level Security - Security Guide_1643838228419001kZHv.pdf
+│       ├── Neurons For RBVM DS_1653690544619001RTaO.pdf
+│       ├── New Generation Threat Perception System_1638844397766001Z91K.pdf
+│       ├── Nine steps to proactively manage data privacy and protection ebook_16476362537690013JCh.pdf
+│       ├── NodeZero - Autonomous Penetration Testing Factsheet_16464387400370016qKg.pdf
+│       ├── NodeZero - Autonomous Penetration Testing Proof of Value_16464387400320016it2.pdf
+│       ├── Nokia Cloud and Network Services Security Consulting_Digital transformation for future-ready security_1654001814623001IuyA.pdf
+│       ├── Nokia Cybersecurity in 5G with XDR Five must haves to monetize 5G security_1654001814631001Iusm.pdf
+│       ├── Nokia The state of_DDoS in 2021_1654001814641001IaHg.pdf
+│       ├── OReilly-Web-Application-Security-NGINX_1646250640551001eTjD.pdf
+│       ├── OSS-Sheet_1649720608369001hf3O.pdf
+│       ├── ObjectFlow product datasheet_16535241767090016UPg.pdf
+│       ├── Observability in the Cloud Operating Model with Splunk_1644273116653001pQWD.pdf
+│       ├── Okta Security  Technical Whitepaper_1649799258398001Rnn2.pdf
+│       ├── Onapsis Assess Datasheet_1652720124201001OvqN.pdf
+│       ├── Onapsis Defend Datasheet_1652720124215001Oup2.pdf
+│       ├── Onapsis SAP Whitepaper Mitigating Ransomware_1652720124224001OfBM.pdf
+│       ├── OpenText MDR Solution Overview_16443378706360010qF1.pdf
+│       ├── Operationalizing Cyber Risk Quantification Whitepaper_1651270789224001QNaQ.pdf
+│       ├── Opus Research 2022 Intelligent Authentication and Fraud Prevention Intelliview _1648502886242001EBTr.pdf
+│       ├── Ordr Healthcare Solution Brief_16491153649340018qDv.pdf
+│       ├── Ordr Manufacturing Solution Brief_164911536494400182Cf.pdf
+│       ├── Ordr Solution Brief Overview_164911536494900187ip.pdf
+│       ├── Osterman Research - White Paper - The Global Quest for Sustainable Work-From-Anywhere Security_1651088476935001u7f7.pdf
+│       ├── Overcoming the Challenges Associated with Achieving DMARC Enforcement_1646425122940001GtFV.pdf
+│       ├── PAM Solutions Whitepaper_16469359247160011G7I.pdf
+│       ├── PAM-vs-SSO-vs-PasswordManager_1646331211932001JcRJ.pdf
+│       ├── PB-AS-2022-digitalai-application-security_1653080261493001YS73.pdf
+│       ├── PCI Onsite Assessment_1651165542873001pmfH.pdf
+│       ├── PKI_For_IoT_1651152203548001FDJd.pdf
+│       ├── PLuralsight for Goverment 2022 (1)_1652287462433001hwS3.pdf
+│       ├── PQShield Overview Brochure_165157205047100193ba.pdf
+│       ├── PTaaS Features Data-Sheet (2)_1645463100418001QRAP.pdf
+│       ├── Palo Alto Networks + Critical Start Overview (2)_1639081292285001lIdL.pdf
+│       ├── Palo Alto Networks Solution Brief_1652818941738001WYmh.pdf
+│       ├── Palo Alto Networks and Mimecast API Integration Whitepaper_1646425122945001GIzH.pdf
+│       ├── Password Management and Single Sign On Are Always Stronger Together_1649428801585001sADc.pdf
+│       ├── Password Management for your ENTIRE organization_1649428801590001sdwP.pdf
+│       ├── Password-Management-for-Dummies-Keeper-Security-Special-Edition_1646331211919001J6Qp.pdf
+│       ├── Passwordless Authentication_16479652584640010Gix.pdf
+│       ├── Path Forward IT Case Study_1651002735423001FUzX.pdf
+│       ├── Penetration Testing Timeline Checklist_1651165542885001p4ed.pdf
+│       ├── Penetration Testing_1651165542881001pplz.pdf
+│       ├── Pentera_Platform_Datasheet_Jan-2022_1646258250289001Pso5.pdf
+│       ├── Perimeter 81 Cybersecurity Report 2021 - Decentralized Workplace and Cyber Complexity 3_16443411290290012gPM.pdf
+│       ├── PhishER Overview_1649441918455001G74H.pdf
+│       ├── Phishing-resistant MFA to secure hybrid and remote workers_1645052122165001pRKA.pdf
+│       ├── Plan Building with Business Continuity Management White Paper_16476362537740013onc.pdf
+│       ├── Planning and Optimizing WFH Networks_1645109665735001I6q9.pdf
+│       ├── Playbook for Threat Modeling Medical Devices_1644004394581001YAy0.pdf
+│       ├── PlexTrac Customer ROI Testimonials_16456390610870012iXv.pdf
+│       ├── PlexTrac-Platform-Overview_16456390610790012JuM.pdf
+│       ├── PlexTracConsultancy_16456390610840012cLE.pdf
+│       ├── PlexTracEnterprise_16456390610810012RrD.pdf
+│       ├── Policy Management _1644291038987001xj9J.pdf
+│       ├── Post-Quantum Cryptography - An Overview - WP 3 of 3_16515720504660019Wy3.pdf
+│       ├── Practical Guide to API Security-eBook_1645387804408001Rjc2.pdf
+│       ├── Pradeo_Security_Mobile_Security_Solution_Suite_EN_16442421601490015xJU.pdf
+│       ├── Preventing Magecart Attacks - Jscrambler_1651251019959001fkSn.pdf
+│       ├── PrimeKey by Keyfactor - EJBCA Enterprise PKI_1646337822068001xGjq.pdf
+│       ├── PrimeKey by Keyfactor - EJBCA Enterprise PKI_1646337861964001kHGS.pdf
+│       ├── PrimeKey by Keyfactor - EJBCA SaaS PKI_1646337822073001x5Ca.pdf
+│       ├── PrimeKey by Keyfactor - EJBCA SaaS PKI_1646337861967001kjd6.pdf
+│       ├── Print MWC OnePagers_1652799973672001U6rX.pdf
+│       ├── Privileged Identity Management Suite_1649182738538001LeGJ.pdf
+│       ├── ProGuard-vs-DexGuard_1653493722935001fpWb.pdf
+│       ├── ProServ One Sheet_1652287462444001hQRX.pdf
+│       ├── Probely-Enterprise-Brochure-v1.7-d_1648068591037001S3kG.pdf
+│       ├── Probely-Enterprise-Case-Study-OLX-v1.1-d_1648068591033001STmr.pdf
+│       ├── Product Overview_US_16471994867410016ylC.pdf
+│       ├── Professional Development Institute_1651203267158001tLBd.pdf
+│       ├── Protect Your Zero Trust Data Center, Your Castle Infographic_1646419837775001isxh.pdf
+│       ├── Protegrity AWS Healthcare Case Study_1649713039904001C65S.pdf
+│       ├── Protegrity Corporate Overview_1649713039899001CY8a.pdf
+│       ├── Protegrity ESA-Data-Sheet_1650915883857001Xus4.pdf
+│       ├── Protegrity Methods of Data Protection_1649713039910001C2L1.pdf
+│       ├── Protegrity-Partner-Network-Guide_1649713039920001CAkl.pdf
+│       ├── Protegrity_DSG-Data-Sheet_1654012158565001u41g.pdf
+│       ├── Protegrity_Discovery-Data-Sheet (US)_1654012158569001u5xG.pdf
+│       ├── Public Sector Whitepaper_1643907211658001bmLH.pdf
+│       ├── Pure Signal RECON_1650892172830001gwUu.pdf
+│       ├── QLabs-Advanced-Cybersecurity-Solutions-product-brochure_1652131882746001uHF5.pdf
+│       ├── QLabs-Cloud-Document-Security-case-study_1652131882754001u9GG.pdf
+│       ├── QLabs-Living-in-a-Quantum-Safe-World-whitepaper_1652131882758001uvG1.pdf
+│       ├── QLabs-Quantum-Key-Distribution-QKD-Systems-Compared-whitepaper_1652131882770001u1ty.pdf
+│       ├── QLabs-TSF-400-solution-guide_1652131882774001uWVu.pdf
+│       ├── QLabs-TSF-Family-product-sheet_1652131882782001ur3g.pdf
+│       ├── QLabs-qOptica-QKD-product-sheet_1652131882762001uvdc.pdf
+│       ├── QLabs-qStream-product-sheet_1652131882766001ubPv.pdf
+│       ├── QNET turns evangelist after a successful migration to end to end Microsoft Security Solution_1652190566816001v2Rc.pdf
+│       ├── Quantropi-Data-Sheet-SEP0221_1648248892473001p8rx.pdf
+│       ├── Quantum Brochure - 15_02_22_16515691849490010vxw.pdf
+│       ├── Quantum Computing Threat - How to Keep Ahead - WP 1 of 3_16515720504570019YjQ.pdf
+│       ├── Quick Answer_1651701641818001npuU.pdf
+│       ├── RMC-1E_Datasheet_16534394321290012Tcu.pdf
+│       ├── RMC-2E_Datasheet_16534394321320012l1s.pdf
+│       ├── RQ & Fair Capability Snapshot_1651270789202001QzVV.pdf
+│       ├── RR-Third-Party-Security-Playbook_1639071551359001c6mn.pdf
+│       ├── RSA -Araali -one pager_1652993753327001DXGj.pdf
+│       ├── RSAC 2022 Korea Pavilion_1652719712045001EZXo.pdf
+│       ├── RSAC+SF+2022+Special+Offer+-+Coverage+++Your+Story+Bundle_1652129166279001x9Mh.pdf
+│       ├── RaaS- Establishing Footholds From 5,280 Feet _164374344695000172kY.pdf
+│       ├── Radically Simplifying ZTNA WP_16443411290380012iI1.pdf
+│       ├── Randori - Platform Datasheet_1644967005494001Ed6O.pdf
+│       ├── Randori-2021-attack-surface-report-the-internets-most-tempting-targets (1)_1644967005498001EkF2.pdf
+│       ├── RangeForce Barclays Case Study_1651774757971001IhAA.pdf
+│       ├── RangeForce One Pager_1651774757982001IjXL.pdf
+│       ├── RangeForce Security Orchestration Training WP_1651774757974001IaEn.pdf
+│       ├── RangeForce Talent Data Sheet (1)_1651774757978001IJP6.pdf
+│       ├── Ransomeware Hostage Rescue Manual 2022_1649441918462001GBH0.pdf
+│       ├── Ransomware Spotlight Report 2022_1653690544623001R7U7.pdf
+│       ├── Ransomware True Cost to Business E-book_1644267825642001FAv8.pdf
+│       ├── Ransomware White Paper-En_1639001126509001d4O5.pdf
+│       ├── Ransomware demystified. What security analysts need to know_1649182738543001LWkC.pdf
+│       ├── Rapidfort_Whitepaper_1652283032212001QEej.pdf
+│       ├── Reciprocity ROAR Platform one-pager_16503182461360012xVf.pdf
+│       ├── Reciprocity ZenComply one-pager_16503182461400012q4E.pdf
+│       ├── Reciprocity ZenRisk one-pager_16503182461440012N5z.pdf
+│       ├── Reciprocity_white_paper_Compliance_Risk_Management_165031824614700125I3.pdf
+│       ├── RedSeal-Classic-See-and-Secure-Your-Hybrid-Multi-Cloud (1)_1649964752676001ksws.pdf
+│       ├── RedSeal-CloudSecurity (1)_1649964752679001kgo1.pdf
+│       ├── RedSeal-Stratus-Overview (3)_1649964752683001kTan.pdf
+│       ├── Reduce Active Directory Security Risks - Why Identity Protection is Key to Stopping Modern Attacks_165109617324200147CU.pdf
+│       ├── Reduce Phishing and Ransomware Whitepaper - Osterman Research_1646425122949001GURd.pdf
+│       ├── Reduce Risk Solution Brief-SB0194-EN_1651613564246001w7rR.pdf
+│       ├── ReliaQuest GreyMatter Plaform Brief_2021_1652988983103001kX6X.pdf
+│       ├── Remediating-Vulnerabilities-in-npm-Packages_16401866515860017Ft3.pdf
+│       ├── Removing Encryption as a Barrier to Investigation - Whitepaper_16464192154560013CQ2.pdf
+│       ├── Renewing-Cyber-Insurance_-Leverage-CRQ-To-Assess-Needed-Coverage_165156918496800105d2.pdf
+│       ├── Replicated  SOC 2 Type 1 Report_1649720608359001h0Zu.pdf
+│       ├── Retail fraud - Key trends and prevention strategies eBook_1648502886227001E1TY.pdf
+│       ├── Reveal(x) 360 Solution Brief_1649370047458001uzBs.pdf
+│       ├── RidgeBot-GDPR-White-Paper-112720-min-en_1639001126526001dD1c.pdf
+│       ├── RidgeBot-ISO2700-Whitepaper-111020-en_1639001126522001dAPe.pdf
+│       ├── RidgeBot-PCI-DSS-Whitepaper-110520-en_1639001126513001dXn5.pdf
+│       ├── Risk Cloud Quantify_1651088124273001OcrR.pdf
+│       ├── RiskIQ Illuminate Datasheet_1646415911626001K3tl.pdf
+│       ├── RiskIQ Illuminate Solution Brief_1646415911635001Kpsf.pdf
+│       ├── RiskRecon Ripples Report 2021_16390610036810016W1m.pdf
+│       ├── RiskRecon-Data-Sheet_16390610036940016GEX.pdf
+│       ├── SAIL_Datasheet_16534394321440012qkh.pdf
+│       ├── SANS Whitepaper - DFIR-Cloud-Report_Q422_1645565654880001fwnh.pdf
+│       ├── SANS-Product-Review_Pentera_Why-Security-Validation-Matters-Now_1646258250296001PpTU.pdf
+│       ├── SAP ICMAD Threat Report_1652720124220001Oola.pdf
+│       ├── SASE Buyers Guide_1646419837784001iyi7.pdf
+│       ├── SASE For Dummies_1646340673560001amJM.pdf
+│       ├── SASE for Superheroes - The Complete Integration eBook_16443411290430012ZK7.pdf
+│       ├── SB - Banyan Security ZTRA for 3rd Parties and BYOD_1647460167340001hnJn.pdf
+│       ├── SB - Banyan Security ZTRA for Eng Teams_1647460167344001h6Ss.pdf
+│       ├── SCB-1723_1650654129906001mA7W.pdf
+│       ├── SCB-1932-1_1650654129896001mKwn.pdf
+│       ├── SCB-1937C_1650654129892001mcwf.pdf
+│       ├── SCB-6913_1650654129900001mMEC.pdf
+│       ├── SCB-6995-1_1650654129903001mTbL.pdf
+│       ├── SCM-Brief-1 (1)_1652790865310001euFP.pdf
+│       ├── SCM-Product-Brochure-Final_1652790865315001ehyM.pdf
+│       ├── SE Labs 2022 Endpoint Advanced Security Report - BlackBerry Protect and Optics_1652469663047001fQmz.pdf
+│       ├── SEI CERT Division_1652455423282001dU58.pdf
+│       ├── SEI Education Training Catalog_1652455423297001dEPA.pdf
+│       ├── SEI Recruiting New Talent_1652455423293001dhVH.pdf
+│       ├── SEI Software Solutions Division_1652455423290001djmT.pdf
+│       ├── SEI The AI Division Building AI Better_1652455423286001drAO.pdf
+│       ├── SO Product Sheet_MAY2021_1646436266376001Px6Z.pdf
+│       ├── SOAR_1653619140974001gll5.pdf
+│       ├── SOVS2022_Ebook_1651177630727001OJIx.pdf
+│       ├── SPARK_Matrix_In_App_Protection_Zimperium_2022_1651881106067001dn0C.pdf
+│       ├── SPM Data Sheet_1644243884514001Dw4x.pdf
+│       ├── SPO_BloodHound_OneSheet_FNL_1651593084583001i3kE.pdf
+│       ├── SailPoint-Infographic-Core-Components-of-Identity-Security_16388985640400012tfk.pdf
+│       ├── Saviynt-2022-Identity-and-Security-Trends-Predictions-Report-1_1648934428460001dzRP.pdf
+│       ├── Saviynt-Guide-Making-the-Move-to-Modern-IGA-1_1648934428471001dL5v.pdf
+│       ├── Saviynt-Three-Pillars-of-Zero-Trust-Identity-Guide_1648934428464001dC7U.pdf
+│       ├── Scalable Cloud Whitepaper_1652213083605001b4CP.pdf
+│       ├── Scaling Suricata Performance -Solution Description (DN-1260)_1648555951699001leTP.pdf
+│       ├── Sectigo_PKI-vs-MFA-Infographic_1652790865320001eYf0.pdf
+│       ├── Sectigo_PKIUseCasesInfographic_v04_1652790865325001ebea.pdf
+│       ├── Sectigo_PrivatePKI_1652790865330001e3Az.pdf
+│       ├── Sectigo_Whitepaper_SMIMECertificates_v2_1652790865335001e7wK.pdf
+│       ├── SecurID - 3 Tips To Secure Your Cloud Transformation_1639599084799001j53F.pdf
+│       ├── SecurID - 5 Ways to Transform Access and Secure the Digital Enterprise.pdf_1639599084793001jN2g.pdf
+│       ├── SecurID - Step by Step Guide - Managing IAM for Hybrid Workforce_1639599084788001jr7Y.pdf
+│       ├── Secure Cloud Apps Without Disruption_1646342765384001ecoP.pdf
+│       ├── Secure DevOps_1652455423304001dAsc.pdf
+│       ├── Secure Enclaves For Dummies®, Anjuna Security Special Edition_1652488899906001Dwzq.pdf
+│       ├── Secureworks_NCO3_ManagedXDRBuyersGuide_1638990347751001auy4.pdf
+│       ├── Secureworks_NCO_GKNWheelsandStructures_1638990347748001aKI3.pdf
+│       ├── Secureworks_SE_2021StateoftheThreatReport_1638990347755001aXAd.pdf
+│       ├── Securing All Apps Everywhere Ebook_164693592473300115oy.pdf
+│       ├── Securing the Human Layer_1646675154046001iyzU.pdf
+│       ├── Security Boulevard Pushing the Limits of IDaaS with AMaaS_1644526476763001vHGl.pdf
+│       ├── Security Monitoring_1646326528735001abeD.pdf
+│       ├── Security Report 2022_1644952072417001USpo.pdf
+│       ├── Security-Control-Solution-Brief_1647030652004001f0w9.pdf
+│       ├── Security-Teams-are-Drowning-in-Alerts-Infographic_1650511390436001uobW.pdf
+│       ├── SecurityAndITOpsBetterTogether_1649105729871001Ywsh.pdf
+│       ├── SecurityMetrics Overview_1651165542857001p12E.pdf
+│       ├── SecurityMetrics Pulse - Managed Data Security_1651165542869001pAXO.pdf
+│       ├── SentinelOne & Anitian Case Study_1650498280525001JmaD.pdf
+│       ├── Separating Bot Fact from Fiction_16512580969310017jul.pdf
+│       ├── Service Organization Control (SOC 2) Compliance Using RidgeBot Security Validation_1639001126518001dK4H.pdf
+│       ├── Sevita ESG_1653582643400001GJy5.pdf
+│       ├── Sevita GRC_1653582643416001Gczp.pdf
+│       ├── Shopping Cart Monitor - Managed Ecommerce Security_1651165542865001pzM5.pdf
+│       ├── Siemens readies for the future, takes a Zero Trust strategy supported by Microsoft Security solutions_1652190566809001v6ju.pdf
+│       ├── Silent Threat - Supply Chain WP 2021_1644254692204001q4wA.pdf
+│       ├── Silobreaker Product Brochure_1647429773830001HHZy.pdf
+│       ├── Silobreaker for Cyber Threat Intelligence_1647430385445001qkTL.pdf
+│       ├── Skills One Sheet_1652287462441001hP3c.pdf
+│       ├── Skyeye_1653619140964001gqaI.pdf
+│       ├── Skylight Interceptor-Gartner_Flyer_1640026651587001K90i.pdf
+│       ├── SlashNext-Human-Hacking-Report_1652097906211001xhR0.pdf
+│       ├── SlashNext_BrowserPhishingProtection_Datasheet_1652098000385001KXvh.pdf
+│       ├── SlashNext_CORTEX-XSOAR-Integration_1652098000390001KZNS.pdf
+│       ├── SlashNext_Complete_Datasheet_1652097906215001xBlw.pdf
+│       ├── SlashNext_Email_Protection_MS365_Datasheet_1652097906207001xBgx.pdf
+│       ├── SlashNext_MobilePhishingProtection_Datasheet_1652098000378001KAZA.pdf
+│       ├── Slick_PKDynamicMasking_2022_164450985430600145nS.pdf
+│       ├── Slick_PKProtect_2021_Print_1653681235884001cQTQ.pdf
+│       ├── Smartsheet & Anitian Case Study_1650498280531001JGBE.pdf
+│       ├── Snapshot Check Point CloudGuard Unified Cloud Native Security_1643840079043001O0U3.pdf
+│       ├── Snowflake owns cyber risk - Case study - Vulcan Cyber_1652774118033001s7yW.pdf
+│       ├── Snyk Code One Pager 2021 (1)_1645120814887001IZch.PDF
+│       ├── Snyk Container One Pager (1)_1645120814892001IiYl.PDF
+│       ├── Snyk Extensibility and API onepager (1)_1645120814897001I4Zi.PDF
+│       ├── Snyk Extensibility and API onepager_1645120814902001IjtP.PDF
+│       ├── Snyk Infrastructure As Code One Pager (1)_1645120814907001INQZ.PDF
+│       ├── SolarWinds_Anatomy of a Supersonic Supply Chain Attack Whitepaper-2022_1648745828933001csWu.pdf
+│       ├── Solution Brief- Reduce the cost and complexity of threat detection and response_1651706358621001zEYf.pdf
+│       ├── Solution Overview_1648745905619001FT8k.pdf
+│       ├── Solution Sheet- IT risk and compliance management_16464174520130014l1A.pdf
+│       ├── Sophos Case Study_1648140484904001be88.pdf
+│       ├── SpecterOps_OneSheet_FNL_1651593084591001iTnT.pdf
+│       ├── SpecterOps_TrainingSheet_FNL_1651593084587001icyA.pdf
+│       ├── Spectris Case Study_1644243884518001DNiQ.pdf
+│       ├── Splunk 2022 State of Security Global Research_16516884481910012Fks.pdf
+│       ├── Splunk SOAR Product Brief_1646250625321001yvYR.pdf
+│       ├── SpyCloud-2022-Fortune-1000-Identity-Exposure-Report_v4.0_1652379145656001nh1h.PDF
+│       ├── StackHawk One Pager_1653406931510001cVLo.pdf
+│       ├── StamusNetworks-DS-SNDR-082021-1_1650999139958001fEUj.pdf
+│       ├── StamusNetworks-WP-NDR5REQS-122021-2_1650999139953001feek.pdf
+│       ├── StamusNetworks-WP-UpgradeIDS-112021-1_1650999139948001fWE4.pdf
+│       ├── StamusNetworks_CORP-OVR-092021-1_1650999139937001fs9I.pdf
+│       ├── StamusNetworks_TB-SUPERSURI-032022-2_1650999139943001fqPP.pdf
+│       ├── State of Email Security Report 2022_1646425122953001GHVy.pdf
+│       ├── State of Ransomware Readiness Report_1646425122957001GozZ.pdf
+│       ├── State_of_Pentesting_2022_1649801491894001RWAD.pdf
+│       ├── Survey_Cloud-Security-2021_Sumo_1650511390440001uwgu.pdf
+│       ├── Sysdig-case-study-beekeeper_1651032195308001CN6R.pdf
+│       ├── Sysdig-case-study-blablacar_1651032195312001CXbb.pdf
+│       ├── Sysdig-case-study-goldman-sachs_1651032195316001CRYQ.pdf
+│       ├── TA brochure_1651719008266001QfB1.pdf
+│       ├── TACACS+ Advantages_1643143189635001d7Ed.pdf
+│       ├── TB116-DL_Datasheet_16534394321170012ksi.pdf
+│       ├── TEI-of-RiskRecon_June_2021_16390610036850016SCz.pdf
+│       ├── TIanqing_1653619140969001gHfB.pdf
+│       ├── TPCRM For Dummies_1647300499983001n933.pdf
+│       ├── TPRM BitSight Data Sheet_1644243884522001DVFP.pdf
+│       ├── TUCANA_Datasheet_16534394321480012pLf.pdf
+│       ├── Taegis ManagedXDR RSA_1638990347723001aLwO.pdf
+│       ├── Tanium Phosphorus Integration Brief_16516769832020017iSm.pdf
+│       ├── Team Cymru total economic impact of Pure Signal Recon infographic_1650892172834001g4Jp.pdf
+│       ├── Team-Cymru-Attach-Surface-Management-v2.0-Brad-Laporte_1650892172826001gQYE.pdf
+│       ├── Technical-Solution-Guide_1647030651998001fejx.pdf
+│       ├── Telco_CaseStudy_1648248892458001pJTc.pdf
+│       ├── Tessian - ESG - Closing Critical Gaps in Microsoft 365 Native Security Tools(by ESG)_1644283809831001g0Vg.pdf
+│       ├── Tessian - How to Hack a Human_16443662774560018vpb.pdf
+│       ├── Tessian - Networks, Devices, People. How Human Layer Security Became The New Paradigm of Cybersecurity_1644283809827001gfBW.pdf
+│       ├── Tessian - Tessian Human Layer Security Platform Overview_1644283809811001gaKD.pdf
+│       ├── Tessian - The Industry’s Best-in-Class Email Data Loss Prevention Platform_1646430672740001Vr0a.pdf
+│       ├── Tessian - The State of Data Loss Prevention (DLP)_1644283809839001gPKi.pdf
+│       ├── Tessian - The Tessian Human Layer Security Platform Architecture_1644283809807001gfr0.pdf
+│       ├── The 7 Perils of Privilege_1652220223669001rR1D.pdf
+│       ├── The Advantages of UEM and Remote Management_1639570340896001r9Ax.pdf
+│       ├── The Buyers Guide to Modern Pentesting_1649801491905001RJN1.pdf
+│       ├── The Buyers Guide to Next Gen SIEM (eBook)-Final_1646857775405001Tdzo.pdf
+│       ├── The CISO Guide to Certificate Lifecycle Management _Final_1648472925552001Q7j1.pdf
+│       ├── The CISO’s Guide to Metrics that Matter in 2022 - incl risk scenarios_1652988983095001kxp6.pdf
+│       ├── The Definitive Guide to AI and Automation Powered Detection and Response_1647300916491001f4Fe.pdf
+│       ├── The Essential Guide to Security_1646250625340001yoVs.pdf
+│       ├── The Essential Guide to Zero Trust_1646250625344001yFFC.pdf
+│       ├── The Forrester Wave- Identity Management and Governance, Q4 2021_16388985640540012As7.pdf
+│       ├── The Next-Gen Machine Identity Management 2021 Report (Vanson Bourney Survey)_1648472925549001QHpm.pdf
+│       ├── The Noname API Security Platform_1652325195569001cVEF.pdf
+│       ├── The Password Pandemic - Whitepaper_16464387400520016Uzg.pdf
+│       ├── The Price of Hubris-The Perils of Overestimating the Security of your APIs-eBook_1645387804412001RMnG.pdf
+│       ├── The PtaaS Book - Caroline Wong [Ebook]_1649801491913001RgY2.pdf
+│       ├── The Right Approach to SASE Whitepaper_1644518801826001oH5g.pdf
+│       ├── The Role of Hackers in Security Assessments for Product Development_1651273712502001gHzV.pdf
+│       ├── The Transformative Effect of No-Code Security Automation_16482481915180016bm9.pdf
+│       ├── The Ultimate Guide to Cloud Security Automation_16482481915220016RSv.pdf
+│       ├── The Ultimate SaaS Security Posture Management (SSPM) Checklist (1)_1648121480647001zNEM.pdf
+│       ├── The Visibility Factor in Cloud Security- What Every Organization Must Understand Before Migrating to the Cloud_1652988983099001ksMm.pdf
+│       ├── The eSentire Difference.pdf_1645126184654001jaWS.pdf
+│       ├── The+Other+Society+Panel+Sponsorship++1+episode_1652129166303001xhAr.pdf
+│       ├── The-Balance-Between-Security-and-Customer-Experience-3-2022_1649799258402001RvGi.pdf
+│       ├── The-Importance-Of-SBOMs-In-Protecting-The-Software-Supply-Chain_16401866515910017c3Z.pdf
+│       ├── The_time_has_arrived_Resilient_Shielding_1652993753323001Dy9s.pdf
+│       ├── Threat Intelligence Center_1638844397771001ZgkB.pdf
+│       ├── Threat Investigations and Response RiskIQ Solution Brief_1646415911631001KAgt.pdf
+│       ├── ThreatCast Fact Sheet_1653493722939001fWmW.pdf
+│       ├── ThreatEyeNV Datasheet_1646320832016001odrV.pdf
+│       ├── ThreatX-CaseStudy_CreditUnion_1643839375297001n47U.pdf
+│       ├── ThreatX-CaseStudy_FinancialServices_1643839375301001ncUZ.pdf
+│       ├── ThreatX-Datasheet_APICapabilities_1643839375268001ntDJ.pdf
+│       ├── ThreatX-Guide-What-You-Need-to-Know-About-the-New-Threat-Landscape_1643839375294001nSdJ.pdf
+│       ├── ThreatX-ProductValidationWAAP_ESG_1643839375275001noPK.pdf
+│       ├── ThreatX-Whitepaper_FromWAF2WAAP-3Steps_1643839375279001nYTz.pdf
+│       ├── ThreatX_API-WEB_PlatformOverview_1643839375272001ngos.pdf
+│       ├── ThreatX_Gartner-WAAP-MQ2021_1643839375290001nlii.pdf
+│       ├── Tines Overview_1648140484880001b7tg.pdf
+│       ├── Tines Report - Voice of the SOC Analyst Report_1648140484912001b0dw.pdf
+│       ├── Tines vs Legacy Soar_1648140484888001bZOw.pdf
+│       ├── Top 10 Capabilities to Look for from Your SASE Provider_1646419837789001iG29.pdf
+│       ├── Top 10 Questions to Ask in Your SASE RFP_1646419837794001iuh4.pdf
+│       ├── Top 5 Cloud Security Challenges_1651273712498001gHvc.pdf
+│       ├── Top 5 Common Security Assessment Mistakes and How to Avoid Them_1651273712506001gJKY.pdf
+│       ├── Top 5 Security Challenges In The Cloud eBook_1644270440766001XSRl.pdf
+│       ├── Top 5 Use Cases for Splunk Security Analytics_1646250625311001ywmW.pdf
+│       ├── Top 5 mistakes in vulnerability management - Vulcan Cyber_1652774118028001ssNw.pdf
+│       ├── Top Security Challenges in Digital Transformation_1644273116649001p6bq.pdf
+│       ├── Torq No-Code Automation - Datasheet_164824819153000163Iv.pdf
+│       ├── Traceable AI - Datasheet_1645387804417001RQYI.pdf
+│       ├── Traceable AI - Technical Brief_1645387804422001RCZw.pdf
+│       ├── Transcend_Indiegogo_CaseStudy_1651183719666001nwY0.pdf
+│       ├── Transcend—AppleiOS Deletion Guide_1651183719670001nWio.pdf
+│       ├── Transcend—Data Mapping Overview PDF_1651183719662001nLoK.pdf
+│       ├── Transcend—Platform Overview PDF_1651183719658001n5be.pdf
+│       ├── Transform Identity from Roadblock to Business Enabler_1646342765388001eFug.pdf
+│       ├── Tresorit - Announcement - Launching email encryption_ our next step towards securing your workspace_16518623576310012bna.pdf
+│       ├── Trinity College Case Study_1652803599663001CUBi.pdf
+│       ├── Tripwire_Enterprise_87_Datasheet_1643755173418001NdWl.pdf
+│       ├── Tripwire_Enterprise_and_Ransomware_solution_brief_1643755173422001NXmU.pdf
+│       ├── Tripwire_Exploring_Managed_Cybersecurity_Services_1643755173427001Ny8U.pdf
+│       ├── Tripwire_IP360_product_datasheet_1643755173431001Nm27.pdf
+│       ├── Tripwire_Log_Center_Security_Intelligence_datasheet_1643755173435001NVmG.pdf
+│       ├── Tufin Case Study- Automated Policy Management_1652818941756001Whwr.pdf
+│       ├── Tufin Case Study- Multi National Bank_1652818941762001Ws7M.pdf
+│       ├── Tufin Hybrid Network Security_1652818941767001WsWA.pdf
+│       ├── Tufin SecureCloud Solution Brief_1652818941772001WAvI.pdf
+│       ├── Tufin SecureTrack_1652818941778001WNql.pdf
+│       ├── Tufin Technology Alliance Partner Program_1652818941751001W6RE.pdf
+│       ├── Twingate Overview 2022_1651269529841001jsFR.pdf
+│       ├── Two-factor authentication is broken - Let's fix it eBook_1648502886239001EWYH.pdf
+│       ├── UPF Offload Solution - Solution Description (DN-1341)_1653049522765001lgtj.pdf
+│       ├── Uem Mtd Why You Need Both_1653690544627001RDSb.pdf
+│       ├── Understanding the Upcoming NIST Post-Quantum Standards - WP 2 of 3_16515720504610019cBQ.pdf
+│       ├── Unit 42 Overview_16438257161220013TSk.pdf
+│       ├── Unit 42 Ransomware Readiness Assessment_16438257161190013U3Q.pdf
+│       ├── Unlocking the Cloud Operating Model - Security_1644273116645001p7cK.pdf
+│       ├── Untangle-Whitepaper-why-smbs-are-targets-for-cyber-attacks_1646413391659001XB5h.pdf
+│       ├── Uptycs Case Study Flexport (2)_1645565709787001cqDi.pdf
+│       ├── Uptycs endpoint and workload datasheet_Sept 2021 (2)_1645565654871001fzi2.pdf
+│       ├── Uptycs for Audit, Compliance & Governance - Solution Brief_August 2021_1645565654866001ftVl.pdf
+│       ├── Use Case on Mergers and Acquisitions_1646342765392001eoKK.pdf
+│       ├── VDR In Depth RSA_1638990347730001aZi3.pdf
+│       ├── VIA Venafi_8 Steps to Stopping Certificate-Related Outages-2022_1648745828925001cq35.pdf
+│       ├── VMRay 5 Reasons to augment  your EDR_1652867085567001jalC.pdf
+│       ├── VMRay Case Study Managed Detection and Reponse vendor_1652867085572001jTh7.pdf
+│       ├── VMRay Customer Case Study Life Fitness EDR_1652867085577001jgwH.pdf
+│       ├── VMRay Product Data Sheet Analyzer 1v2_1652867085539001jeUm.pdf
+│       ├── VMRay Sandboxing Buyers Guide_1652867085545001jP8y.pdf
+│       ├── VMRay WhitePaper Machine Learning in Advanced Threat Detection_1652867085551001jSl9.pdf
+│       ├── VMRay Whitepaper Why Malware Sandboxing Matters_1652867085556001jhGE.pdf
+│       ├── VMware Advanced Workload Protection for the Modern Data Center_1647276085245001FTmO.pdf
+│       ├── VMware Bridging Developer and Security Divide_1647276085250001FXDw.pdf
+│       ├── VMware Carbon Black Cloud Managed Detection and Response_1647276085254001FOho.pdf
+│       ├── VMware Defense In-Depth Ransomware_1647276085259001F8N1.pdf
+│       ├── VMware Secure Workload Access_1647276085264001FKaL.pdf
+│       ├── VMware Simplify your Zero Trust Journey_1647276085269001FLux.pdf
+│       ├── VMware Threat Hunting Incident Response for Hybrid Deployments_1647276085273001FYHx.pdf
+│       ├── VPN_CaseStudy_1648248892466001pdnV.pdf
+│       ├── Vantage-Detect-Datasheet_1647373265254001qTxQ.pdf
+│       ├── Vantage-Inspect-Datasheet_1647373265258001qqz5.pdf
+│       ├── Vantage-Platform-SolutionBrief_1647373265261001qcH4.pdf
+│       ├── Vantage-Prevent-Datasheet_1647373265265001qP5Z.pdf
+│       ├── Varonis 2021 SaaS Risk Report_16464084829720013NGQ.pdf
+│       ├── Varonis Case Study - NFL Team_16464084829680013uu0.pdf
+│       ├── Varonis Case Study - Real Estate_16464084829750013ntR.pdf
+│       ├── Varonis DatAdvantage Cloud for Salesforce_164640848296500132d2.pdf
+│       ├── Varonis Ransomware Readiness Assessment_16464084829610013SYb.pdf
+│       ├── Vectera_Plus_1644334342730001l1OJ.pdf
+│       ├── Venafi CodeSign Protect DataSheet-2022_1648745828917001cc0f.pdf
+│       ├── Venafi SSH Protect DataSheet-2022_1648745828913001c4rJ.pdf
+│       ├── Venafi TLS Protect DataSheet-2022_1648745828909001cWjt.pdf
+│       ├── Venafi Zero Touch PKI DataSheet-2022_1648745828921001cFGZ.pdf
+│       ├── Vendor Risk Management Data Sheet_1650649946361001mTAj.pdf
+│       ├── Verizon ID Infographic_1644518801822001oDI5.pdf
+│       ├── Versa SASE_1651698695460001ycVn.pdf
+│       ├── Virsec Company Overview_2022_1647969831201001nwDU.pdf
+│       ├── Virsec DPP Solution Overview_04Feb22 (1)_1647969831206001n86i.pdf
+│       ├── Virsec Deterministic Protection Platform- How it works - 03-03-22_1647970074368001pkxT.pdf
+│       ├── Visibility and Ransomware Containment With Illumio_1648764351474001JOZN.pdf
+│       ├── Visibility, Control, and Automation with Keyfactor Command_1646325198595001hD3g.pdf
+│       ├── Visibility, Control, and Automation with Keyfactor Command_1646337822063001xGEn.pdf
+│       ├── Votiro - About Votiro (Regular) - 2.3 (2)_1650583071301001Hhiv.pdf
+│       ├── Votiro and Microsoft O365_1652213083654001bt9F.pdf
+│       ├── Vulnerability Patch Management Solution Brief_1652454973794001g0B3.pdf
+│       ├── WP-Getting-started-NIST-1803_16464048392010018ZX8.pdf
+│       ├── WP-Top-5-Reasons-Classification-is-the-1st-Step-for-DLP_1651861752820001HAc7.pdf
+│       ├── Wabbi Data Sheet_1648304873864001ZWxO.pdf
+│       ├── Wabbi eBook - Continuous Security Why DevSecOps is Dead_1639747467573001v71Z.pdf
+│       ├── Wabbi eBook - Cutting Through the Noise: End the Battle Between Security and Development_1639747467567001v5yj.pdf
+│       ├── Waverley Case Study_US_1648749630833001ceOI.pdf
+│       ├── Welcome to the Core of Identity Security_16388985640480012tUv.pdf
+│       ├── What Is Cyber Risk Quantification (CRQ)_  (4)_16515691849550010YSr.pdf
+│       ├── What Works in Reducing Time to Detect_1649191080300001SVrf.pdf
+│       ├── What are bots costing your business_1651257973280001C0F3.pdf
+│       ├── What is an Analyzer_16464192154600013VcU.pdf
+│       ├── What's New with the Zerto Solution_1650928118564001AEci.PDF
+│       ├── When it leaks hackers breach - Whitepaper - CybelAngel_1643971425140001djyo.PDF
+│       ├── Whistic Case Study_Ent Access Mgmt_1651177630731001OOl1.pdf
+│       ├── Whistic_Basic Profile_1651177630723001O0QZ.pdf
+│       ├── White Paper - Investigative Capability as a Key Selection Factor for MDR_16443378706510010pnQ.pdf
+│       ├── White Paper - MITRE Endpoint Security Testing, Interpreting Results_16443378706480010FIs.pdf
+│       ├── White Paper - Natural Network Threat Hunting Emerging as Key to Modern Cybersecurity_16443378706440010Zrr.pdf
+│       ├── White Paper - The Importance of Digital Forensics for Effective Enterprise Incident Response_164433787065500105HN.pdf
+│       ├── White Paper – Navigating the Complexity of SaaS Management_1643216212585001VmEt.pdf
+│       ├── White Paper- AT&T Cybersecurity Insights™ Report- 5G and the Journey to the Edge _1651706358641001z9BE.pdf
+│       ├── White Paper- Enable and Protect Your Remote Workforce _1651706358626001zELQ.pdf
+│       ├── White Paper- How to achieve risk-based vulnerability management _1651706358631001zgVO.pdf
+│       ├── White Paper- Tightly Control and Manage Access to Applications with Zero Trust _1651706358636001zTK9.pdf
+│       ├── WhitePaper -The Great Disconnect Why DevSecOps Has Failed to Fulfill It's Promise_1648304402845001g8Gj.pdf
+│       ├── WhitePaper-Ransomware-Prevention-Detection-and-Remediation_1652867268842001NvXM.pdf
+│       ├── WhiteSource SAST Security at the Speed of DevOps_1646432077122001G9Ma.pdf
+│       ├── WhiteSource for developers_2021_16401866515780017SLs.pdf
+│       ├── WhiteSource has you covered_164018665158000175JF.pdf
+│       ├── Whitepaper Azure AD with Datawiza AMaaS_1644526476755001vJmt.pdf
+│       ├── Whitepaper DLP Best Practices_1650444200640001csVd.pdf
+│       ├── Whitepaper DLP for macOS_1650444200637001cAJq.pdf
+│       ├── Whitepaper-How-Security-Consolidation-Helps-Small-Teams_1652867268837001NEGx.pdf
+│       ├── Whitepaper-How-to-Go-Passwordless-with-Okta_1649799258392001RqYv.pdf
+│       ├── Whitepaper-Securing-Modern-Apps-Against-Layer-7-DoS-Attacks_2022_1646250640554001evrh.pdf
+│       ├── Whitepaper-XDR-Redefining-the-Game-for-MSSPs_1652867268847001NRii.pdf
+│       ├── Whitepaper_ATT&CK-D3FEND_ExtraHop (1)_1649370047444001uBsO.pdf
+│       ├── Whitepaper_DPI_for_APM_1640050475265001T0hE.pdf
+│       ├── Whitepaper_DPI_for_SD-WAN_1640050475258001Tm7j.pdf
+│       ├── Whitepaper_Ionate_Cloud_Native_Security_Solution_1652165066692001UqUi.pdf
+│       ├── Whitepaper_Ionate_Data_Protection_1652165066698001Uqom.pdf
+│       ├── Whitepaper_Why_Network_Security_Requires_DPI_1640050475262001Th7n.pdf
+│       ├── Why Customers Choose Risk Cloud_1651510864461001l7kz.pdf
+│       ├── Why INKY for Managed Services 2021 2pg_1646423446396001zy5P.pdf
+│       ├── Why Jscrambler_1651251019953001fk1Z.pdf
+│       ├── Why brivo_16498681695660013AgJ.pdf
+│       ├── Why your mobile MFA is attracting cyber crime and how to fix it_1645052122169001p7xM.pdf
+│       ├── Why-Certificates-Are-a-Better-Approach-to-SSH-Revised_1652790865340001eb3u.pdf
+│       ├── Wib Brochure_1653319551881001RWia.pdf
+│       ├── Wib Datashhet_1653319551886001REOy.pdf
+│       ├── Wiz Solution Brief_1645731537584001YpiP.pdf
+│       ├── Workforce Authentication_164796525845500101OM.pdf
+│       ├── Workforce Identity_16469359247220011yFq.pdf
+│       ├── Workplace Password Malpractice Report - 2021_1646331211938001J9tW.pdf
+│       ├── XDR Alliance Whitepaper -  What to Know, What to Do Now_1646425122962001GhNm.pdf
+│       ├── XDR Datasheet RSA_1638990347733001alxr.pdf
+│       ├── XDR Platform Data Sheet_1643996839870001rAcS.pdf
+│       ├── XM Cyber Overview_1651036362554001gk9W.pdf
+│       ├── XM Cyber for Amazon Web Services_1651036571046001Hgyk.pdf
+│       ├── XM Cyber for Breach and Attack Simulation_16510364560720016W8j.pdf
+│       ├── XM Cyber for Continuous Vulnerability Prioritization_16510364854450016m5K.pdf
+│       ├── XM Cyber for Ransomware_165103640988900194yf.pdf
+│       ├── Xassure_Datasheet_1652088302485001JKGW.pdf
+│       ├── Xcloud_Datasheet_1652088302480001J1Kc.pdf
+│       ├── Xprotect_Datasheet_1652088302474001JYFd.pdf
+│       ├── Xshield_Datasheet_1652088302468001JEcj.pdf
+│       ├── Yelp, LastPass Case Study_1649428801595001s7Q2.pdf
+│       ├── Yotpo-Case-Study-PDF (Letter @300dpi)_1645731537590001YSpR.pdf
+│       ├── Your SASE Journey Planner_1646419837780001iX3n.pdf
+│       ├── Your foundation for digital transformation_1639570340902001rSMm.pdf
+│       ├── YubiEnterprise Delivery solution brief_1645052122161001pQkh.pdf
+│       ├── YubiEnterprise Subscription solution brief_1645052122157001pI7V.pdf
+│       ├── YubiKey 5 FIPS Series product brief_1645052122153001pqsi.pdf
+│       ├── YubiKey 5 Series product brief_1645052122149001pfg5.pdf
+│       ├── Zenity Free E-Book_1639485329326001jSAo.pdf
+│       ├── Zero Trust Drivers and Decision Points_1652088302490001JCYp.pdf
+│       ├── Zero Trust Security Report_1653690544631001RxLe.pdf
+│       ├── Zero Trust Through a Business Lens - A Survey Document_1652088302495001Jc67.pdf
+│       ├── Zero Trust and Digital Transformation_16479652584600010NOl.pdf
+│       ├── Zero-Trust-for-Cloud-SB (1)_1651157161701001XzSZ.pdf
+│       ├── ZeroFox 2022 Threat Intelligence Forecast Report_16451359646500017lCc.pdf
+│       ├── ZeroFox Forrester Wave External Threat Intelligence Services_16451359646540017Xgf.pdf
+│       ├── ZeroFox Platform Overview_16451359646450017N9a.pdf
+│       ├── ZeroFox ZeroFox External Cybersecurity Platform_16451359646400017YVC.pdf
+│       ├── Zerto Platform Overview_1650928118549001AlP7.PDF
+│       ├── Zimperium_Anatomy_of_Mobile_Attacks_2021_1651881106079001dft0.pdf
+│       ├── Zimperium_Best_Practices_in_Mobile_App_Security (1)_1651881106088001d5md.pdf
+│       ├── Zimperium_Global_Mobile_Threat_Report_2022 (1)_1651881106053001duMI.pdf
+│       ├── Zimperium_MAPS_Solution_Brief_0422_1651881106075001dZTq.pdf
+│       ├── Zscaler Solution Brief_1652818811482001LZrb.pdf
+│       ├── [Data Sheet] Automatic Vendor Detection (AVD)_1648685921821001osNU.pdf
+│       ├── [Data Sheet] Instantly Monitor the Security Health of any Organization_Jan 2022 (1)_1648685921811001oWOS.pdf
+│       ├── [Data Sheet] Ratings API_Jan 2022 (1)_1648685921816001okPO.pdf
+│       ├── [One sheet] Tech Foundations (1)_1652287462450001hXML.pdf
+│       ├── _DoD_Cyber compliance Datasheet_2022 (1)_1652287462438001hsnW.pdf
+│       ├── aegis-padlock-ssd-datasheet-2021_1651792895800001GvHk.pdf
+│       ├── air_gap_whitepaper_1649720608341001hRuC.pdf
+│       ├── an-analysis-of-ios-app-permissions_16390775827910019OfB.pdf
+│       ├── attack-surface-management-asm-data-sheet (1)_1652191322763001Gn6R.pdf
+│       ├── baramundi Management Suite Modules_1639570340919001reRV.pdf
+│       ├── baramundi Management Suite_1639570340914001rCnd.pdf
+│       ├── big-ip-access-policy-manager-ds_1646250640536001eWEU.pdf
+│       ├── brochure-elastic-security-labs_1654100643241001ANRp.pdf
+│       ├── cqnc-ds-api-sentinel_02_1650398418795001t48N.pdf
+│       ├── cqnc-ds-asp_v6_1650398418803001tPxf.pdf
+│       ├── cqnc-ds-bot-defense_v7_1650398418799001tssF.pdf
+│       ├── cqnc-global-finserv-compliance-cs_01_1650398418775001tfpM.pdf
+│       ├── cqnc-retail-enforce-api-contracts-cs-01_1650398418811001tLlR.pdf
+│       ├── cqnc-telcom-api-sprawl-cs-01_1650398418807001t3K3.pdf
+│       ├── cyber-exercises-solution-brief_1646326528753001a5Xs.pdf
+│       ├── cybersecurity_training_solution_brief_1646326528749001aY7Q.pdf
+│       ├── data-sheet-ransomware-investigation_1650551646188001Mv2L.pdf
+│       ├── data-sheet-rubrik-for-microsoft-365_1650551646198001MxZG.pdf
+│       ├── datasheet_GMO_Sign_West_signed (1)_1651152203578001FM9z.pdf
+│       ├── datasheet_atlas_May_20_updated (6)_1651152203567001FYLo.pdf
+│       ├── datasheet_auto_enrollment_gateway (4)_1651152203560001Fuht.pdf
+│       ├── datasheet_epki_secure_email (2)_1651152203556001F0EX.pdf
+│       ├── eBOOK Outsourcing PKI to the Cloud_1652907142327001xE2m.pdf
+│       ├── eBook - Don't Just Migrate, Upgrade Your DLP_1650573511891001cKic.pdf
+│       ├── eBook - Managed DLP for Mid-Market_1650573511895001cD94.pdf
+│       ├── eBook - The Definitive Guide to DLP - 2021 Hybrid Work Edition_1650573511900001cgyr.pdf
+│       ├── eBook - What to Look For in a Network Detection and Response Platform_16443378706400010SVa.pdf
+│       ├── eBook-Enterprise-Cybersecurity-Training_1651203182218001F5Sl.pdf
+│       ├── eBook-Modern-App-and-API-Security_2022_1646250640539001eoRe.pdf
+│       ├── eBook-OL-Next-Gen-IAM-US-PG-73121 (2)_1652449902800001FSAr.pdf
+│       ├── eBook-Password-Security-Best-Practices_1646331211922001JNvI.pdf
+│       ├── eBook-Stress-Free-Cybersecurity_1652867268822001NpVL.pdf
+│       ├── eBook-The-Dark-Side-of-EDR_1652867268827001N3oP.pdf
+│       ├── eBook-Why-Autonomous-XDR-is-Going-to-Replace-NGAV-EDR_1652867268832001NJjE.pdf
+│       ├── eBook_Unified-Identity-Security_KA_69156 v4_1652449902795001FyTg.pdf
+│       ├── eBook_securing-containers-and-cloud-for-dummies_1651032195304001CILL.pdf
+│       ├── eSentire - 20 Questions To Ask When Evaluating An MDR Provider_1645126184658001jKkM.pdf
+│       ├── eSentire - Managed Detection and Response_1645126184662001jXHp.pdf
+│       ├── eSentire - Managed Risk Programs_1645126184665001jhKa.pdf
+│       ├── eSentire - On-Demand Incident Response Service_1645126184669001jjxP.pdf
+│       ├── eSentire - Understanding Why Multi-Signal MDR Matters_1645126184673001jnGa.pdf
+│       ├── elastic-security-overview_1654036384561001X1mH.pdf
+│       ├── elastic-security-solution-brief_1654036384564001XcTv.pdf
+│       ├── en_lumu-datasheet_16460737451670015ihZ.pdf
+│       ├── en_wp_decision-making-in-cybersecurity_1653510230111001O72I.pdf
+│       ├── endpoint_security_services_solution_brief_final_1646326528766001apzl.pdf
+│       ├── from-mfa-to-zero-trust-a-five-phase-journey-to-securing-the-workforce_1650295155003001Y6Kq.pdf
+│       ├── iXGuard_fact_sheet_1653493722943001fE0Y.pdf
+│       ├── inky-phish-fence-internal-mail-detection_solution_brief_1646423446393001zTjz.pdf
+│       ├── keeper-ransomware-wp-final_1646331211935001J97E.pdf
+│       ├── kuppingercole-executive-view-identity-manager-on-demand-white-paper-29615_1652449902806001F2hq.pdf
+│       ├── lookout-casb-buyers-guide-us_1650076605702001hu5l.pdf
+│       ├── lookout-sase-wp-us_1650076605706001hxzo.pdf
+│       ├── managed_pki_datasheet (2)_1651152203552001Fg9d.pdf
+│       ├── marketplace.20220604.sh
+│       ├── mira-security-architecture-matters-when-choosing-a-tls-visibility-solution-wp-10-21_1639410804199001qdvA.pdf
+│       ├── mira-security-eto-data-sheet-v1-5-21_1639410804185001qlRX.pdf
+│       ├── mira-security-without-visibility-there-is-no-security-wp-5-21_1639410804193001qH1L.pdf
+│       ├── mobile-security-report-2021_16442421601450015HE2.pdf
+│       ├── myCYPR Data Sheet 2022_1652725120793001Bayh.pdf
+│       ├── ncp_pm_sem_6_10_en_final_1649162767972001BWnM.pdf
+│       ├── netspi-how-to-choose-the-best-penetration-testing-company-ebook (1)_1645463100412001Ql7U.pdf
+│       ├── netspi-ultimate-guide-to-ransomware-attacks (2)_1652191322767001G9NY.pdf
+│       ├── one-identity-active-roles-on-demand-datasheet-148882_1652449902816001F9bO.pdf
+│       ├── one-identity-manager-on-demand-datasheet-146870_1652449902822001FeHU.pdf
+│       ├── one-identity-safeguard-on-demand-datasheet-146871_1652449902828001Fba6.pdf
+│       ├── one-identity-solutions-fact-sheet-datasheet-153076_1652449902834001FjF7.pdf
+│       ├── orchestrated-application-recovery_1650551646193001MKGr.pdf
+│       ├── penetration_testing_services_solution_brief_final_1646326528742001aPrL.pdf
+│       ├── product-brief-streaming-network-sensors-v1_1649258328404001fv9X.pdf
+│       ├── promon_case_study_starfinanz_1649057626326001tS1v.pdf
+│       ├── promon_case_study_tomato_pay_1649057626330001tdP2.pdf
+│       ├── promon_checklist_pci_1649057626310001t20P.pdf
+│       ├── promon_ebook_obfuscation_1649057626318001tVXc.pdf
+│       ├── promon_ebook_strandhogg_1649057626314001tqVU.pdf
+│       ├── promon_owasp_checklist_mobile_top_10_1649057626322001tAbz.pdf
+│       ├── promon_shield_mobile_1649057626305001tNYS.pdf
+│       ├── risk_assessment_solution_brief_1646326528739001aOBC.pdf
+│       ├── rubrik-sensitive-data-discovery-data-sheet_1650551646203001Mb3C.pdf
+│       ├── secure-hybrid-work_1644772155728001Z6WI.pdf
+│       ├── security-outcomes-study-vol-2-report_1644772106084001hnvd.pdf
+│       ├── software-composition-analysis-how-to-choose-the-right-solution_16401866515880017qVY.pdf
+│       ├── solution overview_orca security_1649975701713001YLMn.pdf
+│       ├── state_of_onprem_whitepaper _1649720608364001hAhy.pdf
+│       ├── the-future-of-api-security_1650398418787001tmue.pdf
+│       ├── tripwire_ataglance_executive_brief_1643755173415001NguP.pdf
+│       ├── vr-top-10-use-cases-data-centric-security-platform-gd_1650573511883001cKhD.pdf
+│       ├── white-paper-endpoint-detection-response_16442421601650015o73.pdf
+│       ├── whitepaper-zero-trust-for-hybrid-active-directory-white-paper-27995_1652449902839001FqDu.pdf
+│       ├── whitesource-ponemon-research-report_16401866515730017FVQ.pdf
+│       ├── ws-devsecops-insights_164018665157500171PB.pdf
+│       └── zero-trust-going-beyond-the-perimeter_1650295155008001Yxq9.pdf
+├── 0000-SecurityReport-安全报告
+│   ├── 2017企业安全威胁统一应对指南.pdf
+│   ├── 2021上半年勒索病毒趋势报告及防护方案建议-2021.pdf
+│   ├── 2021年上半年 DDoS攻击威胁报告-2021-腾讯-绿盟.pdf
+│   ├── 5G安全白皮书-2019.pdf
+│   ├── 5G网络安全标准化白皮书-2021.pdf
+│   ├── AISecOps智能安全运营技术白皮书-2020-绿盟.pdf
+│   ├── APP隐私合规产品白皮书-腾讯.pdf
+│   ├── App违法违规收集使用个人信息监测分析报告-2021.pdf
+│   ├── CISO_Handbook.pdf
+│   ├── CISSP官方认证学习指南-v8.pdf
+│   ├── DDoS威胁报告-2020.jpg
+│   ├── DOD Zero Trust Reference Architecture_v1.1（零信任参考架构）-2021.pdf
+│   ├── Docker容器安全最佳实践白皮书V1.0.pdf
 │   ├── MSI-2021.pdf
 │   ├── MTrends-2020.pdf
 │   ├── MTrends-2021.pdf
@@ -8109,4 +9443,4 @@
     ├── 3-4-杨锦峰-等保2.0下的全场景企业安全态势感知建设.pdf
     └── 3-5-李燕宏-“切尔诺贝利”之痛-情报驱动的安全运营.pdf
 
-597 directories, 7512 files
+599 directories, 8844 files
