@@ -133,7 +133,9 @@ Are teams deploying to production despite a critical control failure?
 
 1
 
-No instrumentation in the dev
+No instrumentation
+
+in the dev
 
 environment to
 
@@ -141,7 +143,9 @@ collect security data.
 
 3
 
-Reporting via spreadsheets and
+Reporting via
+
+spreadsheets and
 
 slides
 
@@ -149,13 +153,17 @@ slides
 
 2
 
-Fully dependent on security scanning
+Fully dependent on
+
+security scanning
 
 tools
 
 4
 
-Manual and timeconsuming
+Manual and time-
+
+consuming
 
 determination of
 
@@ -190,6 +198,8 @@ How we are solving it and delivering outcomes
 
 OBJECTIVES
 
+SERVICES
+
 SDL for Scale
 Embrace & Adopt.
 
@@ -200,8 +210,6 @@ Effectively reduce risk prior to release (GA)
 L1 L3 L2 L4
 L5
 Invest and train security champions
-
-SERVICES
 
 DevOps & SRE
 
@@ -531,15 +539,19 @@ Frequency
 
 The sweet spot: how often to perform a security activity
 
-Enforcement Packaging
+Enforcement Audit mode vs. Strict mode (block the merge/build/pipeline)
 
-Audit mode vs. Strict mode (block the merge/build/pipeline) As package / As container image / As code
+Packaging
+
+As package / As container image / As code
+
+#RSAC
+
+7
 
 #RSAC
 
-7 Instrument for measurement
-
-#RSAC
+Instrument for measurement
 
 Security KPIs Reporting
 
@@ -559,6 +571,12 @@ Product Incidence and Response Data
 
 SDL Services Data Sources
 
+Code Repositories and CI/CD Pipelines
+
+Code Repositories and CI/CD Pipelines
+
+DevOps Platforms
+
 SDL (Manual) Control
 Assessment
 
@@ -569,12 +587,6 @@ Static Code Analysis
 Open-source Component Management
 
 Container Image Scan
-
-Code Repositories and CI/CD Pipelines
-
-Code Repositories and CI/CD Pipelines
-
-DevOps Platforms
 
 Dynamic Application
 Scan
@@ -596,7 +608,7 @@ Frictionless Experience
 # of places to get security feedback
 1
 Speed of getting security feedback
-5 days 
+5 days W
 5 min
 
 Adoption at Scale
